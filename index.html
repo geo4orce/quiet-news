@@ -7,6 +7,7 @@
     <title>Silent News</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
   </head>
   <body>
     <header class="site-header">
@@ -17,24 +18,53 @@
       <p>One shared edition, once a day.</p>
     </header>
 
+    <aside class="mock-notice" id="mock-notice" hidden>
+      Design mock · Fictional content · Real snapshot bypassed
+    </aside>
+
     <main>
       <section class="edition-heading" aria-labelledby="edition-title">
-        <p class="eyebrow">Daily snapshot</p>
+        <p class="eyebrow" id="edition-eyebrow">Daily snapshot</p>
         <h1 id="edition-title">The quietest way to catch up.</h1>
-        <p class="intro">
+        <p class="intro" id="edition-intro">
           Up to five important stories, with a clear note about what changed
           since yesterday. Everyone reads the same edition.
         </p>
       </section>
 
-      <section class="empty-state" aria-labelledby="empty-title">
-        <p class="status">Preview</p>
+      <p class="visually-hidden" id="load-status" aria-live="polite">
+        Loading the daily snapshot.
+      </p>
+
+      <section class="stories" id="stories" aria-label="Selected stories" hidden></section>
+
+      <section class="empty-state" id="empty-state" aria-labelledby="empty-title">
+        <p class="status" id="empty-status">Preview</p>
         <h2 id="empty-title">The first edition is being prepared.</h2>
-        <p>
+        <p id="empty-copy">
           New editions publish at 6:00 a.m. New York time and stay unchanged
           until the next morning.
         </p>
       </section>
+
+      <template id="story-template">
+        <article class="story-card">
+          <div class="story-meta">
+            <span class="story-number"></span>
+            <span class="story-status"></span>
+          </div>
+          <h2 class="story-headline"></h2>
+          <p class="story-summary"></p>
+          <div class="comparison">
+            <p class="comparison-label">Since yesterday</p>
+            <p class="comparison-copy"></p>
+          </div>
+          <div class="sources">
+            <p class="sources-label">Sources</p>
+            <ul class="source-list"></ul>
+          </div>
+        </article>
+      </template>
     </main>
 
     <footer>

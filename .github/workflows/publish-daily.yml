@@ -1,0 +1,53 @@
+name: Publish daily snapshot
+
+on:
+  schedule:
+    - cron: "0,10,20,30,40,50 10,11 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Publish the ready draft outside the normal New York time window
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-snapshot-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate snapshot files
+        run: npm run check
+
+      - name: Run scheduled publisher
+        if: ${{ !inputs.force }}
+        run: npm run publish:scheduled
+
+      - name: Run forced publisher
+        if: ${{ inputs.force }}
+        run: npm run publish
+
+      - name: Commit a newly published edition
+        run: |
+          if git diff --quiet -- data/snapshot.json; then
+            echo "No new edition to commit."
+            exit 0
+          fi
+          edition_date=$(node -p "require('./data/snapshot.json').edition_date")
+          git config user.name "silent-news-publisher"
+          git config user.email "silent-news-publisher@users.noreply.github.com"
+          git add data/snapshot.json data/draft.json
+          git commit -m "Publish ${edition_date} snapshot"
+          git push origin main

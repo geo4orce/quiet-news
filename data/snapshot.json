@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "state": "preview",
+  "edition_date": null,
+  "published_at": null,
+  "timezone": "America/New_York",
+  "empty_message": "The first edition is being prepared.",
+  "stories": []
+}

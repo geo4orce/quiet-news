@@ -2,44 +2,59 @@
 
 ## Initial shape
 
-Silent News is a static web app on DigitalOcean App Platform in the New York region. It has no database and no always-on application service.
+Silent News is a static web app on DigitalOcean App Platform in NYC1. It has no database, runtime service, or application secrets.
 
-The website reads a versioned, published snapshot artifact. Generation and publication are separate from page requests.
+The public site reads a committed snapshot artifact. Generation, editorial review, publication, and page requests are separate concerns.
+
+## Data files
+
+- `data/draft.json` is the next candidate edition. It is never displayed publicly.
+- `data/snapshot.json` is the canonical public edition.
+- `scripts/snapshot.mjs` defines the validation contract shared by the browser and publishing tools.
+
+A snapshot contains:
+
+- Schema version
+- Publication state
+- Edition date and publication timestamp
+- `America/New_York` timezone
+- Zero to five stories
+- An empty-edition explanation
+
+Every story contains a stable ID, headline, concise summary, `Since yesterday` text, status, and one to five HTTPS source links.
+
+## Design mock mode
+
+The query parameter `?mock=0` through `?mock=5` bypasses the snapshot request and renders hardcoded fictional stories for layout and device testing. The page displays a persistent mock notice and adds a `noindex, nofollow` directive. Invalid mock values are ignored and load the real snapshot.
 
 ## Publication contract
 
-The canonical artifact is JSON with this conceptual structure:
+Publication follows these rules:
 
-```json
-{
-  "edition_date": "YYYY-MM-DD",
-  "published_at": "ISO-8601 timestamp",
-  "timezone": "America/New_York",
-  "stories": []
-}
-```
-
-The `stories` array contains zero to five complete story records. A future detailed schema must include headline, summary, since-yesterday text, status, and source links.
-
-Publication must be atomic:
-
-1. Collect and prepare a complete candidate snapshot away from the public artifact.
-2. Validate its schema, story count, source links, dates, and required text.
-3. Replace the public artifact only after all validation succeeds.
-4. Retain the prior valid artifact if any step fails.
+1. The draft must pass all validation.
+2. An editor must set `ready` to `true`.
+3. Scheduled publication requires the draft date to match the current New York date and the New York clock to be in the 6:00 a.m. hour.
+4. The publisher writes a complete temporary snapshot and renames it into place.
+5. A previously published edition date is never regenerated.
+6. After publication, the consumed draft is marked not ready.
+7. An invalid, incomplete, early, late, or duplicate run leaves the public snapshot unchanged.
 
 ## Scheduling
 
-The publisher targets 6:00 a.m. `America/New_York`, including daylight-saving transitions. Scheduling and content-generation infrastructure will be selected separately. It must not expose secrets to the browser bundle or repository.
+GitHub Actions checks every ten minutes during both possible UTC hours corresponding to 6:00 a.m. in New York. The publisher reads New York local time, so daylight-saving changes do not require editing the workflow.
+
+GitHub Actions and DigitalOcean deployments can start late. The MVP therefore targets the 6:00 a.m. hour but cannot guarantee a change at exactly 6:00:00. A stricter guarantee would require a dedicated scheduler and publication store.
 
 ## Deployment
 
-- Repository branch: `main`
-- Hosting component: static site only
-- Region: New York (`nyc`)
-- Default DigitalOcean domain initially
-- Custom domain deferred
-- Automatic deploys may follow successful pushes to `main`
+- Repository: `geo4orce/silent-news`
+- Branch: `main`
+- DigitalOcean app: `silent-news`
+- DigitalOcean project: `Silent News`
+- App ID: `2b74af31-61c3-43c7-9706-cad028ec425d`
+- Region: NYC1
+- Component: static site only
+- Automatic deploys: enabled
+- Public URL: https://silent-news-29jvw.ondigitalocean.app/
 
-Adding a dynamic service, worker, managed database, object storage product, dedicated egress address, or paid third-party content service requires a separate cost and risk decision.
-
+Adding a dynamic service, worker, database, object storage product, dedicated egress address, news provider, or paid AI service requires a separate cost and risk decision.
