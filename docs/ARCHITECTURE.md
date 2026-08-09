@@ -55,6 +55,8 @@ GitHub Actions and DigitalOcean deployments can start late. The MVP therefore ta
 - Region: NYC1
 - Component: static site only
 - Automatic deploys: enabled
-- Public URL: https://silent-news-29jvw.ondigitalocean.app/
+- Primary URL: https://quiet-news.com/
+- `www.quiet-news.com` redirects permanently to the primary URL
+- DigitalOcean starter URL: https://silent-news-29jvw.ondigitalocean.app/
 
 Adding a dynamic service, worker, database, object storage product, dedicated egress address, news provider, or paid AI service requires a separate cost and risk decision.
