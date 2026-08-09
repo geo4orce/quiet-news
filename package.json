@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "build": "node scripts/build-static.mjs",
     "check": "node --check app.js && node scripts/validate-snapshot.mjs && node --test",
     "publish": "node scripts/publish-snapshot.mjs --force",
     "publish:scheduled": "node scripts/publish-snapshot.mjs"
