@@ -67,8 +67,8 @@ function renderPublished(snapshot, { mock = false } = {}) {
   elements.intro.textContent = mock
     ? `Layout test with ${snapshot.stories.length} fictional ${snapshot.stories.length === 1 ? "story" : "stories"}. The real snapshot was not loaded.`
     : snapshot.stories.length === 1
-      ? "One selected story, published once for everyone."
-      : `${snapshot.stories.length} selected stories, published once for everyone.`;
+      ? "One important story, with what changed since yesterday. One edition shared by everyone."
+      : `${snapshot.stories.length} important stories, each with what changed since yesterday. One edition shared by everyone.`;
 
   if (snapshot.stories.length === 0) {
     elements.emptyStatus.textContent = "Today’s edition";

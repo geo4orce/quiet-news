@@ -34,8 +34,8 @@ For recovery after a missed window, manually run the `Publish daily snapshot` Gi
 ## Hosting assumptions
 
 - DigitalOcean App Platform
-- App: `silent-news`
-- Project: `Silent News`
+- App: `quiet-news`
+- Project: `Quiet News`
 - App ID: `2b74af31-61c3-43c7-9706-cad028ec425d`
 - New York region, NYC1
 - Static-site component only
@@ -60,9 +60,9 @@ To stop the test and prevent continuing hosting charges:
 
 1. Retain the final public snapshot if needed.
 2. Remove any custom-domain mapping if one is later added.
-3. Delete DigitalOcean app `silent-news`, ID `2b74af31-61c3-43c7-9706-cad028ec425d`.
-4. Confirm the app no longer appears in the `Silent News` project.
-5. Delete the empty `Silent News` project if it is no longer useful.
+3. Delete DigitalOcean app `quiet-news`, ID `2b74af31-61c3-43c7-9706-cad028ec425d`.
+4. Confirm the app no longer appears in the `Quiet News` project.
+5. Delete the empty `Quiet News` project if it is no longer useful.
 6. Revoke any credentials later created only for this app.
 7. Review the billing page for residual metered transfer.
 8. Keep or archive the GitHub repository separately. Repository deletion is not required to stop App Platform billing.

@@ -1,6 +1,6 @@
-# Silent News
+# Quiet News
 
-Silent News is a standalone public web app that publishes one shared daily news snapshot. The snapshot targets 6:00 a.m. in the `America/New_York` timezone and remains unchanged until the next successful publication.
+Quiet News is a standalone public web app that publishes one shared daily news snapshot. The snapshot targets 6:00 a.m. in the `America/New_York` timezone and remains unchanged until the next successful publication.
 
 Live site: https://quiet-news.com/
 

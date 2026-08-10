@@ -2,7 +2,7 @@
 
 ## Initial shape
 
-Silent News is a static web app on DigitalOcean App Platform in NYC1. It has no database, runtime service, or application secrets.
+Quiet News is a static web app on DigitalOcean App Platform in NYC1. It has no database, runtime service, or application secrets.
 
 The public site reads a committed snapshot artifact. Generation, editorial review, publication, and page requests are separate concerns.
 
@@ -47,10 +47,10 @@ GitHub Actions and DigitalOcean deployments can start late. The MVP therefore ta
 
 ## Deployment
 
-- Repository: `geo4orce/silent-news`
+- Repository: `geo4orce/quiet-news`
 - Branch: `main`
-- DigitalOcean app: `silent-news`
-- DigitalOcean project: `Silent News`
+- DigitalOcean app: `quiet-news`
+- DigitalOcean project: `Quiet News`
 - App ID: `2b74af31-61c3-43c7-9706-cad028ec425d`
 - Region: NYC1
 - Component: static site only

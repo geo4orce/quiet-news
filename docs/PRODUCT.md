@@ -2,7 +2,7 @@
 
 ## Product statement
 
-Silent News gives every visitor the same concise view of the day's most important news and makes the change from yesterday explicit.
+Quiet News gives every visitor the same concise view of the day's most important news and makes the change from yesterday explicit.
 
 ## MVP audience and scope
 
@@ -36,9 +36,10 @@ When no story meets the editorial threshold, the snapshot contains zero stories 
 
 ## Naming and identity
 
-- Working name: Silent News
+- Final name: Quiet News
+- Primary domain: `quiet-news.com`
 - MVP identity: text wordmark and simple app/favicon mark
-- A final name, custom logo, domain purchase, and trademark review are deferred
+- A custom logo and trademark review are deferred
 
 ## Success criteria
 
@@ -46,4 +47,3 @@ When no story meets the editorial threshold, the snapshot contains zero stories 
 - Refreshing or revisiting during the day returns the same snapshot.
 - The change from yesterday is clear without opening yesterday's full edition.
 - A failed publishing run cannot replace a valid snapshot with partial output.
-

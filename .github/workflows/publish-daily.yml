@@ -46,8 +46,8 @@ jobs:
             exit 0
           fi
           edition_date=$(node -p "require('./data/snapshot.json').edition_date")
-          git config user.name "silent-news-publisher"
-          git config user.email "silent-news-publisher@users.noreply.github.com"
+          git config user.name "quiet-news-publisher"
+          git config user.email "quiet-news-publisher@users.noreply.github.com"
           git add data/snapshot.json data/draft.json
           git commit -m "Publish ${edition_date} snapshot"
           git push origin main
