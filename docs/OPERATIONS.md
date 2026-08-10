@@ -36,9 +36,9 @@ For recovery after a missed window, manually run the `Publish daily snapshot` Gi
 - DigitalOcean App Platform
 - App: `quiet-news`
 - Project: `Quiet News`
-- App ID: `2b74af31-61c3-43c7-9706-cad028ec425d`
+- App ID: `88ffd7c8-19c0-4c6f-9372-1564e83aa2c3`
 - New York region, NYC1
-- Static-site component only
+- Static-site component `quiet-news` serving `public/` with no build command
 - Current listed cost: $3 per month
 - No database, service, environment variables, or deployment secrets
 
@@ -60,7 +60,7 @@ To stop the test and prevent continuing hosting charges:
 
 1. Retain the final public snapshot if needed.
 2. Remove any custom-domain mapping if one is later added.
-3. Delete DigitalOcean app `quiet-news`, ID `2b74af31-61c3-43c7-9706-cad028ec425d`.
+3. Delete DigitalOcean app `quiet-news`, ID `88ffd7c8-19c0-4c6f-9372-1564e83aa2c3`.
 4. Confirm the app no longer appears in the `Quiet News` project.
 5. Delete the empty `Quiet News` project if it is no longer useful.
 6. Revoke any credentials later created only for this app.

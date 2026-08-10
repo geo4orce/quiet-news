@@ -15,7 +15,9 @@ Live site: https://quiet-news.com/
 
 ## Daily publishing
 
-The public site reads `data/snapshot.json`. Editors prepare `data/draft.json` and explicitly set `ready` to `true` only after review. The scheduled workflow validates the draft, publishes it once during the 6:00 a.m. New York hour, commits the immutable snapshot to `main`, and lets DigitalOcean deploy that commit.
+The public site is the self-contained `public/index.html`: markup, styles, scripts, mock stories, favicon, and the current snapshot are all embedded in that one file. It has no frontend imports and requires no build or compilation step.
+
+Editors prepare `data/draft.json` and explicitly set `ready` to `true` only after review. The scheduled workflow validates the draft, publishes it once during the 6:00 a.m. New York hour, embeds the immutable snapshot in `public/index.html`, commits both artifacts to `main`, and lets DigitalOcean deploy that commit.
 
 The initial pipeline is deliberately provider-neutral. It does not collect news or call a paid AI API.
 
@@ -28,6 +30,8 @@ npm run check
 ```
 
 `npm run publish` force-publishes a ready draft outside the normal time window. Use it only for an intentional recovery or preview.
+
+For a local preview, serve the `public/` directory with any static file server. Opening the HTML directly also works for basic layout checks.
 
 ## Layout testing
 

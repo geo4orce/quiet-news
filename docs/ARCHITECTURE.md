@@ -2,15 +2,16 @@
 
 ## Initial shape
 
-Quiet News is a static web app on DigitalOcean App Platform in NYC1. It has no database, runtime service, or application secrets.
+Quiet News is a static web app on DigitalOcean App Platform in NYC1. It has no database, runtime service, build step, or application secrets.
 
-The public site reads a committed snapshot artifact. Generation, editorial review, publication, and page requests are separate concerns.
+The public site is one self-contained `public/index.html` file. Its markup, styles, scripts, mock stories, favicon, and current snapshot are embedded, with no frontend imports or compilation. Generation, editorial review, publication, and page requests are separate concerns.
 
 ## Data files
 
 - `data/draft.json` is the next candidate edition. It is never displayed publicly.
 - `data/snapshot.json` is the canonical public edition.
-- `scripts/snapshot.mjs` defines the validation contract shared by the browser and publishing tools.
+- `public/index.html` is the deployed artifact and contains an embedded copy of that edition.
+- `scripts/snapshot.mjs` defines the validation contract used by publishing and validation tools.
 
 A snapshot contains:
 
@@ -51,12 +52,14 @@ GitHub Actions and DigitalOcean deployments can start late. The MVP therefore ta
 - Branch: `main`
 - DigitalOcean app: `quiet-news`
 - DigitalOcean project: `Quiet News`
-- App ID: `2b74af31-61c3-43c7-9706-cad028ec425d`
+- App ID: `88ffd7c8-19c0-4c6f-9372-1564e83aa2c3`
 - Region: NYC1
-- Component: static site only
+- Component: `quiet-news`, static site only
+- Source directory: `public`
+- Build command: none
 - Automatic deploys: enabled
 - Primary URL: https://quiet-news.com/
 - `www.quiet-news.com` redirects permanently to the primary URL
-- DigitalOcean starter URL: https://silent-news-29jvw.ondigitalocean.app/
+- DigitalOcean starter URL: https://quiet-news-43j5e.ondigitalocean.app/
 
 Adding a dynamic service, worker, database, object storage product, dedicated egress address, news provider, or paid AI service requires a separate cost and risk decision.

@@ -6,7 +6,6 @@
 # Dependencies and generated output
 node_modules/
 dist/
-_static/
 .cache/
 
 # Editors and operating systems
