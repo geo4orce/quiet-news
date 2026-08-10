@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Quiet News publishes one shared daily news edition.">
+    <meta name="theme-color" content="#f4f1e9">
+    <link rel="canonical" href="https://quiet-news.com/">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%2318211d'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia,serif' font-size='38' font-weight='700' fill='%23f4f1e9'%3EQ%3C/text%3E%3C/svg%3E">
+    <title>Quiet News</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --paper: #f4f1e9;
+        --ink: #18211d;
+        --muted: #626b65;
+        --line: #cbd0ca;
+        --accent: #2f6254;
+        --soft: #dbe6df;
+      }
+
+      * { box-sizing: border-box; }
+
+      html { background: var(--paper); }
+
+      body {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 32px 24px 24px;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: Georgia, "Times New Roman", serif;
+        line-height: 1.55;
+      }
+
+      header,
+      footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      header {
+        padding-bottom: 22px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      h1 {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin: 0;
+        font-size: 1.45rem;
+        letter-spacing: -0.02em;
+      }
+
+      .mark {
+        display: grid;
+        width: 42px;
+        height: 42px;
+        place-items: center;
+        border-radius: 50%;
+        color: var(--paper);
+        background: var(--ink);
+        font-family: Georgia, "Times New Roman", serif;
+      }
+
+      #edition {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.78rem;
+        text-align: right;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      #mock-notice {
+        margin: 18px 0 0;
+        color: var(--accent);
+        font: 700 0.72rem/1.4 Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.09em;
+      }
+
+      main { min-height: 50vh; }
+
+      article {
+        padding: 34px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      article:last-child { border-bottom: 0; }
+
+      .story-meta {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        color: var(--accent);
+        font: 700 0.72rem/1.4 Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.09em;
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: clamp(1.75rem, 6vw, 2.65rem);
+        line-height: 1.04;
+        letter-spacing: -0.035em;
+      }
+
+      .summary {
+        margin: 0;
+        color: #36403b;
+        font-size: 1.08rem;
+      }
+
+      .change {
+        margin: 20px 0 0;
+        padding: 14px 16px;
+        border-left: 3px solid var(--accent);
+        background: var(--soft);
+      }
+
+      .change strong,
+      .sources strong {
+        display: block;
+        margin-bottom: 3px;
+        font: 700 0.72rem/1.4 Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      .sources {
+        margin: 16px 0 0;
+        color: var(--muted);
+        font: 0.86rem/1.5 Arial, Helvetica, sans-serif;
+      }
+
+      .sources a { color: var(--accent); }
+      .sources a + a::before { content: " · "; color: var(--muted); }
+
+      .empty {
+        margin: 0;
+        padding: 72px 0;
+        color: var(--muted);
+        font-size: 1.25rem;
+        text-align: center;
+      }
+
+      footer {
+        align-items: flex-start;
+        padding-top: 20px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.72rem;
+        line-height: 1.5;
+      }
+
+      footer p { margin: 0; }
+      footer a { color: var(--ink); }
+      .credit { flex: 0 0 auto; }
+      .disclaimer { max-width: 430px; text-align: right; }
+      [hidden] { display: none !important; }
+
+      @media (max-width: 560px) {
+        body { padding: 22px 20px 20px; }
+        header { align-items: flex-start; }
+        h1 { font-size: 1.25rem; }
+        .mark { width: 38px; height: 38px; }
+        article { padding: 28px 0; }
+        footer { display: block; }
+        .disclaimer { margin-top: 10px; text-align: left; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1><span class="mark" aria-hidden="true">Q</span> Quiet News</h1>
+      <p id="edition">Daily · 6:00 a.m. ET</p>
+    </header>
+
+    <p id="mock-notice" hidden>Mock edition</p>
+    <main id="news" aria-live="polite"></main>
+
+    <footer>
+      <p class="credit">All rights reserved &copy; 2026<br>Created by <a href="https://web-opt.com/">web-opt.com</a>.</p>
+      <p class="disclaimer">For education and information only. Not an official source. Verify important details with the original sources.</p>
+    </footer>
+
+    <script id="snapshot-data" type="application/json">
+{"schema_version":1,"state":"preview","edition_date":null,"published_at":null,"timezone":"America/New_York","empty_message":"The first edition is being prepared.","stories":[]}
+    </script>
+    <script>
+      (() => {
+        "use strict";
+
+        const mocks = [
+          ["Five neighboring cities agree on a shared heat-alert standard", "The cities will use the same warning levels and public guidance during extreme heat.", "Separate proposals became one regional standard.", "Developing", [["Example Newsroom", "https://example.com/mock/heat-alerts"]]],
+          ["Regional rail pilot adds late-night service", "Two lines will test hourly weekend trains after midnight.", "The proposal now has a start date and schedule.", "New", [["Example Transit Desk", "https://example.com/mock/late-rail"]]],
+          ["Researchers release a battery-recycling benchmark", "The benchmark compares recovery rates, energy use, and material purity.", "The work moved from review to a public release.", "Developing", [["Sample Science Journal", "https://example.com/mock/battery-benchmark"]]],
+          ["Libraries expand same-day translation help", "Scheduled interpreters will help with civic forms, school notices, and digital services.", "The pilot expanded to the full library network.", "No material change", [["Example Civic Bulletin", "https://example.com/mock/library-translation"]]],
+          ["Coastal trial reports stronger dune growth", "Mixed native grasses retained more sand than single-species plots during the first year.", "The project released its first measured results.", "New", [["Sample Coastal Review", "https://example.com/mock/dune-growth"]]]
+        ];
+
+        const params = new URLSearchParams(location.search);
+        const mockValue = params.get("mock");
+        const mockCount = /^[0-5]$/.test(mockValue || "") ? Number(mockValue) : null;
+        const real = JSON.parse(document.querySelector("#snapshot-data").textContent);
+        const snapshot = mockCount === null ? real : {
+          state: "published",
+          edition_date: new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York" }).format(new Date()),
+          empty_message: "No stories today.",
+          stories: mocks.slice(0, mockCount).map((story, index) => ({
+            id: `mock-${index + 1}`,
+            headline: story[0],
+            summary: story[1],
+            since_yesterday: story[2],
+            status: story[3],
+            sources: story[4].map(([name, url]) => ({ name, url }))
+          }))
+        };
+
+        if (mockCount !== null) {
+          document.querySelector("#mock-notice").hidden = false;
+          const robots = document.createElement("meta");
+          robots.name = "robots";
+          robots.content = "noindex, nofollow";
+          document.head.append(robots);
+        }
+
+        const edition = document.querySelector("#edition");
+        if (snapshot.state === "published" && snapshot.edition_date) {
+          edition.textContent = new Intl.DateTimeFormat("en-US", {
+            timeZone: snapshot.timezone || "America/New_York",
+            month: "short",
+            day: "numeric",
+            year: "numeric"
+          }).format(new Date(`${snapshot.edition_date}T12:00:00Z`));
+        }
+
+        const news = document.querySelector("#news");
+        if (!snapshot.stories.length) {
+          const empty = document.createElement("p");
+          empty.className = "empty";
+          empty.textContent = snapshot.empty_message || "No stories today.";
+          news.append(empty);
+          return;
+        }
+
+        snapshot.stories.forEach((story, index) => {
+          const article = document.createElement("article");
+          const meta = document.createElement("div");
+          const number = document.createElement("span");
+          const status = document.createElement("span");
+          const headline = document.createElement("h2");
+          const summary = document.createElement("p");
+          const change = document.createElement("p");
+          const sources = document.createElement("p");
+
+          meta.className = "story-meta";
+          number.textContent = String(index + 1).padStart(2, "0");
+          status.textContent = String(story.status || "").replaceAll("_", " ");
+          headline.textContent = story.headline;
+          summary.className = "summary";
+          summary.textContent = story.summary;
+          change.className = "change";
+          change.innerHTML = "<strong>Since yesterday</strong>";
+          change.append(document.createTextNode(story.since_yesterday));
+          sources.className = "sources";
+          sources.innerHTML = "<strong>Sources</strong>";
+
+          story.sources.forEach((source) => {
+            const link = document.createElement("a");
+            link.href = source.url;
+            link.textContent = source.name;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            sources.append(link);
+          });
+
+          meta.append(number, status);
+          article.append(meta, headline, summary, change, sources);
+          news.append(article);
+        });
+      })();
+    </script>
+  </body>
+</html>

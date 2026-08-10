@@ -7,6 +7,7 @@ const TIMEZONE = "America/New_York";
 const repositoryRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const draftPath = resolve(repositoryRoot, "data/draft.json");
 const snapshotPath = resolve(repositoryRoot, "data/snapshot.json");
+const publicIndexPath = resolve(repositoryRoot, "public/index.html");
 const force = process.argv.includes("--force");
 
 function newYorkClock(date = new Date()) {
@@ -28,6 +29,23 @@ function newYorkClock(date = new Date()) {
 
 async function readJson(path) {
   return JSON.parse(await readFile(path, "utf8"));
+}
+
+function embedSnapshot(html, snapshot) {
+  const marker = '<script id="snapshot-data" type="application/json">';
+  const start = html.indexOf(marker);
+  const end = html.indexOf("</script>", start + marker.length);
+
+  if (start === -1 || end === -1) {
+    throw new Error("The public index is missing its snapshot data block.");
+  }
+
+  const json = JSON.stringify(snapshot)
+    .replaceAll("&", "\\u0026")
+    .replaceAll("<", "\\u003c")
+    .replaceAll(">", "\\u003e");
+
+  return `${html.slice(0, start + marker.length)}\n${json}\n    ${html.slice(end)}`;
 }
 
 const draft = assertValidSnapshot(await readJson(draftPath), { kind: "draft" });
@@ -66,8 +84,13 @@ const published = {
 assertValidSnapshot(published);
 
 const temporaryPath = `${snapshotPath}.tmp`;
+const publicHtml = await readFile(publicIndexPath, "utf8");
+const updatedPublicHtml = embedSnapshot(publicHtml, published);
+const temporaryPublicPath = `${publicIndexPath}.tmp`;
 await writeFile(temporaryPath, `${JSON.stringify(published, null, 2)}\n`, "utf8");
+await writeFile(temporaryPublicPath, updatedPublicHtml, "utf8");
 await rename(temporaryPath, snapshotPath);
+await rename(temporaryPublicPath, publicIndexPath);
 
 const consumedDraft = { ...draft, ready: false };
 const temporaryDraftPath = `${draftPath}.tmp`;
