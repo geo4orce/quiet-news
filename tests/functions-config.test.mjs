@@ -20,6 +20,13 @@ const includeConfiguration = await readFile(
   ),
   "utf8"
 );
+const runtimeEntry = await readFile(
+  new URL(
+    "../functions/packages/quiet-news/current-edition/runtime.mjs",
+    import.meta.url
+  ),
+  "utf8"
+);
 
 test("the public Function uses Node.js 24", () => {
   assert.equal(configuration.match(/runtime: nodejs:24/g)?.length, 1);
@@ -47,6 +54,8 @@ test("the deployment bundle exports main in the runtime-compatible CommonJS form
   assert.match(configuration, /main: dist\/index\.cjs/);
   assert.match(bundleConfiguration, /file: "dist\/index\.cjs"/);
   assert.match(bundleConfiguration, /format: "cjs"/);
+  assert.match(bundleConfiguration, /input: "runtime\.mjs"/);
+  assert.match(runtimeEntry, /export const main = handler/);
   assert.equal(includeConfiguration.trim(), "dist/index.cjs");
 });
 

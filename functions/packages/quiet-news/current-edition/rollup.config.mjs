@@ -1,5 +1,5 @@
 export default {
-  input: "index.mjs",
+  input: "runtime.mjs",
   external: ["pg"],
   output: {
     file: "dist/index.cjs",
