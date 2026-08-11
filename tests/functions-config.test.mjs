@@ -6,6 +6,20 @@ const configuration = await readFile(
   new URL("../functions/project.yml", import.meta.url),
   "utf8"
 );
+const bundleConfiguration = await readFile(
+  new URL(
+    "../functions/packages/quiet-news/current-edition/rollup.config.mjs",
+    import.meta.url
+  ),
+  "utf8"
+);
+const includeConfiguration = await readFile(
+  new URL(
+    "../functions/packages/quiet-news/current-edition/.include",
+    import.meta.url
+  ),
+  "utf8"
+);
 
 test("the public Function uses Node.js 24", () => {
   assert.equal(configuration.match(/runtime: nodejs:24/g)?.length, 1);
@@ -27,6 +41,13 @@ test("only the read Function is present and exposed to the web", () => {
   assert.match(configuration, /web: true/);
   assert.match(configuration, /web-custom-options: true/);
   assert.doesNotMatch(configuration, /name: publisher/);
+});
+
+test("the deployment bundle exports main in the runtime-compatible CommonJS format", () => {
+  assert.match(configuration, /main: dist\/index\.cjs/);
+  assert.match(bundleConfiguration, /file: "dist\/index\.cjs"/);
+  assert.match(bundleConfiguration, /format: "cjs"/);
+  assert.equal(includeConfiguration.trim(), "dist/index.cjs");
 });
 
 test("the removed publisher Function has no deployment marker", async () => {

@@ -2,7 +2,7 @@
   "name": "quiet-news-current-edition",
   "private": true,
   "type": "module",
-  "main": "dist/index.mjs",
+  "main": "dist/index.cjs",
   "scripts": {
     "build": "rollup --config rollup.config.mjs"
   },

@@ -4,7 +4,7 @@ packages:
       DATABASE_URL: "${DATABASE_URL}"
     functions:
       - name: current-edition
-        main: dist/index.mjs
+        main: dist/index.cjs
         runtime: nodejs:24
         web: true
         annotations:
