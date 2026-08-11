@@ -51,7 +51,7 @@ test("only the read Function is present and exposed to the web", () => {
 });
 
 test("the deployment bundle exports main in the runtime-compatible CommonJS format", () => {
-  assert.match(configuration, /main: dist\/index\.cjs/);
+  assert.match(configuration, /main: main/);
   assert.match(bundleConfiguration, /file: "dist\/index\.cjs"/);
   assert.match(bundleConfiguration, /format: "cjs"/);
   assert.match(bundleConfiguration, /input: "runtime\.mjs"/);
