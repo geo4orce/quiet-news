@@ -1,8 +1,6 @@
-import pg from "pg";
 import { assertEdition } from "../../../lib/edition.mjs";
 import { newYorkDay } from "../../../lib/new-york-day.mjs";
 
-const { Pool } = pg;
 const PRODUCTION_ORIGIN = "https://quiet-news.com";
 const DEFAULT_LOCAL_ORIGIN = "http://localhost:8000";
 
@@ -119,22 +117,26 @@ export function createCurrentEditionHandler({
 
 let pool;
 
-function databasePool() {
+async function databasePool() {
   if (!process.env.DATABASE_URL) throw new Error("DATABASE_URL is not configured");
 
-  pool ??= new Pool({
-    connectionString: process.env.DATABASE_URL,
-    max: 2,
-    idleTimeoutMillis: 10_000,
-    connectionTimeoutMillis: 3_000
-  });
+  if (!pool) {
+    const pgModule = await import("pg");
+    const Pool = pgModule.default?.Pool || pgModule.Pool;
+    pool = new Pool({
+      connectionString: process.env.DATABASE_URL,
+      max: 2,
+      idleTimeoutMillis: 10_000,
+      connectionTimeoutMillis: 3_000
+    });
+  }
 
   return pool;
 }
 
 export const main = async (event, context) => {
   const handler = createCurrentEditionHandler({
-    query: (text, values) => databasePool().query(text, values),
+    query: async (text, values) => (await databasePool()).query(text, values),
     localOrigin: process.env.LOCAL_DEV_ORIGIN || DEFAULT_LOCAL_ORIGIN
   });
 
