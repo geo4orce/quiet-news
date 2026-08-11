@@ -147,10 +147,13 @@ checksum, status, stable story ID, summary, or `since_yesterday` fields.
   only for those allowed origins.
 - Never call OpenAI.
 
-### Daily publisher Function
+### Daily publisher job
 
-- Private Function invoked by the DigitalOcean scheduler.
-- Not exposed as a public web endpoint.
+- Private App Platform scheduled job invoked at 6:00 a.m. in
+  `America/New_York`.
+- Runs `npm run job:publisher` to completion and is not routable.
+- Shares the App Platform app's managed-database trusted-source access with the
+  public Function, avoiding broad public database ingress.
 - Calculate the current New York calendar day.
 - Reserve a generation-attempt row before every OpenAI call.
 - Load the newest prior edition when available.
@@ -211,7 +214,7 @@ Rules:
 - `.env.example` contains placeholders only.
 - No secret appears in source, tests, fixtures, prompts, logs, screenshots, or
   public build artifacts.
-- Deployed secrets live in encrypted DigitalOcean Function settings.
+- Deployed secrets live in encrypted DigitalOcean component settings.
 - The static frontend receives no secret.
 
 ## Logging and audit
@@ -297,7 +300,8 @@ confirmation before deployment.
 - [x] Add API balance and complete one successful minimal OpenAI API smoke test.
 - [x] Add database migration and shared edition validation.
 - [x] Implement the current-edition Function and its tests.
-- [x] Implement the publisher Function without live calls in automated tests.
+- [x] Implement the publisher as an App Platform scheduled job without live
+  calls in automated tests.
 - [x] Add the versioned editorial prompt and strict output schema.
 - [x] Update `public/index.html` to fetch the current edition while preserving
   mock modes and the one-file frontend.

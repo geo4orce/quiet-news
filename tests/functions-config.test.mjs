@@ -7,36 +7,26 @@ const configuration = await readFile(
   "utf8"
 );
 
-test("both Functions use Node.js 24", () => {
-  assert.equal(configuration.match(/runtime: nodejs:24/g)?.length, 2);
+test("the public Function uses Node.js 24", () => {
+  assert.equal(configuration.match(/runtime: nodejs:24/g)?.length, 1);
   assert.doesNotMatch(configuration, /runtime: nodejs:(?:14|18|22)/);
 });
 
-test("the database URL is shared while the OpenAI key is publisher-only", () => {
+test("the database URL is available to the current-edition Function", () => {
   const packageEnvironment = configuration.indexOf(
     'DATABASE_URL: "${DATABASE_URL}"'
   );
   const currentEdition = configuration.indexOf("name: current-edition");
-  const publisher = configuration.indexOf("name: publisher");
-  const openAIKey = configuration.indexOf(
-    'OPENAI_API_KEY: "${OPENAI_API_KEY}"'
-  );
 
   assert.ok(packageEnvironment > -1 && packageEnvironment < currentEdition);
-  assert.ok(openAIKey > publisher);
-  assert.equal(configuration.indexOf("OPENAI_API_KEY", 0), openAIKey);
+  assert.doesNotMatch(configuration, /OPENAI_API_KEY/);
 });
 
-test("only the read Function is exposed to the web", () => {
-  const currentBlock = configuration.match(
-    /- name: current-edition[\s\S]*?(?=\n\s+- name: publisher)/
-  )?.[0];
-  const publisherBlock = configuration.match(/- name: publisher[\s\S]*/)?.[0];
-
-  assert.match(currentBlock, /web: true/);
-  assert.match(currentBlock, /web-custom-options: true/);
-  assert.match(publisherBlock, /web: false/);
-  assert.doesNotMatch(publisherBlock, /web: true/);
+test("only the read Function is present and exposed to the web", () => {
+  assert.match(configuration, /name: current-edition/);
+  assert.match(configuration, /web: true/);
+  assert.match(configuration, /web-custom-options: true/);
+  assert.doesNotMatch(configuration, /name: publisher/);
 });
 
 test("the deployable configuration contains no credential values", () => {
