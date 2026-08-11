@@ -56,7 +56,10 @@ test("the deployment bundle exports main in the runtime-compatible CommonJS form
   assert.match(bundleConfiguration, /format: "cjs"/);
   assert.match(bundleConfiguration, /input: "runtime\.mjs"/);
   assert.match(runtimeEntry, /export const main = handler/);
-  assert.equal(includeConfiguration.trim(), "dist/index.cjs");
+  assert.deepEqual(
+    includeConfiguration.trim().split(/\r?\n/),
+    ["dist/index.cjs", "package.json"]
+  );
 });
 
 test("the removed publisher Function has no deployment marker", async () => {
