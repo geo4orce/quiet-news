@@ -50,6 +50,10 @@ test("only the read Function is present and exposed to the web", () => {
   assert.doesNotMatch(configuration, /name: publisher/);
 });
 
+test("the Function timeout accommodates a cold TLS database connection", () => {
+  assert.match(configuration, /timeout: 15000/);
+});
+
 test("the deployment bundle exports main in the runtime-compatible CommonJS format", () => {
   assert.match(configuration, /main: main/);
   assert.match(bundleConfiguration, /file: "dist\/index\.cjs"/);

@@ -10,6 +10,6 @@ packages:
         annotations:
           web-custom-options: true
         limits:
-          timeout: 5000
+          timeout: 15000
           memory: 256
           logs: 8
