@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { access, readFile } from "node:fs/promises";
 
 const configuration = await readFile(
   new URL("../functions/project.yml", import.meta.url),
@@ -27,6 +27,16 @@ test("only the read Function is present and exposed to the web", () => {
   assert.match(configuration, /web: true/);
   assert.match(configuration, /web-custom-options: true/);
   assert.doesNotMatch(configuration, /name: publisher/);
+});
+
+test("the removed publisher Function has no deployment marker", async () => {
+  await assert.rejects(
+    access(new URL(
+      "../functions/packages/quiet-news/publisher/.include",
+      import.meta.url
+    )),
+    { code: "ENOENT" }
+  );
 });
 
 test("the deployable configuration contains no credential values", () => {
