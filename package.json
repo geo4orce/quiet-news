@@ -4,8 +4,12 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "check": "node scripts/validate-snapshot.mjs && node --test",
+    "check": "node scripts/validate-snapshot.mjs && node --test && npm run functions:build",
+    "functions:build": "npm --prefix functions/packages/quiet-news/current-edition run build && npm --prefix functions/packages/quiet-news/publisher run build",
     "publish": "node scripts/publish-snapshot.mjs --force",
     "publish:scheduled": "node scripts/publish-snapshot.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
   }
 }

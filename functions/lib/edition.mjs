@@ -1,0 +1,147 @@
+const EDITION_FIELDS = new Set(["stories"]);
+const STORY_FIELDS = new Set(["headline", "body", "sources"]);
+const SOURCE_FIELDS = new Set(["name", "url"]);
+
+// Strict Structured Outputs requires every property to be required. The model
+// therefore emits an array for sources, which may be empty. The application
+// validator remains more permissive and also accepts omitted sources.
+export const EDITION_OUTPUT_SCHEMA = {
+  type: "object",
+  additionalProperties: false,
+  required: ["stories"],
+  properties: {
+    stories: {
+      type: "array",
+      minItems: 0,
+      maxItems: 5,
+      items: {
+        type: "object",
+        additionalProperties: false,
+        required: ["headline", "body", "sources"],
+        properties: {
+          headline: { type: "string" },
+          body: { type: "string" },
+          sources: {
+            type: "array",
+            items: {
+              type: "object",
+              additionalProperties: false,
+              required: ["name", "url"],
+              properties: {
+                name: { type: "string" },
+                url: { type: "string", pattern: "^https://" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+};
+
+export class EditionValidationError extends Error {
+  constructor(errors) {
+    super("Edition payload is invalid");
+    this.name = "EditionValidationError";
+    this.errors = errors;
+  }
+}
+
+function isObject(value) {
+  return value !== null && typeof value === "object" && !Array.isArray(value);
+}
+
+function findUnknownFields(value, allowedFields, path, errors) {
+  for (const field of Object.keys(value)) {
+    if (!allowedFields.has(field)) {
+      errors.push(`${path}.${field} is not allowed`);
+    }
+  }
+}
+
+function isNonEmptyString(value) {
+  return typeof value === "string" && value.trim().length > 0;
+}
+
+function isAbsoluteHttpsUrl(value) {
+  if (typeof value !== "string") return false;
+
+  try {
+    const url = new URL(value);
+    return url.protocol === "https:" && Boolean(url.hostname);
+  } catch {
+    return false;
+  }
+}
+
+export function validateEdition(value) {
+  const errors = [];
+
+  if (!isObject(value)) {
+    return ["edition must be an object"];
+  }
+
+  findUnknownFields(value, EDITION_FIELDS, "edition", errors);
+
+  if (!Array.isArray(value.stories)) {
+    errors.push("edition.stories must be an array");
+    return errors;
+  }
+
+  if (value.stories.length > 5) {
+    errors.push("edition.stories cannot contain more than five items");
+  }
+
+  value.stories.forEach((story, storyIndex) => {
+    const storyPath = `edition.stories[${storyIndex}]`;
+
+    if (!isObject(story)) {
+      errors.push(`${storyPath} must be an object`);
+      return;
+    }
+
+    findUnknownFields(story, STORY_FIELDS, storyPath, errors);
+
+    if (!isNonEmptyString(story.headline)) {
+      errors.push(`${storyPath}.headline must be a non-empty string`);
+    }
+
+    if (!isNonEmptyString(story.body)) {
+      errors.push(`${storyPath}.body must be a non-empty string`);
+    }
+
+    if (story.sources === undefined) return;
+
+    if (!Array.isArray(story.sources)) {
+      errors.push(`${storyPath}.sources must be an array when present`);
+      return;
+    }
+
+    story.sources.forEach((source, sourceIndex) => {
+      const sourcePath = `${storyPath}.sources[${sourceIndex}]`;
+
+      if (!isObject(source)) {
+        errors.push(`${sourcePath} must be an object`);
+        return;
+      }
+
+      findUnknownFields(source, SOURCE_FIELDS, sourcePath, errors);
+
+      if (!isNonEmptyString(source.name)) {
+        errors.push(`${sourcePath}.name must be a non-empty string`);
+      }
+
+      if (!isAbsoluteHttpsUrl(source.url)) {
+        errors.push(`${sourcePath}.url must be an absolute HTTPS URL`);
+      }
+    });
+  });
+
+  return errors;
+}
+
+export function assertEdition(value) {
+  const errors = validateEdition(value);
+  if (errors.length > 0) throw new EditionValidationError(errors);
+  return value;
+}

@@ -8,7 +8,12 @@ const html = await readFile(new URL("../public/index.html", import.meta.url), "u
 test("the deployed site is a single self-contained HTML file", () => {
   assert.doesNotMatch(html, /<script[^>]+src=/i);
   assert.doesNotMatch(html, /<link[^>]+rel=["']stylesheet["']/i);
-  assert.doesNotMatch(html, /\bfetch\s*\(/);
+  assert.equal(html.match(/\bfetch\s*\(/g)?.length, 1);
+});
+
+test("the replacement endpoint stays dormant until its verified URL is set", () => {
+  assert.match(html, /<meta name="quiet-news-api" content="">/);
+  assert.match(html, /if \(endpoint\)\s*{\s*loadCurrentEdition\(endpoint\)/);
 });
 
 test("the embedded snapshot is valid", () => {
@@ -22,4 +27,19 @@ test("the embedded snapshot is valid", () => {
 test("mock mode accepts only zero through five", () => {
   assert.match(html, /\^\[0-5\]\$/);
   assert.match(html, /mocks\.slice\(0, mockCount\)/);
+  assert.ok(html.indexOf("if (mockCount !== null)") < html.indexOf("if (endpoint)"));
+});
+
+test("the Function response is validated before rendering", () => {
+  assert.match(html, /payload\.stories\.length <= 5/);
+  assert.match(html, /isHttpsUrl\(source\.url\)/);
+  assert.match(html, /if \(!validResponse\(value\)\) throw/);
+  assert.match(html, /response\.status === 204/);
+  assert.match(html, /News is temporarily unavailable\./);
+});
+
+test("the public artifact contains no server-side secret or credential", () => {
+  assert.doesNotMatch(html, /OPENAI_API_KEY|DATABASE_URL/);
+  assert.doesNotMatch(html, /sk-[A-Za-z0-9_-]{20,}/);
+  assert.doesNotMatch(html, /postgres(?:ql)?:\/\/[^\s"']+@/i);
 });

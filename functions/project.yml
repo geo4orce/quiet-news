@@ -1,0 +1,25 @@
+packages:
+  - name: quiet-news
+    environment:
+      DATABASE_URL: "${DATABASE_URL}"
+    functions:
+      - name: current-edition
+        main: dist/index.mjs
+        runtime: nodejs:24
+        web: true
+        annotations:
+          web-custom-options: true
+        limits:
+          timeout: 5000
+          memory: 256
+          logs: 8
+      - name: publisher
+        main: dist/index.mjs
+        runtime: nodejs:24
+        web: false
+        environment:
+          OPENAI_API_KEY: "${OPENAI_API_KEY}"
+        limits:
+          timeout: 300000
+          memory: 256
+          logs: 16

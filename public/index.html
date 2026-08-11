@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Quiet News publishes one shared daily news edition.">
     <meta name="theme-color" content="#f4f1e9">
+    <meta name="quiet-news-api" content="">
     <link rel="canonical" href="https://quiet-news.com/">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%2318211d'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia,serif' font-size='38' font-weight='700' fill='%23f4f1e9'%3EQ%3C/text%3E%3C/svg%3E">
     <title>Quiet News</title>
@@ -204,23 +205,106 @@
           ["Coastal trial reports stronger dune growth", "Mixed native grasses retained more sand than single-species plots during the first year.", "The project released its first measured results.", "New", [["Sample Coastal Review", "https://example.com/mock/dune-growth"]]]
         ];
 
+        const isObject = (value) => value !== null
+          && typeof value === "object"
+          && !Array.isArray(value);
+        const hasOnly = (value, fields) => Object.keys(value)
+          .every((field) => fields.includes(field));
+        const nonEmpty = (value) => typeof value === "string"
+          && value.trim().length > 0;
+        const isHttpsUrl = (value) => {
+          try {
+            const url = new URL(value);
+            return url.protocol === "https:" && Boolean(url.hostname);
+          } catch {
+            return false;
+          }
+        };
+
+        const validPayload = (payload) => isObject(payload)
+          && hasOnly(payload, ["stories"])
+          && Array.isArray(payload.stories)
+          && payload.stories.length <= 5
+          && payload.stories.every((story) => isObject(story)
+            && hasOnly(story, ["headline", "body", "sources"])
+            && nonEmpty(story.headline)
+            && nonEmpty(story.body)
+            && (story.sources === undefined
+              || (Array.isArray(story.sources)
+                && story.sources.every((source) => isObject(source)
+                  && hasOnly(source, ["name", "url"])
+                  && nonEmpty(source.name)
+                  && isHttpsUrl(source.url)))));
+
+        const validResponse = (value) => isObject(value)
+          && hasOnly(value, ["created_at", "payload"])
+          && nonEmpty(value.created_at)
+          && !Number.isNaN(Date.parse(value.created_at))
+          && validPayload(value.payload);
+
+        const renderCurrentEdition = (payload, createdAt = null, emptyMessage = "No stories today.") => {
+          const news = document.querySelector("#news");
+          news.replaceChildren();
+
+          if (createdAt) {
+            document.querySelector("#edition").textContent = new Intl.DateTimeFormat("en-US", {
+              timeZone: "America/New_York",
+              month: "short",
+              day: "numeric",
+              year: "numeric"
+            }).format(new Date(createdAt));
+          }
+
+          if (!payload.stories.length) {
+            const empty = document.createElement("p");
+            empty.className = "empty";
+            empty.textContent = emptyMessage;
+            news.append(empty);
+            return;
+          }
+
+          payload.stories.forEach((story) => {
+            const article = document.createElement("article");
+            const headline = document.createElement("h2");
+            const body = document.createElement("p");
+            headline.textContent = story.headline;
+            body.className = "summary";
+            body.textContent = story.body;
+            article.append(headline, body);
+            news.append(article);
+          });
+        };
+
+        const loadCurrentEdition = async (endpoint) => {
+          try {
+            const response = await fetch(endpoint, {
+              headers: { Accept: "application/json" }
+            });
+
+            if (response.status === 204) {
+              renderCurrentEdition({ stories: [] });
+              return;
+            }
+            if (!response.ok) throw new Error("Edition request failed");
+
+            const value = await response.json();
+            if (!validResponse(value)) throw new Error("Edition response is invalid");
+            renderCurrentEdition(value.payload, value.created_at);
+          } catch {
+            renderCurrentEdition(
+              { stories: [] },
+              null,
+              "News is temporarily unavailable."
+            );
+          }
+        };
+
         const params = new URLSearchParams(location.search);
         const mockValue = params.get("mock");
         const mockCount = /^[0-5]$/.test(mockValue || "") ? Number(mockValue) : null;
         const real = JSON.parse(document.querySelector("#snapshot-data").textContent);
-        const snapshot = mockCount === null ? real : {
-          state: "published",
-          edition_date: new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York" }).format(new Date()),
-          empty_message: "No stories today.",
-          stories: mocks.slice(0, mockCount).map((story, index) => ({
-            id: `mock-${index + 1}`,
-            headline: story[0],
-            summary: story[1],
-            since_yesterday: story[2],
-            status: story[3],
-            sources: story[4].map(([name, url]) => ({ name, url }))
-          }))
-        };
+        const endpoint = document.querySelector('meta[name="quiet-news-api"]')
+          .content.trim();
 
         if (mockCount !== null) {
           document.querySelector("#mock-notice").hidden = false;
@@ -228,7 +312,22 @@
           robots.name = "robots";
           robots.content = "noindex, nofollow";
           document.head.append(robots);
+          renderCurrentEdition({
+            stories: mocks.slice(0, mockCount).map((story) => ({
+              headline: story[0],
+              body: story[1],
+              sources: story[4].map(([name, url]) => ({ name, url }))
+            }))
+          });
+          return;
         }
+
+        if (endpoint) {
+          loadCurrentEdition(endpoint);
+          return;
+        }
+
+        const snapshot = real;
 
         const edition = document.querySelector("#edition");
         if (snapshot.state === "published" && snapshot.edition_date) {
