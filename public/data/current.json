@@ -1,0 +1,57 @@
+{
+  "edition_date": "2026-08-15",
+  "published_at": "2026-08-16T08:07:00.000Z",
+  "expires_at": "2026-08-17T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "TEST EDITION: Five-story layout fixture",
+      "body": "This is a testing story for the maximum-size edition. Please ignore it as news.",
+      "sources": [
+        {
+          "name": "Quiet News test fixture",
+          "url": "https://quiet-news.com/"
+        }
+      ]
+    },
+    {
+      "headline": "TEST EDITION: Current-file fixture",
+      "body": "This placeholder confirms that the homepage reads the full current publication document.",
+      "sources": [
+        {
+          "name": "Quiet News test fixture",
+          "url": "https://quiet-news.com/"
+        }
+      ]
+    },
+    {
+      "headline": "TEST EDITION: Expiration fixture",
+      "body": "This placeholder helps verify that stale current content is not silently displayed.",
+      "sources": [
+        {
+          "name": "Quiet News test fixture",
+          "url": "https://quiet-news.com/"
+        }
+      ]
+    },
+    {
+      "headline": "TEST EDITION: Native-app API fixture",
+      "body": "This placeholder demonstrates the same public JSON contract available to future native apps.",
+      "sources": [
+        {
+          "name": "Quiet News test fixture",
+          "url": "https://quiet-news.com/"
+        }
+      ]
+    },
+    {
+      "headline": "TEST EDITION: This is not news",
+      "body": "This final placeholder is intentionally obvious and can be deleted after real editions accumulate.",
+      "sources": [
+        {
+          "name": "Quiet News test fixture",
+          "url": "https://quiet-news.com/"
+        }
+      ]
+    }
+  ]
+}

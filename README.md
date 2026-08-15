@@ -1,55 +1,51 @@
 # Quiet News
 
-Quiet News is a standalone public web app that publishes one shared daily news snapshot. The snapshot targets 6:00 a.m. in the `America/New_York` timezone and remains unchanged until the next successful publication.
+Quiet News is a public daily digest backed by small static JSON files in Git.
+GitHub Actions generates the completed previous New York day's edition, commits
+it to `main`, and DigitalOcean App Platform deploys the updated static site.
 
 Live site: https://quiet-news.com/
 
-## MVP
+## Stack
 
-- English only
-- Zero to five stories per day
-- No accounts, filters, personalization, customization, ads, or subscriptions
-- A visible explanation of what changed since yesterday
-- Responsive web app only
-- One production branch: `main`
+- Node.js 24 publisher and tests
+- GitHub Actions scheduling and Git-backed publication history
+- OpenAI Responses API with web search
+- DigitalOcean App Platform static hosting
+- Plain HTML, CSS, JavaScript, and JSON with no frontend build step
 
-## Daily publishing
+There is no database, persistent server, public Function, router proxy, or
+runtime write path.
 
-The public site is the self-contained `public/index.html`: markup, styles, scripts, mock stories, favicon, and the current snapshot are all embedded in that one file. It has no frontend imports and requires no build or compilation step.
+## Public API
 
-Editors prepare `data/draft.json` and explicitly set `ready` to `true` only after review. The scheduled workflow validates the draft, publishes it once during the 6:00 a.m. New York hour, embeds the immutable snapshot in `public/index.html`, commits both artifacts to `main`, and lets DigitalOcean deploy that commit.
+```text
+GET https://quiet-news.com/data/current.json
+GET https://quiet-news.com/data/index.json
+GET https://quiet-news.com/data/2026-08-15.json
+```
 
-The initial pipeline is deliberately provider-neutral. It does not collect news or call a paid AI API.
+The website and future native apps can use the same public contract.
 
 ## Local checks
 
-Node.js 22 or newer is recommended.
-
 ```text
+npm ci
 npm run check
 ```
 
-`npm run publish` force-publishes a ready draft outside the normal time window. Use it only for an intentional recovery or preview.
+Automated tests mock OpenAI and make no live provider calls. Serve `public/`
+from a local static server to test the website and archive fixtures.
 
-For a local preview, serve the `public/` directory with any static file server. Opening the HTML directly also works for basic layout checks.
+## Publisher
 
-## Layout testing
+```text
+npm run job:publisher
+```
 
-Add `?mock=0` through `?mock=5` to any deployed or local URL to bypass the real snapshot and render that many fictional stories. Mock mode is visibly labeled and adds a `noindex` directive.
+The publisher requires `OPENAI_API_KEY`, targets the completed previous New York
+day, and is a no-op when that dated file already exists. The normal workflow
+runs at 4:07 a.m. and retries idempotently at 4:37 a.m. New York time.
 
-Examples:
-
-- `/?mock=0` tests the empty edition.
-- `/?mock=3` tests a typical edition.
-- `/?mock=5` tests the maximum-length edition.
-
-Any other `mock` value is ignored and the real snapshot loads normally.
-
-## Repository policy
-
-- Never commit credentials, tokens, source-provider keys, or generated private data.
-- Production deploys from `main`.
-- A page visit never triggers content generation or publication.
-- An invalid or incomplete draft cannot replace the latest valid snapshot.
-
-Planning and operating documents live in `docs/`.
+See `SPEC.md` for the contract and `docs/OPERATIONS.md` for publication,
+inspection, correction, and recovery procedures.

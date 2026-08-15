@@ -1,0 +1,17 @@
+{
+  "edition_date": "2026-08-13",
+  "published_at": "2026-08-14T08:07:00.000Z",
+  "expires_at": "2026-08-15T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "TEST EDITION: This is a testing story, please ignore",
+      "body": "This public fixture exists only to test a one-story archive layout and is not news.",
+      "sources": [
+        {
+          "name": "Quiet News test fixture",
+          "url": "https://quiet-news.com/"
+        }
+      ]
+    }
+  ]
+}

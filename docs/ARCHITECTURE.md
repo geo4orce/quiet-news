@@ -1,65 +1,54 @@
-# Architecture specification
+# Architecture
 
-## Initial shape
+Quiet News is a static site with a Git-backed daily publishing pipeline.
 
-Quiet News is a static web app on DigitalOcean App Platform in NYC1. It has no database, runtime service, build step, or application secrets.
+```text
+GitHub Actions at 4:07 a.m. New York time
+  -> OpenAI Responses API with web search
+  -> validate the complete previous-day edition
+  -> write public/data/YYYY-MM-DD.json
+  -> replace public/data/current.json
+  -> update public/data/index.json
+  -> commit and push main
+  -> DigitalOcean static-site deployment
 
-The public site is one self-contained `public/index.html` file. Its markup, styles, scripts, mock stories, favicon, and current snapshot are embedded, with no frontend imports or compilation. Generation, editorial review, publication, and page requests are separate concerns.
+Website or native app
+  -> GET /data/current.json
+  -> GET /data/index.json for archive navigation
+  -> GET /data/YYYY-MM-DD.json for a selected archive
+```
 
-## Data files
+## Data ownership
 
-- `data/draft.json` is the next candidate edition. It is never displayed publicly.
-- `data/snapshot.json` is the canonical public edition.
-- `public/index.html` is the deployed artifact and contains an embedded copy of that edition.
-- `scripts/snapshot.mjs` defines the validation contract used by publishing and validation tools.
+The public JSON files on `main` are the production source of truth. Git gives
+the small append-only dataset durable history, ordinary local inspection, and
+manual correction without a database service. At one edition per day, this is
+both simpler and cheaper than managed PostgreSQL, object storage plus a writer,
+or a database platform.
 
-A snapshot contains:
+The browser does not derive the current date. `current.json` removes the
+midnight-to-publication ambiguity and provides explicit expiration behavior.
+`index.json` is navigation metadata, not another content hop.
 
-- Schema version
-- Publication state
-- Edition date and publication timestamp
-- `America/New_York` timezone
-- Zero to five stories
-- An empty-edition explanation
+## Runtime boundaries
 
-Every story contains a stable ID, headline, concise summary, `Since yesterday` text, status, and one to five HTTPS source links.
+The static site contains no credentials. It validates JSON before rendering
+and refuses to display an expired file as current. An explicitly selected dated
+archive remains readable after expiration.
 
-## Design mock mode
+The GitHub Actions publisher alone receives `OPENAI_API_KEY`. It targets Node.js
+24, generates once, validates, writes files in its checkout, and commits only
+after the entire job succeeds.
 
-The query parameter `?mock=0` through `?mock=5` bypasses the snapshot request and renders hardcoded fictional stories for layout and device testing. The page displays a persistent mock notice and adds a `noindex, nofollow` directive. Invalid mock values are ignored and load the real snapshot.
+DigitalOcean hosts immutable static output. It does not generate or persist
+news, and it needs no Function component or database binding.
 
-## Publication contract
+## Failure behavior
 
-Publication follows these rules:
-
-1. The draft must pass all validation.
-2. An editor must set `ready` to `true`.
-3. Scheduled publication requires the draft date to match the current New York date and the New York clock to be in the 6:00 a.m. hour.
-4. The publisher writes a complete temporary snapshot and renames it into place.
-5. A previously published edition date is never regenerated.
-6. After publication, the consumed draft is marked not ready.
-7. An invalid, incomplete, early, late, or duplicate run leaves the public snapshot unchanged.
-
-## Scheduling
-
-GitHub Actions checks every ten minutes during both possible UTC hours corresponding to 6:00 a.m. in New York. The publisher reads New York local time, so daylight-saving changes do not require editing the workflow.
-
-GitHub Actions and DigitalOcean deployments can start late. The MVP therefore targets the 6:00 a.m. hour but cannot guarantee a change at exactly 6:00:00. A stricter guarantee would require a dedicated scheduler and publication store.
-
-## Deployment
-
-- Repository: `geo4orce/quiet-news`
-- Branch: `main`
-- DigitalOcean app: `quiet-news`
-- DigitalOcean project: `Quiet News`
-- App ID: `88ffd7c8-19c0-4c6f-9372-1564e83aa2c3`
-- Region: NYC1
-- Component: `quiet-news`, static site only
-- Source directory: `public`
-- Build command: none
-- Automatic deploys: enabled
-- Primary URL: https://quiet-news.com/
-- `www.quiet-news.com` redirects permanently to the primary URL
-- DigitalOcean starter URL: https://quiet-news-43j5e.ondigitalocean.app/
-
-Adding a dynamic service, worker, database, object storage product, dedicated egress address, news provider, or paid AI service requires a separate cost and risk decision.
+- A failed or invalid generation changes no production files.
+- A retry run is a no-op if its dated edition already exists.
+- Workflow concurrency serializes scheduled and manual publishers.
+- An expired `current.json` produces an explicit publishing-error message.
+- Archive navigation failure does not prevent current-edition rendering.
+- DigitalOcean keeps serving the last successfully deployed static tree while
+  a later build or publication fails.

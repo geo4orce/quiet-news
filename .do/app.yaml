@@ -1,0 +1,31 @@
+alerts:
+  - rule: DEPLOYMENT_FAILED
+  - rule: DOMAIN_FAILED
+domains:
+  - domain: quiet-news.com
+    type: PRIMARY
+    zone: quiet-news.com
+  - domain: www.quiet-news.com
+    type: ALIAS
+    zone: quiet-news.com
+features:
+  - buildpack-stack=ubuntu-22
+ingress:
+  rules:
+    - component:
+        name: quiet-news
+      match:
+        authority:
+          exact: ""
+        path:
+          prefix: /
+name: quiet-news
+region: nyc
+static_sites:
+  - environment_slug: html
+    github:
+      branch: main
+      deploy_on_push: true
+      repo: geo4orce/quiet-news
+    name: quiet-news
+    source_dir: public

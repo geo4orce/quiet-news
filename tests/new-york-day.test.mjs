@@ -1,6 +1,11 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { newYorkDay } from "../functions/lib/new-york-day.mjs";
+import {
+  addCalendarDays,
+  newYorkDay,
+  newYorkLocalTime,
+  publicationWindow
+} from "../lib/new-york-day.mjs";
 
 test("uses the New York date across the spring daylight-saving boundary", () => {
   assert.equal(newYorkDay("2026-03-08T04:59:59Z"), "2026-03-07");
@@ -14,4 +19,18 @@ test("uses the New York date across the fall daylight-saving boundary", () => {
 
 test("rejects an invalid date", () => {
   assert.throws(() => newYorkDay("not a date"), /valid date/);
+});
+
+test("targets the completed prior New York day and expires at 5 a.m. the following day", () => {
+  assert.deepEqual(publicationWindow("2026-08-16T08:07:00.000Z"), {
+    editionDay: "2026-08-15",
+    publishedAt: "2026-08-16T08:07:00.000Z",
+    expiresAt: "2026-08-17T09:00:00.000Z"
+  });
+});
+
+test("computes local 5 a.m. correctly on both sides of daylight saving time", () => {
+  assert.equal(newYorkLocalTime("2026-03-08", 5).toISOString(), "2026-03-08T09:00:00.000Z");
+  assert.equal(newYorkLocalTime("2026-11-01", 5).toISOString(), "2026-11-01T10:00:00.000Z");
+  assert.equal(addCalendarDays("2026-02-28", 1), "2026-03-01");
 });

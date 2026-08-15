@@ -1,0 +1,37 @@
+{
+  "edition_date": "2026-08-14",
+  "published_at": "2026-08-15T08:07:00.000Z",
+  "expires_at": "2026-08-16T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "TEST EDITION: Three-story layout fixture",
+      "body": "This is testing content for interface work. Please ignore it as news.",
+      "sources": [
+        {
+          "name": "Quiet News test fixture",
+          "url": "https://quiet-news.com/"
+        }
+      ]
+    },
+    {
+      "headline": "TEST EDITION: Archive navigation fixture",
+      "body": "This item confirms that a dated edition can be selected from the public index.",
+      "sources": [
+        {
+          "name": "Quiet News test fixture",
+          "url": "https://quiet-news.com/"
+        }
+      ]
+    },
+    {
+      "headline": "TEST EDITION: This story is not real",
+      "body": "This final placeholder helps evaluate spacing and should not be treated as reporting.",
+      "sources": [
+        {
+          "name": "Quiet News test fixture",
+          "url": "https://quiet-news.com/"
+        }
+      ]
+    }
+  ]
+}

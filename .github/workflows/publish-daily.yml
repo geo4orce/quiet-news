@@ -1,53 +1,60 @@
-name: Publish daily snapshot
+name: Publish daily edition
 
 on:
   schedule:
-    - cron: "0,10,20,30,40,50 10,11 * * *"
+    - cron: "7 4 * * *"
+      timezone: "America/New_York"
+    - cron: "37 4 * * *"
+      timezone: "America/New_York"
   workflow_dispatch:
-    inputs:
-      force:
-        description: Publish the ready draft outside the normal New York time window
-        required: false
-        type: boolean
-        default: false
 
 permissions:
   contents: write
 
 concurrency:
-  group: daily-snapshot-publication
+  group: quiet-news-daily-publication
   cancel-in-progress: false
 
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
+      - name: Check out main
+        uses: actions/checkout@v4
         with:
-          node-version: 22
+          ref: main
 
-      - name: Validate snapshot files
+      - name: Use Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check the existing publication tree
         run: npm run check
 
-      - name: Run scheduled publisher
-        if: ${{ !inputs.force }}
-        run: npm run publish:scheduled
+      - name: Generate the completed previous-day edition
+        run: npm run job:publisher
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
-      - name: Run forced publisher
-        if: ${{ inputs.force }}
-        run: npm run publish
+      - name: Check the updated publication tree
+        run: npm run check
 
-      - name: Commit a newly published edition
+      - name: Commit and publish changed data
+        shell: bash
         run: |
-          if git diff --quiet -- data/snapshot.json public/index.html; then
-            echo "No new edition to commit."
+          if git diff --quiet -- public/data; then
+            echo "The edition is already published."
             exit 0
           fi
-          edition_date=$(node -p "require('./data/snapshot.json').edition_date")
-          git config user.name "quiet-news-publisher"
-          git config user.email "quiet-news-publisher@users.noreply.github.com"
-          git add data/snapshot.json data/draft.json public/index.html
-          git commit -m "Publish ${edition_date} snapshot"
-          git push origin main
+          edition_date="$(node -p "JSON.parse(require('fs').readFileSync('public/data/current.json')).edition_date")"
+          git config user.name "quiet-news-publisher[bot]"
+          git config user.email "quiet-news-publisher[bot]@users.noreply.github.com"
+          git add public/data
+          git commit -m "Publish ${edition_date} digest"
+          git push origin HEAD:main

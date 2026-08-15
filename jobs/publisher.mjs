@@ -1,70 +1,22 @@
-import pg from "pg";
-import { EDITORIAL_MODEL, EDITORIAL_PROMPT_VERSION } from "../functions/lib/editorial-prompt.mjs";
-import { createOpenAIGenerator } from "../functions/lib/openai-generator.mjs";
-import { createPublisherHandler } from "../functions/lib/publisher.mjs";
-import { createPublisherDatabase } from "../functions/lib/publisher-database.mjs";
+import { pathToFileURL } from "node:url";
+import { createOpenAIGenerator } from "../lib/openai-generator.mjs";
+import { PublicationStore } from "../lib/publication-store.mjs";
+import { publishDailyEdition } from "../lib/publisher.mjs";
 
-const { Pool } = pg;
-
-function requiredEnvironment(name) {
-  const value = process.env[name];
-  if (!value) throw new Error(`${name} is not configured`);
-  return value;
+export async function runPublisherJob({ env = process.env, logger = console } = {}) {
+  const store = new PublicationStore();
+  const generate = createOpenAIGenerator({ apiKey: env.OPENAI_API_KEY });
+  const result = await publishDailyEdition({ store, generate, logger });
+  logger.info?.(JSON.stringify({ event: "publisher_complete", ...result }));
+  return result;
 }
 
-function successfulJobResult(result) {
-  return result.status === "published" || result.status === "daily_limit_reached";
-}
-
-export async function runPublisherJob({
-  databaseUrl = requiredEnvironment("DATABASE_URL"),
-  openAIApiKey = requiredEnvironment("OPENAI_API_KEY"),
-  PoolClass = Pool,
-  log = console
-} = {}) {
-  const pool = new PoolClass({
-    connectionString: databaseUrl,
-    max: 2,
-    idleTimeoutMillis: 10_000,
-    connectionTimeoutMillis: 3_000
-  });
-
-  try {
-    const database = createPublisherDatabase({
-      connect: () => pool.connect(),
-      query: (text, values) => pool.query(text, values)
-    });
-    const generate = createOpenAIGenerator({ apiKey: openAIApiKey });
-    const publish = createPublisherHandler({
-      database,
-      generate,
-      model: EDITORIAL_MODEL,
-      promptVersion: EDITORIAL_PROMPT_VERSION,
-      log
-    });
-
-    const result = await publish();
-    log.info(JSON.stringify({
-      event: "publisher_job_finished",
-      status: result.status,
-      attempts: result.attempts
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  runPublisherJob().catch((error) => {
+    console.error(JSON.stringify({
+      event: "publisher_failed",
+      code: error?.errorCode || error?.name || "Error"
     }));
-
-    if (!successfulJobResult(result)) {
-      process.exitCode = 1;
-    }
-    return result;
-  } finally {
-    await pool.end();
-  }
-}
-
-try {
-  await runPublisherJob();
-} catch {
-  console.error(JSON.stringify({
-    event: "publisher_job_failed",
-    error_code: "startup_error"
-  }));
-  process.exitCode = 1;
+    process.exitCode = 1;
+  });
 }

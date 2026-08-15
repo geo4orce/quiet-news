@@ -1,68 +1,71 @@
-# Operations and cleanup
+# Operations
 
-## Prepare an edition
+## Production resources
 
-1. Set `edition_date` in `data/draft.json` to the intended New York calendar date.
-2. Add zero to five fully reviewed stories.
-3. Include a specific `since_yesterday` statement and at least one HTTPS source for every story.
-4. Run `npm run check`.
-5. Set `ready` to `true` only after editorial review.
-6. Commit and push the ready draft to `main` before the publication window.
-
-At the 6:00 a.m. New York hour, GitHub Actions validates and publishes the ready draft. It commits the resulting snapshot and the consumed `ready: false` draft to `main`. DigitalOcean then deploys the changed static artifact.
-
-For recovery after a missed window, manually run the `Publish daily snapshot` GitHub workflow with `force` enabled. A force run still requires a valid, ready draft and never republishes an edition date already live.
-
-## Expected failure behavior
-
-- Draft not ready: publish nothing.
-- Wrong date or New York hour: publish nothing unless an operator explicitly forces the workflow.
-- Invalid or partial draft: fail validation and preserve the current snapshot.
-- Duplicate edition date: publish nothing.
-- GitHub Actions delay: publication may occur after 6:00 a.m.
-- DigitalOcean deployment failure: the previous successful deployment remains live.
-- Source outage: do not invent replacement stories or add filler.
-
-## Monitoring
-
-- Confirm the edition date and story count after the daily workflow.
-- Confirm the DigitalOcean deployment is healthy.
-- Open the public URL and verify its edition date and source links.
-- Enable DigitalOcean billing alerts where available.
-- Review transfer use because billing alerts are not a hard spending cap.
-
-## Hosting assumptions
-
-- DigitalOcean App Platform
-- App: `quiet-news`
-- Project: `Quiet News`
+- Site: `https://quiet-news.com/`
+- Repository: `https://github.com/geo4orce/quiet-news`
+- Production branch: `main`
+- DigitalOcean App Platform app: `quiet-news`
 - App ID: `88ffd7c8-19c0-4c6f-9372-1564e83aa2c3`
-- New York region, NYC1
-- Static-site component `quiet-news` serving `public/` with no build command
-- Current listed cost: $3 per month
-- No database, service, environment variables, or deployment secrets
+- Publication workflow: `.github/workflows/publish-daily.yml`
+- Required repository secret: `OPENAI_API_KEY`
 
-Pricing and availability references:
+There is no production database or public Function endpoint.
 
-- https://docs.digitalocean.com/products/app-platform/details/pricing/
-- https://docs.digitalocean.com/products/app-platform/details/availability/
+## Viewing and editing data
 
-## Secrets
+Clone or pull the repository and inspect `public/data`. Each dated file is a
+complete edition. `current.json` is an exact copy of the newest current archive,
+and `index.json` contains the archive dates in descending order.
 
-- The current pipeline requires no application secrets.
-- Store future provider credentials only in GitHub Actions or DigitalOcean secret stores.
-- Never commit real values to git, build output, logs, or the public snapshot.
-- Use least-privilege tokens and rotate or revoke them after suspected exposure.
+To make a controlled manual correction:
 
-## Cleanup plan
+1. Edit the dated archive.
+2. If it is current, make the identical edit to `current.json`.
+3. Keep `index.json` consistent with the available dated files.
+4. Run `npm run check`.
+5. Commit and push the reviewed files.
 
-To stop the test and prevent continuing hosting charges:
+Changing Git history is unnecessary. Corrections should be normal forward
+commits so their audit trail remains visible.
 
-1. Retain the final public snapshot if needed.
-2. Remove any custom-domain mapping if one is later added.
-3. Delete DigitalOcean app `quiet-news`, ID `88ffd7c8-19c0-4c6f-9372-1564e83aa2c3`.
-4. Confirm the app no longer appears in the `Quiet News` project.
-5. Delete the empty `Quiet News` project if it is no longer useful.
-6. Revoke any credentials later created only for this app.
-7. Review the billing page for residual metered transfer.
-8. Keep or archive the GitHub repository separately. Repository deletion is not required to stop App Platform billing.
+## Daily publication
+
+GitHub Actions schedules two idempotent invocations:
+
+- 4:07 a.m. `America/New_York`: primary run
+- 4:37 a.m. `America/New_York`: retry if the primary did not publish
+
+Both run the same command, `npm run job:publisher`. If that New York edition
+date already exists, the command exits successfully without an OpenAI call or
+file change.
+
+The workflow may be manually dispatched from GitHub Actions. A manual run uses
+the current clock, so it targets the completed prior New York day. Do not delete
+an existing dated file merely to force regeneration without reviewing the
+consequences.
+
+## Verification
+
+After publication:
+
+1. Confirm the GitHub Actions run succeeded and committed one dated file plus
+   `current.json` and `index.json`.
+2. Confirm the DigitalOcean deployment for that commit succeeded.
+3. Request `/data/current.json` and verify `edition_date` and `expires_at`.
+4. Request the matching `/data/YYYY-MM-DD.json` and verify it is identical.
+5. Open the website and its archive link.
+
+If publication fails before 5:00 a.m., the previous current edition can still
+render until its explicit expiration. At and after expiration, the website
+shows the publishing-error state until a valid replacement is deployed.
+
+## Recovery
+
+Git is the backup and audit log. Restore a broken public file with a new commit
+based on a known-good earlier version, then run the checks and push. A previous
+DigitalOcean deployment can provide temporary hosting rollback, but the source
+files on `main` should still be corrected promptly.
+
+Never paste or print `OPENAI_API_KEY`. Rotate it in OpenAI and replace the
+GitHub repository secret after suspected exposure.

@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import {
   createOpenAIGenerator,
   GenerationError
-} from "../functions/lib/openai-generator.mjs";
+} from "../lib/openai-generator.mjs";
 
 function response({ status = 200, body, requestId = "req_test" }) {
   return {
@@ -39,7 +39,7 @@ test("sends a non-stored web-search request with a strict edition schema", async
     }
   });
 
-  const result = await generate({ attemptDay: "2026-08-11", priorEdition: null });
+  const result = await generate({ editionDay: "2026-08-11", priorEdition: null });
   const body = JSON.parse(request.options.body);
 
   assert.equal(request.url, "https://api.openai.com/v1/responses");
@@ -49,6 +49,7 @@ test("sends a non-stored web-search request with a strict edition schema", async
   assert.equal(body.text.format.type, "json_schema");
   assert.equal(body.text.format.strict, true);
   assert.equal(body.text.format.schema.additionalProperties, false);
+  assert.match(body.input[1].content, /"edition_day":"2026-08-11"/);
   const sourceSchema = body.text.format.schema.properties.stories.items
     .properties.sources.items;
   assert.deepEqual(sourceSchema.required, ["name", "url"]);
@@ -74,7 +75,7 @@ test("classifies rate limits and provider 5xx responses as retryable", async () 
       fetchImpl: async () => response({ status, body: { error: { code } } })
     });
     await assert.rejects(
-      () => generate({ attemptDay: "2026-08-11", priorEdition: null }),
+      () => generate({ editionDay: "2026-08-11", priorEdition: null }),
       (error) => {
         assert.ok(error instanceof GenerationError);
         assert.equal(error.errorCode, expected);
@@ -95,7 +96,7 @@ test("does not retry billing or authentication failures", async () => {
       fetchImpl: async () => response({ status, body: { error: { code } } })
     });
     await assert.rejects(
-      () => generate({ attemptDay: "2026-08-11", priorEdition: null }),
+      () => generate({ editionDay: "2026-08-11", priorEdition: null }),
       (error) => error.errorCode === expected && error.retryable === false
     );
   }
@@ -114,7 +115,7 @@ test("treats timeout as retryable and other network errors as final", async () =
     })
   });
   await assert.rejects(
-    () => timeoutGenerate({ attemptDay: "2026-08-11", priorEdition: null }),
+    () => timeoutGenerate({ editionDay: "2026-08-11", priorEdition: null }),
     (error) => error.errorCode === "timeout" && error.retryable === true
   );
 
@@ -123,7 +124,7 @@ test("treats timeout as retryable and other network errors as final", async () =
     fetchImpl: async () => { throw new Error("socket failure"); }
   });
   await assert.rejects(
-    () => networkGenerate({ attemptDay: "2026-08-11", priorEdition: null }),
+    () => networkGenerate({ editionDay: "2026-08-11", priorEdition: null }),
     (error) => error.errorCode === "network_error" && error.retryable === false
   );
 });
@@ -144,7 +145,7 @@ test("rejects malformed, invalid, incomplete, and refused output without retry",
       fetchImpl: async () => response({ body })
     });
     await assert.rejects(
-      () => generate({ attemptDay: "2026-08-11", priorEdition: null }),
+      () => generate({ editionDay: "2026-08-11", priorEdition: null }),
       (error) => error instanceof GenerationError && error.retryable === false
     );
   }

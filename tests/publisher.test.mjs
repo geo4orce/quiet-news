@@ -1,158 +1,107 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { GenerationError } from "../functions/lib/openai-generator.mjs";
-import { createPublisherHandler } from "../functions/lib/publisher.mjs";
+import { GenerationError } from "../lib/openai-generator.mjs";
+import { publishDailyEdition } from "../lib/publisher.mjs";
 
-function quietLog() {
-  return { info() {} };
+function quietLogger() {
+  return { info() {}, warn() {} };
 }
 
-function fakeDatabase(overrides = {}) {
-  let nextAttempt = 1;
+function fakeStore(overrides = {}) {
   return {
-    loadPriorEdition: async () => null,
-    reserveAttempt: async () => nextAttempt++,
-    failAttempt: async () => {},
-    publishEdition: async () => ({ id: 99, created_at: new Date() }),
+    hasEdition: async () => false,
+    readCurrent: async () => null,
+    publish: async () => {},
     ...overrides
   };
 }
 
-function handler(options = {}) {
-  return createPublisherHandler({
-    database: fakeDatabase(),
-    generate: async () => ({
-      edition: { stories: [] },
-      metadata: {
-        responseId: "resp_test",
-        requestId: "req_test",
-        inputTokens: 10,
-        outputTokens: 5,
-        webSearchCalls: 1
-      }
-    }),
-    model: "test-model",
-    promptVersion: "test-v1",
-    now: () => new Date("2026-08-11T12:00:00Z"),
-    log: quietLog(),
+function publish(options = {}) {
+  return publishDailyEdition({
+    store: fakeStore(),
+    generate: async () => ({ edition: { stories: [] }, metadata: { responseId: "resp_test" } }),
+    now: () => new Date("2026-08-16T08:07:00.000Z"),
+    retryDelaysMs: [10, 20],
+    sleep: async () => {},
+    logger: quietLogger(),
     ...options
   });
 }
 
-test("publishes a valid zero-story edition and stops after success", async () => {
-  let generations = 0;
-  const publish = handler({
-    generate: async () => {
-      generations += 1;
+test("publishes the completed previous New York day", async () => {
+  let written;
+  let input;
+  const result = await publish({
+    store: fakeStore({
+      publish: async (value) => { written = value; }
+    }),
+    generate: async (value) => {
+      input = value;
       return { edition: { stories: [] }, metadata: {} };
     }
   });
-  const result = await publish();
-  assert.deepEqual(result, {
-    status: "published",
-    attempts: 1,
-    attempt_id: 1,
-    edition_id: 99,
-    story_count: 0
-  });
-  assert.equal(generations, 1);
+  assert.equal(result.status, "published");
+  assert.equal(result.editionDate, "2026-08-15");
+  assert.equal(written.edition_date, "2026-08-15");
+  assert.equal(written.expires_at, "2026-08-17T09:00:00.000Z");
+  assert.deepEqual(input, { editionDay: "2026-08-15", priorEdition: { stories: [] } });
 });
 
-test("retries transient failures at most three times with exponential jitter", async () => {
-  const delays = [];
-  const failed = [];
-  let calls = 0;
-  const database = fakeDatabase({
-    failAttempt: async (id, code) => failed.push([id, code])
+test("an existing dated archive is a successful no-op before generation", async () => {
+  let generated = false;
+  const result = await publish({
+    store: fakeStore({ hasEdition: async () => true }),
+    generate: async () => { generated = true; }
   });
-  const publish = handler({
-    database,
+  assert.deepEqual(result, { status: "already_published", editionDate: "2026-08-15" });
+  assert.equal(generated, false);
+});
+
+test("passes the current edition as prior editorial context", async () => {
+  const prior = { stories: [{ headline: "Prior", body: "Prior body", sources: [] }] };
+  let input;
+  await publish({
+    store: fakeStore({ readCurrent: async () => ({ ...prior, edition_date: "x" }) }),
+    generate: async (value) => {
+      input = value;
+      return { edition: { stories: [] }, metadata: {} };
+    }
+  });
+  assert.deepEqual(input.priorEdition, prior);
+});
+
+test("retries transient generation failures no more than three total calls", async () => {
+  const delays = [];
+  let calls = 0;
+  const result = await publish({
     generate: async () => {
       calls += 1;
       if (calls < 3) throw new GenerationError("rate_limit", true);
       return { edition: { stories: [] }, metadata: {} };
     },
-    sleep: async (delay) => delays.push(delay),
-    random: () => 0.5
+    sleep: async (delay) => delays.push(delay)
   });
-
-  const result = await publish();
   assert.equal(result.status, "published");
-  assert.equal(result.attempts, 3);
-  assert.deepEqual(delays, [300, 550]);
-  assert.deepEqual(failed, [[1, "rate_limit"], [2, "rate_limit"]]);
+  assert.equal(calls, 3);
+  assert.deepEqual(delays, [10, 20]);
 });
 
-test("does not retry a non-transient failure", async () => {
-  let calls = 0;
-  const publish = handler({
+test("does not retry permanent failures and throws after transient limit", async () => {
+  let permanentCalls = 0;
+  await assert.rejects(() => publish({
     generate: async () => {
-      calls += 1;
+      permanentCalls += 1;
       throw new GenerationError("authentication", false);
     }
-  });
-  const result = await publish();
-  assert.deepEqual(result, { status: "failed", attempts: 1, error_code: "authentication" });
-  assert.equal(calls, 1);
-});
+  }), (error) => error.errorCode === "authentication");
+  assert.equal(permanentCalls, 1);
 
-test("does not call the provider when the daily circuit breaker is open", async () => {
-  let called = false;
-  const publish = handler({
-    database: fakeDatabase({ reserveAttempt: async () => null }),
-    generate: async () => { called = true; }
-  });
-  const result = await publish();
-  assert.deepEqual(result, { status: "daily_limit_reached", attempts: 0 });
-  assert.equal(called, false);
-});
-
-test("stops after three transient provider failures", async () => {
-  let reservations = 0;
-  const publish = handler({
-    database: fakeDatabase({
-      reserveAttempt: async () => ++reservations,
-      failAttempt: async () => {}
-    }),
-    generate: async () => { throw new GenerationError("provider_5xx", true); },
-    sleep: async () => {}
-  });
-  const result = await publish();
-  assert.deepEqual(result, { status: "failed", attempts: 3, error_code: "provider_5xx" });
-  assert.equal(reservations, 3);
-});
-
-test("passes the newest prior edition as context", async () => {
-  const prior = { stories: [{ headline: "Prior", body: "Prior body" }] };
-  let received;
-  const publish = handler({
-    database: fakeDatabase({ loadPriorEdition: async () => prior }),
-    generate: async (input) => {
-      received = input;
-      return { edition: { stories: [] }, metadata: {} };
-    }
-  });
-  await publish();
-  assert.deepEqual(received, { attemptDay: "2026-08-11", priorEdition: prior });
-});
-
-test("database and validation failures never trigger provider retries", async () => {
-  const unavailable = handler({
-    database: fakeDatabase({ loadPriorEdition: async () => { throw new Error("db"); } })
-  });
-  assert.deepEqual(await unavailable(), {
-    status: "failed", attempts: 0, error_code: "database_error"
-  });
-
-  let calls = 0;
-  const invalid = handler({
+  let transientCalls = 0;
+  await assert.rejects(() => publish({
     generate: async () => {
-      calls += 1;
-      return { edition: { stories: [], extra: true }, metadata: {} };
+      transientCalls += 1;
+      throw new GenerationError("provider_5xx", true);
     }
-  });
-  assert.deepEqual(await invalid(), {
-    status: "failed", attempts: 1, error_code: "validation_error"
-  });
-  assert.equal(calls, 1);
+  }), (error) => error.errorCode === "provider_5xx");
+  assert.equal(transientCalls, 3);
 });

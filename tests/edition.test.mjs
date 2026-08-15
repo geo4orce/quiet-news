@@ -4,7 +4,7 @@ import {
   assertEdition,
   EditionValidationError,
   validateEdition
-} from "../functions/lib/edition.mjs";
+} from "../lib/edition.mjs";
 
 function story(index = 1) {
   return {

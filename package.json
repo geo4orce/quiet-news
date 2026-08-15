@@ -1,20 +1,13 @@
 {
   "name": "quiet-news",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "engines": {
     "node": "24.x"
   },
   "scripts": {
-    "check": "node scripts/validate-snapshot.mjs && node --test && npm run functions:build",
-    "functions:build": "npm --prefix functions/packages/quiet-news/current-edition run build",
-    "job:migrate": "node jobs/migrate.mjs",
-    "job:publisher": "node jobs/publisher.mjs",
-    "publish": "node scripts/publish-snapshot.mjs --force",
-    "publish:scheduled": "node scripts/publish-snapshot.mjs"
-  },
-  "dependencies": {
-    "pg": "^8.16.3"
+    "check": "node scripts/validate-publications.mjs && node --test",
+    "job:publisher": "node jobs/publisher.mjs"
   }
 }

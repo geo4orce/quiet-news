@@ -1,8 +1,0 @@
-{
-  "schema_version": 1,
-  "ready": false,
-  "edition_date": "2026-08-10",
-  "timezone": "America/New_York",
-  "empty_message": "No stories met the editorial threshold for this edition.",
-  "stories": []
-}
