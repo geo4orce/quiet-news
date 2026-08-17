@@ -14,10 +14,13 @@ test("the static site reads current, index, and flat dated archives", () => {
   assert.match(app, /"\/data\/index\.json"/);
   assert.match(app, /`\/data\/\$\{selectedDate\}\.json`/);
   assert.match(app, /\?date=\$\{date\}/);
+  assert.match(html, /<header>[\s\S]*id="archive"[\s\S]*<\/header>/);
   assert.match(html, /id="archive-toggle"/);
   assert.match(html, /id="archive-label">Today/);
-  assert.match(html, /class="archive-today-hint">Current edition/);
+  assert.match(html, /id="archive-today" href="\/">Today<\/a>/);
+  assert.doesNotMatch(html, /Current edition|id="edition"/);
   assert.match(styles, /#archive-today[^{]*\{[\s\S]*background: var\(--accent\)/);
+  assert.match(styles, /#archive-menu[^{]*\{[\s\S]*right: 0/);
   assert.match(html, /id="archive-calendar" role="grid"/);
   assert.match(app, /publishedDates\.has\(date\)/);
   assert.match(app, /day\.disabled = true/);

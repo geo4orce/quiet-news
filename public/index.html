@@ -14,29 +14,24 @@
   <body>
     <header>
       <h1><span class="mark" aria-hidden="true">Q</span> Quiet News</h1>
-      <p id="edition">Previous day edition</p>
+      <section id="archive" aria-label="Edition archive" hidden>
+        <button id="archive-toggle" type="button" aria-expanded="false" aria-controls="archive-menu">
+          <span id="archive-label">Today</span>
+        </button>
+        <div id="archive-menu" role="dialog" aria-label="Choose an edition" hidden>
+          <a id="archive-today" href="/">Today</a>
+          <div class="calendar-heading">
+            <button id="archive-previous" class="calendar-nav" type="button" aria-label="Previous month">&#8249;</button>
+            <p id="archive-month" aria-live="polite"></p>
+            <button id="archive-next" class="calendar-nav" type="button" aria-label="Next month">&#8250;</button>
+          </div>
+          <div class="calendar-weekdays" aria-hidden="true">
+            <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+          </div>
+          <div id="archive-calendar" role="grid" aria-labelledby="archive-month"></div>
+        </div>
+      </section>
     </header>
-
-    <section id="archive" aria-label="Edition archive" hidden>
-      <button id="archive-toggle" type="button" aria-expanded="false" aria-controls="archive-menu">
-        <span id="archive-label">Today</span>
-      </button>
-      <div id="archive-menu" role="dialog" aria-label="Choose an edition" hidden>
-        <a id="archive-today" href="/">
-          <span>Today</span>
-          <span class="archive-today-hint">Current edition</span>
-        </a>
-        <div class="calendar-heading">
-          <button id="archive-previous" class="calendar-nav" type="button" aria-label="Previous month">&#8249;</button>
-          <p id="archive-month" aria-live="polite"></p>
-          <button id="archive-next" class="calendar-nav" type="button" aria-label="Next month">&#8250;</button>
-        </div>
-        <div class="calendar-weekdays" aria-hidden="true">
-          <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
-        </div>
-        <div id="archive-calendar" role="grid" aria-labelledby="archive-month"></div>
-      </div>
-    </section>
     <main id="news" aria-live="polite"></main>
 
     <footer>

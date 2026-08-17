@@ -79,7 +79,6 @@ function renderMessage(message) {
 
 function renderPublication(publication) {
   const news = document.querySelector("#news");
-  document.querySelector("#edition").textContent = formatEditionDate(publication.edition_date);
   news.replaceChildren();
 
   if (publication.stories.length === 0) {

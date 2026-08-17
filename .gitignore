@@ -1,16 +1,14 @@
 # Local secrets
 .env
-.env.*
-!.env.example
 
 # Dependencies and generated output
-node_modules/
+.cache/
 .npm-cache/
 dist/
-.cache/
+node_modules/
 
 # Editors and operating systems
 .DS_Store
-Thumbs.db
 .idea/
 .vscode/
+Thumbs.db
