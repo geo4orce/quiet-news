@@ -89,7 +89,9 @@ Dates are unique and newest first. Every date must have a matching dated file.
 - If it is expired, missing, or invalid, the page says: "Today's edition could
   not be published. Please come back later."
 - The website never silently presents an expired edition as current.
-- Archive navigation is loaded independently from `/data/index.json`.
+- Archive navigation is loaded independently from `/data/index.json` and shown
+  as a compact `Today` dropdown. It opens an accessible month calendar where
+  published edition dates are selectable and all other dates are disabled.
 - `?date=YYYY-MM-DD` loads that dated archive and does not apply current-edition
   expiration.
 - If the index request fails, the current edition remains usable.

@@ -55,11 +55,106 @@
       }
 
       #edition { margin: 0; color: var(--muted); font-size: 0.78rem; text-align: right; text-transform: uppercase; letter-spacing: 0.08em; }
-      #archive { padding: 16px 0 0; font-family: Arial, Helvetica, sans-serif; }
-      #archive summary { color: var(--accent); cursor: pointer; font-size: 0.8rem; font-weight: 700; }
-      #archive-links { display: flex; flex-wrap: wrap; gap: 8px; padding-top: 12px; }
-      #archive-links a { padding: 5px 9px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); font-size: 0.72rem; text-decoration: none; }
-      #archive-links a[aria-current="page"] { color: var(--paper); background: var(--accent); border-color: var(--accent); }
+      #archive { position: relative; padding: 16px 0 0; font-family: Arial, Helvetica, sans-serif; }
+
+      #archive-toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+        min-width: 100px;
+        padding: 8px 12px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--ink);
+        background: #faf8f2;
+        cursor: pointer;
+        font: inherit;
+        font-size: 0.78rem;
+        font-weight: 700;
+      }
+
+      #archive-toggle::after {
+        width: 7px;
+        height: 7px;
+        margin: -4px 1px 0 auto;
+        border-right: 1.5px solid currentColor;
+        border-bottom: 1.5px solid currentColor;
+        content: "";
+        transform: rotate(45deg);
+        transition: transform 120ms ease;
+      }
+
+      #archive-toggle[aria-expanded="true"]::after { margin-top: 4px; transform: rotate(225deg); }
+      #archive-toggle:hover { border-color: var(--accent); }
+      #archive-toggle:focus-visible,
+      #archive-menu a:focus-visible,
+      #archive-menu button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+      #archive-menu {
+        position: absolute;
+        z-index: 10;
+        top: calc(100% + 8px);
+        left: 0;
+        width: 320px;
+        padding: 14px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: #faf8f2;
+        box-shadow: 0 14px 36px rgb(24 33 29 / 14%);
+      }
+
+      #archive-today {
+        display: block;
+        margin-bottom: 11px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        color: var(--ink);
+        font-size: 0.78rem;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      #archive-today:hover { background: rgb(47 98 84 / 8%); }
+      #archive-today[aria-current="page"] { color: var(--paper); background: var(--accent); }
+      .calendar-heading { display: grid; grid-template-columns: 36px 1fr 36px; align-items: center; gap: 6px; }
+      #archive-month { margin: 0; font-size: 0.83rem; font-weight: 700; text-align: center; }
+
+      .calendar-nav {
+        width: 34px;
+        height: 34px;
+        border: 0;
+        border-radius: 50%;
+        color: var(--ink);
+        background: transparent;
+        cursor: pointer;
+        font: inherit;
+        font-size: 1.2rem;
+      }
+
+      .calendar-nav:hover:not(:disabled) { background: rgb(47 98 84 / 8%); }
+      .calendar-nav:disabled { color: var(--line); cursor: default; }
+      .calendar-weekdays,
+      #archive-calendar { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; }
+      .calendar-weekdays { padding: 10px 0 5px; color: var(--muted); font-size: 0.62rem; font-weight: 700; text-align: center; text-transform: uppercase; }
+
+      .calendar-day {
+        display: grid;
+        width: 36px;
+        height: 36px;
+        place-items: center;
+        border: 0;
+        border-radius: 50%;
+        color: var(--ink);
+        background: transparent;
+        font: inherit;
+        font-size: 0.75rem;
+        text-decoration: none;
+      }
+
+      a.calendar-day:hover { color: var(--paper); background: var(--accent); }
+      a.calendar-day[aria-current="date"] { color: var(--paper); background: var(--accent); font-weight: 700; }
+      button.calendar-day:disabled { color: #a9afaa; cursor: default; }
+      .calendar-day-empty { visibility: hidden; }
       main { min-height: 50vh; }
       article { padding: 34px 0; border-bottom: 1px solid var(--line); }
       article:last-child { border-bottom: 0; }
@@ -87,6 +182,7 @@
       footer a { color: var(--ink); }
       .credit { flex: 0 0 auto; }
       .disclaimer { max-width: 430px; text-align: right; }
+      .disclaimer span { display: block; }
       [hidden] { display: none !important; }
 
       @media (max-width: 560px) {
@@ -94,9 +190,10 @@
         header { align-items: flex-start; }
         h1 { font-size: 1.25rem; }
         .mark { width: 38px; height: 38px; }
+        #archive-menu { width: min(320px, calc(100vw - 40px)); }
         article { padding: 28px 0; }
         footer { display: block; }
-        .disclaimer { margin-top: 10px; text-align: left; }
+        .disclaimer { margin: 10px 0 0 auto; text-align: right; }
       }
     </style>
   </head>
@@ -106,15 +203,32 @@
       <p id="edition">Previous day edition</p>
     </header>
 
-    <details id="archive" hidden>
-      <summary>Browse the archive</summary>
-      <nav id="archive-links" aria-label="Edition archive"></nav>
-    </details>
+    <section id="archive" aria-label="Edition archive" hidden>
+      <button id="archive-toggle" type="button" aria-expanded="false" aria-controls="archive-menu">
+        <span id="archive-label">Today</span>
+      </button>
+      <div id="archive-menu" role="dialog" aria-label="Choose an edition" hidden>
+        <a id="archive-today" href="/">Today</a>
+        <div class="calendar-heading">
+          <button id="archive-previous" class="calendar-nav" type="button" aria-label="Previous month">&#8249;</button>
+          <p id="archive-month" aria-live="polite"></p>
+          <button id="archive-next" class="calendar-nav" type="button" aria-label="Next month">&#8250;</button>
+        </div>
+        <div class="calendar-weekdays" aria-hidden="true">
+          <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+        </div>
+        <div id="archive-calendar" role="grid" aria-labelledby="archive-month"></div>
+      </div>
+    </section>
     <main id="news" aria-live="polite"></main>
 
     <footer>
       <p class="credit">All rights reserved &copy; 2026<br>Created by <a href="https://web-opt.com/">web-opt.com</a>.</p>
-      <p class="disclaimer">For education and information only. Not an official source. Verify important details with the original sources.</p>
+      <p class="disclaimer">
+        <span>For education and information only.</span>
+        <span>Not an official source.</span>
+        <span>Verify important details with the original sources.</span>
+      </p>
     </footer>
 
     <script type="module" src="/app.js"></script>

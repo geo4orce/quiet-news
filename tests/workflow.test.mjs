@@ -16,6 +16,8 @@ test("the primary and retry schedules use New York local time", () => {
 test("the workflow serializes Node 24 publication and grants scoped write access", () => {
   assert.match(workflow, /contents: write/);
   assert.match(workflow, /cancel-in-progress: false/);
+  assert.match(workflow, /uses: actions\/checkout@v5/);
+  assert.match(workflow, /uses: actions\/setup-node@v5/);
   assert.match(workflow, /node-version: 24/);
   assert.match(workflow, /OPENAI_API_KEY: \$\{\{ secrets\.OPENAI_API_KEY \}\}/);
   assert.match(workflow, /git add public\/data/);

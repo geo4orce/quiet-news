@@ -10,7 +10,12 @@ test("the static site reads current, index, and flat dated archives", () => {
   assert.match(app, /"\/data\/index\.json"/);
   assert.match(app, /`\/data\/\$\{selectedDate\}\.json`/);
   assert.match(app, /\?date=\$\{date\}/);
-  assert.match(html, /Browse the archive/);
+  assert.match(html, /id="archive-toggle"/);
+  assert.match(html, /id="archive-label">Today/);
+  assert.match(html, /id="archive-calendar" role="grid"/);
+  assert.match(app, /publishedDates\.has\(date\)/);
+  assert.match(app, /day\.disabled = true/);
+  assert.match(app, /event\.key === "Escape"/);
 });
 
 test("current content expires explicitly while selected archives remain readable", () => {
@@ -31,4 +36,11 @@ test("there is no mock, Function, database, or secret path in public artifacts",
   assert.doesNotMatch(publicSource, /\?mock|current-edition\/quiet-news|DATABASE_URL|OPENAI_API_KEY/);
   assert.doesNotMatch(publicSource, /sk-[A-Za-z0-9_-]{20,}/);
   assert.doesNotMatch(publicSource, /postgres(?:ql)?:\/\/[^\s"']+@/i);
+});
+
+test("the informational disclaimer is split into three deliberate lines", () => {
+  assert.match(html, /<span>For education and information only\.<\/span>/);
+  assert.match(html, /<span>Not an official source\.<\/span>/);
+  assert.match(html, /<span>Verify important details with the original sources\.<\/span>/);
+  assert.match(html, /\.disclaimer span \{ display: block; \}/);
 });

@@ -23,6 +23,9 @@ edition. Archive links read immutable dated JSON files. If current publication
 has failed and the previous edition has expired, the website explains that
 today's edition could not be published instead of showing stale news.
 
+Archive navigation is a compact `Today` dropdown. It opens a calendar where
+dates with published editions are selectable and all other dates are disabled.
+
 The footer identifies web-opt.com as the creator and states that Quiet News is
 informational rather than an official source.
 
