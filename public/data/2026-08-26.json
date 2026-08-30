@@ -1,0 +1,51 @@
+{
+  "edition_date": "2026-08-26",
+  "published_at": "2026-08-27T19:01:52.148Z",
+  "expires_at": "2026-08-28T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "Glacial collapse kills at least 160 near Nepal-China border",
+      "body": "Flash floods left hundreds missing and damaged roads, bridges, villages and hydropower facilities along the Nepal-Tibet border.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/climate-change-nepal-flash-floods-7262dac22e31258955efa5c28c8fe917"
+        }
+      ]
+    },
+    {
+      "headline": "FDA approves multi-RAS therapy for metastatic pancreatic cancer",
+      "body": "Certain adults with previously treated metastatic pancreatic cancer now have an approved therapy targeting multiple RAS proteins.",
+      "sources": [
+        {
+          "name": "U.S. Food and Drug Administration",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-class-targeted-therapy-metastatic-pancreatic-cancer"
+        },
+        {
+          "name": "Drugs.com",
+          "url": "https://www.drugs.com/newdrugs.html"
+        }
+      ]
+    },
+    {
+      "headline": "U.S. disables platforms used by Chinese state-sponsored hackers",
+      "body": "Federal seizures made QScan and QTRouter inoperable, disrupting tools used to conceal intrusions into U.S. agencies and critical infrastructure.",
+      "sources": [
+        {
+          "name": "U.S. Department of Justice",
+          "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-platforms-operated-and-used-china-state-sponsored-hackers"
+        }
+      ]
+    },
+    {
+      "headline": "Judge allows federal mail-ballot restrictions to take effect",
+      "body": "The Postal Service can implement new mailed-voting rules before the midterms after the injunction was lifted.",
+      "sources": [
+        {
+          "name": "Associated Press via Local 10",
+          "url": "https://www.local10.com/news/politics/2026/08/26/judge-removes-one-hurdle-for-trump-mail-voting-order-as-states-file-new-challenge-before-midterms/"
+        }
+      ]
+    }
+  ]
+}

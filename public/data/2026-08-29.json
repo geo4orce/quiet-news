@@ -1,0 +1,37 @@
+{
+  "edition_date": "2026-08-29",
+  "published_at": "2026-08-30T10:27:37.039Z",
+  "expires_at": "2026-08-31T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "Nepal floods kill 675; nearly 2,500 missing",
+      "body": "Flooding along Nepal’s border with China has killed at least 675 people in Nepal, the country’s disaster agency said Saturday. Another 2,498 people were missing, leaving the final toll uncertain.\n\nMore than 3,700 people had been rescued. Helicopters were transporting survivors and aid despite poor weather.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/nepal-china-flood-rescue-fde34c839b648f93f6aa011f044deb00"
+        }
+      ]
+    },
+    {
+      "headline": "Kyiv-area warehouse strike kills 37",
+      "body": "The death toll from a Russian drone strike on an ammunition warehouse in Myla, west of Kyiv, reached 37. Explosions and fires damaged at least 50 residential buildings.\n\nUkrainian authorities opened a criminal investigation into why ammunition had been stored near homes and a care facility.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/russia-ukraine-war-bucha-kyiv-4be42e27897bf45797a0cf3758be5eaf"
+        }
+      ]
+    },
+    {
+      "headline": "U.S. deports dozens to Central African Republic",
+      "body": "A U.S. deportation flight carrying dozens of people landed in Bangui, the capital of the Central African Republic. The passengers included 12 Afghans, eight Iranians and people from Nepal and Nicaragua.\n\nOne Afghan passenger had judicial protection against removal to Afghanistan because he feared Taliban persecution connected to his brothers’ work with the U.S. military. He was instead sent to the Central African Republic.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/central-african-republic-afghan-deportation-united-states-687d053499ccdbf6a26f091219ae10fe"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "edition_date": "2026-08-21",
+  "published_at": "2026-08-22T08:40:17.170Z",
+  "expires_at": "2026-08-23T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "U.S. and Iran trade threats ahead of new sanctions announcement",
+      "body": "The United States and Iran exchanged threats on August 21 as the Trump administration prepared to announce additional economic measures against Tehran on Monday. Iranian officials warned of a forceful response, while Washington said the campaign could also target countries and companies maintaining trade ties with Iran.",
+      "sources": [
+        {
+          "name": "Just Security",
+          "url": "https://www.justsecurity.org/154807/early-edition-august-21-2026/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://theprint.in/world/us-will-impose-toughest-sanctions-in-history-on-iran-bessent-says/3020945/"
+        }
+      ]
+    },
+    {
+      "headline": "Severe storms and tornadoes damage parts of the Northeast",
+      "body": "Cleanup and damage assessments began after storms brought flooding, powerful winds and confirmed tornadoes to parts of Delaware and New York’s Long Island. Roads were inundated, vehicles were stranded and coastal properties were damaged.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/f7d2bad0e650a2345d1b3b8b228f9af0"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/02302995c22360cbc56e3cb5c7c36196"
+        }
+      ]
+    },
+    {
+      "headline": "Chief Justice temporarily allows Trump White House ballroom construction to continue",
+      "body": "Chief Justice John Roberts allowed construction of President Donald Trump’s planned $400 million White House ballroom to proceed while the Supreme Court considers the administration’s emergency request. Lower courts had ordered the work halted over questions about congressional authorization.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/b3eaee672028e584d0c520180c663e2c"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/supreme-court-white-house-ballroom-john-roberts/"
+        }
+      ]
+    },
+    {
+      "headline": "Russian drone attacks kill at least 21 people across Ukraine",
+      "body": "Russian drone strikes hit a shopping mall and other sites in central and southern Ukraine on August 21, killing at least 21 people, Ukrainian officials said. The attacks came a day after a major Russian barrage killed at least 16 people in the Kyiv region.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/5f0948b0163062d84d7a68fbfc3c1469"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/92ff5d7d1073fd8692a75e4e677f425b"
+        }
+      ]
+    },
+    {
+      "headline": "Eight people killed in charter-plane crash at remote Alaska radar site",
+      "body": "A charter plane carrying two pilots and six passengers crashed during an approach to a remote military airport in western Alaska, killing everyone aboard. Investigators said the aircraft was making a second landing attempt in heavy fog; two victims worked for the U.S. Army Corps of Engineers.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/cd21190cad6b7246d903677685f1e928"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/charter-plane-crash-cape-newenham-alaska/"
+        }
+      ]
+    }
+  ]
+}

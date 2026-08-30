@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A quiet daily news digest. Some days, nothing.">
+    <meta name="theme-color" content="#f4f1e9">
+    <link rel="canonical" href="https://quiet-news.com/">
+    <link rel="icon" type="image/svg+xml" href="/quiet-news.svg">
+    <link rel="stylesheet" href="/styles.css">
+    <script type="module" src="/app.js"></script>
+    <title>Quiet News</title>
+  </head>
+  <body>
+    <header>
+      <h1><img class="mark" src="/quiet-news.svg" alt="" width="42" height="42"> Quiet News</h1>
+      <section id="archive" class="hidden" aria-label="Past days">
+        <button id="archive-toggle" type="button" aria-expanded="false" aria-controls="archive-menu">Jump to date</button>
+        <div id="archive-menu" class="hidden" role="dialog" aria-label="Jump to a date">
+          <div class="calendar-heading">
+            <button id="archive-previous" class="calendar-nav" type="button" aria-label="Previous month">&#8249;</button>
+            <p id="archive-month" aria-live="polite"></p>
+            <button id="archive-next" class="calendar-nav" type="button" aria-label="Next month">&#8250;</button>
+          </div>
+          <div class="calendar-weekdays" aria-hidden="true">
+            <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+          </div>
+          <div id="archive-calendar" role="grid" aria-labelledby="archive-month"></div>
+          <a id="archive-today" class="hidden" href="/">Today</a>
+        </div>
+      </section>
+    </header>
+    <main id="news" aria-live="polite">
+      <div id="stories" class="hidden" data-news-state></div>
+      <p id="news-loading" class="empty" data-news-state>Looking back.</p>
+      <p id="current-quiet" class="empty hidden" data-news-state>Today is quiet. Come back tomorrow.</p>
+      <p id="archive-quiet" class="empty hidden" data-news-state>Quiet.</p>
+      <p id="unavailable" class="empty hidden" data-news-state>Unavailable.</p>
+      <p id="not-yet" class="empty hidden" data-news-state>Not yet.</p>
+      <p id="error" class="empty hidden" data-news-state>Error.</p>
+      <template id="story-template">
+        <article data-story>
+          <h2>
+            <button class="story-toggle" type="button" aria-expanded="false">
+              <span data-story-headline></span>
+              <span class="story-toggle-icon" aria-hidden="true"></span>
+            </button>
+          </h2>
+          <div class="story-details" data-story-details hidden>
+            <p class="summary" data-story-body></p>
+            <p class="sources" data-story-sources></p>
+          </div>
+        </article>
+      </template>
+    </main>
+
+    <footer>
+      <p class="footer-copy">
+        <span>No subscription. No ads. No cookies.</span>
+        <span>Verify important details with the original sources.</span>
+      </p>
+      <p class="credit">
+        <span>&copy; 2026 <a href="https://web-opt.com/">Web-Opt.com LLC</a></span>
+        <a href="https://github.com/geo4orce/quiet-news/blob/main/LICENSE">MIT License</a>
+      </p>
+    </footer>
+  </body>
+</html>

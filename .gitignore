@@ -1,0 +1,14 @@
+# Local secrets
+.env
+
+# Dependencies and generated output
+.cache/
+.npm-cache/
+dist/
+node_modules/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db

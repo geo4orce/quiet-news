@@ -1,0 +1,45 @@
+{
+  "edition_date": "2026-08-20",
+  "published_at": "2026-08-21T08:51:39.252Z",
+  "expires_at": "2026-08-22T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "Trump administration signals expanded economic pressure on Iran",
+      "body": "President Donald Trump warned that countries and companies continuing to support Iran could face severe economic consequences, while Treasury Secretary Scott Bessent said the administration would outline further measures on Monday. The move comes as the U.S.-Iran conflict and disruption around the Strait of Hormuz continue to weigh on regional security and energy markets.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/d28206ea288a3d4a9b82260ab44ce460"
+        },
+        {
+          "name": "Just Security",
+          "url": "https://www.justsecurity.org/154606/early-edition-august-20-2026/"
+        }
+      ]
+    },
+    {
+      "headline": "North Korea fires about 10 ballistic missiles toward the sea",
+      "body": "North Korea launched roughly 10 short-range ballistic missiles on August 20, South Korea’s military said, a day after Pyongyang rejected President Trump’s overture and criticized scaled-back U.S.-South Korean military exercises. The launches prompted renewed coordination among South Korea, the United States and Japan.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/b3af05067e4258f90f67023c7b2b3e9a"
+        },
+        {
+          "name": "Just Security",
+          "url": "https://www.justsecurity.org/154606/early-edition-august-20-2026/"
+        }
+      ]
+    },
+    {
+      "headline": "Russian missile and drone barrage kills at least 16 in Kyiv region",
+      "body": "Russia launched a nighttime barrage of missiles and drones against Kyiv and surrounding areas, killing at least 16 people, according to Ukrainian officials. The attack was among the latest large-scale strikes on the Ukrainian capital amid intensified long-range attacks by both sides.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/92ff5d7d1073fd8692a75e4e677f425b"
+        }
+      ]
+    }
+  ]
+}

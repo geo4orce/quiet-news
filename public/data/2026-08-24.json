@@ -1,0 +1,61 @@
+{
+  "edition_date": "2026-08-24",
+  "published_at": "2026-08-25T04:33:44.132Z",
+  "expires_at": "2026-08-26T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "Supreme Court lets federal mail-voting restrictions proceed in 23 states",
+      "body": "The 6-3 emergency ruling permits implementation of key restrictions in 23 states and Washington, D.C.; one Postal Service provision remains blocked nationwide.",
+      "sources": [
+        {
+          "name": "Supreme Court of the United States",
+          "url": "https://www.supremecourt.gov/opinions/25pdf/26a124_hgci.pdf"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/157afc3c195ce0a62c522da5ce904b04"
+        },
+        {
+          "name": "SCOTUSblog",
+          "url": "https://preview.scotusblog.com/2026/08/supreme-court-allows-trump-administration-to-move-forward-with-order-imposing-restrictions-on-ma/"
+        }
+      ]
+    },
+    {
+      "headline": "U.S. sanctions nearly 60 targets tied to Iran’s military and oil",
+      "body": "The Treasury and State departments sanctioned nearly 60 Iran-linked entities, people and vessels connected to military procurement, cyber operations and petroleum shipments.",
+      "sources": [
+        {
+          "name": "U.S. Department of State via Public Technologies",
+          "url": "https://ebs.publicnow.com/view/7F12E945E2868A0705F92418D2A30F1CEBB566C7"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/e367634d8853c8fa4a341132cd577f31"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/d88f76c1d91b11185ae4065f85abc2f9"
+        }
+      ]
+    },
+    {
+      "headline": "Global sea-surface temperature reaches record 21.1 degrees Celsius",
+      "body": "Copernicus said the average outside polar regions narrowly surpassed the March 2024 daily high amid widespread marine heat waves.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/9dd6ecf3b358a89d2b3a5468d69dbdbc"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/aug/24/worlds-oceans-hit-hottest-temperature-on-record-in-august"
+        },
+        {
+          "name": "The Washington Post",
+          "url": "https://www.washingtonpost.com/weather/2026/08/24/ocean-just-broke-temperature-record-that-may-have-stood-millennia/"
+        }
+      ]
+    }
+  ]
+}

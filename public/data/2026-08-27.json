@@ -1,0 +1,65 @@
+{
+  "edition_date": "2026-08-27",
+  "published_at": "2026-08-28T20:09:54.131Z",
+  "expires_at": "2026-08-29T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "Death toll from Nepal-Tibet glacial flooding passes 390",
+      "body": "Authorities now report more than 390 people killed and over 1,400 missing after the glacial collapse and floods near the Nepal-China border. The reported death toll has more than doubled since the previous day.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/climate-change-nepal-tibet-glacier-collapse-floods-61b592d428e4631add31ce052d0daf1f"
+        }
+      ]
+    },
+    {
+      "headline": "Judge pauses federal mail-ballot restrictions for two weeks",
+      "body": "A Boston federal judge blocked the administration from implementing new restrictions on mailed voting for two weeks. The order reverses the immediate effect of an earlier decision that had allowed the rules to proceed.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/trump-voting-mail-ballots-democrats-lawsuits-15cf1ec7dcdb8211bf6b624b75a7f4ab"
+        },
+        {
+          "name": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/politics-news/judge-blocks-rule-implementing-trump-plan-to-restrict-mailin-voting-4880440"
+        }
+      ]
+    },
+    {
+      "headline": "Lettuce-linked cyclospora outbreak reaches 20 states",
+      "body": "Federal officials confirmed illnesses in Georgia, Tennessee and Texas, bringing the outbreak to 20 states and 11,458 cases. The illnesses are linked to recalled iceberg lettuce grown in central Mexico.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/lettuce-cyclospora-fda-cdc-outbreak-mexico-19899950075127fb664282dd73cccfc9"
+        }
+      ]
+    },
+    {
+      "headline": "Convicted Bosnian Serb commander Ratko Mladic dies at 84",
+      "body": "Ratko Mladic died in a United Nations prison hospital in The Hague while serving a life sentence. He was convicted of genocide, crimes against humanity and war crimes committed during the Bosnian War.",
+      "sources": [
+        {
+          "name": "Radio Free Europe/Radio Liberty",
+          "url": "https://www.rferl.org/a/butcher-of-bosnia-ratko-mladic-dies-aged-84/33841851.html"
+        },
+        {
+          "name": "The Washington Post",
+          "url": "https://www.washingtonpost.com/obituaries/2026/08/27/ratko-mladic-bosnian-serb-commander-found-guilty-genocide-dies-84/"
+        }
+      ]
+    },
+    {
+      "headline": "Officials report critical Patriot interceptor shortage in Europe",
+      "body": "A U.S. defense official and a NATO official said Patriot interceptor inventories in Europe have fallen to critically low levels. They attributed the shortage largely to missiles being redirected to the U.S.-Iran war.",
+      "sources": [
+        {
+          "name": "Associated Press via The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/08/27/patriot-missiles-iran-war-russia-ukraine-trump/491aa304-a22d-11f1-8606-1d40ad00172e_story.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "quiet-news",
+  "private": true,
+  "version": "0.3.1",
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "check": "node scripts/validate-publications.mjs && node --test",
+    "dev": "node scripts/serve.mjs",
+    "job:publisher": "node jobs/publisher.mjs"
+  }
+}

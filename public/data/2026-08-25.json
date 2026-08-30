@@ -1,0 +1,71 @@
+{
+  "edition_date": "2026-08-25",
+  "published_at": "2026-08-26T08:54:47.480Z",
+  "expires_at": "2026-08-27T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "Dolly Parton dies at 80",
+      "body": "Singer-songwriter, actor and literacy advocate Dolly Parton died at 80 after a career spanning more than six decades.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/87156f3e6a1547b88bf414529b644ad3"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/20b9d4527e6d6a903a9e8c7a7bdc5671"
+        }
+      ]
+    },
+    {
+      "headline": "Judge blocks Ohio citizenship-proof rule for motor-voter registration",
+      "body": "The order keeps documentary citizenship proof from being required for people registering to vote through Ohio motor vehicle offices.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/358dfbf2aa25de55b0f86952fef342f8"
+        },
+        {
+          "name": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/politics-news/us-judge-blocks-ohio-law-requiring-proof-of-citizenship-for-voter-registration-4875727"
+        },
+        {
+          "name": "The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/08/25/court-halts-ohio-proof-of-citizenship-requirement-motor-vehicle-offices/"
+        }
+      ]
+    },
+    {
+      "headline": "Projectile disables oil tanker near Strait of Hormuz",
+      "body": "An unidentified projectile disabled an oil tanker off Oman near the largely closed waterway; its crew was safe.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/1a4fa2e3812c458a25a561b38dc89f09"
+        },
+        {
+          "name": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/commodities-news/iran-and-oman-discuss-temporary-hormuz-corridor-as-impasse-with-us-drags-on-4876021"
+        }
+      ]
+    },
+    {
+      "headline": "Study finds CTE in at least 24.5% of deceased NFL players",
+      "body": "Researchers confirmed CTE in at least 24.5% of 878 former NFL players who died from 2016 through 2021, despite most lacking postmortem exams.",
+      "sources": [
+        {
+          "name": "Boston University Chobanian & Avedisian School of Medicine",
+          "url": "https://www.bumc.bu.edu/camed/news-events/articles/2026/146205/"
+        },
+        {
+          "name": "BMJ Group via EurekAlert",
+          "url": "https://www.eurekalert.org/news-releases/1141024"
+        },
+        {
+          "name": "The Washington Post",
+          "url": "https://www.washingtonpost.com/sports/2026/08/25/cte-study-finds-least-1-4-nfl-players-suffered-disease/"
+        }
+      ]
+    }
+  ]
+}

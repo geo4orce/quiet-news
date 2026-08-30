@@ -1,0 +1,55 @@
+{
+  "edition_date": "2026-08-28",
+  "published_at": "2026-08-29T13:47:47.311Z",
+  "expires_at": "2026-08-30T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "U.S., Venezuela agree to develop 17 oil fields",
+      "body": "The United States and Venezuela announced an agreement to develop 17 oil fields estimated to hold as much as 65 billion barrels of oil.\n\nThe arrangement would establish a private company and give the United States an effective 55% share of its output, including ownership rights and the option to purchase oil at cost. The reserve figure represents estimated potential, not immediate production.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/trump-venezuela-oil-reserves-eb0ed5a1e99602c21a7f690c3368020e"
+        }
+      ]
+    },
+    {
+      "headline": "Norway’s King Harald dies; Haakon succeeds him",
+      "body": "King Harald V died at an Oslo hospital at age 89 after reigning over Norway since 1991.\n\nHis son automatically became King Haakon VIII. Haakon’s wife, Mette-Marit, became queen, and their daughter Ingrid Alexandra became crown princess and heir to the throne.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/228366941b7c48c59ececf004cc3c467"
+        }
+      ]
+    },
+    {
+      "headline": "Congo Ebola outbreak reaches 60 health zones",
+      "body": "The World Health Organization said the Bundibugyo Ebola outbreak in the Democratic Republic of the Congo had spread to 60 health zones across six provinces, up from 54 zones.\n\nAs of August 26, Congo had recorded 5,794 confirmed cases and 2,786 deaths. That was an increase of 1,129 cases and 602 deaths since the WHO’s previous update two weeks earlier.",
+      "sources": [
+        {
+          "name": "World Health Organization",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/615dcbccd5b37f68aca89f8e286f4d7b"
+        }
+      ]
+    },
+    {
+      "headline": "FDA authorizes JUUL2 devices and menthol pods",
+      "body": "The Food and Drug Administration authorized Juul Labs to market its updated JUUL2 vaping device and tobacco- and menthol-flavored pods in the United States.\n\nThe device offers an optional app-based age-verification system. The FDA said authorization allows the products to be sold but does not mean the agency considers them safe or endorses their use.",
+      "sources": [
+        {
+          "name": "U.S. Food and Drug Administration",
+          "url": "https://www.fda.gov/tobacco-products/ctp-newsroom/fda-authorizes-marketing-juul2-e-cigarette-device-and-tobacco-and-menthol-flavored-pods"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/juul-vape-update-fda-age-verification-juul2-10c93d78a67bf5e4be25f437528fb416"
+        }
+      ]
+    }
+  ]
+}

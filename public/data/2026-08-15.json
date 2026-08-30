@@ -1,0 +1,57 @@
+{
+  "edition_date": "2026-08-15",
+  "published_at": "2026-08-16T08:07:00.000Z",
+  "expires_at": "2026-08-17T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "TEST: Five-story layout sample",
+      "body": "This sample checks the largest supported daily result.",
+      "sources": [
+        {
+          "name": "Quiet News test fixture",
+          "url": "https://quiet-news.com/"
+        }
+      ]
+    },
+    {
+      "headline": "TEST: Current-file sample",
+      "body": "This placeholder confirms that the homepage reads the full current daily file.",
+      "sources": [
+        {
+          "name": "Quiet News test fixture",
+          "url": "https://quiet-news.com/"
+        }
+      ]
+    },
+    {
+      "headline": "TEST: Expiration sample",
+      "body": "This placeholder helps verify that stale current content is not silently displayed.",
+      "sources": [
+        {
+          "name": "Quiet News test fixture",
+          "url": "https://quiet-news.com/"
+        }
+      ]
+    },
+    {
+      "headline": "TEST: Native-app API sample",
+      "body": "This placeholder demonstrates the same public JSON contract available to future native apps.",
+      "sources": [
+        {
+          "name": "Quiet News test fixture",
+          "url": "https://quiet-news.com/"
+        }
+      ]
+    },
+    {
+      "headline": "TEST: Final layout sample",
+      "body": "This final placeholder is intentionally obvious and can be deleted after more real days accumulate.",
+      "sources": [
+        {
+          "name": "Quiet News test fixture",
+          "url": "https://quiet-news.com/"
+        }
+      ]
+    }
+  ]
+}
