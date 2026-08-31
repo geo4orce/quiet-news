@@ -108,7 +108,7 @@ test("archive controls reflect the day being viewed", () => {
 test("the browser rejects stale or malformed publications", () => {
   assert.match(app, /Date\.parse\(value\.expires_at\) <= Date\.now\(\)/);
   assert.match(app, /!isArchive &&/);
-  assert.match(app, /value\.stories\.length <= 5/);
+  assert.match(app, /value\.stories\.length <= 20/);
   assert.match(app, /httpsUrl\(source\.url\)/);
 });
 

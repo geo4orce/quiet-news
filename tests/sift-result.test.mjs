@@ -7,6 +7,7 @@ import {
   SiftResultValidationError,
   validateSiftResult
 } from "../lib/sift-result.mjs";
+import { MAX_PUBLIC_STORIES } from "../lib/edition.mjs";
 
 function candidate(index) {
   return {
@@ -22,7 +23,7 @@ function candidate(index) {
 
 const candidateSet = {
   target_date: "2026-08-21",
-  candidates: Array.from({ length: 5 }, (_, index) => candidate(index + 1))
+  candidates: Array.from({ length: MAX_PUBLIC_STORIES }, (_, index) => candidate(index + 1))
 };
 
 const story = (index) => ({
@@ -32,7 +33,7 @@ const story = (index) => ({
   sources: [{ name: "Example", url: `https://example.com/${index}` }]
 });
 
-test("accepts zero through five stories while deciding every candidate", () => {
+test("accepts zero through the public safety boundary while deciding every candidate", () => {
   const quiet = {
     stories: [],
     rejections: candidateSet.candidates.map(({ candidate_id }) => ({
@@ -40,11 +41,14 @@ test("accepts zero through five stories while deciding every candidate", () => {
       code: "insufficient_materiality"
     }))
   };
-  const full = { stories: Array.from({ length: 5 }, (_, index) => story(index + 1)), rejections: [] };
+  const full = {
+    stories: Array.from({ length: MAX_PUBLIC_STORIES }, (_, index) => story(index + 1)),
+    rejections: []
+  };
   assert.deepEqual(validateSiftResult(quiet, candidateSet), []);
   assert.deepEqual(validateSiftResult(full, candidateSet), []);
   assert.deepEqual(editionFromSiftResult(quiet, candidateSet), { stories: [] });
-  assert.equal(editionFromSiftResult(full, candidateSet).stories.length, 5);
+  assert.equal(editionFromSiftResult(full, candidateSet).stories.length, MAX_PUBLIC_STORIES);
 });
 
 test("rejects missing decisions, duplicate decisions, and invented sources", () => {

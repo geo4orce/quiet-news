@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import {
   assertEdition,
   EditionValidationError,
+  MAX_PUBLIC_STORIES,
   validateEdition
 } from "../lib/edition.mjs";
 
@@ -14,18 +15,18 @@ function story(index = 1) {
   };
 }
 
-test("accepts empty and full daily results", () => {
+test("accepts empty results and the public safety boundary", () => {
   assert.deepEqual(validateEdition({ stories: [] }), []);
   assert.deepEqual(validateEdition({
-    stories: Array.from({ length: 5 }, (_, index) => story(index))
+    stories: Array.from({ length: MAX_PUBLIC_STORIES }, (_, index) => story(index))
   }), []);
 });
 
-test("rejects content outside the small daily contract", () => {
+test("rejects content beyond the public safety boundary", () => {
   const tooMany = validateEdition({
-    stories: Array.from({ length: 6 }, (_, index) => story(index))
+    stories: Array.from({ length: MAX_PUBLIC_STORIES + 1 }, (_, index) => story(index))
   });
-  assert.ok(tooMany.some((error) => error.includes("more than five")));
+  assert.ok(tooMany.some((error) => error.includes(`more than ${MAX_PUBLIC_STORIES}`)));
 
   const malformed = validateEdition({
     stories: [

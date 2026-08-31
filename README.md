@@ -2,8 +2,8 @@
 
 [Quiet News](https://quiet-news.com/) is not a conventional news aggregator.
 It is an AI-powered interruption filter. Aggregators collect stories and keep
-a feed full. Quiet News passes along only zero to five things important enough
-to earn your attention. Some days, nothing.
+a feed full. Quiet News passes along only a few things important enough to earn
+your attention, or zero on quiet days.
 
 It is not an official channel and does not try to sound like one. There are no
 accounts, feeds, ads, personalization, filler, clickbait, or endless scroll.

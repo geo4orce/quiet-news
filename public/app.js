@@ -39,7 +39,7 @@ const validPublication = (value) => isObject(value)
   && isoInstant(value.expires_at)
   && value.expires_at > value.published_at
   && Array.isArray(value.stories)
-  && value.stories.length <= 5
+  && value.stories.length <= 20
   && value.stories.every(validStory);
 
 const validIndex = (value) => isObject(value)

@@ -33,8 +33,9 @@ small, dependency-free, and understandable without a build system.
 - Quiet News is positioned as an AI-powered interruption filter, not a
   conventional news aggregator. It does not fill space to maintain a feed or
   satisfy an engagement quota. Silence is a valid product result.
-- Quiet News passes along zero to five things from the completed previous
-  `America/New_York` day. Zero stories is a successful quiet result.
+- Quiet News passes along only a few things from the completed previous
+  `America/New_York` day, or zero on quiet days. Zero stories is a successful
+  quiet result.
 - The voice is plain, direct, calm, and person-to-person. It must not imitate
   a newspaper, magazine, broadcast, newsletter, press release, or official
   channel.
@@ -77,7 +78,8 @@ Data rules:
 - `edition_date` is the completed New York calendar day summarized.
 - `published_at` and `expires_at` are canonical UTC ISO timestamps. Normal
   expiry is 5:00 a.m. New York time the following day.
-- `stories` contains zero to five items. Titles and bodies are non-empty.
+- `stories` contains zero to 20 items. This is a public runaway-output safety
+  boundary, not the private editorial contract. Titles and bodies are non-empty.
   Every story has at least one source with a non-empty name and absolute HTTPS
   URL.
 - Unknown fields, partial output, invalid files, and stale current files are
@@ -123,12 +125,13 @@ Quiet sift uses high reasoning without tools. It starts from exclusion and
 uses only the target day, exact prior-day stories, and validated candidates.
 It rejects weak, speculative, sensational, narrow-interest, routine,
 incremental, duplicate, stale, displaced, or merely procedural developments.
-Five is a ceiling, not a target, and borderline items are rejected. Accepted
-stories use only source records from their candidate. Headlines are direct,
-not hooks. Aim for seven words and about 52 characters, but treat that as
-editorial guidance rather than a validity boundary. Bodies usually use one to
-four short paragraphs and about 240 words or fewer, with no filler. Generous
-schema limits exist only to reject runaway output.
+There is no quota to fill, and borderline items are rejected. The private sift
+prompt owns the editorial story-count guidance and publication ceiling.
+Accepted stories use only source records from their candidate. Headlines are
+direct, not hooks. Aim for seven words and about 52 characters, but treat that
+as editorial guidance rather than a validity boundary. Bodies usually use one
+to four short paragraphs and about 240 words or fewer, with no filler. Generous
+public schema limits exist only to reject runaway output.
 
 The sift returns a private decision envelope that accounts for every candidate
 exactly once as accepted or rejected. Rejection codes are:

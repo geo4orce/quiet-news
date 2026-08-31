@@ -124,6 +124,7 @@ test("runs independent discovery and sift requests with structured metadata", as
   assert.equal("previous_response_id" in sift.body, false);
   assert.deepEqual(JSON.parse(sift.body.input[1].content).candidate_set, candidates());
   assert.equal(sift.body.text.format.name, "quiet_news_sift");
+  assert.equal(sift.body.text.format.schema.properties.stories.maxItems, 20);
   assert.equal(
     sift.body.text.format.schema.properties.stories.items.properties.headline.maxLength,
     MAX_SIFT_HEADLINE_LENGTH
