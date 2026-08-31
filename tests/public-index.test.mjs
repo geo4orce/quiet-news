@@ -45,6 +45,12 @@ test("the static site loads current and past days", () => {
   assert.match(app, /setStoryOpen/);
 });
 
+test("the loading indicator remains accessible", () => {
+  assert.match(html, /id="news-loading"[\s\S]*Loading Quiet News\./);
+  assert.match(html, /class="loading-dots" aria-hidden="true"/);
+  assert.match(styles, /prefers-reduced-motion: reduce[\s\S]*\.loading-dots span \{ animation: none;/);
+});
+
 test("the requested-day state matrix is explicit and honest", () => {
   const today = "2026-08-28";
   const dates = ["2026-08-26", "2026-08-25", "2026-08-24", "2026-08-21", "2026-08-14", "2026-08-13"];

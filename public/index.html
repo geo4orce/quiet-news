@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A quiet daily news digest. Some days, nothing.">
+    <meta name="description" content="An AI-powered daily news filter: only the few things worth interrupting your day, with no filler, clickbait, or endless scroll. Some days, nothing.">
+    <meta name="keywords" content="quiet news, AI-powered news, AI news filter, daily news filter, curated news, important news, news aggregator alternative, news without clickbait, no doomscrolling, daily news digest">
     <meta name="theme-color" content="#f4f1e9">
     <link rel="canonical" href="https://quiet-news.com/">
     <link rel="icon" type="image/svg+xml" href="/quiet-news.svg">
@@ -32,7 +33,12 @@
     </header>
     <main id="news" aria-live="polite">
       <div id="stories" class="hidden" data-news-state></div>
-      <p id="news-loading" class="empty" data-news-state>Looking back.</p>
+      <p id="news-loading" class="empty" data-news-state>
+        <span class="visually-hidden">Loading Quiet News.</span>
+        <span class="loading-dots" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+      </p>
       <p id="current-quiet" class="empty hidden" data-news-state>Today is quiet. Come back tomorrow.</p>
       <p id="archive-quiet" class="empty hidden" data-news-state>Quiet.</p>
       <p id="unavailable" class="empty hidden" data-news-state>Unavailable.</p>
@@ -56,7 +62,7 @@
 
     <footer>
       <p class="footer-copy">
-        <span>One quiet news check-in, every morning.</span>
+        <span>Daily news. AI-powered. Only what earns your attention.</span>
         <span>Verify important details with the original sources.</span>
       </p>
       <p class="credit">

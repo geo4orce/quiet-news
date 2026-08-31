@@ -1,12 +1,14 @@
 # Quiet News
 
-[Quiet News](https://quiet-news.com/) is one small daily note shared with
-everyone. Each morning it passes along zero to five things worth knowing.
-Some days, nothing.
+[Quiet News](https://quiet-news.com/) is not a conventional news aggregator.
+It is an AI-powered interruption filter. Aggregators collect stories and keep
+a feed full. Quiet News passes along only zero to five things important enough
+to earn your attention. Some days, nothing.
 
 It is not an official channel and does not try to sound like one. There are no
-accounts, feeds, ads, personalization, or endless scroll. Past days remain
-available from the calendar.
+accounts, feeds, ads, personalization, filler, clickbait, or endless scroll.
+A quiet result is a complete answer, not a failed publication. Past days
+remain available from the calendar.
 
 ## Local use
 

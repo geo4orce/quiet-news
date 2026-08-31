@@ -30,6 +30,9 @@ small, dependency-free, and understandable without a build system.
 
 ## Product contract
 
+- Quiet News is positioned as an AI-powered interruption filter, not a
+  conventional news aggregator. It does not fill space to maintain a feed or
+  satisfy an engagement quota. Silence is a valid product result.
 - Quiet News passes along zero to five things from the completed previous
   `America/New_York` day. Zero stories is a successful quiet result.
 - The voice is plain, direct, calm, and person-to-person. It must not imitate
@@ -85,6 +88,9 @@ Data rules:
 
 Browser rules:
 
+- The initial loading state uses a small accessible indicator. Its motion is
+  disabled when the visitor prefers reduced motion, and it is replaced when
+  loading reaches a content or terminal state.
 - The default page loads `/data/current.json` and applies expiry. A valid
   `?date=YYYY-MM-DD` loads that dated file without expiry.
 - A requested past date absent from `index.json` says `Unavailable.` A date on
