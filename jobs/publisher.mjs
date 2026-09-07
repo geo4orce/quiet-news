@@ -4,14 +4,18 @@ import { createOpenAIGenerator } from "../lib/openai-generator.mjs";
 import { PublicationStore } from "../lib/publication-store.mjs";
 import { publishDailyEdition } from "../lib/publisher.mjs";
 
-export async function runPublisherJob({ env = process.env, logger = console } = {}) {
-  const store = new PublicationStore();
+export async function runPublisherJob({
+  env = process.env, logger = console, store = new PublicationStore(),
+  prepareGeneration, onGenerationStage
+} = {}) {
   let generator;
-  const generate = (input) => {
+  const generate = async (input) => {
+    if (!generator) await prepareGeneration?.();
     generator ||= createOpenAIGenerator({
       apiKey: env.OPENAI_API_KEY,
       prompts: generationPromptsFrom(env),
-      logger
+      logger,
+      onGenerationStage
     });
     return generator(input);
   };

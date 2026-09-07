@@ -10,7 +10,8 @@ small, dependency-free, and understandable without a build system.
   rules.
 - `public/data` on `main` is production storage, history, backup, and audit
   log. Discovery candidates and rejection metadata must never be written
-  under `public/` or committed.
+  under `public/` or committed to this public repository. They are saved only
+  in the private publisher repository's `raw` branch.
 - The browser uses plain HTML, CSS, and JavaScript. A DigitalOcean App Platform
   scheduled job owns generation. The literal discovery and sift prompts live
   only in the private `geo4orce/quiet-news-publisher` repository.
@@ -175,14 +176,19 @@ again at 4:37 a.m. New York time. Each invocation:
 7. Retries only timeouts, rate limits, and provider 5xx responses once per
    stage. The maximum is two attempts per stage and four provider calls.
 8. Reuses the validated in-memory candidate set when retrying quiet sift.
+   When private archival is enabled, the runner checks archive access before
+   generation and saves each validated stage to `raw/YYYY-MM-DD-raw.json`
+   on its private `raw` branch.
+   Discovery is saved before sift; sift is saved before public publication.
 9. Writes the dated file, `current.json`, and `index.json` only after both
    stages succeed.
 10. Validates the complete history, commits only `public/data`, and pushes
     `main`, which starts the DigitalOcean static-site deployment.
 
 The job timeout is 20 minutes, shorter than the 30-minute gap between scheduled
-invocations. A failed generation changes no remote files. A later invocation
-may repeat discovery because candidates are not persisted.
+invocations. A failed generation changes no public remote files. Its validated
+discovery may already be saved privately. A later invocation may repeat
+discovery; earlier private runs are retained and not automatically reused.
 
 The generator fails closed on invalid output, refusal, incomplete response,
 malformed JSON, timeout after retry, or schema violation. Network,
@@ -200,6 +206,9 @@ These lines contain only the same aggregate counts as the structured records.
 Failure records contain only sanitized codes, stage, and attempt counts. Logs
 must never contain candidate bodies, public story bodies, prompts, secrets, or
 hidden reasoning.
+Private stage archival is an awaited callback, outside provider retry handling.
+Callback failures are sanitized and stop publication. Raw outputs are never
+included in the generator's returned log metadata or public publication object.
 
 Provider budgets, cost alerts, and other provider-side mutations require
 explicit approval. Review costs through reported usage and the provider

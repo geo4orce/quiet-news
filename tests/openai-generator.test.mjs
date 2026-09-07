@@ -256,3 +256,57 @@ test("classifies permanent provider failures without retrying", async () => {
     assert.equal(calls, 1);
   }
 });
+
+test("archives only validated outputs in stage order without leaking or sharing mutable data", async () => {
+  const records = [];
+  const logs = [];
+  let calls = 0;
+  const generate = createOpenAIGenerator({
+    apiKey: "test-key-not-secret", prompts: TEST_PROMPTS,
+    logger: { info: (line) => logs.push(line) },
+    onGenerationStage: async (record) => {
+      records.push(structuredClone(record));
+      if (record.stage === "discovery") record.output.candidates.length = 0;
+    },
+    fetchImpl: async (_url, options) => {
+      calls += 1;
+      if (calls === 2) {
+        assert.equal(records[0].stage, "discovery");
+        assert.equal(JSON.parse(JSON.parse(options.body).input[1].content).candidate_set.candidates.length, 2);
+      }
+      return response({ body: completedResponse(calls === 1 ? candidates() : siftResult()) });
+    }
+  });
+  const result = await generate({ editionDay: "2026-08-11", priorEdition: { stories: [] } });
+  assert.deepEqual(records.map((record) => record.stage), ["discovery", "sift"]);
+  assert.deepEqual(records[0].output, candidates());
+  assert.deepEqual(records[1].output, siftResult());
+  assert.equal(records[0].target_date, "2026-08-11");
+  assert.deepEqual(records[0].prior_stories, []);
+  assert.doesNotMatch(JSON.stringify(result) + logs.join("\n"), /Neutral summary|candidate-02/);
+  assert.doesNotMatch(JSON.stringify(records), /Test discovery system prompt|test-key-not-secret/);
+});
+
+test("archive failures are sanitized and never retry a paid stage", async () => {
+  for (const failedStage of ["discovery", "sift"]) {
+    let calls = 0;
+    const generate = createOpenAIGenerator({
+      apiKey: "test-key-not-secret", prompts: TEST_PROMPTS,
+      logger: { info() {} },
+      onGenerationStage: async (record) => {
+        if (record.stage === failedStage) throw new Error("secret archive response body");
+      },
+      fetchImpl: async () => {
+        calls += 1;
+        return response({ body: completedResponse(calls === 1 ? candidates() : siftResult()) });
+      }
+    });
+    await assert.rejects(() => generate({ editionDay: "2026-08-11", priorEdition: null }), (error) => {
+      assert.equal(error.errorCode, "archive_write_failed");
+      assert.equal(error.metadata.stage, failedStage);
+      assert.doesNotMatch(JSON.stringify(error) + error.message, /secret archive/);
+      return true;
+    });
+    assert.equal(calls, failedStage === "discovery" ? 1 : 2);
+  }
+});

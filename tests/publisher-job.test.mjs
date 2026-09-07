@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { publisherFailureRecord } from "../jobs/publisher.mjs";
+import { publisherFailureRecord, runPublisherJob } from "../jobs/publisher.mjs";
 import { createOpenAIGenerator } from "../lib/openai-generator.mjs";
 
 test("missing configuration fails with sanitized output", () => {
@@ -23,4 +23,25 @@ test("missing configuration fails with sanitized output", () => {
       return true;
     }
   );
+});
+
+test("already published jobs skip private archive preparation and prompt loading", async () => {
+  const result = await runPublisherJob({
+    env: {}, logger: { info() {} },
+    store: { hasEdition: async () => true },
+    prepareGeneration: async () => { throw new Error("must not prepare"); },
+    onGenerationStage: async () => { throw new Error("must not archive"); }
+  });
+  assert.equal(result.status, "already_published");
+});
+
+test("archive preflight failure stops before generator configuration or publication", async () => {
+  await assert.rejects(() => runPublisherJob({
+    env: {}, logger: { info() {} },
+    store: {
+      hasEdition: async () => false, readEdition: async () => null,
+      publish: async () => { assert.fail("must not publish"); }
+    },
+    prepareGeneration: async () => { throw new Error("preflight unavailable"); }
+  }), /preflight unavailable/);
 });
