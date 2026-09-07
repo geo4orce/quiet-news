@@ -193,6 +193,10 @@ Stage records contain the stage, model, prompt version, response and request
 IDs, token usage, web-search call count, duration, attempt count, and item
 counts. Sift records also include rejection counts by code. Publisher metadata
 includes total provider attempts, tokens, web-search calls, and duration.
+After saving a publication, the job also emits a readable `Quiet News
+(YYYY-MM-DD): ...` summary with candidate, published, and rejected counts,
+followed by `Rejections: ...` with nonzero counts and plain-language labels.
+These lines contain only the same aggregate counts as the structured records.
 Failure records contain only sanitized codes, stage, and attempt counts. Logs
 must never contain candidate bodies, public story bodies, prompts, secrets, or
 hidden reasoning.

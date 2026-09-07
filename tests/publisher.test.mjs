@@ -67,3 +67,29 @@ test("a failed generation changes no publication files", async () => {
   }), /generation failed/);
   assert.equal(published, false);
 });
+
+test("emits the readable summary only after publication storage succeeds", async () => {
+  const events = [];
+  const options = {
+    store: fakeStore({ publish: async () => { events.push("stored"); } }),
+    logger: { info: (line) => events.push(line) },
+    generate: async () => ({
+      edition: { stories: [] },
+      metadata: {
+        discovery: { candidateCount: 2 },
+        sift: { acceptedCount: 0, rejectedCount: 2, rejectionCounts: { narrow_interest: 2 } }
+      }
+    })
+  };
+  await publish(options);
+  assert.equal(events[0], "stored");
+  assert.ok(events.includes("Quiet News (2026-08-15): 2 candidates, 0 published, 2 rejected"));
+  assert.ok(events.includes("Rejections: 2 narrow interest"));
+
+  events.length = 0;
+  await assert.rejects(() => publish({
+    ...options,
+    store: fakeStore({ publish: async () => { throw new Error("storage failed"); } })
+  }), /storage failed/);
+  assert.deepEqual(events, []);
+});
