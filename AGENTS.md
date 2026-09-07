@@ -9,9 +9,11 @@ small, dependency-free, and understandable without a build system.
 - `AGENTS.md` owns the technical contract, operating context, and maintenance
   rules.
 - `public/data` on `main` is production storage, history, backup, and audit
-  log. Discovery candidates and rejection metadata must never be written
-  under `public/` or committed to this public repository. They are saved only
-  in the private publisher repository's `raw` branch.
+  log. Validated discovery candidates and sift decisions are saved in
+  `data-raw/YYYY-MM-DD.json` on this repository's `main`, using the existing
+  publisher token. These files are publicly readable on GitHub but must never
+  be written under `public/` or served by the website. Never archive literal
+  prompts, credentials, complete provider responses, or hidden reasoning.
 - The browser uses plain HTML, CSS, and JavaScript. A DigitalOcean App Platform
   scheduled job owns generation. The literal discovery and sift prompts live
   only in the private `geo4orce/quiet-news-publisher` repository.
@@ -22,7 +24,7 @@ small, dependency-free, and understandable without a build system.
 - `package.json` is the only application version source. Release tags use the
   matching `vX.Y.Z`; daily files do not change the version.
 - The MIT License covers source code and documentation, not daily content
-  under `public/data`.
+  under `public/data` or `data-raw`.
 - `public/sitemap.xml` lists only the canonical homepage. Dated query states
   and JSON files are not canonical pages. `public/robots.txt` advertises the
   sitemap.
@@ -134,7 +136,7 @@ as editorial guidance rather than a validity boundary. Bodies usually use one
 to four short paragraphs and about 240 words or fewer, with no filler. Generous
 public schema limits exist only to reject runaway output.
 
-The sift returns a private decision envelope that accounts for every candidate
+The sift returns a decision envelope that accounts for every candidate
 exactly once as accepted or rejected. Rejection codes are:
 
 ```text
@@ -176,19 +178,22 @@ again at 4:37 a.m. New York time. Each invocation:
 7. Retries only timeouts, rate limits, and provider 5xx responses once per
    stage. The maximum is two attempts per stage and four provider calls.
 8. Reuses the validated in-memory candidate set when retrying quiet sift.
-   When private archival is enabled, the runner checks archive access before
-   generation and saves each validated stage to `raw/YYYY-MM-DD-raw.json`
-   on its private `raw` branch.
-   Discovery is saved before sift; sift is saved before public publication.
+   The runner saves each validated stage locally to `data-raw/YYYY-MM-DD.json`.
+   Each file has a `runs` array retaining prior attempts, exact prior-day
+   stories, discovery output, sift decisions, and stage metadata. A null sift
+   means that stage was not archived, not that all candidates were rejected.
 9. Writes the dated file, `current.json`, and `index.json` only after both
    stages succeed.
-10. Validates the complete history, commits only `public/data`, and pushes
-    `main`, which starts the DigitalOcean static-site deployment.
+10. Validates the complete history, commits `public/data` and the dated
+    `data-raw` file together, and pushes `main`, which starts the DigitalOcean
+    static-site deployment. No separate token or storage branch is needed.
 
 The job timeout is 20 minutes, shorter than the 30-minute gap between scheduled
-invocations. A failed generation changes no public remote files. Its validated
-discovery may already be saved privately. A later invocation may repeat
-discovery; earlier private runs are retained and not automatically reused.
+invocations. A caught generation failure changes no website publication files;
+the runner attempts a raw-only commit of any stages already saved locally.
+This is best-effort: a hard container shutdown or failed Git push can lose
+uncommitted raw output. A later invocation may repeat discovery; saved earlier
+runs are retained and not automatically reused.
 
 The generator fails closed on invalid output, refusal, incomplete response,
 malformed JSON, timeout after retry, or schema violation. Network,
@@ -206,7 +211,7 @@ These lines contain only the same aggregate counts as the structured records.
 Failure records contain only sanitized codes, stage, and attempt counts. Logs
 must never contain candidate bodies, public story bodies, prompts, secrets, or
 hidden reasoning.
-Private stage archival is an awaited callback, outside provider retry handling.
+Raw stage archival is an awaited callback, outside provider retry handling.
 Callback failures are sanitized and stop publication. Raw outputs are never
 included in the generator's returned log metadata or public publication object.
 
@@ -217,6 +222,7 @@ dashboard rather than a hard-coded estimate.
 ## Repository map
 
 - `public/`: static website and public JSON history
+- `data-raw/`: publicly readable analysis archive, excluded from the website
 - `jobs/`: public publisher entry point used by the private runner
 - `lib/`: generation contracts, prompt injection, validation, date logic, and
   storage

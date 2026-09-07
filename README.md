@@ -28,12 +28,22 @@ directly.
 
 geo@web-opt.com
 
+## Generation archive
+
+`data-raw/YYYY-MM-DD.json` contains the validated discovery candidates and
+sift decisions for each saved run, including rejected candidates. Match each
+`candidate_id` in `discovery.output` with `sift.output.stories` or
+`sift.output.rejections` to see the decision and rejection code. A null `sift`
+means that stage was not saved. These are unselected analysis records, not
+published news. They are public on GitHub but outside the website's `public/`
+folder. Prompts, credentials, and hidden reasoning are never included.
+
 ## License
 
 The source code and documentation in this repository are available under the
 [MIT License](LICENSE).
 
-The MIT License does not apply to the daily content under `public/data`.
+The MIT License does not apply to daily content under `public/data` or `data-raw`.
 No license is granted to reuse or redistribute that content except as
 permitted by applicable law. Source links and underlying third-party material
 remain subject to their respective owners.
