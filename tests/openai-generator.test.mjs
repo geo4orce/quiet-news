@@ -232,6 +232,114 @@ test("caps retryable failures at two attempts per stage", async () => {
   assert.equal(MAX_PROVIDER_ATTEMPTS_PER_RUN, 4);
 });
 
+test("discovery and sift deadlines leave room within the twenty-minute job", { timeout: 1_000 }, async (t) => {
+  t.mock.timers.enable({ apis: ["setTimeout"] });
+  for (const [stage, deadlineMs] of [["discovery", 300_000], ["sift", 180_000]]) {
+    let signal;
+    let started;
+    const requestStarted = new Promise((resolve) => { started = resolve; });
+    const generate = createOpenAIGenerator({
+      apiKey: "test-key-not-secret", prompts: TEST_PROMPTS,
+      retryDelaysMs: [], logger: { info() {} },
+      fetchImpl: async (_url, options) => {
+        const isDiscovery = JSON.parse(options.body).text.format.name === "quiet_news_candidates";
+        if (stage === "sift" && isDiscovery) {
+          return response({ body: completedResponse(candidates()) });
+        }
+        signal = options.signal;
+        return new Promise((_resolve, reject) => {
+          signal.addEventListener("abort", () => reject(signal.reason), { once: true });
+          started();
+        });
+      }
+    });
+    const failed = assert.rejects(
+      generate({ editionDay: "2026-08-11", priorEdition: null }),
+      (error) => error.errorCode === "timeout" && error.metadata.stage === stage
+    );
+    await requestStarted;
+    t.mock.timers.tick(deadlineMs - 1);
+    assert.equal(signal.aborted, false);
+    t.mock.timers.tick(1);
+    assert.equal(signal.aborted, true);
+    await failed;
+  }
+});
+
+test("body timeouts retry only the unfinished stage and stop after two attempts", { timeout: 1_000 }, async (t) => {
+  t.mock.timers.enable({ apis: ["setTimeout"] });
+  for (const [stage, status] of [["discovery", 200], ["sift", 200], ["discovery", 503]]) {
+    let calls = 0;
+    const archivedStages = [];
+    const logs = [];
+    let notifyBody;
+    const nextBody = () => new Promise((resolve) => { notifyBody = resolve; });
+    const generate = createOpenAIGenerator({
+      apiKey: "test-key-not-secret", prompts: TEST_PROMPTS, timeoutMs: 20,
+      retryDelaysMs: [0], sleep: async () => {},
+      logger: { info: (line) => logs.push(line), warn: (line) => logs.push(line) },
+      onGenerationStage: async (record) => { archivedStages.push(record.stage); },
+      fetchImpl: async (_url, options) => {
+        calls += 1;
+        if (stage === "sift" && calls === 1) {
+          return response({ body: completedResponse(candidates()) });
+        }
+        return {
+          ...response({ status, requestId: "req_stalled_body" }),
+          json: () => new Promise((_resolve, reject) => {
+            options.signal.addEventListener("abort", () => reject(options.signal.reason), { once: true });
+            notifyBody();
+          })
+        };
+      }
+    });
+    let bodyStarted = nextBody();
+    const failed = assert.rejects(
+      generate({ editionDay: "2026-08-11", priorEdition: null }),
+      (error) => error.errorCode === "timeout"
+        && error.metadata.stage === stage
+        && error.metadata.attempts === 2
+        && error.metadata.requestId === "req_stalled_body"
+    );
+    for (let attempt = 1; attempt <= 2; attempt += 1) {
+      await bodyStarted;
+      bodyStarted = nextBody();
+      t.mock.timers.tick(20);
+    }
+    await failed;
+    assert.equal(calls, stage === "sift" ? 3 : 2);
+    assert.deepEqual(archivedStages, stage === "sift" ? ["discovery"] : []);
+    assert.doesNotMatch(logs.join("\n"), /test-key-not-secret|Test discovery system prompt/);
+  }
+});
+
+test("a malformed response body fails without retry and clears the deadline", async (t) => {
+  t.mock.timers.enable({ apis: ["setTimeout"] });
+  let calls = 0;
+  let signal;
+  const generate = createOpenAIGenerator({
+    apiKey: "test-key-not-secret", prompts: TEST_PROMPTS, timeoutMs: 20,
+    logger: { info() {}, warn() {} },
+    fetchImpl: async (_url, options) => {
+      calls += 1;
+      signal = options.signal;
+      return {
+        ...response({}),
+        json: async () => { throw new SyntaxError("secret provider response body"); }
+      };
+    }
+  });
+  await assert.rejects(generate({ editionDay: "2026-08-11", priorEdition: null }), (error) => {
+    assert.equal(error.errorCode, "malformed_output");
+    assert.equal(error.retryable, false);
+    assert.doesNotMatch(JSON.stringify(error), /secret provider/);
+    return true;
+  });
+  t.mock.timers.tick(20);
+  assert.equal(signal.aborted, false);
+  assert.equal(calls, 1);
+});
+
 test("classifies permanent provider failures without retrying", async () => {
   for (const [status, code, expected] of [
     [429, "insufficient_quota", "billing"],
@@ -352,7 +460,7 @@ test("logs enough context to diagnose both failed provider attempts without expo
   assert.equal(retry.httpStatus, 503);
   assert.equal(retry.attemptDurationMs, 1_500);
   assert.equal(retry.retryDelayMs, 1_000);
-  assert.equal(retry.timeoutMs, 180_000);
+  assert.equal(retry.timeoutMs, 300_000);
   const failure = records.at(-1);
   assert.equal(failure.attemptDurationMs, 2_300);
   assert.equal(failure.durationMs, 4_800);
@@ -397,6 +505,31 @@ test("distinguishes a client deadline from provider timeout responses", { timeou
     assert.equal(failure.code, status === 504 ? "provider_5xx" : "timeout");
     assert.match(logs[1], status ? /provider returned a timeout response/ : /Our request deadline expired/);
   }
+});
+
+test("manual recovery reuses validated discovery only with matching date, configuration and context", async () => {
+  let calls = 0;
+  const generate = createOpenAIGenerator({
+    apiKey: "test-key-not-secret", prompts: TEST_PROMPTS, logger: { info() {} },
+    fetchImpl: async (_url, options) => {
+      calls += 1;
+      assert.equal(JSON.parse(options.body).text.format.name, "quiet_news_sift");
+      return response({ body: completedResponse(siftResult()) });
+    }
+  });
+  const saved = { output: candidates(), priorStories: [],
+    metadata: { model: "gpt-5.6-sol", promptVersion: TEST_PROMPTS.discoveryVersion } };
+  const input = { editionDay: "2026-08-11", priorEdition: { stories: [] }, resumeDiscovery: saved };
+  const result = await generate(input);
+  assert.equal(calls, 1);
+  assert.equal(result.metadata.pipeline.totalProviderAttempts, 1);
+  assert.equal(result.metadata.discovery.reused, true);
+  for (const changed of [
+    { ...saved, priorStories: [{ headline: "different context" }] },
+    { ...saved, metadata: { ...saved.metadata, model: "different-model" } },
+    { ...saved, output: { ...saved.output, target_date: "2026-08-10" } }
+  ]) await assert.rejects(generate({ ...input, resumeDiscovery: changed }));
+  assert.equal(calls, 1);
 });
 
 test("failed sift logs count earlier discovery calls and do not repeat discovery", async () => {

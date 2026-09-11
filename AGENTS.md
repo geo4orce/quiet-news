@@ -177,6 +177,9 @@ again at 4:37 a.m. New York time. Each invocation:
    and quiet sift.
 7. Retries only timeouts, rate limits, and provider 5xx responses once per
    stage. The maximum is two attempts per stage and four provider calls.
+   Each discovery attempt has a five-minute deadline; each sift attempt has
+   a three-minute deadline. Both include reading the response body. Four
+   attempts use at most 16 minutes plus retry delays within the 20-minute job.
 8. Reuses the validated in-memory candidate set when retrying quiet sift.
    The runner saves each validated stage locally to `data-raw/YYYY-MM-DD.json`.
    Each file has a `runs` array retaining prior attempts, exact prior-day
@@ -204,6 +207,21 @@ Stage records contain the stage, model, prompt version, response and request
 IDs, token usage, web-search call count, duration, attempt count, and item
 counts. Sift records also include rejection counts by code. Publisher metadata
 includes total provider attempts, tokens, web-search calls, and duration.
+Stage records also distinguish the successful attempt duration from total
+stage duration including retries, and include the requested reasoning effort,
+configured timeout, returned model name and reasoning-token count when available.
+Failures include the requested model, prompt version and reasoning effort.
+
+Manual recovery uses `scripts/recover-day.mjs` with an explicit completed date
+and private publisher directory. Generate and validate one day before publishing
+it and advancing to the next day. Validated stages remain in the local raw file.
+Manual recovery may reuse a saved discovery only after checking its date, model,
+prompt version, candidate schema and exact preceding stories. Scheduled runs
+continue to generate afresh. Completed sift output can be published without a
+new provider call. Recovery records actual publication time; older backfilled
+days expire one millisecond later so they do not masquerade as current content.
+The latest completed day receives the normal expiry. Never fabricate historical
+publication timestamps.
 After saving a publication, the job also emits a readable `Quiet News
 (YYYY-MM-DD): ...` summary with candidate, published, and rejected counts,
 followed by `Rejections: ...` with nonzero counts and plain-language labels.
