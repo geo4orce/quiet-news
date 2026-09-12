@@ -1,0 +1,464 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-10",
+  "runs": [
+    {
+      "captured_at": "2026-09-12T03:59:12.790Z",
+      "prior_stories": [
+        {
+          "headline": "Oil tops $100 amid U.S.-Iran fighting",
+          "body": "Global benchmark oil prices climbed above $100 a barrel as fighting involving the United States and Iran threatened energy production and shipping.\n\nU.S. gasoline prices continued to rise, while stocks fell.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/7538e6386a819bcdc2547d530ec3472e"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/d1284eb72934a3b076c14449bc087fbd"
+            }
+          ]
+        }
+      ],
+      "discovery": {
+        "output": {
+          "target_date": "2026-09-10",
+          "candidates": [
+            {
+              "candidate_id": "qn-2026-09-10-01",
+              "event_date": "2026-09-10",
+              "title": "Census Bureau proposes major changes for the 2030 count",
+              "summary": "The Census Bureau proposed excluding undocumented immigrants and some other foreign nationals from the population used to apportion House seats. The proposal would also prohibit race, ethnicity and sexual-orientation questions on the decennial enumeration questionnaire while permitting demographic data to be obtained from other sources.",
+              "category": "Government",
+              "geography": "United States",
+              "sources": [
+                {
+                  "name": "Federal Register",
+                  "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-10/pdf/2026-18481.pdf"
+                },
+                {
+                  "name": "Axios",
+                  "url": "https://www.axios.com/2026/09/10/trump-census-voting-maps-race-questions"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-02",
+              "event_date": "2026-09-10",
+              "title": "Appeals court keeps block on federal mail-voting restrictions",
+              "summary": "A federal appeals court declined to pause an injunction against new Postal Service requirements for election mail. The rules would require states to obtain advance approval of ballot-envelope designs and submit voter information through a federal portal.",
+              "category": "Courts and Elections",
+              "geography": "United States",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/3e2c89ab0a0f7faca75e50ff34adee15"
+                },
+                {
+                  "name": "U.S. Court of Appeals filing hosted by the Supreme Court",
+                  "url": "https://www.supremecourt.gov/DocketPDF/26/26A305/423849/20260910172543171_20260910%20Final%20Letter%20of%20COA1%20Stay%20Denied.pdf"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-03",
+              "event_date": "2026-09-10",
+              "title": "Appeals court rejects mandatory detention without bond hearings for immigrants",
+              "summary": "A divided federal appeals court ruled that the Trump administration's policy of detaining certain immigrants without an opportunity to seek release on bond was illegal.",
+              "category": "Courts and Immigration",
+              "geography": "United States",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/c2c4fc63122279c4ae4797ae598c810f"
+                },
+                {
+                  "name": "WPLG Local 10",
+                  "url": "https://www.local10.com/news/politics/2026/09/10/appeals-court-cites-detention-of-japanese-americans-in-ruling-blasting-trump-immigration-policy/"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-04",
+              "event_date": "2026-09-10",
+              "title": "Supreme Court intervenes again in Missouri congressional-map dispute",
+              "summary": "The Supreme Court stayed a federal district court order in litigation over Missouri's Trump-backed congressional map. State officials were consequently poised to use the districts adopted after the 2020 census for the November election while litigation continued.",
+              "category": "Courts and Elections",
+              "geography": "Missouri, United States",
+              "sources": [
+                {
+                  "name": "Supreme Court of the United States",
+                  "url": "https://www.supremecourt.gov/orders/courtorders/091026zr_b07d.pdf"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/c505162fe7880f60eb4dd587bc51d313"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-05",
+              "event_date": "2026-09-10",
+              "title": "Administration announces $500 refunds for some Affordable Care Act enrollees",
+              "summary": "The White House said nearly one million people who bought unsubsidized coverage through the federal Affordable Care Act marketplace in 30 states would receive $500 refund checks beginning in October, drawing on surplus marketplace user fees.",
+              "category": "Health Policy",
+              "geography": "United States",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/5fea0b182d64b4d7966e0ec7af276e92"
+                },
+                {
+                  "name": "The White House",
+                  "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-announces-the-working-families-obamacare-refunds/"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-06",
+              "event_date": "2026-09-10",
+              "title": "Treasury sanctions networks accused of supporting Hezbollah groups",
+              "summary": "The Treasury Department imposed sanctions on entities and individuals it said supported Lebanese Hezbollah and Iraq's Kata'ib Hezbollah. It also shifted most Iran-related applications for specific sanctions licenses to a presumption of denial, with limited exceptions.",
+              "category": "Foreign Policy",
+              "geography": "United States and Middle East",
+              "sources": [
+                {
+                  "name": "Office of Foreign Assets Control",
+                  "url": "https://ofac.treasury.gov/recent-actions/20260910"
+                },
+                {
+                  "name": "Reuters via Investing.com",
+                  "url": "https://www.investing.com/news/world-news/us-slaps-new-sanctions-on-networks-aiding-irans-proxies-in-middle-east-4896764"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-07",
+              "event_date": "2026-09-10",
+              "title": "Bank regulators expand 18-month examination cycle",
+              "summary": "Federal bank regulators raised the asset threshold for qualifying institutions to receive on-site examinations every 18 months instead of annually from $3 billion to $6 billion. The OCC estimated that about 50 additional institutions under its supervision would qualify.",
+              "category": "Financial Regulation",
+              "geography": "United States",
+              "sources": [
+                {
+                  "name": "Office of the Comptroller of the Currency",
+                  "url": "https://www.occ.ustreas.gov/news-issuances/news-releases/2026/nr-occ-2026-76.html"
+                },
+                {
+                  "name": "Office of the Comptroller of the Currency",
+                  "url": "https://www.occ.ustreas.gov/news-issuances/bulletins/2026/bulletin-2026-45.html"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-08",
+              "event_date": "2026-09-10",
+              "title": "Houthis seize strategic Yemeni port near Red Sea shipping route",
+              "summary": "Iran-backed Houthi forces captured the port city of Mokha during a rapid offensive against forces aligned with Yemen's internationally recognized government. The city is near the Bab el-Mandeb Strait, a major route connecting the Red Sea with the Gulf of Aden.",
+              "category": "Conflict and Trade",
+              "geography": "Yemen and Red Sea",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/ab2e69eb2959979bae44eb4d45ae637e"
+                },
+                {
+                  "name": "El País",
+                  "url": "https://elpais.com/internacional/2026-09-10/los-huties-toman-el-puerto-estrategico-de-moca-y-amenazan-con-un-doble-estrangulamiento-del-suministro-global-de-hidrocarburos.html"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-09",
+              "event_date": "2026-09-10",
+              "title": "Canada and Ukraine sign 100-year partnership declaration",
+              "summary": "Canadian Prime Minister Mark Carney and Ukrainian President Volodymyr Zelenskyy signed a declaration intended to elevate relations into a comprehensive strategic partnership. Canada also announced initiatives covering drone production, air defense, humanitarian assistance and loan guarantees for Ukrainian energy security.",
+              "category": "International Relations",
+              "geography": "Canada and Ukraine",
+              "sources": [
+                {
+                  "name": "Prime Minister of Canada",
+                  "url": "https://www.pm.gc.ca/en/news/statements/2026/09/10/joint-statement-prime-minister-carney-and-president-zelenskyy"
+                },
+                {
+                  "name": "Prime Minister of Canada",
+                  "url": "https://www.pm.gc.ca/en/news/news-releases/2026/09/10/canada-and-ukraine-scale-drone-production-build-canadas-defence"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/2a74de6552061bda57a1c5aa4464db52"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-10",
+              "event_date": "2026-09-10",
+              "title": "Hawaii begins restoring services after Hurricane Lowell",
+              "summary": "Crews began repairing the sole cargo port serving one of Hawaii's smallest main islands, while utilities worked to restore power elsewhere after Hurricane Lowell passed along the state's western side. The damaged port is the island's principal route for food and fuel shipments.",
+              "category": "Weather and Infrastructure",
+              "geography": "Hawaii, United States",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/022ea2c63c979c08586ccb47063d691d"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-11",
+              "event_date": "2026-09-10",
+              "title": "49ers win NFL's first regular-season game in Australia",
+              "summary": "The San Francisco 49ers defeated the Los Angeles Rams 27-7 at the Melbourne Cricket Ground in the first NFL regular-season game played in Australia. The game occurred on September 10 in U.S. Eastern time and September 11 in Melbourne.",
+              "category": "Sports",
+              "geography": "United States and Australia",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/54f98c5cebf374b5782b48a27a3aa9c8"
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "url": "https://www.49ers.com/news/49ers-open-2026-with-27-7-win-over-rams-in-melbourne-takeaways-from-larvssf"
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "url": "https://www.therams.com/news/game-recap-rams-fall-to-49ers-27-7-in-week-1-in-australia"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-12",
+              "event_date": "2026-09-10",
+              "title": "Federal prosecutors open criminal inquiry into Clippers dealings",
+              "summary": "Federal prosecutors in Brooklyn opened an early-stage criminal investigation into allegations that the Los Angeles Clippers helped arrange outside sponsorship contracts for Kawhi Leonard to circumvent the NBA salary cap. Reporting said at least one subpoena had been issued, while the inquiry's targets and possible offenses remained unclear.",
+              "category": "Sports and Law",
+              "geography": "United States",
+              "sources": [
+                {
+                  "name": "The New York Times",
+                  "url": "https://www.nytimes.com/2026/09/10/us/politics/kawhi-leonard-clippers-nba-justice-department.html"
+                },
+                {
+                  "name": "ABC7 Los Angeles and ESPN",
+                  "url": "https://abc7.com/amp/post/federal-prosecutors-open-criminal-investigation-clippers-report-says/19817296/"
+                },
+                {
+                  "name": "Sportsnet",
+                  "url": "https://www.sportsnet.ca/nba/article/report-clippers-face-criminal-investigation-for-kawhi-leonard-contracts/"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-13",
+              "event_date": "2026-09-10",
+              "title": "State Department launches international commercial-space partnership",
+              "summary": "The State Department launched the Space Catalyst Partnership in Lima, Peru, to promote civil and commercial space cooperation between the United States and other Artemis Accords signatories, including assistance connecting partner countries with U.S. technology, companies and government financing.",
+              "category": "Space and Diplomacy",
+              "geography": "United States and international",
+              "sources": [
+                {
+                  "name": "U.S. Department of State via Public Technologies",
+                  "url": "https://ebs.publicnow.com/view/AC561B86081C7FED02D90A6D3DC5682828C78ADE"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-14",
+              "event_date": "2026-09-10",
+              "title": "Proposed $125 million settlement advances Passaic River cleanup",
+              "summary": "The Justice Department and Environmental Protection Agency lodged a proposed settlement requiring Environmental Resource Holdings to perform an estimated $125 million in work supporting cleanup of the Diamond Alkali Superfund site and the lower 17 miles of New Jersey's Passaic River.",
+              "category": "Environment",
+              "geography": "New Jersey, United States",
+              "sources": [
+                {
+                  "name": "Environmental Protection Agency",
+                  "url": "https://www.epa.gov/newsreleases/epa-proposed-settlement-agreement-provides-critical-work-advancing-lower-passaic-river"
+                },
+                {
+                  "name": "U.S. Department of Justice",
+                  "url": "https://www.justice.gov/opa/pr/proposed-125m-settlement-agreement-provides-critical-work-advancing-lower-passaic-river"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-15",
+              "event_date": "2026-09-10",
+              "title": "Oracle reports accelerating AI-cloud demand",
+              "summary": "Oracle reported quarterly results above Wall Street estimates, a sharp increase in its contracted revenue backlog and a smaller-than-expected cash burn as demand grew for cloud infrastructure used in artificial intelligence. The company modestly raised its fiscal-year earnings forecast.",
+              "category": "Business and Technology",
+              "geography": "United States",
+              "sources": [
+                {
+                  "name": "Oracle",
+                  "url": "https://investor.oracle.com/files/content_files/1q27-pressrelease-September_FINAL.pdf"
+                },
+                {
+                  "name": "Reuters via MarketScreener",
+                  "url": "https://ca.marketscreener.com/news/oracle-s-quarterly-revenue-beats-estimates-as-ai-boom-drives-cloud-demand-ce785bded08afe23"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "stage": "discovery",
+          "targetDate": "2026-09-10",
+          "model": "gpt-5.6-sol",
+          "promptVersion": "quiet-discovery-v1",
+          "reasoningEffort": "medium",
+          "timeoutMs": 300000,
+          "responseId": "resp_04ba35f8b12680f2016aa4cd48ef5c87d291d053ba7643e34e",
+          "requestId": "req_300ff9ae67aa4500a790f31cb850ec79",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 2970,
+          "inputTokens": 104563,
+          "outputTokens": 5794,
+          "webSearchCalls": 14,
+          "httpStatus": 200,
+          "attempts": 1,
+          "attemptDurationMs": 200686,
+          "durationMs": 200686,
+          "candidateCount": 15
+        }
+      },
+      "sift": {
+        "output": {
+          "stories": [
+            {
+              "candidate_id": "qn-2026-09-10-03",
+              "headline": "Court rejects detention without bond hearings",
+              "body": "A divided federal appeals court ruled that the Trump administration may not detain certain immigrants without letting them seek release at a bond hearing.\n\nThe ruling addresses access to a hearing, not whether an individual must be released.",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/c2c4fc63122279c4ae4797ae598c810f"
+                },
+                {
+                  "name": "WPLG Local 10",
+                  "url": "https://www.local10.com/news/politics/2026/09/10/appeals-court-cites-detention-of-japanese-americans-in-ruling-blasting-trump-immigration-policy/"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-04",
+              "headline": "Supreme Court allows Missouri map for November",
+              "body": "The Supreme Court stayed a lower-court order in the challenge to Missouri's Trump-backed congressional map. State officials were consequently poised to use the districts adopted after the 2020 census in November.\n\nThe stay applies while litigation continues and does not resolve the underlying challenge.",
+              "sources": [
+                {
+                  "name": "Supreme Court of the United States",
+                  "url": "https://www.supremecourt.gov/orders/courtorders/091026zr_b07d.pdf"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/c505162fe7880f60eb4dd587bc51d313"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-10-08",
+              "headline": "Houthis capture strategic Yemeni port",
+              "body": "Iran-backed Houthi forces captured Mokha, a Yemeni port city near the Bab el-Mandeb Strait, in a rapid offensive against forces aligned with Yemen's internationally recognized government.\n\nThe strait connects the Red Sea and Gulf of Aden and is a major shipping route. The reports did not establish an immediate disruption to traffic.",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/ab2e69eb2959979bae44eb4d45ae637e"
+                },
+                {
+                  "name": "El País",
+                  "url": "https://elpais.com/internacional/2026-09-10/los-huties-toman-el-puerto-estrategico-de-moca-y-amenazan-con-un-doble-estrangulamiento-del-suministro-global-de-hidrocarburos.html"
+                }
+              ]
+            }
+          ],
+          "rejections": [
+            {
+              "candidate_id": "qn-2026-09-10-01",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-10-02",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "qn-2026-09-10-05",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-10-06",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-10-07",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "qn-2026-09-10-09",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-10-10",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "qn-2026-09-10-11",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "qn-2026-09-10-12",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-10-13",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "qn-2026-09-10-14",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-10-15",
+              "code": "narrow_interest"
+            }
+          ]
+        },
+        "metadata": {
+          "stage": "sift",
+          "targetDate": "2026-09-10",
+          "model": "gpt-5.6-sol",
+          "promptVersion": "quiet-sift-v6",
+          "reasoningEffort": "high",
+          "timeoutMs": 180000,
+          "responseId": "resp_0e13ad541a23a8c6016aa4ce10f80887d2923268584741829c",
+          "requestId": "req_7de9d423a9e44da4963e91bf0e16a498",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 2588,
+          "inputTokens": 3667,
+          "outputTokens": 3364,
+          "webSearchCalls": 0,
+          "httpStatus": 200,
+          "attempts": 1,
+          "attemptDurationMs": 58402,
+          "durationMs": 58402,
+          "acceptedCount": 3,
+          "rejectedCount": 12,
+          "rejectionCounts": {
+            "outside_target_day": 0,
+            "insufficient_materiality": 6,
+            "narrow_interest": 4,
+            "incremental_update": 2,
+            "duplicate_event": 0,
+            "prior_day_repetition": 0,
+            "weak_support": 0,
+            "speculative_or_sensational": 0,
+            "displaced_by_stronger_story": 0
+          }
+        }
+      },
+      "review": {
+        "reviewed_at": "2026-09-12T04:01:15.219Z",
+        "reviewer": "Codex, authorized by owner",
+        "exclusions": []
+      }
+    }
+  ]
+}

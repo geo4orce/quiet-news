@@ -38,6 +38,10 @@ means that stage was not saved. These are unselected analysis records, not
 published news. They are public on GitHub but outside the website's `public/`
 folder. Prompts, credentials, and hidden reasoning are never included.
 
+Manually reviewed recovery runs may also contain `review.exclusions`, recording
+selected candidates withheld after source checks. The original sift is retained;
+apply those exclusions when comparing its selections with the published file.
+
 ## Generation timing and recovery
 
 Run `node scripts/generation-trends.mjs` to compare saved stage timings, model,
