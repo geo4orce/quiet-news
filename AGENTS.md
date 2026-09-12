@@ -111,151 +111,110 @@ Browser rules:
 
 ## Generation contract
 
-Discovery and quiet sift are separate Responses API requests. Both use
-`gpt-5.6-sol`, `store: false`, strict JSON Schema output, separately injected
-private system prompts, and no `previous_response_id` or shared reasoning
-state. Prompt versions travel with the private prompts and appear only as
-metadata in public generation logs.
+Production uses four collection requests and one independent morning sift.
+Both use gpt-5.6-sol, store:false, background Responses, strict JSON Schema,
+and separately injected private prompts. No previous_response_id or shared
+reasoning state is passed between requests. The private manifest owns versions.
 
-Discovery uses medium reasoning and web search. It returns zero to 20 neutral
-candidates for the target day, each with a unique ID, event date, title,
-summary, category, geography, and exact source links. It collapses duplicate
-reports and uses the exact prior day's stories only for continuity and
-deduplication. It must not pass scores, recommendations, confidence, hidden
-reasoning, or arguments for inclusion to the sift.
+Collection uses medium reasoning with web search. Each batch returns up to 20
+new or changed neutral candidates with stable IDs, event date, compact factual
+summary, category, geography and exact HTTPS sources. Unchanged candidates
+survive. Explicit withdrawals handle duplicate consolidation, factual
+correction/withdrawal and wrong-day assignment. Duplicate withdrawals name a
+surviving replacement. Four batches may retain up to 80 candidates; never
+truncate late candidates to favor early arrivals. Field sizes are bounded.
+Collection must not create public stories, scores, rankings, recommendations,
+confidence or hidden reasoning. Exact prior-day stories provide continuity.
 
-Quiet sift uses high reasoning without tools. It starts from exclusion and
-uses only the target day, exact prior-day stories, and validated candidates.
-It rejects weak, speculative, sensational, narrow-interest, routine,
-incremental, duplicate, stale, displaced, or merely procedural developments.
-There is no quota to fill, and borderline items are rejected. The private sift
-prompt owns the editorial story-count guidance and publication ceiling.
-Accepted stories use only source records from their candidate. Headlines are
-direct, not hooks. Aim for seven words and about 52 characters, but treat that
-as editorial guidance rather than a validity boundary. Bodies usually use one
-to four short paragraphs and about 240 words or fewer, with no filler. Generous
-public schema limits exist only to reject runaway output.
+Quiet sift uses high reasoning without tools. It receives the validated pool
+for the completed New York day and exact prior-day stories. It starts from
+exclusion and rejects weak, speculative, sensational, narrow-interest, routine,
+incremental, duplicate, stale, displaced or merely procedural developments.
+There is no quota; borderline items are rejected. Only sift creates public
+story text. It decides every candidate exactly once and uses only that
+candidate's source records. The existing public story limits and private
+editorial ceiling remain unchanged. Rejection codes remain:
 
-The sift returns a decision envelope that accounts for every candidate
-exactly once as accepted or rejected. Rejection codes are:
+outside_target_day, insufficient_materiality, narrow_interest,
+incremental_update, duplicate_event, prior_day_repetition, weak_support,
+speculative_or_sensational, displaced_by_stronger_story.
 
-```text
-outside_target_day
-insufficient_materiality
-narrow_interest
-incremental_update
-duplicate_event
-prior_day_repetition
-weak_support
-speculative_or_sensational
-displaced_by_stronger_story
-```
-
-The generator validates the envelope, strips candidate IDs and rejection
-metadata, and creates the unchanged public `stories` object. Only the sift can
-create public story text.
-
-Before changing either private prompt, its version, the model, or provider
-configuration, update the private publisher repository and recheck:
+Before changing private prompts, versions, models or provider configuration,
+update the private publisher repository and recheck:
 
 - https://developers.openai.com/api/docs/models/gpt-5.6-sol
 - https://developers.openai.com/api/docs/guides/latest-model
 - https://developers.openai.com/api/docs/guides/structured-outputs
+- https://developers.openai.com/api/docs/guides/background
 
 ## Publishing and observability
 
-The DigitalOcean `quiet-news-publisher` scheduled job runs at 4:07 a.m. and
-again at 4:37 a.m. New York time. Each invocation:
+DigitalOcean collect-news runs at 03:07, 06:07, 12:07 and 18:07 New York time.
+Daytime runs cover the current day through 06:00, 12:00 and 18:00. The 03:07
+run completes the previous day through midnight and reconciles late reporting,
+corrections and duplicates. Each successful batch covers the interval since
+the last successful batch, including gaps left by missed daytime runs.
 
-1. Starts an ephemeral container from the private publisher repository.
-2. Makes a depth-one checkout of public `main` and validates it.
-3. Targets the completed previous New York day.
-4. Exits before prompt loading, generator construction, or any OpenAI call when
-   the dated file already exists.
-5. Loads the exact preceding dated file as context when available.
-6. Injects both private prompts in memory, then runs and validates discovery
-   and quiet sift.
-7. Retries only timeouts, rate limits, and provider 5xx responses once per
-   stage. The maximum is two attempts per stage and four provider calls.
-   Each discovery attempt has a five-minute deadline; each sift attempt has
-   a three-minute deadline. Both include reading the response body. Four
-   attempts use at most 16 minutes plus retry delays within the 20-minute job.
-8. Reuses the validated in-memory candidate set when retrying quiet sift.
-   The runner saves each validated stage locally to `data-raw/YYYY-MM-DD.json`.
-   Each file has a `runs` array retaining prior attempts, exact prior-day
-   stories, discovery output, sift decisions, and stage metadata. A null sift
-   means that stage was not archived, not that all candidates were rejected.
-9. Writes the dated file, `current.json`, and `index.json` only after both
-   stages succeed.
-10. Validates the complete history, commits `public/data` and the dated
-    `data-raw` file together, and pushes `main`, which starts the DigitalOcean
-    static-site deployment. No separate token or storage branch is needed.
+publish-daily runs at 04:07 with recovery at 04:37. It requires completed
+coverage through midnight before calling sift. Missing coverage is an error,
+not a quiet day. A completed sift is saved before publication and reused after
+a publication failure. An existing dated file exits before prompt loading or
+provider access. Normal success uses four collection calls and one sift call.
+The second morning invocation does not redo completed discovery or sift.
 
-The job timeout is 20 minutes, shorter than the 30-minute gap between scheduled
-invocations. A caught generation failure changes no website publication files;
-the runner attempts a raw-only commit of any stages already saved locally.
-This is best-effort: a hard container shutdown or failed Git push can lose
-uncommitted raw output. A later invocation may repeat discovery; saved earlier
-runs are retained and not automatically reused.
+Every invocation starts an ephemeral private-publisher container, shallow-
+clones public main and validates it. The private runner sets QUIET_NEWS_MODE
+to collect or publish and imports jobs/checkpointed.mjs. It commits only dated
+raw JSON and publication JSON. Every claim, response ID and completed result
+is written atomically and pushed before the next paid step. A rejected claim
+push prevents submission; a failed result push prevents further generation.
+Concurrent Git push conflicts fail closed without force-pushing over work.
 
-The generator fails closed on invalid output, refusal, incomplete response,
-malformed JSON, timeout after retry, or schema violation. Network,
-authentication, billing, and other permanent request errors are not retried.
+The existing data-raw/YYYY-MM-DD.json schema_version remains 1 and historical
+runs remain intact. New collection.version=1 holds up to four batches and a
+separate sift checkpoint. Each batch contains coverage, observation time,
+exact prior stories, request coordination, and validated delta output plus
+metadata. Replay completed batches to reconstruct the pool. Sift retains its
+input fingerprint, prior stories, request and validated decision envelope.
+These records are public on GitHub and excluded from the website. Never save
+literal prompts, complete provider responses, credentials or hidden reasoning.
 
-Successful runs emit one structured record per stage and one publisher record.
-Stage records contain the stage, model, prompt version, response and request
-IDs, token usage, web-search call count, duration, attempt count, and item
-counts. Sift records also include rejection counts by code. Publisher metadata
-includes total provider attempts, tokens, web-search calls, and duration.
-Stage records also distinguish the successful attempt duration from total
-stage duration including retries, and include the requested reasoning effort,
-configured timeout, returned model name and reasoning-token count when available.
-Failures include the requested model, prompt version and reasoning effort.
+Discovery warns after five minutes while polling the same background response.
+Its overall deadline is fourteen minutes. Sift warns after three minutes and
+is bounded at ten minutes. Each network exchange has a thirty-second timeout;
+poll retries retrieve the same ID without starting new generation. At the
+overall deadline the worker attempts cancellation. Container timeout stays
+at twenty minutes. An interrupted submission with unknown outcome remains
+unknown and is not automatically submitted again. A known retryable terminal
+failure may be retried once in a later invocation, with a persisted two-attempt
+limit. Completed, expired and cancelled requests are not silently regenerated.
 
-Manual recovery uses `scripts/recover-day.mjs` with an explicit completed date
-and private publisher directory. Generate and validate one day before publishing
-it and advancing to the next day. Validated stages remain in the local raw file.
-Manual recovery may reuse a saved discovery only after checking its date, model,
-prompt version, candidate schema and exact preceding stories. Scheduled runs
-continue to generate afresh. Completed sift output can be published without a
-new provider call. Recovery records actual publication time and preserves the
-normal 5 a.m. New York expiry two calendar days after the target date. When that
-cutoff has already passed, the file expires one millisecond after publication
-so an old backfill does not masquerade as current content. Never fabricate
-historical publication timestamps.
-An authorized manual review may exclude a selected candidate with an existing
-rejection code, source URL and concise reason in that raw run's separate
-`review.exclusions` array. Preserve the original discovery and sift output.
-The recovery command applies exclusions and revalidates the decision envelope;
-it cannot add stories or change model-written text through this review record.
-After saving a publication, the job also emits a readable `Quiet News
-(YYYY-MM-DD): ...` summary with candidate, published, and rejected counts,
-followed by `Rejections: ...` with nonzero counts and plain-language labels.
-These lines contain only the same aggregate counts as the structured records.
-Each provider attempt starts with `generation_stage_started`, identifying the
-stage, target date, attempt number, maximum attempts, and configured timeout.
-This separates generation timing from the preceding test-suite duration.
-Retry records include the selected retry delay. Retry and terminal generation
-failure records include sanitized codes, target date, stage, attempt counts,
-HTTP status and provider request ID when available, last-attempt duration,
-total stage duration including retries, configured timeout, and timeout source.
-`client_deadline` means our timer expired; `provider_response` means an HTTP
-408 or 504; `transport` means an abort without our timer expiring. Missing
-diagnostics are null, not invented. Provider request IDs are bounded and
-validated before logging. Raw provider error messages and headers are excluded.
-The generator emits `generation_failed` and a readable failure summary before
-publication storage, so these records also appear with the private runner's
-compact final job record. Only this generation boundary says that no new
-publication was saved; later storage or push errors cannot make that claim.
-Logs must never contain candidate bodies, public story bodies, prompts,
-secrets, or hidden reasoning.
-Raw stage archival is an awaited callback, outside provider retry handling.
-Callback failures are sanitized and stop publication. Raw outputs are never
-included in the generator's returned log metadata or public publication object.
+Background store:false temporary retention does not guarantee retrieval thirty
+minutes later. Workers poll promptly and save completed output. A hard
+container stop or unresolved Git failure can still lose unreturned or
+uncommitted work. Invalid, refused, incomplete or expired results fail closed.
 
-Provider budgets, cost alerts, and other provider-side mutations require
-explicit approval. Review costs through reported usage and the provider
-dashboard rather than a hard-coded estimate.
+Each daytime batch permits six built-in tool calls; the final pass permits ten.
+Collection output is capped at 12,000 tokens; sift has no tools and a 20,000-
+output-token boundary. These are workload bounds, not dollar estimates or a
+guarantee of source coverage. Provider budgets, cost alerts and other provider-
+side mutations still require explicit approval. Dashboard usage is authoritative
+for billed work missing from returned response metadata.
+
+Logs contain only sanitized stage, date, model, prompt version, response and
+request IDs, durations, attempts, usage and counts. Slow logs state that the
+same request continues. Unknown submission, failed polling, expiry, coverage
+gaps and checkpoint failures have separate codes. Never log candidate bodies,
+public story bodies, prompts, secrets, provider error bodies or reasoning.
+Timing reports include historical runs and new collection/sift checkpoints.
+
+The old two-stage generator and scripts/recover-day.mjs remain for explicitly
+authorized legacy recovery. Its foreground deadlines remain five minutes for
+discovery and three for sift, with one retry per stage. It retains actual
+publication time, normal expiry and audited review.exclusions. It may reuse
+validated work only when date, configuration and prior-day context match.
+Manual review can exclude selections, but cannot add or rewrite model stories.
+Never delete a saved publication to force regeneration.
 
 ## Repository map
 

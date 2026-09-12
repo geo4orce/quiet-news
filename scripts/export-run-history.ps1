@@ -10,9 +10,10 @@ if ($LASTEXITCODE -ne 0) { throw 'Could not read publisher invocations' }
 $fields = @('event','stage','targetDate','model','responseModel','promptVersion','reasoningEffort','reasoningTokens',
   'responseId','requestId','inputTokens','outputTokens','webSearchCalls',
   'attempts','attempt','providerAttempts','durationMs','attemptDurationMs',
-  'timeoutMs','timeoutSource','httpStatus','code')
+  'timeoutMs','softTimeoutMs','timeoutSource','httpStatus','code','slot')
 $history = foreach ($invocation in $invocations | Where-Object { $_.started_at -ge $Since }) {
-  $lines = & $DoctlPath apps logs $appId publish-daily --job-invocation $invocation.id --no-prefix
+  $component = if ($invocation.job_name -in @('publish-daily','collect-news')) { $invocation.job_name } else { 'publish-daily' }
+  $lines = & $DoctlPath apps logs $appId $component --job-invocation $invocation.id --no-prefix
   if ($LASTEXITCODE -ne 0) { throw "Could not read invocation $($invocation.id)" }
   $records = @($lines | ForEach-Object {
     $position = $_.IndexOf('{')

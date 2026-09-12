@@ -28,7 +28,26 @@ directly.
 
 geo@web-opt.com
 
+## Daily collection and publication
+
+Four collection runs save new facts and corrections at 06:07, 12:07, 18:07,
+and 03:07 the following morning, in New York time. One independent sift
+publishes the completed previous day at 04:07. The 04:37 invocation is recovery
+only and reuses saved work. An already-published day makes no provider call.
+
+Discovery warns after five minutes while polling the same background response,
+with a fourteen-minute overall deadline inside the twenty-minute job. Validated
+results are pushed to Git before proceeding. A hard shutdown or provider failure
+can still prevent completion.
+
 ## Generation archive
+
+New scheduled runs use the file's collection.batches and collection.sift.
+Replay completed candidate additions, updates and withdrawals in batch order
+to reconstruct the pool. Request checkpoints save status and timing without
+prompts or complete provider responses. The archive is public on GitHub, not a
+private temporary bucket. Historical runs are preserved.
+
 
 `data-raw/YYYY-MM-DD.json` contains the validated discovery candidates and
 sift decisions for each saved run, including rejected candidates. Match each

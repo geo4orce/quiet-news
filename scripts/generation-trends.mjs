@@ -31,6 +31,18 @@ for (const file of (await readdir(path.join(root, "data-raw"))).filter((f) => /^
       outcome: "success", source: "archive" });
     seenResponses.add(metadata.responseId);
   }
+  for (const entry of [...(archive.collection?.batches || []), ...(archive.collection?.sift ? [archive.collection.sift] : [])]) {
+    const metadata = entry.result?.metadata;
+    if (metadata && !seenResponses.has(metadata.responseId)) {
+      rows.push({ ...metadata, targetDate: archive.target_date, runAt: entry.request.startedAt,
+        outcome: entry.slot ? `success (window ${entry.slot})` : "success", source: "archive" });
+      seenResponses.add(metadata.responseId);
+    } else if (!metadata && entry.request) {
+      rows.push({ stage: entry.slot ? "discovery" : "sift", targetDate: archive.target_date,
+        runAt: entry.request.startedAt, attempts: entry.request.attempts,
+        outcome: entry.request.code || entry.request.status, source: "checkpoint" });
+    }
+  }
 }
 rows.sort((a, b) => a.runAt.localeCompare(b.runAt));
 const safe = (value) => value === null || value === undefined ? "?" : String(value).replace(/[|\r\n]/g, " ");
