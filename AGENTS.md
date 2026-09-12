@@ -10,8 +10,10 @@ small, dependency-free, and understandable without a build system.
   rules.
 - `public/data` on `main` is production storage, history, backup, and audit
   log. Validated discovery candidates and sift decisions are saved in
-  `data-raw/YYYY-MM-DD.json` on this repository's `main`, using the existing
-  publisher token. These files are publicly readable on GitHub but must never
+  `data-raw/YYYY-MM-DD.json` and completed batch snapshots
+  `data-raw/YYYY-MM-DD.discovery-1.json` through `.discovery-4.json` on this
+  repository's `main`, using the existing publisher token. These files are
+  publicly readable on GitHub but must never
   be written under `public/` or served by the website. Never archive literal
   prompts, credentials, complete provider responses, or hidden reasoning.
 - The browser uses plain HTML, CSS, and JavaScript. A DigitalOcean App Platform
@@ -178,8 +180,13 @@ The existing data-raw/YYYY-MM-DD.json schema_version remains 1 and historical
 runs remain intact. New collection.version=1 holds up to four batches and a
 separate sift checkpoint. Each batch contains coverage, observation time,
 exact prior stories, request coordination, and validated delta output plus
-metadata. Replay completed batches to reconstruct the pool. Sift retains its
-input fingerprint, prior stories, request and validated decision envelope.
+metadata. Each completed batch also writes an immutable
+data-raw/YYYY-MM-DD.discovery-N.json snapshot, where N is 1 through 4 in
+06:07, 12:07, 18:07 and following-morning 03:07 order. The snapshot includes
+captured_at, coverage, validated output and metadata. Failed batches have no
+completed snapshot. Push the snapshot and daily checkpoint together. Replay
+completed batches to reconstruct the pool. Sift retains its input fingerprint,
+prior stories, coverage, request and validated decision envelope.
 These records are public on GitHub and excluded from the website. Never save
 literal prompts, complete provider responses, credentials or hidden reasoning.
 

@@ -48,6 +48,7 @@ export async function runCheckpointedJob({
       validate: (output) => mergeCollection(pool, output, day) });
     batch.result = { output: result.output, metadata: { ...result.metadata, promptVersion: prompts.collectionVersion, slot: window.slot } };
     batch.request = result.request;
+    batch.capturedAt = now().toISOString();
     await save();
     pool = completedPool(archive).pool;
     logger.info?.(JSON.stringify({ event: "collection_complete", targetDate: day, slot: window.slot, candidateCount: pool.length,

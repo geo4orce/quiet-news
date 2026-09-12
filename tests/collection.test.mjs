@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { mkdtemp, rm } from "node:fs/promises";
+import { mkdtemp, readFile, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { CollectionStore, collectionWindow, collectionReadiness, completedPool, localBoundary, mergeCollection } from "../lib/collection.mjs";
@@ -78,6 +78,15 @@ test("four durable collections feed one sift and duplicate publish invocations c
   const archive = await new CollectionStore(checkout).read(day);
   assert.equal(completedPool(archive).coveredThrough, 24);
   assert.equal(archive.collection.sift.result.output.rejections.length, 4);
+  for (let number = 1; number <= 4; number++) {
+    const snapshot = JSON.parse(await readFile(path.join(checkout, "data-raw", `${day}.discovery-${number}.json`), "utf8"));
+    assert.equal(snapshot.batch, number);
+    assert.equal(snapshot.target_date, day);
+    assert.equal(new Date(snapshot.captured_at).toISOString(), snapshot.captured_at);
+    assert.deepEqual(snapshot.output, archive.collection.batches[number - 1].result.output);
+  }
+  archive.collection.batches[0].result.output.candidates[0].title = "A changed saved result";
+  await assert.rejects(new CollectionStore(checkout).save(archive), /Completed discovery snapshot differs/);
 });
 
 test("a failed publication push reuses the completed sift after a fresh checkout", async () => {

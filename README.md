@@ -45,19 +45,25 @@ can still prevent completion.
 
 ## Generation archive
 
-New scheduled runs use the file's collection.batches and collection.sift.
-Replay completed candidate additions, updates and withdrawals in batch order
-to reconstruct the pool. Request checkpoints save status and timing without
-prompts or complete provider responses. The archive is public on GitHub, not a
-private temporary bucket. Historical runs are preserved.
+Each completed collection saves an immutable public file named
+`data-raw/YYYY-MM-DD.discovery-1.json` through `.discovery-4.json`. The suffix
+identifies the 06:07, 12:07, 18:07 or following-morning 03:07 collection. Each
+file includes its completion timestamp, covered interval, validated candidate
+additions, updates and withdrawals, and timing and usage metadata. A failed
+collection has no completed snapshot.
 
-`data-raw/YYYY-MM-DD.json` contains the validated discovery candidates and
-sift decisions for each saved run, including rejected candidates. Match each
-`candidate_id` in `discovery.output` with `sift.output.stories` or
-`sift.output.rejections` to see the decision and rejection code. A null `sift`
-means that stage was not saved. These are unselected analysis records, not
-published news. They are public on GitHub but outside the website's `public/`
-folder. Prompts, credentials, and hidden reasoning are never included.
+`data-raw/YYYY-MM-DD.json` keeps the coordination checkpoints and sift result
+in `collection.batches` and `collection.sift`. Sift reconstructs the current
+candidate pool by replaying the completed batches in order. Historical
+`runs` remain intact; for those records, match each `candidate_id` in
+`discovery.output` with `sift.output.stories` or `sift.output.rejections` to
+see the decision and rejection code. A null `sift` means that stage was not
+saved.
+
+These research records are public on GitHub but outside the website's
+`public/` folder. The web app reads only publication files. Exact prompts
+remain in the private publisher repository; credentials, complete provider
+responses and hidden reasoning are never archived.
 
 Manually reviewed recovery runs may also contain `review.exclusions`, recording
 selected candidates withheld after source checks. The original sift is retained;
