@@ -55,13 +55,165 @@
         "request": {
           "fingerprint": "ce5574193f052ba017de3c7e11868871c0af27c9fe7eadd2f6be583f088951a7",
           "claimId": "cd589819-49b9-4253-9453-fad339325a1a",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-12T07:07:34.717Z",
           "responseId": "resp_008add2a57f39345006aa4fa3a352087d2a1657604c274cc84"
         },
-        "result": null,
-        "observedAt": "2026-09-12T07:07:34.685Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Iran-backed Houthi forces captured Yemen's Mayun, or Perim, island at the entrance to the Red Sea, after taking Mokha the previous day. Separately, Saudi Arabia shut its East-West oil pipeline as a precaution after drone attacks. The pipeline has served as an alternative export route while the Iran war disrupts shipping through the Strait of Hormuz.",
+                "category": "conflict",
+                "title": "Houthis capture Red Sea island as Saudi pipeline closes",
+                "event_date": "2026-09-11",
+                "candidate_id": "houthis-mayun-saudi-pipeline",
+                "geography": "Yemen and Saudi Arabia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/476237dd3bf568d946d2b16c7b45a687"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/025d052a14d9481258d51009a76d0bd6"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.K. House of Commons rejected the Terminally Ill Adults (End of Life) Bill by 286 votes to 270. The proposal would have allowed terminally ill adults in England and Wales with fewer than six months to live to seek an assisted death, subject to approval by two doctors and an expert panel. The vote prevented the bill from advancing.",
+                "category": "politics",
+                "title": "UK lawmakers reject assisted-dying bill",
+                "event_date": "2026-09-11",
+                "candidate_id": "uk-assisted-dying-bill-rejected",
+                "geography": "England and Wales, United Kingdom",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/a4eb64d8891d5c8b776845f6535578f3"
+                  },
+                  {
+                    "name": "The Guardian",
+                    "url": "https://www.theguardian.com/society/2026/sep/11/mps-vote-against-legalising-assisted-dying-in-england-and-wales"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. consumer price index rose 0.4% in August from July, compared with a 0.1% monthly increase in July. Prices were 3.4% higher than a year earlier, unchanged from July's annual rate. Separately, the national average price of diesel exceeded $6 per gallon, a nominal record, amid disruptions to fuel supplies from the Iran war.",
+                "category": "economy",
+                "title": "US monthly inflation accelerates as diesel tops $6",
+                "event_date": "2026-09-11",
+                "candidate_id": "us-august-inflation-diesel-record",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/c76f53f7a53def0c464ca44ac637f203"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/636252b3b82326b41661ee5c4073dacb"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. Court of Appeals for the District of Columbia Circuit ruled that the Energy Department exceeded its authority when it ordered Michigan's J.H. Campbell coal-fired generating plant to remain open past its planned retirement. The unanimous panel found that the circumstances did not constitute an emergency under the relevant provision of the Federal Power Act.",
+                "category": "courts",
+                "title": "Court rejects emergency order keeping coal plant open",
+                "event_date": "2026-09-11",
+                "candidate_id": "court-michigan-coal-emergency-order",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/a9bc050527d58ed501a5498cbf0411d5"
+                  }
+                ]
+              },
+              {
+                "summary": "The United States marked the 25th anniversary of the September 11 attacks with ceremonies at the World Trade Center site, the Pentagon and near Shanksville, Pennsylvania. Organizers in New York added a moment of silence for people who died from illnesses linked to toxic dust exposure. The CIA also released dozens of declassified presidential daily briefs concerning Osama bin Laden, al-Qaida and intelligence collected before and immediately after the attacks.",
+                "category": "commemoration",
+                "title": "United States marks 25 years since September 11 attacks",
+                "event_date": "2026-09-11",
+                "candidate_id": "september-11-25th-anniversary",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/e73908a86b2707b245c843765e2a66f7"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/8a027f4a0e2e3cf30a8d49786af5f506"
+                  }
+                ]
+              },
+              {
+                "summary": "Philippine rescuers recovered 30 bodies from the burned MV June Aster passenger ferry, raising the confirmed death toll from the September 9 fire to at least 35. More than 50 people remained missing, while authorities reported 43 survivors among the 132 people aboard.",
+                "category": "disaster",
+                "title": "Philippine ferry fire death toll rises to 35",
+                "event_date": "2026-09-11",
+                "candidate_id": "philippines-ferry-death-toll-35",
+                "geography": "Palawan, Philippines",
+                "sources": [
+                  {
+                    "name": "Reuters via ThePrint",
+                    "url": "https://theprint.in/world/philippine-ferry-fire-death-toll-jumps-to-35/3040616/"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/bc9474e96f2c9febe84c745ced6e9553"
+                  }
+                ]
+              },
+              {
+                "summary": "Emma Bonino, the Italian politician and civil-rights campaigner who helped lead campaigns to legalize abortion and divorce in Italy, died at 78. Bonino served as Italy's foreign minister and as a European commissioner and remained active in human-rights advocacy for more than five decades.",
+                "category": "obituary",
+                "title": "Italian civil-rights campaigner Emma Bonino dies",
+                "event_date": "2026-09-11",
+                "candidate_id": "emma-bonino-dies",
+                "geography": "Italy",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/2f7abf0541386d7e14a980c98e4a07d6"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/11/emma-bonino-italian-politician-who-fought-for-abortion-access-dies-aged-78"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-11"
+          },
+          "metadata": {
+            "responseId": "resp_008add2a57f39345006aa4fa3a352087d2a1657604c274cc84",
+            "requestId": "req_66be248b64af4602909f7d547bddf388",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2395,
+            "inputTokens": 80300,
+            "outputTokens": 3637,
+            "webSearchCalls": 11,
+            "stage": "discovery",
+            "targetDate": "2026-09-11",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 115440,
+            "attemptDurationMs": 115440,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 840000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-12T07:07:34.685Z",
+        "capturedAt": "2026-09-12T07:09:30.157Z"
       }
     ],
     "sift": null
