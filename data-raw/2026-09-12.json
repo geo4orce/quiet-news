@@ -142,13 +142,75 @@
         "request": {
           "fingerprint": "7865dbf1692252f647b33858a86521a082000bbf59258ce78a0336a1abb10653",
           "claimId": "e8a50f74-98c0-4df6-8ba7-0d23f2511fe5",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-12T16:07:28.539Z",
           "responseId": "resp_05b3d6774a83df45006aa578c4028487d29c77937b996fce54"
         },
-        "result": null,
-        "observedAt": "2026-09-12T16:07:28.482Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Indian Prime Minister Narendra Modi and Chinese President Xi Jinping met on the sidelines of the BRICS summit in New Delhi. The meeting was part of efforts by the two neighboring countries to improve relations strained by their deadly 2020 border clash.",
+                "category": "international relations",
+                "title": "Modi and Xi meet at BRICS summit",
+                "event_date": "2026-09-12",
+                "candidate_id": "modi-xi-brics-meeting",
+                "geography": "India; China",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/e51a7eb70cfb3c79c978fbf9cc9cbed5"
+                  }
+                ]
+              },
+              {
+                "summary": "The 2026 Atlantic hurricane season set a satellite-era record for the latest point in the year without a hurricane forming. The National Hurricane Center listed five named Atlantic storms but no hurricanes as of September 12, with accumulated cyclone energy 93% below the 1991–2020 norm.",
+                "category": "weather and climate",
+                "title": "Atlantic season sets record for latest first hurricane",
+                "event_date": "2026-09-12",
+                "candidate_id": "atlantic-latest-first-hurricane-record",
+                "geography": "North Atlantic",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/53993f467ae90f20eff5976bf144c8e3"
+                  },
+                  {
+                    "name": "National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/data/tcr/index.php?basin=atl&season=2026"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-12"
+          },
+          "metadata": {
+            "responseId": "resp_05b3d6774a83df45006aa578c4028487d29c77937b996fce54",
+            "requestId": "req_62f819d831bc46e19d517518143e19de",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1353,
+            "inputTokens": 52040,
+            "outputTokens": 1664,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-12",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 53127,
+            "attemptDurationMs": 53127,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 840000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-12T16:07:28.482Z",
+        "capturedAt": "2026-09-12T16:08:21.666Z"
       }
     ],
     "sift": null
