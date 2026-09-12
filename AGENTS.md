@@ -208,9 +208,23 @@ After saving a publication, the job also emits a readable `Quiet News
 (YYYY-MM-DD): ...` summary with candidate, published, and rejected counts,
 followed by `Rejections: ...` with nonzero counts and plain-language labels.
 These lines contain only the same aggregate counts as the structured records.
-Failure records contain only sanitized codes, stage, and attempt counts. Logs
-must never contain candidate bodies, public story bodies, prompts, secrets, or
-hidden reasoning.
+Each provider attempt starts with `generation_stage_started`, identifying the
+stage, target date, attempt number, maximum attempts, and configured timeout.
+This separates generation timing from the preceding test-suite duration.
+Retry records include the selected retry delay. Retry and terminal generation
+failure records include sanitized codes, target date, stage, attempt counts,
+HTTP status and provider request ID when available, last-attempt duration,
+total stage duration including retries, configured timeout, and timeout source.
+`client_deadline` means our timer expired; `provider_response` means an HTTP
+408 or 504; `transport` means an abort without our timer expiring. Missing
+diagnostics are null, not invented. Provider request IDs are bounded and
+validated before logging. Raw provider error messages and headers are excluded.
+The generator emits `generation_failed` and a readable failure summary before
+publication storage, so these records also appear with the private runner's
+compact final job record. Only this generation boundary says that no new
+publication was saved; later storage or push errors cannot make that claim.
+Logs must never contain candidate bodies, public story bodies, prompts,
+secrets, or hidden reasoning.
 Raw stage archival is an awaited callback, outside provider retry handling.
 Callback failures are sanitized and stop publication. Raw outputs are never
 included in the generator's returned log metadata or public publication object.

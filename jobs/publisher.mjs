@@ -3,6 +3,7 @@ import { generationPromptsFrom } from "../lib/generation-prompts.mjs";
 import { createOpenAIGenerator } from "../lib/openai-generator.mjs";
 import { PublicationStore } from "../lib/publication-store.mjs";
 import { publishDailyEdition } from "../lib/publisher.mjs";
+import { generationFailureDetails } from "../lib/generation-diagnostics.mjs";
 
 export async function runPublisherJob({
   env = process.env, logger = console, store = new PublicationStore(),
@@ -27,13 +28,7 @@ export async function runPublisherJob({
 export function publisherFailureRecord(error) {
   return {
     event: "publisher_failed",
-    code: error?.errorCode || error?.name || "Error",
-    stage: error?.metadata?.stage || null,
-    providerAttempts: Number.isInteger(error?.metadata?.totalProviderAttempts)
-      ? error.metadata.totalProviderAttempts
-      : Number.isInteger(error?.metadata?.attempts)
-        ? error.metadata.attempts
-        : null
+    ...generationFailureDetails(error)
   };
 }
 

@@ -9,6 +9,7 @@ import {
   MAX_SIFT_BODY_LENGTH,
   MAX_SIFT_HEADLINE_LENGTH
 } from "../lib/sift-result.mjs";
+import { publisherFailureRecord } from "../jobs/publisher.mjs";
 
 const TEST_PROMPTS = {
   discovery: "Test discovery system prompt.",
@@ -153,7 +154,7 @@ test("runs independent discovery and sift requests with structured metadata", as
     webSearchCalls: 1,
     durationMs: result.metadata.pipeline.durationMs
   });
-  assert.equal(logs.length, 2);
+  assert.equal(logs.filter((line) => JSON.parse(line).event === "generation_stage_complete").length, 2);
   assert.doesNotMatch(logs.join("\n"), /Neutral summary/);
 });
 
@@ -290,9 +291,10 @@ test("archives only validated outputs in stage order without leaking or sharing 
 test("archive failures are sanitized and never retry a paid stage", async () => {
   for (const failedStage of ["discovery", "sift"]) {
     let calls = 0;
+    const failureLogs = [];
     const generate = createOpenAIGenerator({
       apiKey: "test-key-not-secret", prompts: TEST_PROMPTS,
-      logger: { info() {} },
+      logger: { info() {}, error: (line) => failureLogs.push(line) },
       onGenerationStage: async (record) => {
         if (record.stage === failedStage) throw new Error("secret archive response body");
       },
@@ -308,5 +310,113 @@ test("archive failures are sanitized and never retry a paid stage", async () => 
       return true;
     });
     assert.equal(calls, failedStage === "discovery" ? 1 : 2);
+    const failure = JSON.parse(failureLogs[0]);
+    assert.equal(failure.code, "archive_write_failed");
+    assert.equal(failure.targetDate, "2026-08-11");
+    assert.equal(failure.providerAttempts, calls);
+    assert.doesNotMatch(failureLogs.join("\n"), /secret archive/);
   }
+});
+
+test("logs enough context to diagnose both failed provider attempts without exposing bodies", async () => {
+  const logs = [];
+  let elapsedMs = 0;
+  let calls = 0;
+  const generate = createOpenAIGenerator({
+    apiKey: "test-key-not-secret", prompts: TEST_PROMPTS,
+    nowMs: () => elapsedMs,
+    sleep: async (delay) => { elapsedMs += delay; },
+    logger: { info: (line) => logs.push(line), warn: (line) => logs.push(line), error: (line) => logs.push(line) },
+    fetchImpl: async () => {
+      calls += 1;
+      elapsedMs += calls === 1 ? 1_500 : 2_300;
+      return response({
+        status: 503, requestId: `req_attempt_${calls}`,
+        body: { error: { code: "unavailable", message: "secret provider response" } }
+      });
+    }
+  });
+  await assert.rejects(generate({ editionDay: "2026-08-11", priorEdition: null }), (error) => {
+    const record = publisherFailureRecord(error);
+    assert.equal(record.httpStatus, 503);
+    assert.equal(record.requestId, "req_attempt_2");
+    assert.equal(record.targetDate, "2026-08-11");
+    return true;
+  });
+  const records = logs.filter((line) => line.startsWith("{")).map((line) => JSON.parse(line));
+  assert.deepEqual(records.map((record) => record.event), [
+    "generation_stage_started", "generation_retry", "generation_stage_started", "generation_failed"
+  ]);
+  const retry = records[1];
+  assert.equal(retry.requestId, "req_attempt_1");
+  assert.equal(retry.httpStatus, 503);
+  assert.equal(retry.attemptDurationMs, 1_500);
+  assert.equal(retry.retryDelayMs, 1_000);
+  assert.equal(retry.timeoutMs, 180_000);
+  const failure = records.at(-1);
+  assert.equal(failure.attemptDurationMs, 2_300);
+  assert.equal(failure.durationMs, 4_800);
+  assert.equal(failure.attempts, 2);
+  assert.equal(failure.maxAttempts, 2);
+  assert.equal(failure.providerAttempts, 2);
+  assert.equal(failure.timeoutSource, null);
+  assert.equal(failure.publicationStatus, "not_written");
+  assert.match(logs.at(-1), /Publication for 2026-08-11 failed during discovery after 2 attempts/);
+  assert.match(logs.at(-1), /HTTP 503.*No new publication was saved/);
+  assert.doesNotMatch(logs.join("\n"), /secret provider|test-key-not-secret|Test discovery system prompt/);
+});
+
+test("distinguishes a client deadline from provider timeout responses", { timeout: 1_000 }, async (t) => {
+  t.mock.timers.enable({ apis: ["setTimeout"] });
+  for (const status of [null, 408, 504]) {
+    const logs = [];
+    let notifyRequest;
+    const requestStarted = new Promise((resolve) => { notifyRequest = resolve; });
+    const generate = createOpenAIGenerator({
+      apiKey: "test-key-not-secret", prompts: TEST_PROMPTS,
+      timeoutMs: 20, retryDelaysMs: [],
+      logger: { info() {}, error: (line) => logs.push(line) },
+      fetchImpl: async (_url, options) => {
+        if (status) return response({ status, body: { error: {} } });
+        return new Promise((_resolve, reject) => {
+          options.signal.addEventListener("abort", () => reject(options.signal.reason), { once: true });
+          notifyRequest();
+        });
+      }
+    });
+    const rejected = assert.rejects(generate({ editionDay: "2026-08-11", priorEdition: null }));
+    if (!status) {
+      await requestStarted;
+      t.mock.timers.tick(20);
+    }
+    await rejected;
+    const failure = JSON.parse(logs[0]);
+    assert.equal(failure.timeoutSource, status ? "provider_response" : "client_deadline");
+    assert.equal(failure.httpStatus, status);
+    assert.equal(failure.requestId, status ? "req_test" : null);
+    assert.equal(failure.code, status === 504 ? "provider_5xx" : "timeout");
+    assert.match(logs[1], status ? /provider returned a timeout response/ : /Our request deadline expired/);
+  }
+});
+
+test("failed sift logs count earlier discovery calls and do not repeat discovery", async () => {
+  const logs = [];
+  let calls = 0;
+  const generate = createOpenAIGenerator({
+    apiKey: "test-key-not-secret", prompts: TEST_PROMPTS,
+    sleep: async () => {},
+    logger: { info() {}, warn: (line) => logs.push(line), error: (line) => logs.push(line) },
+    fetchImpl: async () => {
+      calls += 1;
+      return calls === 1 ? response({ body: completedResponse(candidates()) })
+        : response({ status: 502, body: { error: {} } });
+    }
+  });
+  await assert.rejects(generate({ editionDay: "2026-08-11", priorEdition: null }));
+  assert.equal(calls, 3);
+  const [retry, failure] = logs.slice(0, 2).map((line) => JSON.parse(line));
+  assert.equal(retry.providerAttempts, 2);
+  assert.equal(failure.providerAttempts, 3);
+  assert.equal(failure.attempts, 2);
+  assert.equal(failure.stage, "sift");
 });
