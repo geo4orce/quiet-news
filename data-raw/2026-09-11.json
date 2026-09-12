@@ -272,12 +272,101 @@
       "request": {
         "fingerprint": "7f2359f5ca99efe048d594732214bd57c2704ed82b03c4336d2fe5b590ef086b",
         "claimId": "f12871fd-f469-4fe9-b18d-dee0a480ca39",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-12T08:07:35.308Z",
         "responseId": "resp_084ecc01e8b3ff76006aa5084b079487d2b3f0e914c6f40a89"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "court-michigan-coal-emergency-order",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "emma-bonino-dies",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "september-11-25th-anniversary",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "uk-assisted-dying-bill-rejected",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Iran-backed Houthi forces captured Mayun, also known as Perim, after taking the nearby Yemeni port of Mokha the previous day. The island sits at the entrance to the Red Sea near a major shipping route.\n\nSaudi Arabia separately shut its East-West oil pipeline as a precaution after drone attacks. The pipeline has provided an alternative export route while the Iran war disrupts shipping through the Strait of Hormuz.",
+              "candidate_id": "houthis-mayun-saudi-pipeline",
+              "headline": "Houthis take Red Sea island; Saudi pipeline closes",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/476237dd3bf568d946d2b16c7b45a687"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/025d052a14d9481258d51009a76d0bd6"
+                }
+              ]
+            },
+            {
+              "body": "Rescuers recovered 30 bodies from the burned MV June Aster, bringing the confirmed toll from the September 9 passenger-ferry fire to at least 35.\n\nAuthorities reported 43 survivors among the 132 people aboard. More than 50 people remained missing.",
+              "candidate_id": "philippines-ferry-death-toll-35",
+              "headline": "Philippine ferry fire death toll reaches 35",
+              "sources": [
+                {
+                  "name": "Reuters via ThePrint",
+                  "url": "https://theprint.in/world/philippine-ferry-fire-death-toll-jumps-to-35/3040616/"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/bc9474e96f2c9febe84c745ced6e9553"
+                }
+              ]
+            },
+            {
+              "body": "U.S. consumer prices rose 0.4% in August from July, after a 0.1% monthly increase in July. Prices were 3.4% higher than a year earlier, unchanged from the previous annual reading.\n\nThe national average diesel price separately exceeded $6 a gallon, a nominal record, amid fuel-supply disruptions caused by the Iran war.",
+              "candidate_id": "us-august-inflation-diesel-record",
+              "headline": "Diesel tops $6 as monthly inflation quickens",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/c76f53f7a53def0c464ca44ac637f203"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/636252b3b82326b41661ee5c4073dacb"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_084ecc01e8b3ff76006aa5084b079487d2b3f0e914c6f40a89",
+          "requestId": "req_350c9d2a4b4e4e30b4ecb00754a6a3e7",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 909,
+          "inputTokens": 2680,
+          "outputTokens": 1525,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-11",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 32825,
+          "attemptDurationMs": 32825,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
