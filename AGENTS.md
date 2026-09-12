@@ -155,10 +155,14 @@ run completes the previous day through midnight and reconciles late reporting,
 corrections and duplicates. Each successful batch covers the interval since
 the last successful batch, including gaps left by missed daytime runs.
 
-publish-daily runs at 04:07 with recovery at 04:37. It requires completed
-coverage through midnight before calling sift. Missing coverage is an error,
-not a quiet day. A completed sift is saved before publication and reused after
-a publication failure. An existing dated file exits before prompt loading or
+publish-daily runs at 04:07 with recovery at 04:37. It can publish after full
+coverage through midnight, or from three of four validated collection batches
+when one run is missing or failed. A partial day records its actual coverage
+and missing interval in the sift input, saved research and sanitized warning.
+It never marks the failed collection successful. Sift still decides whether
+any saved candidate warrants publication; insufficient data, invalid output or
+publication failure remain errors. A completed sift is saved before publication
+and reused after a publication failure. An existing dated file exits before prompt loading or
 provider access. Normal success uses four collection calls and one sift call.
 The second morning invocation does not redo completed discovery or sift.
 

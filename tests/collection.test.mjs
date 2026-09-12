@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { mkdtemp, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
-import { CollectionStore, collectionWindow, completedPool, localBoundary, mergeCollection } from "../lib/collection.mjs";
+import { CollectionStore, collectionWindow, collectionReadiness, completedPool, localBoundary, mergeCollection } from "../lib/collection.mjs";
 import { runCheckpointedJob } from "../jobs/checkpointed.mjs";
 
 const day = "2026-09-12";
@@ -99,11 +99,60 @@ test("a failed publication push reuses the completed sift after a fresh checkout
   assert.equal(published, 2);
 });
 
-test("incomplete coverage blocks even a quiet publication before loading prompts", async () => {
+test("insufficient saved research blocks publication before loading prompts", async () => {
   await assert.rejects(runCheckpointedJob({ mode: "publish", checkout: "unused", now: () => new Date("2026-09-13T08:07:00Z"),
     logger: quiet, publications: { hasEdition: async () => false, readEdition: async () => null },
     research: { read: async () => ({ target_date: day, collection: { batches: [] } }) },
     loadPrompts: () => { throw new Error("Must not load prompts"); } }), { errorCode: "collection_incomplete" });
+});
+
+test("any one failed collection still leaves the other three usable for the morning sift", async () => {
+  for (const failedSlot of [6, 12, 18, 24]) {
+    let coveredThrough = 0;
+    const batches = [6, 12, 18, 24].map((slot) => {
+      if (slot === failedSlot) return { slot, fromHour: coveredThrough, request: { status: "failed" }, result: null };
+      const batch = { slot, fromHour: coveredThrough, request: request(slot), result: { output: output([candidate(`item-${slot}`)]) } };
+      coveredThrough = slot;
+      return batch;
+    });
+    const archive = { target_date: day, collection: { batches, sift: null } };
+    const warnings = [];
+    let saved, siftInputValue, published;
+    const result = await runCheckpointedJob({ mode: "publish", checkout: "unused", apiKey: "mock",
+      now: () => new Date("2026-09-13T08:07:00Z"), loadPrompts: async () => prompts,
+      logger: { info() {}, warn: (line) => warnings.push(JSON.parse(line)) },
+      research: { read: async () => archive, save: async (value) => { saved = structuredClone(value); } },
+      publications: { hasEdition: async () => false, readEdition: async () => null, publish: async (value) => { published = value; } },
+      persist: async () => {},
+      execute: async (options) => {
+        assert.equal(options.stage, "sift");
+        siftInputValue = JSON.parse(options.body.input[1].content);
+        const pool = siftInputValue.candidate_set.candidates;
+        const value = { stories: [{ candidate_id: pool[0].candidate_id, headline: "A confirmed development", body: "A confirmed sourced fact.", sources: pool[0].sources }],
+          rejections: pool.slice(1).map((item) => ({ candidate_id: item.candidate_id, code: "insufficient_materiality" })) };
+        options.validate(value);
+        return { output: value, metadata: {}, request: request("sift") };
+      }
+    });
+    assert.equal(result.status, "published");
+    assert.equal(result.coverage.successfulBatches, 3);
+    assert.equal(published.stories.length, 1);
+    assert.equal(siftInputValue.candidate_set.candidates.length, 3);
+    assert.deepEqual(saved.collection.sift.coverage, result.coverage);
+    assert.equal(result.coverage.status, failedSlot === 24 ? "partial" : "complete");
+    assert.equal(warnings.length, failedSlot === 24 ? 1 : 0);
+  }
+});
+
+test("two incomplete batches are insufficient, while a completed catch-up pass remains valid", () => {
+  const archive = { target_date: day, collection: { batches: [
+    { slot: 6, fromHour: 0, result: { output: output() }, request: request(1) },
+    { slot: 12, fromHour: 6, result: { output: output() }, request: request(2) }
+  ] } };
+  assert.equal(collectionReadiness(archive).canPublish, false);
+  archive.collection.batches.push({ slot: 24, fromHour: 12, result: { output: output() }, request: request(3) });
+  assert.equal(collectionReadiness(archive).canPublish, true);
+  assert.equal(collectionReadiness(archive).coverage.status, "complete");
 });
 
 test("a later collection covers a missed interval instead of pretending the failed run was quiet", async () => {

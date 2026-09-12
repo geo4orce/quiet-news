@@ -1,5 +1,5 @@
 import { backgroundResponse } from "../lib/background-response.mjs";
-import { COLLECTION_OUTPUT_SCHEMA, CollectionStore, collectionWindow, completedPool, localBoundary, mergeCollection, poolFingerprint } from "../lib/collection.mjs";
+import { COLLECTION_OUTPUT_SCHEMA, CollectionStore, collectionWindow, collectionReadiness, completedPool, localBoundary, mergeCollection, poolFingerprint } from "../lib/collection.mjs";
 import { GENERATION_MODEL, siftInput } from "../lib/generation-prompts.mjs";
 import { requestBody, GenerationError } from "../lib/openai-generator.mjs";
 import { addCalendarDays, publicationWindow } from "../lib/new-york-day.mjs";
@@ -55,20 +55,25 @@ export async function runCheckpointedJob({
     return { status: "collected", editionDate: day, slot: window.slot, candidateCount: pool.length };
   }
 
-  if (coveredThrough !== 24) throw new GenerationError("collection_incomplete", false, { stage: "sift", targetDate: day });
+  const { coverage, canPublish } = collectionReadiness(archive);
+  if (!canPublish) throw new GenerationError("collection_incomplete", false, { stage: "sift", targetDate: day });
+  if (coverage.status === "partial") {
+    logger.warn?.(JSON.stringify({ event: "publication_partial_coverage", targetDate: day, ...coverage }));
+  }
   const candidateSet = { target_date: day, candidates: pool };
-  const fingerprint = poolFingerprint({ candidateSet, prior });
+  const fingerprint = poolFingerprint({ candidateSet, prior, coverage });
   let sift = archive.collection.sift;
   if (sift && sift.inputFingerprint !== fingerprint) throw new GenerationError("checkpoint_mismatch", false, { stage: "sift" });
   if (!sift) {
-    sift = { inputFingerprint: fingerprint, priorStories: prior.stories, request: null, result: null };
+    sift = { inputFingerprint: fingerprint, priorStories: prior.stories, coverage, request: null, result: null };
     archive.collection.sift = sift;
   }
   const reusedSift = Boolean(sift.result);
   if (!sift.result) {
     const prompts = await loadPrompts();
+    const input = JSON.stringify({ ...JSON.parse(siftInput(day, prior, candidateSet)), collection_coverage: coverage });
     const body = requestBody({ model: GENERATION_MODEL, reasoningEffort: "high", maxOutputTokens: 20_000,
-      prompt: prompts.sift, input: siftInput(day, prior, candidateSet), schema: pooledSiftSchema,
+      prompt: prompts.sift, input, schema: pooledSiftSchema,
       schemaName: "quiet_news_sift", webSearch: false });
     const result = await execute({ apiKey, body, stage: "sift", targetDate: day, request: sift.request, logger,
       promptVersion: prompts.siftVersion,
@@ -89,6 +94,6 @@ export async function runCheckpointedJob({
   await persist([`public/data/${day}.json`, "public/data/current.json", "public/data/index.json"], `Save ${day} note from collected research`);
   logger.info?.(JSON.stringify({ event: "publisher_complete", status: "published", editionDate: day,
     candidateCount: pool.length, acceptedCount: edition.stories.length, rejectionCounts: countRejections(sift.result.output),
-    reusedSift }));
-  return { status: "published", editionDate: day, storyCount: edition.stories.length };
+    reusedSift, coverage }));
+  return { status: "published", editionDate: day, storyCount: edition.stories.length, coverage };
 }
