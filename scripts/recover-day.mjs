@@ -26,7 +26,8 @@ async function atomicJson(filename, value) {
   await rename(`${filename}.tmp`, filename);
 }
 
-export async function recoverDay({ date, mode, privateDirectory, root, logger = console }) {
+export async function recoverDay({ date, mode, privateDirectory, privateRunner, root, logger = console,
+  apiKey = process.env.OPENAI_API_KEY }) {
   recoveryWindow(date);
   if (!["generate", "publish"].includes(mode)) throw new Error("Choose generate or publish");
   const store = new PublicationStore(path.join(root, "public/data"));
@@ -46,7 +47,8 @@ export async function recoverDay({ date, mode, privateDirectory, root, logger = 
   assert.equal(archive.target_date, date);
   assert.ok(Array.isArray(archive.runs));
   let entry = archive.runs.at(-1);
-  const { loadPrompts, assertPrivateStoryLimit } = await import(pathToFileURL(path.join(privateDirectory, "runner.mjs")));
+  const { loadPrompts, assertPrivateStoryLimit } = privateRunner
+    || await import(pathToFileURL(path.join(privateDirectory, "runner.mjs")));
   const prompts = await loadPrompts(privateDirectory);
   if (entry) {
     assert.deepEqual(entry.prior_stories, priorStories);
@@ -56,7 +58,7 @@ export async function recoverDay({ date, mode, privateDirectory, root, logger = 
   }
   if (mode === "generate" && !entry?.sift) {
     const generate = createOpenAIGenerator({
-      apiKey: process.env.OPENAI_API_KEY, prompts, logger,
+      apiKey, prompts, logger,
       onGenerationStage: async (record) => {
         if (record.stage === "discovery") {
           entry = { captured_at: new Date().toISOString(), prior_stories: priorStories,
