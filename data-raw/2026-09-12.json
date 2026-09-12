@@ -91,6 +91,64 @@
         },
         "observedAt": "2026-09-12T10:07:31.768Z",
         "capturedAt": "2026-09-12T10:08:19.726Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Houthis take Red Sea island; Saudi pipeline closes",
+            "body": "Iran-backed Houthi forces captured Mayun, also known as Perim, after taking the nearby Yemeni port of Mokha the previous day. The island sits at the entrance to the Red Sea near a major shipping route.\n\nSaudi Arabia separately shut its East-West oil pipeline as a precaution after drone attacks. The pipeline has provided an alternative export route while the Iran war disrupts shipping through the Strait of Hormuz.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/476237dd3bf568d946d2b16c7b45a687"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/025d052a14d9481258d51009a76d0bd6"
+              }
+            ]
+          },
+          {
+            "headline": "Philippine ferry fire death toll reaches 35",
+            "body": "Rescuers recovered 30 bodies from the burned MV June Aster, bringing the confirmed toll from the September 9 passenger-ferry fire to at least 35.\n\nAuthorities reported 43 survivors among the 132 people aboard. More than 50 people remained missing.",
+            "sources": [
+              {
+                "name": "Reuters via ThePrint",
+                "url": "https://theprint.in/world/philippine-ferry-fire-death-toll-jumps-to-35/3040616/"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/bc9474e96f2c9febe84c745ced6e9553"
+              }
+            ]
+          },
+          {
+            "headline": "Diesel tops $6 as monthly inflation quickens",
+            "body": "U.S. consumer prices rose 0.4% in August from July, after a 0.1% monthly increase in July. Prices were 3.4% higher than a year earlier, unchanged from the previous annual reading.\n\nThe national average diesel price separately exceeded $6 a gallon, a nominal record, amid fuel-supply disruptions caused by the Iran war.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/c76f53f7a53def0c464ca44ac637f203"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/636252b3b82326b41661ee5c4073dacb"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "7865dbf1692252f647b33858a86521a082000bbf59258ce78a0336a1abb10653",
+          "claimId": "e8a50f74-98c0-4df6-8ba7-0d23f2511fe5",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-09-12T16:07:28.539Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-09-12T16:07:28.482Z"
       }
     ],
     "sift": null
