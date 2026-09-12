@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-12",
+  "batch": 3,
+  "captured_at": "2026-09-12T22:08:25.898Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Saudi civil defense said a projectile fell in Al-Tawwal governorate near the Yemeni border late Saturday, injuring two people and damaging a mosque and several other buildings. Saudi authorities blamed the Houthis; the group had not immediately claimed responsibility.",
+        "category": "conflict and security",
+        "title": "Projectile injures two near Saudi-Yemen border",
+        "event_date": "2026-09-12",
+        "candidate_id": "saudi-border-projectile-injures-two",
+        "geography": "Saudi Arabia; Yemen",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/iraq-iran-yemen-saudi-arabia-c1359273dd970b969e823356e5ead377"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-12"
+  },
+  "metadata": {
+    "responseId": "resp_0c61793b36b26785006aa5cd22858487d289918fd3f29e2a9f",
+    "requestId": "req_e0e44a67c18040dfbf5dcb373ddf72ce",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1358,
+    "inputTokens": 63153,
+    "outputTokens": 1358,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-12",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 58879,
+    "attemptDurationMs": 58879,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 840000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
