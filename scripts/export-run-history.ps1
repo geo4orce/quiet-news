@@ -7,7 +7,7 @@ $ErrorActionPreference = 'Stop'
 $appId = 'ec889e34-efbf-4fc4-9213-931f6d7d5373'
 $invocations = (& $DoctlPath apps list-job-invocations $appId -o json | ConvertFrom-Json)
 if ($LASTEXITCODE -ne 0) { throw 'Could not read publisher invocations' }
-$fields = @('event','stage','targetDate','model','promptVersion','reasoningEffort',
+$fields = @('event','stage','targetDate','model','responseModel','promptVersion','reasoningEffort','reasoningTokens',
   'responseId','requestId','inputTokens','outputTokens','webSearchCalls',
   'attempts','attempt','providerAttempts','durationMs','attemptDurationMs',
   'timeoutMs','timeoutSource','httpStatus','code')

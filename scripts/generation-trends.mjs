@@ -39,10 +39,14 @@ const time = (value) => new Intl.DateTimeFormat("sv-SE", { timeZone: "America/Ne
   year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" }).format(new Date(value));
 console.log("# Generation timing\n");
 console.log(`Generated ${new Date().toISOString()}. Run times are America/New_York.\n`);
-console.log("Total seconds includes retries and retry waits. Last attempt is measured separately in new logs; ? means unavailable. Tokens and searches describe returned responses, not all billed work on failed requests. Archive success means a validated stage was saved, not proof of a Git push.\n");
+console.log("Total seconds includes retries and retry waits. Last attempt is measured separately in new logs; ? means unavailable. Tokens and searches describe returned responses, not all billed work on failed requests. Scheduled rows use invocation start time; archive-only rows use discovery capture time. Archive success is not proof of a Git push. A returned model differing from the requested model is shown with ->. Timings and usage show correlations, not the provider's internal reason for latency.\n");
 for (const stage of ["discovery", "sift"]) {
   console.log(`## ${stage}\n`);
   console.log("| Run NY | Target day | Result | Attempts | Total sec | Last attempt sec | Deadline sec | Input / output tokens | Searches | Model / prompt | HTTP |\n|---|---|---|---:|---:|---:|---:|---|---:|---|---:|");
-  for (const r of rows.filter((r) => r.stage === stage)) console.log(`| ${time(r.runAt)} | ${r.targetDate} | ${safe(r.outcome)} | ${safe(r.attempts)} | ${seconds(r.durationMs)} | ${seconds(r.attemptDurationMs)} | ${seconds(r.timeoutMs)} | ${safe(r.inputTokens)} / ${safe(r.outputTokens)} | ${safe(r.webSearchCalls)} | ${safe(r.model)} / ${safe(r.promptVersion)} | ${safe(r.httpStatus)} |`);
+  for (const r of rows.filter((r) => r.stage === stage)) {
+    const returnedModel = r.responseModel && r.responseModel !== r.model ? ` -> ${safe(r.responseModel)}` : "";
+    const reasoning = Number.isInteger(r.reasoningTokens) ? ` (${r.reasoningTokens} reasoning)` : "";
+    console.log(`| ${time(r.runAt)} | ${r.targetDate} | ${safe(r.outcome)} | ${safe(r.attempts)} | ${seconds(r.durationMs)} | ${seconds(r.attemptDurationMs)} | ${seconds(r.timeoutMs)} | ${safe(r.inputTokens)} / ${safe(r.outputTokens)}${reasoning} | ${safe(r.webSearchCalls)} | ${safe(r.model)}${returnedModel} / ${safe(r.promptVersion)} | ${safe(r.httpStatus)} |`);
+  }
   console.log();
 }

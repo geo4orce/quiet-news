@@ -218,10 +218,16 @@ it and advancing to the next day. Validated stages remain in the local raw file.
 Manual recovery may reuse a saved discovery only after checking its date, model,
 prompt version, candidate schema and exact preceding stories. Scheduled runs
 continue to generate afresh. Completed sift output can be published without a
-new provider call. Recovery records actual publication time; older backfilled
-days expire one millisecond later so they do not masquerade as current content.
-The latest completed day receives the normal expiry. Never fabricate historical
-publication timestamps.
+new provider call. Recovery records actual publication time and preserves the
+normal 5 a.m. New York expiry two calendar days after the target date. When that
+cutoff has already passed, the file expires one millisecond after publication
+so an old backfill does not masquerade as current content. Never fabricate
+historical publication timestamps.
+An authorized manual review may exclude a selected candidate with an existing
+rejection code, source URL and concise reason in that raw run's separate
+`review.exclusions` array. Preserve the original discovery and sift output.
+The recovery command applies exclusions and revalidates the decision envelope;
+it cannot add stories or change model-written text through this review record.
 After saving a publication, the job also emits a readable `Quiet News
 (YYYY-MM-DD): ...` summary with candidate, published, and rejected counts,
 followed by `Rejections: ...` with nonzero counts and plain-language labels.

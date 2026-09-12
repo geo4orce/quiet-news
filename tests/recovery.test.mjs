@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { recoveryWindow, recoverDay } from "../scripts/recover-day.mjs";
+import { recoveryWindow, recoverDay, applyReviewExclusions } from "../scripts/recover-day.mjs";
 import { createPublication } from "../lib/publication.mjs";
 import { PublicationStore } from "../lib/publication-store.mjs";
 import { mkdtemp, readFile, rm } from "node:fs/promises";
@@ -14,8 +14,21 @@ test("backfills retain real publication time while older days immediately expire
   assert.ok(new Date(old.expires_at) < new Date(now.getTime() + 1000));
   const latest = recoveryWindow("2026-09-10", now);
   assert.equal(latest.expiresAt, "2026-09-12T09:00:00.000Z");
+  assert.equal(recoveryWindow("2026-09-10", new Date("2026-09-12T04:30:00.000Z")).expiresAt,
+    "2026-09-12T09:00:00.000Z");
   assert.throws(() => recoveryWindow("2026-09-11", now));
   assert.throws(() => recoveryWindow("invalid", now));
+});
+
+test("review excludes only existing selections while preserving the original sift", () => {
+  const sift = { stories: [{ candidate_id: "one", body: "Original text" }, { candidate_id: "two" }], rejections: [] };
+  const exclusion = { candidate_id: "two", code: "weak_support", source: "https://example.com/report", reason: "Contradicted by source" };
+  const reviewed = applyReviewExclusions(sift, { exclusions: [exclusion] });
+  assert.equal(sift.stories.length, 2);
+  assert.deepEqual(reviewed.stories, [sift.stories[0]]);
+  assert.deepEqual(reviewed.rejections, [{ candidate_id: "two", code: "weak_support" }]);
+  assert.throws(() => applyReviewExclusions(sift, { exclusions: [exclusion, exclusion] }));
+  assert.throws(() => applyReviewExclusions(sift, { exclusions: [{ ...exclusion, candidate_id: "invented" }] }));
 });
 
 test("failed sift retains discovery and recovery publishes without repeating successful calls", async (t) => {
