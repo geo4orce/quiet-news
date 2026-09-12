@@ -1,0 +1,515 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-09",
+  "runs": [
+    {
+      "captured_at": "2026-09-12T03:52:53.494Z",
+      "prior_stories": [
+        {
+          "headline": "Lowell knocks out power across Kauai",
+          "body": "Hurricane Lowell passed near Hawaii’s western islands, leaving about 90% of Kauai utility customers without power.\n\nOfficials reported downed trees, damaged roads and widespread infrastructure damage as the island experienced heavy rain, damaging winds and coastal flooding.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/3ecb644ff75c5e96c474acec38582cb0"
+            },
+            {
+              "name": "Hawaii Emergency Management Agency",
+              "url": "https://dod.hawaii.gov/hiema/news-release-state-of-hawai%CA%BBi-on-hurricane-lowell-state-departments-continue-to-support-residents/"
+            },
+            {
+              "name": "County of Kauai",
+              "url": "https://www.kauai.gov/County-Press-Releases/730-a.m.-Sept.-8-County-of-Kaua%CA%BBi-Hurricane-Lowell-Update-2026"
+            }
+          ]
+        },
+        {
+          "headline": "U.S. destroys five Iranian oil tankers",
+          "body": "U.S. forces destroyed five Iranian crude-oil tankers in the Gulf of Oman. U.S. Central Command said the strikes followed two attempted ballistic-missile attacks on an American Navy warship.\n\nOfficials said the tankers’ crews were warned to abandon the vessels before they were struck.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/461f9e97f78983653c59408c0b55757a"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/3a2a047784c920cadf6e3911bb8969ac"
+            }
+          ]
+        },
+        {
+          "headline": "Houthi strikes wound 73 in Saudi Arabia",
+          "body": "Houthi attacks across Saudi Arabia wounded 73 people and started fires at oil facilities and utilities.\n\nThe strikes included an attack near Jazan, which is home to one of the country’s largest refineries.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/4ad9446f0bb8c096750c84b6e1ba86b8"
+            }
+          ]
+        },
+        {
+          "headline": "Canada tariffs take effect as U.S. retaliates",
+          "body": "Canada imposed retaliatory tariffs on about $20 billion in U.S. imports.\n\nThe United States announced that it would ban most Canadian alcoholic beverages, some dairy products and motorcycles beginning September 29. It also moved to exclude Canadian goods from large federal contracts.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/a5fbb50d1c30327ae813482556a37ac3"
+            }
+          ]
+        },
+        {
+          "headline": "British air traffic failure cancels 1,000 flights",
+          "body": "A failure in Britain’s flight-processing system disrupted 15 airports and caused more than 1,000 cancellations.\n\nNational Air Traffic Services restored the system that evening, but delays continued as airlines worked through the backlog.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/408a8997d9fb39508e922e09d2523884"
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.lse.co.uk/news/some-uk-departing-flights-disrupted-by-nats-technical-issue-heathrow-says-666517p5d18wmeb.html"
+            }
+          ]
+        },
+        {
+          "headline": "Brazilian justice removes police, intelligence chiefs",
+          "body": "Brazilian Supreme Court Justice André Mendonça ordered the removal of the country’s federal police and intelligence chiefs amid an escalating conflict within the court.\n\nPresident Luiz Inácio Lula da Silva’s government appealed the order. The dispute comes ahead of Brazil’s national elections in October.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/30cd3bab96065b3a076f4756294b09b4"
+            }
+          ]
+        }
+      ],
+      "discovery": {
+        "output": {
+          "target_date": "2026-09-09",
+          "candidates": [
+            {
+              "candidate_id": "qn-2026-09-09-01",
+              "event_date": "2026-09-09",
+              "title": "IAEA refers Iran to U.N. Security Council",
+              "summary": "The International Atomic Energy Agency’s governing board reported Iran to the U.N. Security Council for failing to cooperate with an investigation into uranium traces at undeclared sites. It was the agency’s first such referral of Iran in 20 years; 23 of the board’s 35 countries supported the resolution.",
+              "category": "International affairs",
+              "geography": "Iran; United Nations",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/607ecdffcd8ef88ddf8f33041e86b720"
+                },
+                {
+                  "name": "Al Jazeera",
+                  "url": "https://www.aljazeera.com/news/2026/9/9/iaea-board-resolves-to-report-iran-to-security-council-over-nuclear-program"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-02",
+              "event_date": "2026-09-09",
+              "title": "Iran fires missiles at U.S.-used base in Jordan",
+              "summary": "Iran’s Revolutionary Guard said it launched ballistic missiles at the Al-Azraq base in Jordan in retaliation for U.S. attacks on Iranian oil tankers. Jordan said its air defenses intercepted 18 of 20 missiles and that the other two landed in unpopulated areas without causing casualties.",
+              "category": "Conflict",
+              "geography": "Jordan; Iran; United States",
+              "sources": [
+                {
+                  "name": "Just Security",
+                  "url": "https://www.justsecurity.org/156735/early-edition-september-9-2026/"
+                },
+                {
+                  "name": "Democracy Now!",
+                  "url": "https://www.democracynow.org/2026/9/9/headlines"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-03",
+              "event_date": "2026-09-09",
+              "title": "Oil rises above $100 a barrel",
+              "summary": "Global benchmark oil prices climbed above $100 a barrel as fighting involving the United States and Iran threatened energy production and shipping. U.S. stocks fell and gasoline prices continued to rise.",
+              "category": "Economy",
+              "geography": "Global",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/7538e6386a819bcdc2547d530ec3472e"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/d1284eb72934a3b076c14449bc087fbd"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-04",
+              "event_date": "2026-09-09",
+              "title": "Trump administration proposes major census changes",
+              "summary": "The Commerce Department proposed counting only U.S. citizens and lawful permanent residents for congressional apportionment in the 2030 census. The proposal would exclude undocumented immigrants and many people lawfully present on temporary visas, potentially changing the allocation of House seats and federal funding.",
+              "category": "Government",
+              "geography": "United States",
+              "sources": [
+                {
+                  "name": "Federal Register",
+                  "url": "https://public-inspection.federalregister.gov/2026-18481.pdf"
+                },
+                {
+                  "name": "Reuters",
+                  "url": "https://www.investing.com/news/politics-news/trump-administration-proposes-dropping-huge-swath-of-immigrants-from-uscensus-4894319"
+                },
+                {
+                  "name": "The Washington Post",
+                  "url": "https://www.washingtonpost.com/politics/2026/09/09/trump-administration-proposes-changes-census-that-could-exclude-millions//"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-05",
+              "event_date": "2026-09-09",
+              "title": "Temporary protected status expires for Salvadorans",
+              "summary": "The U.S. Temporary Protected Status designation covering roughly 200,000 Salvadoran immigrants expired without an announced extension. The program had protected eligible Salvadorans from deportation and authorized them to work in the United States.",
+              "category": "Immigration",
+              "geography": "United States; El Salvador",
+              "sources": [
+                {
+                  "name": "The Washington Post",
+                  "url": "https://www.washingtonpost.com/national/2026/09/09/el-salvador-immigrants-temporary-protected-status/cdbdda96-ac5e-11f1-b498-8697f35a6743_story.html"
+                },
+                {
+                  "name": "USCIS",
+                  "url": "https://www.uscis.gov/es/noticias/comunicados-de-prensa/dhs-publica-una-notificacion-en-el-registro-federal-que-extiende-el-estatus-de-proteccion-temporal"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-06",
+              "event_date": "2026-09-09",
+              "title": "Missouri congressional map dispute returns to Supreme Court",
+              "summary": "A group opposing Missouri’s new Republican-drawn congressional map asked the U.S. Supreme Court to block a federal judge’s order requiring its use in November. The order conflicted with a Missouri Supreme Court ruling that the map never took effect and must be submitted to voters in a referendum.",
+              "category": "Elections",
+              "geography": "Missouri, United States",
+              "sources": [
+                {
+                  "name": "U.S. Supreme Court filing",
+                  "url": "https://www.supremecourt.gov/DocketPDF/26/26A326/423669/20260909165819594_People%20Not%20Politicians%20v.%20Onder%20Emergency%20Stay%20Application.pdf"
+                },
+                {
+                  "name": "The Washington Post",
+                  "url": "https://www.washingtonpost.com/politics/2026/09/09/missouri-electoral-map-chaos-after-clashing-rulings-by-kavanaugh-judge/"
+                },
+                {
+                  "name": "Axios",
+                  "url": "https://www.axios.com/local/kansas-city/2026/09/09/missouri-congressional-map-hoskins-contempt"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-07",
+              "event_date": "2026-09-09",
+              "title": "Trump promises conditional $5,000 payments to adults",
+              "summary": "President Donald Trump told the Republican midterm convention that every adult American would receive $5,000 if Republicans retained control of both chambers of Congress in November. He did not provide details about funding or implementation.",
+              "category": "Politics",
+              "geography": "United States",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/5be7a32b6cffb5b1eaa58d982fdb3448"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-08",
+              "event_date": "2026-09-09",
+              "title": "Apple introduces its first foldable iPhone",
+              "summary": "Apple unveiled the iPhone Duo, its first foldable smartphone, alongside updated conventional iPhones, watches and AirPods. The announcement marked Apple’s entry into the foldable-phone market under new chief executive John Ternus.",
+              "category": "Technology",
+              "geography": "United States; Global",
+              "sources": [
+                {
+                  "name": "Apple",
+                  "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/fd35312e6d894d5f3b055b3d62f22cd2"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-09",
+              "event_date": "2026-09-09",
+              "title": "Astronomers identify new class of X-ray objects",
+              "summary": "Scientists using NASA’s Chandra X-ray Observatory reported finding 84 objects across six galaxies that emit unusually low-energy X-rays and intense ultraviolet radiation. The researchers classified them as hypersoft X-ray sources, a previously unknown class that may involve compact stars drawing material from companions.",
+              "category": "Science",
+              "geography": "Space",
+              "sources": [
+                {
+                  "name": "NASA",
+                  "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-unveils-mysterious-x-ray-objects/"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-10",
+              "event_date": "2026-09-09",
+              "title": "NASA adds Terran R to launch-services contract",
+              "summary": "NASA added Relativity Space’s reusable Terran R rocket to its launch-services contract, making the vehicle eligible to compete for future NASA and other federal missions. The contract’s ordering period runs through June 2030.",
+              "category": "Space",
+              "geography": "United States",
+              "sources": [
+                {
+                  "name": "NASA",
+                  "url": "https://www.nasa.gov/news-release/nasa-adds-relativity-spaces-terran-r-to-launch-services-contract/"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-11",
+              "event_date": "2026-09-09",
+              "title": "DOJ opens investigation into Los Angeles jail conditions",
+              "summary": "The Justice Department opened a civil-rights investigation into whether conditions at Los Angeles County’s Men’s Central Jail violate constitutional and federal standards. The inquiry will focus on whether the facility provides safe, humane and habitable conditions rather than on the conduct of individual deputies.",
+              "category": "Justice",
+              "geography": "Los Angeles, California, United States",
+              "sources": [
+                {
+                  "name": "U.S. Department of Justice",
+                  "url": "https://www.justice.gov/usao-cdca/pr/justice-department-notifies-los-angeles-county-investigation-whether-conditions"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-12",
+              "event_date": "2026-09-09",
+              "title": "Tate brothers denied release during extradition case",
+              "summary": "A federal magistrate judge in Miami ordered social-media influencers Andrew and Tristan Tate to remain in custody while they contest extradition to the United Kingdom, where they face allegations including rape and sex trafficking. The brothers deny wrongdoing.",
+              "category": "Justice",
+              "geography": "Florida, United States; United Kingdom",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/997cb8ceccefd959f301bd296d6d7ab8"
+                },
+                {
+                  "name": "U.S. District Court for the Southern District of Florida",
+                  "url": "https://www.govinfo.gov/content/pkg/USCOURTS-flsd-1_26-mj-03260/pdf/USCOURTS-flsd-1_26-mj-03260-0.pdf"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-13",
+              "event_date": "2026-09-09",
+              "title": "Russian and Ukrainian strikes cause casualties",
+              "summary": "Russian missile and drone attacks across Ukraine killed at least two people and wounded seven, while a later drone strike in Sumy killed three more. Ukrainian drones struck the Russian port of Novorossiysk, where regional officials reported four deaths and 29 injuries; Ukraine said the targets included a naval base and oil-loading terminal.",
+              "category": "Conflict",
+              "geography": "Ukraine; Russia",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/6670c99dcc9ed149a2bd9c0deac455cf"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-14",
+              "event_date": "2026-09-09",
+              "title": "U.K. flight cancellations surpass 2,000",
+              "summary": "The number of flights canceled following a failure in Britain’s air-traffic flight-processing system rose above 2,000. Airlines continued rebooking passengers and repositioning aircraft after the system was restored.",
+              "category": "Transportation",
+              "geography": "United Kingdom",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/f0f69ef27a90c9d0455ebf54f0998df3"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-15",
+              "event_date": "2026-09-09",
+              "title": "California man receives 30-year sentence for Medi-Cal fraud",
+              "summary": "A federal judge sentenced Paul Richard Randall to 30 years in prison for orchestrating a scheme that submitted nearly $270 million in fraudulent prescription-drug claims to California’s Medicaid program. He was also ordered to pay about $178.7 million in restitution.",
+              "category": "Justice",
+              "geography": "California, United States",
+              "sources": [
+                {
+                  "name": "U.S. Department of Justice",
+                  "url": "https://www.justice.gov/opa/pr/california-man-sentenced-30-years-orchestrating-270m-medication-reimbursement-fraud-scheme"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "stage": "discovery",
+          "targetDate": "2026-09-09",
+          "model": "gpt-5.6-sol",
+          "promptVersion": "quiet-discovery-v1",
+          "reasoningEffort": "medium",
+          "timeoutMs": 300000,
+          "responseId": "resp_0f826a07356c7e1c016aa4cbf0890c87d29b0391942a54c66c",
+          "requestId": "req_0a53278d424242a8aec017f6204364ad",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 2935,
+          "inputTokens": 113306,
+          "outputTokens": 5500,
+          "webSearchCalls": 13,
+          "httpStatus": 200,
+          "attempts": 1,
+          "attemptDurationMs": 165330,
+          "durationMs": 165330,
+          "candidateCount": 15
+        }
+      },
+      "sift": {
+        "output": {
+          "stories": [
+            {
+              "candidate_id": "qn-2026-09-09-02",
+              "headline": "Iran fires 20 missiles at base in Jordan",
+              "body": "Iran launched ballistic missiles at Jordan’s Al-Azraq base, which is used by the U.S. military. Iran’s Revolutionary Guard said the attack was retaliation for U.S. strikes on Iranian oil tankers.\n\nJordan said its air defenses intercepted 18 of the 20 missiles. The other two landed in unpopulated areas, and no casualties were reported.",
+              "sources": [
+                {
+                  "name": "Just Security",
+                  "url": "https://www.justsecurity.org/156735/early-edition-september-9-2026/"
+                },
+                {
+                  "name": "Democracy Now!",
+                  "url": "https://www.democracynow.org/2026/9/9/headlines"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-03",
+              "headline": "Oil tops $100 amid U.S.-Iran fighting",
+              "body": "Global benchmark oil prices climbed above $100 a barrel as fighting involving the United States and Iran threatened energy production and shipping.\n\nU.S. gasoline prices continued to rise, while stocks fell.",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/7538e6386a819bcdc2547d530ec3472e"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/d1284eb72934a3b076c14449bc087fbd"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-09-05",
+              "headline": "Protections expire for 200,000 Salvadorans",
+              "body": "Temporary Protected Status expired for roughly 200,000 Salvadoran immigrants in the United States, with no extension announced.\n\nThe program had protected eligible Salvadorans from deportation and authorized them to work in the country. Its expiration ends those protections for recipients without another legal status.",
+              "sources": [
+                {
+                  "name": "The Washington Post",
+                  "url": "https://www.washingtonpost.com/national/2026/09/09/el-salvador-immigrants-temporary-protected-status/cdbdda96-ac5e-11f1-b498-8697f35a6743_story.html"
+                },
+                {
+                  "name": "USCIS",
+                  "url": "https://www.uscis.gov/es/noticias/comunicados-de-prensa/dhs-publica-una-notificacion-en-el-registro-federal-que-extiende-el-estatus-de-proteccion-temporal"
+                }
+              ]
+            }
+          ],
+          "rejections": [
+            {
+              "candidate_id": "qn-2026-09-09-01",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-09-04",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-09-06",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-09-07",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "qn-2026-09-09-08",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "qn-2026-09-09-09",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "qn-2026-09-09-10",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "qn-2026-09-09-11",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-09-12",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "qn-2026-09-09-13",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "qn-2026-09-09-14",
+              "code": "prior_day_repetition"
+            },
+            {
+              "candidate_id": "qn-2026-09-09-15",
+              "code": "narrow_interest"
+            }
+          ]
+        },
+        "metadata": {
+          "stage": "sift",
+          "targetDate": "2026-09-09",
+          "model": "gpt-5.6-sol",
+          "promptVersion": "quiet-sift-v6",
+          "reasoningEffort": "high",
+          "timeoutMs": 180000,
+          "responseId": "resp_0855b4d0e63876c4016aa4cc95a5dc87d2a68e62df3ae78f41",
+          "requestId": "req_a147e304f4b54ad78daba009661b5e5a",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1034,
+          "inputTokens": 4089,
+          "outputTokens": 1809,
+          "webSearchCalls": 0,
+          "httpStatus": 200,
+          "attempts": 1,
+          "attemptDurationMs": 25292,
+          "durationMs": 25292,
+          "acceptedCount": 3,
+          "rejectedCount": 12,
+          "rejectionCounts": {
+            "outside_target_day": 0,
+            "insufficient_materiality": 4,
+            "narrow_interest": 5,
+            "incremental_update": 1,
+            "duplicate_event": 0,
+            "prior_day_repetition": 1,
+            "weak_support": 0,
+            "speculative_or_sensational": 1,
+            "displaced_by_stronger_story": 0
+          }
+        }
+      },
+      "review": {
+        "reviewed_at": "2026-09-12T03:55:21.228Z",
+        "reviewer": "Codex, authorized by owner",
+        "exclusions": [
+          {
+            "candidate_id": "qn-2026-09-09-05",
+            "code": "weak_support",
+            "source": "https://www.washingtonpost.com/national/2026/09/09/el-salvador-immigrants-temporary-protected-status/cdbdda96-ac5e-11f1-b498-8697f35a6743_story.html",
+            "reason": "Source says protections remain pending a decision."
+          },
+          {
+            "candidate_id": "qn-2026-09-09-02",
+            "code": "outside_target_day",
+            "source": "https://jordantimes.com/news/local/army-says-it-intercepted-18-ballistic-missiles-launched-from-iran",
+            "reason": "Reported at 02:54 September 9 in Jordan, before September 9 began in New York."
+          }
+        ]
+      }
+    }
+  ]
+}
