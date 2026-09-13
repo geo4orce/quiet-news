@@ -109,7 +109,6 @@ h1 { display: flex; align-items: center; gap: 12px; margin: 0; font-size: 1.45re
   font-size: 1.2rem;
 }
 
-.calendar-nav:hover:not(:disabled) { background: rgb(47 98 84 / 8%); }
 .calendar-nav:disabled { color: var(--line); cursor: default; }
 .calendar-weekdays,
 #archive-calendar { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; }
@@ -129,6 +128,7 @@ h1 { display: flex; align-items: center; gap: 12px; margin: 0; font-size: 1.45re
   text-decoration: none;
 }
 
+.calendar-nav:hover:not(:disabled),
 a.calendar-day:hover { color: var(--paper); background: var(--accent); }
 a.calendar-day[aria-current="date"] { color: var(--paper); background: var(--accent); font-weight: 700; }
 button.calendar-day:disabled { color: #a9afaa; cursor: default; }
