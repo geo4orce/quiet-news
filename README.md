@@ -14,3 +14,7 @@ Use Node.js 24: `npm ci`, `npm run check`, then
 ## Sources
 
 For source stats, run `npm run sources`.
+
+## Logo
+
+The approved QN mark and its usage rules are in [Branding](docs/branding.md).
