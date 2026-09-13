@@ -27,6 +27,12 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
   The image retains "Quiet News" alternative text. Keep this on `dev` until
   explicitly approved for production.
 
+- On `dev.quiet-news.com`, current, dated and index JSON come from public
+  `main` through `raw.githubusercontent.com`, which supports cross-origin reads.
+  DEV's branch-local daily files can expire between code deployments. Production
+  and localhost keep using their own `/data/` files. Preserve validation and
+  expiry checks for every host; never hide a real publishing failure as quiet.
+
 - Stories are always expanded, with no story toggle controls.
   `public/illustrations.js` maps exact dates/headlines to
   optional static images. The September 11 trial remains accessible at

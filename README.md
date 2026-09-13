@@ -11,6 +11,10 @@ saved pages.
 Use Node.js 24: `npm ci`, `npm run check`, then
 `npm run dev` at <http://localhost:4173/>.
 
+The live DEV site reads published news from `main` through GitHub's public raw
+file endpoint so it stays current between DEV deployments. Local development
+uses the checked-out `public/data` files.
+
 ## Sources
 
 For source stats, run `npm run sources`.

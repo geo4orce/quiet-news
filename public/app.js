@@ -179,8 +179,15 @@ function renderPublication(publication, selectedDate) {
   showNewsState(publicationState(selectedDate, publication.stories.length));
 }
 
+export function publicationDataUrl(path, hostname) {
+  // DEV code deploys independently; published news belongs to main.
+  return hostname === "dev.quiet-news.com"
+    ? `https://raw.githubusercontent.com/geo4orce/quiet-news/main/public${path}`
+    : path;
+}
+
 async function fetchJson(url) {
-  const response = await fetch(url, {
+  const response = await fetch(publicationDataUrl(url, globalThis.location?.hostname), {
     cache: "no-store",
     headers: { Accept: "application/json" }
   });

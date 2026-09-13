@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import {
   classifyDateRequest,
+  publicationDataUrl,
   publicationState,
   selectedDateFrom
 } from "../public/app.js";
@@ -12,6 +13,18 @@ const styles = await readFile(new URL("../public/styles.css", import.meta.url), 
 const app = await readFile(new URL("../public/app.js", import.meta.url), "utf8");
 const sitemap = await readFile(new URL("../public/sitemap.xml", import.meta.url), "utf8");
 const robots = await readFile(new URL("../public/robots.txt", import.meta.url), "utf8");
+
+test("DEV reads current news and its archive from published main data", () => {
+  for (const path of ["/data/current.json", "/data/index.json", "/data/2026-09-12.json"]) {
+    assert.equal(
+      publicationDataUrl(path, "dev.quiet-news.com"),
+      `https://raw.githubusercontent.com/geo4orce/quiet-news/main/public${path}`
+    );
+    for (const hostname of ["quiet-news.com", "www.quiet-news.com", "localhost", undefined]) {
+      assert.equal(publicationDataUrl(path, hostname), path);
+    }
+  }
+});
 test("the static site retains publication, archive, and source wiring", () => {
   assert.match(app, /"\/data\/current\.json"/);
   assert.match(app, /"\/data\/index\.json"/);
