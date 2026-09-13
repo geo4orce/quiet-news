@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-13",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [],
+        "request": {
+          "fingerprint": "f5433cd5a43535da9ac59f05dc9cec0d65fb8bc5410e487f4ad331aa148937d5",
+          "claimId": "280b09f7-2e35-4a60-ba15-d0cbf55b1799",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-09-13T10:07:28.435Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-09-13T10:07:28.413Z"
+      }
+    ],
+    "sift": null
+  }
+}
