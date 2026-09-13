@@ -19,7 +19,7 @@ test("the static site retains publication, archive, and source wiring", () => {
   assert.match(app, /\?date=\$\{date\}/);
   assert.match(html, /id="archive-toggle"/);
   assert.match(html, /id="archive-calendar" role="grid"/);
-  assert.match(html, /data-story-details hidden/);
+  assert.match(html, /data-story-details>/);
   assert.match(html, /data-story-sources/);
   assert.match(app, /publishedDates\.has\(date\)/);
   assert.match(app, /link\.href = source\.url/);

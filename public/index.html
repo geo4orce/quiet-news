@@ -31,6 +31,7 @@
         </div>
       </section>
     </header>
+    <p class="experiment-note">DEV illustration trial · <a href="/?date=2026-09-11">View the illustrated day</a></p>
     <main id="news" aria-live="polite">
       <div id="stories" class="hidden" data-news-state></div>
       <p id="news-loading" class="empty" data-news-state>
@@ -46,13 +47,8 @@
       <p id="error" class="empty hidden" data-news-state>Error.</p>
       <template id="story-template">
         <article data-story>
-          <h2>
-            <button class="story-toggle" type="button" aria-expanded="false">
-              <span data-story-headline></span>
-              <span class="story-toggle-icon" aria-hidden="true"></span>
-            </button>
-          </h2>
-          <div class="story-details" data-story-details hidden>
+          <h2 data-story-headline></h2>
+          <div class="story-details" data-story-details>
             <p class="summary" data-story-body></p>
             <p class="sources" data-story-sources></p>
           </div>

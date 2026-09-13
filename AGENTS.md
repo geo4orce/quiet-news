@@ -23,6 +23,13 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
 
 ## Product and browser
 
+- DEV-only illustration trial: stories are always expanded, with no story
+  toggle controls. `public/illustrations.js` maps exact dates/headlines to
+  optional static images. The September 11 trial is labeled and remains
+  accessible from its dated link after current content expires. Missing images
+  must not block text. No recurring image generation is configured. Keep this
+  experiment on `dev` until explicitly approved for production.
+
 - Filter interruptions from the completed previous `America/New_York` day.
   Zero stories is success; never fill a quota. Use plain, calm, person-to-person
   language, strong sourcing and attribution. Do not imitate a news outlet.

@@ -1,3 +1,5 @@
+import { illustrationFor } from "./illustrations.js";
+
 const PUBLICATION_FIELDS = ["edition_date", "published_at", "expires_at", "stories"];
 const STORY_FIELDS = ["headline", "body", "sources"];
 const SOURCE_FIELDS = ["name", "url"];
@@ -121,33 +123,36 @@ function renderPublication(publication, selectedDate) {
     return;
   }
 
-  const renderedStories = [];
-  const syncAllControl = () => {
-    const control = stories.querySelector("[data-stories-toggle]");
-    if (!control) return;
-    const allOpen = renderedStories.every((article) => !article.querySelector("[data-story-details]").hidden);
-    control.textContent = allOpen ? "Close all" : "Open all";
-    control.setAttribute("aria-expanded", String(allOpen));
-  };
-  const setStoryOpen = (article, open) => {
-    article.querySelector(".story-toggle").setAttribute("aria-expanded", String(open));
-    article.querySelector("[data-story-details]").hidden = !open;
-    syncAllControl();
-  };
-
   publication.stories.forEach((story, index) => {
     const fragment = template.content.cloneNode(true);
     const article = fragment.querySelector("[data-story]");
-    const toggle = article.querySelector(".story-toggle");
     const headline = article.querySelector("[data-story-headline]");
     const details = article.querySelector("[data-story-details]");
     const body = article.querySelector("[data-story-body]");
     const sources = article.querySelector("[data-story-sources]");
-    const detailsId = `story-details-${index + 1}`;
     headline.textContent = story.headline;
-    details.id = detailsId;
-    toggle.setAttribute("aria-controls", detailsId);
     body.textContent = story.body;
+    const illustration = illustrationFor(publication.edition_date, story.headline);
+    if (illustration) {
+      const figure = document.createElement("figure");
+      const image = document.createElement("img");
+      const caption = document.createElement("figcaption");
+      figure.className = "story-illustration";
+      image.alt = illustration.alt;
+      image.width = 1536;
+      image.height = 1024;
+      image.loading = index === 0 ? "eager" : "lazy";
+      image.decoding = "async";
+      image.addEventListener("error", () => {
+        figure.remove();
+        details.classList.remove("has-illustration");
+      }, { once: true });
+      image.src = illustration.src;
+      caption.textContent = "AI-generated illustration";
+      figure.append(image, caption);
+      details.classList.add("has-illustration");
+      details.prepend(figure);
+    }
     const seenUrls = new Set();
     const sourceGroups = new Map();
     story.sources.forEach((source) => {
@@ -170,29 +175,8 @@ function renderPublication(publication, selectedDate) {
       });
       sources.append(row);
     });
-    toggle.addEventListener("click", () => {
-      setStoryOpen(article, toggle.getAttribute("aria-expanded") !== "true");
-    });
-    renderedStories.push(article);
     stories.append(fragment);
   });
-
-  if (renderedStories.length > 1) {
-    const controls = document.createElement("p");
-    const toggleAll = document.createElement("button");
-    controls.className = "story-controls";
-    toggleAll.className = "stories-toggle";
-    toggleAll.type = "button";
-    toggleAll.textContent = "Open all";
-    toggleAll.dataset.storiesToggle = "";
-    toggleAll.setAttribute("aria-expanded", "false");
-    toggleAll.addEventListener("click", () => {
-      const open = !renderedStories.every((article) => !article.querySelector("[data-story-details]").hidden);
-      renderedStories.forEach((article) => setStoryOpen(article, open));
-    });
-    controls.append(toggleAll);
-    stories.append(controls);
-  }
 
   showNewsState(publicationState(selectedDate, publication.stories.length));
 }
