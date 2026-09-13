@@ -191,7 +191,7 @@ These records are public on GitHub and excluded from the website. Never save
 literal prompts, complete provider responses, credentials or hidden reasoning.
 
 Discovery warns after five minutes while polling the same background response.
-Its overall deadline is fourteen minutes. Sift warns after three minutes and
+Its overall deadline is ten minutes. Sift warns after three minutes and
 is bounded at ten minutes. Each network exchange has a thirty-second timeout;
 poll retries retrieve the same ID without starting new generation. At the
 overall deadline the worker attempts cancellation. Container timeout stays
