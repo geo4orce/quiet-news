@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-13",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [],
+        "request": {
+          "fingerprint": "f5433cd5a43535da9ac59f05dc9cec0d65fb8bc5410e487f4ad331aa148937d5",
+          "claimId": "280b09f7-2e35-4a60-ba15-d0cbf55b1799",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-13T10:07:28.435Z",
+          "responseId": "resp_0aea23f9b25765a4006aa675e3ac5487d291d65bb31b4f61d7"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The British navy-linked UK Maritime Trade Operations agency reported that a projectile struck a vessel traveling through the Strait of Hormuz. Damage and crew status were initially unknown; Iranian media later reported one person killed. No responsibility was immediately established.",
+                "category": "conflict",
+                "title": "Projectile reported hitting vessel in Strait of Hormuz",
+                "event_date": "2026-09-13",
+                "candidate_id": "hormuz-vessel-projectile-strike",
+                "geography": "Strait of Hormuz",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://au.investing.com/news/commodities-news/new-report-of-attack-on-strait-of-hormuz-shipping-fans-fears-of-threats-to-oil-supplies-4639583"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/27d276de911a983cdb1b81101ee56083"
+                  }
+                ]
+              },
+              {
+                "summary": "An Israeli strike hit a car in Gaza City, killing two people, according to Al-Shifa Hospital, which received the bodies. The available report did not provide an immediate Israeli military account of the strike.",
+                "category": "conflict",
+                "title": "Israeli strike on Gaza City car kills two, hospital says",
+                "event_date": "2026-09-13",
+                "candidate_id": "gaza-city-car-strike-two-killed",
+                "geography": "Gaza Strip",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/27d276de911a983cdb1b81101ee56083"
+                  }
+                ]
+              },
+              {
+                "summary": "Voting was underway in Sweden's parliamentary election, held alongside regional and municipal elections. The vote will determine the national parliament for the 2026–2030 term.",
+                "category": "politics",
+                "title": "Sweden votes in parliamentary, regional and municipal elections",
+                "event_date": "2026-09-13",
+                "candidate_id": "sweden-2026-election-voting",
+                "geography": "Sweden",
+                "sources": [
+                  {
+                    "name": "SVT News",
+                    "url": "https://www.svt.se/nyheter/om/val-2026"
+                  },
+                  {
+                    "name": "Reuters via The State",
+                    "url": "https://www.thestate.com/news/nation-world/world/article317224757.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-13"
+          },
+          "metadata": {
+            "responseId": "resp_0aea23f9b25765a4006aa675e3ac5487d291d65bb31b4f61d7",
+            "requestId": "req_a50aae4060814882b563c89ed1fc3954",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1802,
+            "inputTokens": 43571,
+            "outputTokens": 2144,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-13",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 53272,
+            "attemptDurationMs": 53272,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-13T10:07:28.413Z",
+        "capturedAt": "2026-09-13T10:08:21.707Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [],
+        "request": {
+          "fingerprint": "2db7de3bdcf1d968250317e03c1e03d49f216a3a39fb1d69c68526eec42fbab8",
+          "claimId": "f8dd6c7b-07e9-4368-87e7-4e5c0980070b",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-13T16:07:29.267Z",
+          "responseId": "resp_035e95c17cdb0042006aa6ca4513b887d284d1ce1e40af729b"
+        },
+        "result": {
+          "output": {
+            "candidates": [],
+            "withdrawals": [],
+            "target_date": "2026-09-13"
+          },
+          "metadata": {
+            "responseId": "resp_035e95c17cdb0042006aa6ca4513b887d284d1ce1e40af729b",
+            "requestId": "req_7b049fc373974142ab07657159732fd2",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1092,
+            "inputTokens": 57527,
+            "outputTokens": 1092,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-13",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 38157,
+            "attemptDurationMs": 38157,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-13T16:07:29.238Z",
+        "capturedAt": "2026-09-13T16:08:07.424Z"
+      }
+    ],
+    "sift": null
+  }
+}
