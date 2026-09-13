@@ -35,7 +35,6 @@ footer {
 }
 
 header { padding-bottom: 22px; border-bottom: 1px solid var(--line); }
-h1 { display: flex; align-items: center; gap: 12px; margin: 0; font-size: 1.45rem; letter-spacing: -0.02em; white-space: nowrap; }
 
 .mark {
   display: block;
@@ -247,7 +246,6 @@ footer a:focus-visible {
 @media (max-width: 560px) {
   body { padding: 20px 18px; }
   header { gap: 10px; }
-  h1 { gap: 9px; font-size: 1.15rem; }
   .mark { width: 36px; height: 36px; }
   #archive-menu { right: 2px; width: min(320px, calc(100vw - 36px)); }
   #stories { padding-top: 12px; }

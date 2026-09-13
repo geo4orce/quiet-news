@@ -23,6 +23,10 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
 
 ## Product and browser
 
+- DEV header trial: show the original Q mark without the site-name h1.
+  The image retains "Quiet News" alternative text. Keep this on `dev` until
+  explicitly approved for production.
+
 - Stories are always expanded, with no story toggle controls.
   `public/illustrations.js` maps exact dates/headlines to
   optional static images. The September 11 trial remains accessible at
