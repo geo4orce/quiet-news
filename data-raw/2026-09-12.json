@@ -495,12 +495,59 @@
       "request": {
         "fingerprint": "ac49ab6214d5f28d9b3d6a07946049d9e76a7f10ba319d5c60e85ae2a0f5860d",
         "claimId": "c7fe064b-d8d5-447c-a39b-27f94c076531",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-13T08:07:28.509Z",
         "responseId": "resp_0e95787ab08f670d006aa659c3933c87d2acfb7b91af1647bd"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "atlantic-latest-first-hurricane-record",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "modi-xi-brics-meeting",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "philippine-ferry-fire-toll-76",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "rybakina-wins-2026-us-open",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "saudi-border-projectile-injures-two",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": []
+        },
+        "metadata": {
+          "responseId": "resp_0e95787ab08f670d006aa659c3933c87d2acfb7b91af1647bd",
+          "requestId": "req_c6d0924e7ab944cfbd27bc4206e1412c",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 259,
+          "inputTokens": 2220,
+          "outputTokens": 376,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-12",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 10901,
+          "attemptDurationMs": 10901,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
