@@ -151,13 +151,107 @@
         "request": {
           "fingerprint": "e063a1a89512c5487f55b495e058886eb905e4df7a6302974636ff48607120db",
           "claimId": "098df64f-87c0-4e86-a73b-77237f375ce7",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-13T22:07:26.611Z",
           "responseId": "resp_07fc8775528f2312006aa71ea1c30c87d2987c1461b4a22584"
         },
-        "result": null,
-        "observedAt": "2026-09-13T22:07:26.582Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "After polls closed, partial results showed Prime Minister Ulf Kristersson’s conservative alliance and the left-wing opposition in a nearly even race. An initial SVT exit poll had placed the left ahead, but with about two-thirds of votes counted the blocs were close. Final results were not yet available.",
+                "category": "politics",
+                "title": "Partial results show Sweden’s parliamentary election nearly tied",
+                "event_date": "2026-09-13",
+                "candidate_id": "sweden-2026-election-voting",
+                "geography": "Sweden",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/d7108eb1da493f7646b30c6f7a3421af"
+                  },
+                  {
+                    "name": "Swedish Election Authority",
+                    "url": "https://www.val.se/english/election-results/elections-to-the-riksdag-and-regional-and-municipal-councils/election-results-2026"
+                  },
+                  {
+                    "name": "SVT News",
+                    "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026"
+                  }
+                ]
+              },
+              {
+                "summary": "President Donald Trump said during a visit to Ireland that his administration should not significantly slow artificial-intelligence development because doing so could surrender a competitive advantage to China. He acknowledged that some guardrails may be needed but did not specify potential regulations.",
+                "category": "technology",
+                "title": "Trump argues against slowing US artificial-intelligence development",
+                "event_date": "2026-09-13",
+                "candidate_id": "trump-ai-development-ireland-comments",
+                "geography": "Ireland / United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/9df0ebb4c1b0619aa0f88057b5a1092d"
+                  }
+                ]
+              },
+              {
+                "summary": "President Donald Trump reiterated his support for a united Ireland during his visit to the country, saying the Republic of Ireland and Northern Ireland should merge. Democratic Unionist Party leader Gavin Robinson responded that Northern Ireland’s constitutional status must be decided by its people.",
+                "category": "politics",
+                "title": "Trump reiterates support for a united Ireland",
+                "event_date": "2026-09-13",
+                "candidate_id": "trump-united-ireland-comments",
+                "geography": "Ireland / United Kingdom",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/7fc7d5cd140a6d902136660909a4c22e"
+                  }
+                ]
+              },
+              {
+                "summary": "Alexander Zverev defeated Ben Shelton 6-3, 7-6(2), 5-7, 6-2 in the US Open men’s singles final at Arthur Ashe Stadium. The victory gave Zverev his first US Open title.",
+                "category": "sports",
+                "title": "Alexander Zverev wins first US Open men’s singles title",
+                "event_date": "2026-09-13",
+                "candidate_id": "zverev-wins-2026-us-open",
+                "geography": "New York City, United States",
+                "sources": [
+                  {
+                    "name": "Cadena SER",
+                    "url": "https://cadenaser.com/nacional/2026/09/13/zverev-despierta-a-shelton-del-sueno-y-conquista-con-merito-su-primer-us-open-cadena-ser/"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-13"
+          },
+          "metadata": {
+            "responseId": "resp_07fc8775528f2312006aa71ea1c30c87d2987c1461b4a22584",
+            "requestId": "req_b0083b6e23eb4c00902ca08ef39e8e84",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1444,
+            "inputTokens": 56430,
+            "outputTokens": 2013,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-13",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 69427,
+            "attemptDurationMs": 69427,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-09-13T22:07:26.582Z",
+        "capturedAt": "2026-09-13T22:08:36.038Z"
       }
     ],
     "sift": null
