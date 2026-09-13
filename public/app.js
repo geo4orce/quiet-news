@@ -157,7 +157,6 @@ function renderPublication(publication, selectedDate) {
       if (!sourceGroups.has(name)) sourceGroups.set(name, []);
       sourceGroups.get(name).push(source);
     });
-    sources.append(document.createTextNode(seenUrls.size === 1 ? "Source:" : "Sources:"));
     sourceGroups.forEach((group, name) => {
       const row = document.createElement("span");
       row.className = "source-group";
