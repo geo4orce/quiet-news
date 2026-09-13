@@ -364,13 +364,79 @@
         "request": {
           "fingerprint": "1dfb7bf2b432fe9aabd9811b058f7e695ba429bb8d05c68b59d789beee510ab5",
           "claimId": "94c77442-8cb9-4c9d-9ac7-eb3d7f45d6d1",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-13T07:07:25.882Z",
           "responseId": "resp_0902d0b9217fec95006aa64bb1308c87d29645f0f43a6550d6"
         },
-        "result": null,
-        "observedAt": "2026-09-13T07:07:25.835Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Philippine rescuers recovered 41 additional remains from the burned MV June Aster, raising the confirmed death toll from 35 to 76. Authorities said 43 people survived and 13 remained unaccounted for among the 132 people aboard.",
+                "category": "disasters and accidents",
+                "title": "Philippine ferry fire death toll rises to 76",
+                "event_date": "2026-09-12",
+                "candidate_id": "philippine-ferry-fire-toll-76",
+                "geography": "Philippines",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/bc9474e96f2c9febe84c745ced6e9553"
+                  },
+                  {
+                    "name": "Reuters via ThePrint",
+                    "url": "https://theprint.in/world/death-toll-in-philippine-ferry-fire-rises-to-76-as-rescuers-recover-more-remains/3041303/"
+                  }
+                ]
+              },
+              {
+                "summary": "Elena Rybakina defeated Aryna Sabalenka 6-4, 5-7, 6-2 in the U.S. Open women’s singles final. The victory gave Rybakina her first U.S. Open championship and third Grand Slam singles title, following Wimbledon in 2022 and the 2026 Australian Open.",
+                "category": "sports",
+                "title": "Rybakina wins U.S. Open women’s singles title",
+                "event_date": "2026-09-12",
+                "candidate_id": "rybakina-wins-2026-us-open",
+                "geography": "United States; Kazakhstan",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/521adac24c4f6350c07bdd914cd83b97"
+                  },
+                  {
+                    "name": "Cadena SER",
+                    "url": "https://cadenaser.com/nacional/2026/09/12/rybakina-nueva-reina-del-tenis-mundial-agranda-la-crisis-de-sabalenka-y-se-lleva-el-us-open-cadena-ser/"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-12"
+          },
+          "metadata": {
+            "responseId": "resp_0902d0b9217fec95006aa64bb1308c87d29645f0f43a6550d6",
+            "requestId": "req_bf39c01edc894146ab0e0f76a3d819df",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 3856,
+            "inputTokens": 101256,
+            "outputTokens": 3953,
+            "webSearchCalls": 11,
+            "stage": "discovery",
+            "targetDate": "2026-09-12",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 100141,
+            "attemptDurationMs": 100141,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-13T07:07:25.835Z",
+        "capturedAt": "2026-09-13T07:09:06.024Z"
       }
     ],
     "sift": null
