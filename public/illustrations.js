@@ -1,4 +1,4 @@
-// DEV visual trial. Entries match an exact saved day and headline.
+// Optional static illustrations match an exact saved day and headline.
 // Keep illustration metadata separate from the publication contract.
 const illustrations = {
   "2026-09-11": {

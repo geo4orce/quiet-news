@@ -23,15 +23,16 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
 
 ## Product and browser
 
-- DEV-only illustration trial: stories are always expanded, with no story
-  toggle controls. `public/illustrations.js` maps exact dates/headlines to
+- Stories are always expanded, with no story toggle controls.
+  `public/illustrations.js` maps exact dates/headlines to
   optional static images. The September 11 trial remains accessible at
   `/?date=2026-09-11` after current content expires. No trial banner or visible
   image captions; the footer says "AI-powered daily news. Only what earns your
   attention." Sources and footer share the muted color and 0.7 opacity,
-  returning to 1 on hover or focus. Missing images
-  must not block text. No recurring image generation is configured. Keep this
-  experiment on `dev` until explicitly approved for production.
+  returning to 1 on hover or focus. Missing images must not block text.
+  No recurring image generation is configured. Keep
+  publication data and illustration metadata separate. These reading and
+  illustration changes are approved for production; retain the original Q logo.
 
 - Filter interruptions from the completed previous `America/New_York` day.
   Zero stories is success; never fill a quota. Use plain, calm, person-to-person
