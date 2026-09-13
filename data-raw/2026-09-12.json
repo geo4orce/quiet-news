@@ -495,10 +495,10 @@
       "request": {
         "fingerprint": "ac49ab6214d5f28d9b3d6a07946049d9e76a7f10ba319d5c60e85ae2a0f5860d",
         "claimId": "c7fe064b-d8d5-447c-a39b-27f94c076531",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-09-13T08:07:28.509Z",
-        "responseId": null
+        "responseId": "resp_0e95787ab08f670d006aa659c3933c87d2acfb7b91af1647bd"
       },
       "result": null
     }
