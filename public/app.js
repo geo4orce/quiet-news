@@ -1,4 +1,5 @@
 import { illustrationFor } from "./illustrations.js";
+import { dailyImagesEnabled, loadDailyImages } from "./image-manifest.js";
 
 const PUBLICATION_FIELDS = ["edition_date", "published_at", "expires_at", "stories"];
 const STORY_FIELDS = ["headline", "body", "sources"];
@@ -113,6 +114,25 @@ function showNewsState(id) {
   });
 }
 
+function attachIllustration(details, illustration, index) {
+  const figure = document.createElement("figure");
+  const image = document.createElement("img");
+  figure.className = "story-illustration";
+  image.alt = illustration.alt;
+  image.width = 1536;
+  image.height = 1024;
+  image.loading = index === 0 ? "eager" : "lazy";
+  image.decoding = "async";
+  image.addEventListener("error", () => {
+    figure.remove();
+    details.classList.remove("has-illustration");
+  }, { once: true });
+  image.src = illustration.src;
+  figure.append(image);
+  details.classList.add("has-illustration");
+  details.prepend(figure);
+}
+
 function renderPublication(publication, selectedDate) {
   const stories = document.querySelector("#stories");
   const template = document.querySelector("#story-template");
@@ -132,25 +152,9 @@ function renderPublication(publication, selectedDate) {
     const sources = article.querySelector("[data-story-sources]");
     headline.textContent = story.headline;
     body.textContent = story.body;
-    const illustration = illustrationFor(publication.edition_date, story.headline);
-    if (illustration) {
-      const figure = document.createElement("figure");
-      const image = document.createElement("img");
-      figure.className = "story-illustration";
-      image.alt = illustration.alt;
-      image.width = 1536;
-      image.height = 1024;
-      image.loading = index === 0 ? "eager" : "lazy";
-      image.decoding = "async";
-      image.addEventListener("error", () => {
-        figure.remove();
-        details.classList.remove("has-illustration");
-      }, { once: true });
-      image.src = illustration.src;
-      figure.append(image);
-      details.classList.add("has-illustration");
-      details.prepend(figure);
-    }
+    const illustration = dailyImagesEnabled(globalThis.location?.hostname)
+      ? illustrationFor(publication.edition_date, story.headline) : null;
+    if (illustration) attachIllustration(details, illustration, index);
     const seenUrls = new Set();
     const sourceGroups = new Map();
     story.sources.forEach((source) => {
@@ -206,6 +210,14 @@ async function loadPublication(selectedDate) {
       throw new Error("Today's file expired");
     }
     renderPublication(value, selectedDate);
+    void loadDailyImages(value).then((images) => {
+      const details = document.querySelectorAll("[data-story-details]");
+      images.forEach((image, index) => {
+        if (!image || !details[index]) return;
+        details[index].querySelector(".story-illustration")?.remove();
+        attachIllustration(details[index], image, index);
+      });
+    });
   } catch {
     console.error("Quiet News publication load failed.", {
       code: selectedDate === null ? "current_load_failed" : "archive_load_failed",

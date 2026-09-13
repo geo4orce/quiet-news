@@ -40,7 +40,7 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
   image captions; the footer says "AI-powered daily news. Only what earns your
   attention." Sources and footer share the muted color and 0.7 opacity,
   returning to 1 on hover or focus. Missing images must not block text.
-  No recurring image generation is configured. Keep
+  Daily image generation runs after successful text publication, using a separate private QNP prompt. Images display only on dev.quiet-news.com and localhost during the trial; production must not fetch or render story images. Keep
   publication data and illustration metadata separate. These reading and
   illustration changes are approved for production; retain the original Q logo.
 
@@ -141,3 +141,11 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
   [latest model](https://developers.openai.com/api/docs/guides/latest-model),
   [structured outputs](https://developers.openai.com/api/docs/guides/structured-outputs),
   [background](https://developers.openai.com/api/docs/guides/background).
+
+## Daily image trial
+
+- jobs/images.mjs owns generation/storage; QNP supplies its private illustration prompt after publish or already-published recovery. Never run images during collection. Quiet days skip all image work.
+- One medium-quality 1536x1024 JPEG per final story, currently gpt-image-1.5. Text is saved/pushed first. Image failure must not block publication.
+- Save/push a claim in data-raw/YYYY-MM-DD.images.json before every request, then save/push each JPEG, public/images/YYYY-MM-DD/index.json and completion together before further paid work. Never automatically repeat an existing claim, including uncertain/failed requests. Images API requests are synchronous and cannot be resumed by response ID.
+- Recovery may finish unclaimed stories within the container budget. No automatic historical backfill or regeneration after corrections. Full story-content hashes prevent mismatched images after corrections. Missing/invalid manifests and images are optional and must not affect the news state.
+- Literal illustration prompts and their version manifest stay only in private QNP. No base64 provider responses or prompt text in public storage/logs.
