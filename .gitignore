@@ -2,6 +2,7 @@
 .env
 
 # Dependencies and generated output
+*.log
 .cache/
 .npm-cache/
 dist/
