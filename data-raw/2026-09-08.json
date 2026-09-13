@@ -1,0 +1,586 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-08",
+  "runs": [
+    {
+      "captured_at": "2026-09-12T03:47:39.755Z",
+      "prior_stories": [
+        {
+          "headline": "Hurricane warning issued as Lowell nears Kauai",
+          "body": "Hawaii ordered schools and government offices in Kauai County closed Tuesday as Hurricane Lowell approached. The National Hurricane Center placed Kauai County under a hurricane warning and Oahu under a tropical storm warning.\n\nForecasters said heavy rain, damaging winds and mudslides were possible.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/hurricane-lowell-hawaii-schools-516235ba1cedaa7256de8d893c36a752"
+            },
+            {
+              "name": "National Hurricane Center",
+              "url": "https://www.nhc.noaa.gov/archive/2026/ep12/ep122026.discus.046.shtml"
+            },
+            {
+              "name": "National Weather Service Honolulu",
+              "url": "https://www.nhc.noaa.gov/text/WTHW80-PHFO.shtml"
+            }
+          ]
+        },
+        {
+          "headline": "Syria’s hidden uranium placed under IAEA safeguards",
+          "body": "The International Atomic Energy Agency said the undeclared reactor built under Bashar Assad had features highly efficient for producing fissile material usable in nuclear weapons.\n\nInspectors also verified about 73 metric tons of previously hidden natural uranium metal. The material is now under IAEA safeguards.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/syria-nuclear-reactor-plutonium-weapons-0d72d8d543a1fe5218d21b6f13f9fbcb"
+            }
+          ]
+        },
+        {
+          "headline": "Ebola case reported in rebel-held eastern Congo",
+          "body": "Authorities reported a new Ebola case in an area of eastern Democratic Republic of Congo controlled by AFC/M23 rebels. The coalition had declared its territory free of the disease in June.\n\nThe wider Bundibugyo-strain outbreak has surpassed 6,000 confirmed cases and 3,000 deaths. The World Health Organization said transmission was outpacing the response.",
+          "sources": [
+            {
+              "name": "CNN",
+              "url": "https://transcripts.cnn.com/show/ow/date/2026-09-07/segment/02"
+            },
+            {
+              "name": "European Centre for Disease Prevention and Control",
+              "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+            }
+          ]
+        },
+        {
+          "headline": "Himalayan flood toll passes 1,300",
+          "body": "Nepal held a national day of mourning as authorities reported more than 1,300 deaths across Nepal and Tibet from the Himalayan floods. About 5,000 people were missing.\n\nFamilies demonstrated in Kathmandu, demanding faster searches for workers missing around damaged hydropower projects.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/f5477d09ca1c56541450828302818d73"
+            },
+            {
+              "name": "Georgia Public Broadcasting/NPR",
+              "url": "https://www.gpb.org/news/2026/09/07/nepal-identifies-those-killed-in-the-floods-questions-grow-over-chinas-reporting"
+            }
+          ]
+        },
+        {
+          "headline": "U.S. gas average reaches $4.15",
+          "body": "AAA data cited by CNN put the national average gasoline price at $4.15 a gallon on Labor Day. That was nearly $1 more than a year earlier and the highest Labor Day average on record.\n\nThe increase came amid energy-market disruption from the continuing war with Iran.",
+          "sources": [
+            {
+              "name": "CNN",
+              "url": "https://transcripts.cnn.com/show/ow/date/2026-09-07/segment/02"
+            },
+            {
+              "name": "CNN",
+              "url": "https://transcripts.cnn.com/show/cnc/date/2026-09-07/segment/07"
+            }
+          ]
+        }
+      ],
+      "discovery": {
+        "output": {
+          "target_date": "2026-09-08",
+          "candidates": [
+            {
+              "candidate_id": "qn-2026-09-08-01",
+              "event_date": "2026-09-08",
+              "title": "Hurricane Lowell leaves most of Kauai without power",
+              "summary": "Hurricane Lowell passed near Hawaii's western islands with damaging winds, heavy rain and coastal flooding. About 90% of Kauai utility customers lost power, while officials reported downed trees, damaged roads and widespread infrastructure damage.",
+              "category": "Weather and disasters",
+              "geography": "Hawaii, United States",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/3ecb644ff75c5e96c474acec38582cb0"
+                },
+                {
+                  "name": "Hawaii Emergency Management Agency",
+                  "url": "https://dod.hawaii.gov/hiema/news-release-state-of-hawai%CA%BBi-on-hurricane-lowell-state-departments-continue-to-support-residents/"
+                },
+                {
+                  "name": "County of Kauai",
+                  "url": "https://www.kauai.gov/County-Press-Releases/730-a.m.-Sept.-8-County-of-Kaua%CA%BBi-Hurricane-Lowell-Update-2026"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-02",
+              "event_date": "2026-09-08",
+              "title": "U.S. military destroys five Iranian oil tankers",
+              "summary": "U.S. Central Command said American forces destroyed five Iranian crude-oil tankers after two attempted ballistic-missile attacks on a U.S. Navy warship. Officials said crews were warned to abandon the vessels before the strikes.",
+              "category": "War and security",
+              "geography": "Iran and Gulf of Oman",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/461f9e97f78983653c59408c0b55757a"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/3a2a047784c920cadf6e3911bb8969ac"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-03",
+              "event_date": "2026-09-08",
+              "title": "Houthi attacks wound 73 people and ignite fires in Saudi Arabia",
+              "summary": "Yemen's Houthi rebels launched a wave of attacks on Saudi Arabia that wounded 73 people and set fires at oil facilities and utilities. The strikes included an attack near Jazan, home to one of the kingdom's largest refineries.",
+              "category": "War and security",
+              "geography": "Saudi Arabia and Yemen",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/4ad9446f0bb8c096750c84b6e1ba86b8"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-04",
+              "event_date": "2026-09-08",
+              "title": "U.S.-Canada trade dispute escalates with import bans and tariffs",
+              "summary": "The United States announced bans on most Canadian alcoholic beverages, some dairy products and motorcycles, effective September 29, and moved to exclude Canadian goods from large federal contracts. Canada simultaneously put retaliatory tariffs into effect on about $20 billion in U.S. imports.",
+              "category": "Trade and economy",
+              "geography": "United States and Canada",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/a5fbb50d1c30327ae813482556a37ac3"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-05",
+              "event_date": "2026-09-08",
+              "title": "Britain bans trade with Israeli settlements",
+              "summary": "The United Kingdom announced a ban on goods and services tied to Israeli settlements in the occupied West Bank. France and Canada announced similar action, while Israel said it would close the British consulate in Jerusalem.",
+              "category": "Diplomacy and human rights",
+              "geography": "United Kingdom, Israel and Palestinian territories",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/b4d7354221bfe0c48e4bfce7a3b7624b"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-06",
+              "event_date": "2026-09-08",
+              "title": "Air-traffic control failure cancels more than 1,000 British flights",
+              "summary": "A failure in Britain's flight-processing system disrupted 15 airports and led to more than 1,000 flight cancellations. National Air Traffic Services restored the system that evening, but delays continued as airlines cleared the backlog.",
+              "category": "Transportation",
+              "geography": "United Kingdom",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/408a8997d9fb39508e922e09d2523884"
+                },
+                {
+                  "name": "Reuters",
+                  "url": "https://www.lse.co.uk/news/some-uk-departing-flights-disrupted-by-nats-technical-issue-heathrow-says-666517p5d18wmeb.html"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-07",
+              "event_date": "2026-09-08",
+              "title": "Brazilian justice removes federal police and intelligence chiefs",
+              "summary": "Brazilian Supreme Court Justice André Mendonça ordered the removal of the country's federal police chief and intelligence chief amid an escalating conflict within the court. President Luiz Inácio Lula da Silva's government appealed the decision ahead of October's national elections.",
+              "category": "Government and courts",
+              "geography": "Brazil",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/30cd3bab96065b3a076f4756294b09b4"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-08",
+              "event_date": "2026-09-08",
+              "title": "Albanian development protests turn violent",
+              "summary": "Police and demonstrators clashed in Tirana during the 100th day of protests against a luxury coastal development linked to Jared Kushner. The demonstrations have expanded into a broader challenge to Albania's long-governing Socialist administration.",
+              "category": "Protests and politics",
+              "geography": "Albania",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/a5fd528fe90f515ffe0f0712304c39a5"
+                },
+                {
+                  "name": "The Washington Post",
+                  "url": "https://www.washingtonpost.com/world/2026/09/08/albania-protest-kushner-trump-rama/c0c10a16-abb4-11f1-b498-8697f35a6743_story.html"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-09",
+              "event_date": "2026-09-08",
+              "title": "Pappas and Sununu win New Hampshire Senate primaries",
+              "summary": "Democratic Rep. Chris Pappas and former Republican Sen. John E. Sununu won their parties' nominations for the open U.S. Senate seat being vacated by Jeanne Shaheen. Their November contest is expected to figure prominently in the fight for Senate control.",
+              "category": "Elections",
+              "geography": "New Hampshire, United States",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/133cf52dd8c065515ebca1675cf51682"
+                },
+                {
+                  "name": "New Hampshire Public Radio",
+                  "url": "https://www.nhpr.org/politics/2026-09-08/pappas-sununu-win-senate-primaries-nh-newhampshire-elections-2026"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-10",
+              "event_date": "2026-09-08",
+              "title": "Conflicting court orders throw Missouri congressional map into uncertainty",
+              "summary": "Justice Brett Kavanaugh declined to suspend a Missouri Supreme Court ruling barring use of a Republican-backed congressional map. Less than half an hour later, a federal district judge ordered the state to use that map, leaving election officials subject to conflicting directives on the ballot-finalization deadline.",
+              "category": "Elections and courts",
+              "geography": "Missouri, United States",
+              "sources": [
+                {
+                  "name": "Roll Call",
+                  "url": "https://rollcall.com/2026/09/08/federal-judge-tro-missouri-map/"
+                },
+                {
+                  "name": "KCTV",
+                  "url": "https://www.kctv5.com/2026/09/08/federal-judge-blocks-older-missouri-congressional-map-hours-after-conflicting-scotus-decision/"
+                },
+                {
+                  "name": "The Washington Post",
+                  "url": "https://www.washingtonpost.com/politics/2026/09/08/supreme-court-blocks-missouri-congressional-map-favoring-gop//"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-11",
+              "event_date": "2026-09-08",
+              "title": "New grand jury subpoenas issued in Trump-Russia investigation",
+              "summary": "The Justice Department began seeking testimony before a Florida grand jury investigating an alleged intelligence-community conspiracy against President Donald Trump. The subpoenas marked an escalation of the yearlong inquiry, though it remained unclear whether charges would result.",
+              "category": "Justice and government",
+              "geography": "United States",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/c3bcd1a0375eb1f3d15ac8937a2a9caf"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-12",
+              "event_date": "2026-09-08",
+              "title": "Energy Department closes $1.9 billion loan for Iowa nuclear restart",
+              "summary": "The Energy Department finalized a loan of up to $1.9 billion to NextEra Energy to finance the planned restart of the Duane Arnold Energy Center, Iowa's only nuclear power plant. The facility has been closed since storm damage in 2020.",
+              "category": "Energy",
+              "geography": "Iowa, United States",
+              "sources": [
+                {
+                  "name": "U.S. Department of Energy",
+                  "url": "https://www.energy.gov/articles/energy-department-closes-19-billion-loan-restart-duane-arnold-nuclear-plant"
+                },
+                {
+                  "name": "Utility Dive",
+                  "url": "https://www.utilitydive.com/news/nextera-doe-loan-duane-arnold-nuclear-restart/829773/"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-13",
+              "event_date": "2026-09-08",
+              "title": "OpenAI publishes proposed solution to Navier–Stokes problem",
+              "summary": "OpenAI released an AI-generated analytical proof and Lean formalization that it said resolves the Navier–Stokes existence and smoothness Millennium Prize Problem by demonstrating finite-time singularity formation. The result was newly released for external mathematical review and had not yet completed the prize's recognition process.",
+              "category": "Science and technology",
+              "geography": "Global",
+              "sources": [
+                {
+                  "name": "OpenAI",
+                  "url": "https://openai.com/index/navier-stokes-solution/"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-14",
+              "event_date": "2026-09-08",
+              "title": "GE Aerospace agrees to buy castings supplier for $11.75 billion",
+              "summary": "GE Aerospace signed an agreement to acquire Consolidated Precision Products for $11.75 billion, bringing a major supplier of aircraft-engine castings in-house. The transaction is expected to close in the second half of 2027, subject to regulatory approval.",
+              "category": "Business",
+              "geography": "United States and global",
+              "sources": [
+                {
+                  "name": "GE Aerospace",
+                  "url": "https://www.geaerospace.com/news/investor-relations/ir-updates/ge-aerospace-acquire-consolidated-precision-products"
+                },
+                {
+                  "name": "U.S. Securities and Exchange Commission",
+                  "url": "https://www.sec.gov/Archives/edgar/data/40545/000095014226002501/eh260827362_8k.htm"
+                },
+                {
+                  "name": "Reuters",
+                  "url": "https://ca.marketscreener.com/news/ge-aerospace-to-buy-castings-maker-cpp-for-nearly-12-billion-ce785bd8dd81ff22"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-15",
+              "event_date": "2026-09-08",
+              "title": "Boston Scientific says cyberattack will materially hurt results",
+              "summary": "Boston Scientific disclosed that an August cyberattack disrupted manufacturing and order shipments worldwide and was likely to materially affect its third-quarter and full-year results. The medical-device company said it was unlikely to meet its previous sales and adjusted-profit forecasts.",
+              "category": "Cybersecurity and business",
+              "geography": "United States and global",
+              "sources": [
+                {
+                  "name": "U.S. Securities and Exchange Commission",
+                  "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000059/bsx-20260907.htm"
+                },
+                {
+                  "name": "Boston Scientific",
+                  "url": "https://news.bostonscientific.com/9-8-26-cyber-update-archive"
+                },
+                {
+                  "name": "Reuters",
+                  "url": "https://www.investing.com/news/stock-market-news/boston-scientific-says-cyberattack-likely-to-hurt-2026-sales-profit-4891299"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-16",
+              "event_date": "2026-09-08",
+              "title": "Novartis myotonic-dystrophy drug misses Phase III endpoint",
+              "summary": "Novartis said its experimental therapy delpacibart etedesiran did not produce a statistically significant improvement on the primary endpoint in a Phase III trial involving people with myotonic dystrophy type 1. The company said it would analyze secondary results before deciding the program's future.",
+              "category": "Health and medicine",
+              "geography": "Global",
+              "sources": [
+                {
+                  "name": "Novartis",
+                  "url": "https://www.novartis.com/us-en/news/media-releases/novartis-provides-update-delpacibart-etedesiran-del-desiran-phase-iii-harbor-study-treatment-myotonic-dystrophy-type-1-dm1"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-17",
+              "event_date": "2026-09-08",
+              "title": "Smithsonian Secretary Lonnie Bunch announces retirement",
+              "summary": "Lonnie G. Bunch III announced that he would retire as Smithsonian secretary by the end of 2026. Bunch, the institution's first Black secretary and first historian in the role, previously founded the National Museum of African American History and Culture.",
+              "category": "Culture and institutions",
+              "geography": "Washington, D.C., United States",
+              "sources": [
+                {
+                  "name": "Smithsonian Institution",
+                  "url": "https://www.si.edu/newsdesk/releases/smithsonian-secretary-lonnie-g-bunch-iii-announces-retirement"
+                },
+                {
+                  "name": "Axios",
+                  "url": "https://www.axios.com/2026/09/08/smithsonian-trump-lonnie-bunch-retire"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-18",
+              "event_date": "2026-09-08",
+              "title": "FDA fills four senior leadership posts",
+              "summary": "The administration permanently filled senior FDA positions overseeing drugs, vaccines and biologics, and tobacco products, while creating a leadership role for artificial intelligence and technology. Several of the appointees had previously served in acting capacities during a period of leadership turnover.",
+              "category": "Health policy",
+              "geography": "United States",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/a1ec98fb4b3e502fe4033aa8a51dc40b"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "stage": "discovery",
+          "targetDate": "2026-09-08",
+          "model": "gpt-5.6-sol",
+          "promptVersion": "quiet-discovery-v1",
+          "reasoningEffort": "medium",
+          "timeoutMs": 300000,
+          "responseId": "resp_09bfd5e6b96aa057016aa4ca8c5b8887d2a242516b28534fbc",
+          "requestId": "req_6622d2ee26804ca38ed1c52ff50edeef",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 3244,
+          "inputTokens": 109372,
+          "outputTokens": 6452,
+          "webSearchCalls": 13,
+          "httpStatus": 200,
+          "attempts": 1,
+          "attemptDurationMs": 208380,
+          "durationMs": 208380,
+          "candidateCount": 18
+        }
+      },
+      "sift": {
+        "output": {
+          "stories": [
+            {
+              "candidate_id": "qn-2026-09-08-01",
+              "headline": "Lowell knocks out power across Kauai",
+              "body": "Hurricane Lowell passed near Hawaii’s western islands, leaving about 90% of Kauai utility customers without power.\n\nOfficials reported downed trees, damaged roads and widespread infrastructure damage as the island experienced heavy rain, damaging winds and coastal flooding.",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/3ecb644ff75c5e96c474acec38582cb0"
+                },
+                {
+                  "name": "Hawaii Emergency Management Agency",
+                  "url": "https://dod.hawaii.gov/hiema/news-release-state-of-hawai%CA%BBi-on-hurricane-lowell-state-departments-continue-to-support-residents/"
+                },
+                {
+                  "name": "County of Kauai",
+                  "url": "https://www.kauai.gov/County-Press-Releases/730-a.m.-Sept.-8-County-of-Kaua%CA%BBi-Hurricane-Lowell-Update-2026"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-02",
+              "headline": "U.S. destroys five Iranian oil tankers",
+              "body": "U.S. forces destroyed five Iranian crude-oil tankers in the Gulf of Oman. U.S. Central Command said the strikes followed two attempted ballistic-missile attacks on an American Navy warship.\n\nOfficials said the tankers’ crews were warned to abandon the vessels before they were struck.",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/461f9e97f78983653c59408c0b55757a"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/3a2a047784c920cadf6e3911bb8969ac"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-03",
+              "headline": "Houthi strikes wound 73 in Saudi Arabia",
+              "body": "Houthi attacks across Saudi Arabia wounded 73 people and started fires at oil facilities and utilities.\n\nThe strikes included an attack near Jazan, which is home to one of the country’s largest refineries.",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/4ad9446f0bb8c096750c84b6e1ba86b8"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-04",
+              "headline": "Canada tariffs take effect as U.S. retaliates",
+              "body": "Canada imposed retaliatory tariffs on about $20 billion in U.S. imports.\n\nThe United States announced that it would ban most Canadian alcoholic beverages, some dairy products and motorcycles beginning September 29. It also moved to exclude Canadian goods from large federal contracts.",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/a5fbb50d1c30327ae813482556a37ac3"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-06",
+              "headline": "British air traffic failure cancels 1,000 flights",
+              "body": "A failure in Britain’s flight-processing system disrupted 15 airports and caused more than 1,000 cancellations.\n\nNational Air Traffic Services restored the system that evening, but delays continued as airlines worked through the backlog.",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/408a8997d9fb39508e922e09d2523884"
+                },
+                {
+                  "name": "Reuters",
+                  "url": "https://www.lse.co.uk/news/some-uk-departing-flights-disrupted-by-nats-technical-issue-heathrow-says-666517p5d18wmeb.html"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-08-07",
+              "headline": "Brazilian justice removes police, intelligence chiefs",
+              "body": "Brazilian Supreme Court Justice André Mendonça ordered the removal of the country’s federal police and intelligence chiefs amid an escalating conflict within the court.\n\nPresident Luiz Inácio Lula da Silva’s government appealed the order. The dispute comes ahead of Brazil’s national elections in October.",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/30cd3bab96065b3a076f4756294b09b4"
+                }
+              ]
+            }
+          ],
+          "rejections": [
+            {
+              "candidate_id": "qn-2026-09-08-05",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-08-08",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "qn-2026-09-08-09",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-08-10",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-08-11",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-08-12",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-08-13",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "qn-2026-09-08-14",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-08-15",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-08-16",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "qn-2026-09-08-17",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "qn-2026-09-08-18",
+              "code": "insufficient_materiality"
+            }
+          ]
+        },
+        "metadata": {
+          "stage": "sift",
+          "targetDate": "2026-09-08",
+          "model": "gpt-5.6-sol",
+          "promptVersion": "quiet-sift-v6",
+          "reasoningEffort": "high",
+          "timeoutMs": 180000,
+          "responseId": "resp_0880748eae0f15f4016aa4cb5bf69087d2aab936bd8610c826",
+          "requestId": "req_3da32fabf49349678f4fbd00073fb7b9",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 2070,
+          "inputTokens": 4671,
+          "outputTokens": 3225,
+          "webSearchCalls": 0,
+          "httpStatus": 200,
+          "attempts": 1,
+          "attemptDurationMs": 53409,
+          "durationMs": 53409,
+          "acceptedCount": 6,
+          "rejectedCount": 12,
+          "rejectionCounts": {
+            "outside_target_day": 0,
+            "insufficient_materiality": 8,
+            "narrow_interest": 3,
+            "incremental_update": 0,
+            "duplicate_event": 0,
+            "prior_day_repetition": 0,
+            "weak_support": 1,
+            "speculative_or_sensational": 0,
+            "displaced_by_stronger_story": 0
+          }
+        }
+      }
+    }
+  ]
+}

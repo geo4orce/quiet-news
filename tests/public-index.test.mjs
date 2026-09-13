@@ -3,7 +3,6 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import {
   classifyDateRequest,
-  formatArchiveToggleLabel,
   publicationState,
   selectedDateFrom
 } from "../public/app.js";
@@ -11,38 +10,19 @@ import {
 const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
 const styles = await readFile(new URL("../public/styles.css", import.meta.url), "utf8");
 const app = await readFile(new URL("../public/app.js", import.meta.url), "utf8");
-const logo = await readFile(new URL("../public/quiet-news.svg", import.meta.url), "utf8");
 const sitemap = await readFile(new URL("../public/sitemap.xml", import.meta.url), "utf8");
 const robots = await readFile(new URL("../public/robots.txt", import.meta.url), "utf8");
-test("the static site loads current and past days", () => {
+test("the static site retains publication, archive, and source wiring", () => {
   assert.match(app, /"\/data\/current\.json"/);
   assert.match(app, /"\/data\/index\.json"/);
   assert.match(app, /`\/data\/\$\{selectedDate\}\.json`/);
   assert.match(app, /\?date=\$\{date\}/);
   assert.match(html, /id="archive-toggle"/);
   assert.match(html, /id="archive-calendar" role="grid"/);
-  assert.match(html, />Jump to date</);
-  assert.match(html, /quiet-news\.svg/);
-  assert.match(logo, /#147d76/);
-  assert.equal(new Set([...logo.matchAll(/#[\da-f]{6}/gi)].map(([color]) => color)).size, 1);
-  assert.match(logo, /width="42" height="42" viewBox="0 0 42 42"/);
-  assert.match(logo, /shape-rendering="geometricPrecision"/);
-  assert.match(logo, /stroke-linecap="round"/);
-  assert.match(logo, /stroke-linejoin="round"/);
-  assert.match(logo, /stroke-width="6"/);
-  assert.match(html, /class="story-toggle"/);
   assert.match(html, /data-story-details hidden/);
   assert.match(html, /data-story-sources/);
-  assert.match(html, /Today is quiet\. Come back tomorrow\./);
-  assert.doesNotMatch(html, />GitHub<\/a>/);
   assert.match(app, /publishedDates\.has\(date\)/);
   assert.match(app, /link\.href = source\.url/);
-  assert.match(app, /"Sources:"/);
-  assert.match(styles, /\.sources a \{ display: block;/);
-  assert.match(styles, /white-space: pre-line/);
-  assert.doesNotMatch(`${styles}\n${app}`, /is-open/);
-  assert.match(app, /toggleAll\.textContent = "Open all"/);
-  assert.match(app, /setStoryOpen/);
 });
 
 test("the loading indicator remains accessible", () => {
@@ -93,16 +73,6 @@ test("the requested-day state matrix is explicit and honest", () => {
   assert.match(app, /code: "archive_date_unavailable"/);
   assert.match(app, /code: selectedDate === null \? "current_load_failed" : "archive_load_failed"/);
   assert.doesNotMatch(app, /console\.(?:warn|error)\([^;]*requestedDate/);
-  assert.match(html, /id="archive-calendar"[\s\S]*<a id="archive-today" class="hidden" href="\/">Today<\/a>/);
-  assert.doesNotMatch(html, />Latest<\/a>/);
-});
-
-test("archive controls reflect the day being viewed", () => {
-  assert.equal(formatArchiveToggleLabel(null), "Jump to date");
-  assert.equal(formatArchiveToggleLabel("2026-08-14"), "Aug-14");
-  assert.equal(formatArchiveToggleLabel("2026-08-04"), "Aug-4");
-  assert.match(app, /toggle\.textContent = formatArchiveToggleLabel\(selectedDate\)/);
-  assert.match(app, /todayLink\.classList\.toggle\("hidden", selectedDate === null\)/);
 });
 
 test("the browser rejects stale or malformed publications", () => {

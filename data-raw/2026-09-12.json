@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-12",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Houthis take Red Sea island; Saudi pipeline closes",
+            "body": "Iran-backed Houthi forces captured Mayun, also known as Perim, after taking the nearby Yemeni port of Mokha the previous day. The island sits at the entrance to the Red Sea near a major shipping route.\n\nSaudi Arabia separately shut its East-West oil pipeline as a precaution after drone attacks. The pipeline has provided an alternative export route while the Iran war disrupts shipping through the Strait of Hormuz.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/476237dd3bf568d946d2b16c7b45a687"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/025d052a14d9481258d51009a76d0bd6"
+              }
+            ]
+          },
+          {
+            "headline": "Philippine ferry fire death toll reaches 35",
+            "body": "Rescuers recovered 30 bodies from the burned MV June Aster, bringing the confirmed toll from the September 9 passenger-ferry fire to at least 35.\n\nAuthorities reported 43 survivors among the 132 people aboard. More than 50 people remained missing.",
+            "sources": [
+              {
+                "name": "Reuters via ThePrint",
+                "url": "https://theprint.in/world/philippine-ferry-fire-death-toll-jumps-to-35/3040616/"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/bc9474e96f2c9febe84c745ced6e9553"
+              }
+            ]
+          },
+          {
+            "headline": "Diesel tops $6 as monthly inflation quickens",
+            "body": "U.S. consumer prices rose 0.4% in August from July, after a 0.1% monthly increase in July. Prices were 3.4% higher than a year earlier, unchanged from the previous annual reading.\n\nThe national average diesel price separately exceeded $6 a gallon, a nominal record, amid fuel-supply disruptions caused by the Iran war.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/c76f53f7a53def0c464ca44ac637f203"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/636252b3b82326b41661ee5c4073dacb"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "d32468392beb69e200cb2ea4a3b96a5e1b6cd1ee23f0a0adb99d79572165d066",
+          "claimId": "8b3f3360-ab56-4446-bca7-8d1e91caec00",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-12T10:07:31.796Z",
+          "responseId": "resp_081949bdd5655c0c006aa524673c2887d2b60fe1050debd528"
+        },
+        "result": {
+          "output": {
+            "candidates": [],
+            "withdrawals": [],
+            "target_date": "2026-09-12"
+          },
+          "metadata": {
+            "responseId": "resp_081949bdd5655c0c006aa524673c2887d2b60fe1050debd528",
+            "requestId": "req_147cf9a0de804b0bb74221823e0c019f",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1413,
+            "inputTokens": 57210,
+            "outputTokens": 1413,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-12",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 47930,
+            "attemptDurationMs": 47930,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 840000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-12T10:07:31.768Z",
+        "capturedAt": "2026-09-12T10:08:19.726Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Houthis take Red Sea island; Saudi pipeline closes",
+            "body": "Iran-backed Houthi forces captured Mayun, also known as Perim, after taking the nearby Yemeni port of Mokha the previous day. The island sits at the entrance to the Red Sea near a major shipping route.\n\nSaudi Arabia separately shut its East-West oil pipeline as a precaution after drone attacks. The pipeline has provided an alternative export route while the Iran war disrupts shipping through the Strait of Hormuz.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/476237dd3bf568d946d2b16c7b45a687"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/025d052a14d9481258d51009a76d0bd6"
+              }
+            ]
+          },
+          {
+            "headline": "Philippine ferry fire death toll reaches 35",
+            "body": "Rescuers recovered 30 bodies from the burned MV June Aster, bringing the confirmed toll from the September 9 passenger-ferry fire to at least 35.\n\nAuthorities reported 43 survivors among the 132 people aboard. More than 50 people remained missing.",
+            "sources": [
+              {
+                "name": "Reuters via ThePrint",
+                "url": "https://theprint.in/world/philippine-ferry-fire-death-toll-jumps-to-35/3040616/"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/bc9474e96f2c9febe84c745ced6e9553"
+              }
+            ]
+          },
+          {
+            "headline": "Diesel tops $6 as monthly inflation quickens",
+            "body": "U.S. consumer prices rose 0.4% in August from July, after a 0.1% monthly increase in July. Prices were 3.4% higher than a year earlier, unchanged from the previous annual reading.\n\nThe national average diesel price separately exceeded $6 a gallon, a nominal record, amid fuel-supply disruptions caused by the Iran war.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/c76f53f7a53def0c464ca44ac637f203"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/636252b3b82326b41661ee5c4073dacb"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "7865dbf1692252f647b33858a86521a082000bbf59258ce78a0336a1abb10653",
+          "claimId": "e8a50f74-98c0-4df6-8ba7-0d23f2511fe5",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-12T16:07:28.539Z",
+          "responseId": "resp_05b3d6774a83df45006aa578c4028487d29c77937b996fce54"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Indian Prime Minister Narendra Modi and Chinese President Xi Jinping met on the sidelines of the BRICS summit in New Delhi. The meeting was part of efforts by the two neighboring countries to improve relations strained by their deadly 2020 border clash.",
+                "category": "international relations",
+                "title": "Modi and Xi meet at BRICS summit",
+                "event_date": "2026-09-12",
+                "candidate_id": "modi-xi-brics-meeting",
+                "geography": "India; China",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/e51a7eb70cfb3c79c978fbf9cc9cbed5"
+                  }
+                ]
+              },
+              {
+                "summary": "The 2026 Atlantic hurricane season set a satellite-era record for the latest point in the year without a hurricane forming. The National Hurricane Center listed five named Atlantic storms but no hurricanes as of September 12, with accumulated cyclone energy 93% below the 1991–2020 norm.",
+                "category": "weather and climate",
+                "title": "Atlantic season sets record for latest first hurricane",
+                "event_date": "2026-09-12",
+                "candidate_id": "atlantic-latest-first-hurricane-record",
+                "geography": "North Atlantic",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/53993f467ae90f20eff5976bf144c8e3"
+                  },
+                  {
+                    "name": "National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/data/tcr/index.php?basin=atl&season=2026"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-12"
+          },
+          "metadata": {
+            "responseId": "resp_05b3d6774a83df45006aa578c4028487d29c77937b996fce54",
+            "requestId": "req_62f819d831bc46e19d517518143e19de",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1353,
+            "inputTokens": 52040,
+            "outputTokens": 1664,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-12",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 53127,
+            "attemptDurationMs": 53127,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 840000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-12T16:07:28.482Z",
+        "capturedAt": "2026-09-12T16:08:21.666Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [
+          {
+            "headline": "Houthis take Red Sea island; Saudi pipeline closes",
+            "body": "Iran-backed Houthi forces captured Mayun, also known as Perim, after taking the nearby Yemeni port of Mokha the previous day. The island sits at the entrance to the Red Sea near a major shipping route.\n\nSaudi Arabia separately shut its East-West oil pipeline as a precaution after drone attacks. The pipeline has provided an alternative export route while the Iran war disrupts shipping through the Strait of Hormuz.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/476237dd3bf568d946d2b16c7b45a687"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/025d052a14d9481258d51009a76d0bd6"
+              }
+            ]
+          },
+          {
+            "headline": "Philippine ferry fire death toll reaches 35",
+            "body": "Rescuers recovered 30 bodies from the burned MV June Aster, bringing the confirmed toll from the September 9 passenger-ferry fire to at least 35.\n\nAuthorities reported 43 survivors among the 132 people aboard. More than 50 people remained missing.",
+            "sources": [
+              {
+                "name": "Reuters via ThePrint",
+                "url": "https://theprint.in/world/philippine-ferry-fire-death-toll-jumps-to-35/3040616/"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/bc9474e96f2c9febe84c745ced6e9553"
+              }
+            ]
+          },
+          {
+            "headline": "Diesel tops $6 as monthly inflation quickens",
+            "body": "U.S. consumer prices rose 0.4% in August from July, after a 0.1% monthly increase in July. Prices were 3.4% higher than a year earlier, unchanged from the previous annual reading.\n\nThe national average diesel price separately exceeded $6 a gallon, a nominal record, amid fuel-supply disruptions caused by the Iran war.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/c76f53f7a53def0c464ca44ac637f203"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/636252b3b82326b41661ee5c4073dacb"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "5cd0049993ed8b46814d86b61a6da24670a82335a2b5349fb998b5293e72381f",
+          "claimId": "11bb2282-eca8-4bef-add0-07cc4c921ca1",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-12T22:07:27.018Z",
+          "responseId": "resp_0c61793b36b26785006aa5cd22858487d289918fd3f29e2a9f"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Saudi civil defense said a projectile fell in Al-Tawwal governorate near the Yemeni border late Saturday, injuring two people and damaging a mosque and several other buildings. Saudi authorities blamed the Houthis; the group had not immediately claimed responsibility.",
+                "category": "conflict and security",
+                "title": "Projectile injures two near Saudi-Yemen border",
+                "event_date": "2026-09-12",
+                "candidate_id": "saudi-border-projectile-injures-two",
+                "geography": "Saudi Arabia; Yemen",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/iraq-iran-yemen-saudi-arabia-c1359273dd970b969e823356e5ead377"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-12"
+          },
+          "metadata": {
+            "responseId": "resp_0c61793b36b26785006aa5cd22858487d289918fd3f29e2a9f",
+            "requestId": "req_e0e44a67c18040dfbf5dcb373ddf72ce",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1358,
+            "inputTokens": 63153,
+            "outputTokens": 1358,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-12",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 58879,
+            "attemptDurationMs": 58879,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 840000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-09-12T22:07:26.991Z",
+        "capturedAt": "2026-09-12T22:08:25.898Z"
+      }
+    ],
+    "sift": null
+  }
+}

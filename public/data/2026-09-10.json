@@ -1,0 +1,49 @@
+{
+  "edition_date": "2026-09-10",
+  "published_at": "2026-09-12T04:01:15.298Z",
+  "expires_at": "2026-09-12T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "Court rejects detention without bond hearings",
+      "body": "A divided federal appeals court ruled that the Trump administration may not detain certain immigrants without letting them seek release at a bond hearing.\n\nThe ruling addresses access to a hearing, not whether an individual must be released.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/c2c4fc63122279c4ae4797ae598c810f"
+        },
+        {
+          "name": "WPLG Local 10",
+          "url": "https://www.local10.com/news/politics/2026/09/10/appeals-court-cites-detention-of-japanese-americans-in-ruling-blasting-trump-immigration-policy/"
+        }
+      ]
+    },
+    {
+      "headline": "Supreme Court allows Missouri map for November",
+      "body": "The Supreme Court stayed a lower-court order in the challenge to Missouri's Trump-backed congressional map. State officials were consequently poised to use the districts adopted after the 2020 census in November.\n\nThe stay applies while litigation continues and does not resolve the underlying challenge.",
+      "sources": [
+        {
+          "name": "Supreme Court of the United States",
+          "url": "https://www.supremecourt.gov/orders/courtorders/091026zr_b07d.pdf"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/c505162fe7880f60eb4dd587bc51d313"
+        }
+      ]
+    },
+    {
+      "headline": "Houthis capture strategic Yemeni port",
+      "body": "Iran-backed Houthi forces captured Mokha, a Yemeni port city near the Bab el-Mandeb Strait, in a rapid offensive against forces aligned with Yemen's internationally recognized government.\n\nThe strait connects the Red Sea and Gulf of Aden and is a major shipping route. The reports did not establish an immediate disruption to traffic.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/ab2e69eb2959979bae44eb4d45ae637e"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/internacional/2026-09-10/los-huties-toman-el-puerto-estrategico-de-moca-y-amenazan-con-un-doble-estrangulamiento-del-suministro-global-de-hidrocarburos.html"
+        }
+      ]
+    }
+  ]
+}

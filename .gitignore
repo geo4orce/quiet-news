@@ -2,12 +2,14 @@
 .env
 
 # Dependencies and generated output
+*.log
 .cache/
 .npm-cache/
 dist/
 node_modules/
 
 # Editors and operating systems
+*.sublime-workspace
 .DS_Store
 .idea/
 .vscode/

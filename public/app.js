@@ -148,12 +148,27 @@ function renderPublication(publication, selectedDate) {
     details.id = detailsId;
     toggle.setAttribute("aria-controls", detailsId);
     body.textContent = story.body;
-    sources.append(document.createTextNode(story.sources.length === 1 ? "Source:" : "Sources:"));
+    const seenUrls = new Set();
+    const sourceGroups = new Map();
     story.sources.forEach((source) => {
-      const link = document.createElement("a");
-      link.href = source.url;
-      link.textContent = source.name;
-      sources.append(link);
+      if (seenUrls.has(source.url)) return;
+      seenUrls.add(source.url);
+      const name = source.name.trim();
+      if (!sourceGroups.has(name)) sourceGroups.set(name, []);
+      sourceGroups.get(name).push(source);
+    });
+    sourceGroups.forEach((group, name) => {
+      const row = document.createElement("span");
+      row.className = "source-group";
+      row.append(document.createTextNode(name));
+      group.forEach((source, sourceIndex) => {
+        const link = document.createElement("a");
+        link.href = source.url;
+        link.textContent = `[${sourceIndex + 1}]`;
+        link.setAttribute("aria-label", `${name}, article ${sourceIndex + 1} of ${group.length}`);
+        row.append(document.createTextNode(" "), link);
+      });
+      sources.append(row);
     });
     toggle.addEventListener("click", () => {
       setStoryOpen(article, toggle.getAttribute("aria-expanded") !== "true");
@@ -214,7 +229,7 @@ async function loadPublication(selectedDate) {
 function renderArchiveCalendar({ dates, selectedDate, month, today }) {
   const publishedDates = new Set(dates);
   const [year, monthNumber] = month.split("-").map(Number);
-  const firstWeekday = new Date(Date.UTC(year, monthNumber - 1, 1)).getUTCDay();
+  const firstWeekday = (new Date(Date.UTC(year, monthNumber - 1, 1)).getUTCDay() + 6) % 7;
   const dayCount = new Date(Date.UTC(year, monthNumber, 0)).getUTCDate();
   const calendar = document.querySelector("#archive-calendar");
   const cells = [];
@@ -235,7 +250,7 @@ function renderArchiveCalendar({ dates, selectedDate, month, today }) {
     if (publishedDates.has(date)) {
       const link = document.createElement("a");
       link.className = "calendar-day";
-      link.href = `/?date=${date}`;
+      link.href = date === dates[0] ? "/" : `/?date=${date}`;
       link.textContent = String(dayNumber);
       link.setAttribute("role", "gridcell");
       link.setAttribute("aria-label", formatDay(date));
@@ -263,13 +278,13 @@ function setupArchive({ dates, selectedDate, today }) {
   const archive = document.querySelector("#archive");
   const toggle = document.querySelector("#archive-toggle");
   const menu = document.querySelector("#archive-menu");
-  const todayLink = document.querySelector("#archive-today");
   const previous = document.querySelector("#archive-previous");
   const next = document.querySelector("#archive-next");
   const months = [...new Set(dates.map((date) => date.slice(0, 7)))].sort();
   const minimumMonth = months[0];
   const maximumMonth = months.at(-1);
-  const requestedMonth = selectedDate?.slice(0, 7) ?? maximumMonth;
+  const activeDate = selectedDate ?? dates[0];
+  const requestedMonth = activeDate.slice(0, 7);
   let month = requestedMonth < minimumMonth
     ? minimumMonth
     : requestedMonth > maximumMonth
@@ -283,16 +298,17 @@ function setupArchive({ dates, selectedDate, today }) {
   };
 
   const render = () => {
-    renderArchiveCalendar({ dates, selectedDate, month, today });
+    renderArchiveCalendar({ dates, selectedDate: activeDate, month, today });
     previous.disabled = month <= minimumMonth;
     next.disabled = month >= maximumMonth;
   };
 
   toggle.textContent = formatArchiveToggleLabel(selectedDate);
-  if (selectedDate !== null) {
-    toggle.setAttribute("aria-label", `Jump to date. Showing ${formatDay(selectedDate)}`);
-  }
-  todayLink.classList.toggle("hidden", selectedDate === null);
+  toggle.setAttribute("aria-label", selectedDate === null
+    ? "Jump to date"
+    : `Jump to date. Showing ${formatDay(selectedDate)}`);
+  document.querySelector("#archive-today").classList.toggle("hidden",
+    selectedDate === null || selectedDate === dates[0]);
   toggle.addEventListener("click", () => setOpen(menu.classList.contains("hidden")));
   previous.addEventListener("click", () => {
     month = moveMonth(month, -1);

@@ -1,0 +1,77 @@
+{
+  "edition_date": "2026-09-07",
+  "published_at": "2026-09-08T08:07:24.320Z",
+  "expires_at": "2026-09-09T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "Hurricane warning issued as Lowell nears Kauai",
+      "body": "Hawaii ordered schools and government offices in Kauai County closed Tuesday as Hurricane Lowell approached. The National Hurricane Center placed Kauai County under a hurricane warning and Oahu under a tropical storm warning.\n\nForecasters said heavy rain, damaging winds and mudslides were possible.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/hurricane-lowell-hawaii-schools-516235ba1cedaa7256de8d893c36a752"
+        },
+        {
+          "name": "National Hurricane Center",
+          "url": "https://www.nhc.noaa.gov/archive/2026/ep12/ep122026.discus.046.shtml"
+        },
+        {
+          "name": "National Weather Service Honolulu",
+          "url": "https://www.nhc.noaa.gov/text/WTHW80-PHFO.shtml"
+        }
+      ]
+    },
+    {
+      "headline": "Syria’s hidden uranium placed under IAEA safeguards",
+      "body": "The International Atomic Energy Agency said the undeclared reactor built under Bashar Assad had features highly efficient for producing fissile material usable in nuclear weapons.\n\nInspectors also verified about 73 metric tons of previously hidden natural uranium metal. The material is now under IAEA safeguards.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/syria-nuclear-reactor-plutonium-weapons-0d72d8d543a1fe5218d21b6f13f9fbcb"
+        }
+      ]
+    },
+    {
+      "headline": "Ebola case reported in rebel-held eastern Congo",
+      "body": "Authorities reported a new Ebola case in an area of eastern Democratic Republic of Congo controlled by AFC/M23 rebels. The coalition had declared its territory free of the disease in June.\n\nThe wider Bundibugyo-strain outbreak has surpassed 6,000 confirmed cases and 3,000 deaths. The World Health Organization said transmission was outpacing the response.",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://transcripts.cnn.com/show/ow/date/2026-09-07/segment/02"
+        },
+        {
+          "name": "European Centre for Disease Prevention and Control",
+          "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+        }
+      ]
+    },
+    {
+      "headline": "Himalayan flood toll passes 1,300",
+      "body": "Nepal held a national day of mourning as authorities reported more than 1,300 deaths across Nepal and Tibet from the Himalayan floods. About 5,000 people were missing.\n\nFamilies demonstrated in Kathmandu, demanding faster searches for workers missing around damaged hydropower projects.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/f5477d09ca1c56541450828302818d73"
+        },
+        {
+          "name": "Georgia Public Broadcasting/NPR",
+          "url": "https://www.gpb.org/news/2026/09/07/nepal-identifies-those-killed-in-the-floods-questions-grow-over-chinas-reporting"
+        }
+      ]
+    },
+    {
+      "headline": "U.S. gas average reaches $4.15",
+      "body": "AAA data cited by CNN put the national average gasoline price at $4.15 a gallon on Labor Day. That was nearly $1 more than a year earlier and the highest Labor Day average on record.\n\nThe increase came amid energy-market disruption from the continuing war with Iran.",
+      "sources": [
+        {
+          "name": "CNN",
+          "url": "https://transcripts.cnn.com/show/ow/date/2026-09-07/segment/02"
+        },
+        {
+          "name": "CNN",
+          "url": "https://transcripts.cnn.com/show/cnc/date/2026-09-07/segment/07"
+        }
+      ]
+    }
+  ]
+}

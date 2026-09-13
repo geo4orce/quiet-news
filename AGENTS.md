@@ -1,253 +1,122 @@
-# Quiet News agent context
+# Quiet News maintenance
 
-Quiet News is a production static site and Git-backed daily note. Keep it
-small, dependency-free, and understandable without a build system.
-
-## Authority and invariants
-
-- `README.md` is the short public introduction and local entry point.
-- `AGENTS.md` owns the technical contract, operating context, and maintenance
-  rules.
-- `public/data` on `main` is production storage, history, backup, and audit
-  log. Validated discovery candidates and sift decisions are saved in
-  `data-raw/YYYY-MM-DD.json` on this repository's `main`, using the existing
-  publisher token. These files are publicly readable on GitHub but must never
-  be written under `public/` or served by the website. Never archive literal
-  prompts, credentials, complete provider responses, or hidden reasoning.
-- The browser uses plain HTML, CSS, and JavaScript. A DigitalOcean App Platform
-  scheduled job owns generation. The literal discovery and sift prompts live
-  only in the private `geo4orce/quiet-news-publisher` repository.
-- Production secrets are encrypted DigitalOcean runtime variables. They are
-  `OPENAI_API_KEY` and a write credential scoped to this repository.
-- DigitalOcean configuration lives at
-  https://github.com/geo4orce/infra/tree/main/apps.
-- `package.json` is the only application version source. Release tags use the
-  matching `vX.Y.Z`; daily files do not change the version.
-- The MIT License covers source code and documentation, not daily content
-  under `public/data` or `data-raw`.
-- `public/sitemap.xml` lists only the canonical homepage. Dated query states
-  and JSON files are not canonical pages. `public/robots.txt` advertises the
-  sitemap.
-- `edition_date` remains in public JSON for compatibility. Do not use
-  "edition" in product copy.
-
-## Product contract
-
-- Quiet News is positioned as an AI-powered interruption filter, not a
-  conventional news aggregator. It does not fill space to maintain a feed or
-  satisfy an engagement quota. Silence is a valid product result.
-- Quiet News passes along only a few things from the completed previous
-  `America/New_York` day, or zero on quiet days. Zero stories is a successful
-  quiet result.
-- The voice is plain, direct, calm, and person-to-person. It must not imitate
-  a newspaper, magazine, broadcast, newsletter, press release, or official
-  channel.
-- Word-of-mouth clarity does not relax sourcing. Rumor, uncertainty, and
-  disputed claims require clear attribution and strong reasons to appear.
-- A valid current zero-story result says
-  `Today is quiet. Come back tomorrow.` A valid saved zero-story day says
-  `Quiet.` A past date without a saved file says `Unavailable.` The current
-  New York day and future dates say `Not yet.` Publication load or validation
-  failures say `Error.`
-
-## Public data and browser contract
-
-Each day is stored at `public/data/YYYY-MM-DD.json`. `current.json` is an
-exact copy of the current dated file. `index.json` lists every available date
-newest first.
-
-```json
-{
-  "edition_date": "2026-08-15",
-  "published_at": "2026-08-16T08:07:00.000Z",
-  "expires_at": "2026-08-17T09:00:00.000Z",
-  "stories": [
-    {
-      "headline": "Short factual title",
-      "body": "What happened and why it matters.\n\nUseful context when needed.",
-      "sources": [
-        {
-          "name": "Source name",
-          "url": "https://example.com/article"
-        }
-      ]
-    }
-  ]
-}
-```
-
-Data rules:
-
-- `edition_date` is the completed New York calendar day summarized.
-- `published_at` and `expires_at` are canonical UTC ISO timestamps. Normal
-  expiry is 5:00 a.m. New York time the following day.
-- `stories` contains zero to 20 items. This is a public runaway-output safety
-  boundary, not the private editorial contract. Titles and bodies are non-empty.
-  Every story has at least one source with a non-empty name and absolute HTTPS
-  URL.
-- Unknown fields, partial output, invalid files, and stale current files are
-  rejected.
-- `current.json` and its dated file are identical.
-- `index.json` contains unique dates newest first and agrees with the dated
-  files.
-
-Browser rules:
-
-- The initial loading state uses a small accessible indicator. Its motion is
-  disabled when the visitor prefers reduced motion, and it is replaced when
-  loading reaches a content or terminal state.
-- The default page loads `/data/current.json` and applies expiry. A valid
-  `?date=YYYY-MM-DD` loads that dated file without expiry.
-- A requested past date absent from `index.json` says `Unavailable.` A date on
-  or after the current New York day says `Not yet.` A malformed date parameter
-  is removed and the default page is shown.
-- The calendar enables only indexed dates, stays within months containing
-  indexed days, and returns to the default page through `Today`.
-- Story sources appear with each item. A missing or invalid index hides the
-  optional calendar without blocking current content.
-- Expected unavailable archive requests and malformed dates produce sanitized
-  warnings. Publication load and validation failures produce sanitized errors.
-  Logs must not include response bodies, raw malformed input, or secrets.
-
-## Generation contract
-
-Discovery and quiet sift are separate Responses API requests. Both use
-`gpt-5.6-sol`, `store: false`, strict JSON Schema output, separately injected
-private system prompts, and no `previous_response_id` or shared reasoning
-state. Prompt versions travel with the private prompts and appear only as
-metadata in public generation logs.
-
-Discovery uses medium reasoning and web search. It returns zero to 20 neutral
-candidates for the target day, each with a unique ID, event date, title,
-summary, category, geography, and exact source links. It collapses duplicate
-reports and uses the exact prior day's stories only for continuity and
-deduplication. It must not pass scores, recommendations, confidence, hidden
-reasoning, or arguments for inclusion to the sift.
-
-Quiet sift uses high reasoning without tools. It starts from exclusion and
-uses only the target day, exact prior-day stories, and validated candidates.
-It rejects weak, speculative, sensational, narrow-interest, routine,
-incremental, duplicate, stale, displaced, or merely procedural developments.
-There is no quota to fill, and borderline items are rejected. The private sift
-prompt owns the editorial story-count guidance and publication ceiling.
-Accepted stories use only source records from their candidate. Headlines are
-direct, not hooks. Aim for seven words and about 52 characters, but treat that
-as editorial guidance rather than a validity boundary. Bodies usually use one
-to four short paragraphs and about 240 words or fewer, with no filler. Generous
-public schema limits exist only to reject runaway output.
-
-The sift returns a decision envelope that accounts for every candidate
-exactly once as accepted or rejected. Rejection codes are:
-
-```text
-outside_target_day
-insufficient_materiality
-narrow_interest
-incremental_update
-duplicate_event
-prior_day_repetition
-weak_support
-speculative_or_sensational
-displaced_by_stronger_story
-```
-
-The generator validates the envelope, strips candidate IDs and rejection
-metadata, and creates the unchanged public `stories` object. Only the sift can
-create public story text.
-
-Before changing either private prompt, its version, the model, or provider
-configuration, update the private publisher repository and recheck:
-
-- https://developers.openai.com/api/docs/models/gpt-5.6-sol
-- https://developers.openai.com/api/docs/guides/latest-model
-- https://developers.openai.com/api/docs/guides/structured-outputs
-
-## Publishing and observability
-
-The DigitalOcean `quiet-news-publisher` scheduled job runs at 4:07 a.m. and
-again at 4:37 a.m. New York time. Each invocation:
-
-1. Starts an ephemeral container from the private publisher repository.
-2. Makes a depth-one checkout of public `main` and validates it.
-3. Targets the completed previous New York day.
-4. Exits before prompt loading, generator construction, or any OpenAI call when
-   the dated file already exists.
-5. Loads the exact preceding dated file as context when available.
-6. Injects both private prompts in memory, then runs and validates discovery
-   and quiet sift.
-7. Retries only timeouts, rate limits, and provider 5xx responses once per
-   stage. The maximum is two attempts per stage and four provider calls.
-8. Reuses the validated in-memory candidate set when retrying quiet sift.
-   The runner saves each validated stage locally to `data-raw/YYYY-MM-DD.json`.
-   Each file has a `runs` array retaining prior attempts, exact prior-day
-   stories, discovery output, sift decisions, and stage metadata. A null sift
-   means that stage was not archived, not that all candidates were rejected.
-9. Writes the dated file, `current.json`, and `index.json` only after both
-   stages succeed.
-10. Validates the complete history, commits `public/data` and the dated
-    `data-raw` file together, and pushes `main`, which starts the DigitalOcean
-    static-site deployment. No separate token or storage branch is needed.
-
-The job timeout is 20 minutes, shorter than the 30-minute gap between scheduled
-invocations. A caught generation failure changes no website publication files;
-the runner attempts a raw-only commit of any stages already saved locally.
-This is best-effort: a hard container shutdown or failed Git push can lose
-uncommitted raw output. A later invocation may repeat discovery; saved earlier
-runs are retained and not automatically reused.
-
-The generator fails closed on invalid output, refusal, incomplete response,
-malformed JSON, timeout after retry, or schema violation. Network,
-authentication, billing, and other permanent request errors are not retried.
-
-Successful runs emit one structured record per stage and one publisher record.
-Stage records contain the stage, model, prompt version, response and request
-IDs, token usage, web-search call count, duration, attempt count, and item
-counts. Sift records also include rejection counts by code. Publisher metadata
-includes total provider attempts, tokens, web-search calls, and duration.
-After saving a publication, the job also emits a readable `Quiet News
-(YYYY-MM-DD): ...` summary with candidate, published, and rejected counts,
-followed by `Rejections: ...` with nonzero counts and plain-language labels.
-These lines contain only the same aggregate counts as the structured records.
-Failure records contain only sanitized codes, stage, and attempt counts. Logs
-must never contain candidate bodies, public story bodies, prompts, secrets, or
-hidden reasoning.
-Raw stage archival is an awaited callback, outside provider retry handling.
-Callback failures are sanitized and stop publication. Raw outputs are never
-included in the generator's returned log metadata or public publication object.
-
-Provider budgets, cost alerts, and other provider-side mutations require
-explicit approval. Review costs through reported usage and the provider
-dashboard rather than a hard-coded estimate.
-
-## Repository map
-
-- `public/`: static website and public JSON history
-- `data-raw/`: publicly readable analysis archive, excluded from the website
-- `jobs/`: public publisher entry point used by the private runner
-- `lib/`: generation contracts, prompt injection, validation, date logic, and
-  storage
-- `scripts/`: history validation and local development server
-- `tests/`: small Node test suite with provider mocks
-- `.github/workflows/`: ordinary repository checks only
+Production static site and Git-backed daily note. Keep it dependency-free:
+plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
 
 ## Working rules
 
-- Read `README.md` and this file before changing product behavior, data
-  contracts, generation, or operations.
-- Use `npm run dev` for browser work at `http://localhost:4173/`. There is no
-  build step.
-- Preserve unrelated local changes. Run `npm run check` after changes and
-  before handoff.
-- Tests must mock OpenAI. Do not make a live provider call unless the user
-  explicitly requests it.
-- Never add literal generation prompts to this repository, its tests, fixtures,
-  logs, documentation, or history.
-- During alpha, test costly boundaries and core behavior. Avoid exhaustive
-  branch coverage and tests that pin presentation details.
-- Never expose or commit secrets. The ignored local `.env` may contain
-  `OPENAI_API_KEY`.
-- To correct a saved day, edit its dated file and, when current, make the
-  identical edit to `current.json`. Change `index.json` only when adding or
-  removing a date. Never delete a dated file to force regeneration.
-- Keep application changes here and DigitalOcean resource decisions in the
-  infra repository. Provider mutations require explicit approval.
+- Read README and this file before changes. Preserve unrelated edits; run
+  `npm run check` before handoff. Browser work uses `npm run dev` at
+  `http://localhost:4173/`.
+- Tests mock OpenAI. Live provider calls and provider mutations require explicit
+  approval. During alpha, test core behavior and costly boundaries, not every
+  branch or presentation detail.
+- Literal prompts and their version manifest belong only in private
+  `geo4orce/quiet-news-publisher` (QNP). Never put prompts, credentials, complete
+  provider responses or hidden reasoning in this repo, logs or history.
+  The ignored `.env` may contain `OPENAI_API_KEY`.
+- `package.json` owns the application version; release tags match `vX.Y.Z`.
+  Daily data does not bump versions. MIT covers code/docs, not daily content.
+- Application changes belong here; DigitalOcean resource decisions belong in
+  `geo4orce/infra`. Schedules live in the publisher app; infra's
+  `apps/quiet-news.yaml` describes the static website only.
+
+## Product and browser
+
+- Filter interruptions from the completed previous `America/New_York` day.
+  Zero stories is success; never fill a quota. Use plain, calm, person-to-person
+  language, strong sourcing and attribution. Do not imitate a news outlet.
+- Keep `edition_date` for compatibility; do not use "edition" in product copy.
+- Exact states: current quiet day `Today is quiet. Come back tomorrow.`, saved
+  quiet day `Quiet.`, missing past day `Unavailable.`, current New York day or
+  future `Not yet.`, load/validation failure `Error.`.
+- Default loads `/data/current.json` with expiry; valid `?date=YYYY-MM-DD`
+  loads that dated file without expiry. Remove malformed date parameters.
+  Check index membership for past dates; missing data is not a quiet result.
+- Calendar enables indexed dates only and stays within indexed months. Its
+  latest date links to `/` and is selected on the homepage. Show `Today` linking
+  to `/` on other dated pages only.
+  The picker button says `Jump to date` on `/`, otherwise the requested date.
+  Weeks start Monday; two-letter weekday labels match disabled-day gray.
+  Invalid/missing index hides the calendar without blocking current content.
+  Show sources per story; preserve accessible loading and reduced motion.
+- Sanitize browser warnings/errors; never include raw input or response bodies.
+  Sitemap lists only the canonical homepage; robots advertises the sitemap.
+
+## Storage and contracts
+
+- `public/data` on `main` is production storage/history. Dated JSON contains
+  `edition_date`, canonical UTC `published_at`/`expires_at`, and `stories`.
+  Normal expiry is 05:00 New York the following day. Stories have nonempty
+  headline/body and named absolute HTTPS sources; public limit 0-20.
+  See `lib/publication.mjs`, `lib/edition.mjs`, and tests for validation.
+- Reject unknown fields, partial/invalid data and stale current content.
+  `current.json` exactly matches its dated file; `index.json` lists all dated
+  files uniquely, newest first. Corrections update both copies when current;
+  change index only when adding/removing dates. Never delete to regenerate.
+- `data-raw` is public on GitHub but must never be served under `public/`.
+  Daily `schema_version=1` retains historical `runs` and
+  `collection.version=1` with batches and sift. Preserve schema/history.
+- The daily checkpoint stores claims, response IDs, attempts, coverage, exact
+  prior stories, validated results and metadata. Results are also in immutable
+  `.discovery-1.json` through `.discovery-4.json` snapshots, ordered 06:07,
+  12:07, 18:07, then next morning 03:07. Failed batches have no snapshot.
+  Push the daily checkpoint and new snapshot together. Sift replays completed
+  daily-checkpoint batches to reconstruct the pool. See `lib/collection.mjs`.
+
+## Scheduled generation
+
+- QNP's container clones fresh public `main`, runs checks, and imports
+  `jobs/checkpointed.mjs` with `QUIET_NEWS_MODE=collect` or `publish`.
+- New York collection: 06:07/12:07/18:07 through those hours, then 03:07 finishes
+  the previous day through midnight and reconciles late reporting. Successful
+  batches cover gaps since the last success. Publish at 04:07; 04:37 is recovery.
+  Existing publications exit before loading prompts or calling the provider.
+- Publish with full midnight coverage or three validated batches out of four.
+  Record partial coverage/missing intervals in sift input, research and warning;
+  never relabel failed collection as successful.
+- Four independent collections and one independent sift use `gpt-5.6-sol`,
+  background Responses, `store:false`, strict schemas and private prompts.
+  No shared model conversation or `previous_response_id`.
+- Collection: medium reasoning, web search, up to 20 new/changed neutral candidates
+  per batch and 80 retained. Preserve unchanged candidates; apply updates and
+  withdrawals with stable IDs and surviving duplicate replacements. No ranking,
+  scoring or public text; never truncate late candidates. Input includes the
+  current pool and exact prior-day published stories.
+- Sift: high reasoning, no tools, validated pool plus prior-day stories. Reject
+  borderline items, with no quota. Decide every candidate exactly once using
+  only its sources. Only sift creates public text. Preserve rejection codes in
+  `lib/sift-result.mjs` and QNP's private 10-story ceiling.
+- Bounds: collection 6 tool calls (10 final pass), 12,000 output tokens; sift
+  20,000 output tokens. Collection warns at 5 minutes, sift at 3; both deadlines
+  are 10 minutes, network timeouts 30 seconds, containers 20 minutes.
+- Atomically save/push every claim, response ID and result before further paid
+  work. Failed claim push prevents submission; failed result push stops
+  generation. Git conflicts fail closed, with no force push.
+- Poll the same response ID; attempt cancellation at deadline. Unknown submission
+  outcomes must not resubmit. Known retryable terminal failures allow one later
+  retry, persisted maximum two attempts. Never silently regenerate completed,
+  expired or cancelled requests. Invalid/refused/incomplete output fails closed.
+  Temporary provider retention and hard container stops can still lose work.
+- Save sift before publication and reuse after push failure. Recovery must match
+  date, configuration and prior-day context. Legacy `jobs/publisher.mjs` and
+  `scripts/recover-day.mjs` require explicit recovery authorization; retain
+  5/3-minute foreground deadlines and one retry per stage. Manual review may
+  exclude selections via `review.exclusions`, never add/rewrite model stories.
+
+## Diagnostics and navigation
+
+- Scheduled code prints readable progress/warnings directly; QNP suppresses
+  subprocess chatter and prints the final outcome after push success. Never log
+  candidate/story bodies, raw errors, prompts, secrets or reasoning.
+- `node scripts/generation-trends.mjs` reads saved timing/usage/checkpoints.
+  `scripts/export-run-history.ps1` reads older JSON logs only. Inspect current
+  early failures in DigitalOcean; provider dashboard usage covers billed work
+  absent from saved metadata.
+- `public/`: site; `lib/`: contracts/storage/provider logic; `jobs/`: entry points;
+  `scripts/`: validation/dev/recovery; `tests/`: mocks; `.github/workflows/`: checks.
+- Before changing prompts, models, versions or provider options, coordinate with
+  QNP and recheck official docs: [model](https://developers.openai.com/api/docs/models/gpt-5.6-sol),
+  [latest model](https://developers.openai.com/api/docs/guides/latest-model),
+  [structured outputs](https://developers.openai.com/api/docs/guides/structured-outputs),
+  [background](https://developers.openai.com/api/docs/guides/background).

@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-07",
+  "runs": [
+    {
+      "captured_at": "2026-09-08T08:13:18.557Z",
+      "prior_stories": [
+        {
+          "headline": "Cargo plane overrun kills five in Miami",
+          "body": "A Boeing 767 cargo plane operated by 21 Air for Amazon overran a runway while landing at Miami International Airport, struck vehicles and caught fire.\n\nMiami-Dade officials reported at least five deaths and five injuries. The Federal Aviation Administration and National Transportation Safety Board opened investigations.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/47411c751782887757922efa5f634aa5"
+            },
+            {
+              "name": "Federal Aviation Administration",
+              "url": "https://www.faa.gov/newsroom/statements/accident_incidents"
+            }
+          ]
+        },
+        {
+          "headline": "Far-right AfD wins German state election",
+          "body": "Alternative for Germany won 44.2% of the preliminary vote in Saxony-Anhalt, more than doubling its share from 2021 and finishing well ahead of the governing Christian Democrats.\n\nThe result was a record for the far-right party, but it fell short of a legislative majority. Coalition negotiations will determine the state’s next government.",
+          "sources": [
+            {
+              "name": "Saxony-Anhalt Statistical Office",
+              "url": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/erg_land.html?v=1788730944004"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/c538060710a2495c72425b6468df0d40"
+            },
+            {
+              "name": "Axios",
+              "url": "https://www.axios.com/2026/09/06/afd-saxony-anhalt-germany-far-right-firewall"
+            }
+          ]
+        },
+        {
+          "headline": "Volcanic ash shuts eight Indonesian airports",
+          "body": "Ash from Anak Krakatau closed eight airports in western Indonesia, including Jakarta’s main international hub. Authorities reported 1,558 canceled flights affecting about 170,000 passengers by Sunday evening.\n\nSome schools also moved classes online because of the ash.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/12c3cb67859b2c51054b378d60148d33"
+            },
+            {
+              "name": "The Jakarta Post",
+              "url": "https://www.thejakartapost.com/indonesia/2026/09/06/soekarno-hatta-airport-suspends-flights-due-to-ash-from-anak-krakatau"
+            }
+          ]
+        }
+      ],
+      "discovery": {
+        "metadata": {
+          "stage": "discovery",
+          "model": "gpt-5.6-sol",
+          "promptVersion": "quiet-discovery-v1",
+          "responseId": "resp_099fff011a77df51016a9fc2f1a7d087d2950e6ca3614db691",
+          "requestId": "req_9f906f91659440fbad0bcf4a0dee5aa3",
+          "inputTokens": 118407,
+          "outputTokens": 5599,
+          "webSearchCalls": 14,
+          "attempts": 2,
+          "durationMs": 354157,
+          "candidateCount": 13
+        },
+        "output": {
+          "target_date": "2026-09-07",
+          "candidates": [
+            {
+              "candidate_id": "qn-2026-09-07-01",
+              "event_date": "2026-09-07",
+              "title": "Hurricane Lowell prompts warnings and government closures in Hawaii",
+              "summary": "Hawaii ordered schools and government offices in Kauai County closed for Tuesday as Hurricane Lowell approached the western islands. The National Hurricane Center issued a hurricane warning for Kauai County and a tropical storm warning for Oahu, with heavy rain, damaging winds and mudslides possible.",
+              "category": "Weather",
+              "geography": "Hawaii, United States",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/hurricane-lowell-hawaii-schools-516235ba1cedaa7256de8d893c36a752"
+                },
+                {
+                  "name": "National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/archive/2026/ep12/ep122026.discus.046.shtml"
+                },
+                {
+                  "name": "National Weather Service Honolulu",
+                  "url": "https://www.nhc.noaa.gov/text/WTHW80-PHFO.shtml"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-02",
+              "event_date": "2026-09-07",
+              "title": "Israeli airstrikes kill 12 in southern Lebanon",
+              "summary": "Two Israeli airstrikes hit Kfar Rumman in southern Lebanon, killing at least 12 people, including two children, four women and a paramedic, according to Lebanon’s Health Ministry. Israel said it targeted Hezbollah militants transferring weapons and was reviewing reports that civilians were harmed.",
+              "category": "Conflict",
+              "geography": "Lebanon",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/fc3f8c5ac5e09c93232b3a9841afb9f4"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/mideast-iran-us-hormuz-lebanon-israel-691deb2ccb571ec83c552efb794568cd"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-03",
+              "event_date": "2026-09-07",
+              "title": "US military sinks another vessel near Ecuador",
+              "summary": "U.S. Southern Command said it intercepted and sank a floating refueling station in the eastern Pacific that it alleged supported drug trafficking by Ecuador’s Los Choneros criminal group. The people aboard were removed for transfer to Ecuadorian authorities; it was the fifth vessel targeted by U.S. forces in less than two weeks.",
+              "category": "Security",
+              "geography": "United States and Ecuador",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/ecuador-us-boat-drug-trafficking-sinking-pacific-fishermen-551b40890fe249597d0236087fed019a"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-04",
+              "event_date": "2026-09-07",
+              "title": "IAEA says Assad-era Syrian reactor was suited to weapons material production",
+              "summary": "International Atomic Energy Agency Director General Rafael Grossi said the undeclared reactor Syria built under Bashar Assad had features highly efficient for producing fissile material usable in nuclear weapons. Inspectors also verified about 73 metric tons of previously hidden natural uranium metal, which is now under agency safeguards.",
+              "category": "Nuclear security",
+              "geography": "Syria",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/syria-nuclear-reactor-plutonium-weapons-0d72d8d543a1fe5218d21b6f13f9fbcb"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-05",
+              "event_date": "2026-09-07",
+              "title": "Russia and North Korea open their first road bridge",
+              "summary": "Russia and North Korea inaugurated a two-lane bridge over the Tumen River linking Khasan and Rason. The one-kilometer crossing, designed to handle as many as 300 vehicles a day, creates the first direct road connection between the countries.",
+              "category": "International relations",
+              "geography": "Russia and North Korea",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/russia-north-korea-ties-bridge-cars-38e5c393aa8a41d27516f3fdb4496b26"
+                },
+                {
+                  "name": "Yonhap News Agency",
+                  "url": "https://en.yna.co.kr/view/AEN20260908001152315"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-06",
+              "event_date": "2026-09-07",
+              "title": "First woman takes charge of the Panama Canal",
+              "summary": "Naval engineer Ilya Espino de Marotta began a seven-year term as administrator of the Panama Canal, becoming the first woman to hold its highest executive position. She previously helped lead the canal’s expansion program during a career spanning more than four decades.",
+              "category": "Leadership",
+              "geography": "Panama",
+              "sources": [
+                {
+                  "name": "Panama Canal Authority",
+                  "url": "https://pancanal.com/en/ilya-espino-de-marotta-takes-office-as-administrator-of-the-panama-canal/"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/2246f40d914b1b003491d76c52e4d130"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-07",
+              "event_date": "2026-09-07",
+              "title": "Ukraine’s prosecutor general resigns amid corruption investigation",
+              "summary": "Ukrainian Prosecutor General Ruslan Kravchenko submitted his resignation as anti-corruption authorities investigated an alleged protection and money-laundering scheme involving fraudulent call centers and officials in his office. Kravchenko denied involvement and had not been publicly named as a suspect.",
+              "category": "Government and corruption",
+              "geography": "Ukraine",
+              "sources": [
+                {
+                  "name": "The Kyiv Independent",
+                  "url": "https://kyivindependent.com/breaking-ukraines-prosecutor-general-resigns-amid-major-corruption-scandal/"
+                },
+                {
+                  "name": "Meduza",
+                  "url": "https://meduza.io/en/news/2026/09/08/ukraine-s-prosecutor-general-submits-resignation-after-senior-subordinate-is-accused-of-shielding-fraudulent-call-centers"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-08",
+              "event_date": "2026-09-07",
+              "title": "Ratko Mladic buried with military honors in Serbia",
+              "summary": "Thousands attended the Belgrade funeral of former Bosnian Serb military commander Ratko Mladic, who died while serving a life sentence for genocide and other war crimes. Serbian soldiers provided military honors, the Serbian Orthodox patriarch officiated and government ministers attended.",
+              "category": "Europe",
+              "geography": "Serbia and Bosnia and Herzegovina",
+              "sources": [
+                {
+                  "name": "Deutsche Welle",
+                  "url": "https://amp.dw.com/en/serbia-war-criminal-ratko-mladic-buried-with-military-honors-in-belgrade/a-79148678"
+                },
+                {
+                  "name": "Radio Free Europe/Radio Liberty",
+                  "url": "https://www.rferl.org/a/ratko-mladic-funeral-belgrade/33848433.html"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-09",
+              "event_date": "2026-09-07",
+              "title": "Jaguar Land Rover announces 4,000 job cuts",
+              "summary": "Jaguar Land Rover said it would eliminate 4,000 jobs worldwide over two years, with most expected in Britain, as part of a plan to save 1.7 billion pounds. The automaker cited competition from Chinese electric-vehicle companies, rising costs and U.S. tariffs.",
+              "category": "Business",
+              "geography": "United Kingdom and global",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/jaguar-land-rover-job-cuts-uk-tata-bc88688b43c9743cc182d416ab6e63cf"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-10",
+              "event_date": "2026-09-07",
+              "title": "France forecasts its lowest wine output in three decades",
+              "summary": "France’s agriculture statistics agency estimated the 2026 wine harvest at just under 34 million hectoliters, 6% below 2025 and 17% below the recent five-year average. Officials attributed much of the decline to exceptional summer heat, drought and wildfire smoke.",
+              "category": "Agriculture and climate",
+              "geography": "France",
+              "sources": [
+                {
+                  "name": "The Guardian",
+                  "url": "https://www.theguardian.com/world/2026/sep/07/french-winemakers-forecast-30-year-low-harvest-after-severe-drought-and-heat"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-11",
+              "event_date": "2026-09-07",
+              "title": "New Ebola case reported in rebel-held eastern Congo",
+              "summary": "Health authorities reported a new Ebola case in an eastern Democratic Republic of Congo region controlled by AFC/M23 rebels after the coalition had declared its areas free of the disease in June. The wider Bundibugyo-strain outbreak had surpassed 6,000 confirmed cases and 3,000 deaths, with the World Health Organization warning that transmission was outpacing the response.",
+              "category": "Public health",
+              "geography": "Democratic Republic of Congo",
+              "sources": [
+                {
+                  "name": "CNN",
+                  "url": "https://transcripts.cnn.com/show/ow/date/2026-09-07/segment/02"
+                },
+                {
+                  "name": "European Centre for Disease Prevention and Control",
+                  "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-12",
+              "event_date": "2026-09-07",
+              "title": "Nepal observes national mourning as flood toll exceeds 1,300",
+              "summary": "Nepal held a day of mourning for victims of the Himalayan floods as authorities reported more than 1,300 deaths across Nepal and Tibet and about 5,000 people missing. Families demonstrated in Kathmandu to demand faster searches for workers missing around damaged hydropower projects.",
+              "category": "Disaster",
+              "geography": "Nepal and Tibet",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/f5477d09ca1c56541450828302818d73"
+                },
+                {
+                  "name": "Georgia Public Broadcasting/NPR",
+                  "url": "https://www.gpb.org/news/2026/09/07/nepal-identifies-those-killed-in-the-floods-questions-grow-over-chinas-reporting"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-13",
+              "event_date": "2026-09-07",
+              "title": "US gasoline average reaches $4.15 on Labor Day",
+              "summary": "AAA data cited by CNN put the national average gasoline price at $4.15 a gallon, nearly one dollar higher than a year earlier and a record for the Labor Day holiday. The rise came amid energy-market disruption from the continuing war with Iran.",
+              "category": "Economy and energy",
+              "geography": "United States",
+              "sources": [
+                {
+                  "name": "CNN",
+                  "url": "https://transcripts.cnn.com/show/ow/date/2026-09-07/segment/02"
+                },
+                {
+                  "name": "CNN",
+                  "url": "https://transcripts.cnn.com/show/cnc/date/2026-09-07/segment/07"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "sift": {
+        "metadata": {
+          "stage": "sift",
+          "model": "gpt-5.6-sol",
+          "promptVersion": "quiet-sift-v6",
+          "responseId": "resp_0fad9259ec5b4021016a9fc39ea88087d2b2124bb349187e33",
+          "requestId": "req_8611d62e5ff14914b38c186996be42e1",
+          "inputTokens": 3572,
+          "outputTokens": 3817,
+          "webSearchCalls": 0,
+          "attempts": 1,
+          "durationMs": 61688,
+          "acceptedCount": 5,
+          "rejectedCount": 8,
+          "rejectionCounts": {
+            "outside_target_day": 0,
+            "insufficient_materiality": 4,
+            "narrow_interest": 3,
+            "incremental_update": 1,
+            "duplicate_event": 0,
+            "prior_day_repetition": 0,
+            "weak_support": 0,
+            "speculative_or_sensational": 0,
+            "displaced_by_stronger_story": 0
+          }
+        },
+        "output": {
+          "stories": [
+            {
+              "candidate_id": "qn-2026-09-07-01",
+              "headline": "Hurricane warning issued as Lowell nears Kauai",
+              "body": "Hawaii ordered schools and government offices in Kauai County closed Tuesday as Hurricane Lowell approached. The National Hurricane Center placed Kauai County under a hurricane warning and Oahu under a tropical storm warning.\n\nForecasters said heavy rain, damaging winds and mudslides were possible.",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/hurricane-lowell-hawaii-schools-516235ba1cedaa7256de8d893c36a752"
+                },
+                {
+                  "name": "National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/archive/2026/ep12/ep122026.discus.046.shtml"
+                },
+                {
+                  "name": "National Weather Service Honolulu",
+                  "url": "https://www.nhc.noaa.gov/text/WTHW80-PHFO.shtml"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-04",
+              "headline": "Syria’s hidden uranium placed under IAEA safeguards",
+              "body": "The International Atomic Energy Agency said the undeclared reactor built under Bashar Assad had features highly efficient for producing fissile material usable in nuclear weapons.\n\nInspectors also verified about 73 metric tons of previously hidden natural uranium metal. The material is now under IAEA safeguards.",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/syria-nuclear-reactor-plutonium-weapons-0d72d8d543a1fe5218d21b6f13f9fbcb"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-11",
+              "headline": "Ebola case reported in rebel-held eastern Congo",
+              "body": "Authorities reported a new Ebola case in an area of eastern Democratic Republic of Congo controlled by AFC/M23 rebels. The coalition had declared its territory free of the disease in June.\n\nThe wider Bundibugyo-strain outbreak has surpassed 6,000 confirmed cases and 3,000 deaths. The World Health Organization said transmission was outpacing the response.",
+              "sources": [
+                {
+                  "name": "CNN",
+                  "url": "https://transcripts.cnn.com/show/ow/date/2026-09-07/segment/02"
+                },
+                {
+                  "name": "European Centre for Disease Prevention and Control",
+                  "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-12",
+              "headline": "Himalayan flood toll passes 1,300",
+              "body": "Nepal held a national day of mourning as authorities reported more than 1,300 deaths across Nepal and Tibet from the Himalayan floods. About 5,000 people were missing.\n\nFamilies demonstrated in Kathmandu, demanding faster searches for workers missing around damaged hydropower projects.",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/f5477d09ca1c56541450828302818d73"
+                },
+                {
+                  "name": "Georgia Public Broadcasting/NPR",
+                  "url": "https://www.gpb.org/news/2026/09/07/nepal-identifies-those-killed-in-the-floods-questions-grow-over-chinas-reporting"
+                }
+              ]
+            },
+            {
+              "candidate_id": "qn-2026-09-07-13",
+              "headline": "U.S. gas average reaches $4.15",
+              "body": "AAA data cited by CNN put the national average gasoline price at $4.15 a gallon on Labor Day. That was nearly $1 more than a year earlier and the highest Labor Day average on record.\n\nThe increase came amid energy-market disruption from the continuing war with Iran.",
+              "sources": [
+                {
+                  "name": "CNN",
+                  "url": "https://transcripts.cnn.com/show/ow/date/2026-09-07/segment/02"
+                },
+                {
+                  "name": "CNN",
+                  "url": "https://transcripts.cnn.com/show/cnc/date/2026-09-07/segment/07"
+                }
+              ]
+            }
+          ],
+          "rejections": [
+            {
+              "candidate_id": "qn-2026-09-07-02",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-07-03",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "qn-2026-09-07-05",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-07-06",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "qn-2026-09-07-07",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-07-08",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qn-2026-09-07-09",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "qn-2026-09-07-10",
+              "code": "narrow_interest"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

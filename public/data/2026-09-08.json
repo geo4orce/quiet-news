@@ -1,0 +1,83 @@
+{
+  "edition_date": "2026-09-08",
+  "published_at": "2026-09-12T03:49:30.227Z",
+  "expires_at": "2026-09-12T03:49:30.228Z",
+  "stories": [
+    {
+      "headline": "Lowell knocks out power across Kauai",
+      "body": "Hurricane Lowell passed near Hawaii’s western islands, leaving about 90% of Kauai utility customers without power.\n\nOfficials reported downed trees, damaged roads and widespread infrastructure damage as the island experienced heavy rain, damaging winds and coastal flooding.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/3ecb644ff75c5e96c474acec38582cb0"
+        },
+        {
+          "name": "Hawaii Emergency Management Agency",
+          "url": "https://dod.hawaii.gov/hiema/news-release-state-of-hawai%CA%BBi-on-hurricane-lowell-state-departments-continue-to-support-residents/"
+        },
+        {
+          "name": "County of Kauai",
+          "url": "https://www.kauai.gov/County-Press-Releases/730-a.m.-Sept.-8-County-of-Kaua%CA%BBi-Hurricane-Lowell-Update-2026"
+        }
+      ]
+    },
+    {
+      "headline": "U.S. destroys five Iranian oil tankers",
+      "body": "U.S. forces destroyed five Iranian crude-oil tankers in the Gulf of Oman. U.S. Central Command said the strikes followed two attempted ballistic-missile attacks on an American Navy warship.\n\nOfficials said the tankers’ crews were warned to abandon the vessels before they were struck.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/461f9e97f78983653c59408c0b55757a"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/3a2a047784c920cadf6e3911bb8969ac"
+        }
+      ]
+    },
+    {
+      "headline": "Houthi strikes wound 73 in Saudi Arabia",
+      "body": "Houthi attacks across Saudi Arabia wounded 73 people and started fires at oil facilities and utilities.\n\nThe strikes included an attack near Jazan, which is home to one of the country’s largest refineries.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/4ad9446f0bb8c096750c84b6e1ba86b8"
+        }
+      ]
+    },
+    {
+      "headline": "Canada tariffs take effect as U.S. retaliates",
+      "body": "Canada imposed retaliatory tariffs on about $20 billion in U.S. imports.\n\nThe United States announced that it would ban most Canadian alcoholic beverages, some dairy products and motorcycles beginning September 29. It also moved to exclude Canadian goods from large federal contracts.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/a5fbb50d1c30327ae813482556a37ac3"
+        }
+      ]
+    },
+    {
+      "headline": "British air traffic failure cancels 1,000 flights",
+      "body": "A failure in Britain’s flight-processing system disrupted 15 airports and caused more than 1,000 cancellations.\n\nNational Air Traffic Services restored the system that evening, but delays continued as airlines worked through the backlog.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/408a8997d9fb39508e922e09d2523884"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.lse.co.uk/news/some-uk-departing-flights-disrupted-by-nats-technical-issue-heathrow-says-666517p5d18wmeb.html"
+        }
+      ]
+    },
+    {
+      "headline": "Brazilian justice removes police, intelligence chiefs",
+      "body": "Brazilian Supreme Court Justice André Mendonça ordered the removal of the country’s federal police and intelligence chiefs amid an escalating conflict within the court.\n\nPresident Luiz Inácio Lula da Silva’s government appealed the order. The dispute comes ahead of Brazil’s national elections in October.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/30cd3bab96065b3a076f4756294b09b4"
+        }
+      ]
+    }
+  ]
+}

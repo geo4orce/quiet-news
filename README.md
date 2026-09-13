@@ -1,49 +1,16 @@
 # Quiet News
 
-[Quiet News](https://quiet-news.com/) is not a conventional news aggregator.
-It is an AI-powered interruption filter. Aggregators collect stories and keep
-a feed full. Quiet News passes along only a few things important enough to earn
-your attention, or zero on quiet days.
+[Quiet News](https://quiet-news.com/) is an AI-powered news filter.
+Each morning it shares a few things worth your attention from the previous
+New York day, or simply says the day was quiet. No accounts, ads, or endless
+feed. The calendar links the latest date to the homepage and older dates to
+saved pages.
 
-It is not an official channel and does not try to sound like one. There are no
-accounts, feeds, ads, personalization, filler, clickbait, or endless scroll.
-A quiet result is a complete answer, not a failed publication. Past days
-remain available from the calendar.
+## Local Dev
 
-## Local use
+Use Node.js 24: `npm ci`, `npm run check`, then
+`npm run dev` at <http://localhost:4173/>.
 
-Requires Node.js 24. There are no third-party packages and no frontend build
-step.
+## Sources
 
-```powershell
-npm ci
-npm run check
-npm run dev
-```
-
-Open `http://localhost:4173/`. The development server serves `public/`
-directly.
-
-## Support
-
-geo@web-opt.com
-
-## Generation archive
-
-`data-raw/YYYY-MM-DD.json` contains the validated discovery candidates and
-sift decisions for each saved run, including rejected candidates. Match each
-`candidate_id` in `discovery.output` with `sift.output.stories` or
-`sift.output.rejections` to see the decision and rejection code. A null `sift`
-means that stage was not saved. These are unselected analysis records, not
-published news. They are public on GitHub but outside the website's `public/`
-folder. Prompts, credentials, and hidden reasoning are never included.
-
-## License
-
-The source code and documentation in this repository are available under the
-[MIT License](LICENSE).
-
-The MIT License does not apply to daily content under `public/data` or `data-raw`.
-No license is granted to reuse or redistribute that content except as
-permitted by applicable law. Source links and underlying third-party material
-remain subject to their respective owners.
+For source stats, run `npm run sources`.

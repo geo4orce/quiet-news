@@ -1,0 +1,53 @@
+{
+  "edition_date": "2026-09-06",
+  "published_at": "2026-09-07T08:07:27.695Z",
+  "expires_at": "2026-09-08T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "Cargo plane overrun kills five in Miami",
+      "body": "A Boeing 767 cargo plane operated by 21 Air for Amazon overran a runway while landing at Miami International Airport, struck vehicles and caught fire.\n\nMiami-Dade officials reported at least five deaths and five injuries. The Federal Aviation Administration and National Transportation Safety Board opened investigations.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/47411c751782887757922efa5f634aa5"
+        },
+        {
+          "name": "Federal Aviation Administration",
+          "url": "https://www.faa.gov/newsroom/statements/accident_incidents"
+        }
+      ]
+    },
+    {
+      "headline": "Far-right AfD wins German state election",
+      "body": "Alternative for Germany won 44.2% of the preliminary vote in Saxony-Anhalt, more than doubling its share from 2021 and finishing well ahead of the governing Christian Democrats.\n\nThe result was a record for the far-right party, but it fell short of a legislative majority. Coalition negotiations will determine the state’s next government.",
+      "sources": [
+        {
+          "name": "Saxony-Anhalt Statistical Office",
+          "url": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/erg_land.html?v=1788730944004"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/c538060710a2495c72425b6468df0d40"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/09/06/afd-saxony-anhalt-germany-far-right-firewall"
+        }
+      ]
+    },
+    {
+      "headline": "Volcanic ash shuts eight Indonesian airports",
+      "body": "Ash from Anak Krakatau closed eight airports in western Indonesia, including Jakarta’s main international hub. Authorities reported 1,558 canceled flights affecting about 170,000 passengers by Sunday evening.\n\nSome schools also moved classes online because of the ash.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/12c3cb67859b2c51054b378d60148d33"
+        },
+        {
+          "name": "The Jakarta Post",
+          "url": "https://www.thejakartapost.com/indonesia/2026/09/06/soekarno-hatta-airport-suspends-flights-due-to-ash-from-anak-krakatau"
+        }
+      ]
+    }
+  ]
+}

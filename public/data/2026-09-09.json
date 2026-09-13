@@ -1,0 +1,21 @@
+{
+  "edition_date": "2026-09-09",
+  "published_at": "2026-09-12T03:55:22.475Z",
+  "expires_at": "2026-09-12T03:55:22.476Z",
+  "stories": [
+    {
+      "headline": "Oil tops $100 amid U.S.-Iran fighting",
+      "body": "Global benchmark oil prices climbed above $100 a barrel as fighting involving the United States and Iran threatened energy production and shipping.\n\nU.S. gasoline prices continued to rise, while stocks fell.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/7538e6386a819bcdc2547d530ec3472e"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/d1284eb72934a3b076c14449bc087fbd"
+        }
+      ]
+    }
+  ]
+}
