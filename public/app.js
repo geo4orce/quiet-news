@@ -229,7 +229,7 @@ async function loadPublication(selectedDate) {
 function renderArchiveCalendar({ dates, selectedDate, month, today }) {
   const publishedDates = new Set(dates);
   const [year, monthNumber] = month.split("-").map(Number);
-  const firstWeekday = new Date(Date.UTC(year, monthNumber - 1, 1)).getUTCDay();
+  const firstWeekday = (new Date(Date.UTC(year, monthNumber - 1, 1)).getUTCDay() + 6) % 7;
   const dayCount = new Date(Date.UTC(year, monthNumber, 0)).getUTCDate();
   const calendar = document.querySelector("#archive-calendar");
   const cells = [];

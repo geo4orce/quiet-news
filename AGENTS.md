@@ -37,6 +37,7 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
   latest date links to `/` and is selected on the homepage. Show `Today` linking
   to `/` on other dated pages only.
   The picker button says `Jump to date` on `/`, otherwise the requested date.
+  Weeks start Monday; two-letter weekday labels match disabled-day gray.
   Invalid/missing index hides the calendar without blocking current content.
   Show sources per story; preserve accessible loading and reduced motion.
 - Sanitize browser warnings/errors; never include raw input or response bodies.

@@ -113,7 +113,7 @@ h1 { display: flex; align-items: center; gap: 12px; margin: 0; font-size: 1.45re
 .calendar-nav:disabled { color: var(--line); cursor: default; }
 .calendar-weekdays,
 #archive-calendar { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; }
-.calendar-weekdays { padding: 10px 0 5px; color: var(--muted); font-size: 0.62rem; font-weight: 700; text-align: center; text-transform: uppercase; }
+.calendar-weekdays { padding: 10px 0 5px; color: #a9afaa; font-size: 0.62rem; font-weight: 700; text-align: center; text-transform: uppercase; }
 
 .calendar-day {
   display: grid;
