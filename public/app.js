@@ -161,16 +161,13 @@ function renderPublication(publication, selectedDate) {
     sourceGroups.forEach((group, name) => {
       const row = document.createElement("span");
       row.className = "source-group";
-      if (group.length > 1) row.append(document.createTextNode(name));
+      row.append(document.createTextNode(name));
       group.forEach((source, sourceIndex) => {
         const link = document.createElement("a");
         link.href = source.url;
-        link.textContent = group.length === 1 ? name : `[${sourceIndex + 1}]`;
-        if (group.length > 1) {
-          link.setAttribute("aria-label", `${name}, article ${sourceIndex + 1} of ${group.length}`);
-          row.append(document.createTextNode(" "));
-        }
-        row.append(link);
+        link.textContent = `[${sourceIndex + 1}]`;
+        link.setAttribute("aria-label", `${name}, article ${sourceIndex + 1} of ${group.length}`);
+        row.append(document.createTextNode(" "), link);
       });
       sources.append(row);
     });
