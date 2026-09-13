@@ -250,7 +250,7 @@ function renderArchiveCalendar({ dates, selectedDate, month, today }) {
     if (publishedDates.has(date)) {
       const link = document.createElement("a");
       link.className = "calendar-day";
-      link.href = `/?date=${date}`;
+      link.href = date === dates[0] ? "/" : `/?date=${date}`;
       link.textContent = String(dayNumber);
       link.setAttribute("role", "gridcell");
       link.setAttribute("aria-label", formatDay(date));
@@ -278,13 +278,13 @@ function setupArchive({ dates, selectedDate, today }) {
   const archive = document.querySelector("#archive");
   const toggle = document.querySelector("#archive-toggle");
   const menu = document.querySelector("#archive-menu");
-  const todayLink = document.querySelector("#archive-today");
   const previous = document.querySelector("#archive-previous");
   const next = document.querySelector("#archive-next");
   const months = [...new Set(dates.map((date) => date.slice(0, 7)))].sort();
   const minimumMonth = months[0];
   const maximumMonth = months.at(-1);
-  const requestedMonth = selectedDate?.slice(0, 7) ?? maximumMonth;
+  const activeDate = selectedDate ?? dates[0];
+  const requestedMonth = activeDate.slice(0, 7);
   let month = requestedMonth < minimumMonth
     ? minimumMonth
     : requestedMonth > maximumMonth
@@ -298,16 +298,13 @@ function setupArchive({ dates, selectedDate, today }) {
   };
 
   const render = () => {
-    renderArchiveCalendar({ dates, selectedDate, month, today });
+    renderArchiveCalendar({ dates, selectedDate: activeDate, month, today });
     previous.disabled = month <= minimumMonth;
     next.disabled = month >= maximumMonth;
   };
 
-  toggle.textContent = formatArchiveToggleLabel(selectedDate);
-  if (selectedDate !== null) {
-    toggle.setAttribute("aria-label", `Jump to date. Showing ${formatDay(selectedDate)}`);
-  }
-  todayLink.classList.toggle("hidden", selectedDate === null);
+  toggle.textContent = formatArchiveToggleLabel(activeDate);
+  toggle.setAttribute("aria-label", `Jump to date. Showing ${formatDay(activeDate)}`);
   toggle.addEventListener("click", () => setOpen(menu.classList.contains("hidden")));
   previous.addEventListener("click", () => {
     month = moveMonth(month, -1);

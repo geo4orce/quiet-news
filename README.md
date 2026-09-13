@@ -1,15 +1,16 @@
 # Quiet News
 
-[Quiet News](https://quiet-news.com/) is an AI-powered interruption filter.
+[Quiet News](https://quiet-news.com/) is an AI-powered news filter.
 Each morning it shares a few things worth your attention from the previous
 New York day, or simply says the day was quiet. No accounts, ads, or endless
-feed. Past days are available through the calendar.
+feed. The calendar links the latest date to the homepage and older dates to
+saved pages.
 
-This repository contains the dependency-free static site, publication history,
-and generation code. Private prompts and the scheduled runner live in
-[quiet-news-publisher](https://github.com/geo4orce/quiet-news-publisher).
-For local development, use Node.js 24: `npm ci`, `npm run check`, then
-`npm run dev` at <http://localhost:4173/>. Maintenance context is in [AGENTS.md](AGENTS.md).
+## Local Dev
 
-[MIT](LICENSE) covers code and documentation, not content in `public/data` or
-`data-raw`. Contact: geo@web-opt.com.
+Use Node.js 24: `npm ci`, `npm run check`, then
+`npm run dev` at <http://localhost:4173/>.
+
+## Sources
+
+For source stats, run `npm run sources`.

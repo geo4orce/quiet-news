@@ -73,7 +73,6 @@ test("the requested-day state matrix is explicit and honest", () => {
   assert.match(app, /code: "archive_date_unavailable"/);
   assert.match(app, /code: selectedDate === null \? "current_load_failed" : "archive_load_failed"/);
   assert.doesNotMatch(app, /console\.(?:warn|error)\([^;]*requestedDate/);
-  assert.match(html, /id="archive-calendar"[\s\S]*<a id="archive-today" class="hidden" href="\/">Today<\/a>/);
 });
 
 test("the browser rejects stale or malformed publications", () => {
