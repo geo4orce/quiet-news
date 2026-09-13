@@ -99,6 +99,21 @@
         },
         "observedAt": "2026-09-13T10:07:28.413Z",
         "capturedAt": "2026-09-13T10:08:21.707Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [],
+        "request": {
+          "fingerprint": "2db7de3bdcf1d968250317e03c1e03d49f216a3a39fb1d69c68526eec42fbab8",
+          "claimId": "f8dd6c7b-07e9-4368-87e7-4e5c0980070b",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-09-13T16:07:29.267Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-09-13T16:07:29.238Z"
       }
     ],
     "sift": null
