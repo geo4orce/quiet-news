@@ -25,8 +25,10 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
 
 - DEV-only illustration trial: stories are always expanded, with no story
   toggle controls. `public/illustrations.js` maps exact dates/headlines to
-  optional static images. The September 11 trial is labeled and remains
-  accessible from its dated link after current content expires. Missing images
+  optional static images. The September 11 trial remains accessible at
+  `/?date=2026-09-11` after current content expires. No trial banner or visible
+  image captions; the footer says "AI-powered daily news. Only what earns your
+  attention." Sources use 0.7 opacity, returning to 1 on hover or focus. Missing images
   must not block text. No recurring image generation is configured. Keep this
   experiment on `dev` until explicitly approved for production.
 

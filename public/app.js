@@ -136,7 +136,6 @@ function renderPublication(publication, selectedDate) {
     if (illustration) {
       const figure = document.createElement("figure");
       const image = document.createElement("img");
-      const caption = document.createElement("figcaption");
       figure.className = "story-illustration";
       image.alt = illustration.alt;
       image.width = 1536;
@@ -148,8 +147,7 @@ function renderPublication(publication, selectedDate) {
         details.classList.remove("has-illustration");
       }, { once: true });
       image.src = illustration.src;
-      caption.textContent = "AI-generated illustration";
-      figure.append(image, caption);
+      figure.append(image);
       details.classList.add("has-illustration");
       details.prepend(figure);
     }
