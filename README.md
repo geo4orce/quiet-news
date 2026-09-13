@@ -14,3 +14,10 @@ Use Node.js 24: `npm ci`, `npm run check`, then
 ## Sources
 
 For source stats, run `npm run sources`.
+
+## Image trial
+
+The publisher generates optional cartoon illustrations after publishing the news.
+Only DEV (and localhost) displays images during the trial. Images and a dated
+manifest are stored in public/images; news JSON remains unchanged. Failed or
+uncertain image requests are never automatically resubmitted.
