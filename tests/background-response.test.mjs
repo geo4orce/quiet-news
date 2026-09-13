@@ -70,14 +70,19 @@ test("a failed durable claim prevents any provider call", async () => {
   assert.equal(calls, 0);
 });
 
-test("the overall deadline cancels the same request and does not restart discovery", async () => {
+test("discovery warns at five minutes and cancels at ten without restarting the request", async () => {
   let now = 1000;
-  const calls = [], saved = [];
-  await assert.rejects(backgroundResponse({ apiKey: "mock", body, stage: "discovery", validate, logger: quiet,
+  const calls = [], saved = [], logs = [];
+  await assert.rejects(backgroundResponse({ apiKey: "mock", body, stage: "discovery", validate,
+    logger: { info: (line) => logs.push(JSON.parse(line)) },
     saveRequest: async (state) => saved.push(state), nowMs: () => now, sleep: async (ms) => { now += ms; },
-    pollMs: 2, softTimeoutMs: 3, hardTimeoutMs: 5,
     fetchImpl: async (url, options) => { calls.push([url, options.method]); return http(response(url.endsWith("/cancel") ? "cancelled" : "in_progress")); }
   }), { errorCode: "overall_deadline" });
+  assert.equal(now - 1000, 600_000);
+  const warnings = logs.filter((record) => record.event === "generation_slow");
+  assert.equal(warnings.length, 1);
+  assert.equal(warnings[0].elapsedMs, 300_000);
+  assert.equal(warnings[0].continuingSameRequest, true);
   assert.equal(calls.filter(([url, method]) => method === "POST" && !url.endsWith("/cancel")).length, 1);
   assert.equal(calls.at(-1)[0].endsWith("/cancel"), true);
   assert.equal(saved.at(-1).status, "cancelled");

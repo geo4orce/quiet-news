@@ -39,7 +39,7 @@ morning sift. Actual partial coverage is recorded in the research archive;
 sift and publication must still succeed.
 
 Discovery warns after five minutes while polling the same background response,
-with a fourteen-minute overall deadline inside the twenty-minute job. Validated
+with a ten-minute overall deadline inside the twenty-minute job. Validated
 results are pushed to Git before proceeding. A hard shutdown or provider failure
 can still prevent completion.
 
