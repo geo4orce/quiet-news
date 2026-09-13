@@ -162,16 +162,21 @@ h2 {
   font-size: 1.05rem;
   white-space: pre-line;
 }
-.sources {
+.sources,
+footer {
+  color: var(--muted);
   opacity: 0.7;
+}
+.sources {
   margin: 18px 0 0;
-  color: #7a827d;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.68rem;
   text-align: right;
 }
 .sources:hover,
-.sources:focus-within { opacity: 1; }
+.sources:focus-within,
+footer:hover,
+footer:focus-within { opacity: 1; }
 .source-group { display: block; }
 .sources a { display: inline-block; color: inherit; text-underline-offset: 0.2em; }
 .sources a:hover { color: var(--accent-dark); }
@@ -217,7 +222,6 @@ footer {
   align-items: flex-start;
   padding-top: 18px;
   border-top: 1px solid var(--line);
-  color: var(--muted);
   font-size: 0.72rem;
   line-height: 1.5;
 }
@@ -227,7 +231,7 @@ footer a {
   color: inherit;
   text-underline-offset: 0.2em;
 }
-footer a:hover { color: var(--ink); }
+footer a:hover { color: var(--accent-dark); }
 footer a:focus-visible {
   border-radius: 2px;
   outline: 2px solid var(--ink);
