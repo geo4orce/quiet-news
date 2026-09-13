@@ -129,7 +129,7 @@ test("any one failed collection still leaves the other three usable for the morn
     let saved, siftInputValue, published;
     const result = await runCheckpointedJob({ mode: "publish", checkout: "unused", apiKey: "mock",
       now: () => new Date("2026-09-13T08:07:00Z"), loadPrompts: async () => prompts,
-      logger: { info() {}, warn: (line) => warnings.push(JSON.parse(line)) },
+      logger: { info() {}, warn: (line) => warnings.push(line) },
       research: { read: async () => archive, save: async (value) => { saved = structuredClone(value); } },
       publications: { hasEdition: async () => false, readEdition: async () => null, publish: async (value) => { published = value; } },
       persist: async () => {},

@@ -16,7 +16,7 @@ test("a slow response is polled through the soft deadline with exactly one gener
   const result = await backgroundResponse({ apiKey: "mock-key", body, stage: "discovery", targetDate: "2026-09-12",
     saveRequest: async (state) => saved.push(state), validate, nowMs: () => now,
     sleep: async (ms) => { now += ms; }, softTimeoutMs: 5, hardTimeoutMs: 50, pollMs: 3,
-    logger: { info: (line) => logs.push(JSON.parse(line)) },
+    logger: { info() {}, warn: (line) => logs.push(line) },
     fetchImpl: async (url, options) => {
       calls.push(options.method);
       if (options.method === "POST") {
@@ -30,7 +30,7 @@ test("a slow response is polled through the soft deadline with exactly one gener
     }
   });
   assert.deepEqual(calls, ["POST", "GET", "GET", "GET"]);
-  assert.equal(logs.filter((record) => record.event === "generation_slow").length, 1);
+  assert.equal(logs.filter((line) => line.includes("still running")).length, 1);
   assert.equal(result.request.status, "completed");
   assert.ok(saved.every((record) => !Object.hasOwn(record, "output") && !Object.hasOwn(record, "input")));
 });
@@ -74,15 +74,15 @@ test("discovery warns at five minutes and cancels at ten without restarting the 
   let now = 1000;
   const calls = [], saved = [], logs = [];
   await assert.rejects(backgroundResponse({ apiKey: "mock", body, stage: "discovery", validate,
-    logger: { info: (line) => logs.push(JSON.parse(line)) },
+    logger: { info() {}, warn: (line) => logs.push({ line, elapsed: now - 1000 }) },
     saveRequest: async (state) => saved.push(state), nowMs: () => now, sleep: async (ms) => { now += ms; },
     fetchImpl: async (url, options) => { calls.push([url, options.method]); return http(response(url.endsWith("/cancel") ? "cancelled" : "in_progress")); }
   }), { errorCode: "overall_deadline" });
   assert.equal(now - 1000, 600_000);
-  const warnings = logs.filter((record) => record.event === "generation_slow");
+  const warnings = logs.filter((record) => record.line.includes("still running"));
   assert.equal(warnings.length, 1);
-  assert.equal(warnings[0].elapsedMs, 300_000);
-  assert.equal(warnings[0].continuingSameRequest, true);
+  assert.equal(warnings[0].elapsed, 300_000);
+  assert.match(warnings[0].line, /same request/);
   assert.equal(calls.filter(([url, method]) => method === "POST" && !url.endsWith("/cancel")).length, 1);
   assert.equal(calls.at(-1)[0].endsWith("/cancel"), true);
   assert.equal(saved.at(-1).status, "cancelled");

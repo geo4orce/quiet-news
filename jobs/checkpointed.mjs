@@ -5,7 +5,7 @@ import { requestBody, GenerationError } from "../lib/openai-generator.mjs";
 import { addCalendarDays, publicationWindow } from "../lib/new-york-day.mjs";
 import { PublicationStore } from "../lib/publication-store.mjs";
 import { createPublication } from "../lib/publication.mjs";
-import { assertSiftResult, countRejections, editionFromSiftResult, SIFT_OUTPUT_SCHEMA } from "../lib/sift-result.mjs";
+import { assertSiftResult, editionFromSiftResult, SIFT_OUTPUT_SCHEMA } from "../lib/sift-result.mjs";
 
 const pooledSiftSchema = structuredClone(SIFT_OUTPUT_SCHEMA);
 pooledSiftSchema.properties.rejections.maxItems = 80;
@@ -51,15 +51,16 @@ export async function runCheckpointedJob({
     batch.capturedAt = now().toISOString();
     await save();
     pool = completedPool(archive).pool;
-    logger.info?.(JSON.stringify({ event: "collection_complete", targetDate: day, slot: window.slot, candidateCount: pool.length,
-      inputTokens: result.metadata.inputTokens, outputTokens: result.metadata.outputTokens, webSearchCalls: result.metadata.webSearchCalls }));
     return { status: "collected", editionDate: day, slot: window.slot, candidateCount: pool.length };
   }
 
   const { coverage, canPublish } = collectionReadiness(archive);
-  if (!canPublish) throw new GenerationError("collection_incomplete", false, { stage: "sift", targetDate: day });
+  if (!canPublish) {
+    logger.error?.(`Not enough saved collection coverage to publish ${day}.`);
+    throw new GenerationError("collection_incomplete", false, { stage: "sift", targetDate: day });
+  }
   if (coverage.status === "partial") {
-    logger.warn?.(JSON.stringify({ event: "publication_partial_coverage", targetDate: day, ...coverage }));
+    logger.warn?.(`Partial coverage for ${day}: ${coverage.successfulBatches}/4 collections completed; missing ${coverage.coveredThroughHour}:00-24:00 New York.`);
   }
   const candidateSet = { target_date: day, candidates: pool };
   const fingerprint = poolFingerprint({ candidateSet, prior, coverage });
@@ -70,6 +71,7 @@ export async function runCheckpointedJob({
     archive.collection.sift = sift;
   }
   const reusedSift = Boolean(sift.result);
+  if (reusedSift) logger.info?.(`Reusing the saved sift for ${day}.`);
   if (!sift.result) {
     const prompts = await loadPrompts();
     const input = JSON.stringify({ ...JSON.parse(siftInput(day, prior, candidateSet)), collection_coverage: coverage });
@@ -93,8 +95,5 @@ export async function runCheckpointedJob({
   if (publication.editionDay !== day) throw new Error("Publication day changed");
   await publications.publish(createPublication(publication, edition));
   await persist([`public/data/${day}.json`, "public/data/current.json", "public/data/index.json"], `Save ${day} note from collected research`);
-  logger.info?.(JSON.stringify({ event: "publisher_complete", status: "published", editionDate: day,
-    candidateCount: pool.length, acceptedCount: edition.stories.length, rejectionCounts: countRejections(sift.result.output),
-    reusedSift, coverage }));
   return { status: "published", editionDate: day, storyCount: edition.stories.length, coverage };
 }
