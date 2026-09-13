@@ -303,8 +303,12 @@ function setupArchive({ dates, selectedDate, today }) {
     next.disabled = month >= maximumMonth;
   };
 
-  toggle.textContent = formatArchiveToggleLabel(activeDate);
-  toggle.setAttribute("aria-label", `Jump to date. Showing ${formatDay(activeDate)}`);
+  toggle.textContent = formatArchiveToggleLabel(selectedDate);
+  toggle.setAttribute("aria-label", selectedDate === null
+    ? "Jump to date"
+    : `Jump to date. Showing ${formatDay(selectedDate)}`);
+  document.querySelector("#archive-today").classList.toggle("hidden",
+    selectedDate === null || selectedDate === dates[0]);
   toggle.addEventListener("click", () => setOpen(menu.classList.contains("hidden")));
   previous.addEventListener("click", () => {
     month = moveMonth(month, -1);

@@ -80,6 +80,20 @@ h1 { display: flex; align-items: center; gap: 12px; margin: 0; font-size: 1.45re
   box-shadow: 0 14px 36px rgb(24 33 29 / 14%);
 }
 
+#archive-today {
+  display: block;
+  margin-top: 11px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: var(--paper);
+  background: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+#archive-today:hover { background: var(--accent-dark); }
 .calendar-heading { display: grid; grid-template-columns: 36px 1fr 36px; align-items: center; gap: 6px; }
 #archive-month { margin: 0; font-size: 0.83rem; font-weight: 700; text-align: center; }
 

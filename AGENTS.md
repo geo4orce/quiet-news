@@ -34,7 +34,9 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
   loads that dated file without expiry. Remove malformed date parameters.
   Check index membership for past dates; missing data is not a quiet result.
 - Calendar enables indexed dates only and stays within indexed months. Its
-  latest date links to `/` and is selected on the homepage; no `Today` button.
+  latest date links to `/` and is selected on the homepage. Show `Today` linking
+  to `/` on other dated pages only.
+  The picker button says `Jump to date` on `/`, otherwise the requested date.
   Invalid/missing index hides the calendar without blocking current content.
   Show sources per story; preserve accessible loading and reduced motion.
 - Sanitize browser warnings/errors; never include raw input or response bodies.
