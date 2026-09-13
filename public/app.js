@@ -148,12 +148,31 @@ function renderPublication(publication, selectedDate) {
     details.id = detailsId;
     toggle.setAttribute("aria-controls", detailsId);
     body.textContent = story.body;
-    sources.append(document.createTextNode(story.sources.length === 1 ? "Source:" : "Sources:"));
+    const seenUrls = new Set();
+    const sourceGroups = new Map();
     story.sources.forEach((source) => {
-      const link = document.createElement("a");
-      link.href = source.url;
-      link.textContent = source.name;
-      sources.append(link);
+      if (seenUrls.has(source.url)) return;
+      seenUrls.add(source.url);
+      const name = source.name.trim();
+      if (!sourceGroups.has(name)) sourceGroups.set(name, []);
+      sourceGroups.get(name).push(source);
+    });
+    sources.append(document.createTextNode(seenUrls.size === 1 ? "Source:" : "Sources:"));
+    sourceGroups.forEach((group, name) => {
+      const row = document.createElement("span");
+      row.className = "source-group";
+      if (group.length > 1) row.append(document.createTextNode(name));
+      group.forEach((source, sourceIndex) => {
+        const link = document.createElement("a");
+        link.href = source.url;
+        link.textContent = group.length === 1 ? name : `[${sourceIndex + 1}]`;
+        if (group.length > 1) {
+          link.setAttribute("aria-label", `${name}, article ${sourceIndex + 1} of ${group.length}`);
+          row.append(document.createTextNode(" "));
+        }
+        row.append(link);
+      });
+      sources.append(row);
     });
     toggle.addEventListener("click", () => {
       setStoryOpen(article, toggle.getAttribute("aria-expanded") !== "true");
