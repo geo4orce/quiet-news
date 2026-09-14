@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-14",
+  "batch": 3,
+  "captured_at": "2026-09-14T22:08:53.281Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Fashion and costume designer Bob Mackie died Monday in Palm Springs, California, from pneumonia, his publicist said. Mackie, 87, designed for performers including Cher and Carol Burnett and won nine Emmy Awards and a Tony Award.",
+        "category": "Obituaries",
+        "title": "Fashion designer Bob Mackie dies at 87",
+        "event_date": "2026-09-14",
+        "candidate_id": "bob-mackie-dies-87",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/b2e50b957a55462995e76290a3920e1b"
+          }
+        ]
+      },
+      {
+        "summary": "A Turkish court ordered 16 people detained pending trial in Izmir following raids involving LGBTQ+ associations. The chief prosecutor’s office said two other suspects were placed under judicial supervision. Prosecutors cited alleged offenses including prostitution and obscenity, while rights groups described the wider operation as discriminatory repression.",
+        "category": "Civil Rights",
+        "title": "Turkish court detains 16 after raids involving LGBTQ+ groups",
+        "event_date": "2026-09-14",
+        "candidate_id": "turkey-izmir-lgbtq-detentions",
+        "geography": "Turkey",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/14/turkish-court-jails-16-in-izmir-after-raids-on-lgbtq-groups"
+          },
+          {
+            "name": "eKathimerini",
+            "url": "https://www.ekathimerini.com/in-depth/society-in-depth/1315200/turkish-court-jails-16-in-izmir-after-raids-on-lgbtq-groups/"
+          }
+        ]
+      },
+      {
+        "summary": "European Union ambassadors extended sanctions listings covering nearly 3,000 Russian-linked people and companies for seven days, until September 22, after member states failed to agree on a six-month renewal. The dispute included calls by France and Slovakia to remove Russian-Uzbek billionaire Alisher Usmanov from the list.",
+        "category": "International Relations",
+        "title": "EU temporarily extends Russia sanctions amid renewal dispute",
+        "event_date": "2026-09-14",
+        "candidate_id": "eu-russia-sanctions-seven-day-extension",
+        "geography": "European Union; Russia",
+        "sources": [
+          {
+            "name": "Reuters via Yahoo",
+            "url": "https://currently.att.yahoo.com/att/eu-envoys-extend-russia-sanctions-171245890.html"
+          }
+        ]
+      },
+      {
+        "summary": "Argentine President Javier Milei was preparing legislation to increase penalties against companies conducting unauthorized operations around the Falkland Islands, according to a congressional aide. The proposed bill had not yet been enacted and could extend sanctions to corporate affiliates and activities beyond offshore oil exploration.",
+        "category": "International Relations",
+        "title": "Milei prepares bill targeting firms operating around Falklands",
+        "event_date": "2026-09-14",
+        "candidate_id": "argentina-falklands-sanctions-bill",
+        "geography": "Argentina; Falkland Islands; United Kingdom",
+        "sources": [
+          {
+            "name": "Reuters via Yahoo",
+            "url": "https://currently.att.yahoo.com/att/argentinas-milei-plans-bill-toughen-182917244.html"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. Treasury announced sanctions against Russia’s VTB Bank as part of an effort to restrict Iran’s financial network, accusing the bank of establishing correspondent relationships with sanctioned Iranian banks. The Associated Press noted that VTB had already faced sweeping U.S. sanctions since 2022, leaving the additional practical effect unclear.",
+        "category": "International Relations",
+        "title": "US targets VTB Bank over alleged links to Iranian financial network",
+        "event_date": "2026-09-14",
+        "candidate_id": "us-vtb-iran-financial-sanctions",
+        "geography": "United States; Russia; Iran",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/b95a5a6c73a26bbbb1caddcbf365ca62"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-14"
+  },
+  "metadata": {
+    "responseId": "resp_02db2a440cb1d443006aa87024a0f487d28a3445af78c4545b",
+    "requestId": "req_1ab6372b085245afa5e2226d57a3074f",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2725,
+    "inputTokens": 51494,
+    "outputTokens": 3554,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-14",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 84534,
+    "attemptDurationMs": 84534,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
