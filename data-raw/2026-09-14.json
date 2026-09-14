@@ -129,13 +129,131 @@
         "request": {
           "fingerprint": "2e10cf2860576b039f7ee8788ff7e975558601d8122f31cbb5dd0dc1d3b08496",
           "claimId": "63ee9be0-c012-4bc3-9ba3-8ca52696e3ec",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-14T16:07:30.038Z",
           "responseId": "resp_042ef94ae9b67464006aa81bc5c59887d2af88030114ff6d84"
         },
-        "result": null,
-        "observedAt": "2026-09-14T16:07:29.950Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Greek authorities said 51 people were rescued after a boat carrying migrants from Libya took on water south of Crete early Monday. At least one person died, and 20 others were believed missing as coast guard vessels, aircraft, commercial ships and the EU border agency Frontex continued searching.",
+                "category": "Migration",
+                "title": "One dead and 20 missing from migrant boat near Crete",
+                "event_date": "2026-09-14",
+                "candidate_id": "crete-migrant-boat-search",
+                "geography": "Greece; Mediterranean Sea; Libya",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/migration-greece-crete-eu-libya-5c09f669e692b06f53991f4c1455d6de"
+                  }
+                ]
+              },
+              {
+                "summary": "NATO Secretary-General Mark Rutte pledged increased support for Ukraine and stronger defenses along the alliance’s eastern border after Russian drone strikes near Poland. Polish officials also said the military recovered what was believed to be a Russian drone from the Baltic Sea near Jaroslawiec.",
+                "category": "Conflict",
+                "title": "NATO chief pledges more Ukraine support after border-area strikes",
+                "event_date": "2026-09-14",
+                "candidate_id": "nato-rutte-ukraine-border-support",
+                "geography": "Ukraine; Poland; Europe",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-poland-nato-drones-dbba56f09562f337aa731f7d4bbd1235"
+                  }
+                ]
+              },
+              {
+                "summary": "Finland joined France’s Forward Nuclear Deterrence Initiative, Finnish and French leaders said. The initiative provides for consultations, exercises and possible temporary deployments of nuclear-capable assets, while leaving decisions on the use of France’s nuclear weapons with the French president. Finland said it did not intend to station nuclear weapons on its territory in peacetime.",
+                "category": "International Relations",
+                "title": "Finland joins French nuclear deterrence initiative",
+                "event_date": "2026-09-14",
+                "candidate_id": "finland-france-nuclear-deterrence",
+                "geography": "Finland; France; Europe",
+                "sources": [
+                  {
+                    "name": "Reuters via KhanList",
+                    "url": "https://www.khanlist.com/story/finland-joins-frances-nuclear-deterrent-initiative-3ede10ca"
+                  },
+                  {
+                    "name": "Reuters via Modesto Bee",
+                    "url": "https://www.modbee.com/news/nation-world/world/article317235283.html"
+                  }
+                ]
+              },
+              {
+                "summary": "The World Food Programme’s acting executive director said funding for its Sudan operations had fallen from $645 million last year to $206 million so far this year, leaving a gap of nearly $300 million to sustain current operations. The International Organization for Migration separately warned that emergency supplies for displaced people could run out by the end of September without additional funding.",
+                "category": "Humanitarian Crisis",
+                "title": "UN agencies warn of worsening Sudan aid shortfalls",
+                "event_date": "2026-09-14",
+                "candidate_id": "sudan-un-aid-funding-shortfall",
+                "geography": "Sudan",
+                "sources": [
+                  {
+                    "name": "Reuters via WSAU",
+                    "url": "https://wsau.com/2026/09/14/world-food-programme-funding-for-sudan-plummets-as-more-go-hungry-head-says/"
+                  }
+                ]
+              },
+              {
+                "summary": "Two regional officials briefed on repairs said Saudi Arabia’s East-West Pipeline would remain mostly out of service for three to five weeks after an attack the previous week damaged the line and a major pumping facility. One official said limited oil movements might continue while repairs were underway.",
+                "category": "Energy",
+                "title": "Damaged Saudi oil pipeline expected to face weeks of repairs",
+                "event_date": "2026-09-14",
+                "candidate_id": "saudi-east-west-pipeline-repairs",
+                "geography": "Saudi Arabia; Middle East",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/b95a5a6c73a26bbbb1caddcbf365ca62"
+                  }
+                ]
+              },
+              {
+                "summary": "President Donald Trump dismissed calls for new artificial-intelligence guardrails, describing opposition to rapid AI and data-center development as a conspiracy. He said the United States should maintain its lead over China, while acknowledging that some regulation was needed without offering specific proposals.",
+                "category": "Technology",
+                "title": "Trump dismisses calls for new AI guardrails",
+                "event_date": "2026-09-14",
+                "candidate_id": "trump-dismisses-ai-guardrails",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/c1fd92ed754f6d320006c270cffbece7"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-14"
+          },
+          "metadata": {
+            "responseId": "resp_042ef94ae9b67464006aa81bc5c59887d2af88030114ff6d84",
+            "requestId": "req_93870aa93ab54bbd8420a3180f60c469",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2275,
+            "inputTokens": 51144,
+            "outputTokens": 2906,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-14",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 74474,
+            "attemptDurationMs": 74474,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-14T16:07:29.950Z",
+        "capturedAt": "2026-09-14T16:08:44.513Z"
       }
     ],
     "sift": null
