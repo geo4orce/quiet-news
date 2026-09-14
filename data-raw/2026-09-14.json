@@ -27,13 +27,85 @@
         "request": {
           "fingerprint": "b713b456c5eb47ae36f97b6f6c7f48d0faab9226fde0ade54c7cdac7273c3d4e",
           "claimId": "e4aaa97b-2943-4a38-b570-b113716f97c8",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-14T10:07:22.331Z",
           "responseId": "resp_080900544d2be41b006aa7c75d1d4087d2af8c31c964e92e7d"
         },
-        "result": null,
-        "observedAt": "2026-09-14T10:07:22.309Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Yemen’s Houthi rebels captured the Greater and Lesser Hanish islands in the southern Red Sea after government-allied forces withdrew, according to two Yemeni government officials and a Houthi official. The islands are about 160 kilometers north of the Bab el-Mandeb Strait, a major shipping route.",
+                "category": "Conflict",
+                "title": "Houthis capture two strategic Red Sea islands",
+                "event_date": "2026-09-14",
+                "candidate_id": "houthis-capture-hanish-islands",
+                "geography": "Yemen; Red Sea",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/yemen-houthis-saudi-shipping-mandeb-8c18d82c109a8ea91347ce53c0096c53"
+                  }
+                ]
+              },
+              {
+                "summary": "Nigerian industrialist Aliko Dangote opened Africa’s largest oil refinery to public ownership through an initial public offering seeking $1.6 billion from retail investors. Shares were offered at 5,250 naira each, with Dangote retaining an 87% stake.",
+                "category": "Business",
+                "title": "Dangote opens refinery to public investors",
+                "event_date": "2026-09-14",
+                "candidate_id": "dangote-refinery-public-offering",
+                "geography": "Nigeria",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/nigeria-refinery-dangote-f3cc90fde930845eefd8bcc6231adb02"
+                  }
+                ]
+              },
+              {
+                "summary": "China’s Foreign Ministry rejected Anthropic CEO Dario Amodei’s call for continued U.S. restrictions on sales of advanced artificial-intelligence chips and manufacturing equipment to China. Ministry spokesperson Guo Jiakun said confrontation and competition would disrupt global AI governance.",
+                "category": "Technology",
+                "title": "China responds to Anthropic chief’s AI restrictions proposal",
+                "event_date": "2026-09-14",
+                "candidate_id": "china-responds-anthropic-ai-curbs",
+                "geography": "China; United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/china-anthropic-ai-us-amodei-3da458d2c078da3e60900728d59f1ae8"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-14"
+          },
+          "metadata": {
+            "responseId": "resp_080900544d2be41b006aa7c75d1d4087d2af8c31c964e92e7d",
+            "requestId": "req_4969f6a98b7a4ad89e6c4f86619f178c",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1140,
+            "inputTokens": 62332,
+            "outputTokens": 1436,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-14",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 41611,
+            "attemptDurationMs": 41611,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-14T10:07:22.309Z",
+        "capturedAt": "2026-09-14T10:08:03.942Z"
       }
     ],
     "sift": null
