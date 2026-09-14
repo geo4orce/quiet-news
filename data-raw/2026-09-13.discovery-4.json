@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-13",
+  "batch": 4,
+  "captured_at": "2026-09-14T07:08:06.891Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "With 94% of votes counted early Monday, preliminary results from the Swedish Election Authority gave the four-party left-wing opposition 176 seats in the 349-seat parliament, compared with 173 for Prime Minister Ulf Kristersson’s governing alliance. The election remained too close to call because additional early and overseas ballots were due to be counted, with final results expected later in the week.",
+        "category": "politics",
+        "title": "Preliminary Swedish election results give opposition three-seat lead",
+        "event_date": "2026-09-13",
+        "candidate_id": "sweden-2026-election-voting",
+        "geography": "Sweden",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/sweden-election-populists-riksdag-parliament-d7108eb1da493f7646b30c6f7a3421af"
+          },
+          {
+            "name": "Swedish Election Authority",
+            "url": "https://www.val.se/english/election-results/elections-to-the-riksdag-and-regional-and-municipal-councils/election-results-2026"
+          },
+          {
+            "name": "SVT News",
+            "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026"
+          }
+        ]
+      },
+      {
+        "summary": "The British navy-linked UK Maritime Trade Operations agency reported that a projectile struck a vessel transiting the Strait of Hormuz, causing a fire and prompting the crew’s evacuation. Iranian authorities said one person was killed and four crew members were wounded aboard an Iranian commercial vessel struck off Iran’s coast. Responsibility was not established.",
+        "category": "conflict",
+        "title": "Projectile strike sets vessel ablaze in Strait of Hormuz",
+        "event_date": "2026-09-13",
+        "candidate_id": "hormuz-vessel-projectile-strike",
+        "geography": "Strait of Hormuz",
+        "sources": [
+          {
+            "name": "Reuters via ThePrint",
+            "url": "https://theprint.in/world/new-attacks-in-hormuz-and-saudi-test-nerves-as-wars-spread-worsens-oil-disruption/3041771/"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/27d276de911a983cdb1b81101ee56083"
+          }
+        ]
+      },
+      {
+        "summary": "Alexander Zverev defeated Ben Shelton 6-3, 7-6(2), 5-7, 6-2 in the US Open men’s singles final at Arthur Ashe Stadium. The victory gave Zverev his first US Open title and his second Grand Slam championship, following his 2026 French Open victory.",
+        "category": "sports",
+        "title": "Alexander Zverev wins first US Open men’s singles title",
+        "event_date": "2026-09-13",
+        "candidate_id": "zverev-wins-2026-us-open",
+        "geography": "New York City, United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/us-open-mens-final-shelton-zverev-58fc12d28293dd33806e4d07242681d1"
+          },
+          {
+            "name": "Cadena SER",
+            "url": "https://cadenaser.com/nacional/2026/09/13/zverev-despierta-a-shelton-del-sueno-y-conquista-con-merito-su-primer-us-open-cadena-ser/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-13"
+  },
+  "metadata": {
+    "responseId": "resp_0aa97ceffb3a88b2006aa79d305f6087d2a4d7eda29e3b2edf",
+    "requestId": "req_0d1cff142e39428db95b6348d92c7e68",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1059,
+    "inputTokens": 40941,
+    "outputTokens": 1763,
+    "webSearchCalls": 4,
+    "stage": "discovery",
+    "targetDate": "2026-09-13",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 41813,
+    "attemptDurationMs": 41813,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
