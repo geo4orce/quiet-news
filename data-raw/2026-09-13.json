@@ -370,10 +370,10 @@
       "request": {
         "fingerprint": "6b43aac72f91f83d1ac80bbd04e8323ac40e2f7b336dc8b09ecf8f7ea76450e6",
         "claimId": "28cd5bad-4a91-4c8e-9ac3-0696b752aeda",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-09-14T08:07:25.367Z",
-        "responseId": null
+        "responseId": "resp_0381a05088b6cdcc006aa7ab40963887d2aadc74316249914e"
       },
       "result": null
     }
