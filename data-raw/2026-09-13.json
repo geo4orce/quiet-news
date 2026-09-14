@@ -370,12 +370,75 @@
       "request": {
         "fingerprint": "6b43aac72f91f83d1ac80bbd04e8323ac40e2f7b336dc8b09ecf8f7ea76450e6",
         "claimId": "28cd5bad-4a91-4c8e-9ac3-0696b752aeda",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-14T08:07:25.367Z",
         "responseId": "resp_0381a05088b6cdcc006aa7ab40963887d2aadc74316249914e"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "gaza-city-car-strike-two-killed",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "sweden-2026-election-voting",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-ai-development-ireland-comments",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-united-ireland-comments",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "zverev-wins-2026-us-open",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": [
+            {
+              "body": "A projectile struck a commercial vessel traveling through the Strait of Hormuz, starting a fire and forcing the crew to evacuate, according to the British navy-linked UK Maritime Trade Operations agency.\n\nIranian authorities said one person was killed and four crew members were wounded aboard the Iranian vessel, which was struck off Iran’s coast. Responsibility for the attack had not been established.",
+              "candidate_id": "hormuz-vessel-projectile-strike",
+              "headline": "Strike on vessel in Hormuz kills one",
+              "sources": [
+                {
+                  "name": "Reuters via ThePrint",
+                  "url": "https://theprint.in/world/new-attacks-in-hormuz-and-saudi-test-nerves-as-wars-spread-worsens-oil-disruption/3041771/"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/27d276de911a983cdb1b81101ee56083"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0381a05088b6cdcc006aa7ab40963887d2aadc74316249914e",
+          "requestId": "req_156514b6372d43a29dae2cc52c235f76",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 516,
+          "inputTokens": 1944,
+          "outputTokens": 816,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-13",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 20994,
+          "attemptDurationMs": 20994,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
