@@ -753,7 +753,32 @@
         "reviewedAt": "2026-09-15T11:00:33.421Z",
         "originalOutputHash": "765aecfd23e6dd309aeb2b8bc4e7288f3c656714c1186e2fc7729974e3f1c673",
         "originalStoryCount": 5
-      }
+      },
+      "comparisons": [
+        {
+          "historyDays": 7,
+          "inputFingerprint": "6083e9442daeb28abebe7cf91cf9f5bf1cbf554c91c144f1cb36b56fab8f3c2c",
+          "sourceCommit": "8065fcf2ab27d18919701ca244e746be8bf08424",
+          "priorPublicationDates": [
+            "2026-09-07",
+            "2026-09-08",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-11",
+            "2026-09-12",
+            "2026-09-13"
+          ],
+          "request": {
+            "fingerprint": "22b27fad43209d7325de69fb929c57c0ce78d30c1a1627f8fe4c9e0cf69964a1",
+            "claimId": "94124e36-9380-45ac-9324-4b9f6cc7d2e2",
+            "status": "submitting",
+            "attempts": 1,
+            "startedAt": "2026-09-15T11:13:16.852Z",
+            "responseId": null
+          },
+          "result": null
+        }
+      ]
     }
   }
 }
