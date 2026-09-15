@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-14",
+  "batch": 4,
+  "captured_at": "2026-09-15T07:08:54.686Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The U.S. Supreme Court rejected the Trump administration’s request to allow new restrictions on mail ballots before the November midterm elections. The brief emergency order said the administration was unlikely to prevail in court; Justices Samuel Alito and Clarence Thomas publicly dissented. Existing state mail-ballot processes remain in place while litigation continues.",
+        "category": "Law",
+        "title": "Supreme Court rejects Trump administration’s mail-ballot restrictions",
+        "event_date": "2026-09-14",
+        "candidate_id": "supreme-court-mail-ballot-restrictions",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/78a4fbeb48d9c5fd27d1c865529fc65f"
+          }
+        ]
+      },
+      {
+        "summary": "The Environmental Protection Agency finalized the repeal of most provisions in 2024 greenhouse-gas standards for fossil-fuel power plants. It also proposed repealing the remaining federal greenhouse-gas emissions standards for the power sector; that broader action remains subject to public comment and has not been finalized.",
+        "category": "Environment",
+        "title": "EPA repeals most 2024 power-plant greenhouse-gas standards",
+        "event_date": "2026-09-14",
+        "candidate_id": "epa-power-plant-ghg-standards-repeal",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Environmental Protection Agency",
+            "url": "https://www.epa.gov/system/files/documents/2026-09/fact-sheet_final-and-supp_technical_september2026_1.pdf"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/cac1c2c75f8656d8eaf5f0a240edae15"
+          }
+        ]
+      },
+      {
+        "summary": "Israeli strikes on a town in southern Lebanon killed at least 13 people, including six children, Lebanon’s Health Ministry said. The attacks occurred amid several days of escalating strikes despite a June ceasefire between Israel and Hezbollah.",
+        "category": "Conflict",
+        "title": "Israeli strikes in southern Lebanon kill at least 13",
+        "event_date": "2026-09-14",
+        "candidate_id": "israeli-strikes-south-lebanon-13-killed",
+        "geography": "Lebanon; Israel",
+        "sources": [
+          {
+            "name": "Reuters via Business Recorder",
+            "url": "https://www.brecorder.com/news/40439435"
+          }
+        ]
+      },
+      {
+        "summary": "Air Baltic Corporation and related debtors filed voluntary petitions for protection under Chapter 11 of the U.S. Bankruptcy Code. The Latvian airline described the proceeding as a financial reorganization and said passenger flights and services would continue during the process.",
+        "category": "Business",
+        "title": "AirBaltic files for Chapter 11 reorganization",
+        "event_date": "2026-09-14",
+        "candidate_id": "airbaltic-chapter-11-reorganization",
+        "geography": "Latvia; United States",
+        "sources": [
+          {
+            "name": "U.S. Trustee Program",
+            "url": "https://www.justice.gov/ust/media/1461171/dl?inline="
+          },
+          {
+            "name": "AirBaltic via PublicNow",
+            "url": "https://ebs.publicnow.com/view/C118C8DE7F8720B1AB61B82BC0CE86B8E943F40D"
+          }
+        ]
+      },
+      {
+        "summary": "Preliminary results from Sweden’s September 13 parliamentary election gave the center-left opposition a narrow three-seat advantage over Prime Minister Ulf Kristersson’s governing right-wing bloc. The result remained uncertain because outstanding and overseas ballots had not been fully counted; the Swedish Election Authority said final results were expected about a week after election day.",
+        "category": "Elections",
+        "title": "Swedish center-left holds narrow lead in preliminary election count",
+        "event_date": "2026-09-14",
+        "candidate_id": "sweden-election-preliminary-centre-left-lead",
+        "geography": "Sweden",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/ce72489ed01f77a7cb1a40dd442ff82c"
+          },
+          {
+            "name": "Swedish Election Authority",
+            "url": "https://www.val.se/english/election-results/elections-to-the-riksdag-and-regional-and-municipal-councils/election-results-2026"
+          }
+        ]
+      },
+      {
+        "summary": "Ukrainian President Volodymyr Zelenskyy said Ukraine was prepared to stop strikes on Russian territory if partners secured a genuine Russian commitment to refrain from attacking Ukraine’s energy, food and other critical infrastructure. Russia had not confirmed an agreement, and Kremlin spokesperson Dmitry Peskov said Russian strikes across Ukraine would continue.",
+        "category": "Conflict",
+        "title": "Zelenskyy offers reciprocal halt to critical-infrastructure strikes",
+        "event_date": "2026-09-14",
+        "candidate_id": "zelenskyy-reciprocal-infrastructure-strike-halt",
+        "geography": "Ukraine; Russia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/dbba56f09562f337aa731f7d4bbd1235"
+          }
+        ]
+      },
+      {
+        "summary": "President Donald Trump dismissed warnings about potentially dangerous artificial intelligence, calling concerns about AI taking over or harming humanity a hoax and describing efforts to limit rapid AI and data-center development as a conspiracy. His comments responded to calls from technology executives for slower development and greater government oversight.",
+        "category": "Technology",
+        "title": "Trump dismisses calls for new AI guardrails",
+        "event_date": "2026-09-14",
+        "candidate_id": "trump-dismisses-ai-guardrails",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/b85df16775ff7e9611a456b061a0e4b9"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-14"
+  },
+  "metadata": {
+    "responseId": "resp_0dda22ad491268f2006aa8eeb1718487d2b5590c2e54a41155",
+    "requestId": "req_8cd79794367040099abbc8612689ae9b",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2338,
+    "inputTokens": 82472,
+    "outputTokens": 3515,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-09-14",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 88443,
+    "attemptDurationMs": 88443,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
