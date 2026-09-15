@@ -182,13 +182,99 @@
         "request": {
           "fingerprint": "657cc6667f4987705982148e8398acf9aeca6793c7958c05a929f8e71b94d411",
           "claimId": "b62ebc22-17a0-4421-b831-5a1363a7a30c",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-15T16:07:25.707Z",
           "responseId": "resp_0f0e7a21a0d73615006aa96d41763087d2bbeaaa56877e8714"
         },
-        "result": null,
-        "observedAt": "2026-09-15T16:07:25.630Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Police dispersed opposition demonstrations in Kinshasa, Lubumbashi and Uvira against proposed constitutional changes that critics say could permit President Felix Tshisekedi to seek a third term. Reuters witnesses reported tear gas and warning shots in Kinshasa after clashes between protesters and government supporters. Several hundred people participated in the capital; authorities had prohibited the protests in Lubumbashi and Uvira.",
+                "category": "Politics and civil unrest",
+                "title": "Congolese police disperse protests against proposed constitutional changes",
+                "event_date": "2026-09-15",
+                "candidate_id": "drc-constitutional-protests-dispersed",
+                "geography": "Democratic Republic of Congo",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/congo-police-break-up-protests-against-proposed-constitutional-changes"
+                  }
+                ]
+              },
+              {
+                "summary": "Britain announced that it would upgrade diplomatic relations with Venezuela by appointing an ambassador. The British government said the move was intended to support its role in a transition to democracy and did not endorse Venezuela’s disputed 2024 election or any political faction. Venezuela welcomed the decision.",
+                "category": "Diplomacy",
+                "title": "Britain announces upgraded diplomatic relations with Venezuela",
+                "event_date": "2026-09-15",
+                "candidate_id": "britain-venezuela-diplomatic-upgrade",
+                "geography": "United Kingdom; Venezuela",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/britain-upgrades-diplomatic-relations-with-venezuela"
+                  }
+                ]
+              },
+              {
+                "summary": "A British public inquiry found that failures by senior staff and dysfunctional management at the Countess of Chester Hospital allowed nurse Lucy Letby to harm infants and that at least two murders could have been prevented through earlier action. The report recommended stronger neonatal safeguards, including protocols for suspected deliberate harm and consideration of cameras in cots and incubators. It did not examine Letby’s guilt or innocence.",
+                "category": "Public inquiry and health",
+                "title": "Lucy Letby inquiry finds hospital failures left infants unprotected",
+                "event_date": "2026-09-15",
+                "candidate_id": "uk-letby-inquiry-final-report",
+                "geography": "United Kingdom",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/final-report-on-lucy-letby-baby-murders-due-amid-growing-questions-about-convictions"
+                  }
+                ]
+              },
+              {
+                "summary": "Italy and Spain extended temporary border controls between the two countries for another 15 days. Italy cited continuing internal-security risks and a potential threat of terrorist infiltration, while Spain said the conditions justifying the controls remained in place and that its measures would continue until October 8. The controls were introduced after a large migrant influx into Spain’s Ceuta enclave.",
+                "category": "Migration and border policy",
+                "title": "Italy and Spain extend temporary border controls",
+                "event_date": "2026-09-15",
+                "candidate_id": "italy-spain-border-controls-extension",
+                "geography": "Italy; Spain",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/italy-extends-schengen-suspension-with-spain-for-another-15-days"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-15"
+          },
+          "metadata": {
+            "responseId": "resp_0f0e7a21a0d73615006aa96d41763087d2bbeaaa56877e8714",
+            "requestId": "req_a1a5bed7498e4f4588a6e6ef524d15c3",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1725,
+            "inputTokens": 50616,
+            "outputTokens": 2357,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-15",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 58463,
+            "attemptDurationMs": 58463,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-15T16:07:25.630Z",
+        "capturedAt": "2026-09-15T16:08:24.171Z"
       }
     ],
     "sift": null
