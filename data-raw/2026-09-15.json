@@ -12,13 +12,127 @@
         "request": {
           "fingerprint": "a5f34628f57c9856b651d6559b90fa895a97547c5777782461ed8fa41d0e8a8e",
           "claimId": "d1402fd4-f9d7-45d4-a939-6a327220a25a",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-15T10:07:30.921Z",
           "responseId": "resp_02729238622152ac006aa918e706d087d29c2342baa99e6516"
         },
-        "result": null,
-        "observedAt": "2026-09-15T10:07:30.867Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Norwegian police and the PST security service said they were investigating telecommunications company Telenor on suspicion of aiding crimes against humanity in Myanmar and violating sanctions. Investigators raided Telenor’s Oslo headquarters on Tuesday. Telenor said it was cooperating and argued that employees in Myanmar had faced severe risks if they did not comply with military orders. No individuals had been charged or placed under investigation.",
+                "category": "Business and law",
+                "title": "Norwegian police raid Telenor headquarters in Myanmar-related investigation",
+                "event_date": "2026-09-15",
+                "candidate_id": "norway-telenor-myanmar-investigation",
+                "geography": "Norway; Myanmar",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/norway-police-investigate-telenor-over-suspected-crimes-against-humanity-in-myanmar"
+                  }
+                ]
+              },
+              {
+                "summary": "United Nations officials said the Ebola epidemic in eastern Democratic Republic of Congo remained large and was still growing in some areas, although containment efforts were showing progress elsewhere. Government figures published Tuesday listed 7,258 confirmed cases and 3,510 deaths across seven provinces. WHO official Olivier le Polain said it was too early to conclude that the outbreak had passed its peak.",
+                "category": "Health",
+                "title": "UN says eastern Congo Ebola outbreak remains extensive despite some progress",
+                "event_date": "2026-09-15",
+                "candidate_id": "congo-ebola-un-update-sept-15",
+                "geography": "Democratic Republic of Congo",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/un-says-ebola-epidemic-still-huge-and-growing"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. presidential envoy John Coale met Belarusian President Alexander Lukashenko for their first talks in six months. Washington has sought additional prisoner releases in exchange for sanctions relief. Belarusian state media said Coale conveyed President Donald Trump’s support for the negotiations. Human-rights group Viasna says Belarus still holds more than 900 political prisoners; Lukashenko rejects that characterization.",
+                "category": "Diplomacy",
+                "title": "US envoy meets Lukashenko for renewed prisoner-release talks",
+                "event_date": "2026-09-15",
+                "candidate_id": "us-belarus-prisoner-talks-sept-15",
+                "geography": "Belarus; United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/trump-envoy-coale-arrives-in-belarus-for-new-talks-on-prisoner-releases"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukraine’s Brigadier-General Andrii Biletskyi announced an offensive operation named Vivaldi in northern Donetsk region. He said Ukrainian forces had cleared Russian infiltration groups from 75 square kilometers, recaptured another 10 square kilometers and taken control of several villages or surrounding areas. Reuters said it could not independently verify the territorial claims.",
+                "category": "Conflict",
+                "title": "Ukrainian commander announces offensive operation in northern Donetsk",
+                "event_date": "2026-09-15",
+                "candidate_id": "ukraine-vivaldi-offensive-announcement",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/ukraine-launches-offensive-push-in-north-of-donetsk-region-senior-commander-says"
+                  }
+                ]
+              },
+              {
+                "summary": "Rail services across central and northern Netherlands were disrupted during Tuesday’s morning rush after pipes were deliberately attached to tracks at about 20 locations, infrastructure operator ProRail said. Several road level crossings also remained closed. ProRail described the incidents as deliberate human-caused disruption but said the responsible party and motive were unknown; national police opened an investigation.",
+                "category": "Transport and public safety",
+                "title": "Deliberately placed pipes disrupt Dutch rail network",
+                "event_date": "2026-09-15",
+                "candidate_id": "netherlands-rail-disruption-pipes",
+                "geography": "Netherlands",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/suspected-sabotage-disrupts-dutch-trains-level-crossings"
+                  }
+                ]
+              },
+              {
+                "summary": "Independent United Nations experts reported that Belarusian courts, police, security services, prosecutors and prison authorities had acted in a coordinated manner to repress government critics throughout the justice process. The panel cited arbitrary arrests, torture, denial of legal safeguards, closed trials and harassment after release. Belarus has previously rejected UN criticism and did not immediately respond to the new findings.",
+                "category": "Human rights",
+                "title": "UN experts report systematic justice-system abuses in Belarus",
+                "event_date": "2026-09-15",
+                "candidate_id": "un-belarus-justice-system-report",
+                "geography": "Belarus",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/belarus-using-justice-system-to-silence-lukashenko-critics-say-un-experts"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-15"
+          },
+          "metadata": {
+            "responseId": "resp_02729238622152ac006aa918e706d087d29c2342baa99e6516",
+            "requestId": "req_5556f7e8704c456cb0afb6c79588b283",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1755,
+            "inputTokens": 45498,
+            "outputTokens": 2812,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-15",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 64449,
+            "attemptDurationMs": 64449,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-15T10:07:30.867Z",
+        "capturedAt": "2026-09-15T10:08:35.370Z"
       }
     ],
     "sift": null
