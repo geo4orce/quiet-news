@@ -771,12 +771,153 @@
           "request": {
             "fingerprint": "22b27fad43209d7325de69fb929c57c0ce78d30c1a1627f8fe4c9e0cf69964a1",
             "claimId": "94124e36-9380-45ac-9324-4b9f6cc7d2e2",
-            "status": "in_progress",
+            "status": "completed",
             "attempts": 1,
             "startedAt": "2026-09-15T11:13:16.852Z",
             "responseId": "resp_0f6aa9b6847a6ecf006aa9284f7fe887d2b4d7a528e1297f8d"
           },
-          "result": null
+          "result": {
+            "output": {
+              "rejections": [
+                {
+                  "candidate_id": "airbaltic-chapter-11-reorganization",
+                  "code": "narrow_interest"
+                },
+                {
+                  "candidate_id": "argentina-falklands-sanctions-bill",
+                  "code": "insufficient_materiality"
+                },
+                {
+                  "candidate_id": "bob-mackie-dies-87",
+                  "code": "narrow_interest"
+                },
+                {
+                  "candidate_id": "china-responds-anthropic-ai-curbs",
+                  "code": "insufficient_materiality"
+                },
+                {
+                  "candidate_id": "crete-migrant-boat-search",
+                  "code": "narrow_interest"
+                },
+                {
+                  "candidate_id": "dangote-refinery-public-offering",
+                  "code": "narrow_interest"
+                },
+                {
+                  "candidate_id": "eu-russia-sanctions-seven-day-extension",
+                  "code": "incremental_update"
+                },
+                {
+                  "candidate_id": "finland-france-nuclear-deterrence",
+                  "code": "insufficient_materiality"
+                },
+                {
+                  "candidate_id": "houthis-capture-hanish-islands",
+                  "code": "incremental_update"
+                },
+                {
+                  "candidate_id": "nato-rutte-ukraine-border-support",
+                  "code": "incremental_update"
+                },
+                {
+                  "candidate_id": "sudan-un-aid-funding-shortfall",
+                  "code": "insufficient_materiality"
+                },
+                {
+                  "candidate_id": "sweden-election-preliminary-centre-left-lead",
+                  "code": "incremental_update"
+                },
+                {
+                  "candidate_id": "trump-dismisses-ai-guardrails",
+                  "code": "insufficient_materiality"
+                },
+                {
+                  "candidate_id": "turkey-izmir-lgbtq-detentions",
+                  "code": "narrow_interest"
+                },
+                {
+                  "candidate_id": "us-vtb-iran-financial-sanctions",
+                  "code": "incremental_update"
+                },
+                {
+                  "candidate_id": "zelenskyy-reciprocal-infrastructure-strike-halt",
+                  "code": "insufficient_materiality"
+                }
+              ],
+              "stories": [
+                {
+                  "body": "The Environmental Protection Agency finalized the repeal of most provisions in greenhouse-gas standards adopted in 2024 for fossil-fuel power plants.\n\nThe agency also proposed eliminating the remaining federal greenhouse-gas standards for the power sector. That broader step is not final and remains subject to public comment.",
+                  "candidate_id": "epa-power-plant-ghg-standards-repeal",
+                  "headline": "EPA repeals most power-plant climate rules",
+                  "sources": [
+                    {
+                      "name": "U.S. Environmental Protection Agency",
+                      "url": "https://www.epa.gov/system/files/documents/2026-09/fact-sheet_final-and-supp_technical_september2026_1.pdf"
+                    },
+                    {
+                      "name": "Associated Press",
+                      "url": "https://apnews.com/article/cac1c2c75f8656d8eaf5f0a240edae15"
+                    }
+                  ]
+                },
+                {
+                  "body": "Lebanon’s Health Ministry said Israeli strikes on a town in southern Lebanon killed at least 13 people, including six children.\n\nThe attacks followed several days of escalating strikes despite a ceasefire reached by Israel and Hezbollah in June.",
+                  "candidate_id": "israeli-strikes-south-lebanon-13-killed",
+                  "headline": "Israeli strikes kill 13 in southern Lebanon",
+                  "sources": [
+                    {
+                      "name": "Reuters via Business Recorder",
+                      "url": "https://www.brecorder.com/news/40439435"
+                    }
+                  ]
+                },
+                {
+                  "body": "Saudi Arabia’s East-West oil pipeline is expected to remain mostly out of service for three to five weeks, according to two regional officials briefed on repairs.\n\nAn attack the previous week damaged the pipeline and a major pumping facility. One official said limited oil movements might continue during the repairs.",
+                  "candidate_id": "saudi-east-west-pipeline-repairs",
+                  "headline": "Saudi oil pipeline faces weeks of repairs",
+                  "sources": [
+                    {
+                      "name": "Associated Press",
+                      "url": "https://apnews.com/article/b95a5a6c73a26bbbb1caddcbf365ca62"
+                    }
+                  ]
+                },
+                {
+                  "body": "The Supreme Court rejected the Trump administration’s request to allow new restrictions on mail ballots before the November midterm elections. Existing state mail-ballot processes will remain in place while the litigation continues.\n\nThe brief emergency order said the administration was unlikely to prevail in court. Justices Samuel Alito and Clarence Thomas publicly dissented.",
+                  "candidate_id": "supreme-court-mail-ballot-restrictions",
+                  "headline": "Supreme Court rejects new mail-ballot restrictions",
+                  "sources": [
+                    {
+                      "name": "Associated Press",
+                      "url": "https://apnews.com/article/78a4fbeb48d9c5fd27d1c865529fc65f"
+                    }
+                  ]
+                }
+              ]
+            },
+            "metadata": {
+              "responseId": "resp_0f6aa9b6847a6ecf006aa9284f7fe887d2b4d7a528e1297f8d",
+              "requestId": "req_6898ceddc7644b9c923a89325ea2de7e",
+              "responseModel": "gpt-5.6-sol",
+              "reasoningTokens": 2407,
+              "inputTokens": 7107,
+              "outputTokens": 3272,
+              "webSearchCalls": 0,
+              "stage": "sift",
+              "targetDate": "2026-09-14",
+              "model": "gpt-5.6-sol",
+              "reasoningEffort": "high",
+              "attempts": 1,
+              "httpStatus": 200,
+              "durationMs": 73137,
+              "attemptDurationMs": 73137,
+              "softTimeoutMs": 180000,
+              "timeoutMs": 600000,
+              "background": true,
+              "promptVersion": "quiet-sift-history-v1",
+              "basePromptVersion": "quiet-sift-v7"
+            }
+          }
         }
       ]
     }
