@@ -588,14 +588,146 @@
       "request": {
         "fingerprint": "94c0fef9b1937da323dc0f50a748684f4a69014a7ced7008da39295728fea6e7",
         "claimId": "bdd1e4bc-6b57-4d4f-98dc-30340fe91152",
-        "status": "failed",
+        "status": "completed",
         "attempts": 2,
         "startedAt": "2026-09-15T10:56:38.524Z",
         "responseId": "resp_0d0d82d390e7e264006aa9246884b487d2af426b761c2d96ff",
         "retryable": false,
-        "code": "malformed_output"
+        "reviewedFailureCode": "malformed_output"
       },
-      "result": null,
+      "result": {
+        "output": {
+          "stories": [
+            {
+              "body": "Yemen’s Houthi rebels took control of the Greater and Lesser Hanish islands after government-allied forces withdrew, according to two Yemeni government officials and a Houthi official.\n\nThe islands are in the southern Red Sea, about 160 kilometers north of the Bab el-Mandeb Strait, a major shipping route.",
+              "candidate_id": "houthis-capture-hanish-islands",
+              "headline": "Houthis capture two Red Sea islands",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/yemen-houthis-saudi-shipping-mandeb-8c18d82c109a8ea91347ce53c0096c53"
+                }
+              ]
+            },
+            {
+              "body": "Israeli strikes on a town in southern Lebanon killed at least 13 people, including six children, according to Lebanon’s Health Ministry.\n\nThe attacks came during several days of escalating strikes despite a ceasefire reached by Israel and Hezbollah in June.",
+              "candidate_id": "israeli-strikes-south-lebanon-13-killed",
+              "headline": "Israeli strikes in Lebanon kill 13",
+              "sources": [
+                {
+                  "name": "Reuters via Business Recorder",
+                  "url": "https://www.brecorder.com/news/40439435"
+                }
+              ]
+            },
+            {
+              "body": "Saudi Arabia’s East-West Pipeline is expected to remain mostly out of service for three to five weeks after an attack last week damaged the line and a major pumping facility, two regional officials briefed on repairs said.\n\nOne official said limited oil movements might continue while repairs are underway.",
+              "candidate_id": "saudi-east-west-pipeline-repairs",
+              "headline": "Saudi oil pipeline faces weeks of repairs",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/b95a5a6c73a26bbbb1caddcbf365ca62"
+                }
+              ]
+            },
+            {
+              "body": "The Supreme Court rejected the Trump administration’s emergency request to permit new restrictions on mail ballots before November’s midterm elections.\n\nThe brief order said the administration was unlikely to prevail in court. Justices Samuel Alito and Clarence Thomas publicly dissented. Existing state mail-ballot processes remain in effect while the litigation continues.",
+              "candidate_id": "supreme-court-mail-ballot-restrictions",
+              "headline": "Supreme Court keeps mail-ballot rules unchanged",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/78a4fbeb48d9c5fd27d1c865529fc65f"
+                }
+              ]
+            }
+          ],
+          "rejections": [
+            {
+              "candidate_id": "airbaltic-chapter-11-reorganization",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "argentina-falklands-sanctions-bill",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "bob-mackie-dies-87",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "china-responds-anthropic-ai-curbs",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "crete-migrant-boat-search",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "dangote-refinery-public-offering",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "eu-russia-sanctions-seven-day-extension",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "finland-france-nuclear-deterrence",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "nato-rutte-ukraine-border-support",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "sudan-un-aid-funding-shortfall",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "sweden-election-preliminary-centre-left-lead",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "trump-dismisses-ai-guardrails",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "turkey-izmir-lgbtq-detentions",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "us-vtb-iran-financial-sanctions",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "zelenskyy-reciprocal-infrastructure-strike-halt",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "epa-power-plant-ghg-standards-repeal",
+              "code": "weak_support"
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0d0d82d390e7e264006aa9246884b487d2af426b761c2d96ff",
+          "requestId": null,
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1174,
+          "inputTokens": 4265,
+          "outputTokens": 2163,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-14",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 2,
+          "background": true,
+          "manualReview": true,
+          "excludedCount": 1
+        }
+      },
       "previousRequests": [
         {
           "fingerprint": "94c0fef9b1937da323dc0f50a748684f4a69014a7ced7008da39295728fea6e7",
@@ -608,7 +740,20 @@
           "code": "malformed_output",
           "manualRetryAuthorizedAt": "2026-09-15T10:56:38.523Z"
         }
-      ]
+      ],
+      "review": {
+        "exclusions": [
+          {
+            "candidate_id": "epa-power-plant-ghg-standards-repeal",
+            "code": "weak_support",
+            "source": "https://www.epa.gov/system/files/documents/2026-09/fact-sheet_final-and-supp_technical_september2026_1.pdf",
+            "reason": "Manual recovery excluded a selection whose returned citation did not match the collected source."
+          }
+        ],
+        "reviewedAt": "2026-09-15T11:00:33.421Z",
+        "originalOutputHash": "765aecfd23e6dd309aeb2b8bc4e7288f3c656714c1186e2fc7729974e3f1c673",
+        "originalStoryCount": 5
+      }
     }
   }
 }
