@@ -588,10 +588,10 @@
       "request": {
         "fingerprint": "94c0fef9b1937da323dc0f50a748684f4a69014a7ced7008da39295728fea6e7",
         "claimId": "68926fe9-02f2-489b-8381-009d0f2460b1",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-09-15T08:07:31.535Z",
-        "responseId": null
+        "responseId": "resp_0f0b467dc825b1f3006aa8fcc7472087d284134e7decc6885d"
       },
       "result": null
     }
