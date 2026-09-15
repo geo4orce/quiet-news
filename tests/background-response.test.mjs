@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { backgroundResponse, requestFingerprint } from "../lib/background-response.mjs";
+import { SiftResultValidationError } from "../lib/sift-result.mjs";
 
 const body = { model: "mock-model", reasoning: { effort: "medium" }, input: [] };
 const response = (status, output = { ok: true }) => ({ id: "resp_test", status,
@@ -9,6 +10,47 @@ const response = (status, output = { ok: true }) => ({ id: "resp_test", status,
 const http = (value, status = 200) => ({ ok: status < 300, status, headers: new Headers(), json: async () => value });
 const quiet = { info() {} };
 const validate = (output) => assert.equal(output.ok, true);
+
+test("rejected output saves safe failure reasons and usage before stopping without retry", async () => {
+  let saved;
+  let calls = 0;
+  const logs = [];
+  const options = { apiKey: "mock", body, stage: "sift", logger: { info() {}, error: line => logs.push(line) },
+    saveRequest: async state => { saved = state; },
+    validate() { throw new SiftResultValidationError([
+      "sift.stories[0].sources must come from the discovery candidate",
+      "sift must decide SECRET_CANDIDATE", "sift.SECRET_FIELD is not allowed"
+    ]); },
+    fetchImpl: async () => { calls++; return http(response("completed", { secret: "SECRET_BODY" })); }
+  };
+  await assert.rejects(backgroundResponse(options), { errorCode: "malformed_output" });
+  assert.equal(saved.status, "failed");
+  assert.equal(saved.retryable, false);
+  assert.equal(saved.failure.phase, "validation");
+  assert.equal(saved.failure.inputTokens, 10);
+  assert.deepEqual(saved.failure.issues, [
+    { code: "source_mismatch", list: "stories", index: 0 },
+    { code: "missing_candidate_decision" }, { code: "invalid_structure" }
+  ]);
+  assert.doesNotMatch(JSON.stringify({ saved, logs }), /SECRET/);
+  await assert.rejects(backgroundResponse({ ...options, request: saved }), { errorCode: "malformed_output" });
+  assert.equal(calls, 1);
+});
+
+test("JSON parse errors and refusals retain their phase without raw provider text", async () => {
+  for (const refusal of [false, true]) {
+    let saved;
+    const value = response("completed");
+    value.output[0].content = [refusal ? { type: "refusal", refusal: "SECRET" }
+      : { type: "output_text", text: "SECRET invalid JSON" }];
+    await assert.rejects(backgroundResponse({ apiKey: "mock", body, stage: "sift", logger: quiet,
+      saveRequest: async state => { saved = state; }, validate,
+      fetchImpl: async () => http(value)
+    }), { errorCode: refusal ? "provider_refusal" : "malformed_output" });
+    assert.equal(saved.failure.phase, refusal ? "output_extraction" : "json_parse");
+    assert.doesNotMatch(JSON.stringify(saved), /SECRET/);
+  }
+});
 
 test("a slow response is polled through the soft deadline with exactly one generation POST", async () => {
   let now = Date.parse("2026-09-12T10:07:00Z");

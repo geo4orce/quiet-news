@@ -81,7 +81,9 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
   `jobs/checkpointed.mjs` with `QUIET_NEWS_MODE=collect` or `publish`.
 - New York collection: 06:07/12:07/18:07 through those hours, then 03:07 finishes
   the previous day through midnight and reconciles late reporting. Successful
-  batches cover gaps since the last success. Publish at 04:07; 04:37 is recovery.
+  batches cover gaps since the last success. Publish once at 04:07; failure email
+  alerts prompt manual recovery. QNP's `npm run recover:sift -- YYYY-MM-DD
+  --retry-failed-sift` explicitly authorizes one new sift from saved collections.
   Existing publications exit before loading prompts or calling the provider.
 - Publish with full midnight coverage or three validated batches out of four.
   Record partial coverage/missing intervals in sift input, research and warning;
@@ -120,6 +122,10 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
 - Scheduled code prints readable progress/warnings directly; QNP suppresses
   subprocess chatter and prints the final outcome after push success. Never log
   candidate/story bodies, raw errors, prompts, secrets or reasoning.
+- Failed completed responses save the failure phase, fixed validation codes and
+  numeric story/rejection positions, plus timing/usage. Never save raw error
+  messages or failed output bodies. Manual sift retry retains the earlier request
+  in `collection.sift.previousRequests` and pushes a new claim before paid work.
 - `node scripts/generation-trends.mjs` reads saved timing/usage/checkpoints.
   `scripts/export-run-history.ps1` reads older JSON logs only. Inspect current
   early failures in DigitalOcean; provider dashboard usage covers billed work
@@ -137,5 +143,5 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
 - jobs/images.mjs owns generation/storage; QNP supplies its private illustration prompt after publish or already-published recovery. Never run images during collection. Quiet days skip all image work.
 - One medium-quality 1536x1024 JPEG per final story, currently gpt-image-1.5. Text is saved/pushed first. Image failure must not block publication.
 - Save/push a claim in data-raw/YYYY-MM-DD.images.json before every request, then save/push each JPEG, public/images/YYYY-MM-DD/index.json and completion together before further paid work. Never automatically repeat an existing claim, including uncertain/failed requests. Images API requests are synchronous and cannot be resumed by response ID.
-- Recovery may finish unclaimed stories within the container budget. No automatic historical backfill or regeneration after corrections. Full story-content hashes prevent mismatched images after corrections. Missing/invalid manifests and images are optional and must not affect the news state.
+- An explicitly invoked publish recovery may finish unclaimed images within the container budget; there is no scheduled 04:37 retry. QNP's manual sift command recovers text only. No automatic historical backfill or regeneration after corrections. Full story-content hashes prevent mismatched images after corrections. Missing/invalid manifests and images are optional and must not affect the news state.
 - Literal illustration prompts and their version manifest stay only in private QNP. No base64 provider responses or prompt text in public storage/logs.
