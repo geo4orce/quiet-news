@@ -388,6 +388,36 @@
         },
         "observedAt": "2026-09-14T22:07:28.650Z",
         "capturedAt": "2026-09-14T22:08:53.281Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Strike on vessel in Hormuz kills one",
+            "body": "A projectile struck a commercial vessel traveling through the Strait of Hormuz, starting a fire and forcing the crew to evacuate, according to the British navy-linked UK Maritime Trade Operations agency.\n\nIranian authorities said one person was killed and four crew members were wounded aboard the Iranian vessel, which was struck off Iran’s coast. Responsibility for the attack had not been established.",
+            "sources": [
+              {
+                "name": "Reuters via ThePrint",
+                "url": "https://theprint.in/world/new-attacks-in-hormuz-and-saudi-test-nerves-as-wars-spread-worsens-oil-disruption/3041771/"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/27d276de911a983cdb1b81101ee56083"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "eb41c694f39a686a6423ca0a640f4f491eda22cd7b7a6654d491c5099569b2fe",
+          "claimId": "8d61a3a1-3665-4ef0-9f55-1d681a948714",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-09-15T07:07:26.243Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-09-15T07:07:26.178Z"
       }
     ],
     "sift": null
