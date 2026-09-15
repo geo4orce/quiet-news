@@ -133,6 +133,62 @@
         },
         "observedAt": "2026-09-15T10:07:30.867Z",
         "capturedAt": "2026-09-15T10:08:35.370Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Houthis capture two Red Sea islands",
+            "body": "Yemen’s Houthi rebels took control of the Greater and Lesser Hanish islands after government-allied forces withdrew, according to two Yemeni government officials and a Houthi official.\n\nThe islands are in the southern Red Sea, about 160 kilometers north of the Bab el-Mandeb Strait, a major shipping route.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/yemen-houthis-saudi-shipping-mandeb-8c18d82c109a8ea91347ce53c0096c53"
+              }
+            ]
+          },
+          {
+            "headline": "Israeli strikes in Lebanon kill 13",
+            "body": "Israeli strikes on a town in southern Lebanon killed at least 13 people, including six children, according to Lebanon’s Health Ministry.\n\nThe attacks came during several days of escalating strikes despite a ceasefire reached by Israel and Hezbollah in June.",
+            "sources": [
+              {
+                "name": "Reuters via Business Recorder",
+                "url": "https://www.brecorder.com/news/40439435"
+              }
+            ]
+          },
+          {
+            "headline": "Saudi oil pipeline faces weeks of repairs",
+            "body": "Saudi Arabia’s East-West Pipeline is expected to remain mostly out of service for three to five weeks after an attack last week damaged the line and a major pumping facility, two regional officials briefed on repairs said.\n\nOne official said limited oil movements might continue while repairs are underway.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/b95a5a6c73a26bbbb1caddcbf365ca62"
+              }
+            ]
+          },
+          {
+            "headline": "Supreme Court keeps mail-ballot rules unchanged",
+            "body": "The Supreme Court rejected the Trump administration’s emergency request to permit new restrictions on mail ballots before November’s midterm elections.\n\nThe brief order said the administration was unlikely to prevail in court. Justices Samuel Alito and Clarence Thomas publicly dissented. Existing state mail-ballot processes remain in effect while the litigation continues.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/78a4fbeb48d9c5fd27d1c865529fc65f"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "657cc6667f4987705982148e8398acf9aeca6793c7958c05a929f8e71b94d411",
+          "claimId": "b62ebc22-17a0-4421-b831-5a1363a7a30c",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-09-15T16:07:25.707Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-09-15T16:07:25.630Z"
       }
     ],
     "sift": null
