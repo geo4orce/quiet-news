@@ -411,10 +411,10 @@
         "request": {
           "fingerprint": "eb41c694f39a686a6423ca0a640f4f491eda22cd7b7a6654d491c5099569b2fe",
           "claimId": "8d61a3a1-3665-4ef0-9f55-1d681a948714",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-09-15T07:07:26.243Z",
-          "responseId": null
+          "responseId": "resp_0dda22ad491268f2006aa8eeb1718487d2b5590c2e54a41155"
         },
         "result": null,
         "observedAt": "2026-09-15T07:07:26.178Z"
