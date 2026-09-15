@@ -771,10 +771,10 @@
           "request": {
             "fingerprint": "22b27fad43209d7325de69fb929c57c0ce78d30c1a1627f8fe4c9e0cf69964a1",
             "claimId": "94124e36-9380-45ac-9324-4b9f6cc7d2e2",
-            "status": "submitting",
+            "status": "in_progress",
             "attempts": 1,
             "startedAt": "2026-09-15T11:13:16.852Z",
-            "responseId": null
+            "responseId": "resp_0f6aa9b6847a6ecf006aa9284f7fe887d2b4d7a528e1297f8d"
           },
           "result": null
         }
