@@ -57,13 +57,117 @@
         "request": {
           "fingerprint": "fc3e32e1a563d08817d18c299da436721e0bd723d7391aae4441e78976685374",
           "claimId": "2aea9009-5c02-409d-9b50-922a4602557f",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-16T10:07:29.201Z",
           "responseId": "resp_056efc26711f4121006aaa6a64279c87d29dcb26221315fc9f"
         },
-        "result": null,
-        "observedAt": "2026-09-16T10:07:29.141Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Former Philippine President Rodrigo Duterte appeared at the International Criminal Court in The Hague for a hearing on his health and ability to stand trial. It was his first public appearance since his transfer to the court 18 months earlier. His lawyers argue that cognitive decline leaves him unfit for a trial scheduled to begin in November; Duterte did not speak during the hearing.",
+                "category": "justice",
+                "title": "Duterte appears at ICC fitness hearing",
+                "event_date": "2026-09-16",
+                "candidate_id": "duterte-icc-fitness-hearing",
+                "geography": "The Hague, Netherlands; Philippines",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/former-philippines-leader-duterte-appears-in-icc-courtroom"
+                  }
+                ]
+              },
+              {
+                "summary": "A structurally damaged residential building housing displaced families collapsed overnight in Gaza City. The Associated Press reported that 19 people were killed and 25 injured, with rescuers searching for others beneath the rubble. Earlier counts from Gaza civil defense cited by Reuters listed at least 12 deaths, including five children, and 14 injuries, illustrating that the toll was still developing.",
+                "category": "disaster",
+                "title": "Gaza building collapse kills at least 19",
+                "event_date": "2026-09-16",
+                "candidate_id": "gaza-city-building-collapse",
+                "geography": "Gaza City, Gaza Strip",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/33cf517a6d89ac27a24fa9de09b088fe"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/war-damaged-gaza-building-collapses-killing-12-people-seeking-shelter-inside"
+                  }
+                ]
+              },
+              {
+                "summary": "Russian drones struck civilian transportation in southern Ukraine, Ukrainian officials said. Police reported that an attack on a passenger bus near Nikopol killed four men and a woman and injured seven people. A passenger train in the Mykolaiv region was also attacked repeatedly; officials said all 168 passengers and crew members were evacuated without injuries. Russia did not immediately comment.",
+                "category": "conflict",
+                "title": "Russian drones strike Ukrainian bus and train",
+                "event_date": "2026-09-16",
+                "candidate_id": "ukraine-bus-train-drone-strikes",
+                "geography": "Dnipropetrovsk and Mykolaiv regions, Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/russian-drone-attack-on-bus-kills-five-in-ukraine-s-southeast-governor-says"
+                  }
+                ]
+              },
+              {
+                "summary": "India summoned Pakistan’s senior diplomat in New Delhi and instructed its representative in Islamabad to lodge protests over a collision between Pakistani and Indian naval vessels in the northern Arabian Sea. India said a Pakistani ship approached an Indian warship at high speed in international waters on Tuesday, violating a bilateral separation agreement. No major damage was reported, and Pakistan did not immediately respond.",
+                "category": "international-relations",
+                "title": "India protests naval collision with Pakistan",
+                "event_date": "2026-09-16",
+                "candidate_id": "india-pakistan-naval-collision-protest",
+                "geography": "India; Pakistan; Arabian Sea",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/india-protests-to-pakistan-over-collision-of-naval-units-at-sea"
+                  }
+                ]
+              },
+              {
+                "summary": "A Russian court convicted Russian-Canadian national Nikolai Zyuzev of high treason and sentenced him to seven years in a penal colony, according to the state news agency RIA. Russia’s Federal Security Service alleged that he trained leaders of ethnic-minority separatist movements abroad and distributed materials it classified as extremist. The report did not state how Zyuzev pleaded.",
+                "category": "justice",
+                "title": "Russian court sentences dual national for treason",
+                "event_date": "2026-09-16",
+                "candidate_id": "russia-zyuzev-treason-sentence",
+                "geography": "Russia; Canada",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/russian-court-jails-canadian-russian-national-for-seven-years-in-treason-case"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-16"
+          },
+          "metadata": {
+            "responseId": "resp_056efc26711f4121006aaa6a64279c87d29dcb26221315fc9f",
+            "requestId": "req_06a81aa87a5a4a7592a4c66c23aceff1",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2544,
+            "inputTokens": 52008,
+            "outputTokens": 2946,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-16",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 83583,
+            "attemptDurationMs": 83583,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-16T10:07:29.141Z",
+        "capturedAt": "2026-09-16T10:08:52.784Z"
       }
     ],
     "sift": null
