@@ -221,13 +221,199 @@
         "request": {
           "fingerprint": "4d1598bd9865a27a06f20e9fb17dbe9f5bc098316d3d394cde00a479f06d0c23",
           "claimId": "f8853b37-6ba7-494d-9d01-7bb406c85b58",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-16T16:07:31.640Z",
           "responseId": "resp_022b4b357b79d73d006aaabec767a887d2b854c4cae4f416fb"
         },
-        "result": null,
-        "observedAt": "2026-09-16T16:07:31.586Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Later reports raised the death toll from the overnight collapse of a war-damaged residential building sheltering displaced families in Gaza City. Reuters reported 20 deaths, while an Associated Press regional roundup reported at least 21. Rescue workers continued searching the wreckage.",
+                "category": "disaster",
+                "title": "Gaza building-collapse toll rises to at least 20",
+                "event_date": "2026-09-16",
+                "candidate_id": "gaza-city-building-collapse",
+                "geography": "Gaza City, Gaza Strip",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/567498d0aa85a32e9c294759bd943501"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/war-damaged-gaza-building-collapses-killing-12-people-seeking-shelter-inside"
+                  }
+                ]
+              },
+              {
+                "summary": "The EU-backed Kosovo Specialist Chambers convicted former Kosovo President Hashim Thaci of war crimes and sentenced him to 25 years in prison. The court found him guilty of crimes including murder, torture, cruel treatment and arbitrary or illegal detention committed during the 1998-99 conflict. Thaci denied the charges, and both sides may appeal.",
+                "category": "justice",
+                "title": "Kosovo tribunal sentences Thaci to 25 years",
+                "event_date": "2026-09-16",
+                "candidate_id": "thaci-war-crimes-sentence",
+                "geography": "The Hague, Netherlands; Kosovo",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/0b24b81d6e1ca8f01d8b8b54bb465ee9"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/former-kosovo-president-thaci-sentenced-to-25-years-in-prison-for-war-crimes"
+                  }
+                ]
+              },
+              {
+                "summary": "European Commission President Ursula von der Leyen used her annual address to propose making Canada the EU’s first associate member, banning children under 13 from social media while creating restricted accounts for older minors, and establishing an EU mechanism for coordinated responses to drone incidents, sabotage and cyberattacks. The initiatives remain proposals requiring further development or approval.",
+                "category": "international-relations",
+                "title": "EU chief outlines Canada, social-media and security proposals",
+                "event_date": "2026-09-16",
+                "candidate_id": "eu-state-of-union-proposals-2026",
+                "geography": "European Union; Canada",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/3fdb111dd4d23d88b3de88c274c52711"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/3e7176ea409ba4af0a069f5ca7dd9680"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/4ce4fef2ba8e3866e436655075afc6d3"
+                  }
+                ]
+              },
+              {
+                "summary": "Belarus released 25 prisoners in exchange for further easing of U.S. sanctions, according to Reuters. The group included journalist Andrei Alyaksandrau and three musicians whose songs had been designated extremist materials. The United States lifted sanctions on two Belarusian companies, while the Viasna rights group said Belarus still held 886 political prisoners.",
+                "category": "international-relations",
+                "title": "Belarus frees 25 prisoners in U.S. sanctions deal",
+                "event_date": "2026-09-16",
+                "candidate_id": "belarus-releases-25-prisoners",
+                "geography": "Belarus; United States; Lithuania",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/belarus-frees-more-prisoners-after-us-envoy-s-visit"
+                  }
+                ]
+              },
+              {
+                "summary": "Syria’s parliament voted to abolish the Assad-era Counter-Terrorism Court and nullify the legal effects of its rulings, state television reported. The court, established in 2012, prosecuted thousands of Syrians and had been criticized by United Nations bodies over inadequate judicial safeguards and links to arbitrary detention and torture. The vote formalized steps already taken by Syria’s post-Assad authorities.",
+                "category": "justice",
+                "title": "Syria votes to nullify Assad-era terrorism-court rulings",
+                "event_date": "2026-09-16",
+                "candidate_id": "syria-abolishes-terrorism-court",
+                "geography": "Syria",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/syria-parliament-votes-to-abolish-assad-era-terrorism-court-nullify-rulings"
+                  }
+                ]
+              },
+              {
+                "summary": "France’s national health agency estimated that the country recorded at least 817 excess deaths during exceptionally hot weather from July 27 through August 20. The estimate, based on death certificates and including deaths from all causes, brought recorded excess mortality since June and the beginning of successive heatwaves to nearly 8,000. People aged 75 and older accounted for most of the excess deaths.",
+                "category": "health",
+                "title": "France reports 817 excess deaths during latest heatwaves",
+                "event_date": "2026-09-16",
+                "candidate_id": "france-heatwave-excess-deaths",
+                "geography": "France",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/france-recorded-at-least-817-excess-deaths-during-july-27-august-20-heatwaves"
+                  }
+                ]
+              },
+              {
+                "summary": "Sweden summoned Iran’s ambassador and ordered an official at the Iranian Embassy in Stockholm to leave the country. The Swedish Foreign Ministry cited activity incompatible with the Vienna Convention on Diplomatic Relations but did not specify what the official was accused of doing.",
+                "category": "international-relations",
+                "title": "Sweden orders Iranian Embassy official to leave",
+                "event_date": "2026-09-16",
+                "candidate_id": "sweden-expels-iranian-official",
+                "geography": "Sweden; Iran",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/sweden-expels-iran-embassy-official"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukraine presented parliament with a draft 2027 budget proposing record defense spending of 4.89 trillion hryvnias, about $110 billion and 12% above the current year. Defense would account for roughly two-thirds of the proposal’s total spending of 7.27 trillion hryvnias. The figures are part of a draft and have not yet been enacted.",
+                "category": "economy",
+                "title": "Ukraine proposes record 2027 defense budget",
+                "event_date": "2026-09-16",
+                "candidate_id": "ukraine-2027-defence-budget-proposal",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/ukraine-proposes-record-defence-spending-next-year-as-war-costs-soar"
+                  }
+                ]
+              },
+              {
+                "summary": "Switzerland’s lower house approved the EFTA trade agreement with the Mercosur countries by 118 votes to 66, with 10 abstentions, after adding 517 million Swiss francs in support for farmers over six years. The upper house had already backed the corresponding bill, but the agreement is likely to face a referendum and has not yet taken effect.",
+                "category": "economy",
+                "title": "Swiss parliament advances Mercosur trade agreement",
+                "event_date": "2026-09-16",
+                "candidate_id": "switzerland-mercosur-parliament-approval",
+                "geography": "Switzerland; Argentina; Brazil; Paraguay; Uruguay",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/swiss-lower-house-of-parliament-signs-off-mercosur-trade-deal"
+                  }
+                ]
+              },
+              {
+                "summary": "Italian Prime Minister Giorgia Meloni announced the abolition of annual road tax for 14.5 million cars and motorcycles. Reuters said the measure was estimated to cost state finances more than €2 billion and came ahead of the following year’s national election. The available report described the policy announcement but did not establish that the tax change had already taken effect.",
+                "category": "economy",
+                "title": "Meloni announces road-tax abolition for most Italian vehicles",
+                "event_date": "2026-09-16",
+                "candidate_id": "italy-road-tax-abolition-plan",
+                "geography": "Italy",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/italy-s-meloni-scraps-road-tax-for-most-cars-as-election-nears"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-16"
+          },
+          "metadata": {
+            "responseId": "resp_022b4b357b79d73d006aaabec767a887d2b854c4cae4f416fb",
+            "requestId": "req_f746b9972f204948bad6775d68f0a2bb",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2734,
+            "inputTokens": 53603,
+            "outputTokens": 4245,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-16",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 83126,
+            "attemptDurationMs": 83126,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-16T16:07:31.586Z",
+        "capturedAt": "2026-09-16T16:08:54.766Z"
       }
     ],
     "sift": null
