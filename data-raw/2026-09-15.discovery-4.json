@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-15",
+  "batch": 4,
+  "captured_at": "2026-09-16T07:09:26.878Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The Congressional Budget Office estimated that U.S. combat operations against Iran had cost the Defense Department about $38 billion through August 1 and could add about $3 billion a month, depending on the conflict’s intensity. It projected a 0.5% inflation increase in the first quarter of 2027 and said depleted munitions could take five years to replenish. The Pentagon disputed findings that its stocks were insufficient.",
+        "category": "Conflict costs and economy",
+        "title": "CBO estimates US combat operations against Iran have cost $38 billion",
+        "event_date": "2026-09-15",
+        "candidate_id": "cbo-us-iran-war-cost-report",
+        "geography": "United States; Iran",
+        "sources": [
+          {
+            "name": "Congressional Budget Office",
+            "url": "https://www.cbo.gov/topics/defense-and-national-security"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/iran-war-cost-hits-38-billion-forecast-to-rise-3-billion-a-month-cbo-says"
+          }
+        ]
+      },
+      {
+        "summary": "New Zealand’s Parliament passed legislation implementing the country’s free-trade agreement with India by 93 votes to 29. The agreement would eliminate or significantly reduce Indian tariffs on about 95% of New Zealand exports, while Indian goods would receive duty-free access to New Zealand. The agreement will take effect only after both countries complete their ratification procedures.",
+        "category": "Trade and legislation",
+        "title": "New Zealand Parliament passes India trade-deal legislation",
+        "event_date": "2026-09-15",
+        "candidate_id": "new-zealand-india-fta-legislation",
+        "geography": "New Zealand; India",
+        "sources": [
+          {
+            "name": "New Zealand Government",
+            "url": "https://www.beehive.govt.nz/release/india-fta-passes-significant-majority"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/new-zealand-parliament-passes-india-trade-deal-cutting-tariffs-on-most-exports"
+          }
+        ]
+      },
+      {
+        "summary": "A Saudi-led military coalition spokesperson said Saudi air defenses intercepted and destroyed a Houthi drone south of Mecca before it entered prohibited airspace over the city. He described it as an attempt to target Mecca. A Houthi military source denied that the group posed a threat to Mecca or other Islamic holy sites.",
+        "category": "Conflict",
+        "title": "Saudi coalition says air defenses intercepted Houthi drone near Mecca",
+        "event_date": "2026-09-15",
+        "candidate_id": "saudi-intercepts-houthi-drone-mecca",
+        "geography": "Saudi Arabia; Yemen",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/saudi-led-coalition-says-it-destroys-houthi-drone-south-of-mecca"
+          }
+        ]
+      },
+      {
+        "summary": "Israeli airstrikes killed at least five Palestinians, including two children and a Hamas commander, in northern and southern Gaza, according to health officials and Hamas sources. Medics said strikes on a vehicle in Sheikh Radwan killed two people and wounded seven, while a strike on a tent encampment in Mawasi killed two and wounded 14. Israel said it targeted a Hamas commander in the Rafah Brigade.",
+        "category": "Conflict",
+        "title": "Israeli strikes kill at least five people in Gaza",
+        "event_date": "2026-09-15",
+        "candidate_id": "gaza-israeli-strikes-five-killed-sept-15",
+        "geography": "Palestinian territories; Israel",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Israeli%2Bstrikes%2Bin%2BGaza%2Bkill%2Bfive%2Bpeople%2C%2Bmedics%2Bsay/27063029.html"
+          }
+        ]
+      },
+      {
+        "summary": "Indonesia’s Corruption Eradication Commission said it detained eight suspects, including Summarecon Agung’s president director and government officials, in an alleged land-rights bribery case. Investigators seized electronic evidence and cash in several currencies worth a combined 106.3 billion rupiah. The case concerns an application to extend building rights for land managed by the developer in Bogor, West Java. Summarecon did not immediately comment.",
+        "category": "Courts and corruption",
+        "title": "Indonesia detains eight suspects in land-rights bribery case",
+        "event_date": "2026-09-15",
+        "candidate_id": "indonesia-land-rights-bribery-detentions",
+        "geography": "Indonesia",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/indonesia-detains-8-suspects-including-property-developer-executive-in-alleged-bribery-case"
+          }
+        ]
+      },
+      {
+        "summary": "Brazil’s Supreme Court postponed a decision on whether to open an investigation into Justice Alexandre de Moraes over allegations that he advised a banker accused of leading a multibillion-dollar fraud scheme. Justice Flavio Dino requested additional time to review the case, and proceedings stopped during procedural voting before the court began considering the merits. No investigation was authorized by the session.",
+        "category": "Courts and corruption",
+        "title": "Brazil Supreme Court postpones decision on proposed Moraes investigation",
+        "event_date": "2026-09-15",
+        "candidate_id": "brazil-moraes-investigation-decision-postponed",
+        "geography": "Brazil",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/brazil-supreme-court-postpones-decision-on-opening-probe-of-justice-moraes"
+          }
+        ]
+      },
+      {
+        "summary": "Ukrainian President Volodymyr Zelenskyy said Ukraine was testing a domestically developed weapon for intercepting drones and that it successfully destroyed an Iranian-designed Shahed drone overnight. He said technical aspects still required refinement. Ukraine’s military separately said it downed 187 airborne targets overnight; the reported performance and the new weapon’s capabilities were not independently verified.",
+        "category": "Defense technology",
+        "title": "Ukraine says new anti-drone weapon recorded successful test",
+        "event_date": "2026-09-15",
+        "candidate_id": "ukraine-new-anti-drone-weapon-test",
+        "geography": "Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/ukraine-s-zelenskiy-says-new-anti-drone-weapon-being-tested"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-15"
+  },
+  "metadata": {
+    "responseId": "resp_02c2c4f27e2ffd53006aaa403babd487d2a6d9bb1116e08cfe",
+    "requestId": "req_ba9b3ddd44c14eac9519716ee4e8f107",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2762,
+    "inputTokens": 69975,
+    "outputTokens": 4173,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-09-15",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 111212,
+    "attemptDurationMs": 111212,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
