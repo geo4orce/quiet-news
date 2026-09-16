@@ -508,10 +508,10 @@
         "request": {
           "fingerprint": "cd1928be4355c516269864b2a1ffb2ece4ea6f3d143e86274beadd52cbc43ff4",
           "claimId": "59c52641-760e-41ae-b948-b5f9a5c0e186",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-09-16T07:07:35.666Z",
-          "responseId": null
+          "responseId": "resp_02c2c4f27e2ffd53006aaa403babd487d2a6d9bb1116e08cfe"
         },
         "result": null,
         "observedAt": "2026-09-16T07:07:35.560Z"
