@@ -467,13 +467,139 @@
         "request": {
           "fingerprint": "7241ccc59c1c20bc13de777c9c8826bd6ab7b90f8721041edc1f385382a70c43",
           "claimId": "3bf5c304-3b28-4c91-86bf-bf3ba841e285",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-16T22:07:33.190Z",
           "responseId": "resp_03f2205a5cbe9043006aab13286fd887d2ad1e020e6b5dcea8"
         },
-        "result": null,
-        "observedAt": "2026-09-16T22:07:33.143Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Federal Open Market Committee unanimously raised the federal funds target range by 0.25 percentage point to 3.75%-4%, saying inflation remained elevated despite solid economic growth. The new target range and related implementation measures take effect September 17.",
+                "category": "economy",
+                "title": "Federal Reserve raises interest-rate target by quarter point",
+                "event_date": "2026-09-16",
+                "candidate_id": "fed-september-2026-rate-increase",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Federal Reserve",
+                    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+                  },
+                  {
+                    "name": "Federal Reserve",
+                    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a1.htm"
+                  }
+                ]
+              },
+              {
+                "summary": "The United States removed Venezuela from its list of countries deemed to have demonstrably failed to meet international drug-control commitments, ending a designation applied since 2005. President Donald Trump cited cooperation with Venezuela’s interim government. Venezuela remains classified as a major drug-transit or drug-producing country, and Trump said Colombia could lose its separate failed-demonstrably designation if it makes progress over the coming year.",
+                "category": "international-relations",
+                "title": "U.S. removes Venezuela from drug-control failure list",
+                "event_date": "2026-09-16",
+                "candidate_id": "us-venezuela-drug-control-designation",
+                "geography": "United States; Venezuela; Colombia",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/us-drops-venezuela-from-drug-list-may-remove-colombia-trump-says"
+                  }
+                ]
+              },
+              {
+                "summary": "Swedish public broadcaster SVT projected that the center-left opposition led by Social Democrat Magdalena Andersson would secure the most seats in the parliamentary election after 99% of votes had been counted. Preliminary figures indicated a 175-174 seat split between the opposition and the governing right-wing bloc. Sweden’s election authority said the final result was not yet complete.",
+                "category": "politics",
+                "title": "SVT projects Swedish center-left election victory",
+                "event_date": "2026-09-16",
+                "candidate_id": "sweden-2026-election-projection",
+                "geography": "Sweden",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/sweden-s-centre-left-opposition-maintains-election-lead-as-count-nears-end"
+                  },
+                  {
+                    "name": "Swedish Election Authority",
+                    "url": "https://www.val.se/english/election-results/elections-to-the-riksdag-and-regional-and-municipal-councils/election-results-2026"
+                  }
+                ]
+              },
+              {
+                "summary": "United Nations Secretary-General António Guterres called for international guardrails to make artificial intelligence safe, transparent and accountable. He said isolated voluntary pauses would not address risks amid geopolitical competition and pointed to the UN-founded Independent International Scientific Panel on AI as a source of evidence for global discussions.",
+                "category": "technology",
+                "title": "Guterres urges international cooperation on AI safeguards",
+                "event_date": "2026-09-16",
+                "candidate_id": "un-guterres-ai-safety-cooperation",
+                "geography": "Global; United Nations",
+                "sources": [
+                  {
+                    "name": "United Nations",
+                    "url": "https://www.un.org/en/desa/ai-climate-and-conflicts-top-guterress-agenda-ahead-of-general-assembly"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/6ae720a081ce4d5ede35837ca35b8460"
+                  }
+                ]
+              },
+              {
+                "summary": "A large crowd marched in Valletta demanding accountability for the 2017 car-bomb murder of investigative journalist Daphne Caruana Galizia. Civil-society groups organized the protest two weeks after a jury acquitted businessman Yorgen Fenech of complicity in the murder and criminal association. Malta’s attorney general was expected to appeal on points of law.",
+                "category": "justice",
+                "title": "Malta protest demands justice for murdered journalist",
+                "event_date": "2026-09-16",
+                "candidate_id": "malta-caruana-galizia-justice-protest",
+                "geography": "Valletta, Malta",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/large-crowd-demands-justice-for-assassinated-malta-journalist"
+                  }
+                ]
+              },
+              {
+                "summary": "India and Pakistan summoned each other’s senior diplomats to lodge protests over Tuesday’s collision between their naval vessels in international waters in the northern Arabian Sea. India said a Pakistani ship approached an Indian warship at high speed in violation of a bilateral separation agreement. No major damage was reported.",
+                "category": "international-relations",
+                "title": "India and Pakistan exchange protests over naval collision",
+                "event_date": "2026-09-16",
+                "candidate_id": "india-pakistan-naval-collision-protest",
+                "geography": "India; Pakistan; Arabian Sea",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/india-protests-to-pakistan-over-collision-of-naval-units-at-sea"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-16"
+          },
+          "metadata": {
+            "responseId": "resp_03f2205a5cbe9043006aab13286fd887d2ad1e020e6b5dcea8",
+            "requestId": "req_34edfec1bcb440db9881530e57caedd5",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1381,
+            "inputTokens": 45464,
+            "outputTokens": 2468,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-16",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 53424,
+            "attemptDurationMs": 53424,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-09-16T22:07:33.143Z",
+        "capturedAt": "2026-09-16T22:08:26.614Z"
       }
     ],
     "sift": null
