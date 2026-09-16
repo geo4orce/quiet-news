@@ -707,10 +707,10 @@
       "request": {
         "fingerprint": "12506ca6ba2d80033a8c8f1f6f752478eb3195256dce2420b9d606f8bb5336db",
         "claimId": "3408d0f5-0b96-4ef5-ae53-79352ff0e2c3",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-09-16T08:07:34.883Z",
-        "responseId": null
+        "responseId": "resp_0710f3e19091a5eb006aaa4e4a7f1c87d291d147d396c20b9e"
       },
       "result": null
     }
