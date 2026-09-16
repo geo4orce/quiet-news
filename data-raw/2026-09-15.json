@@ -707,12 +707,168 @@
       "request": {
         "fingerprint": "12506ca6ba2d80033a8c8f1f6f752478eb3195256dce2420b9d606f8bb5336db",
         "claimId": "3408d0f5-0b96-4ef5-ae53-79352ff0e2c3",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-16T08:07:34.883Z",
         "responseId": "resp_0710f3e19091a5eb006aaa4e4a7f1c87d291d147d396c20b9e"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "alex-saab-guilty-plea-miami",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "argentina-2027-budget-submission",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "brazil-moraes-investigation-decision-postponed",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "britain-venezuela-diplomatic-upgrade",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "drc-constitutional-protests-dispersed",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "gaza-israeli-strikes-five-killed-sept-15",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "germany-us-defense-industry-letter",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "indonesia-land-rights-bribery-detentions",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "italy-spain-border-controls-extension",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "kennedy-center-renovation-closure-vote",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "massie-hegseth-impeachment-articles",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "netherlands-rail-disruption-pipes",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "new-zealand-india-fta-legislation",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "norway-telenor-myanmar-investigation",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "saudi-intercepts-houthi-drone-mecca",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "ukraine-new-anti-drone-weapon-test",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "ukraine-vivaldi-offensive-announcement",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "us-belarus-prisoner-talks-sept-15",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-senate-crypto-clarity-act-vote",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "us-south-africa-visa-restrictions",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The Congressional Budget Office estimated that Defense Department combat operations against Iran cost about $38 billion through August 1 and could add roughly $3 billion a month, depending on the conflict’s intensity.\n\nCBO projected a 0.5% inflation increase in the first quarter of 2027 and said depleted munitions could take five years to replenish. The Pentagon disputed the finding that its stocks were insufficient.",
+              "candidate_id": "cbo-us-iran-war-cost-report",
+              "headline": "CBO estimates Iran operations cost $38 billion",
+              "sources": [
+                {
+                  "name": "Congressional Budget Office",
+                  "url": "https://www.cbo.gov/topics/defense-and-national-security"
+                },
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/iran-war-cost-hits-38-billion-forecast-to-rise-3-billion-a-month-cbo-says"
+                }
+              ]
+            },
+            {
+              "body": "Government figures listed 7,258 confirmed Ebola cases and 3,510 deaths across seven provinces in eastern Democratic Republic of Congo, United Nations officials said.\n\nContainment efforts were making progress in some places, but the epidemic was still growing elsewhere. A World Health Organization official said it was too early to conclude that the outbreak had peaked.",
+              "candidate_id": "congo-ebola-un-update-sept-15",
+              "headline": "Congo Ebola outbreak reaches 7,258 confirmed cases",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/un-says-ebola-epidemic-still-huge-and-growing"
+                }
+              ]
+            },
+            {
+              "body": "A British public inquiry found that failures by senior staff and dysfunctional management at the Countess of Chester Hospital allowed nurse Lucy Letby to harm infants. It concluded that earlier action could have prevented at least two murders.\n\nThe report recommended stronger neonatal safeguards, including protocols for suspected deliberate harm and consideration of cameras in cots and incubators. It did not examine Letby’s guilt or innocence.",
+              "candidate_id": "uk-letby-inquiry-final-report",
+              "headline": "Hospital failures left infants unprotected from Letby",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/final-report-on-lucy-letby-baby-murders-due-amid-growing-questions-about-convictions"
+                }
+              ]
+            },
+            {
+              "body": "Independent United Nations experts found that Belarusian courts, police, security services, prosecutors and prison authorities acted in coordination to suppress government critics throughout the justice process.\n\nThe panel documented arbitrary arrests, torture, denial of legal safeguards, closed trials and harassment after release. Belarus, which has previously rejected UN criticism, did not immediately respond to the new findings.",
+              "candidate_id": "un-belarus-justice-system-report",
+              "headline": "Belarus justice system coordinated repression, UN finds",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/belarus-using-justice-system-to-silence-lukashenko-critics-say-un-experts"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0710f3e19091a5eb006aaa4e4a7f1c87d291d147d396c20b9e",
+          "requestId": "req_bacb903902884d0c93bb2f9daa387d9a",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 3835,
+          "inputTokens": 5711,
+          "outputTokens": 4920,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-15",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 73793,
+          "attemptDurationMs": 73793,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
