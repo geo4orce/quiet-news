@@ -912,12 +912,199 @@
       "request": {
         "fingerprint": "0c62e03e0003b242e3306ebddc976aea37c4c5564ce81cf24304d404ea28ebdd",
         "claimId": "2d500e66-0ffc-4261-8cc6-d56acf19324e",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-17T08:07:29.640Z",
         "responseId": "resp_05b1bcb4b099b131006aab9fc4beec87d2a8a18c08db365d66"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "australia-student-temporary-visa-reforms",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "belarus-releases-25-prisoners",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "canada-jef-membership-application",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "duterte-icc-fitness-hearing",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "epstein-estate-child-images-class-action",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "eu-state-of-union-proposals-2026",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "gaza-city-building-collapse",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ice-agent-castro-minnesota-arrest",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "india-pakistan-naval-collision-protest",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "israel-morocco-embassies-agreement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "italy-road-tax-abolition-plan",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "malta-caruana-galizia-justice-protest",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "myanmar-releases-adam-castillo",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "nepal-glacier-collapse-climate-attribution",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "russia-kyiv-odesa-strikes-sept-17",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "russia-zyuzev-treason-sentence",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "sweden-2026-election-projection",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "sweden-expels-iranian-official",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "switzerland-mercosur-parliament-approval",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ukraine-2027-defence-budget-proposal",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ukraine-bus-train-drone-strikes",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "un-guterres-ai-safety-cooperation",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-house-russia-iran-sanctions-bill",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-venezuela-drug-control-designation",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The Federal Open Market Committee unanimously increased its target for the federal funds rate to 3.75%-4%. The quarter-point increase and related implementation measures take effect September 17.\n\nThe committee said inflation remained elevated even as economic growth stayed solid.",
+              "candidate_id": "fed-september-2026-rate-increase",
+              "headline": "Fed raises rates by quarter point",
+              "sources": [
+                {
+                  "name": "Federal Reserve",
+                  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+                },
+                {
+                  "name": "Federal Reserve",
+                  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a1.htm"
+                }
+              ]
+            },
+            {
+              "body": "France’s national health agency estimated at least 817 excess deaths during exceptionally hot weather from July 27 through August 20. That brought recorded excess mortality since June and the start of successive heatwaves to nearly 8,000.\n\nMost of the excess deaths were among people 75 and older. The estimates cover deaths from all causes and are based on death certificates, rather than counting only deaths directly attributed to heat.",
+              "candidate_id": "france-heatwave-excess-deaths",
+              "headline": "France estimates nearly 8,000 heatwave excess deaths",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/france-recorded-at-least-817-excess-deaths-during-july-27-august-20-heatwaves"
+                }
+              ]
+            },
+            {
+              "body": "Rescuers had recovered 82 bodies from collapsed, interconnected shafts at the informal al-Zara gold mine in West Kordofan, local officials and activists said. Dozens of people remained unaccounted for.\n\nAccounts differed on whether the collapse began Sunday or Tuesday evening. Limited equipment was hampering rescue work.",
+              "candidate_id": "sudan-al-zara-mine-collapse",
+              "headline": "Sudan mine collapse death toll reaches 82",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/sudan-gold-mine-collapse-6a6f5bc2c2f847c16f8a4f8f422c6a82"
+                }
+              ]
+            },
+            {
+              "body": "Syria’s parliament voted to abolish the Counter-Terrorism Court created under Bashar Assad and nullify the legal effects of its rulings, state television reported. The vote formalized steps already taken by the country’s post-Assad authorities.\n\nThe court, established in 2012, prosecuted thousands of Syrians. United Nations bodies had criticized its lack of judicial safeguards and links to arbitrary detention and torture.",
+              "candidate_id": "syria-abolishes-terrorism-court",
+              "headline": "Syria nullifies Assad-era terrorism court rulings",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/syria-parliament-votes-to-abolish-assad-era-terrorism-court-nullify-rulings"
+                }
+              ]
+            },
+            {
+              "body": "The EU-backed Kosovo Specialist Chambers sentenced former Kosovo President Hashim Thaci to 25 years in prison after convicting him of war crimes from the 1998-99 conflict.\n\nThe court found him guilty of crimes including murder, torture, cruel treatment and arbitrary or illegal detention. Thaci denied the charges, and either side may appeal.",
+              "candidate_id": "thaci-war-crimes-sentence",
+              "headline": "Kosovo tribunal sentences Thaci to 25 years",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/0b24b81d6e1ca8f01d8b8b54bb465ee9"
+                },
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/former-kosovo-president-thaci-sentenced-to-25-years-in-prison-for-war-crimes"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_05b1bcb4b099b131006aab9fc4beec87d2a8a18c08db365d66",
+          "requestId": "req_3cf5ccadbd5e44da9a428ff2ce7b6ef7",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 2070,
+          "inputTokens": 6748,
+          "outputTokens": 3399,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-16",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 52560,
+          "attemptDurationMs": 52560,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
