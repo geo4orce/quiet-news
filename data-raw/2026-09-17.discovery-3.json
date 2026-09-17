@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-17",
+  "batch": 3,
+  "captured_at": "2026-09-17T22:08:36.110Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The United States said it would grant visas to a core Iranian delegation, including President Masoud Pezeshkian and Foreign Minister Abbas Araqchi, for the United Nations General Assembly in New York. The State Department said the smaller-than-usual delegation would face travel and shopping restrictions. The decision came despite the continuing U.S.-Iran conflict and intermittent negotiations aimed at ending it.",
+        "category": "diplomacy",
+        "title": "US says Iranian leaders may attend UN General Assembly",
+        "event_date": "2026-09-17",
+        "candidate_id": "us-iran-un-general-assembly-visas",
+        "geography": "United States and Iran",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/iranian-delegation-will-be-able-to-attend-un-general-assembly-us-says"
+          }
+        ]
+      },
+      {
+        "summary": "European Commission President Ursula von der Leyen said the European Union would disburse €3.3 billion to Ukraine on Friday for missiles and drones. Ukrainian President Volodymyr Zelenskiy described their telephone conversation as productive and said it covered defense resilience and financing, but did not separately mention the planned disbursement.",
+        "category": "security",
+        "title": "EU announces planned €3.3 billion disbursement for Ukrainian weapons",
+        "event_date": "2026-09-17",
+        "candidate_id": "eu-ukraine-missile-drone-disbursement",
+        "geography": "European Union and Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/eu-to-disburse-3-3-billion-to-ukraine-to-procure-missiles-and-drones-von-der-leyen-says"
+          }
+        ]
+      },
+      {
+        "summary": "Africa CDC said the Ebola outbreak in the Democratic Republic of Congo remained serious and was not consistently under control across affected areas. Agency data showed a slight decline in cases during the previous two weeks, including improvement in Ituri province, but Director-General Jean Kaseya said incomplete data did not establish that the outbreak had passed its peak.",
+        "category": "public health",
+        "title": "Africa CDC says Congo Ebola outbreak remains serious",
+        "event_date": "2026-09-17",
+        "candidate_id": "congo-ebola-africa-cdc-assessment",
+        "geography": "Democratic Republic of Congo",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/ebola-outbreak-in-congo-is-still-serious-african-health-body-says"
+          }
+        ]
+      },
+      {
+        "summary": "The United Nations General Assembly voted 152-3, with four abstentions, to permit Palestinian President Mahmoud Abbas to address the next week’s gathering by video after the United States denied him a visa. The resolution also allows Abbas and other senior Palestinian officials to participate remotely in UN meetings during the following year if they are prevented from traveling to the United States.",
+        "category": "diplomacy",
+        "title": "UN permits Abbas to address General Assembly by video",
+        "event_date": "2026-09-17",
+        "candidate_id": "un-abbas-video-address-vote",
+        "geography": "United Nations and Palestinian territories",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/un-allows-palestinian-president-to-again-speak-via-video-after-us-denies-visa"
+          }
+        ]
+      },
+      {
+        "summary": "Suspected Islamist militants killed at least 15 people in a predawn attack on Madegoua village near Makary in Cameroon’s Far North region, a local vigilante and an administrative authority said. No group immediately claimed responsibility. A security analyst said Islamic State West Africa Province, which operates in the Lake Chad basin, was the likely perpetrator.",
+        "category": "conflict",
+        "title": "Suspected militants kill at least 15 in northern Cameroon",
+        "event_date": "2026-09-17",
+        "candidate_id": "cameroon-madegoua-militant-attack",
+        "geography": "Cameroon",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/militants-kill-15-in-overnight-cameroon-raid-village-sources-say"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. State Department approved a potential $24.3 billion sale of 48 F-35 fighter aircraft, 49 engines and related equipment and support to Saudi Arabia. The approval clears a required stage but does not mean a sale has been completed. If finalized, it would make Saudi Arabia the second Middle Eastern country after Israel to obtain the stealth aircraft.",
+        "category": "security",
+        "title": "US approves potential $24.3 billion F-35 sale to Saudi Arabia",
+        "event_date": "2026-09-17",
+        "candidate_id": "us-saudi-f35-sale-approval",
+        "geography": "United States and Saudi Arabia",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/us-state-department-oks-possible-24-3-billion-military-aircraft-sale-to-saudi-arabia"
+          }
+        ]
+      },
+      {
+        "summary": "The United States imposed sanctions on 11 Cuban targets: four state enterprises connected to nickel reserves, four military research-and-development enterprises, including organizations involved with weapons systems, and three military officials. Secretary of State Marco Rubio said the targets formed part of a system that enriched Cuba’s elite. Cuba has argued that U.S. sanctions worsen severe shortages and harm its population.",
+        "category": "sanctions",
+        "title": "US sanctions Cuban nickel and military entities",
+        "event_date": "2026-09-17",
+        "candidate_id": "us-cuba-nickel-military-sanctions",
+        "geography": "United States and Cuba",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/us-sanctions-cuban-nickel-reserves-military-enterprises"
+          }
+        ]
+      },
+      {
+        "summary": "French Prime Minister Sebastien Lecornu said the government planned to include €54 billion in savings in its proposed 2027 budget, targeting a deficit of 5% of gross domestic product without raising taxes. The plan still requires inclusion in a budget bill and parliamentary approval. The announcement came as fishermen blocked southern ports over energy costs and other workers staged strikes over fuel prices and pay.",
+        "category": "economy",
+        "title": "France proposes €54 billion savings plan for 2027 budget",
+        "event_date": "2026-09-17",
+        "candidate_id": "france-2027-budget-savings-plan",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/france-plans-54-billion-savings-drive-as-protests-grow"
+          }
+        ]
+      },
+      {
+        "summary": "Russia and China vetoed a United Nations Security Council resolution extending the mandate for independent monitoring of international sanctions on Iran. Eleven council members supported the resolution and Pakistan and Somalia abstained. The veto ended the monitoring mandate, although the council had been unable to appoint the required expert panel during the previous year because appointments required consensus.",
+        "category": "diplomacy",
+        "title": "Russia and China end UN mandate for monitoring Iran sanctions",
+        "event_date": "2026-09-17",
+        "candidate_id": "un-iran-sanctions-monitoring-veto",
+        "geography": "United Nations and Iran",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-china-end-mandate-for-independent-monitoring-of-un-sanctions-on-iran"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-17"
+  },
+  "metadata": {
+    "responseId": "resp_04ad30529392f97d006aac64ad280487d2ad88b71dde9c8a61",
+    "requestId": "req_21c65f44efb5420781dc13d5b6f39fb5",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1049,
+    "inputTokens": 38392,
+    "outputTokens": 2698,
+    "webSearchCalls": 4,
+    "stage": "discovery",
+    "targetDate": "2026-09-17",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 58982,
+    "attemptDurationMs": 58982,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
