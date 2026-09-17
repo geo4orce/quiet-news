@@ -912,10 +912,10 @@
       "request": {
         "fingerprint": "0c62e03e0003b242e3306ebddc976aea37c4c5564ce81cf24304d404ea28ebdd",
         "claimId": "2d500e66-0ffc-4261-8cc6-d56acf19324e",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-09-17T08:07:29.640Z",
-        "responseId": null
+        "responseId": "resp_05b1bcb4b099b131006aab9fc4beec87d2a8a18c08db365d66"
       },
       "result": null
     }
