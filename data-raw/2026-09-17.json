@@ -71,13 +71,141 @@
         "request": {
           "fingerprint": "55165680e5945d91ffbf51ef71c1f400cdd061a7c1c286189f464ad0f583e189",
           "claimId": "ca7c4f82-b25a-4495-94f9-470fcd5905d7",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-17T10:07:29.155Z",
           "responseId": "resp_0e15ca0d8d407929006aabbbe4046887d281688baedabc2611"
         },
-        "result": null,
-        "observedAt": "2026-09-17T10:07:29.095Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Russian missiles and nearly 160 drones struck Kyiv and other Ukrainian cities overnight, Ukrainian officials said. At least 18 people, including two children, were wounded in Kyiv; six were wounded in Odesa and three in Zaporizhzhia. Ukraine reported damage across eight regions, including energy infrastructure in Sumy and Odesa. Russia said it targeted vessels used by Ukraine’s military.",
+                "category": "conflict",
+                "title": "Russian overnight strikes wound civilians across Ukraine",
+                "event_date": "2026-09-17",
+                "candidate_id": "ukraine-russian-overnight-strikes-sep17",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-strikes-ukraine-s-kyiv-injures-three-in-odesa-officials-say"
+                  }
+                ]
+              },
+              {
+                "summary": "European Commission President Ursula von der Leyen proposed an EU ban on social media access for children under 13 and restrictions for those ages 13 to 15. She also proposed obligations for social media platforms, video-sharing services, online games and AI chatbots serving users under 18. The measures remain proposals rather than rules in force.",
+                "category": "technology",
+                "title": "European Commission proposes youth social media restrictions",
+                "event_date": "2026-09-17",
+                "candidate_id": "eu-youth-social-media-proposal",
+                "geography": "European Union",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/eu-commission-proposes-social-media-ban-for-children-under-13"
+                  }
+                ]
+              },
+              {
+                "summary": "A United Nations fact-finding mission said it had reasonable grounds to believe two U.S. strikes on a school and sports facility in Iran in February were indiscriminate attacks amounting to war crimes. The mission also found that Iranian authorities committed crimes against humanity during a crackdown on anti-government protests. The U.S. and Iranian missions in Geneva did not immediately respond to requests for comment.",
+                "category": "human rights",
+                "title": "UN mission issues findings on US strikes and Iran crackdown",
+                "event_date": "2026-09-17",
+                "candidate_id": "un-iran-us-war-crimes-findings",
+                "geography": "Iran",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/un-mission-finds-grounds-to-believe-us-committed-war-crimes-in-iran-and-tehran-crimes-against-humanity"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukrainian President Volodymyr Zelenskiy appointed Anton Kovalskyi as acting prosecutor general, according to a presidential decree published Thursday. Kovalskyi had led the Khmelnytskyi regional prosecutor’s office since July 2025. He replaces Ruslan Kravchenko, whose removal lawmakers approved Tuesday after Kravchenko resigned amid an anti-corruption investigation involving his office; Kravchenko denied involvement and has not been charged.",
+                "category": "government",
+                "title": "Zelenskiy appoints acting prosecutor general",
+                "event_date": "2026-09-17",
+                "candidate_id": "ukraine-acting-prosecutor-kovalskyi",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/ukraine-s-zelenskiy-appoints-acting-prosecutor-general-decree-shows"
+                  }
+                ]
+              },
+              {
+                "summary": "Japanese Prime Minister Sanae Takaichi retained key economic and security ministers in her first cabinet reshuffle, including Economy Minister Minoru Kiuchi, Finance Minister Satsuki Katayama, Foreign Minister Toshimitsu Motegi and Defence Minister Shinjiro Koizumi. Eight of 18 ministers remained in their posts. Hiroshi Nakatsuka of the Japan Innovation Party joined the cabinet as deregulation minister.",
+                "category": "government",
+                "title": "Japan retains key ministers in cabinet reshuffle",
+                "event_date": "2026-09-17",
+                "candidate_id": "japan-takaichi-cabinet-reshuffle",
+                "geography": "Japan",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/japan-s-takaichi-set-to-signal-policy-continuity-in-cabinet-reshuffle"
+                  }
+                ]
+              },
+              {
+                "summary": "Australia announced plans to generally bar international students from bringing partners and children, restrict student-visa renewals to people advancing to higher qualifications and introduce a ballot for backpackers seeking working-holiday visa extensions. Visitor visas would include a provision preventing holders from remaining while applying for another visa category. The government also plans to add 100 immigration-compliance officers.",
+                "category": "migration",
+                "title": "Australia announces tighter student and working-holiday visa rules",
+                "event_date": "2026-09-17",
+                "candidate_id": "australia-temporary-visa-restrictions",
+                "geography": "Australia",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/australia-to-bar-foreign-students-from-bringing-partners-children-while-they-study"
+                  }
+                ]
+              },
+              {
+                "summary": "North Korean Vice Defence Minister Kim Kang Il told the Beijing Xiangshan Forum that Pyongyang would continue expanding its nuclear forces, describing the country’s nuclear-weapons status as irreversible. Separately, Kim Yo Jong rejected renewed international calls for denuclearization in a statement carried by state media. North Korean officials attributed their position to military cooperation among the United States, South Korea and Japan.",
+                "category": "security",
+                "title": "North Korean officials reject denuclearization and pledge nuclear expansion",
+                "event_date": "2026-09-17",
+                "candidate_id": "north-korea-nuclear-expansion-statements",
+                "geography": "North Korea",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/north-korea-vice-defence-minister-says-us-arms-buildup-justifies-expanding-nuclear-force"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-17"
+          },
+          "metadata": {
+            "responseId": "resp_0e15ca0d8d407929006aabbbe4046887d281688baedabc2611",
+            "requestId": "req_3b920304ba0740059467c7cfa46c445e",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1322,
+            "inputTokens": 46404,
+            "outputTokens": 2618,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-17",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 62328,
+            "attemptDurationMs": 62328,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-17T10:07:29.095Z",
+        "capturedAt": "2026-09-17T10:08:31.483Z"
       }
     ],
     "sift": null
