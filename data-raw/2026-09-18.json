@@ -193,13 +193,149 @@
         "request": {
           "fingerprint": "9c094d5311fedd928bfdb17b97ef75c0d7b0791acbd981c7279bc19f23a385df",
           "claimId": "0a586cea-6737-4307-a4bb-a856423dadfb",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-18T16:07:37.776Z",
           "responseId": "resp_07c254ea0e1c04e1006aad61ce12c487d28137e96115e7ee8b"
         },
-        "result": null,
-        "observedAt": "2026-09-18T16:07:37.720Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Authorities raised the reported death toll from a vehicle bombing and attempted armed assault at a mosque in a police compound in Kohat to at least 16, with more than 50 people wounded. Police said officers attending Friday prayers were among the casualties. No group immediately claimed responsibility.",
+                "category": "conflict and security",
+                "title": "Pakistan police-compound mosque attack kills at least 16",
+                "event_date": "2026-09-18",
+                "candidate_id": "pakistan-kohat-police-mosque-bombing",
+                "geography": "Kohat, Khyber Pakhtunkhwa, Pakistan",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/ebfc29859f724630e25f8549116859c8"
+                  }
+                ]
+              },
+              {
+                "summary": "Berkshire Hathaway named Warren Buffett chairman emeritus, effective immediately, while retaining him as a director. The board elected his son Howard G. Buffett as chairman, and Susan Decker remained lead independent director. Warren Buffett had held the chairman’s post since 1970.",
+                "category": "business",
+                "title": "Warren Buffett steps down as Berkshire Hathaway chairman",
+                "event_date": "2026-09-18",
+                "candidate_id": "berkshire-buffett-chairman-transition",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Berkshire Hathaway",
+                    "url": "https://www.berkshirehathaway.com/news/sep1826.pdf"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/70f52159fdcaedae3f8926893de37023"
+                  }
+                ]
+              },
+              {
+                "summary": "In-person voting began in Virginia for the 2026 U.S. midterm elections, opening the first early-voting period of the general-election campaign. Voters in Idaho, Minnesota and South Dakota also became able to cast absentee ballots in person.",
+                "category": "politics and elections",
+                "title": "Early voting begins in US midterm elections",
+                "event_date": "2026-09-18",
+                "candidate_id": "us-2026-midterm-early-voting-begins",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/9e8603ba58eee87d8f305615d11871af"
+                  }
+                ]
+              },
+              {
+                "summary": "Britain’s domestic security service formally accepted in the High Court that it had submitted evidence based on lies to three courts while seeking secrecy around a violent neo-Nazi informant known as Agent X. A panel of judges was considering whether contempt proceedings or other action should follow.",
+                "category": "law and justice",
+                "title": "MI5 admits court evidence was based on lies",
+                "event_date": "2026-09-18",
+                "candidate_id": "uk-mi5-agent-x-court-admission",
+                "geography": "United Kingdom",
+                "sources": [
+                  {
+                    "name": "BBC News via Yahoo News",
+                    "url": "https://nz.news.yahoo.com/mi5-accepts-gave-evidence-based-100833834.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Romanian prime-minister candidate Siegfried Mureșan said he had begun work on a governing program and would seek to form a cabinet with the National Liberal Party, Save Romania Union and the ethnic Hungarian UDMR. The proposed grouping lacked a parliamentary majority, and the president’s formal nomination decree remained pending.",
+                "category": "politics and government",
+                "title": "Romanian prime-minister candidate begins coalition talks",
+                "event_date": "2026-09-18",
+                "candidate_id": "romania-muresan-coalition-talks",
+                "geography": "Romania",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/9b64634ce8bc041444d2fb0aa98e0ac0"
+                  },
+                  {
+                    "name": "Radio Romania International",
+                    "url": "https://www.rri.ro/en/news-and-current-affairs/newsflash/september-18-2026-id1060937.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukraine hosted leaders and representatives from seven neighboring countries for the inaugural Carpathian Eight summit, intended to deepen regional cooperation on trade, infrastructure, energy and security. The participants represented Ukraine, Romania, Serbia, Poland, Slovakia, the Czech Republic, Austria and Hungary, with the European Union also involved.",
+                "category": "international relations",
+                "title": "Ukraine hosts inaugural Carpathian Eight summit",
+                "event_date": "2026-09-18",
+                "candidate_id": "ukraine-carpathian-eight-summit",
+                "geography": "Ukraine and Central Europe",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/b05ea50c3ed8b64cf25e254783a17d39"
+                  }
+                ]
+              },
+              {
+                "summary": "The International Committee of the Red Cross said it had not been allowed to visit Ukrainian prisoners of war held in Russia since 2024. The organization said its president raised the lack of access during a visit to Russia in August. Russia denies torturing or otherwise mistreating prisoners.",
+                "category": "human rights",
+                "title": "Red Cross says Russia has blocked POW access since 2024",
+                "event_date": "2026-09-18",
+                "candidate_id": "icrc-ukrainian-pow-access-russia",
+                "geography": "Russia and Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://uk.marketscreener.com/news/red-cross-says-no-access-to-ukrainian-pows-in-two-years-ce785adadd8df726"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-18"
+          },
+          "metadata": {
+            "responseId": "resp_07c254ea0e1c04e1006aad61ce12c487d28137e96115e7ee8b",
+            "requestId": "req_6e08f04c9d734bf7995d3ee65161cb74",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2497,
+            "inputTokens": 58821,
+            "outputTokens": 3535,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-18",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 138090,
+            "attemptDurationMs": 138090,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-18T16:07:37.720Z",
+        "capturedAt": "2026-09-18T16:09:55.866Z"
       }
     ],
     "sift": null
