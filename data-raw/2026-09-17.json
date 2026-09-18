@@ -1028,12 +1028,208 @@
       "request": {
         "fingerprint": "9eb1e2314faf2329053986396d33ab487bf1317a3c6d650762eb69bda3423d07",
         "claimId": "a6d523ae-590a-43fa-99ed-930b8630257a",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-18T08:07:37.498Z",
         "responseId": "resp_042d451a7d7cf62b006aacf14d5f2c87d291cd9a3d681ade74"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "argentina-falklands-sanctions-bill",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "australia-temporary-visa-restrictions",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "bolivia-state-emergency-extension",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "brazil-bolsa-familia-benefit-increase",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "cameroon-madegoua-militant-attack",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "congo-ebola-africa-cdc-assessment",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "eu-ukraine-missile-drone-disbursement",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "eu-youth-social-media-proposal",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "france-2027-budget-savings-plan",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "frankfurt-airport-malaria-third-death",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "greece-avramopoulos-immunity-lifted",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ilhan-omar-assailant-sentenced",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "indonesia-anak-krakatau-missing-search-ended",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "ireland-eurovision-2027-boycott",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "japan-takaichi-cabinet-reshuffle",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "nigeria-ansaru-school-kidnapping-trial",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "north-korea-nuclear-expansion-statements",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "pakistan-fuel-austerity-measures",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "pakistan-mazari-chattha-sentences-suspended",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "romania-muresan-prime-minister-nominee",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "saudi-taif-houthi-drone-interception",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "serbia-israeli-drone-assembly-plant",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "south-africa-ekurhuleni-ninth-body",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "south-korea-middle-east-deployment-position",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ukraine-acting-prosecutor-kovalskyi",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "ukraine-russian-overnight-strikes-sep17",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "un-abbas-video-address-vote",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-cuba-nickel-military-sanctions",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "us-iran-un-general-assembly-visas",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-saudi-f35-sale-approval",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-syrian-prison-chief-sentencing",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": [
+            {
+              "body": "A United Nations fact-finding mission said it had reasonable grounds to believe two U.S. strikes on a school and sports facility in Iran in February were indiscriminate attacks amounting to war crimes. It also found that Iranian authorities committed crimes against humanity during a crackdown on anti-government protests.\n\nThe Pentagon said its investigation was continuing. The White House rejected the finding about the U.S. strikes, while Iran’s Geneva mission did not immediately respond.",
+              "candidate_id": "un-iran-us-war-crimes-findings",
+              "headline": "UN cites US war crimes, Iran crimes against humanity",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/un-mission-finds-grounds-to-believe-us-committed-war-crimes-in-iran-and-tehran-crimes-against-humanity"
+                }
+              ]
+            },
+            {
+              "body": "Russia and China vetoed a Security Council resolution extending independent monitoring of international sanctions on Iran. Eleven members supported the resolution, while Pakistan and Somalia abstained.\n\nThe veto ended the monitoring mandate. Its expert panel had already gone unfilled during the previous year because appointments required council consensus.",
+              "candidate_id": "un-iran-sanctions-monitoring-veto",
+              "headline": "Russia, China end Iran sanctions-monitoring mandate",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-china-end-mandate-for-independent-monitoring-of-un-sanctions-on-iran"
+                }
+              ]
+            },
+            {
+              "body": "The final count from Sunday’s election gave Sweden’s center-left opposition parties 176 parliamentary seats, compared with 173 for the governing right-wing bloc.\n\nPrime Minister Ulf Kristersson said he would resign and asked to be relieved of office, allowing the parliamentary speaker to begin forming a new government. Social Democratic leader Magdalena Andersson is positioned to try to assemble a coalition.",
+              "candidate_id": "sweden-kristersson-resignation-final-count",
+              "headline": "Sweden’s center-left wins parliamentary election",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/sweden-s-centre-left-opposition-wins-election-as-count-completed"
+                }
+              ]
+            },
+            {
+              "body": "About 60,000 migrants and refugees reached Europe by sea so far this year, down 39% from roughly 98,000 at the same point in 2025, the International Organization for Migration said.\n\nDespite the decline in crossings, at least 2,292 people died or went missing, up from 1,999 during the corresponding period last year. The organization said additional deaths probably went unrecorded.",
+              "candidate_id": "iom-europe-sea-crossings-2026",
+              "headline": "Sea crossings to Europe fall as deaths rise",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/europe-migrant-sea-crossings-fall-but-become-more-deadly-iom-says"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_042d451a7d7cf62b006aacf14d5f2c87d291cd9a3d681ade74",
+          "requestId": "req_95a9a13aa1404b20b367d1f63c53fe84",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 3624,
+          "inputTokens": 8164,
+          "outputTokens": 4930,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-17",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 73734,
+          "attemptDurationMs": 73734,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
