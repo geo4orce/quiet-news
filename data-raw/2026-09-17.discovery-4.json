@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-17",
+  "batch": 4,
+  "captured_at": "2026-09-18T07:09:33.917Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Russian missiles and nearly 160 drones struck Kyiv and other Ukrainian cities overnight, Ukrainian officials said, wounding at least 18 people in Kyiv and others in Odesa and Zaporizhzhia. Attacks continued during the day: a strike on an industrial park near Korosten killed one person, while strikes in Kyiv and Dnipro wounded three. A market in Zaporizhzhia was set ablaze without reported casualties. Russian-installed officials separately said Ukrainian attacks killed three people in occupied Donetsk.",
+        "category": "conflict",
+        "title": "Russian strikes kill one and wound civilians across Ukraine",
+        "event_date": "2026-09-17",
+        "candidate_id": "ukraine-russian-overnight-strikes-sep17",
+        "geography": "Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-strikes-ukraine-s-kyiv-injures-three-in-odesa-officials-say"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/russia-continues-barrage-on-ukrainian-cities-one-dead-west-of-kyiv"
+          }
+        ]
+      },
+      {
+        "summary": "A United Nations fact-finding mission said it had reasonable grounds to believe two U.S. strikes on a school and sports facility in Iran in February were indiscriminate attacks amounting to war crimes. It also found that Iranian authorities committed crimes against humanity during a crackdown on anti-government protests. The Pentagon said its investigation remained underway. The White House rejected the U.S.-focused finding and said Iran was the only party in the conflict to have committed war crimes. Iran’s Geneva mission did not immediately respond.",
+        "category": "human rights",
+        "title": "UN mission issues findings on US strikes and Iran crackdown",
+        "event_date": "2026-09-17",
+        "candidate_id": "un-iran-us-war-crimes-findings",
+        "geography": "Iran",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/un-mission-finds-grounds-to-believe-us-committed-war-crimes-in-iran-and-tehran-crimes-against-humanity"
+          }
+        ]
+      },
+      {
+        "summary": "A U.S. federal judge sentenced former Damascus Central Prison chief Samir Ousman Alsheikh to 60 years in prison. A jury convicted him in March of conspiracy to commit torture, three torture counts and immigration-related offenses. Prosecutors said he ordered and sometimes participated in abuses intended to deter opposition to Bashar Assad’s government. His legal team had sought a five-year sentence and previously said it was disappointed by the conviction.",
+        "category": "justice",
+        "title": "Former Syrian prison chief sentenced to 60 years in US",
+        "event_date": "2026-09-17",
+        "candidate_id": "us-syrian-prison-chief-sentencing",
+        "geography": "United States and Syria",
+        "sources": [
+          {
+            "name": "U.S. Department of Justice",
+            "url": "https://www.justice.gov/usao-cdca/pr/former-syrian-prison-chief-sentenced-60-years-federal-prison-torturing-inmates-and"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/assad-era-syrian-official-jailed-for-60-years-by-us-court"
+          }
+        ]
+      },
+      {
+        "summary": "A federal judge in Minneapolis sentenced Anthony James Kazmierczak to 14 months in prison after he pleaded guilty to assaulting a federal official by spraying vinegar at Representative Ilhan Omar during a January town hall. Kazmierczak admitted targeting Omar because he disagreed with her political views. His lawyer said he apologized during the hearing. State assault and threats-of-violence charges remained pending.",
+        "category": "justice",
+        "title": "Man who assaulted Ilhan Omar sentenced to 14 months",
+        "event_date": "2026-09-17",
+        "candidate_id": "ilhan-omar-assailant-sentenced",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/man-who-assaulted-us-lawmaker-ilhan-omar-sentenced-to-14-months-in-prison"
+          },
+          {
+            "name": "Associated Press via KSL",
+            "url": "https://www.ksl.com/article/news/politics/man-who-sprayed-minnesota-rep-omar-with-vinegar-sentenced-to-14-months-in-prison/51625080"
+          }
+        ]
+      },
+      {
+        "summary": "Indonesia ended a 10-day search for eight people missing at sea, including five photojournalists who had been covering the eruption of Mount Anak Krakatau. The group departed Banten province by speedboat on September 7 and subsequently lost contact. Banten Governor Andra Soni said late Thursday that the operation was halted because rescuers had found no trace of them, but it could resume if new leads emerged.",
+        "category": "disaster",
+        "title": "Indonesia ends search for eight missing near Anak Krakatau",
+        "event_date": "2026-09-17",
+        "candidate_id": "indonesia-anak-krakatau-missing-search-ended",
+        "geography": "Indonesia",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/indonesia-calls-off-search-for-journalists-missing-while-covering-volcano-eruption"
+          }
+        ]
+      },
+      {
+        "summary": "South Korean President Lee Jae Myung said the country would not deploy military assets to the Middle East in a way that would draw it into conflict connected to the Iran war. Lee said the government was separately considering whether to expand its role in safeguarding navigation through the Strait of Hormuz.",
+        "category": "security",
+        "title": "South Korea rules out military involvement in Iran conflict",
+        "event_date": "2026-09-17",
+        "candidate_id": "south-korea-middle-east-deployment-position",
+        "geography": "South Korea and Middle East",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/south-korea-s-lee-says-will-not-deploy-military-to-get-involved-in-middle-east-conflict"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-17"
+  },
+  "metadata": {
+    "responseId": "resp_0a988479e43c72be006aace33da13c87d286dc7cf31df1f248",
+    "requestId": "req_0da0fc8fc1824d1494f6cd06e6d2ce5a",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2830,
+    "inputTokens": 68778,
+    "outputTokens": 4184,
+    "webSearchCalls": 9,
+    "stage": "discovery",
+    "targetDate": "2026-09-17",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 116402,
+    "attemptDurationMs": 116402,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
