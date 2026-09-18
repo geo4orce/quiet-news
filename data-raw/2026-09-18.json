@@ -385,10 +385,10 @@
         "request": {
           "fingerprint": "ca481b2d7b37b745d4803e61490f01bf61b790ad4435d58e8368bc5847ffc33b",
           "claimId": "2c22a0f2-f7fb-44c5-ba3c-a617f5fe47e6",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-09-18T22:07:37.222Z",
-          "responseId": null
+          "responseId": "resp_00bf3ba3d81a1393006aadb62d74bc87d28a5355866abad8de"
         },
         "result": null,
         "observedAt": "2026-09-18T22:07:37.175Z"
