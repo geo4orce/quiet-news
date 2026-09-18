@@ -53,13 +53,97 @@
         "request": {
           "fingerprint": "79b4ae356c522dd3295bb6a3b52557f81faaf0badfefb3e0f02ab7636cfb8424",
           "claimId": "f857eeef-c750-48ad-ae26-fc0b3c334f10",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-18T10:07:36.040Z",
           "responseId": "resp_05e8f75d3d927bf7006aad0d6bc2c887d2b23d7d2f376de128"
         },
-        "result": null,
-        "observedAt": "2026-09-18T10:07:35.958Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Malaysia’s king granted former Prime Minister Najib Razak a conditional pardon allowing him to serve the remainder of his current corruption sentence under house arrest until August 23, 2028, subject to payment of a 50 million ringgit fine. The government said the pardon would be revoked if he violated its conditions. Najib remains subject to a separate 15-year sentence from another 1MDB-related conviction, which he is appealing.",
+                "category": "law and justice",
+                "title": "Malaysia grants Najib conditional pardon and house arrest",
+                "event_date": "2026-09-18",
+                "candidate_id": "malaysia-najib-conditional-pardon",
+                "geography": "Malaysia",
+                "sources": [
+                  {
+                    "name": "Bernama",
+                    "url": "https://www.bernama.com/en/news.php?id=2608750"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/malaysia-najib-corruption-house-arrest-3a61e8b1551eaa0f023f91116b6f06a0"
+                  }
+                ]
+              },
+              {
+                "summary": "A shooting at Banga National High School in South Cotabato killed three young people and injured six others, according to Philippine police and local officials. The circumstances remained under investigation. The Department of Education suspended in-person classes through September 21 and said it was coordinating with law enforcement and arranging psychosocial support.",
+                "category": "public safety",
+                "title": "Three killed in Philippine high school shooting",
+                "event_date": "2026-09-18",
+                "candidate_id": "philippines-banga-school-shooting",
+                "geography": "South Cotabato, Philippines",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/philippines-school-shooting-south-cotabato-0fb2a2443f64829985e0aab1368d2ee8"
+                  },
+                  {
+                    "name": "Philippine News Agency",
+                    "url": "https://www.pna.gov.ph/articles/1284362"
+                  }
+                ]
+              },
+              {
+                "summary": "Nigerian police fired tear gas at dozens of miners and relatives protesting near the civil defense corps office in Minna after 37 mining suspects died in the agency’s custody the previous day. Survivors disputed the agency’s preliminary suggestion of a disease outbreak and said detainees had suffocated in an overcrowded cell. Nigeria’s government suspended the Niger State civil defense commandant pending an investigation.",
+                "category": "human rights",
+                "title": "Police disperse Nigeria protest over deaths in custody",
+                "event_date": "2026-09-18",
+                "candidate_id": "nigeria-minna-custody-deaths-protest",
+                "geography": "Niger State, Nigeria",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/nigeria-miners-deaths-protest-222ac9d300c15c628ebcdacfea01f86a"
+                  },
+                  {
+                    "name": "Premium Times",
+                    "url": "https://www.premiumtimesng.com/regional/north-central/910516-police-order-probe-as-37-suspected-illegal-miners-die-in-nscdc-custody.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-18"
+          },
+          "metadata": {
+            "responseId": "resp_05e8f75d3d927bf7006aad0d6bc2c887d2b23d7d2f376de128",
+            "requestId": "req_ec14bd4879eb4002a32d09c4a48bea40",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1927,
+            "inputTokens": 58110,
+            "outputTokens": 2382,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-18",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 80140,
+            "attemptDurationMs": 80140,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-18T10:07:35.958Z",
+        "capturedAt": "2026-09-18T10:08:56.181Z"
       }
     ],
     "sift": null
