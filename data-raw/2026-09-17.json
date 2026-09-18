@@ -1028,10 +1028,10 @@
       "request": {
         "fingerprint": "9eb1e2314faf2329053986396d33ab487bf1317a3c6d650762eb69bda3423d07",
         "claimId": "a6d523ae-590a-43fa-99ed-930b8630257a",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-09-18T08:07:37.498Z",
-        "responseId": null
+        "responseId": "resp_042d451a7d7cf62b006aacf14d5f2c87d291cd9a3d681ade74"
       },
       "result": null
     }
