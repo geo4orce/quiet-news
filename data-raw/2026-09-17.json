@@ -821,10 +821,10 @@
         "request": {
           "fingerprint": "2faaec203a727a8ad94a878234ed5e6b86323276ef4542dfb43879b81d6104ab",
           "claimId": "e95fb331-513c-4e5a-93f8-e062f128feb4",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-09-18T07:07:37.514Z",
-          "responseId": null
+          "responseId": "resp_0a988479e43c72be006aace33da13c87d286dc7cf31df1f248"
         },
         "result": null,
         "observedAt": "2026-09-18T07:07:37.459Z"
