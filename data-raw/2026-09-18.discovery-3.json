@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-18",
+  "batch": 3,
+  "captured_at": "2026-09-18T22:09:13.422Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Authorities imposed a 6 p.m. overnight curfew in Minna after protests over 37 mining suspects who died in civil defense custody. Reuters reported that security forces fired live rounds and that a witness saw a body, without establishing who caused the death. President Bola Tinubu ordered an investigation, and the government suspended the Niger State civil defense commandant. Officials said many of the detainees were ages 14 to 18.",
+        "category": "human rights",
+        "title": "Nigeria imposes Minna curfew after custody-death protests",
+        "event_date": "2026-09-18",
+        "candidate_id": "nigeria-minna-custody-deaths-protest",
+        "geography": "Niger State, Nigeria",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/nigeria-miners-deaths-protest-222ac9d300c15c628ebcdacfea01f86a"
+          },
+          {
+            "name": "Premium Times",
+            "url": "https://www.premiumtimesng.com/regional/north-central/910516-police-order-probe-as-37-suspected-illegal-miners-die-in-nscdc-custody.html"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/protests-erupt-in-nigeria-after-33-miners-die-in-custody-of-paramilitary-agency"
+          }
+        ]
+      },
+      {
+        "summary": "Ukraine hosted leaders and representatives from seven neighboring countries for the inaugural Carpathian Eight summit on trade, infrastructure, energy and security. During the summit, Polish Prime Minister Donald Tusk announced that Poland had joined a coalition developing an anti-ballistic missile system with Ukraine and other European countries. Tusk also announced a new aid package for Ukraine but did not disclose its contents.",
+        "category": "international relations",
+        "title": "Ukraine hosts Carpathian Eight summit as Poland joins missile coalition",
+        "event_date": "2026-09-18",
+        "candidate_id": "ukraine-carpathian-eight-summit",
+        "geography": "Ukraine and Central Europe",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/b05ea50c3ed8b64cf25e254783a17d39"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/poland-joins-anti-ballistic-missile-coalition-with-ukraine"
+          }
+        ]
+      },
+      {
+        "summary": "The UN Human Rights Office published a report documenting 1,004 verified cases of conflict-related sexual violence from February 2022 through July 2026. It attributed 89% to Russian authorities and 11% to Ukrainian authorities, while warning that underreporting and restricted access meant the findings were not comprehensive. The report said Russia had taken no discernible accountability measures; it said Ukraine had adopted preventive steps but accountability remained limited.",
+        "category": "human rights",
+        "title": "UN documents widespread sexual violence in Ukraine war",
+        "event_date": "2026-09-18",
+        "candidate_id": "un-ukraine-conflict-sexual-violence-report",
+        "geography": "Ukraine and Russia",
+        "sources": [
+          {
+            "name": "UN Human Rights Monitoring Mission in Ukraine",
+            "url": "https://ukraine.ohchr.org/en/Sexual-Violence-in-the-Context-of-the-Russian-Federation-Full-Scale-Armed-Attack-against-Ukraine"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/widespread-sexual-violence-in-ukraine-war-most-cases-tied-to-russia-says-un-report"
+          }
+        ]
+      },
+      {
+        "summary": "An informal secret poll of the UN Security Council placed former Costa Rican Vice President Rebeca Grynspan narrowly ahead in the contest to succeed Secretary-General António Guterres, according to diplomats and sources cited by Reuters. Grynspan received nine encourage votes, five discourage votes and one no-opinion vote; Guyana’s Carolyn Rodrigues Birkett received eight, six and one respectively. Further straw polls and a formal council recommendation remain pending.",
+        "category": "international relations",
+        "title": "Grynspan leads third informal UN secretary-general poll",
+        "event_date": "2026-09-18",
+        "candidate_id": "un-secretary-general-third-straw-poll",
+        "geography": "United Nations",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/costa-rica-s-grynspan-narrowly-leads-informal-un-chief-poll-sources-say"
+          }
+        ]
+      },
+      {
+        "summary": "UN Secretary-General António Guterres and Food and Agriculture Organization Director-General Qu Dongyu appointed Luke J. Lindberg as the World Food Programme’s next executive director after consultations with the agency’s board. Lindberg succeeds Cindy McCain, who stepped down for health reasons in May, after an interim period led by Carl Skau.",
+        "category": "international organizations",
+        "title": "Luke Lindberg appointed to lead World Food Programme",
+        "event_date": "2026-09-18",
+        "candidate_id": "wfp-luke-lindberg-appointment",
+        "geography": "United Nations",
+        "sources": [
+          {
+            "name": "World Food Programme",
+            "url": "https://www.wfp.org/news/statement-by-world-food-programme-executive-board-president-on-appointment-of-new-executive-director"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/un-appoints-trump-nominee-lindberg-to-head-world-food-programme"
+          }
+        ]
+      },
+      {
+        "summary": "Cuba’s energy ministry said the national electrical grid suffered a total collapse, causing an island-wide blackout affecting a population of about 9 million. The country’s power system has faced continuing strain from fuel shortages and deteriorating infrastructure.",
+        "category": "energy and infrastructure",
+        "title": "Cuba suffers nationwide electrical-grid collapse",
+        "event_date": "2026-09-18",
+        "candidate_id": "cuba-nationwide-grid-collapse",
+        "geography": "Cuba",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/cuba-energy-grid-suffers-nationwide-collapse"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. Court of Appeals for the First Circuit largely upheld a lower-court ruling that found the administration’s rapid third-country deportation policy unlawful. The panel said migrants must receive a meaningful opportunity to raise persecution or torture concerns before removal to a country not covered by their proceedings. It reversed one portion of the lower-court decision on procedural grounds, and the administration was expected to appeal.",
+        "category": "law and justice",
+        "title": "US appeals court rejects rapid third-country deportation policy",
+        "event_date": "2026-09-18",
+        "candidate_id": "us-third-country-deportation-appeal-ruling",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/us-appeals-court-rejects-trump-policy-allowing-fast-third-country-deportations"
+          }
+        ]
+      },
+      {
+        "summary": "A Russian glide bomb struck an apartment building in Sumy, killing two people and injuring seven, according to Ukrainian officials. Three of the injured were in serious condition, and rescuers pulled four people, including a child, from the rubble. Officials said others might remain trapped. Russia did not immediately comment on the specific strike.",
+        "category": "conflict and security",
+        "title": "Russian glide bomb hits Sumy apartment building",
+        "event_date": "2026-09-18",
+        "candidate_id": "ukraine-sumy-apartment-glide-bomb",
+        "geography": "Sumy, Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/russian-glide-bomb-hits-apartment-in-ukraine-s-sumy-two-dead-seven-injured"
+          }
+        ]
+      },
+      {
+        "summary": "President Donald Trump said he was immediately banning CNN, MS NOW and Politico from the White House because of coverage he characterized as unfavorable and threatened additional exclusions. His social-media announcement did not explain how the restrictions would be implemented.",
+        "category": "media and government",
+        "title": "Trump announces White House ban on three news organizations",
+        "event_date": "2026-09-18",
+        "candidate_id": "trump-white-house-media-ban",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/trump-cnn-msnow-politico-media-bans-bb675679fb10738a51bef90bde6c525a"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-18"
+  },
+  "metadata": {
+    "responseId": "resp_00bf3ba3d81a1393006aadb62d74bc87d28a5355866abad8de",
+    "requestId": "req_525cc2adbd214d71b04014e6ec4e3ec1",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1867,
+    "inputTokens": 63849,
+    "outputTokens": 3533,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-18",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 96199,
+    "attemptDurationMs": 96199,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
