@@ -617,10 +617,10 @@
         "request": {
           "fingerprint": "972de82f257a37dcd1cc6cfc743a45e3610814ac6e69dec5276370d5f676ddb8",
           "claimId": "c2a2fd10-b093-43b6-a14d-8a64f5e14d8f",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-09-19T07:07:36.546Z",
-          "responseId": null
+          "responseId": "resp_0da1402234ebeb5f006aae34bc269c87d2878f4b690627489a"
         },
         "result": null,
         "observedAt": "2026-09-19T07:07:36.468Z"
