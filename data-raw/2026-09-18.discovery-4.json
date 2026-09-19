@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-18",
+  "batch": 4,
+  "captured_at": "2026-09-19T07:09:23.545Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "President Donald Trump signed legislation expanding sanctions, tariffs and prohibitions targeting Russia and extending existing sanctions on Iran. The law targets Russian energy and defense sectors and vessels used to evade sanctions, while granting the president broader authority to impose tariffs on countries trading with Russia.",
+        "category": "international relations",
+        "title": "Trump signs expanded Russia and Iran sanctions law",
+        "event_date": "2026-09-18",
+        "candidate_id": "us-russia-iran-sanctions-law",
+        "geography": "United States, Russia and Iran",
+        "sources": [
+          {
+            "name": "White House",
+            "url": "https://www.whitehouse.gov/briefings-statements/2026/09/congressional-bill-h-r-5334-signed-into-law/"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/trump-signs-russia-sanctions-bill-into-law"
+          }
+        ]
+      },
+      {
+        "summary": "Trump extended for 12 months an entry restriction requiring a $100,000 payment with certain H-1B petitions for workers outside the United States, subject to exceptions. A separate executive order directed agencies to consider sponsoring employers’ recent or planned layoffs of similarly situated U.S. workers when reviewing H-1B applications. Legal challenges to the payment requirement remained pending.",
+        "category": "immigration and labor",
+        "title": "Trump extends H-1B restrictions and orders added scrutiny",
+        "event_date": "2026-09-18",
+        "candidate_id": "us-h1b-restrictions-extension",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "White House",
+            "url": "https://www.whitehouse.gov/presidential-actions/2026/09/restriction-on-entry-of-certain-nonimmigrant-workers-faad/"
+          },
+          {
+            "name": "White House",
+            "url": "https://www.whitehouse.gov/presidential-actions/2026/09/enhancing-program-integrity-and-integrity-and-interagency-coordination-in-the-administration-of-the-h-1b-nonimmigrant-visa-program/"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/trump-extends-restrictions-on-h-1b-non-immigrant-visa-program-by-another-year"
+          }
+        ]
+      },
+      {
+        "summary": "The governments of Greenland, Denmark and the United States announced a planned agreement to strengthen Arctic and North Atlantic security. Trump described the agreement as completed and said it would provide permanent U.S. access, basing and overflight rights. Denmark’s official statement said signature was expected the following week at the UN General Assembly and that the agreement would take effect only after required parliamentary procedures.",
+        "category": "international relations",
+        "title": "Greenland, Denmark and US announce planned Arctic security agreement",
+        "event_date": "2026-09-18",
+        "candidate_id": "greenland-denmark-us-security-agreement",
+        "geography": "Greenland, Denmark and United States",
+        "sources": [
+          {
+            "name": "Danish Prime Minister's Office",
+            "url": "https://stm.dk/en/press/press-releases/expected-agreement-on-strengthened-security-in-the-arctic-and-the-north-atlantic-area/"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/exclusive-us-and-denmark-close-in-on-a-greenland-deal-sources-say"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. State Department approved a possible $2.7 billion military sale to Ukraine covering air-defense upgrades, missiles, launcher modifications, counter-drone radars and related equipment and services. The proposed purchase would use European contributions and previously appropriated U.S. Foreign Military Financing, and remained subject to congressional review.",
+        "category": "conflict and security",
+        "title": "US approves possible $2.7 billion Ukraine air-defense sale",
+        "event_date": "2026-09-18",
+        "candidate_id": "us-ukraine-air-defense-sale-approval",
+        "geography": "United States and Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/us-clears-way-for-2-7-billion-sale-to-ukraine-of-air-defense-development-upgrades"
+          }
+        ]
+      },
+      {
+        "summary": "Authorities raised the reported toll from the vehicle bombing and attempted armed assault at a mosque near police offices in Kohat to at least 21 dead and 80 wounded. Police officers attending Friday prayers were among the casualties. No group immediately claimed responsibility.",
+        "category": "conflict and security",
+        "title": "Pakistan police-compound mosque attack kills at least 21",
+        "event_date": "2026-09-18",
+        "candidate_id": "pakistan-kohat-police-mosque-bombing",
+        "geography": "Kohat, Khyber Pakhtunkhwa, Pakistan",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/pakistan-mosque-bombing-northwest-pakistan-ebfc29859f724630e25f8549116859c8"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-18"
+  },
+  "metadata": {
+    "responseId": "resp_0da1402234ebeb5f006aae34bc269c87d2878f4b690627489a",
+    "requestId": "req_c31f98e4f2764359993ae0a4a8eeef98",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 3641,
+    "inputTokens": 77159,
+    "outputTokens": 4648,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-09-18",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 106999,
+    "attemptDurationMs": 106999,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
