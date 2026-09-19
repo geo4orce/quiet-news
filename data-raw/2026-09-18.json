@@ -796,10 +796,10 @@
       "request": {
         "fingerprint": "93a0f83235c6a71c95594a0380f79f0684fd084fbaa5a466df9f416e71fabfa6",
         "claimId": "116dd5c2-f228-48d8-b8fe-5e47990f3026",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-09-19T08:07:37.975Z",
-        "responseId": null
+        "responseId": "resp_01bb06af37911627006aae42cdd0d887d2bcdcadca6f7e4551"
       },
       "result": null
     }
