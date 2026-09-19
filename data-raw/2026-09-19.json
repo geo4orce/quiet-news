@@ -451,10 +451,10 @@
         "request": {
           "fingerprint": "ce65efd8d262d8ebf14244da56a40031796a5f0cffffad359fe093b796287766",
           "claimId": "4ee1e160-5c69-49a7-bdbc-1f081ff9f10c",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-09-19T22:07:42.373Z",
-          "responseId": null
+          "responseId": "resp_08edaf37a554206e006aaf07b1fb3c87d2a888807ec8e57290"
         },
         "result": null,
         "observedAt": "2026-09-19T22:07:42.311Z"
