@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-19",
+  "batch": 1,
+  "captured_at": "2026-09-19T10:08:37.074Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Iran executed Hossein Pedaran after the Supreme Court upheld his death sentence for espionage and intelligence cooperation with Israel, the judiciary-run Mizan news agency said. Iranian authorities alleged that he supplied Mossad with information about sensitive military and missile sites in Isfahan for financial gain.",
+        "category": "justice",
+        "title": "Iran executes man convicted of spying for Israel",
+        "event_date": "2026-09-19",
+        "candidate_id": "iran-executes-hossein-pedaran",
+        "geography": "Iran",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Iran%2Bexecutes%2Bman%2Bconvicted%2Bof%2Bspying%2Bfor%2BIsrael%27s%2BMossad%2C%2Bjudiciary%2Bsays/27081643.html"
+          },
+          {
+            "name": "Iran International",
+            "url": "https://www.iranintl.com/en/202609191625"
+          }
+        ]
+      },
+      {
+        "summary": "AFP reported that the death toll from the September 18 vehicle bombing and attempted assault at a police compound and mosque in Kohat had risen to 31, citing a police official. Earlier reports had placed the toll at at least 21.",
+        "category": "conflict",
+        "title": "Reported toll in Pakistan police compound attack rises to 31",
+        "event_date": "2026-09-19",
+        "candidate_id": "pakistan-kohat-attack-toll-update",
+        "geography": "Pakistan",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/death-toll-at-31-in-pakistan-police-compound-attack-afp-reports-ce785adade8cfe2d"
+          }
+        ]
+      },
+      {
+        "summary": "China's market regulator opened investigations into Meituan unit Beijing Sankuai Information Technology and several online travel-booking businesses linked to Alibaba, Tongcheng and Tujia over suspected unfair competition violations, state broadcaster CCTV reported. The companies said they were cooperating with regulators.",
+        "category": "business",
+        "title": "China investigates online platforms over suspected unfair competition",
+        "event_date": "2026-09-19",
+        "candidate_id": "china-online-platform-competition-probes",
+        "geography": "China",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/china-investigates-meituan-and-alibaba-units-for-suspected-violations-of-competition-laws-ce785adade8cfe23"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-19"
+  },
+  "metadata": {
+    "responseId": "resp_0918fbf2a6613390006aae5eedb6cc87d289dd25dcb237abfa",
+    "requestId": "req_c1a8101fb8d046258334a763fd0b5542",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2073,
+    "inputTokens": 58435,
+    "outputTokens": 2470,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-19",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 59339,
+    "attemptDurationMs": 59339,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
