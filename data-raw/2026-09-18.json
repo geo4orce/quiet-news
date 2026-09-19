@@ -796,12 +796,182 @@
       "request": {
         "fingerprint": "93a0f83235c6a71c95594a0380f79f0684fd084fbaa5a466df9f416e71fabfa6",
         "claimId": "116dd5c2-f228-48d8-b8fe-5e47990f3026",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-19T08:07:37.975Z",
         "responseId": "resp_01bb06af37911627006aae42cdd0d887d2bcdcadca6f7e4551"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "berkshire-buffett-chairman-transition",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "greenland-denmark-us-security-agreement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "icrc-ukrainian-pow-access-russia",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "malaysia-najib-conditional-pardon",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "philippines-banga-school-shooting",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "romania-muresan-coalition-talks",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-white-house-media-ban",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "uk-mi5-agent-x-court-admission",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ukraine-carpathian-eight-summit",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ukraine-sumy-apartment-glide-bomb",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "un-secretary-general-third-straw-poll",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-2026-midterm-early-voting-begins",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-h1b-restrictions-extension",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "us-ukraine-air-defense-sale-approval",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "wfp-luke-lindberg-appointment",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Cuba’s energy ministry said the national electrical grid collapsed, cutting power across the island and affecting about 9 million people.\n\nThe country’s power system has been under continuing strain from fuel shortages and deteriorating infrastructure.",
+              "candidate_id": "cuba-nationwide-grid-collapse",
+              "headline": "Cuba’s electrical grid collapses nationwide",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/cuba-energy-grid-suffers-nationwide-collapse"
+                }
+              ]
+            },
+            {
+              "body": "Authorities imposed a 6 p.m. overnight curfew in Minna after protests over mining suspects who died in civil defense custody. Reports placed the number of deaths at 33 to 37; officials said many of the detainees were ages 14 to 18.\n\nPresident Bola Tinubu ordered an investigation, and the government suspended the Niger State civil defense commandant. Reuters reported that security forces fired live rounds during the protests and that a witness saw a body, but responsibility for that death was not established.",
+              "candidate_id": "nigeria-minna-custody-deaths-protest",
+              "headline": "Nigeria investigates mass deaths in state custody",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/nigeria-miners-deaths-protest-222ac9d300c15c628ebcdacfea01f86a"
+                },
+                {
+                  "name": "Premium Times",
+                  "url": "https://www.premiumtimesng.com/regional/north-central/910516-police-order-probe-as-37-suspected-illegal-miners-die-in-nscdc-custody.html"
+                },
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/protests-erupt-in-nigeria-after-33-miners-die-in-custody-of-paramilitary-agency"
+                }
+              ]
+            },
+            {
+              "body": "A vehicle bombing and attempted armed assault at a mosque near police offices in Kohat killed at least 21 people and wounded 80, authorities said.\n\nPolice officers attending Friday prayers were among the casualties. No group immediately claimed responsibility.",
+              "candidate_id": "pakistan-kohat-police-mosque-bombing",
+              "headline": "Pakistan mosque attack kills at least 21",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/pakistan-mosque-bombing-northwest-pakistan-ebfc29859f724630e25f8549116859c8"
+                }
+              ]
+            },
+            {
+              "body": "The UN Human Rights Office documented 1,004 verified cases of conflict-related sexual violence in Ukraine from February 2022 through July 2026. It attributed 89% to Russian authorities and 11% to Ukrainian authorities.\n\nThe office cautioned that underreporting and restricted access meant the findings were not comprehensive. It found no discernible accountability measures by Russia; Ukraine had taken preventive steps, but accountability remained limited.",
+              "candidate_id": "un-ukraine-conflict-sexual-violence-report",
+              "headline": "UN documents 1,004 sexual-violence cases in Ukraine",
+              "sources": [
+                {
+                  "name": "UN Human Rights Monitoring Mission in Ukraine",
+                  "url": "https://ukraine.ohchr.org/en/Sexual-Violence-in-the-Context-of-the-Russian-Federation-Full-Scale-Armed-Attack-against-Ukraine"
+                },
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/widespread-sexual-violence-in-ukraine-war-most-cases-tied-to-russia-says-un-report"
+                }
+              ]
+            },
+            {
+              "body": "President Donald Trump signed legislation expanding sanctions and prohibitions targeting Russia and extending existing sanctions on Iran.\n\nThe law targets Russia’s energy and defense sectors and vessels used to evade sanctions. It also gives the president broader authority to impose tariffs on countries that trade with Russia.",
+              "candidate_id": "us-russia-iran-sanctions-law",
+              "headline": "US expands sanctions on Russia and Iran",
+              "sources": [
+                {
+                  "name": "White House",
+                  "url": "https://www.whitehouse.gov/briefings-statements/2026/09/congressional-bill-h-r-5334-signed-into-law/"
+                },
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/trump-signs-russia-sanctions-bill-into-law"
+                }
+              ]
+            },
+            {
+              "body": "The First Circuit Court of Appeals largely upheld a ruling that found the administration’s rapid third-country deportation policy unlawful.\n\nThe court said migrants must receive a meaningful opportunity to raise concerns about persecution or torture before being removed to a country not covered by their immigration proceedings. It reversed one portion of the lower court’s decision on procedural grounds, and an administration appeal is expected.",
+              "candidate_id": "us-third-country-deportation-appeal-ruling",
+              "headline": "US court limits rapid third-country deportations",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/us-appeals-court-rejects-trump-policy-allowing-fast-third-country-deportations"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_01bb06af37911627006aae42cdd0d887d2bcdcadca6f7e4551",
+          "requestId": "req_68bbbe0f680f440a8cecfb8550c04b3b",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 3239,
+          "inputTokens": 5491,
+          "outputTokens": 4640,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-18",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 74313,
+          "attemptDurationMs": 74313,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
