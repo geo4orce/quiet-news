@@ -742,6 +742,66 @@
         "capturedAt": "2026-09-19T07:09:23.545Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "f5711bf9f7e6bbeea9e69e7406407e6a65336dbd5237f018b68a3251467897dd",
+      "priorStories": [
+        {
+          "headline": "UN cites US war crimes, Iran crimes against humanity",
+          "body": "A United Nations fact-finding mission said it had reasonable grounds to believe two U.S. strikes on a school and sports facility in Iran in February were indiscriminate attacks amounting to war crimes. It also found that Iranian authorities committed crimes against humanity during a crackdown on anti-government protests.\n\nThe Pentagon said its investigation was continuing. The White House rejected the finding about the U.S. strikes, while Iran’s Geneva mission did not immediately respond.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/un-mission-finds-grounds-to-believe-us-committed-war-crimes-in-iran-and-tehran-crimes-against-humanity"
+            }
+          ]
+        },
+        {
+          "headline": "Russia, China end Iran sanctions-monitoring mandate",
+          "body": "Russia and China vetoed a Security Council resolution extending independent monitoring of international sanctions on Iran. Eleven members supported the resolution, while Pakistan and Somalia abstained.\n\nThe veto ended the monitoring mandate. Its expert panel had already gone unfilled during the previous year because appointments required council consensus.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-china-end-mandate-for-independent-monitoring-of-un-sanctions-on-iran"
+            }
+          ]
+        },
+        {
+          "headline": "Sweden’s center-left wins parliamentary election",
+          "body": "The final count from Sunday’s election gave Sweden’s center-left opposition parties 176 parliamentary seats, compared with 173 for the governing right-wing bloc.\n\nPrime Minister Ulf Kristersson said he would resign and asked to be relieved of office, allowing the parliamentary speaker to begin forming a new government. Social Democratic leader Magdalena Andersson is positioned to try to assemble a coalition.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/sweden-s-centre-left-opposition-wins-election-as-count-completed"
+            }
+          ]
+        },
+        {
+          "headline": "Sea crossings to Europe fall as deaths rise",
+          "body": "About 60,000 migrants and refugees reached Europe by sea so far this year, down 39% from roughly 98,000 at the same point in 2025, the International Organization for Migration said.\n\nDespite the decline in crossings, at least 2,292 people died or went missing, up from 1,999 during the corresponding period last year. The organization said additional deaths probably went unrecorded.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/europe-migrant-sea-crossings-fall-but-become-more-deadly-iom-says"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "93a0f83235c6a71c95594a0380f79f0684fd084fbaa5a466df9f416e71fabfa6",
+        "claimId": "116dd5c2-f228-48d8-b8fe-5e47990f3026",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-09-19T08:07:37.975Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
