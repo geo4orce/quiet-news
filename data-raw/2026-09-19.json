@@ -742,6 +742,102 @@
         "capturedAt": "2026-09-20T07:08:42.639Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "e55df6eddfcd04d1792251e192de90f3207951d0fa21ba8f0c59b04eba3f91c1",
+      "priorStories": [
+        {
+          "headline": "Cuba’s electrical grid collapses nationwide",
+          "body": "Cuba’s energy ministry said the national electrical grid collapsed, cutting power across the island and affecting about 9 million people.\n\nThe country’s power system has been under continuing strain from fuel shortages and deteriorating infrastructure.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/cuba-energy-grid-suffers-nationwide-collapse"
+            }
+          ]
+        },
+        {
+          "headline": "Nigeria investigates mass deaths in state custody",
+          "body": "Authorities imposed a 6 p.m. overnight curfew in Minna after protests over mining suspects who died in civil defense custody. Reports placed the number of deaths at 33 to 37; officials said many of the detainees were ages 14 to 18.\n\nPresident Bola Tinubu ordered an investigation, and the government suspended the Niger State civil defense commandant. Reuters reported that security forces fired live rounds during the protests and that a witness saw a body, but responsibility for that death was not established.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/nigeria-miners-deaths-protest-222ac9d300c15c628ebcdacfea01f86a"
+            },
+            {
+              "name": "Premium Times",
+              "url": "https://www.premiumtimesng.com/regional/north-central/910516-police-order-probe-as-37-suspected-illegal-miners-die-in-nscdc-custody.html"
+            },
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/protests-erupt-in-nigeria-after-33-miners-die-in-custody-of-paramilitary-agency"
+            }
+          ]
+        },
+        {
+          "headline": "Pakistan mosque attack kills at least 21",
+          "body": "A vehicle bombing and attempted armed assault at a mosque near police offices in Kohat killed at least 21 people and wounded 80, authorities said.\n\nPolice officers attending Friday prayers were among the casualties. No group immediately claimed responsibility.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/pakistan-mosque-bombing-northwest-pakistan-ebfc29859f724630e25f8549116859c8"
+            }
+          ]
+        },
+        {
+          "headline": "UN documents 1,004 sexual-violence cases in Ukraine",
+          "body": "The UN Human Rights Office documented 1,004 verified cases of conflict-related sexual violence in Ukraine from February 2022 through July 2026. It attributed 89% to Russian authorities and 11% to Ukrainian authorities.\n\nThe office cautioned that underreporting and restricted access meant the findings were not comprehensive. It found no discernible accountability measures by Russia; Ukraine had taken preventive steps, but accountability remained limited.",
+          "sources": [
+            {
+              "name": "UN Human Rights Monitoring Mission in Ukraine",
+              "url": "https://ukraine.ohchr.org/en/Sexual-Violence-in-the-Context-of-the-Russian-Federation-Full-Scale-Armed-Attack-against-Ukraine"
+            },
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/widespread-sexual-violence-in-ukraine-war-most-cases-tied-to-russia-says-un-report"
+            }
+          ]
+        },
+        {
+          "headline": "US expands sanctions on Russia and Iran",
+          "body": "President Donald Trump signed legislation expanding sanctions and prohibitions targeting Russia and extending existing sanctions on Iran.\n\nThe law targets Russia’s energy and defense sectors and vessels used to evade sanctions. It also gives the president broader authority to impose tariffs on countries that trade with Russia.",
+          "sources": [
+            {
+              "name": "White House",
+              "url": "https://www.whitehouse.gov/briefings-statements/2026/09/congressional-bill-h-r-5334-signed-into-law/"
+            },
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/trump-signs-russia-sanctions-bill-into-law"
+            }
+          ]
+        },
+        {
+          "headline": "US court limits rapid third-country deportations",
+          "body": "The First Circuit Court of Appeals largely upheld a ruling that found the administration’s rapid third-country deportation policy unlawful.\n\nThe court said migrants must receive a meaningful opportunity to raise concerns about persecution or torture before being removed to a country not covered by their immigration proceedings. It reversed one portion of the lower court’s decision on procedural grounds, and an administration appeal is expected.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/us-appeals-court-rejects-trump-policy-allowing-fast-third-country-deportations"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "3d36d3ef4a79c54732577e73ddcc702914369b679384190e1be867631a33c3ec",
+        "claimId": "6f1bc01e-0aa9-43ca-a756-6172ed276b13",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-09-20T08:07:37.441Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
