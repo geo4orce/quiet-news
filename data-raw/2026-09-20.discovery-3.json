@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-20",
+  "batch": 3,
+  "captured_at": "2026-09-20T22:08:29.806Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Ukrainian President Volodymyr Zelenskyy said he spoke with U.S. President Donald Trump and that they agreed to meet in New York during the coming U.N. General Assembly week. Zelenskyy said their teams were discussing de-escalation and security issues, but he announced no agreement on ending the war with Russia.",
+        "category": "diplomacy",
+        "title": "Zelenskyy says he and Trump agreed to meet in New York",
+        "event_date": "2026-09-20",
+        "candidate_id": "zelenskyy-trump-agree-new-york-meeting",
+        "geography": "Ukraine and United States",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Ukraine%27s%2BZelenskiy%2Bsays%2Bhe%2Band%2BTrump%2Bagree%2Bto%2Bmeet%2Bin%2BNew%2BYork/27081928.html"
+          }
+        ]
+      },
+      {
+        "summary": "Eighteen suspects in the 2021 assassination of Haitian President Jovenel Moïse were flown from Haiti to the United States to face trial, U.S. and Haitian officials said. U.S. prosecutors said 30 people have been indicted in the case. Haiti's justice minister said proceedings there had been delayed and had not produced a trial after five years.",
+        "category": "justice",
+        "title": "Haiti transfers 18 Moïse assassination suspects to United States",
+        "event_date": "2026-09-20",
+        "candidate_id": "haiti-moise-suspects-transferred-us",
+        "geography": "Haiti and United States",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Suspects%2Bin%2B2021%2Bkilling%2Bof%2BHaitian%2Bpresident%2Bflown%2Bto%2BUS%2Bto%2Bface%2Btrial/27081912.html"
+          }
+        ]
+      },
+      {
+        "summary": "Two people familiar with the matter told Reuters that the Trump administration had prepared sanctions against the International Criminal Court, although the timing of any announcement remained unclear. The State Department did not immediately comment. The reported measure had not taken effect and would expand earlier U.S. sanctions targeting individual ICC judges and prosecutors.",
+        "category": "policy",
+        "title": "Sources say Trump administration prepared sanctions against entire ICC",
+        "event_date": "2026-09-20",
+        "candidate_id": "us-prepares-icc-organization-sanctions",
+        "geography": "United States and Netherlands",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Trump%2Badministration%2Bprepares%2Bto%2Bsanction%2Bthe%2BInternational%2BCriminal%2BCourt%2C%2BWSJ%2Breports/27081923.html"
+          }
+        ]
+      },
+      {
+        "summary": "Canadian Prime Minister Mark Carney said Canada and France had directed their space agencies and defense ministries to jointly develop space-launch systems and ground reception facilities. Carney announced the initiative at a joint news conference with French President Emmanuel Macron in Saint-Pierre and Miquelon.",
+        "category": "science",
+        "title": "Canada and France plan joint space-launch systems",
+        "event_date": "2026-09-20",
+        "candidate_id": "canada-france-joint-space-launch-systems",
+        "geography": "Canada and France",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Canada%27s%2BCarney%2Bcalls%2Bfor%2Bstronger%2Bties%2Bwith%2BFrance%2Bin%2Bface%2Bof%2Bnew%2Bglobal%2Bthreats/27081910.html"
+          }
+        ]
+      },
+      {
+        "summary": "A senior Houthi official told the Associated Press that the group had indirect contacts with U.S. officials through Oman and had assured Washington it would not attack U.S. vessels in the Red Sea. Mohamed al-Bukhaiti warned other countries against joining Saudi Arabia in Yemen's renewed fighting and said attacks on Saudi Arabia would continue until Riyadh ended its blockade of Houthi-held areas.",
+        "category": "conflict",
+        "title": "Houthi official describes indirect U.S. contacts and warns Saudi allies",
+        "event_date": "2026-09-20",
+        "candidate_id": "houthi-official-us-contacts-saudi-warning",
+        "geography": "Yemen and Red Sea",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/yemen-houthis-iran-saudi-arabia-red-sea-93dfe17125c63897b232f6461d81d85c"
+          }
+        ]
+      },
+      {
+        "summary": "The White House and New York City Mayor Zohran Mamdani's office confirmed that President Donald Trump and Mamdani planned to meet Monday at Gracie Mansion during Trump's visit for the U.N. General Assembly. Mamdani's communications director said they would discuss issues affecting New York City and its residents.",
+        "category": "politics",
+        "title": "Trump and Mamdani offices announce Gracie Mansion meeting",
+        "event_date": "2026-09-20",
+        "candidate_id": "trump-mamdani-gracie-mansion-meeting-announced",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/trump-mamdani-meeting-new-york-8219d3ebf8576e84a181bd46fb2dc42a"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-20"
+  },
+  "metadata": {
+    "responseId": "resp_0b3eb427f43f5c5b006ab05930bd8887d2bf1cea9169f72dae",
+    "requestId": "req_b1df0165559b44468f42e75ed4519b96",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1229,
+    "inputTokens": 66210,
+    "outputTokens": 2378,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-20",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 48779,
+    "attemptDurationMs": 48779,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
