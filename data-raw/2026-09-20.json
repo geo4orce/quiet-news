@@ -205,13 +205,167 @@
         "request": {
           "fingerprint": "d3ceb969ca2b260d3cc0b8e5c3bc777adeb5c4accb021336436bccc6391b5be5",
           "claimId": "7802a2a8-ffe7-46d6-9faa-4bb9d47b4c7b",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-20T16:07:41.079Z",
           "responseId": "resp_0d687699f098d250006ab004d101d487d2b91a61028f06863f"
         },
-        "result": null,
-        "observedAt": "2026-09-20T16:07:40.975Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "A 30-year-old Israeli man was fatally shot near the Neve Tzuf settlement north of Ramallah. Israeli authorities said the suspected Palestinian gunman fired from a vehicle, fled and was later arrested at a Ramallah hospital. Separately, Israeli soldiers killed a Palestinian motorist near Jenin whom the military accused of attempting to ram troops; Reuters could not independently verify that account.",
+                "category": "conflict",
+                "title": "Israeli man killed in West Bank shooting; suspected gunman arrested",
+                "event_date": "2026-09-20",
+                "candidate_id": "west-bank-shooting-israeli-wounded",
+                "geography": "Occupied West Bank",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/mideast-news-roundup-september-20-2026-4ca7f5b7d7b4a6658909b7c92764973a"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Palestinian%2Bgunman%2Bshoots%2Bdead%2BIsraeli%2Bin%2Bthe%2BWest%2BBank%2C%2Bsoldiers%2Bkill%2Bmotorist/27081870.html"
+                  }
+                ]
+              },
+              {
+                "summary": "North Korea launched two short-range ballistic missiles from the Wonsan area toward its eastern waters about three hours apart, South Korea's military said. The first flew about 450 kilometers and the second more than 600 kilometers before landing in the sea. Japan said the earlier suspected missile did not land in its territorial waters.",
+                "category": "security",
+                "title": "North Korea launches two short-range ballistic missiles",
+                "event_date": "2026-09-20",
+                "candidate_id": "north-korea-missile-launch-sept-20",
+                "geography": "Korean Peninsula",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/north-south-korea-launch-ad020d996b61dedd358cc689db614fdb"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/North%2BKorea%2Bfires%2Btwo%2Bballistic%2Bmissiles%2Boff%2Beast%2Bcoast%2Bin%2Bthree%2Bhours/27081822.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukrainian forces launched more than 1,000 drones at Russia overnight, according to officials cited by AP. Russian authorities reported three deaths in the Moscow region, while an oil refinery and residential buildings were damaged. Ukraine said it targeted oil and logistics facilities. AP corrected Russia's reported interception total to 1,110 drones.",
+                "category": "conflict",
+                "title": "Death toll from large Ukrainian drone attack in Moscow region rises to three",
+                "event_date": "2026-09-20",
+                "candidate_id": "ukraine-drone-attack-moscow-region",
+                "geography": "Russia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/ukraine-russia-war-drones-moscow-5f7889d027c0247ca2c2c64425b9ffa9"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Three%2Bdead%2Bin%2BMoscow%2Bregion%2C%2Bdrones%2Bhit%2Boil%2Brefinery%2Bin%2BRussian%2Bcapital/27081816.html"
+                  }
+                ]
+              },
+              {
+                "summary": "An Iraqi court opened the trial of six French nationals accused of belonging to Islamic State. The defendants were among detainees transferred from northeast Syria to Iraq last year. A member of Iraq's Supreme Judicial Council said they could face the death penalty if convicted of crimes against Iraqis. The hearing was adjourned until October 5 to give defense lawyers time to review the files.",
+                "category": "justice",
+                "title": "Iraq opens trial of six French Islamic State suspects",
+                "event_date": "2026-09-20",
+                "candidate_id": "iraq-trial-french-islamic-state-suspects",
+                "geography": "Iraq",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Iraqi%2Bcourt%2Bopens%2Btrial%2Bof%2Bsix%2BFrench%2BIslamic%2BState%2Bsuspects/27081857.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Police arrested Aleema Khan, a sister of jailed former Pakistani Prime Minister Imran Khan, at her Lahore home, according to a spokesperson for Khan's PTI party. Lahore's district administration ordered her jailed for 30 days, alleging that her presence in public would threaten safety. The arrest came before a planned September 27 march demanding Imran Khan's release.",
+                "category": "politics",
+                "title": "Pakistani police arrest Imran Khan's sister before planned march",
+                "event_date": "2026-09-20",
+                "candidate_id": "pakistan-arrests-imran-khan-sister",
+                "geography": "Pakistan",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Police%2Barrest%2BPakistan%2Bex-PM%C2%A0Imran%2BKhan%27s%2Bsister%2Bin%2BLahore%2Bahead%2Bof%2Bparty%27s%2Bplanned%2Bmarch/27081845.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Indonesian divers recovered another body from the Virgo Transport 8, raising the confirmed death toll from the September 13 Java Sea capsizing to 10, the national rescue agency said. Authorities reported 108 survivors and 125 people still missing. Strong currents hindered Sunday's work, and officials planned to deploy a remotely operated vehicle during the continuing search.",
+                "category": "disaster",
+                "title": "Indonesia shipwreck death toll reaches 10 as 125 remain missing",
+                "event_date": "2026-09-20",
+                "candidate_id": "indonesia-virgo-transport-search-update",
+                "geography": "Indonesia",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Indonesia%2Bcontinues%2Bsearch%2Bfor%2Bhundreds%2Bmissing%2Bin%2Bcapsized%2Bship/27081837.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Italian Prime Minister Giorgia Meloni said her government would soon present a measure to the Cabinet that would ban burqas and niqabs in schools, establish a maximum number of foreign students per class and require some foreign students' parents to learn Italian. Meloni did not specify the proposed classroom limit, and the measures had not yet been approved.",
+                "category": "politics",
+                "title": "Meloni announces planned Italian school restrictions",
+                "event_date": "2026-09-20",
+                "candidate_id": "italy-meloni-school-veil-foreign-student-proposal",
+                "geography": "Italy",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Italy%2Bto%2Bban%2Bveils%2Bin%2Bschools%2C%2Blimit%2Bforeign%2Bstudents%2Bper%2Bclass%2C%2BMeloni%2Bsays/27081875.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Tropical Storm Fay formed early Sunday in the northern Atlantic about 450 miles southwest of the Azores, the U.S. National Hurricane Center said. At 5 a.m. EDT it had maximum sustained winds of 45 mph and was moving north-northeast. No coastal watches or warnings were in effect, and the storm did not appear to threaten land.",
+                "category": "weather",
+                "title": "Tropical Storm Fay forms southwest of the Azores",
+                "event_date": "2026-09-20",
+                "candidate_id": "tropical-storm-fay-forms-atlantic",
+                "geography": "North Atlantic",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/tropical-storm-fay-azores-78644c7efe89efe3799ca8ff482d739d"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-20"
+          },
+          "metadata": {
+            "responseId": "resp_0d687699f098d250006ab004d101d487d2b91a61028f06863f",
+            "requestId": "req_ac3e848a297b48cda846e9f5b97921e2",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1887,
+            "inputTokens": 65717,
+            "outputTokens": 3620,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-20",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 85087,
+            "attemptDurationMs": 85087,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-20T16:07:40.975Z",
+        "capturedAt": "2026-09-20T16:09:06.166Z"
       }
     ],
     "sift": null
