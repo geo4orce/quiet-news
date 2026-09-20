@@ -164,6 +164,54 @@
         },
         "observedAt": "2026-09-20T10:07:36.827Z",
         "capturedAt": "2026-09-20T10:08:19.392Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Saudi Arabia intercepts Houthi missile at Riyadh",
+            "body": "Saudi Arabia said it intercepted a Houthi ballistic missile aimed at Riyadh, with no casualties or damage reported. Authorities also said attempted attacks on civilian infrastructure in Yanbu, Taif, Baysh and Farasan were thwarted.\n\nThe Houthis claimed responsibility for attacks on Riyadh and an Aramco facility in Yanbu. Their claims that the attacks caused major fires were not substantiated.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/mideast-roundup-news-september-19-2026-24211a3b34731a669f3e7ab93314afdf"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Flames%2C%2Bsmoke%2Bseen%2Bnear%2BRiyadh%2Bairport%3B%2BHouthis%2Bclaim%2Battacks%2Bon%2BSaudi%2Bcapital/27081686.html"
+              },
+              {
+                "name": "Reuters via Al-Monitor",
+                "url": "https://www.al-monitor.com/originals/2026/09/flames-smoke-seen-near-riyadh-airport-after-saudi-warning-aerial-attack-threat"
+              }
+            ]
+          },
+          {
+            "headline": "US Caribbean vessel strike kills four people",
+            "body": "The U.S. military said it struck a vessel in the Caribbean Sea and killed four people, alleging that the boat was involved in drug trafficking.\n\nU.S. Southern Command did not provide evidence that the vessel was carrying drugs. The strike was part of a military campaign against alleged traffickers that began in 2025.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/trump-cartels-military-strike-caribbean-95f3d4ae10f8e2a4a193f601101898d9"
+              },
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/world-news/us-says-it-killed-four-people-in-strike-on-vessel-in-caribbean-4908126"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "d3ceb969ca2b260d3cc0b8e5c3bc777adeb5c4accb021336436bccc6391b5be5",
+          "claimId": "7802a2a8-ffe7-46d6-9faa-4bb9d47b4c7b",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-09-20T16:07:41.079Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-09-20T16:07:40.975Z"
       }
     ],
     "sift": null
