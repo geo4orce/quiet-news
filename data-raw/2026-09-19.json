@@ -832,10 +832,10 @@
       "request": {
         "fingerprint": "3d36d3ef4a79c54732577e73ddcc702914369b679384190e1be867631a33c3ec",
         "claimId": "6f1bc01e-0aa9-43ca-a756-6172ed276b13",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-09-20T08:07:37.441Z",
-        "responseId": null
+        "responseId": "resp_0e3c412931e9f14d006aaf944d0b0887d28f53af2375823df2"
       },
       "result": null
     }
