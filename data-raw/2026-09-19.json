@@ -832,12 +832,110 @@
       "request": {
         "fingerprint": "3d36d3ef4a79c54732577e73ddcc702914369b679384190e1be867631a33c3ec",
         "claimId": "6f1bc01e-0aa9-43ca-a756-6172ed276b13",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-20T08:07:37.441Z",
         "responseId": "resp_0e3c412931e9f14d006aaf944d0b0887d28f53af2375823df2"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "asian-games-open-nagoya-2026",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "china-online-platform-competition-probes",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "greenland-denmark-us-deal-sovereignty-clarification",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "iran-executes-hossein-pedaran",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "pakistan-kohat-attack-toll-update",
+              "code": "prior_day_repetition"
+            },
+            {
+              "candidate_id": "petrobras-approves-diesel-subsidy-participation",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "russia-election-observer-arrest-cyberattack-claims",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "trump-proposes-federal-ai-force",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "turkey-offers-saudi-military-support",
+              "code": "speculative_or_sensational"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Saudi Arabia said it intercepted a Houthi ballistic missile aimed at Riyadh, with no casualties or damage reported. Authorities also said attempted attacks on civilian infrastructure in Yanbu, Taif, Baysh and Farasan were thwarted.\n\nThe Houthis claimed responsibility for attacks on Riyadh and an Aramco facility in Yanbu. Their claims that the attacks caused major fires were not substantiated.",
+              "candidate_id": "riyadh-airport-fire-aerial-threat-alerts",
+              "headline": "Saudi Arabia intercepts Houthi missile at Riyadh",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/mideast-roundup-news-september-19-2026-24211a3b34731a669f3e7ab93314afdf"
+                },
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/Flames%2C%2Bsmoke%2Bseen%2Bnear%2BRiyadh%2Bairport%3B%2BHouthis%2Bclaim%2Battacks%2Bon%2BSaudi%2Bcapital/27081686.html"
+                },
+                {
+                  "name": "Reuters via Al-Monitor",
+                  "url": "https://www.al-monitor.com/originals/2026/09/flames-smoke-seen-near-riyadh-airport-after-saudi-warning-aerial-attack-threat"
+                }
+              ]
+            },
+            {
+              "body": "The U.S. military said it struck a vessel in the Caribbean Sea and killed four people, alleging that the boat was involved in drug trafficking.\n\nU.S. Southern Command did not provide evidence that the vessel was carrying drugs. The strike was part of a military campaign against alleged traffickers that began in 2025.",
+              "candidate_id": "us-caribbean-vessel-strike-four-killed",
+              "headline": "US Caribbean vessel strike kills four people",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/trump-cartels-military-strike-caribbean-95f3d4ae10f8e2a4a193f601101898d9"
+                },
+                {
+                  "name": "Reuters via Investing.com",
+                  "url": "https://www.investing.com/news/world-news/us-says-it-killed-four-people-in-strike-on-vessel-in-caribbean-4908126"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0e3c412931e9f14d006aaf944d0b0887d28f53af2375823df2",
+          "requestId": "req_f1511b67ed3c48e892b5f6fc5d122413",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 516,
+          "inputTokens": 4140,
+          "outputTokens": 1206,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-19",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 22213,
+          "attemptDurationMs": 22213,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
