@@ -124,6 +124,46 @@
         },
         "observedAt": "2026-09-21T10:07:30.952Z",
         "capturedAt": "2026-09-21T10:08:39.263Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Haiti sends 18 assassination suspects to US",
+            "body": "Eighteen suspects in the 2021 assassination of Haitian President Jovenel Moïse were flown from Haiti to the United States to face trial, according to U.S. and Haitian officials.\n\nU.S. prosecutors have indicted 30 people in the case. Haiti’s justice minister said proceedings there had produced no trial after five years of delays.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Suspects%2Bin%2B2021%2Bkilling%2Bof%2BHaitian%2Bpresident%2Bflown%2Bto%2BUS%2Bto%2Bface%2Btrial/27081912.html"
+              }
+            ]
+          },
+          {
+            "headline": "Ukraine launches vast drone attack across Russia",
+            "body": "Ukrainian forces launched more than 1,000 drones at Russia overnight, according to officials cited by the Associated Press. Russian authorities reported three deaths in the Moscow region and damage to an oil refinery and residential buildings.\n\nUkraine said it targeted oil and logistics facilities. The casualty, interception and damage reports come from the countries fighting the war and could not be independently reconciled.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/ukraine-russia-war-drones-moscow-5f7889d027c0247ca2c2c64425b9ffa9"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Three%2Bdead%2Bin%2BMoscow%2Bregion%2C%2Bdrones%2Bhit%2Boil%2Brefinery%2Bin%2BRussian%2Bcapital/27081816.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "b2a7d2f5b540e0790329030e569e88b82f8c1e39a74a1476a61dccadba4814bc",
+          "claimId": "3cd5bfb1-fd9b-41a6-9266-d16dd3d95d4f",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-09-21T16:07:38.051Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-09-21T16:07:37.967Z"
       }
     ],
     "sift": null
