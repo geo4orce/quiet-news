@@ -157,13 +157,121 @@
         "request": {
           "fingerprint": "b2a7d2f5b540e0790329030e569e88b82f8c1e39a74a1476a61dccadba4814bc",
           "claimId": "3cd5bfb1-fd9b-41a6-9266-d16dd3d95d4f",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-21T16:07:38.051Z",
           "responseId": "resp_029eca981a90fe2a006ab1564e072887d2868705ed6f6f2387"
         },
-        "result": null,
-        "observedAt": "2026-09-21T16:07:37.967Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Gates Foundation announced that it is convening a coalition of 60 organizations, including Anthropic, Google and the OpenAI Foundation, to develop more representative language data for artificial intelligence. The coalition aims to make AI tools more accessible to more than 3 billion people over five years, though details including its governance remain under development.",
+                "category": "technology",
+                "title": "Gates Foundation convenes coalition for underrepresented AI languages",
+                "event_date": "2026-09-21",
+                "candidate_id": "gates-ai-language-data-coalition",
+                "geography": "Global",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/aefb021bede3b02c83890f65cd540fd0"
+                  }
+                ]
+              },
+              {
+                "summary": "Chicago Federal Reserve President Austan Goolsbee said persistent supply shocks, including oil-price increases and tariffs, may require higher interest rates that push employment below its target to return inflation to 2%. His remarks described a policy trade-off and did not announce a Federal Reserve decision.",
+                "category": "economy",
+                "title": "Goolsbee says inflation fight may require economic pain",
+                "event_date": "2026-09-21",
+                "candidate_id": "goolsbee-inflation-employment-tradeoff",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/5acf1f7e4f38ac77329fa0b9aaddd30f"
+                  }
+                ]
+              },
+              {
+                "summary": "U.N. Special Rapporteur Mariana Katzarova presented a report to the Human Rights Council describing Russian surveillance, intimidation and reprisals against critics abroad as a systematic state strategy. The report, based on about 400 documented cases, said recorded incidents increased after Russia's 2022 invasion of Ukraine. Russia's Geneva mission did not immediately respond to Reuters and Moscow has previously denied allegations of hostile actions abroad.",
+                "category": "human rights",
+                "title": "UN expert reports expanded Russian repression abroad",
+                "event_date": "2026-09-21",
+                "candidate_id": "un-report-russia-transnational-repression",
+                "geography": "Russia and international",
+                "sources": [
+                  {
+                    "name": "United Nations Geneva",
+                    "url": "https://www.unognewsroom.org/story/en/3269/hrc-63-human-rights-in-the-russian-federation-21-september-2026"
+                  },
+                  {
+                    "name": "Office of the UN High Commissioner for Human Rights",
+                    "url": "https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/sessions-regular/session63/advance-versions/a-hrc-63-60-aev-14th.pdf"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Russia%2Bhas%2Bintensified%2Brepression%2Bof%2Bcritics%2Boverseas,%C2%A0UN%C2%A0expert%2Bsays/27083427.html"
+                  }
+                ]
+              },
+              {
+                "summary": "An unidentified projectile struck a tanker entering the Strait of Hormuz, according to the United Kingdom Maritime Trade Operations center. Two crew members sustained minor injuries, while the vessel continued toward its next port under its own power. No environmental impact was reported initially.",
+                "category": "security",
+                "title": "Projectile strikes tanker entering Strait of Hormuz",
+                "event_date": "2026-09-21",
+                "candidate_id": "projectile-strikes-hormuz-tanker",
+                "geography": "Strait of Hormuz",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/iran-us-yemen-saudi-houthis-hormuz-september-21-2026-82714681bde58c6525c2d7a1bc587b25"
+                  }
+                ]
+              },
+              {
+                "summary": "The International Organization for Migration reported that renewed fighting in Yemen had displaced 129,438 people across seven provinces. The agency said 11,352 people were displaced during the three days beginning September 18, with many families having already fled their homes more than once.",
+                "category": "humanitarian",
+                "title": "Yemen fighting displaces nearly 130,000 people, IOM says",
+                "event_date": "2026-09-21",
+                "candidate_id": "yemen-fighting-displacement-iom-update",
+                "geography": "Yemen",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/iran-us-yemen-saudi-houthis-hormuz-september-21-2026-82714681bde58c6525c2d7a1bc587b25"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-21"
+          },
+          "metadata": {
+            "responseId": "resp_029eca981a90fe2a006ab1564e072887d2868705ed6f6f2387",
+            "requestId": "req_34a59425792c4327a7afa5e3a465a38a",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1971,
+            "inputTokens": 55470,
+            "outputTokens": 2871,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-21",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 80378,
+            "attemptDurationMs": 80378,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-21T16:07:37.967Z",
+        "capturedAt": "2026-09-21T16:08:58.430Z"
       }
     ],
     "sift": null
