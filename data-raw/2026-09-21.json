@@ -305,10 +305,10 @@
         "request": {
           "fingerprint": "7872c9a73f698d127b4ccf5d7b379733c2e2c48d02fe043f3d46be6757057c4e",
           "claimId": "5761891f-604d-48b2-8e21-46aca00338f4",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-09-21T22:07:31.415Z",
-          "responseId": null
+          "responseId": "resp_0dde3b1c2e109559006ab1aaa6c53087d2939ff1841c395c22"
         },
         "result": null,
         "observedAt": "2026-09-21T22:07:31.381Z"
