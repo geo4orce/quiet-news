@@ -569,13 +569,107 @@
         "request": {
           "fingerprint": "df0109a5c6ca0e497f4ddcdaab7bc1bbc6ca86ec3031f7c6d3ea7f739d3a5011",
           "claimId": "eec6d3cf-a15d-4a25-833d-37a69bf3b482",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-21T07:07:31.246Z",
           "responseId": "resp_009561c7c992325c006ab0d7b66e4887d2889e441c2bab0ef7"
         },
-        "result": null,
-        "observedAt": "2026-09-21T07:07:31.168Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "U.S. Treasury Secretary Scott Bessent said the United States proposed an incident-notification mechanism for artificial-intelligence events affecting national security during talks with Chinese Vice Premier He Lifeng in New York. The sides also discussed establishing a broader AI dialogue ahead of a Trump-Xi summit. China's response to the proposal was not disclosed, and no agreement was announced.",
+                "category": "diplomacy",
+                "title": "United States proposes AI incident notifications in talks with China",
+                "event_date": "2026-09-20",
+                "candidate_id": "us-china-ai-incident-notification-proposal",
+                "geography": "United States and China",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/2c7f54f07e755f506d9db9b91df282bd"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Bessent%2Bproposes%2BUS-China%2BAI%2Bsafety%2Bnotifications%2Bin%2Btalks%2Bwith%2BChinese%2Bvice%2Bpremier/27081812.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Australian Prime Minister Anthony Albanese formally launched Australia's campaign for a non-permanent United Nations Security Council seat for 2029-2030. Australia had previously disclosed its candidacy. Albanese said artificial intelligence, climate change and international conflicts were among the issues motivating the bid. Finland is also seeking a seat allocated to the same regional group.",
+                "category": "diplomacy",
+                "title": "Australia launches campaign for 2029 UN Security Council seat",
+                "event_date": "2026-09-20",
+                "candidate_id": "australia-launches-2029-un-security-council-campaign",
+                "geography": "Australia and United Nations",
+                "sources": [
+                  {
+                    "name": "Prime Minister of Australia",
+                    "url": "https://www.pm.gov.au/media/press-conference-united-nations-new-york"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Australia%2Bto%2Bseek%2BUN%2Bsecurity%2Bcouncil%2Bseat%2Bfrom%2B2029/27081968.html"
+                  }
+                ]
+              },
+              {
+                "summary": "The Australian and New Zealand navies signed Plan Tasman, a framework intended to deepen cooperation in personnel, training, capability development, operations, engineering, regulation and international engagement. The agreement was signed by the two navies' deputy chiefs, Rear Admiral Darren Grogan and Commodore Karl Woodhead.",
+                "category": "security",
+                "title": "Australia and New Zealand navies sign Plan Tasman cooperation pact",
+                "event_date": "2026-09-20",
+                "candidate_id": "australia-new-zealand-navies-plan-tasman",
+                "geography": "Australia and New Zealand",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Australia%2Band%2BNew%2BZealand%2Bdeepen%2Bnaval%2Bpartnership/27081975.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Afghan officials said Pakistani airstrikes hit locations in Kunar and Paktika provinces, killing three members of one family and injuring four other people in Kunar. Taliban spokesperson Hamdullah Fitrat said a shop and an unoccupied house were destroyed in Paktika without reported casualties. Pakistan's military did not immediately comment.",
+                "category": "conflict",
+                "title": "Afghan officials say Pakistani airstrikes killed three people",
+                "event_date": "2026-09-20",
+                "candidate_id": "pakistan-airstrikes-afghanistan-sept-20",
+                "geography": "Afghanistan and Pakistan",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/At%2Bleast%2Bthree%2Bkilled%2Bin%2BPakistani%2Bairstrikes%2Bon%2BAfghanistan%2C%2Bofficials%2Bsay/27082025.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-20"
+          },
+          "metadata": {
+            "responseId": "resp_009561c7c992325c006ab0d7b66e4887d2889e441c2bab0ef7",
+            "requestId": "req_213f7dd28f034578a0ef99d3597d6b68",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2680,
+            "inputTokens": 56512,
+            "outputTokens": 3548,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-09-20",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 76519,
+            "attemptDurationMs": 76519,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-21T07:07:31.168Z",
+        "capturedAt": "2026-09-21T07:08:47.765Z"
       }
     ],
     "sift": null
