@@ -718,10 +718,10 @@
       "request": {
         "fingerprint": "68bff69d162a6dbce66652e23a9e29e6dd6274afa546f8b2dfefd7d2124f0f12",
         "claimId": "afb531f5-5878-4b21-b278-a0f3cd302bff",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-09-21T08:07:31.067Z",
-        "responseId": null
+        "responseId": "resp_07c7676694fc13a9006ab0e5c632fc87d293a197db5dee5739"
       },
       "result": null
     }
