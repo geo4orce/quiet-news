@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-22",
+  "batch": 2,
+  "captured_at": "2026-09-22T16:08:27.977Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Gunmen killed two police officers assigned to protect polio vaccination workers during a door-to-door campaign in southwestern Pakistan, officials said. The attack occurred as Pakistan continued efforts to interrupt transmission of wild poliovirus.",
+        "category": "conflict-and-security",
+        "title": "Two police guarding polio workers killed in Pakistan",
+        "event_date": "2026-09-22",
+        "candidate_id": "pakistan-polio-guards-killed",
+        "geography": "Pakistan",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/68a36e8281dccd2ab41eb783b1d8df15"
+          }
+        ]
+      },
+      {
+        "summary": "U.S. President Donald Trump signed an agreement with Denmark and Greenland intended to strengthen Arctic and North Atlantic security. The agreement, signed on the sidelines of the United Nations General Assembly, followed tensions over Trump's calls for Greenland to become part of the United States.",
+        "category": "international-relations",
+        "title": "US, Denmark and Greenland sign Arctic security agreement",
+        "event_date": "2026-09-22",
+        "candidate_id": "us-denmark-greenland-arctic-agreement",
+        "geography": "United States, Denmark and Greenland",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/084ac2a82952c2dff403c48bd3564113"
+          }
+        ]
+      },
+      {
+        "summary": "U.S. President Donald Trump defended his decision to begin the war against Iran in an address to the United Nations General Assembly. He said the United States could reach an agreement with Iran but again threatened the country's government if no deal was reached.",
+        "category": "international-relations",
+        "title": "Trump defends Iran war in UN address",
+        "event_date": "2026-09-22",
+        "candidate_id": "trump-un-address-iran-war",
+        "geography": "United Nations / United States / Iran",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/f7cb0b3ebc492446c0be97ed3a6843aa"
+          },
+          {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/09/22/unga-iran-us-trump-war"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-22"
+  },
+  "metadata": {
+    "responseId": "resp_09becc9328ec502a006ab2a7c9351087d2af5261c3dc9a02f9",
+    "requestId": "req_db20b230b3f740cba2ca8deb27879d3b",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1389,
+    "inputTokens": 48490,
+    "outputTokens": 1659,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-22",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 54850,
+    "attemptDurationMs": 54850,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
