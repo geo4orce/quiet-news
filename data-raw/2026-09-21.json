@@ -806,10 +806,10 @@
       "request": {
         "fingerprint": "9dd2066237c3bce62a6dde82fde6b1c620a9f8f23ce63017cd0900ad919cf1a9",
         "claimId": "b451129f-b3e2-42fc-957e-ceb917863a94",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-09-22T08:07:33.329Z",
-        "responseId": null
+        "responseId": "resp_04a0f15a53c2bdeb006ab23748ffb887d2a2d29c1dbf5394c7"
       },
       "result": null
     }
