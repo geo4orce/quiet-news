@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-22",
+  "batch": 3,
+  "captured_at": "2026-09-22T22:08:55.195Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Hurricane Polo strengthened to Category 5 off Mexico’s southwestern coast, with maximum sustained winds reaching 180 mph, according to the U.S. National Hurricane Center. The storm was expected to remain offshore, but Mexican authorities closed ports in Guerrero and Michoacán and suspended some classes as heavy rain, flooding, mudslides and hazardous surf threatened coastal areas.",
+        "category": "weather-and-climate",
+        "title": "Hurricane Polo strengthens to Category 5",
+        "event_date": "2026-09-22",
+        "candidate_id": "hurricane-polo-category-5",
+        "geography": "Mexico",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/hurricane-polo-mexico-a6c1c226c878a236442a8e1a7f37211b"
+          },
+          {
+            "name": "U.S. National Hurricane Center",
+            "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+          }
+        ]
+      },
+      {
+        "summary": "A three-judge High Court panel in Sri Lanka convicted 15 men over their involvement in the 2019 Easter Sunday bombings, which killed more than 260 people and wounded about 500. Authorities had filed charges including murder, conspiracy to commit terrorism, and firearms and explosives offenses.",
+        "category": "justice-and-law",
+        "title": "Sri Lankan court convicts 15 over Easter bombings",
+        "event_date": "2026-09-22",
+        "candidate_id": "sri-lanka-easter-bombings-convictions",
+        "geography": "Sri Lanka",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/45283b5f6fe37ed2ab07c903214001b5"
+          }
+        ]
+      },
+      {
+        "summary": "The Greenville County Coroner’s Office ruled actor Hayden Panettiere’s death an accident caused by a combination of drugs including fentanyl, alprazolam, a muscle relaxant and an antidepressant. Panettiere, 36, was found unresponsive in a South Carolina apartment on August 16. Greenville police said their investigation remained ongoing.",
+        "category": "arts-and-entertainment",
+        "title": "Coroner rules Hayden Panettiere’s death an accidental overdose",
+        "event_date": "2026-09-22",
+        "candidate_id": "hayden-panettiere-accidental-overdose-ruling",
+        "geography": "South Carolina, United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/229349e2bb6e19d985372d8524b09fc8"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-22"
+  },
+  "metadata": {
+    "responseId": "resp_0dd05c201a89f0ab006ab2fc26824887d2b001d3bed5426ffd",
+    "requestId": "req_2167d29ce85c42f4a6924e3de4d00b4b",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2096,
+    "inputTokens": 58490,
+    "outputTokens": 2610,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-22",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 84236,
+    "attemptDurationMs": 84236,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
