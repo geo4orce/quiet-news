@@ -115,6 +115,88 @@
         },
         "observedAt": "2026-09-22T10:07:32.053Z",
         "capturedAt": "2026-09-22T10:08:36.560Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Hurricane Polo reaches Category 4 off Mexico",
+            "body": "Hurricane Polo rapidly strengthened into a Category 4 storm late Monday, with maximum sustained winds of 130 mph, according to the U.S. National Hurricane Center.\n\nThe storm remained offshore, but forecasters warned of heavy rain, flooding, mudslides and hazardous seas in southwestern Mexico. Further strengthening was possible.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/a6c1c226c878a236442a8e1a7f37211b"
+              },
+              {
+                "name": "U.S. National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+              }
+            ]
+          },
+          {
+            "headline": "Pennsylvania measles outbreak reaches 792 cases",
+            "body": "The Pennsylvania Department of Health reported 792 measles cases, 25 more than on September 18, and 155 hospitalizations. Lancaster County remained the hardest-hit area.\n\nReuters described the state outbreak as part of the largest U.S. measles resurgence in decades.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Pennsylvania%2Bmeasles%2Bcases%2Bnear%2B800%2Bas%2Boutbreak%2Bgrows/27085044.html"
+              }
+            ]
+          },
+          {
+            "headline": "United Russia retains constitutional majority",
+            "body": "Russia’s Central Election Commission said United Russia received 57.83% of the party-list vote with more than 95% of ballots counted. The preliminary result would give the ruling party 355 of the State Duma’s 450 seats, preserving its constitutional majority.\n\nThe election took place under tight political controls. Voting was also conducted in Russian-controlled parts of Ukraine, which Kyiv and Western governments consider illegally occupied.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/5342c2757623f2e46e94b4c548e94213"
+              },
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/russia-s-ruling-pro-putin-party-wins-wartime-election-with-over-57-of-vote-near-complete-results-s-ce785adbda89f724"
+              }
+            ]
+          },
+          {
+            "headline": "Texas pauses data-center permits for audits",
+            "body": "Texas Governor Greg Abbott directed the state environmental agency to stop issuing permits sought by data centers until grid and water regulators complete audits of the facilities.\n\nThe directive pauses state regulatory approvals; it does not permanently prohibit data-center development.",
+            "sources": [
+              {
+                "name": "Office of the Texas Governor",
+                "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/General+News/Texas+Governor+Abbott+halts+all+state-issued+permits+for+data+centers+until+grid+audit+is+complete/27085893.html"
+              }
+            ]
+          },
+          {
+            "headline": "Fighting displaces more than 129,000 in Yemen",
+            "body": "Renewed fighting in Yemen has displaced 129,438 people across seven provinces, according to the International Organization for Migration. That includes 11,352 people displaced during the three days beginning September 18.\n\nThe World Food Programme said it had provided meals or food supplies to about 60,000 people and was building stocks to assist hundreds of thousands more. The United Nations has reported nearly 700 deaths in the escalation.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/iran-us-yemen-saudi-houthis-hormuz-september-21-2026-82714681bde58c6525c2d7a1bc587b25"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/World%2BFood%2BProgramme%2Bramps%2Bup%2Bresponse%2Bin%2BYemen%2Bas%2Bhunger%2Bfears%2Bescalate%2C%2Bofficial%2Bsays/27085077.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "c6fa0ea440b9d523e7df46065b8384714f6dc1d8ef47a0c7d74565ad8874dffd",
+          "claimId": "fb6d59dd-ac8c-4b6a-b620-62daaccc087b",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-09-22T16:07:33.127Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-09-22T16:07:33.093Z"
       }
     ],
     "sift": null
