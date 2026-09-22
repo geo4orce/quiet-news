@@ -806,12 +806,207 @@
       "request": {
         "fingerprint": "9dd2066237c3bce62a6dde82fde6b1c620a9f8f23ce63017cd0900ad919cf1a9",
         "claimId": "b451129f-b3e2-42fc-957e-ceb917863a94",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-22T08:07:33.329Z",
         "responseId": "resp_04a0f15a53c2bdeb006ab23748ffb887d2a2d29c1dbf5394c7"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "britain-saudi-air-refuelling-support",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "british-columbia-openai-shooting-lawsuit",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "california-data-center-oversight-laws",
+              "code": "displaced_by_stronger_story"
+            },
+            {
+              "candidate_id": "california-el-nino-preparedness-emergency",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "china-confirms-xi-us-state-visit",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "community-lenders-treasury-grants-lawsuit",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "eu-philippines-free-trade-deal",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "faa-deploys-predictive-flight-system",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "g7-iran-houthi-support-statement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "gates-ai-language-data-coalition",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "goolsbee-inflation-employment-tradeoff",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "missouri-congressional-map-appeals-ruling",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "moldova-seeks-water-energy-emergency",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "news-outlets-white-house-access-lawsuit",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "northeast-airports-telecom-outage",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "pakistan-airstrikes-afghanistan-border",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "paramount-warner-lawsuit-settlements",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "projectile-strikes-hormuz-tanker",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "russian-attacks-ukraine-five-killed",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "stanford-protest-charges-diversion",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "typhoon-dujuan-eastern-japan-disruptions",
+              "code": "displaced_by_stronger_story"
+            },
+            {
+              "candidate_id": "un-report-russia-transnational-repression",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-plans-greenland-military-bases",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "vermont-palestinian-students-shooting-conviction",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Hurricane Polo rapidly strengthened into a Category 4 storm late Monday, with maximum sustained winds of 130 mph, according to the U.S. National Hurricane Center.\n\nThe storm remained offshore, but forecasters warned of heavy rain, flooding, mudslides and hazardous seas in southwestern Mexico. Further strengthening was possible.",
+              "candidate_id": "hurricane-polo-mexico-pacific",
+              "headline": "Hurricane Polo reaches Category 4 off Mexico",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/a6c1c226c878a236442a8e1a7f37211b"
+                },
+                {
+                  "name": "U.S. National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+                }
+              ]
+            },
+            {
+              "body": "The Pennsylvania Department of Health reported 792 measles cases, 25 more than on September 18, and 155 hospitalizations. Lancaster County remained the hardest-hit area.\n\nReuters described the state outbreak as part of the largest U.S. measles resurgence in decades.",
+              "candidate_id": "pennsylvania-measles-792-cases",
+              "headline": "Pennsylvania measles outbreak reaches 792 cases",
+              "sources": [
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/Pennsylvania%2Bmeasles%2Bcases%2Bnear%2B800%2Bas%2Boutbreak%2Bgrows/27085044.html"
+                }
+              ]
+            },
+            {
+              "body": "Russia’s Central Election Commission said United Russia received 57.83% of the party-list vote with more than 95% of ballots counted. The preliminary result would give the ruling party 355 of the State Duma’s 450 seats, preserving its constitutional majority.\n\nThe election took place under tight political controls. Voting was also conducted in Russian-controlled parts of Ukraine, which Kyiv and Western governments consider illegally occupied.",
+              "candidate_id": "russia-parliamentary-election-results",
+              "headline": "United Russia retains constitutional majority",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/5342c2757623f2e46e94b4c548e94213"
+                },
+                {
+                  "name": "Reuters via MarketScreener",
+                  "url": "https://www.marketscreener.com/news/russia-s-ruling-pro-putin-party-wins-wartime-election-with-over-57-of-vote-near-complete-results-s-ce785adbda89f724"
+                }
+              ]
+            },
+            {
+              "body": "Texas Governor Greg Abbott directed the state environmental agency to stop issuing permits sought by data centers until grid and water regulators complete audits of the facilities.\n\nThe directive pauses state regulatory approvals; it does not permanently prohibit data-center development.",
+              "candidate_id": "texas-halts-data-center-permits",
+              "headline": "Texas pauses data-center permits for audits",
+              "sources": [
+                {
+                  "name": "Office of the Texas Governor",
+                  "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits"
+                },
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/General+News/Texas+Governor+Abbott+halts+all+state-issued+permits+for+data+centers+until+grid+audit+is+complete/27085893.html"
+                }
+              ]
+            },
+            {
+              "body": "Renewed fighting in Yemen has displaced 129,438 people across seven provinces, according to the International Organization for Migration. That includes 11,352 people displaced during the three days beginning September 18.\n\nThe World Food Programme said it had provided meals or food supplies to about 60,000 people and was building stocks to assist hundreds of thousands more. The United Nations has reported nearly 700 deaths in the escalation.",
+              "candidate_id": "yemen-fighting-displacement-iom-update",
+              "headline": "Fighting displaces more than 129,000 in Yemen",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/iran-us-yemen-saudi-houthis-hormuz-september-21-2026-82714681bde58c6525c2d7a1bc587b25"
+                },
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/World%2BFood%2BProgramme%2Bramps%2Bup%2Bresponse%2Bin%2BYemen%2Bas%2Bhunger%2Bfears%2Bescalate%2C%2Bofficial%2Bsays/27085077.html"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_04a0f15a53c2bdeb006ab23748ffb887d2a2d29c1dbf5394c7",
+          "requestId": "req_23523a8dc5b8488fa8b2c69f90cf20a7",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 5885,
+          "inputTokens": 6721,
+          "outputTokens": 7336,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-21",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 131877,
+          "attemptDurationMs": 131877,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
