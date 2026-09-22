@@ -79,13 +79,42 @@
         "request": {
           "fingerprint": "4b243999f6d0eb847aab213b55b4539923fe88b5e00d17fcae274d3d6c4b3f96",
           "claimId": "81c6ff1c-9557-4ed3-81d5-8342b3bc91e2",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-22T10:07:32.106Z",
           "responseId": "resp_02c9e20d69b54eb1006ab253676bd087d297fc81870cb72367"
         },
-        "result": null,
-        "observedAt": "2026-09-22T10:07:32.053Z"
+        "result": {
+          "output": {
+            "candidates": [],
+            "withdrawals": [],
+            "target_date": "2026-09-22"
+          },
+          "metadata": {
+            "responseId": "resp_02c9e20d69b54eb1006ab253676bd087d297fc81870cb72367",
+            "requestId": "req_b64dee49a7f4411a8ee2443d804e41f0",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1827,
+            "inputTokens": 57716,
+            "outputTokens": 1827,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-22",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 64453,
+            "attemptDurationMs": 64453,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-22T10:07:32.053Z",
+        "capturedAt": "2026-09-22T10:08:36.560Z"
       }
     ],
     "sift": null
