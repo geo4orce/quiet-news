@@ -105,13 +105,65 @@
         "request": {
           "fingerprint": "a34019ea571e846c253dc97adea66d601fcf96765bdc1686f07e246810144006",
           "claimId": "0be765df-d876-4301-8c3b-38f90af6e659",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-23T16:07:35.088Z",
           "responseId": "resp_087d199ecb2db4a1006ab3f94b6f3087d28570f67301fd737c"
         },
-        "result": null,
-        "observedAt": "2026-09-23T16:07:35.024Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Tigray’s regional authorities said their forces had entered a new war with Ethiopia’s federal government, describing it as defensive, as fighting spread across Tigray and neighboring Afar and Amhara. Tigrayan forces took control of Mekelle’s airport, and Ethiopian Airlines suspended flights to Mekelle, Axum and Shire. The federal government had not immediately commented.",
+                "category": "conflict",
+                "title": "Tigray authorities declare renewed war with Ethiopia’s federal government",
+                "event_date": "2026-09-23",
+                "candidate_id": "ethiopia-tigray-renewed-war",
+                "geography": "Ethiopia",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Tigrayan%2Bleaders%2Bsay%2Bnew%2Bwar%2Bwith%2BEthiopian%2Bgovernment%2Bhas%2Bbegun%2C%2Bas%2Bfighting%2Berupts/27093656.html"
+                  },
+                  {
+                    "name": "Euronews",
+                    "url": "https://www.euronews.com/2026/09/23/tigray-rebels-seize-airport-and-clash-with-federal-forces-as-fighting-in-ethiopia-reignite"
+                  },
+                  {
+                    "name": "Anadolu Agency",
+                    "url": "https://www.aa.com.tr/en/africa/tplf-forces-take-control-of-airport-in-ethiopias-tigray-as-tensions-deepen/4066404"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-23"
+          },
+          "metadata": {
+            "responseId": "resp_087d199ecb2db4a1006ab3f94b6f3087d28570f67301fd737c",
+            "requestId": "req_d1fe70a942d64b7297557e23a4f9f2f9",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1672,
+            "inputTokens": 55530,
+            "outputTokens": 1858,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-23",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 55600,
+            "attemptDurationMs": 55600,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-23T16:07:35.024Z",
+        "capturedAt": "2026-09-23T16:08:30.689Z"
       }
     ],
     "sift": null
