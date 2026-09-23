@@ -647,12 +647,75 @@
       "request": {
         "fingerprint": "6c46e05ec8443dec7a674c21119566bce93163c9eebf610383e67c7d8c3ba9b4",
         "claimId": "4a025d4d-217a-43cb-bd17-54839cb22259",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-23T08:07:30.457Z",
         "responseId": "resp_06845501b3dcc166006ab388c58f1487d2b17dbe2c3d4a0a3c"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "hayden-panettiere-accidental-overdose-ruling",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "pakistan-polio-guards-killed",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "sri-lanka-easter-bombings-convictions",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-un-address-iran-war",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-denmark-greenland-arctic-agreement",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Polo strengthened from a Category 4 storm late Monday to Category 5, with maximum sustained winds reaching 180 mph, according to the U.S. National Hurricane Center.\n\nThe hurricane was expected to remain off Mexico’s southwestern coast, but authorities closed ports in Guerrero and Michoacán and suspended some classes. Heavy rain, flooding, mudslides and hazardous surf threatened coastal areas.",
+              "candidate_id": "hurricane-polo-category-5",
+              "headline": "Hurricane Polo reaches Category 5",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/hurricane-polo-mexico-a6c1c226c878a236442a8e1a7f37211b"
+                },
+                {
+                  "name": "U.S. National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_06845501b3dcc166006ab388c58f1487d2b17dbe2c3d4a0a3c",
+          "requestId": "req_59e8eb78df804f918615db342863f2e7",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 516,
+          "inputTokens": 2757,
+          "outputTokens": 814,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-22",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 25957,
+          "attemptDurationMs": 25957,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
