@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-23",
+  "batch": 3,
+  "captured_at": "2026-09-23T22:08:41.706Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "A New York judge sentenced former film producer Harvey Weinstein to 15 years in prison for a criminal sexual act against former production assistant Miriam Haley in 2006. The sentence followed a retrial after New York’s highest court overturned his original conviction in 2024. Weinstein has indicated he will appeal.",
+        "category": "justice",
+        "title": "Harvey Weinstein sentenced to 15 years in New York sex-crime case",
+        "event_date": "2026-09-23",
+        "candidate_id": "harvey-weinstein-new-york-sentence",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press via ABC News",
+            "url": "https://www-cdn.abcnews.com/Entertainment/wireStory/harvey-weinstein-set-sentenced-sexual-assault-after-6-136673491"
+          },
+          {
+            "name": "Bloomberg Law",
+            "url": "https://news.bloomberglaw.com/white-collar-and-criminal-law/harvey-weinstein-sentenced-to-15-years-for-ny-sexual-assault"
+          }
+        ]
+      },
+      {
+        "summary": "Iranian President Masoud Pezeshkian told the U.N. General Assembly that Iran would not surrender in its war with the United States, while saying Tehran remained open to diplomacy. He accused President Donald Trump of a bullying approach and described Iranians as victims of terrorism. The address responded to Trump’s threats against Iran at the assembly a day earlier.",
+        "category": "conflict",
+        "title": "Iran’s president rejects surrender while affirming diplomacy at U.N.",
+        "event_date": "2026-09-23",
+        "candidate_id": "iran-pezeshkian-un-wartime-address",
+        "geography": "Iran / United States",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://in.marketscreener.com/news/iran-s-president-says-tehran-will-not-surrender-in-war-with-us-but-believes-in-diplomacy-ce785ad9de8cf227"
+          },
+          {
+            "name": "Reuters Connect",
+            "url": "https://www.reutersconnect.com/item/iranian-president-addresses-un-general-assembly-in-new-york/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XQU5BQ0FBVklERU8yMDI2MDkyMzQyNTUwOTk2"
+          },
+          {
+            "name": "ABC News Australia",
+            "url": "https://www.abc.net.au/news/2026-09-24/iranian-president-masoud-pezeshkian-speaks-at-united-nations/107188962"
+          }
+        ]
+      },
+      {
+        "summary": "U.S. Secretary of State Marco Rubio said after meeting Russian Foreign Minister Sergei Lavrov that both Russia and Ukraine had expressed interest in limited ceasefires covering grain and energy-related targets. Russia had not publicly confirmed readiness for such arrangements. Ukrainian President Volodymyr Zelenskiy separately said Kyiv was ready for a Black Sea maritime truce and urged Moscow to respond.",
+        "category": "diplomacy",
+        "title": "Rubio says Russia and Ukraine voiced interest in limited ceasefires",
+        "event_date": "2026-09-23",
+        "candidate_id": "russia-ukraine-limited-ceasefire-interest",
+        "geography": "Russia / Ukraine / United States",
+        "sources": [
+          {
+            "name": "Reuters via Al-Monitor",
+            "url": "https://www.al-monitor.com/originals/2026/09/rubio-says-russia-and-ukraine-have-both-voiced-interest-limited-ceasefire"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/23/zelenskiy-says-ukraine-ready-for-maritime-truce-and-puts-onus-on-russia-to-respond"
+          },
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/zelenskiy-says-ukraine-ready-for-maritime-truce-and-puts-onus-on-russia-to-respond-ce785ad9de80f725"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-23"
+  },
+  "metadata": {
+    "responseId": "resp_0625f3e50a4e4cc9006ab44dacf53887d2b98e4e19dc73e3c5",
+    "requestId": "req_f48799fcd23048f08f305304c1bcc343",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1784,
+    "inputTokens": 50146,
+    "outputTokens": 2539,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-23",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 64484,
+    "attemptDurationMs": 64484,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
