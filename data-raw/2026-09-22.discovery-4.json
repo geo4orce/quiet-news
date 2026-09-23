@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-22",
+  "batch": 4,
+  "captured_at": "2026-09-23T07:08:45.843Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "U.S. President Donald Trump defended the war against Iran in his United Nations General Assembly address and threatened further military action if no agreement was reached. Later, Trump said envoys Steve Witkoff and Jared Kushner held about three hours of indirect talks with Iranian officials through mediators. Few details were disclosed, and no agreement was announced.",
+        "category": "international-relations",
+        "title": "Trump defends Iran war as US and Iran hold indirect talks",
+        "event_date": "2026-09-22",
+        "candidate_id": "trump-un-address-iran-war",
+        "geography": "United Nations / United States / Iran",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/trump-united-nations-unga-iran-ai-f7cb0b3ebc492446c0be97ed3a6843aa"
+          },
+          {
+            "name": "Associated Press live updates",
+            "url": "https://apnews.com/live/trump-unga-xi-ai-news-updates-9-22-2026"
+          },
+          {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/09/22/unga-iran-us-trump-war"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-22"
+  },
+  "metadata": {
+    "responseId": "resp_069c3da401bdc2c6006ab37abcbc4487d29607fe5e11163ea6",
+    "requestId": "req_208c14c2c7844d49a07583f28f83479a",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1916,
+    "inputTokens": 91077,
+    "outputTokens": 2180,
+    "webSearchCalls": 10,
+    "stage": "discovery",
+    "targetDate": "2026-09-22",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 68985,
+    "attemptDurationMs": 68985,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
