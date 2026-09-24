@@ -453,10 +453,10 @@
         "request": {
           "fingerprint": "5f821432014a011ea4bd873ff9e0fc71c45b913f9d26ab04bf3d0ca026a40745",
           "claimId": "e98fb717-aabd-4b52-aea4-026abd6af286",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-09-24T22:07:35.308Z",
-          "responseId": null
+          "responseId": "resp_0d00635ad9e8fb94006ab59f2b133887d2b0a2978b0e600259"
         },
         "result": null,
         "observedAt": "2026-09-24T22:07:35.224Z"
