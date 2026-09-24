@@ -59,13 +59,121 @@
         "request": {
           "fingerprint": "8bf58b8ae2b5d4aec936ed015ec0dbaa8363ca31d1e147a2010e74fd4f26a7d7",
           "claimId": "07ef58a2-79fc-4948-b9c1-e834fde2b158",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-24T10:07:34.906Z",
           "responseId": "resp_0533269cbce72308006ab4f66a646887d2b28c08a5842aaa9e"
         },
-        "result": null,
-        "observedAt": "2026-09-24T10:07:34.837Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "A federal judge temporarily ordered the Trump administration to restore White House access for CNN, MS NOW and Politico. U.S. District Judge Timothy Kelly said the outlets were likely to succeed on claims that the ban violated constitutional protections, including due-process requirements. The temporary restraining order was issued for 14 days while the case proceeds.",
+                "category": "Law and justice",
+                "title": "Judge temporarily blocks White House ban on three news outlets",
+                "event_date": "2026-09-24",
+                "candidate_id": "white-house-media-access-order",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "The Guardian",
+                    "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban"
+                  },
+                  {
+                    "name": "CNN via ABC17 News",
+                    "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/09/24/judge-orders-trump-administration-to-restore-white-house-access-to-cnn-ms-now-and-politico/"
+                  }
+                ]
+              },
+              {
+                "summary": "Morocco's Authenticity and Modernity Party won 97 of 395 parliamentary seats, the largest total in official preliminary results announced by Interior Minister Abdelouafi Laftit. The National Rally of Independents won 66 seats and the Istiqlal Party 65. Turnout was reported at 38.02%, and no party secured a majority, requiring negotiations over a governing coalition.",
+                "category": "Politics",
+                "title": "PAM leads Morocco's preliminary parliamentary election results",
+                "event_date": "2026-09-24",
+                "candidate_id": "morocco-parliament-election-results-2026",
+                "geography": "Morocco",
+                "sources": [
+                  {
+                    "name": "Reuters via Yahoo",
+                    "url": "https://currently.att.yahoo.com/att/pam-party-wins-most-seats-035724391.html"
+                  }
+                ]
+              },
+              {
+                "summary": "An Indonesian appeals court reduced Gojek co-founder and former education minister Nadiem Makarim's prison sentence from 10 years to nine years in a corruption case involving the procurement of Chromebooks for schools. Judges rejected his request to dismiss the charges but reduced the restitution ordered from 809 billion rupiah to 548 billion rupiah. Makarim said he would appeal to the Supreme Court.",
+                "category": "Law and justice",
+                "title": "Indonesian court reduces Nadiem Makarim's corruption sentence",
+                "event_date": "2026-09-24",
+                "candidate_id": "indonesia-makarim-appeal-sentence",
+                "geography": "Indonesia",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Indonesia%2Bcourt%2Breduces%2BGojek%2Bfounder%27s%2Bsentence%2Bto%2B9%2Byears%2Bin%2Bappeal%2Bhearing/27097903.html"
+                  },
+                  {
+                    "name": "Reuters Connect",
+                    "url": "https://www.reutersconnect.com/item/indonesia-court-reduces-gojek-founders-sentence-to-9-years-in-appeal-hearing/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMklQTkFOWE1ONA"
+                  }
+                ]
+              },
+              {
+                "summary": "Polish Deputy Prime Minister Krzysztof Gawkowski said authorities suspected that a fire at a Starlink ground station in central Poland was deliberate sabotage intended to disrupt connectivity, including service used by Ukraine. The fire occurred Wednesday evening and affected the station's power equipment and generator, but service was restored. Gawkowski said responsibility had not been established and did not definitively attribute the incident to Russia.",
+                "category": "Security",
+                "title": "Poland suspects sabotage in fire at Starlink station",
+                "event_date": "2026-09-24",
+                "candidate_id": "poland-starlink-station-sabotage-suspicion",
+                "geography": "Poland",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/24/poland-suspects-fire-at-starlink-station-was-act-of-sabotage"
+                  }
+                ]
+              },
+              {
+                "summary": "Pakistan said it struck 10 locations in Afghanistan that it alleged were used to launch and store drones deployed against Pakistan a day earlier. Afghanistan's Taliban government denied launching the drones and said the strikes in Kandahar, Paktia and Khost provinces killed four civilians. The casualty claim and the competing accounts were not independently verified.",
+                "category": "Conflict",
+                "title": "Pakistan strikes sites in Afghanistan after alleged drone attacks",
+                "event_date": "2026-09-24",
+                "candidate_id": "pakistan-afghanistan-drone-site-strikes",
+                "geography": "Pakistan and Afghanistan",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Pakistan%2Bair%2Bstrikes%2Bkill%2B4%2Bcivilians%2Bin%2BAfghanistan%2C%2BKabul%2Bsays/27097848.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-24"
+          },
+          "metadata": {
+            "responseId": "resp_0533269cbce72308006ab4f66a646887d2b28c08a5842aaa9e",
+            "requestId": "req_e958bacad7704457998c067806a9212f",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 3056,
+            "inputTokens": 48322,
+            "outputTokens": 3864,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-24",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 78889,
+            "attemptDurationMs": 78889,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-24T10:07:34.837Z",
+        "capturedAt": "2026-09-24T10:08:53.795Z"
       }
     ],
     "sift": null
