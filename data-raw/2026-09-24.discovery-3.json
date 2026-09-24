@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-24",
+  "batch": 3,
+  "captured_at": "2026-09-24T22:08:23.338Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "U.S. and Iranian negotiators in New York were exploring a phased arrangement under which Iran would reopen the Strait of Hormuz and the United States would lift its economic blockade, sources close to the talks told Reuters. A senior Iranian official said access to frozen assets could also be involved. No agreement had been reached, and sources said neither side wanted to relinquish its leverage first.",
+        "category": "Diplomacy",
+        "title": "U.S. and Iran discuss phased Hormuz and blockade arrangement",
+        "event_date": "2026-09-24",
+        "candidate_id": "us-iran-hormuz-blockade-talks",
+        "geography": "United States and Iran",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say-ce785aded08ff621"
+          },
+          {
+            "name": "Reuters via Business Recorder",
+            "url": "https://www.brecorder.com/news/40441069/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say"
+          }
+        ]
+      },
+      {
+        "summary": "The Federal Reserve requested public comment on two proposals for payment-stablecoin issuers under its supervision. One would require eligible reserve assets, standardized capital requirements and risk-management standards, while the other would establish an application process for supervised banks seeking to issue stablecoins through subsidiaries. The proposals remain pending, with comments due 60 days after publication in the Federal Register.",
+        "category": "Economy",
+        "title": "Federal Reserve proposes stablecoin regulatory framework",
+        "event_date": "2026-09-24",
+        "candidate_id": "federal-reserve-stablecoin-framework-proposals",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Federal Reserve Board",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm"
+          },
+          {
+            "name": "Federal Reserve Governor Michael Barr",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/barr-statement-20260924.htm"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-24"
+  },
+  "metadata": {
+    "responseId": "resp_0d00635ad9e8fb94006ab59f2b133887d2b0a2978b0e600259",
+    "requestId": "req_28f609ca56984e5b8ecab315e6d401ea",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1443,
+    "inputTokens": 60864,
+    "outputTokens": 1787,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-24",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 48030,
+    "attemptDurationMs": 48030,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
