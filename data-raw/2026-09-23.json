@@ -434,12 +434,101 @@
       "request": {
         "fingerprint": "c574149b704615710a7916640e4ef916c57166124c4b2479c36726d38cdb61f4",
         "claimId": "2fb15df5-51f1-44cd-aff4-a8dd2712aba6",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-24T08:07:35.919Z",
         "responseId": "resp_082dd29a396a2ca3006ab4da4b780c87d2bcde71feb4881b21"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "iran-pezeshkian-un-wartime-address",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "morocco-parliamentary-election-voting",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "russia-ukraine-limited-ceasefire-interest",
+              "code": "weak_support"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Tigrayan forces seized federally controlled airports as renewed fighting with Ethiopia’s federal government spread into the neighboring Afar and Amhara regions, where allied armed groups were also involved. Ethiopian Airlines suspended regional flights.\n\nTigray’s leaders described the fighting as a defensive war. An adviser to Prime Minister Abiy Ahmed and another senior Ethiopian official called it a major Tigrayan offensive. The federal government did not respond to requests for comment, while the African Union called for immediate de-escalation and direct talks.",
+              "candidate_id": "ethiopia-tigray-renewed-war",
+              "headline": "Fighting in Ethiopia spreads beyond Tigray",
+              "sources": [
+                {
+                  "name": "Reuters via MarketScreener",
+                  "url": "https://www.marketscreener.com/news/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts-ce785ad9da8df02c"
+                },
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/23/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts"
+                },
+                {
+                  "name": "Euronews",
+                  "url": "https://www.euronews.com/2026/09/23/tigray-rebels-seize-airport-and-clash-with-federal-forces-as-fighting-in-ethiopia-reignite"
+                }
+              ]
+            },
+            {
+              "body": "A New York judge sentenced former film producer Harvey Weinstein to 15 years in prison for a criminal sexual act against former production assistant Miriam Haley in 2006.\n\nThe sentence followed a retrial ordered after New York’s highest court overturned his original conviction in 2024. Weinstein has indicated that he will appeal.",
+              "candidate_id": "harvey-weinstein-new-york-sentence",
+              "headline": "Harvey Weinstein sentenced to 15 years",
+              "sources": [
+                {
+                  "name": "Associated Press via ABC News",
+                  "url": "https://www-cdn.abcnews.com/Entertainment/wireStory/harvey-weinstein-set-sentenced-sexual-assault-after-6-136673491"
+                },
+                {
+                  "name": "Bloomberg Law",
+                  "url": "https://news.bloomberglaw.com/white-collar-and-criminal-law/harvey-weinstein-sentenced-to-15-years-for-ny-sexual-assault"
+                }
+              ]
+            },
+            {
+              "body": "The United States and China agreed to keep their existing trade truce in place through January 10, extending it from its scheduled November 10 expiration, Treasury Secretary Scott Bessent said.\n\nBessent announced the extension after meeting Chinese Vice Premier He Lifeng in Washington, ahead of a summit between Presidents Donald Trump and Xi Jinping. Detailed terms were not immediately published.",
+              "candidate_id": "us-china-trade-truce-extension",
+              "headline": "U.S. and China extend trade truce",
+              "sources": [
+                {
+                  "name": "Reuters via MarketScreener",
+                  "url": "https://www.marketscreener.com/news/us-china-agree-to-extend-the-busan-agreement-until-january-bessent-says-ce785aded88ef52c"
+                },
+                {
+                  "name": "Reuters via AOL",
+                  "url": "https://www.aol.com/articles/us-china-agree-extend-busan-222217000.html"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_082dd29a396a2ca3006ab4da4b780c87d2bcde71feb4881b21",
+          "requestId": "req_38e7502b37604d459361cd00fbafb574",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 387,
+          "inputTokens": 2702,
+          "outputTokens": 1141,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-23",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 21702,
+          "attemptDurationMs": 21702,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
