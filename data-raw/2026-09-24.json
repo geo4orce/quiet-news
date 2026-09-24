@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-24",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Fighting in Ethiopia spreads beyond Tigray",
+            "body": "Tigrayan forces seized federally controlled airports as renewed fighting with Ethiopia’s federal government spread into the neighboring Afar and Amhara regions, where allied armed groups were also involved. Ethiopian Airlines suspended regional flights.\n\nTigray’s leaders described the fighting as a defensive war. An adviser to Prime Minister Abiy Ahmed and another senior Ethiopian official called it a major Tigrayan offensive. The federal government did not respond to requests for comment, while the African Union called for immediate de-escalation and direct talks.",
+            "sources": [
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts-ce785ad9da8df02c"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/23/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts"
+              },
+              {
+                "name": "Euronews",
+                "url": "https://www.euronews.com/2026/09/23/tigray-rebels-seize-airport-and-clash-with-federal-forces-as-fighting-in-ethiopia-reignite"
+              }
+            ]
+          },
+          {
+            "headline": "Harvey Weinstein sentenced to 15 years",
+            "body": "A New York judge sentenced former film producer Harvey Weinstein to 15 years in prison for a criminal sexual act against former production assistant Miriam Haley in 2006.\n\nThe sentence followed a retrial ordered after New York’s highest court overturned his original conviction in 2024. Weinstein has indicated that he will appeal.",
+            "sources": [
+              {
+                "name": "Associated Press via ABC News",
+                "url": "https://www-cdn.abcnews.com/Entertainment/wireStory/harvey-weinstein-set-sentenced-sexual-assault-after-6-136673491"
+              },
+              {
+                "name": "Bloomberg Law",
+                "url": "https://news.bloomberglaw.com/white-collar-and-criminal-law/harvey-weinstein-sentenced-to-15-years-for-ny-sexual-assault"
+              }
+            ]
+          },
+          {
+            "headline": "U.S. and China extend trade truce",
+            "body": "The United States and China agreed to keep their existing trade truce in place through January 10, extending it from its scheduled November 10 expiration, Treasury Secretary Scott Bessent said.\n\nBessent announced the extension after meeting Chinese Vice Premier He Lifeng in Washington, ahead of a summit between Presidents Donald Trump and Xi Jinping. Detailed terms were not immediately published.",
+            "sources": [
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/us-china-agree-to-extend-the-busan-agreement-until-january-bessent-says-ce785aded88ef52c"
+              },
+              {
+                "name": "Reuters via AOL",
+                "url": "https://www.aol.com/articles/us-china-agree-extend-busan-222217000.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "8bf58b8ae2b5d4aec936ed015ec0dbaa8363ca31d1e147a2010e74fd4f26a7d7",
+          "claimId": "07ef58a2-79fc-4948-b9c1-e834fde2b158",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-09-24T10:07:34.906Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-09-24T10:07:34.837Z"
+      }
+    ],
+    "sift": null
+  }
+}
