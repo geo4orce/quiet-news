@@ -309,13 +309,101 @@
         "request": {
           "fingerprint": "3311bebd898986a33a88835e6bd29fb2c71f89833e1436ff5681aed8676e22c6",
           "claimId": "640a4213-07e9-4047-82e0-baa135d6c140",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-24T07:07:32.746Z",
           "responseId": "resp_0798c5ed979ad6c5006ab4cc38774487d2ba8f44c85c46f438"
         },
-        "result": null,
-        "observedAt": "2026-09-24T07:07:32.669Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Authenticity and Modernity Party won 97 of 395 seats in Morocco’s parliamentary election, the largest total, according to official preliminary results announced by the interior minister. Its outgoing coalition partners, the National Rally of Independents and Istiqlal Party, won 66 and 65 seats respectively. Voting took place September 23; the results remain provisional.",
+                "category": "politics",
+                "title": "PAM leads Morocco’s parliamentary election with 97 seats",
+                "event_date": "2026-09-23",
+                "candidate_id": "morocco-parliamentary-election-voting",
+                "geography": "Morocco",
+                "sources": [
+                  {
+                    "name": "Reuters via Fidelity",
+                    "url": "https://www.fidelity.com/news/article/default/202609232356RTRSNEWSCOMBINED_KBN3VA0A4-OUSWD_1"
+                  },
+                  {
+                    "name": "Al Jazeera Arabic",
+                    "url": "https://www.aljazeera.net/news/2026/9/24/%D8%B9%D8%A7%D8%AC%D9%84-%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B5%D8%AF%D8%B1-%D8%AD%D8%B2%D8%A8"
+                  }
+                ]
+              },
+              {
+                "summary": "Tigray’s regional leaders said their forces had entered a defensive war against Ethiopia’s federal government, while an adviser to Prime Minister Abiy Ahmed and a senior Ethiopian official described the operations as a major Tigrayan offensive. Tigrayan forces seized federally controlled airports, and fighting spread into Afar and Amhara alongside allied armed groups. Ethiopian Airlines suspended regional flights. Federal government spokespeople did not respond to requests for comment, and the African Union urged immediate de-escalation and direct talks.",
+                "category": "conflict",
+                "title": "Renewed Ethiopia-Tigray fighting spreads into neighboring regions",
+                "event_date": "2026-09-23",
+                "candidate_id": "ethiopia-tigray-renewed-war",
+                "geography": "Ethiopia",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts-ce785ad9da8df02c"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/23/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts"
+                  },
+                  {
+                    "name": "Euronews",
+                    "url": "https://www.euronews.com/2026/09/23/tigray-rebels-seize-airport-and-clash-with-federal-forces-as-fighting-in-ethiopia-reignite"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. Treasury Secretary Scott Bessent said the United States and China agreed to extend their existing trade truce, known as the Busan Agreement, from its scheduled November 10 expiration through January 10. Bessent announced the extension after meeting Chinese Vice Premier He Lifeng in Washington ahead of a summit between Presidents Donald Trump and Xi Jinping. Detailed terms of the extension were not immediately published.",
+                "category": "trade",
+                "title": "United States and China extend trade truce through January 10",
+                "event_date": "2026-09-23",
+                "candidate_id": "us-china-trade-truce-extension",
+                "geography": "United States / China",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/us-china-agree-to-extend-the-busan-agreement-until-january-bessent-says-ce785aded88ef52c"
+                  },
+                  {
+                    "name": "Reuters via AOL",
+                    "url": "https://www.aol.com/articles/us-china-agree-extend-busan-222217000.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-23"
+          },
+          "metadata": {
+            "responseId": "resp_0798c5ed979ad6c5006ab4cc38774487d2ba8f44c85c46f438",
+            "requestId": "req_f41c076ec8714396a288ad087451d8e1",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1745,
+            "inputTokens": 81055,
+            "outputTokens": 2620,
+            "webSearchCalls": 9,
+            "stage": "discovery",
+            "targetDate": "2026-09-23",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 105822,
+            "attemptDurationMs": 105822,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-24T07:07:32.669Z",
+        "capturedAt": "2026-09-24T07:09:18.569Z"
       }
     ],
     "sift": null
