@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-25",
+  "batch": 3,
+  "captured_at": "2026-09-25T22:08:15.680Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Russian drone and missile strikes killed seven people in Kyiv on September 25, according to a later Reuters report, raising the earlier reported toll of five. Ukrainian authorities had said a 14-year-old boy was killed when a jet-powered drone struck a residential high-rise and that other victims were recovered after a separate strike on an office building. Russia said it targeted military-linked facilities.",
+        "category": "conflict",
+        "title": "Reported death toll from Russian strikes on Kyiv rises to seven",
+        "event_date": "2026-09-25",
+        "candidate_id": "kyiv-drone-strike-sept-25",
+        "geography": "Kyiv, Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/putin-says-all-ukraine-peace-proposals-on-table-but-russia-must-weigh-its-interests-4917941"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/russian-drone-hits-central-kyiv-killing-a-child-injuring-at-least-seven-people-ukrainian-officials-say"
+          },
+          {
+            "name": "Ukrinform",
+            "url": "https://www.ukrinform.net/amp/rubric-ato/4167880-injury-toll-after-drone-attack-on-kyiv-rises-to-nine-14year-old-boy-killed.html"
+          }
+        ]
+      },
+      {
+        "summary": "Colombia extradited Geovany Andres Rojas, known as “Spider,” to the United States, three police sources told Reuters. U.S. prosecutors accuse Rojas, an alleged leader of a dissident former FARC faction operating in Colombia and Ecuador, of drug trafficking and criminal conspiracy. Reuters described the transfer as the first extradition of a senior armed-group commander under President Abelardo De La Espriella.",
+        "category": "law and justice",
+        "title": "Colombia extradites alleged FARC dissident commander to US",
+        "event_date": "2026-09-25",
+        "candidate_id": "colombia-rojas-extradition-us",
+        "geography": "Colombia; United States; Ecuador",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/colombia-extradites-first-major-rebel-commander-to-us-under-new-president-sources-say-4918054"
+          }
+        ]
+      },
+      {
+        "summary": "Documents reviewed by Reuters supported hackers’ claims that data stolen from the FBI included psychiatric and other medical evaluation records belonging to personnel. The ShinyHunters group had announced the breach earlier in the week and claimed to have stolen two to three terabytes through FBIjobs.gov. The FBI declined to discuss the records and said it was investigating the reported breach.",
+        "category": "cybersecurity",
+        "title": "Stolen FBI personnel data includes medical records, Reuters reports",
+        "event_date": "2026-09-25",
+        "candidate_id": "fbi-shinyhunters-medical-records",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/exclusiveshinyhunters-hackers-say-they-stole-psychiatric-and-medical-records-of-fbi-staff-4918115"
+          }
+        ]
+      },
+      {
+        "summary": "Pope Leo, speaking at UNESCO headquarters during a visit to France, said the United Nations and other multilateral institutions faced a crisis of effectiveness and criticized leaders who apply the rule of law selectively. Earlier, he warned French officials that artificial intelligence required ethical safeguards. He also visited Notre-Dame, the first papal visit to the restored cathedral since its 2019 fire.",
+        "category": "religion",
+        "title": "Pope Leo warns of crisis in multilateral institutions during France visit",
+        "event_date": "2026-09-25",
+        "candidate_id": "pope-leo-france-unesco-speech",
+        "geography": "Paris, France; Vatican City",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/pope-leo-arrives-in-france-with-ai-apologies-for-clergy-abuse-on-agenda-4916996"
+          }
+        ]
+      },
+      {
+        "summary": "A senior Iranian official told Reuters that Iran would not concede its asserted nuclear rights, including uranium enrichment or shipping highly enriched uranium abroad, even if the United States accepted Tehran’s proposal for reopening the Strait of Hormuz. The official said the strait would remain closed until Iran’s conditions, including relief from a U.S. naval blockade and oil sanctions, were met.",
+        "category": "international relations",
+        "title": "Iranian official rules out nuclear concessions in Strait of Hormuz proposal",
+        "event_date": "2026-09-25",
+        "candidate_id": "iran-nuclear-hormuz-concessions",
+        "geography": "Iran; United States; Strait of Hormuz",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/iran-will-make-no-nuclear-concessions-iranian-official-says-4917912"
+          }
+        ]
+      },
+      {
+        "summary": "Russian President Vladimir Putin said proposals for settling the war in Ukraine remained under consideration but that Russia would assess its interests after recent Ukrainian attacks. He said Moscow had been prepared to resume negotiations after Russia’s parliamentary elections, while also threatening a sustained response. Ukraine has said its attacks on Russia answer strikes on Ukrainian civilians and infrastructure and has called for direct talks.",
+        "category": "diplomacy",
+        "title": "Putin says Ukraine peace proposals remain under consideration",
+        "event_date": "2026-09-25",
+        "candidate_id": "putin-ukraine-peace-proposals-sept-25",
+        "geography": "Russia; Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/putin-says-all-ukraine-peace-proposals-on-table-but-russia-must-weigh-its-interests-4917941"
+          }
+        ]
+      },
+      {
+        "summary": "The United Arab Emirates, Oman and Iraq barred Iranian airlines in response to new U.S. sanctions, Reuters reported. Mohammad Mokhber, an adviser to Iran’s supreme leader, threatened that other countries in the region could also lose access to flights and airport services if restrictions on Iran continued. The measures came amid escalating Houthi attacks on Saudi Arabia and continuing regional conflict.",
+        "category": "international relations",
+        "title": "Regional countries restrict Iranian flights after US sanctions",
+        "event_date": "2026-09-25",
+        "candidate_id": "iran-airline-regional-restrictions",
+        "geography": "Iran; United Arab Emirates; Oman; Iraq; Middle East",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/allies-unite-behind-saudi-arabia-as-houthis-step-up-attacks-4916528"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-25"
+  },
+  "metadata": {
+    "responseId": "resp_09ae757bf7350113006ab6f0ab690c87d2aea0dcc7a0158853",
+    "requestId": "req_10e43924891e42df813ea617012a2b2e",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1841,
+    "inputTokens": 62179,
+    "outputTokens": 3123,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-25",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 40543,
+    "attemptDurationMs": 40543,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
