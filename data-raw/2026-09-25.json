@@ -47,13 +47,131 @@
         "request": {
           "fingerprint": "6e12108e1dbce504e62e256719846b67e215a7f4fd8e0ecd233aaac1090ca567",
           "claimId": "875dc84e-2bb2-4c04-83e1-7300c0415f87",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-25T10:07:30.027Z",
           "responseId": "resp_08081306e3dbcef3006ab647e514f087d28fc6e6ef301e6ca7"
         },
-        "result": null,
-        "observedAt": "2026-09-25T10:07:29.972Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Philippine President Ferdinand Marcos Jr. announced that he had signed a pardon for Mary Jane Veloso, who was imprisoned in the Philippines after Indonesia transferred her there in 2024. Veloso had received a last-minute reprieve from execution in Indonesia in 2015 after being convicted of drug trafficking; she maintained that she was an unwitting courier.",
+                "category": "law and justice",
+                "title": "Philippine president announces pardon for Mary Jane Veloso",
+                "event_date": "2026-09-25",
+                "candidate_id": "philippines-veloso-pardon",
+                "geography": "Philippines",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/philippine-president-pardons-drug-convict-mary-jane-veloso-ce785adfdb80f322"
+                  }
+                ]
+              },
+              {
+                "summary": "Taiwan's Foreign Ministry rejected Chinese President Xi Jinping's remarks to U.S. President Donald Trump about Taiwan's future, calling them a distortion and saying Taiwan's future can be determined only by its people. Xi had told Trump during their September 24 meeting that China sought U.S. opposition to Taiwan independence.",
+                "category": "international relations",
+                "title": "Taiwan rejects Xi's comments about island's future",
+                "event_date": "2026-09-25",
+                "candidate_id": "taiwan-rejects-xi-comments",
+                "geography": "Taiwan; China; United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/taiwan-denounces-xis-comments-to-trump-as-distortion-of-facts-4916719"
+                  }
+                ]
+              },
+              {
+                "summary": "A Russian drone struck a 16-story residential building in Kyiv's Pecherskyi district, killing a 14-year-old boy. Kyiv authorities said nine people were injured, eight of whom were hospitalized. Ukrainian officials also reported damage and casualties from Russian strikes elsewhere; Russia said it targeted defense-industry and military logistics sites.",
+                "category": "conflict",
+                "title": "Russian drone strike on Kyiv apartment building kills teenager",
+                "event_date": "2026-09-25",
+                "candidate_id": "kyiv-drone-strike-sept-25",
+                "geography": "Kyiv, Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Russian%2Bdrone%2Bhits%2Bcentral%2BKyiv%2Bkilling%2Ba%2Bchild%2C%2Binjuring%2Bat%2Bleast%2Bseven%2Bpeople%2C%2BUkrainian%2Bofficials%2Bsay/27103405.html"
+                  },
+                  {
+                    "name": "Ukrinform",
+                    "url": "https://www.ukrinform.net/amp/rubric-ato/4167880-injury-toll-after-drone-attack-on-kyiv-rises-to-nine-14year-old-boy-killed.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Russian officials said overnight Ukrainian drone attacks killed two people and injured others across several regions. Officials reported damage that temporarily halted operations at the Novoshakhtinsk oil refinery and damage to a passenger train in the Samara region. Russia's Defense Ministry said air defenses destroyed 592 drones; Reuters could not independently verify the accounts, and Ukraine did not immediately comment.",
+                "category": "conflict",
+                "title": "Russian officials report deaths and infrastructure damage in Ukrainian drone attacks",
+                "event_date": "2026-09-25",
+                "candidate_id": "ukraine-drone-attacks-russia-sept-25",
+                "geography": "Russia",
+                "sources": [
+                  {
+                    "name": "Reuters via Cyprus Mail",
+                    "url": "https://www.cyprus-mail.com/2026/09/25/ukraine-kills-two-in-drone-attacks-on-russia-hits-oil-refinery-and-train"
+                  }
+                ]
+              },
+              {
+                "summary": "ArcelorMittal said it expected to record a non-cash impairment charge of about $1 billion after informing Ukraine's government that it could not safely and sustainably restart operations at its Kryvyi Rih unit following repeated missile strikes.",
+                "category": "business",
+                "title": "ArcelorMittal expects $1 billion charge for Ukrainian operations",
+                "event_date": "2026-09-25",
+                "candidate_id": "arcelormittal-ukraine-impairment",
+                "geography": "Ukraine; Luxembourg",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/arcelormittal-to-book-1-billion-charge-after-missile-strikes-in-ukraine-ce785adfda8ef42c"
+                  }
+                ]
+              },
+              {
+                "summary": "The Philippine Coast Guard accused Chinese coast guard and naval vessels of obstructing a September 24 resupply mission to Philippine troops at Second Thomas Shoal and said the interference endangered personnel. It reported no collision or injuries but said the mission was not completed. China's embassy did not immediately respond to Reuters.",
+                "category": "international relations",
+                "title": "Philippines accuses China of obstructing Second Thomas Shoal resupply mission",
+                "event_date": "2026-09-25",
+                "candidate_id": "philippines-china-resupply-accusation",
+                "geography": "South China Sea; Philippines; China",
+                "sources": [
+                  {
+                    "name": "Reuters via Yahoo",
+                    "url": "https://currently.att.yahoo.com/att/philippines-accuses-china-obstructing-resupply-061423800.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-25"
+          },
+          "metadata": {
+            "responseId": "resp_08081306e3dbcef3006ab647e514f087d28fc6e6ef301e6ca7",
+            "requestId": "req_ca8af7088cde4bc99870d24e72932ece",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2039,
+            "inputTokens": 56214,
+            "outputTokens": 2831,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-25",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 57983,
+            "attemptDurationMs": 57983,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-25T10:07:29.972Z",
+        "capturedAt": "2026-09-25T10:08:28.011Z"
       }
     ],
     "sift": null
