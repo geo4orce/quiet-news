@@ -860,12 +860,141 @@
       "request": {
         "fingerprint": "e59cc1cf794e569c2c8514c610f1d0efae9f11ae1f2aa1188bec1561262d9803",
         "claimId": "a716203e-e59b-4460-993c-ef02ecf7f23d",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-25T08:07:31.770Z",
         "responseId": "resp_059694eecf77f840006ab62bc6ae8887d2ba017d84be49fa29"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "belarus-lukashenko-pardons-15",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "federal-reserve-stablecoin-framework-proposals",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "imf-loan-program-design-review",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "indonesia-makarim-appeal-sentence",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "kazakhstan-caspian-military-exercise-deaths",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "morocco-parliament-election-results-2026",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "netanyahu-un-address-delegate-walkout",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "new-york-polymarket-competing-lawsuits",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "philippines-marcos-pardons-mary-jane-veloso",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "poland-starlink-station-sabotage-suspicion",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "russia-ukraine-strikes-eight-killed",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "saudi-turkey-pakistan-defence-pact-meeting",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "saudi-yanbu-greek-patriot-interceptions",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-xi-white-house-summit-2026",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "us-iran-hormuz-blockade-talks",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-jobless-claims-september-19",
+              "code": "incremental_update"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Pakistan said it struck 10 sites in Afghanistan that it described as drone launch and storage facilities, a day after drones were allegedly used against Pakistan.\n\nAfghanistan’s Taliban government denied launching the drones and said the strikes in Kandahar, Paktia and Khost provinces killed four civilians. The casualty count and the two governments’ competing accounts were not independently verified.",
+              "candidate_id": "pakistan-afghanistan-drone-site-strikes",
+              "headline": "Pakistan strikes 10 sites in Afghanistan",
+              "sources": [
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/Pakistan%2Bair%2Bstrikes%2Bkill%2B4%2Bcivilians%2Bin%2BAfghanistan%2C%2BKabul%2Bsays/27097848.html"
+                }
+              ]
+            },
+            {
+              "body": "The yield on the 30-year U.S. Treasury bond climbed above 5.45%, its highest level since 2004. The benchmark 10-year yield reached about 5.16%. Bond yields rise as prices fall.\n\nThe selloff extended across major government-bond markets as investors weighed strong economic growth, elevated public debt, higher energy costs and inflation risks.",
+              "candidate_id": "us-treasury-yields-september-24-2026",
+              "headline": "30-year Treasury yield reaches 22-year high",
+              "sources": [
+                {
+                  "name": "Reuters via MarketScreener",
+                  "url": "https://www.marketscreener.com/news/u-s-30-year-bond-yield-rises-to-highest-since-2004-as-selloff-deepens-ce785adedd80f12c"
+                }
+              ]
+            },
+            {
+              "body": "The White House reinstated journalists from CNN, MS NOW and Politico after a federal judge ordered their access restored. Some remained barred for several hours before the administration said their badges had been delivered to an entry gate by 9:55 a.m.\n\nThe judge’s temporary restraining order remains in effect for 14 days while the outlets’ lawsuit proceeds.",
+              "candidate_id": "white-house-media-access-order",
+              "headline": "White House restores three outlets’ press access",
+              "sources": [
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/White%2BHouse%2Breinstates%2Baccess%2Bto%2BCNN%2C%2BMS%2BNOW%2Band%2BPolitico%2Bfollowing%2Bjudge%27s%2Border/27099231.html"
+                },
+                {
+                  "name": "The Guardian",
+                  "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_059694eecf77f840006ab62bc6ae8887d2ba017d84be49fa29",
+          "requestId": "req_5b171fbe72b640559862eb5d577932b8",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 2070,
+          "inputTokens": 5616,
+          "outputTokens": 2991,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-24",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 46934,
+          "attemptDurationMs": 46934,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
