@@ -215,10 +215,10 @@
         "request": {
           "fingerprint": "60678cc50d891368bebd0b0bee24d0ecf06e6ae7ebcd9c5a67e25eb4b10e02a8",
           "claimId": "d685bcd5-136b-45f0-8a57-91257c881a11",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-09-25T16:07:36.787Z",
-          "responseId": null
+          "responseId": "resp_0b207082523b5f0d006ab69c4cee3887d2a1ae8b23679638c3"
         },
         "result": null,
         "observedAt": "2026-09-25T16:07:36.714Z"
