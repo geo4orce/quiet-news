@@ -860,10 +860,10 @@
       "request": {
         "fingerprint": "e59cc1cf794e569c2c8514c610f1d0efae9f11ae1f2aa1188bec1561262d9803",
         "claimId": "a716203e-e59b-4460-993c-ef02ecf7f23d",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-09-25T08:07:31.770Z",
-        "responseId": null
+        "responseId": "resp_059694eecf77f840006ab62bc6ae8887d2ba017d84be49fa29"
       },
       "result": null
     }
