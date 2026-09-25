@@ -215,13 +215,177 @@
         "request": {
           "fingerprint": "60678cc50d891368bebd0b0bee24d0ecf06e6ae7ebcd9c5a67e25eb4b10e02a8",
           "claimId": "d685bcd5-136b-45f0-8a57-91257c881a11",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-25T16:07:36.787Z",
           "responseId": "resp_0b207082523b5f0d006ab69c4cee3887d2a1ae8b23679638c3"
         },
-        "result": null,
-        "observedAt": "2026-09-25T16:07:36.714Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "ArcelorMittal said it was shutting production at its Kryvyi Rih steel plant after four strikes in five weeks caused extensive damage and killed five workers. The company said safe and sustainable operations were no longer possible, expected a roughly $1 billion non-cash impairment charge and was discussing preservation of the site with Ukraine's government.",
+                "category": "business",
+                "title": "ArcelorMittal shuts production at Ukrainian steel plant",
+                "event_date": "2026-09-25",
+                "candidate_id": "arcelormittal-ukraine-impairment",
+                "geography": "Kryvyi Rih, Ukraine; Luxembourg",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/russian-drone-hits-central-kyiv-killing-a-child-injuring-at-least-seven-people-ukrainian-officials-say"
+                  },
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/arcelormittal-to-book-1-billion-charge-after-missile-strikes-in-ukraine-ce785adfda8ef42c"
+                  }
+                ]
+              },
+              {
+                "summary": "Russian strikes killed five people in Kyiv, Ukrainian authorities said. A jet-powered drone that hit a residential high-rise killed a 14-year-old boy, while four bodies were later recovered from a parking area after a separate daytime strike on an office building. Mayor Vitali Klitschko said seven people were wounded in the later attack. Russia said it targeted military-linked facilities.",
+                "category": "conflict",
+                "title": "Russian strikes kill five people in Kyiv",
+                "event_date": "2026-09-25",
+                "candidate_id": "kyiv-drone-strike-sept-25",
+                "geography": "Kyiv, Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/russian-drone-hits-central-kyiv-killing-a-child-injuring-at-least-seven-people-ukrainian-officials-say"
+                  },
+                  {
+                    "name": "Ukrinform",
+                    "url": "https://www.ukrinform.net/amp/rubric-ato/4167880-injury-toll-after-drone-attack-on-kyiv-rises-to-nine-14year-old-boy-killed.html"
+                  }
+                ]
+              },
+              {
+                "summary": "The United Nations human rights office added 61 companies to its database of businesses linked to Israeli settlements in the occupied West Bank, bringing the total to 214. Israel's diplomatic mission rejected the database as distorted. The UN also removed some companies after finding reasonable grounds to believe they were no longer involved in the activities that led to their inclusion.",
+                "category": "human rights",
+                "title": "UN expands database of companies linked to Israeli settlements",
+                "event_date": "2026-09-25",
+                "candidate_id": "un-west-bank-settlement-company-list",
+                "geography": "West Bank; Israel; United Nations",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/un-expands-list-of-companies-linked-to-israeli-settlements"
+                  }
+                ]
+              },
+              {
+                "summary": "The International Organization for Migration reported that nearly 1.5 million people were internally displaced in Haiti and that almost 80% were now outside Port-au-Prince. It said displacement had risen sharply in Artibonite as armed groups expanded into rural areas, while recent attacks in Kenscoff displaced more than 4,000 people.",
+                "category": "humanitarian crisis",
+                "title": "UN agency says nearly 1.5 million people are displaced in Haiti",
+                "event_date": "2026-09-25",
+                "candidate_id": "haiti-displacement-iom-sept-25",
+                "geography": "Haiti",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/nearly-1-5-million-displaced-in-haiti-as-violence-spreads-un-says"
+                  }
+                ]
+              },
+              {
+                "summary": "Sri Lanka's parliament approved a constitutional amendment extending the tenure of Supreme Court, Appeals Court and High Court judges, including the chief justice, by two years. The government said the measure was intended to help address an estimated backlog of 1.1 million cases; the main opposition argued that it threatened judicial independence.",
+                "category": "government",
+                "title": "Sri Lanka parliament extends senior judges' terms",
+                "event_date": "2026-09-25",
+                "candidate_id": "sri-lanka-judges-term-amendment",
+                "geography": "Sri Lanka",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/sri-lanka-s-parliament-approves-constitutional-amendment-to-extend-judge-terms"
+                  }
+                ]
+              },
+              {
+                "summary": "Internet and telephone service was disrupted in Ethiopia's Tigray region amid renewed fighting involving federal and Tigrayan forces. Sources gave conflicting accounts of responsibility for the shutdown. Ethiopia's military reported hundreds of opposing fighters killed or wounded, while Reuters said it could not independently confirm battlefield claims.",
+                "category": "conflict",
+                "title": "Telecommunications disrupted in Tigray amid renewed fighting",
+                "event_date": "2026-09-25",
+                "candidate_id": "tigray-telecom-disruption-fighting",
+                "geography": "Tigray, Amhara and Afar, Ethiopia",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/internet-and-phone-network-disrupted-in-ethiopia-s-war-hit-tigray-region"
+                  }
+                ]
+              },
+              {
+                "summary": "Police used tear gas and water cannons during nationwide protests by India's opposition Congress party demanding the resignation of Chief Election Commissioner Gyanesh Kumar. Opposition parties accused the commission of manipulating voter lists to benefit the governing BJP; the commission said its actions were lawful, and the BJP denied the allegations.",
+                "category": "politics",
+                "title": "Indian police disperse protests against election commissioner",
+                "event_date": "2026-09-25",
+                "candidate_id": "india-election-commission-protests",
+                "geography": "India",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/indian-police-use-tear-gas-against-protesters-seeking-election-chief-s-ouster"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukrainian President Volodymyr Zelenskiy said the United States had proposed a technical-level trilateral meeting with Ukraine and Russia, with the United Arab Emirates suggested as a possible venue. Zelenskiy said no date had been set. The Kremlin said such a meeting could happen soon.",
+                "category": "diplomacy",
+                "title": "Zelenskiy says US proposed Ukraine-Russia talks in UAE",
+                "event_date": "2026-09-25",
+                "candidate_id": "us-ukraine-russia-uae-meeting-proposal",
+                "geography": "Ukraine; Russia; United States; United Arab Emirates",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/us-proposes-trilateral-meeting-with-ukraine-russia-in-uae-zelenskiy-says-4917267"
+                  }
+                ]
+              },
+              {
+                "summary": "CNN said major U.S. television networks would resume pooled coverage of President Donald Trump's events after CNN's White House access was restored. The television pool had withheld camera coverage in solidarity after CNN, MS NOW and Politico were barred; their credentials were reinstated following a federal judge's temporary order.",
+                "category": "media",
+                "title": "US television networks resume pooled coverage of Trump events",
+                "event_date": "2026-09-25",
+                "candidate_id": "white-house-tv-pool-coverage-resumes",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/tv-networks-to-resume-coverage-of-trump-events-cnn-says"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-25"
+          },
+          "metadata": {
+            "responseId": "resp_0b207082523b5f0d006ab69c4cee3887d2a1ae8b23679638c3",
+            "requestId": "req_9ec10e470bcc49bebc70a21aab3c8f90",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1581,
+            "inputTokens": 55790,
+            "outputTokens": 3055,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-25",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 54052,
+            "attemptDurationMs": 54052,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-25T16:07:36.714Z",
+        "capturedAt": "2026-09-25T16:08:30.839Z"
       }
     ],
     "sift": null
