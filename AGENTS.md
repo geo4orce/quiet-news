@@ -37,8 +37,7 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
   optional static images. The September 11 trial remains accessible at
   `/?date=2026-09-11` after current content expires. No trial banner or visible
   image captions; the footer says "AI-powered daily news. Only what earns your
-  attention." Sources and footer share the muted color and 0.7 opacity,
-  returning to 1 on hover or focus. Missing images must not block text.
+  attention." Missing images must not block text.
   Daily image generation runs after successful text publication, using a separate private QNP prompt. Images display on quietnews.ai, quietnews.dev and localhost; production uses same-origin image files while DEV reads published main images. Keep
   publication data and illustration metadata separate. These reading and
   illustration changes are approved for production; retain the original Q logo.
