@@ -63,10 +63,10 @@
         "request": {
           "fingerprint": "7cbcc589f6e52ea3288f4c2db8c7e1aeebbf75f6a4d0a1dac22794cd8b6653fd",
           "claimId": "9fd4c2b8-d662-48bd-86c4-906ef09e12b4",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-09-26T10:07:35.187Z",
-          "responseId": null
+          "responseId": "resp_07ed6c481c469581006ab7996a7c7087d28c349129da72aeb5"
         },
         "result": null,
         "observedAt": "2026-09-26T10:07:35.123Z"
