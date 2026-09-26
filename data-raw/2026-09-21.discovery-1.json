@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-21",
+  "batch": 1,
+  "captured_at": "2026-09-21T10:08:39.263Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Russia's Central Election Commission said United Russia won 57.83% of the party-list vote after more than 95% of ballots were counted in the parliamentary election. The preliminary result would give the ruling party 355 of the State Duma's 450 seats, preserving its constitutional majority. The election was conducted under tight political controls, with voting also held in Russian-controlled areas of Ukraine that Kyiv and Western governments reject as illegally occupied.",
+        "category": "politics",
+        "title": "United Russia retains constitutional majority in preliminary count",
+        "event_date": "2026-09-21",
+        "candidate_id": "russia-parliamentary-election-results",
+        "geography": "Russia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/5342c2757623f2e46e94b4c548e94213"
+          },
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/russia-s-ruling-pro-putin-party-wins-wartime-election-with-over-57-of-vote-near-complete-results-s-ce785adbda89f724"
+          }
+        ]
+      },
+      {
+        "summary": "China's Foreign Ministry announced that President Xi Jinping will make a state visit to the United States from September 23 through September 25 at President Donald Trump's invitation. The ministry did not provide further itinerary details in its initial announcement.",
+        "category": "diplomacy",
+        "title": "China confirms Xi state visit to United States",
+        "event_date": "2026-09-21",
+        "candidate_id": "china-confirms-xi-us-state-visit",
+        "geography": "China and United States",
+        "sources": [
+          {
+            "name": "Chinese Ministry of Foreign Affairs",
+            "url": "https://www.fmprc.gov.cn/eng/xw/zyxw/202609/t20260921_12027514.html"
+          },
+          {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/east-asia/china-xi-jinping-visit-united-states-trump-summit-6399071"
+          }
+        ]
+      },
+      {
+        "summary": "Typhoon Dujuan brought heavy rain and strong winds to eastern Japan as it approached the Pacific coast. At least 275 flights were canceled, more than 4,000 households in Chiba Prefecture lost power, some railway services were suspended and authorities warned of flooding and landslides. Japan's weather agency said rainfall through Tuesday could exceed the monthly September average in some areas.",
+        "category": "weather",
+        "title": "Typhoon Dujuan disrupts travel and power in eastern Japan",
+        "event_date": "2026-09-21",
+        "candidate_id": "typhoon-dujuan-eastern-japan-disruptions",
+        "geography": "Japan",
+        "sources": [
+          {
+            "name": "CNA",
+            "url": "https://www.channelnewsasia.com/east-asia/japan-typhoon-dujuan-approaches-prompting-flood-landslide-warnings-6398486"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-21"
+  },
+  "metadata": {
+    "responseId": "resp_0327e6c7cf9795b6006ab101e623f087d2b95a6fa41ec19da7",
+    "requestId": "req_8e2e8ccc7d8d441faebd0c34c895771a",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1624,
+    "inputTokens": 62689,
+    "outputTokens": 2199,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-21",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 68279,
+    "attemptDurationMs": 68279,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "edition_date": "2026-09-15",
+  "published_at": "2026-09-16T08:08:50.848Z",
+  "expires_at": "2026-09-17T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "CBO estimates Iran operations cost $38 billion",
+      "body": "The Congressional Budget Office estimated that Defense Department combat operations against Iran cost about $38 billion through August 1 and could add roughly $3 billion a month, depending on the conflict’s intensity.\n\nCBO projected a 0.5% inflation increase in the first quarter of 2027 and said depleted munitions could take five years to replenish. The Pentagon disputed the finding that its stocks were insufficient.",
+      "sources": [
+        {
+          "name": "Congressional Budget Office",
+          "url": "https://www.cbo.gov/topics/defense-and-national-security"
+        },
+        {
+          "name": "Reuters via Internazionale",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/iran-war-cost-hits-38-billion-forecast-to-rise-3-billion-a-month-cbo-says"
+        }
+      ]
+    },
+    {
+      "headline": "Congo Ebola outbreak reaches 7,258 confirmed cases",
+      "body": "Government figures listed 7,258 confirmed Ebola cases and 3,510 deaths across seven provinces in eastern Democratic Republic of Congo, United Nations officials said.\n\nContainment efforts were making progress in some places, but the epidemic was still growing elsewhere. A World Health Organization official said it was too early to conclude that the outbreak had peaked.",
+      "sources": [
+        {
+          "name": "Reuters via Internazionale",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/un-says-ebola-epidemic-still-huge-and-growing"
+        }
+      ]
+    },
+    {
+      "headline": "Hospital failures left infants unprotected from Letby",
+      "body": "A British public inquiry found that failures by senior staff and dysfunctional management at the Countess of Chester Hospital allowed nurse Lucy Letby to harm infants. It concluded that earlier action could have prevented at least two murders.\n\nThe report recommended stronger neonatal safeguards, including protocols for suspected deliberate harm and consideration of cameras in cots and incubators. It did not examine Letby’s guilt or innocence.",
+      "sources": [
+        {
+          "name": "Reuters via Internazionale",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/final-report-on-lucy-letby-baby-murders-due-amid-growing-questions-about-convictions"
+        }
+      ]
+    },
+    {
+      "headline": "Belarus justice system coordinated repression, UN finds",
+      "body": "Independent United Nations experts found that Belarusian courts, police, security services, prosecutors and prison authorities acted in coordination to suppress government critics throughout the justice process.\n\nThe panel documented arbitrary arrests, torture, denial of legal safeguards, closed trials and harassment after release. Belarus, which has previously rejected UN criticism, did not immediately respond to the new findings.",
+      "sources": [
+        {
+          "name": "Reuters via Internazionale",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/belarus-using-justice-system-to-silence-lukashenko-critics-say-un-experts"
+        }
+      ]
+    }
+  ]
+}

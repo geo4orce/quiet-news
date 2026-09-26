@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "edition_date": "2026-09-24",
+  "images": {
+    "063111f090cf01af53720feb946feb254a5348d02a17656f30a505e3369ecf87": {
+      "src": "/images/2026-09-24/063111f090cf01af53720feb946feb254a5348d02a17656f30a505e3369ecf87.jpg",
+      "alt": "AI-generated conceptual illustration: Pakistan strikes 10 sites in Afghanistan",
+      "width": 1536,
+      "height": 1024
+    },
+    "8d7e2b5a784d2c65b8e6002b7d8f4ad46e0fa144608453580701b79e31eaac92": {
+      "src": "/images/2026-09-24/8d7e2b5a784d2c65b8e6002b7d8f4ad46e0fa144608453580701b79e31eaac92.jpg",
+      "alt": "AI-generated conceptual illustration: 30-year Treasury yield reaches 22-year high",
+      "width": 1536,
+      "height": 1024
+    },
+    "fdba27d99cbe481dfbb62fbaaaa203b0c81ae06bfb0df91e8fff72053ca2c53a": {
+      "src": "/images/2026-09-24/fdba27d99cbe481dfbb62fbaaaa203b0c81ae06bfb0df91e8fff72053ca2c53a.jpg",
+      "alt": "AI-generated conceptual illustration: White House restores three outlets’ press access",
+      "width": 1536,
+      "height": 1024
+    }
+  }
+}

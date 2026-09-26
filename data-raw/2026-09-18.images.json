@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "edition_date": "2026-09-18",
+  "attempts": {
+    "9d12910487dc5d87d7fff7dca40c8f771ed7a5845c6d9a380136e5b1ccc3c3de": {
+      "status": "completed",
+      "claimed_at": "2026-09-19T08:08:57.288Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-19T08:09:14.603Z"
+    },
+    "4edf95fd4ee24f4beecd783b0ab20677951803de6a9433904bcd77c33d52b135": {
+      "status": "completed",
+      "claimed_at": "2026-09-19T08:09:16.893Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-19T08:09:31.636Z"
+    },
+    "f39ccb846c617cc87e515d164b91caf634fb6427e1905317dc021eb994f9f9dc": {
+      "status": "completed",
+      "claimed_at": "2026-09-19T08:09:34.024Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-19T08:09:52.504Z"
+    },
+    "c4352975755206babf4b5dc5d874776a3f7d6a9b65e3025b1a0bd61c8b4fc967": {
+      "status": "completed",
+      "claimed_at": "2026-09-19T08:09:54.939Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-19T08:10:11.054Z"
+    },
+    "bde9474486e66b08b91510ed5ba55bcb02661dce9a5b0205f2972a892b9b82e5": {
+      "status": "completed",
+      "claimed_at": "2026-09-19T08:10:13.485Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-19T08:10:29.246Z"
+    },
+    "db3fb8e083991339e3cdfd4adcb57710a3ebfd49ca7f6e93ba60b093240a472a": {
+      "status": "completed",
+      "claimed_at": "2026-09-19T08:10:31.523Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-19T08:10:47.856Z"
+    }
+  }
+}

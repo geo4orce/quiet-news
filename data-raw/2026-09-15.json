@@ -1,0 +1,874 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-15",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [],
+        "request": {
+          "fingerprint": "a5f34628f57c9856b651d6559b90fa895a97547c5777782461ed8fa41d0e8a8e",
+          "claimId": "d1402fd4-f9d7-45d4-a939-6a327220a25a",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-15T10:07:30.921Z",
+          "responseId": "resp_02729238622152ac006aa918e706d087d29c2342baa99e6516"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Norwegian police and the PST security service said they were investigating telecommunications company Telenor on suspicion of aiding crimes against humanity in Myanmar and violating sanctions. Investigators raided Telenor’s Oslo headquarters on Tuesday. Telenor said it was cooperating and argued that employees in Myanmar had faced severe risks if they did not comply with military orders. No individuals had been charged or placed under investigation.",
+                "category": "Business and law",
+                "title": "Norwegian police raid Telenor headquarters in Myanmar-related investigation",
+                "event_date": "2026-09-15",
+                "candidate_id": "norway-telenor-myanmar-investigation",
+                "geography": "Norway; Myanmar",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/norway-police-investigate-telenor-over-suspected-crimes-against-humanity-in-myanmar"
+                  }
+                ]
+              },
+              {
+                "summary": "United Nations officials said the Ebola epidemic in eastern Democratic Republic of Congo remained large and was still growing in some areas, although containment efforts were showing progress elsewhere. Government figures published Tuesday listed 7,258 confirmed cases and 3,510 deaths across seven provinces. WHO official Olivier le Polain said it was too early to conclude that the outbreak had passed its peak.",
+                "category": "Health",
+                "title": "UN says eastern Congo Ebola outbreak remains extensive despite some progress",
+                "event_date": "2026-09-15",
+                "candidate_id": "congo-ebola-un-update-sept-15",
+                "geography": "Democratic Republic of Congo",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/un-says-ebola-epidemic-still-huge-and-growing"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. presidential envoy John Coale met Belarusian President Alexander Lukashenko for their first talks in six months. Washington has sought additional prisoner releases in exchange for sanctions relief. Belarusian state media said Coale conveyed President Donald Trump’s support for the negotiations. Human-rights group Viasna says Belarus still holds more than 900 political prisoners; Lukashenko rejects that characterization.",
+                "category": "Diplomacy",
+                "title": "US envoy meets Lukashenko for renewed prisoner-release talks",
+                "event_date": "2026-09-15",
+                "candidate_id": "us-belarus-prisoner-talks-sept-15",
+                "geography": "Belarus; United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/trump-envoy-coale-arrives-in-belarus-for-new-talks-on-prisoner-releases"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukraine’s Brigadier-General Andrii Biletskyi announced an offensive operation named Vivaldi in northern Donetsk region. He said Ukrainian forces had cleared Russian infiltration groups from 75 square kilometers, recaptured another 10 square kilometers and taken control of several villages or surrounding areas. Reuters said it could not independently verify the territorial claims.",
+                "category": "Conflict",
+                "title": "Ukrainian commander announces offensive operation in northern Donetsk",
+                "event_date": "2026-09-15",
+                "candidate_id": "ukraine-vivaldi-offensive-announcement",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/ukraine-launches-offensive-push-in-north-of-donetsk-region-senior-commander-says"
+                  }
+                ]
+              },
+              {
+                "summary": "Rail services across central and northern Netherlands were disrupted during Tuesday’s morning rush after pipes were deliberately attached to tracks at about 20 locations, infrastructure operator ProRail said. Several road level crossings also remained closed. ProRail described the incidents as deliberate human-caused disruption but said the responsible party and motive were unknown; national police opened an investigation.",
+                "category": "Transport and public safety",
+                "title": "Deliberately placed pipes disrupt Dutch rail network",
+                "event_date": "2026-09-15",
+                "candidate_id": "netherlands-rail-disruption-pipes",
+                "geography": "Netherlands",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/suspected-sabotage-disrupts-dutch-trains-level-crossings"
+                  }
+                ]
+              },
+              {
+                "summary": "Independent United Nations experts reported that Belarusian courts, police, security services, prosecutors and prison authorities had acted in a coordinated manner to repress government critics throughout the justice process. The panel cited arbitrary arrests, torture, denial of legal safeguards, closed trials and harassment after release. Belarus has previously rejected UN criticism and did not immediately respond to the new findings.",
+                "category": "Human rights",
+                "title": "UN experts report systematic justice-system abuses in Belarus",
+                "event_date": "2026-09-15",
+                "candidate_id": "un-belarus-justice-system-report",
+                "geography": "Belarus",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/belarus-using-justice-system-to-silence-lukashenko-critics-say-un-experts"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-15"
+          },
+          "metadata": {
+            "responseId": "resp_02729238622152ac006aa918e706d087d29c2342baa99e6516",
+            "requestId": "req_5556f7e8704c456cb0afb6c79588b283",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1755,
+            "inputTokens": 45498,
+            "outputTokens": 2812,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-15",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 64449,
+            "attemptDurationMs": 64449,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-15T10:07:30.867Z",
+        "capturedAt": "2026-09-15T10:08:35.370Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Houthis capture two Red Sea islands",
+            "body": "Yemen’s Houthi rebels took control of the Greater and Lesser Hanish islands after government-allied forces withdrew, according to two Yemeni government officials and a Houthi official.\n\nThe islands are in the southern Red Sea, about 160 kilometers north of the Bab el-Mandeb Strait, a major shipping route.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/yemen-houthis-saudi-shipping-mandeb-8c18d82c109a8ea91347ce53c0096c53"
+              }
+            ]
+          },
+          {
+            "headline": "Israeli strikes in Lebanon kill 13",
+            "body": "Israeli strikes on a town in southern Lebanon killed at least 13 people, including six children, according to Lebanon’s Health Ministry.\n\nThe attacks came during several days of escalating strikes despite a ceasefire reached by Israel and Hezbollah in June.",
+            "sources": [
+              {
+                "name": "Reuters via Business Recorder",
+                "url": "https://www.brecorder.com/news/40439435"
+              }
+            ]
+          },
+          {
+            "headline": "Saudi oil pipeline faces weeks of repairs",
+            "body": "Saudi Arabia’s East-West Pipeline is expected to remain mostly out of service for three to five weeks after an attack last week damaged the line and a major pumping facility, two regional officials briefed on repairs said.\n\nOne official said limited oil movements might continue while repairs are underway.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/b95a5a6c73a26bbbb1caddcbf365ca62"
+              }
+            ]
+          },
+          {
+            "headline": "Supreme Court keeps mail-ballot rules unchanged",
+            "body": "The Supreme Court rejected the Trump administration’s emergency request to permit new restrictions on mail ballots before November’s midterm elections.\n\nThe brief order said the administration was unlikely to prevail in court. Justices Samuel Alito and Clarence Thomas publicly dissented. Existing state mail-ballot processes remain in effect while the litigation continues.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/78a4fbeb48d9c5fd27d1c865529fc65f"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "657cc6667f4987705982148e8398acf9aeca6793c7958c05a929f8e71b94d411",
+          "claimId": "b62ebc22-17a0-4421-b831-5a1363a7a30c",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-15T16:07:25.707Z",
+          "responseId": "resp_0f0e7a21a0d73615006aa96d41763087d2bbeaaa56877e8714"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Police dispersed opposition demonstrations in Kinshasa, Lubumbashi and Uvira against proposed constitutional changes that critics say could permit President Felix Tshisekedi to seek a third term. Reuters witnesses reported tear gas and warning shots in Kinshasa after clashes between protesters and government supporters. Several hundred people participated in the capital; authorities had prohibited the protests in Lubumbashi and Uvira.",
+                "category": "Politics and civil unrest",
+                "title": "Congolese police disperse protests against proposed constitutional changes",
+                "event_date": "2026-09-15",
+                "candidate_id": "drc-constitutional-protests-dispersed",
+                "geography": "Democratic Republic of Congo",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/congo-police-break-up-protests-against-proposed-constitutional-changes"
+                  }
+                ]
+              },
+              {
+                "summary": "Britain announced that it would upgrade diplomatic relations with Venezuela by appointing an ambassador. The British government said the move was intended to support its role in a transition to democracy and did not endorse Venezuela’s disputed 2024 election or any political faction. Venezuela welcomed the decision.",
+                "category": "Diplomacy",
+                "title": "Britain announces upgraded diplomatic relations with Venezuela",
+                "event_date": "2026-09-15",
+                "candidate_id": "britain-venezuela-diplomatic-upgrade",
+                "geography": "United Kingdom; Venezuela",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/britain-upgrades-diplomatic-relations-with-venezuela"
+                  }
+                ]
+              },
+              {
+                "summary": "A British public inquiry found that failures by senior staff and dysfunctional management at the Countess of Chester Hospital allowed nurse Lucy Letby to harm infants and that at least two murders could have been prevented through earlier action. The report recommended stronger neonatal safeguards, including protocols for suspected deliberate harm and consideration of cameras in cots and incubators. It did not examine Letby’s guilt or innocence.",
+                "category": "Public inquiry and health",
+                "title": "Lucy Letby inquiry finds hospital failures left infants unprotected",
+                "event_date": "2026-09-15",
+                "candidate_id": "uk-letby-inquiry-final-report",
+                "geography": "United Kingdom",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/final-report-on-lucy-letby-baby-murders-due-amid-growing-questions-about-convictions"
+                  }
+                ]
+              },
+              {
+                "summary": "Italy and Spain extended temporary border controls between the two countries for another 15 days. Italy cited continuing internal-security risks and a potential threat of terrorist infiltration, while Spain said the conditions justifying the controls remained in place and that its measures would continue until October 8. The controls were introduced after a large migrant influx into Spain’s Ceuta enclave.",
+                "category": "Migration and border policy",
+                "title": "Italy and Spain extend temporary border controls",
+                "event_date": "2026-09-15",
+                "candidate_id": "italy-spain-border-controls-extension",
+                "geography": "Italy; Spain",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/italy-extends-schengen-suspension-with-spain-for-another-15-days"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-15"
+          },
+          "metadata": {
+            "responseId": "resp_0f0e7a21a0d73615006aa96d41763087d2bbeaaa56877e8714",
+            "requestId": "req_a1a5bed7498e4f4588a6e6ef524d15c3",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1725,
+            "inputTokens": 50616,
+            "outputTokens": 2357,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-15",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 58463,
+            "attemptDurationMs": 58463,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-15T16:07:25.630Z",
+        "capturedAt": "2026-09-15T16:08:24.171Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [
+          {
+            "headline": "Houthis capture two Red Sea islands",
+            "body": "Yemen’s Houthi rebels took control of the Greater and Lesser Hanish islands after government-allied forces withdrew, according to two Yemeni government officials and a Houthi official.\n\nThe islands are in the southern Red Sea, about 160 kilometers north of the Bab el-Mandeb Strait, a major shipping route.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/yemen-houthis-saudi-shipping-mandeb-8c18d82c109a8ea91347ce53c0096c53"
+              }
+            ]
+          },
+          {
+            "headline": "Israeli strikes in Lebanon kill 13",
+            "body": "Israeli strikes on a town in southern Lebanon killed at least 13 people, including six children, according to Lebanon’s Health Ministry.\n\nThe attacks came during several days of escalating strikes despite a ceasefire reached by Israel and Hezbollah in June.",
+            "sources": [
+              {
+                "name": "Reuters via Business Recorder",
+                "url": "https://www.brecorder.com/news/40439435"
+              }
+            ]
+          },
+          {
+            "headline": "Saudi oil pipeline faces weeks of repairs",
+            "body": "Saudi Arabia’s East-West Pipeline is expected to remain mostly out of service for three to five weeks after an attack last week damaged the line and a major pumping facility, two regional officials briefed on repairs said.\n\nOne official said limited oil movements might continue while repairs are underway.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/b95a5a6c73a26bbbb1caddcbf365ca62"
+              }
+            ]
+          },
+          {
+            "headline": "Supreme Court keeps mail-ballot rules unchanged",
+            "body": "The Supreme Court rejected the Trump administration’s emergency request to permit new restrictions on mail ballots before November’s midterm elections.\n\nThe brief order said the administration was unlikely to prevail in court. Justices Samuel Alito and Clarence Thomas publicly dissented. Existing state mail-ballot processes remain in effect while the litigation continues.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/78a4fbeb48d9c5fd27d1c865529fc65f"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "d952ec08e8c1c519149cd79a9e6679d133ee05431b9c9e1cafda426851772b50",
+          "claimId": "ec129193-bea0-4307-82dd-6455773e0509",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-15T22:07:25.304Z",
+          "responseId": "resp_0e2f512274cafce0006aa9c1a0addc87d2886b222438cc1b51"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Kennedy Center board voted to close the Washington performing arts venue for up to two years for a $257 million renovation. The vote followed a federal judge’s order temporarily blocking the center from adding President Donald Trump’s name to its facade or renaming its campus for him without congressional approval. Trump subsequently said renovation would not begin while the naming dispute is under appeal.",
+                "category": "Arts and public institutions",
+                "title": "Kennedy Center board votes to close venue for renovations",
+                "event_date": "2026-09-15",
+                "candidate_id": "kennedy-center-renovation-closure-vote",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/kennedy-center-board-to-vote-on-venue-s-future-says-trump-name-critical-to-survival"
+                  }
+                ]
+              },
+              {
+                "summary": "The United States announced a visa-restriction policy targeting foreign nationals it considers responsible for South African laws or policies enabling uncompensated land seizures, racial discrimination or incitement of imminent violence against minority groups. Secretary of State Marco Rubio said South Africa had not adequately addressed previously stated U.S. concerns.",
+                "category": "Foreign policy",
+                "title": "US announces South Africa-related visa restrictions",
+                "event_date": "2026-09-15",
+                "candidate_id": "us-south-africa-visa-restrictions",
+                "geography": "United States; South Africa",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/us-announces-visa-curbs-for-some-foreign-nationals-in-south-africa"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. Senate voted 50-49 to advance the Clarity Act, falling 10 votes short of the 60 required. Four Republicans joined all Democrats in opposing the cryptocurrency-regulation bill. One Republican changed his vote for procedural reasons that preserve the option of reconsideration, but Congress’s approaching pre-election recess left the measure stalled.",
+                "category": "Legislation and finance",
+                "title": "US Senate blocks cryptocurrency regulation bill",
+                "event_date": "2026-09-15",
+                "candidate_id": "us-senate-crypto-clarity-act-vote",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/us-senate-to-vote-on-advancing-landmark-crypto-bill"
+                  }
+                ]
+              },
+              {
+                "summary": "Argentina’s government submitted its proposed 2027 budget to Congress. The bill forecasts 4% economic growth, annual inflation of 18% and a trade surplus exceeding $15 billion in 2027. The proposal must proceed through the budget committee and Congress; the projections and spending plans have not been enacted.",
+                "category": "Economy and government",
+                "title": "Argentina submits proposed 2027 budget to Congress",
+                "event_date": "2026-09-15",
+                "candidate_id": "argentina-2027-budget-submission",
+                "geography": "Argentina",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/argentina-submits-2027-budget-bill-to-congress-foresees-4-gdp-growth"
+                  }
+                ]
+              },
+              {
+                "summary": "German Defense Minister Boris Pistorius and U.S. Defense Secretary Pete Hegseth signed a letter of intent aimed at increasing cooperation between the two countries’ weapons industries. Pistorius said details of the cooperation and a planned German purchase of Tomahawk cruise missiles remained to be negotiated.",
+                "category": "Defense cooperation",
+                "title": "Germany and US sign defense-industry cooperation letter",
+                "event_date": "2026-09-15",
+                "candidate_id": "germany-us-defense-industry-letter",
+                "geography": "Germany; United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/germany-us-sign-agreement-to-deepen-defense-cooperation-between-industries"
+                  }
+                ]
+              },
+              {
+                "summary": "Colombian-born businessman and former Venezuelan minister Alex Saab pleaded guilty in Miami federal court to one count of conspiracy to launder money. Court records said Saab agreed to forfeit $195 million and cooperate with the U.S. Justice Department. Prosecutors accused him of diverting money from a Venezuelan food-assistance program and transferring some proceeds through U.S. accounts.",
+                "category": "Courts and corruption",
+                "title": "Alex Saab pleads guilty in US money-laundering case",
+                "event_date": "2026-09-15",
+                "candidate_id": "alex-saab-guilty-plea-miami",
+                "geography": "United States; Venezuela; Colombia",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/alex-saab-ally-of-venezuela-s-maduro-to-change-plea-in-us-corruption-case"
+                  }
+                ]
+              },
+              {
+                "summary": "Republican U.S. Representative Thomas Massie filed privileged articles of impeachment against Defense Secretary Pete Hegseth, alleging that Hegseth abused his office by carrying out hostilities against Iran without congressional approval. The privileged designation requires the House to consider the resolution within two legislative days. The Pentagon said the department remained united behind Hegseth.",
+                "category": "Politics and conflict oversight",
+                "title": "Republican lawmaker files impeachment articles against Hegseth",
+                "event_date": "2026-09-15",
+                "candidate_id": "massie-hegseth-impeachment-articles",
+                "geography": "United States; Iran",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/us-republican-lawmaker-seeks-hegseth-s-impeachment-over-iran"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-15"
+          },
+          "metadata": {
+            "responseId": "resp_0e2f512274cafce0006aa9c1a0addc87d2886b222438cc1b51",
+            "requestId": "req_7ee8cbfec728432faa4a085583b8a20c",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2244,
+            "inputTokens": 50521,
+            "outputTokens": 3246,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-15",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 74539,
+            "attemptDurationMs": 74539,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-09-15T22:07:25.267Z",
+        "capturedAt": "2026-09-15T22:08:39.844Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Houthis capture two Red Sea islands",
+            "body": "Yemen’s Houthi rebels took control of the Greater and Lesser Hanish islands after government-allied forces withdrew, according to two Yemeni government officials and a Houthi official.\n\nThe islands are in the southern Red Sea, about 160 kilometers north of the Bab el-Mandeb Strait, a major shipping route.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/yemen-houthis-saudi-shipping-mandeb-8c18d82c109a8ea91347ce53c0096c53"
+              }
+            ]
+          },
+          {
+            "headline": "Israeli strikes in Lebanon kill 13",
+            "body": "Israeli strikes on a town in southern Lebanon killed at least 13 people, including six children, according to Lebanon’s Health Ministry.\n\nThe attacks came during several days of escalating strikes despite a ceasefire reached by Israel and Hezbollah in June.",
+            "sources": [
+              {
+                "name": "Reuters via Business Recorder",
+                "url": "https://www.brecorder.com/news/40439435"
+              }
+            ]
+          },
+          {
+            "headline": "Saudi oil pipeline faces weeks of repairs",
+            "body": "Saudi Arabia’s East-West Pipeline is expected to remain mostly out of service for three to five weeks after an attack last week damaged the line and a major pumping facility, two regional officials briefed on repairs said.\n\nOne official said limited oil movements might continue while repairs are underway.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/b95a5a6c73a26bbbb1caddcbf365ca62"
+              }
+            ]
+          },
+          {
+            "headline": "Supreme Court keeps mail-ballot rules unchanged",
+            "body": "The Supreme Court rejected the Trump administration’s emergency request to permit new restrictions on mail ballots before November’s midterm elections.\n\nThe brief order said the administration was unlikely to prevail in court. Justices Samuel Alito and Clarence Thomas publicly dissented. Existing state mail-ballot processes remain in effect while the litigation continues.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/78a4fbeb48d9c5fd27d1c865529fc65f"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "cd1928be4355c516269864b2a1ffb2ece4ea6f3d143e86274beadd52cbc43ff4",
+          "claimId": "59c52641-760e-41ae-b948-b5f9a5c0e186",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-16T07:07:35.666Z",
+          "responseId": "resp_02c2c4f27e2ffd53006aaa403babd487d2a6d9bb1116e08cfe"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Congressional Budget Office estimated that U.S. combat operations against Iran had cost the Defense Department about $38 billion through August 1 and could add about $3 billion a month, depending on the conflict’s intensity. It projected a 0.5% inflation increase in the first quarter of 2027 and said depleted munitions could take five years to replenish. The Pentagon disputed findings that its stocks were insufficient.",
+                "category": "Conflict costs and economy",
+                "title": "CBO estimates US combat operations against Iran have cost $38 billion",
+                "event_date": "2026-09-15",
+                "candidate_id": "cbo-us-iran-war-cost-report",
+                "geography": "United States; Iran",
+                "sources": [
+                  {
+                    "name": "Congressional Budget Office",
+                    "url": "https://www.cbo.gov/topics/defense-and-national-security"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/iran-war-cost-hits-38-billion-forecast-to-rise-3-billion-a-month-cbo-says"
+                  }
+                ]
+              },
+              {
+                "summary": "New Zealand’s Parliament passed legislation implementing the country’s free-trade agreement with India by 93 votes to 29. The agreement would eliminate or significantly reduce Indian tariffs on about 95% of New Zealand exports, while Indian goods would receive duty-free access to New Zealand. The agreement will take effect only after both countries complete their ratification procedures.",
+                "category": "Trade and legislation",
+                "title": "New Zealand Parliament passes India trade-deal legislation",
+                "event_date": "2026-09-15",
+                "candidate_id": "new-zealand-india-fta-legislation",
+                "geography": "New Zealand; India",
+                "sources": [
+                  {
+                    "name": "New Zealand Government",
+                    "url": "https://www.beehive.govt.nz/release/india-fta-passes-significant-majority"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/new-zealand-parliament-passes-india-trade-deal-cutting-tariffs-on-most-exports"
+                  }
+                ]
+              },
+              {
+                "summary": "A Saudi-led military coalition spokesperson said Saudi air defenses intercepted and destroyed a Houthi drone south of Mecca before it entered prohibited airspace over the city. He described it as an attempt to target Mecca. A Houthi military source denied that the group posed a threat to Mecca or other Islamic holy sites.",
+                "category": "Conflict",
+                "title": "Saudi coalition says air defenses intercepted Houthi drone near Mecca",
+                "event_date": "2026-09-15",
+                "candidate_id": "saudi-intercepts-houthi-drone-mecca",
+                "geography": "Saudi Arabia; Yemen",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/saudi-led-coalition-says-it-destroys-houthi-drone-south-of-mecca"
+                  }
+                ]
+              },
+              {
+                "summary": "Israeli airstrikes killed at least five Palestinians, including two children and a Hamas commander, in northern and southern Gaza, according to health officials and Hamas sources. Medics said strikes on a vehicle in Sheikh Radwan killed two people and wounded seven, while a strike on a tent encampment in Mawasi killed two and wounded 14. Israel said it targeted a Hamas commander in the Rafah Brigade.",
+                "category": "Conflict",
+                "title": "Israeli strikes kill at least five people in Gaza",
+                "event_date": "2026-09-15",
+                "candidate_id": "gaza-israeli-strikes-five-killed-sept-15",
+                "geography": "Palestinian territories; Israel",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Israeli%2Bstrikes%2Bin%2BGaza%2Bkill%2Bfive%2Bpeople%2C%2Bmedics%2Bsay/27063029.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Indonesia’s Corruption Eradication Commission said it detained eight suspects, including Summarecon Agung’s president director and government officials, in an alleged land-rights bribery case. Investigators seized electronic evidence and cash in several currencies worth a combined 106.3 billion rupiah. The case concerns an application to extend building rights for land managed by the developer in Bogor, West Java. Summarecon did not immediately comment.",
+                "category": "Courts and corruption",
+                "title": "Indonesia detains eight suspects in land-rights bribery case",
+                "event_date": "2026-09-15",
+                "candidate_id": "indonesia-land-rights-bribery-detentions",
+                "geography": "Indonesia",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/indonesia-detains-8-suspects-including-property-developer-executive-in-alleged-bribery-case"
+                  }
+                ]
+              },
+              {
+                "summary": "Brazil’s Supreme Court postponed a decision on whether to open an investigation into Justice Alexandre de Moraes over allegations that he advised a banker accused of leading a multibillion-dollar fraud scheme. Justice Flavio Dino requested additional time to review the case, and proceedings stopped during procedural voting before the court began considering the merits. No investigation was authorized by the session.",
+                "category": "Courts and corruption",
+                "title": "Brazil Supreme Court postpones decision on proposed Moraes investigation",
+                "event_date": "2026-09-15",
+                "candidate_id": "brazil-moraes-investigation-decision-postponed",
+                "geography": "Brazil",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/brazil-supreme-court-postpones-decision-on-opening-probe-of-justice-moraes"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukrainian President Volodymyr Zelenskyy said Ukraine was testing a domestically developed weapon for intercepting drones and that it successfully destroyed an Iranian-designed Shahed drone overnight. He said technical aspects still required refinement. Ukraine’s military separately said it downed 187 airborne targets overnight; the reported performance and the new weapon’s capabilities were not independently verified.",
+                "category": "Defense technology",
+                "title": "Ukraine says new anti-drone weapon recorded successful test",
+                "event_date": "2026-09-15",
+                "candidate_id": "ukraine-new-anti-drone-weapon-test",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/ukraine-s-zelenskiy-says-new-anti-drone-weapon-being-tested"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-15"
+          },
+          "metadata": {
+            "responseId": "resp_02c2c4f27e2ffd53006aaa403babd487d2a6d9bb1116e08cfe",
+            "requestId": "req_ba9b3ddd44c14eac9519716ee4e8f107",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2762,
+            "inputTokens": 69975,
+            "outputTokens": 4173,
+            "webSearchCalls": 11,
+            "stage": "discovery",
+            "targetDate": "2026-09-15",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 111212,
+            "attemptDurationMs": 111212,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-16T07:07:35.560Z",
+        "capturedAt": "2026-09-16T07:09:26.878Z"
+      }
+    ],
+    "sift": {
+      "inputFingerprint": "898c87267fe199fc49b44d08ea4754ea4a4a8409703611cfe2f5ceb09196bce4",
+      "priorStories": [
+        {
+          "headline": "Houthis capture two Red Sea islands",
+          "body": "Yemen’s Houthi rebels took control of the Greater and Lesser Hanish islands after government-allied forces withdrew, according to two Yemeni government officials and a Houthi official.\n\nThe islands are in the southern Red Sea, about 160 kilometers north of the Bab el-Mandeb Strait, a major shipping route.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/yemen-houthis-saudi-shipping-mandeb-8c18d82c109a8ea91347ce53c0096c53"
+            }
+          ]
+        },
+        {
+          "headline": "Israeli strikes in Lebanon kill 13",
+          "body": "Israeli strikes on a town in southern Lebanon killed at least 13 people, including six children, according to Lebanon’s Health Ministry.\n\nThe attacks came during several days of escalating strikes despite a ceasefire reached by Israel and Hezbollah in June.",
+          "sources": [
+            {
+              "name": "Reuters via Business Recorder",
+              "url": "https://www.brecorder.com/news/40439435"
+            }
+          ]
+        },
+        {
+          "headline": "Saudi oil pipeline faces weeks of repairs",
+          "body": "Saudi Arabia’s East-West Pipeline is expected to remain mostly out of service for three to five weeks after an attack last week damaged the line and a major pumping facility, two regional officials briefed on repairs said.\n\nOne official said limited oil movements might continue while repairs are underway.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/b95a5a6c73a26bbbb1caddcbf365ca62"
+            }
+          ]
+        },
+        {
+          "headline": "Supreme Court keeps mail-ballot rules unchanged",
+          "body": "The Supreme Court rejected the Trump administration’s emergency request to permit new restrictions on mail ballots before November’s midterm elections.\n\nThe brief order said the administration was unlikely to prevail in court. Justices Samuel Alito and Clarence Thomas publicly dissented. Existing state mail-ballot processes remain in effect while the litigation continues.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/78a4fbeb48d9c5fd27d1c865529fc65f"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "12506ca6ba2d80033a8c8f1f6f752478eb3195256dce2420b9d606f8bb5336db",
+        "claimId": "3408d0f5-0b96-4ef5-ae53-79352ff0e2c3",
+        "status": "completed",
+        "attempts": 1,
+        "startedAt": "2026-09-16T08:07:34.883Z",
+        "responseId": "resp_0710f3e19091a5eb006aaa4e4a7f1c87d291d147d396c20b9e"
+      },
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "alex-saab-guilty-plea-miami",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "argentina-2027-budget-submission",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "brazil-moraes-investigation-decision-postponed",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "britain-venezuela-diplomatic-upgrade",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "drc-constitutional-protests-dispersed",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "gaza-israeli-strikes-five-killed-sept-15",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "germany-us-defense-industry-letter",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "indonesia-land-rights-bribery-detentions",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "italy-spain-border-controls-extension",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "kennedy-center-renovation-closure-vote",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "massie-hegseth-impeachment-articles",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "netherlands-rail-disruption-pipes",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "new-zealand-india-fta-legislation",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "norway-telenor-myanmar-investigation",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "saudi-intercepts-houthi-drone-mecca",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "ukraine-new-anti-drone-weapon-test",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "ukraine-vivaldi-offensive-announcement",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "us-belarus-prisoner-talks-sept-15",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-senate-crypto-clarity-act-vote",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "us-south-africa-visa-restrictions",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The Congressional Budget Office estimated that Defense Department combat operations against Iran cost about $38 billion through August 1 and could add roughly $3 billion a month, depending on the conflict’s intensity.\n\nCBO projected a 0.5% inflation increase in the first quarter of 2027 and said depleted munitions could take five years to replenish. The Pentagon disputed the finding that its stocks were insufficient.",
+              "candidate_id": "cbo-us-iran-war-cost-report",
+              "headline": "CBO estimates Iran operations cost $38 billion",
+              "sources": [
+                {
+                  "name": "Congressional Budget Office",
+                  "url": "https://www.cbo.gov/topics/defense-and-national-security"
+                },
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/iran-war-cost-hits-38-billion-forecast-to-rise-3-billion-a-month-cbo-says"
+                }
+              ]
+            },
+            {
+              "body": "Government figures listed 7,258 confirmed Ebola cases and 3,510 deaths across seven provinces in eastern Democratic Republic of Congo, United Nations officials said.\n\nContainment efforts were making progress in some places, but the epidemic was still growing elsewhere. A World Health Organization official said it was too early to conclude that the outbreak had peaked.",
+              "candidate_id": "congo-ebola-un-update-sept-15",
+              "headline": "Congo Ebola outbreak reaches 7,258 confirmed cases",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/un-says-ebola-epidemic-still-huge-and-growing"
+                }
+              ]
+            },
+            {
+              "body": "A British public inquiry found that failures by senior staff and dysfunctional management at the Countess of Chester Hospital allowed nurse Lucy Letby to harm infants. It concluded that earlier action could have prevented at least two murders.\n\nThe report recommended stronger neonatal safeguards, including protocols for suspected deliberate harm and consideration of cameras in cots and incubators. It did not examine Letby’s guilt or innocence.",
+              "candidate_id": "uk-letby-inquiry-final-report",
+              "headline": "Hospital failures left infants unprotected from Letby",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/final-report-on-lucy-letby-baby-murders-due-amid-growing-questions-about-convictions"
+                }
+              ]
+            },
+            {
+              "body": "Independent United Nations experts found that Belarusian courts, police, security services, prosecutors and prison authorities acted in coordination to suppress government critics throughout the justice process.\n\nThe panel documented arbitrary arrests, torture, denial of legal safeguards, closed trials and harassment after release. Belarus, which has previously rejected UN criticism, did not immediately respond to the new findings.",
+              "candidate_id": "un-belarus-justice-system-report",
+              "headline": "Belarus justice system coordinated repression, UN finds",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/belarus-using-justice-system-to-silence-lukashenko-critics-say-un-experts"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0710f3e19091a5eb006aaa4e4a7f1c87d291d147d396c20b9e",
+          "requestId": "req_bacb903902884d0c93bb2f9daa387d9a",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 3835,
+          "inputTokens": 5711,
+          "outputTokens": 4920,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-15",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 73793,
+          "attemptDurationMs": 73793,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
+    }
+  }
+}

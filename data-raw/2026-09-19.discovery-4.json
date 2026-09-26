@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-19",
+  "batch": 4,
+  "captured_at": "2026-09-20T07:08:42.639Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The U.S. military said it struck a vessel in the Caribbean Sea and killed four people, alleging that the boat was involved in drug trafficking. U.S. Southern Command did not provide evidence that the vessel was carrying drugs; the strike was part of a campaign against alleged traffickers that began in 2025.",
+        "category": "conflict",
+        "title": "US military says Caribbean vessel strike killed four",
+        "event_date": "2026-09-19",
+        "candidate_id": "us-caribbean-vessel-strike-four-killed",
+        "geography": "Caribbean Sea and United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/trump-cartels-military-strike-caribbean-95f3d4ae10f8e2a4a193f601101898d9"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/us-says-it-killed-four-people-in-strike-on-vessel-in-caribbean-4908126"
+          }
+        ]
+      },
+      {
+        "summary": "Saudi Arabia confirmed that the Houthis tried to attack Riyadh with a ballistic missile and said the missile was intercepted, with no casualties or damage reported. Saudi authorities also said attempted attacks on civilian infrastructure in Yanbu, Taif, Baysh and Farasan were thwarted. The Houthis had claimed attacks on Riyadh and an Aramco facility in Yanbu; their claims of major fires were not substantiated.",
+        "category": "conflict",
+        "title": "Saudi Arabia says it intercepted Houthi attack on Riyadh",
+        "event_date": "2026-09-19",
+        "candidate_id": "riyadh-airport-fire-aerial-threat-alerts",
+        "geography": "Saudi Arabia and Yemen",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-roundup-news-september-19-2026-24211a3b34731a669f3e7ab93314afdf"
+          },
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Flames%2C%2Bsmoke%2Bseen%2Bnear%2BRiyadh%2Bairport%3B%2BHouthis%2Bclaim%2Battacks%2Bon%2BSaudi%2Bcapital/27081686.html"
+          },
+          {
+            "name": "Reuters via Al-Monitor",
+            "url": "https://www.al-monitor.com/originals/2026/09/flames-smoke-seen-near-riyadh-airport-after-saudi-warning-aerial-attack-threat"
+          }
+        ]
+      },
+      {
+        "summary": "Pakistani forces ended an approximately 20-hour standoff with militants following the September 18 attack on Kohat's police compound and mosque. Later casualty reports remained inconsistent: AP reported 21 people killed, Dawn cited police and counterterrorism officials reporting 23, Anadolu cited a hospital official reporting 24, and AFP reported 31. The differing counts had not been reconciled.",
+        "category": "conflict",
+        "title": "Reports diverge on Kohat attack toll after standoff ends",
+        "event_date": "2026-09-19",
+        "candidate_id": "pakistan-kohat-attack-toll-update",
+        "geography": "Pakistan",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/b63e9cf30e8b871616b7d0f94cbaff6d"
+          },
+          {
+            "name": "Dawn",
+            "url": "https://www.dawn.com/news/2031248"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/asia-pacific/death-toll-from-suicide-bombing-at-police-compound-in-pakistan-rises-to-24/4061726"
+          },
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/death-toll-at-31-in-pakistan-police-compound-attack-afp-reports-ce785adade8cfe2d"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-19"
+  },
+  "metadata": {
+    "responseId": "resp_0ebe382eff0572c3006aaf8638444c87d2aae832b6bb92aeb9",
+    "requestId": "req_d846b849cc7443e8ae630ce407d7daed",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2130,
+    "inputTokens": 98901,
+    "outputTokens": 2589,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-09-19",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 69787,
+    "attemptDurationMs": 69787,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}

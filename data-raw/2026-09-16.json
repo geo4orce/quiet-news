@@ -1,0 +1,1110 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-16",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "CBO estimates Iran operations cost $38 billion",
+            "body": "The Congressional Budget Office estimated that Defense Department combat operations against Iran cost about $38 billion through August 1 and could add roughly $3 billion a month, depending on the conflict’s intensity.\n\nCBO projected a 0.5% inflation increase in the first quarter of 2027 and said depleted munitions could take five years to replenish. The Pentagon disputed the finding that its stocks were insufficient.",
+            "sources": [
+              {
+                "name": "Congressional Budget Office",
+                "url": "https://www.cbo.gov/topics/defense-and-national-security"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/iran-war-cost-hits-38-billion-forecast-to-rise-3-billion-a-month-cbo-says"
+              }
+            ]
+          },
+          {
+            "headline": "Congo Ebola outbreak reaches 7,258 confirmed cases",
+            "body": "Government figures listed 7,258 confirmed Ebola cases and 3,510 deaths across seven provinces in eastern Democratic Republic of Congo, United Nations officials said.\n\nContainment efforts were making progress in some places, but the epidemic was still growing elsewhere. A World Health Organization official said it was too early to conclude that the outbreak had peaked.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/un-says-ebola-epidemic-still-huge-and-growing"
+              }
+            ]
+          },
+          {
+            "headline": "Hospital failures left infants unprotected from Letby",
+            "body": "A British public inquiry found that failures by senior staff and dysfunctional management at the Countess of Chester Hospital allowed nurse Lucy Letby to harm infants. It concluded that earlier action could have prevented at least two murders.\n\nThe report recommended stronger neonatal safeguards, including protocols for suspected deliberate harm and consideration of cameras in cots and incubators. It did not examine Letby’s guilt or innocence.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/final-report-on-lucy-letby-baby-murders-due-amid-growing-questions-about-convictions"
+              }
+            ]
+          },
+          {
+            "headline": "Belarus justice system coordinated repression, UN finds",
+            "body": "Independent United Nations experts found that Belarusian courts, police, security services, prosecutors and prison authorities acted in coordination to suppress government critics throughout the justice process.\n\nThe panel documented arbitrary arrests, torture, denial of legal safeguards, closed trials and harassment after release. Belarus, which has previously rejected UN criticism, did not immediately respond to the new findings.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/belarus-using-justice-system-to-silence-lukashenko-critics-say-un-experts"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "fc3e32e1a563d08817d18c299da436721e0bd723d7391aae4441e78976685374",
+          "claimId": "2aea9009-5c02-409d-9b50-922a4602557f",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-16T10:07:29.201Z",
+          "responseId": "resp_056efc26711f4121006aaa6a64279c87d29dcb26221315fc9f"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Former Philippine President Rodrigo Duterte appeared at the International Criminal Court in The Hague for a hearing on his health and ability to stand trial. It was his first public appearance since his transfer to the court 18 months earlier. His lawyers argue that cognitive decline leaves him unfit for a trial scheduled to begin in November; Duterte did not speak during the hearing.",
+                "category": "justice",
+                "title": "Duterte appears at ICC fitness hearing",
+                "event_date": "2026-09-16",
+                "candidate_id": "duterte-icc-fitness-hearing",
+                "geography": "The Hague, Netherlands; Philippines",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/former-philippines-leader-duterte-appears-in-icc-courtroom"
+                  }
+                ]
+              },
+              {
+                "summary": "A structurally damaged residential building housing displaced families collapsed overnight in Gaza City. The Associated Press reported that 19 people were killed and 25 injured, with rescuers searching for others beneath the rubble. Earlier counts from Gaza civil defense cited by Reuters listed at least 12 deaths, including five children, and 14 injuries, illustrating that the toll was still developing.",
+                "category": "disaster",
+                "title": "Gaza building collapse kills at least 19",
+                "event_date": "2026-09-16",
+                "candidate_id": "gaza-city-building-collapse",
+                "geography": "Gaza City, Gaza Strip",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/33cf517a6d89ac27a24fa9de09b088fe"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/war-damaged-gaza-building-collapses-killing-12-people-seeking-shelter-inside"
+                  }
+                ]
+              },
+              {
+                "summary": "Russian drones struck civilian transportation in southern Ukraine, Ukrainian officials said. Police reported that an attack on a passenger bus near Nikopol killed four men and a woman and injured seven people. A passenger train in the Mykolaiv region was also attacked repeatedly; officials said all 168 passengers and crew members were evacuated without injuries. Russia did not immediately comment.",
+                "category": "conflict",
+                "title": "Russian drones strike Ukrainian bus and train",
+                "event_date": "2026-09-16",
+                "candidate_id": "ukraine-bus-train-drone-strikes",
+                "geography": "Dnipropetrovsk and Mykolaiv regions, Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/russian-drone-attack-on-bus-kills-five-in-ukraine-s-southeast-governor-says"
+                  }
+                ]
+              },
+              {
+                "summary": "India summoned Pakistan’s senior diplomat in New Delhi and instructed its representative in Islamabad to lodge protests over a collision between Pakistani and Indian naval vessels in the northern Arabian Sea. India said a Pakistani ship approached an Indian warship at high speed in international waters on Tuesday, violating a bilateral separation agreement. No major damage was reported, and Pakistan did not immediately respond.",
+                "category": "international-relations",
+                "title": "India protests naval collision with Pakistan",
+                "event_date": "2026-09-16",
+                "candidate_id": "india-pakistan-naval-collision-protest",
+                "geography": "India; Pakistan; Arabian Sea",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/india-protests-to-pakistan-over-collision-of-naval-units-at-sea"
+                  }
+                ]
+              },
+              {
+                "summary": "A Russian court convicted Russian-Canadian national Nikolai Zyuzev of high treason and sentenced him to seven years in a penal colony, according to the state news agency RIA. Russia’s Federal Security Service alleged that he trained leaders of ethnic-minority separatist movements abroad and distributed materials it classified as extremist. The report did not state how Zyuzev pleaded.",
+                "category": "justice",
+                "title": "Russian court sentences dual national for treason",
+                "event_date": "2026-09-16",
+                "candidate_id": "russia-zyuzev-treason-sentence",
+                "geography": "Russia; Canada",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/russian-court-jails-canadian-russian-national-for-seven-years-in-treason-case"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-16"
+          },
+          "metadata": {
+            "responseId": "resp_056efc26711f4121006aaa6a64279c87d29dcb26221315fc9f",
+            "requestId": "req_06a81aa87a5a4a7592a4c66c23aceff1",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2544,
+            "inputTokens": 52008,
+            "outputTokens": 2946,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-16",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 83583,
+            "attemptDurationMs": 83583,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-16T10:07:29.141Z",
+        "capturedAt": "2026-09-16T10:08:52.784Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "CBO estimates Iran operations cost $38 billion",
+            "body": "The Congressional Budget Office estimated that Defense Department combat operations against Iran cost about $38 billion through August 1 and could add roughly $3 billion a month, depending on the conflict’s intensity.\n\nCBO projected a 0.5% inflation increase in the first quarter of 2027 and said depleted munitions could take five years to replenish. The Pentagon disputed the finding that its stocks were insufficient.",
+            "sources": [
+              {
+                "name": "Congressional Budget Office",
+                "url": "https://www.cbo.gov/topics/defense-and-national-security"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/iran-war-cost-hits-38-billion-forecast-to-rise-3-billion-a-month-cbo-says"
+              }
+            ]
+          },
+          {
+            "headline": "Congo Ebola outbreak reaches 7,258 confirmed cases",
+            "body": "Government figures listed 7,258 confirmed Ebola cases and 3,510 deaths across seven provinces in eastern Democratic Republic of Congo, United Nations officials said.\n\nContainment efforts were making progress in some places, but the epidemic was still growing elsewhere. A World Health Organization official said it was too early to conclude that the outbreak had peaked.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/un-says-ebola-epidemic-still-huge-and-growing"
+              }
+            ]
+          },
+          {
+            "headline": "Hospital failures left infants unprotected from Letby",
+            "body": "A British public inquiry found that failures by senior staff and dysfunctional management at the Countess of Chester Hospital allowed nurse Lucy Letby to harm infants. It concluded that earlier action could have prevented at least two murders.\n\nThe report recommended stronger neonatal safeguards, including protocols for suspected deliberate harm and consideration of cameras in cots and incubators. It did not examine Letby’s guilt or innocence.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/final-report-on-lucy-letby-baby-murders-due-amid-growing-questions-about-convictions"
+              }
+            ]
+          },
+          {
+            "headline": "Belarus justice system coordinated repression, UN finds",
+            "body": "Independent United Nations experts found that Belarusian courts, police, security services, prosecutors and prison authorities acted in coordination to suppress government critics throughout the justice process.\n\nThe panel documented arbitrary arrests, torture, denial of legal safeguards, closed trials and harassment after release. Belarus, which has previously rejected UN criticism, did not immediately respond to the new findings.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/belarus-using-justice-system-to-silence-lukashenko-critics-say-un-experts"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "4d1598bd9865a27a06f20e9fb17dbe9f5bc098316d3d394cde00a479f06d0c23",
+          "claimId": "f8853b37-6ba7-494d-9d01-7bb406c85b58",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-16T16:07:31.640Z",
+          "responseId": "resp_022b4b357b79d73d006aaabec767a887d2b854c4cae4f416fb"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Later reports raised the death toll from the overnight collapse of a war-damaged residential building sheltering displaced families in Gaza City. Reuters reported 20 deaths, while an Associated Press regional roundup reported at least 21. Rescue workers continued searching the wreckage.",
+                "category": "disaster",
+                "title": "Gaza building-collapse toll rises to at least 20",
+                "event_date": "2026-09-16",
+                "candidate_id": "gaza-city-building-collapse",
+                "geography": "Gaza City, Gaza Strip",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/567498d0aa85a32e9c294759bd943501"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/war-damaged-gaza-building-collapses-killing-12-people-seeking-shelter-inside"
+                  }
+                ]
+              },
+              {
+                "summary": "The EU-backed Kosovo Specialist Chambers convicted former Kosovo President Hashim Thaci of war crimes and sentenced him to 25 years in prison. The court found him guilty of crimes including murder, torture, cruel treatment and arbitrary or illegal detention committed during the 1998-99 conflict. Thaci denied the charges, and both sides may appeal.",
+                "category": "justice",
+                "title": "Kosovo tribunal sentences Thaci to 25 years",
+                "event_date": "2026-09-16",
+                "candidate_id": "thaci-war-crimes-sentence",
+                "geography": "The Hague, Netherlands; Kosovo",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/0b24b81d6e1ca8f01d8b8b54bb465ee9"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/former-kosovo-president-thaci-sentenced-to-25-years-in-prison-for-war-crimes"
+                  }
+                ]
+              },
+              {
+                "summary": "European Commission President Ursula von der Leyen used her annual address to propose making Canada the EU’s first associate member, banning children under 13 from social media while creating restricted accounts for older minors, and establishing an EU mechanism for coordinated responses to drone incidents, sabotage and cyberattacks. The initiatives remain proposals requiring further development or approval.",
+                "category": "international-relations",
+                "title": "EU chief outlines Canada, social-media and security proposals",
+                "event_date": "2026-09-16",
+                "candidate_id": "eu-state-of-union-proposals-2026",
+                "geography": "European Union; Canada",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/3fdb111dd4d23d88b3de88c274c52711"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/3e7176ea409ba4af0a069f5ca7dd9680"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/4ce4fef2ba8e3866e436655075afc6d3"
+                  }
+                ]
+              },
+              {
+                "summary": "Belarus released 25 prisoners in exchange for further easing of U.S. sanctions, according to Reuters. The group included journalist Andrei Alyaksandrau and three musicians whose songs had been designated extremist materials. The United States lifted sanctions on two Belarusian companies, while the Viasna rights group said Belarus still held 886 political prisoners.",
+                "category": "international-relations",
+                "title": "Belarus frees 25 prisoners in U.S. sanctions deal",
+                "event_date": "2026-09-16",
+                "candidate_id": "belarus-releases-25-prisoners",
+                "geography": "Belarus; United States; Lithuania",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/belarus-frees-more-prisoners-after-us-envoy-s-visit"
+                  }
+                ]
+              },
+              {
+                "summary": "Syria’s parliament voted to abolish the Assad-era Counter-Terrorism Court and nullify the legal effects of its rulings, state television reported. The court, established in 2012, prosecuted thousands of Syrians and had been criticized by United Nations bodies over inadequate judicial safeguards and links to arbitrary detention and torture. The vote formalized steps already taken by Syria’s post-Assad authorities.",
+                "category": "justice",
+                "title": "Syria votes to nullify Assad-era terrorism-court rulings",
+                "event_date": "2026-09-16",
+                "candidate_id": "syria-abolishes-terrorism-court",
+                "geography": "Syria",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/syria-parliament-votes-to-abolish-assad-era-terrorism-court-nullify-rulings"
+                  }
+                ]
+              },
+              {
+                "summary": "France’s national health agency estimated that the country recorded at least 817 excess deaths during exceptionally hot weather from July 27 through August 20. The estimate, based on death certificates and including deaths from all causes, brought recorded excess mortality since June and the beginning of successive heatwaves to nearly 8,000. People aged 75 and older accounted for most of the excess deaths.",
+                "category": "health",
+                "title": "France reports 817 excess deaths during latest heatwaves",
+                "event_date": "2026-09-16",
+                "candidate_id": "france-heatwave-excess-deaths",
+                "geography": "France",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/france-recorded-at-least-817-excess-deaths-during-july-27-august-20-heatwaves"
+                  }
+                ]
+              },
+              {
+                "summary": "Sweden summoned Iran’s ambassador and ordered an official at the Iranian Embassy in Stockholm to leave the country. The Swedish Foreign Ministry cited activity incompatible with the Vienna Convention on Diplomatic Relations but did not specify what the official was accused of doing.",
+                "category": "international-relations",
+                "title": "Sweden orders Iranian Embassy official to leave",
+                "event_date": "2026-09-16",
+                "candidate_id": "sweden-expels-iranian-official",
+                "geography": "Sweden; Iran",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/sweden-expels-iran-embassy-official"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukraine presented parliament with a draft 2027 budget proposing record defense spending of 4.89 trillion hryvnias, about $110 billion and 12% above the current year. Defense would account for roughly two-thirds of the proposal’s total spending of 7.27 trillion hryvnias. The figures are part of a draft and have not yet been enacted.",
+                "category": "economy",
+                "title": "Ukraine proposes record 2027 defense budget",
+                "event_date": "2026-09-16",
+                "candidate_id": "ukraine-2027-defence-budget-proposal",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/ukraine-proposes-record-defence-spending-next-year-as-war-costs-soar"
+                  }
+                ]
+              },
+              {
+                "summary": "Switzerland’s lower house approved the EFTA trade agreement with the Mercosur countries by 118 votes to 66, with 10 abstentions, after adding 517 million Swiss francs in support for farmers over six years. The upper house had already backed the corresponding bill, but the agreement is likely to face a referendum and has not yet taken effect.",
+                "category": "economy",
+                "title": "Swiss parliament advances Mercosur trade agreement",
+                "event_date": "2026-09-16",
+                "candidate_id": "switzerland-mercosur-parliament-approval",
+                "geography": "Switzerland; Argentina; Brazil; Paraguay; Uruguay",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/swiss-lower-house-of-parliament-signs-off-mercosur-trade-deal"
+                  }
+                ]
+              },
+              {
+                "summary": "Italian Prime Minister Giorgia Meloni announced the abolition of annual road tax for 14.5 million cars and motorcycles. Reuters said the measure was estimated to cost state finances more than €2 billion and came ahead of the following year’s national election. The available report described the policy announcement but did not establish that the tax change had already taken effect.",
+                "category": "economy",
+                "title": "Meloni announces road-tax abolition for most Italian vehicles",
+                "event_date": "2026-09-16",
+                "candidate_id": "italy-road-tax-abolition-plan",
+                "geography": "Italy",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/italy-s-meloni-scraps-road-tax-for-most-cars-as-election-nears"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-16"
+          },
+          "metadata": {
+            "responseId": "resp_022b4b357b79d73d006aaabec767a887d2b854c4cae4f416fb",
+            "requestId": "req_f746b9972f204948bad6775d68f0a2bb",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2734,
+            "inputTokens": 53603,
+            "outputTokens": 4245,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-16",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 83126,
+            "attemptDurationMs": 83126,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-16T16:07:31.586Z",
+        "capturedAt": "2026-09-16T16:08:54.766Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [
+          {
+            "headline": "CBO estimates Iran operations cost $38 billion",
+            "body": "The Congressional Budget Office estimated that Defense Department combat operations against Iran cost about $38 billion through August 1 and could add roughly $3 billion a month, depending on the conflict’s intensity.\n\nCBO projected a 0.5% inflation increase in the first quarter of 2027 and said depleted munitions could take five years to replenish. The Pentagon disputed the finding that its stocks were insufficient.",
+            "sources": [
+              {
+                "name": "Congressional Budget Office",
+                "url": "https://www.cbo.gov/topics/defense-and-national-security"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/iran-war-cost-hits-38-billion-forecast-to-rise-3-billion-a-month-cbo-says"
+              }
+            ]
+          },
+          {
+            "headline": "Congo Ebola outbreak reaches 7,258 confirmed cases",
+            "body": "Government figures listed 7,258 confirmed Ebola cases and 3,510 deaths across seven provinces in eastern Democratic Republic of Congo, United Nations officials said.\n\nContainment efforts were making progress in some places, but the epidemic was still growing elsewhere. A World Health Organization official said it was too early to conclude that the outbreak had peaked.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/un-says-ebola-epidemic-still-huge-and-growing"
+              }
+            ]
+          },
+          {
+            "headline": "Hospital failures left infants unprotected from Letby",
+            "body": "A British public inquiry found that failures by senior staff and dysfunctional management at the Countess of Chester Hospital allowed nurse Lucy Letby to harm infants. It concluded that earlier action could have prevented at least two murders.\n\nThe report recommended stronger neonatal safeguards, including protocols for suspected deliberate harm and consideration of cameras in cots and incubators. It did not examine Letby’s guilt or innocence.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/final-report-on-lucy-letby-baby-murders-due-amid-growing-questions-about-convictions"
+              }
+            ]
+          },
+          {
+            "headline": "Belarus justice system coordinated repression, UN finds",
+            "body": "Independent United Nations experts found that Belarusian courts, police, security services, prosecutors and prison authorities acted in coordination to suppress government critics throughout the justice process.\n\nThe panel documented arbitrary arrests, torture, denial of legal safeguards, closed trials and harassment after release. Belarus, which has previously rejected UN criticism, did not immediately respond to the new findings.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/belarus-using-justice-system-to-silence-lukashenko-critics-say-un-experts"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "7241ccc59c1c20bc13de777c9c8826bd6ab7b90f8721041edc1f385382a70c43",
+          "claimId": "3bf5c304-3b28-4c91-86bf-bf3ba841e285",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-16T22:07:33.190Z",
+          "responseId": "resp_03f2205a5cbe9043006aab13286fd887d2ad1e020e6b5dcea8"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Federal Open Market Committee unanimously raised the federal funds target range by 0.25 percentage point to 3.75%-4%, saying inflation remained elevated despite solid economic growth. The new target range and related implementation measures take effect September 17.",
+                "category": "economy",
+                "title": "Federal Reserve raises interest-rate target by quarter point",
+                "event_date": "2026-09-16",
+                "candidate_id": "fed-september-2026-rate-increase",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Federal Reserve",
+                    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+                  },
+                  {
+                    "name": "Federal Reserve",
+                    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a1.htm"
+                  }
+                ]
+              },
+              {
+                "summary": "The United States removed Venezuela from its list of countries deemed to have demonstrably failed to meet international drug-control commitments, ending a designation applied since 2005. President Donald Trump cited cooperation with Venezuela’s interim government. Venezuela remains classified as a major drug-transit or drug-producing country, and Trump said Colombia could lose its separate failed-demonstrably designation if it makes progress over the coming year.",
+                "category": "international-relations",
+                "title": "U.S. removes Venezuela from drug-control failure list",
+                "event_date": "2026-09-16",
+                "candidate_id": "us-venezuela-drug-control-designation",
+                "geography": "United States; Venezuela; Colombia",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/us-drops-venezuela-from-drug-list-may-remove-colombia-trump-says"
+                  }
+                ]
+              },
+              {
+                "summary": "Swedish public broadcaster SVT projected that the center-left opposition led by Social Democrat Magdalena Andersson would secure the most seats in the parliamentary election after 99% of votes had been counted. Preliminary figures indicated a 175-174 seat split between the opposition and the governing right-wing bloc. Sweden’s election authority said the final result was not yet complete.",
+                "category": "politics",
+                "title": "SVT projects Swedish center-left election victory",
+                "event_date": "2026-09-16",
+                "candidate_id": "sweden-2026-election-projection",
+                "geography": "Sweden",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/sweden-s-centre-left-opposition-maintains-election-lead-as-count-nears-end"
+                  },
+                  {
+                    "name": "Swedish Election Authority",
+                    "url": "https://www.val.se/english/election-results/elections-to-the-riksdag-and-regional-and-municipal-councils/election-results-2026"
+                  }
+                ]
+              },
+              {
+                "summary": "United Nations Secretary-General António Guterres called for international guardrails to make artificial intelligence safe, transparent and accountable. He said isolated voluntary pauses would not address risks amid geopolitical competition and pointed to the UN-founded Independent International Scientific Panel on AI as a source of evidence for global discussions.",
+                "category": "technology",
+                "title": "Guterres urges international cooperation on AI safeguards",
+                "event_date": "2026-09-16",
+                "candidate_id": "un-guterres-ai-safety-cooperation",
+                "geography": "Global; United Nations",
+                "sources": [
+                  {
+                    "name": "United Nations",
+                    "url": "https://www.un.org/en/desa/ai-climate-and-conflicts-top-guterress-agenda-ahead-of-general-assembly"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/6ae720a081ce4d5ede35837ca35b8460"
+                  }
+                ]
+              },
+              {
+                "summary": "A large crowd marched in Valletta demanding accountability for the 2017 car-bomb murder of investigative journalist Daphne Caruana Galizia. Civil-society groups organized the protest two weeks after a jury acquitted businessman Yorgen Fenech of complicity in the murder and criminal association. Malta’s attorney general was expected to appeal on points of law.",
+                "category": "justice",
+                "title": "Malta protest demands justice for murdered journalist",
+                "event_date": "2026-09-16",
+                "candidate_id": "malta-caruana-galizia-justice-protest",
+                "geography": "Valletta, Malta",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/large-crowd-demands-justice-for-assassinated-malta-journalist"
+                  }
+                ]
+              },
+              {
+                "summary": "India and Pakistan summoned each other’s senior diplomats to lodge protests over Tuesday’s collision between their naval vessels in international waters in the northern Arabian Sea. India said a Pakistani ship approached an Indian warship at high speed in violation of a bilateral separation agreement. No major damage was reported.",
+                "category": "international-relations",
+                "title": "India and Pakistan exchange protests over naval collision",
+                "event_date": "2026-09-16",
+                "candidate_id": "india-pakistan-naval-collision-protest",
+                "geography": "India; Pakistan; Arabian Sea",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/india-protests-to-pakistan-over-collision-of-naval-units-at-sea"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-16"
+          },
+          "metadata": {
+            "responseId": "resp_03f2205a5cbe9043006aab13286fd887d2ad1e020e6b5dcea8",
+            "requestId": "req_34edfec1bcb440db9881530e57caedd5",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1381,
+            "inputTokens": 45464,
+            "outputTokens": 2468,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-16",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 53424,
+            "attemptDurationMs": 53424,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-09-16T22:07:33.143Z",
+        "capturedAt": "2026-09-16T22:08:26.614Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "CBO estimates Iran operations cost $38 billion",
+            "body": "The Congressional Budget Office estimated that Defense Department combat operations against Iran cost about $38 billion through August 1 and could add roughly $3 billion a month, depending on the conflict’s intensity.\n\nCBO projected a 0.5% inflation increase in the first quarter of 2027 and said depleted munitions could take five years to replenish. The Pentagon disputed the finding that its stocks were insufficient.",
+            "sources": [
+              {
+                "name": "Congressional Budget Office",
+                "url": "https://www.cbo.gov/topics/defense-and-national-security"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/iran-war-cost-hits-38-billion-forecast-to-rise-3-billion-a-month-cbo-says"
+              }
+            ]
+          },
+          {
+            "headline": "Congo Ebola outbreak reaches 7,258 confirmed cases",
+            "body": "Government figures listed 7,258 confirmed Ebola cases and 3,510 deaths across seven provinces in eastern Democratic Republic of Congo, United Nations officials said.\n\nContainment efforts were making progress in some places, but the epidemic was still growing elsewhere. A World Health Organization official said it was too early to conclude that the outbreak had peaked.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/un-says-ebola-epidemic-still-huge-and-growing"
+              }
+            ]
+          },
+          {
+            "headline": "Hospital failures left infants unprotected from Letby",
+            "body": "A British public inquiry found that failures by senior staff and dysfunctional management at the Countess of Chester Hospital allowed nurse Lucy Letby to harm infants. It concluded that earlier action could have prevented at least two murders.\n\nThe report recommended stronger neonatal safeguards, including protocols for suspected deliberate harm and consideration of cameras in cots and incubators. It did not examine Letby’s guilt or innocence.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/final-report-on-lucy-letby-baby-murders-due-amid-growing-questions-about-convictions"
+              }
+            ]
+          },
+          {
+            "headline": "Belarus justice system coordinated repression, UN finds",
+            "body": "Independent United Nations experts found that Belarusian courts, police, security services, prosecutors and prison authorities acted in coordination to suppress government critics throughout the justice process.\n\nThe panel documented arbitrary arrests, torture, denial of legal safeguards, closed trials and harassment after release. Belarus, which has previously rejected UN criticism, did not immediately respond to the new findings.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/belarus-using-justice-system-to-silence-lukashenko-critics-say-un-experts"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "e656ea88192bd496c9abf90106f2326c3deb39489844dc7366042978f58d1fa3",
+          "claimId": "830b406f-f978-4fd7-a39c-98dcdbc01096",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-17T07:07:36.084Z",
+          "responseId": "resp_0f21231150bd2dfd006aab91bc1dec87d2a8295eb7ec6b4f7e"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Canada formally applied to join the British-led Joint Expeditionary Force military coalition, Prime Minister Mark Carney’s office said. The application begins an accession process and does not establish that Canada has already become a member.",
+                "category": "international-relations",
+                "title": "Canada applies to join UK-led military coalition",
+                "event_date": "2026-09-16",
+                "candidate_id": "canada-jef-membership-application",
+                "geography": "Canada; United Kingdom; Northern Europe",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/canada-applies-to-join-uk-led-military-coalition-says-carney-s-office"
+                  }
+                ]
+              },
+              {
+                "summary": "The foreign ministers of Israel and Morocco agreed to upgrade diplomatic relations by opening embassies and appointing ambassadors in both countries, according to an official Israeli government statement cited by Reuters. The countries had maintained liaison offices after renewing diplomatic ties in 2020.",
+                "category": "international-relations",
+                "title": "Israel and Morocco agree to open embassies",
+                "event_date": "2026-09-16",
+                "candidate_id": "israel-morocco-embassies-agreement",
+                "geography": "Israel; Morocco",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/israel-morocco-agree-to-upgrade-diplomatic-ties-israeli-government-says"
+                  }
+                ]
+              },
+              {
+                "summary": "Myanmar’s military-backed government released and deported U.S. citizen Adam Castillo, who had been detained since June following a business dispute. Castillo, a former head of the American Chamber of Commerce in Myanmar, had been accused of improperly using the organization for lobbying; his supporters said the allegations were unfounded.",
+                "category": "justice",
+                "title": "Myanmar releases detained U.S. businessman",
+                "event_date": "2026-09-16",
+                "candidate_id": "myanmar-releases-adam-castillo",
+                "geography": "Myanmar; United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/myanmar-frees-us-businessman-trump-officials-credited"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. House approved the Lindsey O. Graham Sanctioning Russia and Iran Act by 262-159, sending it to President Donald Trump after its earlier Senate passage. The bill targets Russian energy, defense and sanctions-evasion networks and authorizes tariffs of up to 100% on countries buying Russian energy. It had not become law at the end of the target day.",
+                "category": "international-relations",
+                "title": "U.S. House sends Russia sanctions bill to Trump",
+                "event_date": "2026-09-16",
+                "candidate_id": "us-house-russia-iran-sanctions-bill",
+                "geography": "United States; Russia; Iran; Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/us-house-takes-up-russia-sanctions-bill-backed-by-late-senator-graham"
+                  }
+                ]
+              },
+              {
+                "summary": "Two women filed a proposed class-action lawsuit against the co-executors of Jeffrey Epstein’s estate on behalf of people depicted as children in sexual-abuse material seized from his properties. The filing seeks at least $6 million for more than 40 people, identification and notification of those pictured, and statutory payments and other penalties.",
+                "category": "justice",
+                "title": "Epstein survivors file class action against estate",
+                "event_date": "2026-09-16",
+                "candidate_id": "epstein-estate-child-images-class-action",
+                "geography": "New York, United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/epstein-survivors-sue-his-estate-over-child-pornography-collection"
+                  }
+                ]
+              },
+              {
+                "summary": "Suspended U.S. Immigration and Customs Enforcement agent Christian Castro surrendered to Minnesota authorities and was jailed on an outstanding warrant. State prosecutors accuse him of assault and filing a false report after he shot and wounded a Venezuelan man in Minneapolis in January. Castro separately faces a federal indictment alleging false statements; the charges remain unresolved.",
+                "category": "justice",
+                "title": "ICE agent surrenders in Minnesota shooting case",
+                "event_date": "2026-09-16",
+                "candidate_id": "ice-agent-castro-minnesota-arrest",
+                "geography": "Minnesota and Texas, United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/ice-agent-charged-with-assault-lying-about-shooting-arrested-in-minnesota"
+                  }
+                ]
+              },
+              {
+                "summary": "Australia announced migration reforms that would generally prevent international students from bringing partners and children, restrict student-visa renewals to applicants advancing to higher qualifications, introduce a ballot for some working-holiday extensions and add no-further-stay conditions to visitor visas. Reuters said exceptions would apply to some Pacific and Southeast Asian students; implementation details and effective dates were not established in the report.",
+                "category": "policy",
+                "title": "Australia announces tighter student and temporary-visa rules",
+                "event_date": "2026-09-16",
+                "candidate_id": "australia-student-temporary-visa-reforms",
+                "geography": "Australia",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/australia-to-bar-foreign-students-from-bringing-partners-children-while-they-study"
+                  }
+                ]
+              },
+              {
+                "summary": "Russian airstrikes damaged buildings and other sites in Kyiv and struck a 19-story apartment building in Odesa during the final hours of the New York target day, Ukrainian officials said. Three people, including a child, were injured in Odesa. Russia did not immediately comment in the available report.",
+                "category": "conflict",
+                "title": "Russian strikes damage Kyiv and injure three in Odesa",
+                "event_date": "2026-09-16",
+                "candidate_id": "russia-kyiv-odesa-strikes-sept-17",
+                "geography": "Kyiv and Odesa, Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-strikes-ukraine-s-kyiv-injures-three-in-odesa-officials-say"
+                  }
+                ]
+              },
+              {
+                "summary": "A World Weather Attribution analysis concluded that rapid human-caused warming probably helped create conditions for the August 26 rock-and-ice avalanche and flood along the Nepal-China border. Researchers said glacier thinning, permafrost thaw, exceptional warmth and meltwater further destabilized a geologically vulnerable slope, while the precise contribution of each factor remains uncertain.",
+                "category": "science",
+                "title": "Study links Himalayan glacier disaster conditions to warming",
+                "event_date": "2026-09-16",
+                "candidate_id": "nepal-glacier-collapse-climate-attribution",
+                "geography": "Nepal; Tibet, China; Himalayas",
+                "sources": [
+                  {
+                    "name": "World Weather Attribution",
+                    "url": "https://www.worldweatherattribution.org/rapid-warming-in-the-himalaya-exacerbates-geohazard-cascades-beyond-adaptation-limits/"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/climate-change-likely-to-have-helped-trigger-nepal-glacier-collapse-scientists-say"
+                  }
+                ]
+              },
+              {
+                "summary": "Local officials and activists said rescuers had recovered 82 bodies from the collapse of interconnected shafts at the informal al-Zara gold mine in West Kordofan, with dozens of people still unaccounted for. Accounts differed on whether the collapse began Sunday or Tuesday evening, but the death toll rose on Wednesday as limited equipment hampered rescue work.",
+                "category": "disaster",
+                "title": "Sudan gold-mine collapse toll rises to 82",
+                "event_date": "2026-09-16",
+                "candidate_id": "sudan-al-zara-mine-collapse",
+                "geography": "West Kordofan, Sudan",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/sudan-gold-mine-collapse-6a6f5bc2c2f847c16f8a4f8f422c6a82"
+                  }
+                ]
+              },
+              {
+                "summary": "Gaza health officials said 21 people, including 11 children and five women, were killed when a strike-damaged residential building sheltering displaced families collapsed in Gaza City. At least 14 people were injured. The Associated Press reported Wednesday afternoon that rescuers had finished digging through the wreckage.",
+                "category": "disaster",
+                "title": "Gaza building collapse kills 21",
+                "event_date": "2026-09-16",
+                "candidate_id": "gaza-city-building-collapse",
+                "geography": "Gaza City, Gaza Strip",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/gaza-israel-hamas-ceasefire-shifa-33cf517a6d89ac27a24fa9de09b088fe"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/war-damaged-gaza-building-collapses-killing-12-people-seeking-shelter-inside"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-16"
+          },
+          "metadata": {
+            "responseId": "resp_0f21231150bd2dfd006aab91bc1dec87d2a8295eb7ec6b4f7e",
+            "requestId": "req_4152e16569974f4ea968faedb5b00e58",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2491,
+            "inputTokens": 76937,
+            "outputTokens": 4487,
+            "webSearchCalls": 10,
+            "stage": "discovery",
+            "targetDate": "2026-09-16",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 100670,
+            "attemptDurationMs": 100670,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-17T07:07:35.965Z",
+        "capturedAt": "2026-09-17T07:09:16.755Z"
+      }
+    ],
+    "sift": {
+      "inputFingerprint": "adb56bf7d9cbd083dd6ddbf604a8c7de22cbce45849afcafecd5dc3b2a0c1327",
+      "priorStories": [
+        {
+          "headline": "CBO estimates Iran operations cost $38 billion",
+          "body": "The Congressional Budget Office estimated that Defense Department combat operations against Iran cost about $38 billion through August 1 and could add roughly $3 billion a month, depending on the conflict’s intensity.\n\nCBO projected a 0.5% inflation increase in the first quarter of 2027 and said depleted munitions could take five years to replenish. The Pentagon disputed the finding that its stocks were insufficient.",
+          "sources": [
+            {
+              "name": "Congressional Budget Office",
+              "url": "https://www.cbo.gov/topics/defense-and-national-security"
+            },
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/iran-war-cost-hits-38-billion-forecast-to-rise-3-billion-a-month-cbo-says"
+            }
+          ]
+        },
+        {
+          "headline": "Congo Ebola outbreak reaches 7,258 confirmed cases",
+          "body": "Government figures listed 7,258 confirmed Ebola cases and 3,510 deaths across seven provinces in eastern Democratic Republic of Congo, United Nations officials said.\n\nContainment efforts were making progress in some places, but the epidemic was still growing elsewhere. A World Health Organization official said it was too early to conclude that the outbreak had peaked.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/un-says-ebola-epidemic-still-huge-and-growing"
+            }
+          ]
+        },
+        {
+          "headline": "Hospital failures left infants unprotected from Letby",
+          "body": "A British public inquiry found that failures by senior staff and dysfunctional management at the Countess of Chester Hospital allowed nurse Lucy Letby to harm infants. It concluded that earlier action could have prevented at least two murders.\n\nThe report recommended stronger neonatal safeguards, including protocols for suspected deliberate harm and consideration of cameras in cots and incubators. It did not examine Letby’s guilt or innocence.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/final-report-on-lucy-letby-baby-murders-due-amid-growing-questions-about-convictions"
+            }
+          ]
+        },
+        {
+          "headline": "Belarus justice system coordinated repression, UN finds",
+          "body": "Independent United Nations experts found that Belarusian courts, police, security services, prosecutors and prison authorities acted in coordination to suppress government critics throughout the justice process.\n\nThe panel documented arbitrary arrests, torture, denial of legal safeguards, closed trials and harassment after release. Belarus, which has previously rejected UN criticism, did not immediately respond to the new findings.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/belarus-using-justice-system-to-silence-lukashenko-critics-say-un-experts"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "0c62e03e0003b242e3306ebddc976aea37c4c5564ce81cf24304d404ea28ebdd",
+        "claimId": "2d500e66-0ffc-4261-8cc6-d56acf19324e",
+        "status": "completed",
+        "attempts": 1,
+        "startedAt": "2026-09-17T08:07:29.640Z",
+        "responseId": "resp_05b1bcb4b099b131006aab9fc4beec87d2a8a18c08db365d66"
+      },
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "australia-student-temporary-visa-reforms",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "belarus-releases-25-prisoners",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "canada-jef-membership-application",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "duterte-icc-fitness-hearing",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "epstein-estate-child-images-class-action",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "eu-state-of-union-proposals-2026",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "gaza-city-building-collapse",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ice-agent-castro-minnesota-arrest",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "india-pakistan-naval-collision-protest",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "israel-morocco-embassies-agreement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "italy-road-tax-abolition-plan",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "malta-caruana-galizia-justice-protest",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "myanmar-releases-adam-castillo",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "nepal-glacier-collapse-climate-attribution",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "russia-kyiv-odesa-strikes-sept-17",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "russia-zyuzev-treason-sentence",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "sweden-2026-election-projection",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "sweden-expels-iranian-official",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "switzerland-mercosur-parliament-approval",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ukraine-2027-defence-budget-proposal",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ukraine-bus-train-drone-strikes",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "un-guterres-ai-safety-cooperation",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-house-russia-iran-sanctions-bill",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-venezuela-drug-control-designation",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The Federal Open Market Committee unanimously increased its target for the federal funds rate to 3.75%-4%. The quarter-point increase and related implementation measures take effect September 17.\n\nThe committee said inflation remained elevated even as economic growth stayed solid.",
+              "candidate_id": "fed-september-2026-rate-increase",
+              "headline": "Fed raises rates by quarter point",
+              "sources": [
+                {
+                  "name": "Federal Reserve",
+                  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+                },
+                {
+                  "name": "Federal Reserve",
+                  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a1.htm"
+                }
+              ]
+            },
+            {
+              "body": "France’s national health agency estimated at least 817 excess deaths during exceptionally hot weather from July 27 through August 20. That brought recorded excess mortality since June and the start of successive heatwaves to nearly 8,000.\n\nMost of the excess deaths were among people 75 and older. The estimates cover deaths from all causes and are based on death certificates, rather than counting only deaths directly attributed to heat.",
+              "candidate_id": "france-heatwave-excess-deaths",
+              "headline": "France estimates nearly 8,000 heatwave excess deaths",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/france-recorded-at-least-817-excess-deaths-during-july-27-august-20-heatwaves"
+                }
+              ]
+            },
+            {
+              "body": "Rescuers had recovered 82 bodies from collapsed, interconnected shafts at the informal al-Zara gold mine in West Kordofan, local officials and activists said. Dozens of people remained unaccounted for.\n\nAccounts differed on whether the collapse began Sunday or Tuesday evening. Limited equipment was hampering rescue work.",
+              "candidate_id": "sudan-al-zara-mine-collapse",
+              "headline": "Sudan mine collapse death toll reaches 82",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/sudan-gold-mine-collapse-6a6f5bc2c2f847c16f8a4f8f422c6a82"
+                }
+              ]
+            },
+            {
+              "body": "Syria’s parliament voted to abolish the Counter-Terrorism Court created under Bashar Assad and nullify the legal effects of its rulings, state television reported. The vote formalized steps already taken by the country’s post-Assad authorities.\n\nThe court, established in 2012, prosecuted thousands of Syrians. United Nations bodies had criticized its lack of judicial safeguards and links to arbitrary detention and torture.",
+              "candidate_id": "syria-abolishes-terrorism-court",
+              "headline": "Syria nullifies Assad-era terrorism court rulings",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/syria-parliament-votes-to-abolish-assad-era-terrorism-court-nullify-rulings"
+                }
+              ]
+            },
+            {
+              "body": "The EU-backed Kosovo Specialist Chambers sentenced former Kosovo President Hashim Thaci to 25 years in prison after convicting him of war crimes from the 1998-99 conflict.\n\nThe court found him guilty of crimes including murder, torture, cruel treatment and arbitrary or illegal detention. Thaci denied the charges, and either side may appeal.",
+              "candidate_id": "thaci-war-crimes-sentence",
+              "headline": "Kosovo tribunal sentences Thaci to 25 years",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/0b24b81d6e1ca8f01d8b8b54bb465ee9"
+                },
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/former-kosovo-president-thaci-sentenced-to-25-years-in-prison-for-war-crimes"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_05b1bcb4b099b131006aab9fc4beec87d2a8a18c08db365d66",
+          "requestId": "req_3cf5ccadbd5e44da9a428ff2ce7b6ef7",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 2070,
+          "inputTokens": 6748,
+          "outputTokens": 3399,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-16",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 52560,
+          "attemptDurationMs": 52560,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
+    }
+  }
+}

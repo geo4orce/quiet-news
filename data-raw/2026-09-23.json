@@ -1,0 +1,534 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-23",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Hurricane Polo reaches Category 5",
+            "body": "Polo strengthened from a Category 4 storm late Monday to Category 5, with maximum sustained winds reaching 180 mph, according to the U.S. National Hurricane Center.\n\nThe hurricane was expected to remain off Mexico’s southwestern coast, but authorities closed ports in Guerrero and Michoacán and suspended some classes. Heavy rain, flooding, mudslides and hazardous surf threatened coastal areas.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/hurricane-polo-mexico-a6c1c226c878a236442a8e1a7f37211b"
+              },
+              {
+                "name": "U.S. National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "50fbdae99014ad29d35902f0539aa3ecba3ec918aa83bcd4e86b185c5e26d89f",
+          "claimId": "33585fce-e2dd-4e78-aefb-b28b3e2df419",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-23T10:07:37.701Z",
+          "responseId": "resp_09b3b0fa2da6a3b8006ab3a4ed275487d299fa50feb10003db"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Polling stations opened across Morocco at 8 a.m. local time for an election to fill all 395 seats in the House of Representatives. Voting was scheduled to continue until 7 p.m., with provisional results expected from September 24.",
+                "category": "politics",
+                "title": "Voting begins in Morocco’s parliamentary election",
+                "event_date": "2026-09-23",
+                "candidate_id": "morocco-parliamentary-election-voting",
+                "geography": "Morocco",
+                "sources": [
+                  {
+                    "name": "Morocco government portal",
+                    "url": "https://www.maroc.ma/en/elections-legislatives-marocaines-2026"
+                  },
+                  {
+                    "name": "Anadolu Agency",
+                    "url": "https://www.anadoluajansi.gov.tr/en/middle-east/morocco-begins-voting-in-legislative-elections/4065919"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-23"
+          },
+          "metadata": {
+            "responseId": "resp_09b3b0fa2da6a3b8006ab3a4ed275487d299fa50feb10003db",
+            "requestId": "req_f8e437556af549849598eb1f9b0a2fad",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1289,
+            "inputTokens": 41606,
+            "outputTokens": 1465,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-23",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 53394,
+            "attemptDurationMs": 53394,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-23T10:07:37.640Z",
+        "capturedAt": "2026-09-23T10:08:31.095Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Hurricane Polo reaches Category 5",
+            "body": "Polo strengthened from a Category 4 storm late Monday to Category 5, with maximum sustained winds reaching 180 mph, according to the U.S. National Hurricane Center.\n\nThe hurricane was expected to remain off Mexico’s southwestern coast, but authorities closed ports in Guerrero and Michoacán and suspended some classes. Heavy rain, flooding, mudslides and hazardous surf threatened coastal areas.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/hurricane-polo-mexico-a6c1c226c878a236442a8e1a7f37211b"
+              },
+              {
+                "name": "U.S. National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "a34019ea571e846c253dc97adea66d601fcf96765bdc1686f07e246810144006",
+          "claimId": "0be765df-d876-4301-8c3b-38f90af6e659",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-23T16:07:35.088Z",
+          "responseId": "resp_087d199ecb2db4a1006ab3f94b6f3087d28570f67301fd737c"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Tigray’s regional authorities said their forces had entered a new war with Ethiopia’s federal government, describing it as defensive, as fighting spread across Tigray and neighboring Afar and Amhara. Tigrayan forces took control of Mekelle’s airport, and Ethiopian Airlines suspended flights to Mekelle, Axum and Shire. The federal government had not immediately commented.",
+                "category": "conflict",
+                "title": "Tigray authorities declare renewed war with Ethiopia’s federal government",
+                "event_date": "2026-09-23",
+                "candidate_id": "ethiopia-tigray-renewed-war",
+                "geography": "Ethiopia",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Tigrayan%2Bleaders%2Bsay%2Bnew%2Bwar%2Bwith%2BEthiopian%2Bgovernment%2Bhas%2Bbegun%2C%2Bas%2Bfighting%2Berupts/27093656.html"
+                  },
+                  {
+                    "name": "Euronews",
+                    "url": "https://www.euronews.com/2026/09/23/tigray-rebels-seize-airport-and-clash-with-federal-forces-as-fighting-in-ethiopia-reignite"
+                  },
+                  {
+                    "name": "Anadolu Agency",
+                    "url": "https://www.aa.com.tr/en/africa/tplf-forces-take-control-of-airport-in-ethiopias-tigray-as-tensions-deepen/4066404"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-23"
+          },
+          "metadata": {
+            "responseId": "resp_087d199ecb2db4a1006ab3f94b6f3087d28570f67301fd737c",
+            "requestId": "req_d1fe70a942d64b7297557e23a4f9f2f9",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1672,
+            "inputTokens": 55530,
+            "outputTokens": 1858,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-23",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 55600,
+            "attemptDurationMs": 55600,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-23T16:07:35.024Z",
+        "capturedAt": "2026-09-23T16:08:30.689Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [
+          {
+            "headline": "Hurricane Polo reaches Category 5",
+            "body": "Polo strengthened from a Category 4 storm late Monday to Category 5, with maximum sustained winds reaching 180 mph, according to the U.S. National Hurricane Center.\n\nThe hurricane was expected to remain off Mexico’s southwestern coast, but authorities closed ports in Guerrero and Michoacán and suspended some classes. Heavy rain, flooding, mudslides and hazardous surf threatened coastal areas.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/hurricane-polo-mexico-a6c1c226c878a236442a8e1a7f37211b"
+              },
+              {
+                "name": "U.S. National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "4664e8bf58656519addff35c15d86c1fa0cdd4d67826bfb3e1831d85fab080fb",
+          "claimId": "9826b21f-269d-48f0-a6bd-1b6039e8d478",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-23T22:07:37.222Z",
+          "responseId": "resp_0625f3e50a4e4cc9006ab44dacf53887d2b98e4e19dc73e3c5"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "A New York judge sentenced former film producer Harvey Weinstein to 15 years in prison for a criminal sexual act against former production assistant Miriam Haley in 2006. The sentence followed a retrial after New York’s highest court overturned his original conviction in 2024. Weinstein has indicated he will appeal.",
+                "category": "justice",
+                "title": "Harvey Weinstein sentenced to 15 years in New York sex-crime case",
+                "event_date": "2026-09-23",
+                "candidate_id": "harvey-weinstein-new-york-sentence",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press via ABC News",
+                    "url": "https://www-cdn.abcnews.com/Entertainment/wireStory/harvey-weinstein-set-sentenced-sexual-assault-after-6-136673491"
+                  },
+                  {
+                    "name": "Bloomberg Law",
+                    "url": "https://news.bloomberglaw.com/white-collar-and-criminal-law/harvey-weinstein-sentenced-to-15-years-for-ny-sexual-assault"
+                  }
+                ]
+              },
+              {
+                "summary": "Iranian President Masoud Pezeshkian told the U.N. General Assembly that Iran would not surrender in its war with the United States, while saying Tehran remained open to diplomacy. He accused President Donald Trump of a bullying approach and described Iranians as victims of terrorism. The address responded to Trump’s threats against Iran at the assembly a day earlier.",
+                "category": "conflict",
+                "title": "Iran’s president rejects surrender while affirming diplomacy at U.N.",
+                "event_date": "2026-09-23",
+                "candidate_id": "iran-pezeshkian-un-wartime-address",
+                "geography": "Iran / United States",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://in.marketscreener.com/news/iran-s-president-says-tehran-will-not-surrender-in-war-with-us-but-believes-in-diplomacy-ce785ad9de8cf227"
+                  },
+                  {
+                    "name": "Reuters Connect",
+                    "url": "https://www.reutersconnect.com/item/iranian-president-addresses-un-general-assembly-in-new-york/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XQU5BQ0FBVklERU8yMDI2MDkyMzQyNTUwOTk2"
+                  },
+                  {
+                    "name": "ABC News Australia",
+                    "url": "https://www.abc.net.au/news/2026-09-24/iranian-president-masoud-pezeshkian-speaks-at-united-nations/107188962"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. Secretary of State Marco Rubio said after meeting Russian Foreign Minister Sergei Lavrov that both Russia and Ukraine had expressed interest in limited ceasefires covering grain and energy-related targets. Russia had not publicly confirmed readiness for such arrangements. Ukrainian President Volodymyr Zelenskiy separately said Kyiv was ready for a Black Sea maritime truce and urged Moscow to respond.",
+                "category": "diplomacy",
+                "title": "Rubio says Russia and Ukraine voiced interest in limited ceasefires",
+                "event_date": "2026-09-23",
+                "candidate_id": "russia-ukraine-limited-ceasefire-interest",
+                "geography": "Russia / Ukraine / United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Al-Monitor",
+                    "url": "https://www.al-monitor.com/originals/2026/09/rubio-says-russia-and-ukraine-have-both-voiced-interest-limited-ceasefire"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/23/zelenskiy-says-ukraine-ready-for-maritime-truce-and-puts-onus-on-russia-to-respond"
+                  },
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/zelenskiy-says-ukraine-ready-for-maritime-truce-and-puts-onus-on-russia-to-respond-ce785ad9de80f725"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-23"
+          },
+          "metadata": {
+            "responseId": "resp_0625f3e50a4e4cc9006ab44dacf53887d2b98e4e19dc73e3c5",
+            "requestId": "req_f48799fcd23048f08f305304c1bcc343",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1784,
+            "inputTokens": 50146,
+            "outputTokens": 2539,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-23",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 64484,
+            "attemptDurationMs": 64484,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-09-23T22:07:37.150Z",
+        "capturedAt": "2026-09-23T22:08:41.706Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Hurricane Polo reaches Category 5",
+            "body": "Polo strengthened from a Category 4 storm late Monday to Category 5, with maximum sustained winds reaching 180 mph, according to the U.S. National Hurricane Center.\n\nThe hurricane was expected to remain off Mexico’s southwestern coast, but authorities closed ports in Guerrero and Michoacán and suspended some classes. Heavy rain, flooding, mudslides and hazardous surf threatened coastal areas.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/hurricane-polo-mexico-a6c1c226c878a236442a8e1a7f37211b"
+              },
+              {
+                "name": "U.S. National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "3311bebd898986a33a88835e6bd29fb2c71f89833e1436ff5681aed8676e22c6",
+          "claimId": "640a4213-07e9-4047-82e0-baa135d6c140",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-24T07:07:32.746Z",
+          "responseId": "resp_0798c5ed979ad6c5006ab4cc38774487d2ba8f44c85c46f438"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Authenticity and Modernity Party won 97 of 395 seats in Morocco’s parliamentary election, the largest total, according to official preliminary results announced by the interior minister. Its outgoing coalition partners, the National Rally of Independents and Istiqlal Party, won 66 and 65 seats respectively. Voting took place September 23; the results remain provisional.",
+                "category": "politics",
+                "title": "PAM leads Morocco’s parliamentary election with 97 seats",
+                "event_date": "2026-09-23",
+                "candidate_id": "morocco-parliamentary-election-voting",
+                "geography": "Morocco",
+                "sources": [
+                  {
+                    "name": "Reuters via Fidelity",
+                    "url": "https://www.fidelity.com/news/article/default/202609232356RTRSNEWSCOMBINED_KBN3VA0A4-OUSWD_1"
+                  },
+                  {
+                    "name": "Al Jazeera Arabic",
+                    "url": "https://www.aljazeera.net/news/2026/9/24/%D8%B9%D8%A7%D8%AC%D9%84-%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B5%D8%AF%D8%B1-%D8%AD%D8%B2%D8%A8"
+                  }
+                ]
+              },
+              {
+                "summary": "Tigray’s regional leaders said their forces had entered a defensive war against Ethiopia’s federal government, while an adviser to Prime Minister Abiy Ahmed and a senior Ethiopian official described the operations as a major Tigrayan offensive. Tigrayan forces seized federally controlled airports, and fighting spread into Afar and Amhara alongside allied armed groups. Ethiopian Airlines suspended regional flights. Federal government spokespeople did not respond to requests for comment, and the African Union urged immediate de-escalation and direct talks.",
+                "category": "conflict",
+                "title": "Renewed Ethiopia-Tigray fighting spreads into neighboring regions",
+                "event_date": "2026-09-23",
+                "candidate_id": "ethiopia-tigray-renewed-war",
+                "geography": "Ethiopia",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts-ce785ad9da8df02c"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/23/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts"
+                  },
+                  {
+                    "name": "Euronews",
+                    "url": "https://www.euronews.com/2026/09/23/tigray-rebels-seize-airport-and-clash-with-federal-forces-as-fighting-in-ethiopia-reignite"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. Treasury Secretary Scott Bessent said the United States and China agreed to extend their existing trade truce, known as the Busan Agreement, from its scheduled November 10 expiration through January 10. Bessent announced the extension after meeting Chinese Vice Premier He Lifeng in Washington ahead of a summit between Presidents Donald Trump and Xi Jinping. Detailed terms of the extension were not immediately published.",
+                "category": "trade",
+                "title": "United States and China extend trade truce through January 10",
+                "event_date": "2026-09-23",
+                "candidate_id": "us-china-trade-truce-extension",
+                "geography": "United States / China",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/us-china-agree-to-extend-the-busan-agreement-until-january-bessent-says-ce785aded88ef52c"
+                  },
+                  {
+                    "name": "Reuters via AOL",
+                    "url": "https://www.aol.com/articles/us-china-agree-extend-busan-222217000.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-23"
+          },
+          "metadata": {
+            "responseId": "resp_0798c5ed979ad6c5006ab4cc38774487d2ba8f44c85c46f438",
+            "requestId": "req_f41c076ec8714396a288ad087451d8e1",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1745,
+            "inputTokens": 81055,
+            "outputTokens": 2620,
+            "webSearchCalls": 9,
+            "stage": "discovery",
+            "targetDate": "2026-09-23",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 105822,
+            "attemptDurationMs": 105822,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-24T07:07:32.669Z",
+        "capturedAt": "2026-09-24T07:09:18.569Z"
+      }
+    ],
+    "sift": {
+      "inputFingerprint": "2ce692d044d4ad8f9ff1f2becead3c8122f849ba6dfdf9157d7bab895958a92b",
+      "priorStories": [
+        {
+          "headline": "Hurricane Polo reaches Category 5",
+          "body": "Polo strengthened from a Category 4 storm late Monday to Category 5, with maximum sustained winds reaching 180 mph, according to the U.S. National Hurricane Center.\n\nThe hurricane was expected to remain off Mexico’s southwestern coast, but authorities closed ports in Guerrero and Michoacán and suspended some classes. Heavy rain, flooding, mudslides and hazardous surf threatened coastal areas.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/hurricane-polo-mexico-a6c1c226c878a236442a8e1a7f37211b"
+            },
+            {
+              "name": "U.S. National Hurricane Center",
+              "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "c574149b704615710a7916640e4ef916c57166124c4b2479c36726d38cdb61f4",
+        "claimId": "2fb15df5-51f1-44cd-aff4-a8dd2712aba6",
+        "status": "completed",
+        "attempts": 1,
+        "startedAt": "2026-09-24T08:07:35.919Z",
+        "responseId": "resp_082dd29a396a2ca3006ab4da4b780c87d2bcde71feb4881b21"
+      },
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "iran-pezeshkian-un-wartime-address",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "morocco-parliamentary-election-voting",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "russia-ukraine-limited-ceasefire-interest",
+              "code": "weak_support"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Tigrayan forces seized federally controlled airports as renewed fighting with Ethiopia’s federal government spread into the neighboring Afar and Amhara regions, where allied armed groups were also involved. Ethiopian Airlines suspended regional flights.\n\nTigray’s leaders described the fighting as a defensive war. An adviser to Prime Minister Abiy Ahmed and another senior Ethiopian official called it a major Tigrayan offensive. The federal government did not respond to requests for comment, while the African Union called for immediate de-escalation and direct talks.",
+              "candidate_id": "ethiopia-tigray-renewed-war",
+              "headline": "Fighting in Ethiopia spreads beyond Tigray",
+              "sources": [
+                {
+                  "name": "Reuters via MarketScreener",
+                  "url": "https://www.marketscreener.com/news/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts-ce785ad9da8df02c"
+                },
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/23/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts"
+                },
+                {
+                  "name": "Euronews",
+                  "url": "https://www.euronews.com/2026/09/23/tigray-rebels-seize-airport-and-clash-with-federal-forces-as-fighting-in-ethiopia-reignite"
+                }
+              ]
+            },
+            {
+              "body": "A New York judge sentenced former film producer Harvey Weinstein to 15 years in prison for a criminal sexual act against former production assistant Miriam Haley in 2006.\n\nThe sentence followed a retrial ordered after New York’s highest court overturned his original conviction in 2024. Weinstein has indicated that he will appeal.",
+              "candidate_id": "harvey-weinstein-new-york-sentence",
+              "headline": "Harvey Weinstein sentenced to 15 years",
+              "sources": [
+                {
+                  "name": "Associated Press via ABC News",
+                  "url": "https://www-cdn.abcnews.com/Entertainment/wireStory/harvey-weinstein-set-sentenced-sexual-assault-after-6-136673491"
+                },
+                {
+                  "name": "Bloomberg Law",
+                  "url": "https://news.bloomberglaw.com/white-collar-and-criminal-law/harvey-weinstein-sentenced-to-15-years-for-ny-sexual-assault"
+                }
+              ]
+            },
+            {
+              "body": "The United States and China agreed to keep their existing trade truce in place through January 10, extending it from its scheduled November 10 expiration, Treasury Secretary Scott Bessent said.\n\nBessent announced the extension after meeting Chinese Vice Premier He Lifeng in Washington, ahead of a summit between Presidents Donald Trump and Xi Jinping. Detailed terms were not immediately published.",
+              "candidate_id": "us-china-trade-truce-extension",
+              "headline": "U.S. and China extend trade truce",
+              "sources": [
+                {
+                  "name": "Reuters via MarketScreener",
+                  "url": "https://www.marketscreener.com/news/us-china-agree-to-extend-the-busan-agreement-until-january-bessent-says-ce785aded88ef52c"
+                },
+                {
+                  "name": "Reuters via AOL",
+                  "url": "https://www.aol.com/articles/us-china-agree-extend-busan-222217000.html"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_082dd29a396a2ca3006ab4da4b780c87d2bcde71feb4881b21",
+          "requestId": "req_38e7502b37604d459361cd00fbafb574",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 387,
+          "inputTokens": 2702,
+          "outputTokens": 1141,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-23",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 21702,
+          "attemptDurationMs": 21702,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
+    }
+  }
+}

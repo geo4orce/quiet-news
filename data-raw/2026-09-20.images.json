@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "edition_date": "2026-09-20",
+  "attempts": {
+    "10493521f4d222d7154a0bcafa3b39c827eefed6a30f350cf97dfdaae4ae8b0d": {
+      "status": "completed",
+      "claimed_at": "2026-09-21T08:08:18.068Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-21T08:08:37.542Z"
+    },
+    "f73c7dca8fb4438730439372c2dc5654a6a9eae25687057b986bc23635ee785c": {
+      "status": "completed",
+      "claimed_at": "2026-09-21T08:08:39.420Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-21T08:08:57.375Z"
+    }
+  }
+}

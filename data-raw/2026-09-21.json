@@ -1,0 +1,1012 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-21",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Haiti sends 18 assassination suspects to US",
+            "body": "Eighteen suspects in the 2021 assassination of Haitian President Jovenel Moïse were flown from Haiti to the United States to face trial, according to U.S. and Haitian officials.\n\nU.S. prosecutors have indicted 30 people in the case. Haiti’s justice minister said proceedings there had produced no trial after five years of delays.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Suspects%2Bin%2B2021%2Bkilling%2Bof%2BHaitian%2Bpresident%2Bflown%2Bto%2BUS%2Bto%2Bface%2Btrial/27081912.html"
+              }
+            ]
+          },
+          {
+            "headline": "Ukraine launches vast drone attack across Russia",
+            "body": "Ukrainian forces launched more than 1,000 drones at Russia overnight, according to officials cited by the Associated Press. Russian authorities reported three deaths in the Moscow region and damage to an oil refinery and residential buildings.\n\nUkraine said it targeted oil and logistics facilities. The casualty, interception and damage reports come from the countries fighting the war and could not be independently reconciled.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/ukraine-russia-war-drones-moscow-5f7889d027c0247ca2c2c64425b9ffa9"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Three%2Bdead%2Bin%2BMoscow%2Bregion%2C%2Bdrones%2Bhit%2Boil%2Brefinery%2Bin%2BRussian%2Bcapital/27081816.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "214f6955466db556f4b1bdd4be43aeddc6eb2f358427e10ad4177d96cdf5b17e",
+          "claimId": "1adce8c9-551a-42e9-9c54-71b6ad35c1d1",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-21T10:07:30.983Z",
+          "responseId": "resp_0327e6c7cf9795b6006ab101e623f087d2b95a6fa41ec19da7"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Russia's Central Election Commission said United Russia won 57.83% of the party-list vote after more than 95% of ballots were counted in the parliamentary election. The preliminary result would give the ruling party 355 of the State Duma's 450 seats, preserving its constitutional majority. The election was conducted under tight political controls, with voting also held in Russian-controlled areas of Ukraine that Kyiv and Western governments reject as illegally occupied.",
+                "category": "politics",
+                "title": "United Russia retains constitutional majority in preliminary count",
+                "event_date": "2026-09-21",
+                "candidate_id": "russia-parliamentary-election-results",
+                "geography": "Russia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/5342c2757623f2e46e94b4c548e94213"
+                  },
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/russia-s-ruling-pro-putin-party-wins-wartime-election-with-over-57-of-vote-near-complete-results-s-ce785adbda89f724"
+                  }
+                ]
+              },
+              {
+                "summary": "China's Foreign Ministry announced that President Xi Jinping will make a state visit to the United States from September 23 through September 25 at President Donald Trump's invitation. The ministry did not provide further itinerary details in its initial announcement.",
+                "category": "diplomacy",
+                "title": "China confirms Xi state visit to United States",
+                "event_date": "2026-09-21",
+                "candidate_id": "china-confirms-xi-us-state-visit",
+                "geography": "China and United States",
+                "sources": [
+                  {
+                    "name": "Chinese Ministry of Foreign Affairs",
+                    "url": "https://www.fmprc.gov.cn/eng/xw/zyxw/202609/t20260921_12027514.html"
+                  },
+                  {
+                    "name": "CNA",
+                    "url": "https://www.channelnewsasia.com/east-asia/china-xi-jinping-visit-united-states-trump-summit-6399071"
+                  }
+                ]
+              },
+              {
+                "summary": "Typhoon Dujuan brought heavy rain and strong winds to eastern Japan as it approached the Pacific coast. At least 275 flights were canceled, more than 4,000 households in Chiba Prefecture lost power, some railway services were suspended and authorities warned of flooding and landslides. Japan's weather agency said rainfall through Tuesday could exceed the monthly September average in some areas.",
+                "category": "weather",
+                "title": "Typhoon Dujuan disrupts travel and power in eastern Japan",
+                "event_date": "2026-09-21",
+                "candidate_id": "typhoon-dujuan-eastern-japan-disruptions",
+                "geography": "Japan",
+                "sources": [
+                  {
+                    "name": "CNA",
+                    "url": "https://www.channelnewsasia.com/east-asia/japan-typhoon-dujuan-approaches-prompting-flood-landslide-warnings-6398486"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-21"
+          },
+          "metadata": {
+            "responseId": "resp_0327e6c7cf9795b6006ab101e623f087d2b95a6fa41ec19da7",
+            "requestId": "req_8e2e8ccc7d8d441faebd0c34c895771a",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1624,
+            "inputTokens": 62689,
+            "outputTokens": 2199,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-21",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 68279,
+            "attemptDurationMs": 68279,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-21T10:07:30.952Z",
+        "capturedAt": "2026-09-21T10:08:39.263Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Haiti sends 18 assassination suspects to US",
+            "body": "Eighteen suspects in the 2021 assassination of Haitian President Jovenel Moïse were flown from Haiti to the United States to face trial, according to U.S. and Haitian officials.\n\nU.S. prosecutors have indicted 30 people in the case. Haiti’s justice minister said proceedings there had produced no trial after five years of delays.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Suspects%2Bin%2B2021%2Bkilling%2Bof%2BHaitian%2Bpresident%2Bflown%2Bto%2BUS%2Bto%2Bface%2Btrial/27081912.html"
+              }
+            ]
+          },
+          {
+            "headline": "Ukraine launches vast drone attack across Russia",
+            "body": "Ukrainian forces launched more than 1,000 drones at Russia overnight, according to officials cited by the Associated Press. Russian authorities reported three deaths in the Moscow region and damage to an oil refinery and residential buildings.\n\nUkraine said it targeted oil and logistics facilities. The casualty, interception and damage reports come from the countries fighting the war and could not be independently reconciled.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/ukraine-russia-war-drones-moscow-5f7889d027c0247ca2c2c64425b9ffa9"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Three%2Bdead%2Bin%2BMoscow%2Bregion%2C%2Bdrones%2Bhit%2Boil%2Brefinery%2Bin%2BRussian%2Bcapital/27081816.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "b2a7d2f5b540e0790329030e569e88b82f8c1e39a74a1476a61dccadba4814bc",
+          "claimId": "3cd5bfb1-fd9b-41a6-9266-d16dd3d95d4f",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-21T16:07:38.051Z",
+          "responseId": "resp_029eca981a90fe2a006ab1564e072887d2868705ed6f6f2387"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Gates Foundation announced that it is convening a coalition of 60 organizations, including Anthropic, Google and the OpenAI Foundation, to develop more representative language data for artificial intelligence. The coalition aims to make AI tools more accessible to more than 3 billion people over five years, though details including its governance remain under development.",
+                "category": "technology",
+                "title": "Gates Foundation convenes coalition for underrepresented AI languages",
+                "event_date": "2026-09-21",
+                "candidate_id": "gates-ai-language-data-coalition",
+                "geography": "Global",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/aefb021bede3b02c83890f65cd540fd0"
+                  }
+                ]
+              },
+              {
+                "summary": "Chicago Federal Reserve President Austan Goolsbee said persistent supply shocks, including oil-price increases and tariffs, may require higher interest rates that push employment below its target to return inflation to 2%. His remarks described a policy trade-off and did not announce a Federal Reserve decision.",
+                "category": "economy",
+                "title": "Goolsbee says inflation fight may require economic pain",
+                "event_date": "2026-09-21",
+                "candidate_id": "goolsbee-inflation-employment-tradeoff",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/5acf1f7e4f38ac77329fa0b9aaddd30f"
+                  }
+                ]
+              },
+              {
+                "summary": "U.N. Special Rapporteur Mariana Katzarova presented a report to the Human Rights Council describing Russian surveillance, intimidation and reprisals against critics abroad as a systematic state strategy. The report, based on about 400 documented cases, said recorded incidents increased after Russia's 2022 invasion of Ukraine. Russia's Geneva mission did not immediately respond to Reuters and Moscow has previously denied allegations of hostile actions abroad.",
+                "category": "human rights",
+                "title": "UN expert reports expanded Russian repression abroad",
+                "event_date": "2026-09-21",
+                "candidate_id": "un-report-russia-transnational-repression",
+                "geography": "Russia and international",
+                "sources": [
+                  {
+                    "name": "United Nations Geneva",
+                    "url": "https://www.unognewsroom.org/story/en/3269/hrc-63-human-rights-in-the-russian-federation-21-september-2026"
+                  },
+                  {
+                    "name": "Office of the UN High Commissioner for Human Rights",
+                    "url": "https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/sessions-regular/session63/advance-versions/a-hrc-63-60-aev-14th.pdf"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Russia%2Bhas%2Bintensified%2Brepression%2Bof%2Bcritics%2Boverseas,%C2%A0UN%C2%A0expert%2Bsays/27083427.html"
+                  }
+                ]
+              },
+              {
+                "summary": "An unidentified projectile struck a tanker entering the Strait of Hormuz, according to the United Kingdom Maritime Trade Operations center. Two crew members sustained minor injuries, while the vessel continued toward its next port under its own power. No environmental impact was reported initially.",
+                "category": "security",
+                "title": "Projectile strikes tanker entering Strait of Hormuz",
+                "event_date": "2026-09-21",
+                "candidate_id": "projectile-strikes-hormuz-tanker",
+                "geography": "Strait of Hormuz",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/iran-us-yemen-saudi-houthis-hormuz-september-21-2026-82714681bde58c6525c2d7a1bc587b25"
+                  }
+                ]
+              },
+              {
+                "summary": "The International Organization for Migration reported that renewed fighting in Yemen had displaced 129,438 people across seven provinces. The agency said 11,352 people were displaced during the three days beginning September 18, with many families having already fled their homes more than once.",
+                "category": "humanitarian",
+                "title": "Yemen fighting displaces nearly 130,000 people, IOM says",
+                "event_date": "2026-09-21",
+                "candidate_id": "yemen-fighting-displacement-iom-update",
+                "geography": "Yemen",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/iran-us-yemen-saudi-houthis-hormuz-september-21-2026-82714681bde58c6525c2d7a1bc587b25"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-21"
+          },
+          "metadata": {
+            "responseId": "resp_029eca981a90fe2a006ab1564e072887d2868705ed6f6f2387",
+            "requestId": "req_34a59425792c4327a7afa5e3a465a38a",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1971,
+            "inputTokens": 55470,
+            "outputTokens": 2871,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-21",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 80378,
+            "attemptDurationMs": 80378,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-21T16:07:37.967Z",
+        "capturedAt": "2026-09-21T16:08:58.430Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [
+          {
+            "headline": "Haiti sends 18 assassination suspects to US",
+            "body": "Eighteen suspects in the 2021 assassination of Haitian President Jovenel Moïse were flown from Haiti to the United States to face trial, according to U.S. and Haitian officials.\n\nU.S. prosecutors have indicted 30 people in the case. Haiti’s justice minister said proceedings there had produced no trial after five years of delays.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Suspects%2Bin%2B2021%2Bkilling%2Bof%2BHaitian%2Bpresident%2Bflown%2Bto%2BUS%2Bto%2Bface%2Btrial/27081912.html"
+              }
+            ]
+          },
+          {
+            "headline": "Ukraine launches vast drone attack across Russia",
+            "body": "Ukrainian forces launched more than 1,000 drones at Russia overnight, according to officials cited by the Associated Press. Russian authorities reported three deaths in the Moscow region and damage to an oil refinery and residential buildings.\n\nUkraine said it targeted oil and logistics facilities. The casualty, interception and damage reports come from the countries fighting the war and could not be independently reconciled.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/ukraine-russia-war-drones-moscow-5f7889d027c0247ca2c2c64425b9ffa9"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Three%2Bdead%2Bin%2BMoscow%2Bregion%2C%2Bdrones%2Bhit%2Boil%2Brefinery%2Bin%2BRussian%2Bcapital/27081816.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "7872c9a73f698d127b4ccf5d7b379733c2e2c48d02fe043f3d46be6757057c4e",
+          "claimId": "5761891f-604d-48b2-8e21-46aca00338f4",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-21T22:07:31.415Z",
+          "responseId": "resp_0dde3b1c2e109559006ab1aaa6c53087d2939ff1841c395c22"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Twelve states and the Writers Guild of America agreed to settle lawsuits challenging Paramount's $81 billion acquisition of Warner Bros. Discovery. Paramount committed to measures including increased U.S. film production, worker-support funding and monitoring of editorial independence. The settlements remove major legal obstacles, but the states' agreement still requires a judge's approval.",
+                "category": "business",
+                "title": "Paramount settles state and writers' challenges to Warner merger",
+                "event_date": "2026-09-21",
+                "candidate_id": "paramount-warner-lawsuit-settlements",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/warner-bros-paramount-skydance-merger-settlement-1aaa7c471d8ba286ccfad92b18bc1ecf"
+                  }
+                ]
+              },
+              {
+                "summary": "California Governor Gavin Newsom signed seven bills imposing new disclosure and oversight requirements on data centers. The measures address electricity and grid-upgrade costs, water use, land use, workforce needs and local review, including provisions intended to prevent infrastructure costs from being shifted to other electricity customers.",
+                "category": "technology policy",
+                "title": "California enacts data-center oversight package",
+                "event_date": "2026-09-21",
+                "candidate_id": "california-data-center-oversight-laws",
+                "geography": "California, United States",
+                "sources": [
+                  {
+                    "name": "Office of Governor Gavin Newsom",
+                    "url": "https://www.gov.ca.gov/2026/09/21/governor-newsom-signs-most-comprehensive-data-center-laws-in-the-nation-providing-communities-more-control-on-water-electricity-and-land-use/"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/California%2BGovernor%2Bsigns%2Bbroad%2Bdata%2Bcenter%2Boversight%2Bbill%2Bpackage/27085056.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Texas Governor Greg Abbott directed the state environmental agency to halt permits sought by data centers until grid and water regulators complete audits of the facilities. The directive pauses state regulatory approvals but does not itself permanently prohibit data-center development.",
+                "category": "technology policy",
+                "title": "Texas halts data-center permits pending audits",
+                "event_date": "2026-09-21",
+                "candidate_id": "texas-halts-data-center-permits",
+                "geography": "Texas, United States",
+                "sources": [
+                  {
+                    "name": "Office of the Texas Governor",
+                    "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/General+News/Texas+Governor+Abbott+halts+all+state-issued+permits+for+data+centers+until+grid+audit+is+complete/27085893.html"
+                  }
+                ]
+              },
+              {
+                "summary": "The Federal Aviation Administration said it began using a predictive-analytics system intended to improve flight management and reduce congestion. Initial deployment covers airspace around Washington, D.C., with gradual expansion planned elsewhere under a 12-year contract awarded to Air Space Intelligence in June.",
+                "category": "transportation",
+                "title": "FAA begins deploying predictive flight-management system",
+                "event_date": "2026-09-21",
+                "candidate_id": "faa-deploys-predictive-flight-system",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/FAA%2Bbegins%2Buse%2Bof%2BAI%2Btool%2Bin%2Bbid%2Bto%2Breduce%2Bflight%2Bdelays/27085096.html"
+                  },
+                  {
+                    "name": "Federal Aviation Administration",
+                    "url": "https://www.faa.gov/newsroom/modern-skies-trumps-transportation-secretary-sean-p-duffy-selects-air-space-intelligence"
+                  }
+                ]
+              },
+              {
+                "summary": "Pennsylvania's Department of Health reported 792 measles cases, 25 more than its September 18 count, and 155 hospitalizations. Lancaster County remained the state's hardest-hit area. Reuters reported that the state outbreak was part of the largest U.S. measles resurgence in decades.",
+                "category": "health",
+                "title": "Pennsylvania measles outbreak reaches 792 cases",
+                "event_date": "2026-09-21",
+                "candidate_id": "pennsylvania-measles-792-cases",
+                "geography": "Pennsylvania, United States",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Pennsylvania%2Bmeasles%2Bcases%2Bnear%2B800%2Bas%2Boutbreak%2Bgrows/27085044.html"
+                  }
+                ]
+              },
+              {
+                "summary": "A Vermont jury convicted Jason Eaton on three counts of attempted second-degree murder for shooting three Palestinian American students in Burlington in November 2023. The verdict rejected his insanity defense. Sentencing will occur later; prosecutors said each count carries a presumptive minimum term of 20 years and a possible sentence of life without parole.",
+                "category": "justice",
+                "title": "Vermont jury convicts gunman who shot Palestinian American students",
+                "event_date": "2026-09-21",
+                "candidate_id": "vermont-palestinian-students-shooting-conviction",
+                "geography": "Vermont, United States",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Man%2Bconvicted%2Bof%2Battempted%2Bmurder%2Bin%2Bshooting%2Bof%2Bthree%2BPalestinian%2Bstudents%2Bin%2BVermont/27086049.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Moldova's government said it would ask parliament on September 22 to declare an energy and water-supply emergency because of dangerously low levels in the Dniester River and concerns about peak electricity capacity. The Security Council recommended emergency regulations, but parliament had not yet approved the requested declaration.",
+                "category": "environment",
+                "title": "Moldova seeks emergency powers over water and energy risks",
+                "event_date": "2026-09-21",
+                "candidate_id": "moldova-seeks-water-energy-emergency",
+                "geography": "Moldova",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Moldovan%2Bleaders%2Bsay%2Bwill%2Bseek%2Bparliament%27s%2Bok%2Bto%2Bdeclare%2Benergy%2C%2Bwater%2Bemergency/27085342.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Polo strengthened into a hurricane off Mexico's Pacific coast, with maximum sustained winds of 80 mph, according to the U.S. National Hurricane Center. Its core was forecast to remain offshore, but forecasters warned of heavy rain, flooding, mudslides and hazardous seas in Guerrero and Michoacán. Further strengthening was forecast but had not yet occurred.",
+                "category": "weather",
+                "title": "Polo becomes hurricane off Mexico's Pacific coast",
+                "event_date": "2026-09-21",
+                "candidate_id": "hurricane-polo-mexico-pacific",
+                "geography": "Mexico",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Polo%2Bstrengthens%2Binto%2Bhurricane%2C%2Bthreatening%2BMexico%27s%2BPacific%2Bresort%2Btowns/27085131.html"
+                  }
+                ]
+              },
+              {
+                "summary": "A business association representing community development financial institutions sued the U.S. Treasury Department, seeking to stop nearly $300 million in congressionally appropriated grants from expiring at the end of September. The group alleged Treasury unlawfully failed to distribute fiscal 2025 funding. Treasury did not immediately comment to Reuters.",
+                "category": "justice",
+                "title": "Community lenders sue Treasury over withheld grants",
+                "event_date": "2026-09-21",
+                "candidate_id": "community-lenders-treasury-grants-lawsuit",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Trump%2Badministration%2Bsued%2Bover%2Bwithheld%2Bfederal%2Bgrants%2Bfor%2BUS%2Bcommunity%2Blenders%C2%A0/27084981.html"
+                  }
+                ]
+              },
+              {
+                "summary": "California Governor Gavin Newsom proclaimed a state of emergency to mobilize resources and streamline preparations for expected El Niño-related winter storms. The proclamation was a preparedness measure rather than a report that the forecast severe winter impacts had already occurred. Newsom also terminated 34 older emergency declarations that were no longer needed.",
+                "category": "weather",
+                "title": "California declares emergency for El Niño preparedness",
+                "event_date": "2026-09-21",
+                "candidate_id": "california-el-nino-preparedness-emergency",
+                "geography": "California, United States",
+                "sources": [
+                  {
+                    "name": "Office of Governor Gavin Newsom",
+                    "url": "https://www.gov.ca.gov/2026/09/21/governor-newsom-proclaims-state-of-emergency-to-bolster-statewide-el-nino-preparedness-protect-california/"
+                  }
+                ]
+              },
+              {
+                "summary": "The International Organization for Migration reported that renewed fighting in Yemen had displaced 129,438 people across seven provinces, including 11,352 during the three days beginning September 18. The World Food Programme's acting chief said the agency had provided meals or food commodities to about 60,000 people and was building supplies to assist hundreds of thousands more. The U.N. reported nearly 700 deaths in the escalation.",
+                "category": "humanitarian",
+                "title": "UN agencies expand response as Yemen displacement grows",
+                "event_date": "2026-09-21",
+                "candidate_id": "yemen-fighting-displacement-iom-update",
+                "geography": "Yemen",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/iran-us-yemen-saudi-houthis-hormuz-september-21-2026-82714681bde58c6525c2d7a1bc587b25"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/World%2BFood%2BProgramme%2Bramps%2Bup%2Bresponse%2Bin%2BYemen%2Bas%2Bhunger%2Bfears%2Bescalate%2C%2Bofficial%2Bsays/27085077.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-21"
+          },
+          "metadata": {
+            "responseId": "resp_0dde3b1c2e109559006ab1aaa6c53087d2939ff1841c395c22",
+            "requestId": "req_2874af15de94478cbe94f35d6c392a5e",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1890,
+            "inputTokens": 62332,
+            "outputTokens": 4018,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-21",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 70047,
+            "attemptDurationMs": 70047,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-09-21T22:07:31.381Z",
+        "capturedAt": "2026-09-21T22:08:41.463Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Haiti sends 18 assassination suspects to US",
+            "body": "Eighteen suspects in the 2021 assassination of Haitian President Jovenel Moïse were flown from Haiti to the United States to face trial, according to U.S. and Haitian officials.\n\nU.S. prosecutors have indicted 30 people in the case. Haiti’s justice minister said proceedings there had produced no trial after five years of delays.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Suspects%2Bin%2B2021%2Bkilling%2Bof%2BHaitian%2Bpresident%2Bflown%2Bto%2BUS%2Bto%2Bface%2Btrial/27081912.html"
+              }
+            ]
+          },
+          {
+            "headline": "Ukraine launches vast drone attack across Russia",
+            "body": "Ukrainian forces launched more than 1,000 drones at Russia overnight, according to officials cited by the Associated Press. Russian authorities reported three deaths in the Moscow region and damage to an oil refinery and residential buildings.\n\nUkraine said it targeted oil and logistics facilities. The casualty, interception and damage reports come from the countries fighting the war and could not be independently reconciled.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/ukraine-russia-war-drones-moscow-5f7889d027c0247ca2c2c64425b9ffa9"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Three%2Bdead%2Bin%2BMoscow%2Bregion%2C%2Bdrones%2Bhit%2Boil%2Brefinery%2Bin%2BRussian%2Bcapital/27081816.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "3a916d6204a4a54ec2f8386ba80beeb8a579047dd50b3d257d831b067c67851c",
+          "claimId": "bce6b53b-12b8-4153-861e-767675a344ef",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-22T07:07:36.610Z",
+          "responseId": "resp_01da48533e65c1dd006ab2293c846887d2b3a89f16c348e926"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Hurricane Polo rapidly intensified into a Category 4 storm late Monday, reaching maximum sustained winds of 130 mph, according to the U.S. National Hurricane Center. The storm remained offshore, but forecasters warned of heavy rain, flooding, mudslides and hazardous seas along southwestern Mexico. Further strengthening was possible.",
+                "category": "weather",
+                "title": "Polo rapidly intensifies into Category 4 hurricane",
+                "event_date": "2026-09-21",
+                "candidate_id": "hurricane-polo-mexico-pacific",
+                "geography": "Mexico",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/a6c1c226c878a236442a8e1a7f37211b"
+                  },
+                  {
+                    "name": "U.S. National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+                  }
+                ]
+              },
+              {
+                "summary": "Pakistan said its forces launched airstrikes against militant hideouts in the Afghanistan-Pakistan border region, killing 28 militants. Afghan authorities said a home in Kunar province was struck, killing three civilians and injuring four; the U.N. Assistance Mission in Afghanistan confirmed those civilian casualties. Afghanistan summoned Pakistan's chargé d’affaires and protested what it called a violation of its sovereignty.",
+                "category": "security",
+                "title": "Pakistani airstrikes renew tensions with Afghanistan",
+                "event_date": "2026-09-21",
+                "candidate_id": "pakistan-airstrikes-afghanistan-border",
+                "geography": "Afghanistan and Pakistan",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/95178c5833c7a6a621c9bb0f06a78915"
+                  },
+                  {
+                    "name": "Reuters via Al-Monitor",
+                    "url": "https://www.al-monitor.com/originals/2026/09/pakistan-says-it-killed-28-militants-afghan-taliban-and-un-report-three-civilian"
+                  }
+                ]
+              },
+              {
+                "summary": "British Columbia filed a lawsuit in California federal court against OpenAI and CEO Sam Altman over the February mass shooting in Tumbler Ridge. The province alleges the company failed to notify law enforcement after flagging the shooter's ChatGPT conversations about gun violence. It seeks damages for recovery costs and changes to OpenAI's handling of conversations indicating possible violence. OpenAI said it remained committed to safety work and cooperation with authorities.",
+                "category": "justice",
+                "title": "British Columbia sues OpenAI over Tumbler Ridge shooting",
+                "event_date": "2026-09-21",
+                "candidate_id": "british-columbia-openai-shooting-lawsuit",
+                "geography": "British Columbia, Canada and California, United States",
+                "sources": [
+                  {
+                    "name": "Government of British Columbia",
+                    "url": "https://news.gov.bc.ca/releases/2026AG0067-001105"
+                  },
+                  {
+                    "name": "Reuters via Yahoo",
+                    "url": "https://currently.att.yahoo.com/att/british-columbia-sues-openai-over-220658692.html"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. Court of Appeals for the Eighth Circuit ruled in favor of Missouri's Republican-drawn congressional map and directed a lower court to allow its use. The ruling was paused through September 28 to permit further Supreme Court consideration. An existing Supreme Court order remained in effect, so the decision did not immediately determine which map would be used in the November midterm elections.",
+                "category": "justice",
+                "title": "Appeals court backs Missouri congressional map",
+                "event_date": "2026-09-21",
+                "candidate_id": "missouri-congressional-map-appeals-ruling",
+                "geography": "Missouri, United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/politics-news/us-appeals-court-backs-missouris-republicandrawn-congressional-map-sets-up-return-to-supreme-court-4909722"
+                  }
+                ]
+              },
+              {
+                "summary": "British Prime Minister Andy Burnham said he approved a Saudi request for limited defensive air-to-air refuelling support amid intensified Houthi attacks. Britain plans to deploy one Voyager tanker aircraft in the coming days. Burnham described the assistance as time-limited and subject to review.",
+                "category": "security",
+                "title": "Britain approves refuelling support for Saudi Arabia",
+                "event_date": "2026-09-21",
+                "candidate_id": "britain-saudi-air-refuelling-support",
+                "geography": "United Kingdom and Saudi Arabia",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://uk.marketscreener.com/news/uk-s-burnham-agrees-to-saudi-request-for-refuelling-support-ce785adbd18ef42c"
+                  }
+                ]
+              },
+              {
+                "summary": "Reuters reported that the United States planned to reopen the former Bluie West One military base at Narsarsuaq and establish a presence at Mestersvig in Greenland under an agreement expected to be signed September 22 by the United States, Denmark and Greenland. The agreement had not yet been signed, its text was not public and sources said details could still change.",
+                "category": "security",
+                "title": "US plans expanded military presence in Greenland",
+                "event_date": "2026-09-21",
+                "candidate_id": "us-plans-greenland-military-bases",
+                "geography": "Greenland, Denmark and United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/exclusiveus-to-open-two-new-military-bases-in-greenland-sources-say-4909730"
+                  }
+                ]
+              },
+              {
+                "summary": "G7 foreign ministers meeting alongside the U.N. General Assembly called on Iran to end its arming and support of Yemen's Houthis. Their statement condemned Houthi strikes in Yemen and Saudi Arabia and called for an end to attacks and threats against civilian shipping and a return to the political process.",
+                "category": "diplomacy",
+                "title": "G7 calls on Iran to stop supporting Houthis",
+                "event_date": "2026-09-21",
+                "candidate_id": "g7-iran-houthi-support-statement",
+                "geography": "International",
+                "sources": [
+                  {
+                    "name": "Reuters via KWSN",
+                    "url": "https://kwsn.com/2026/09/21/g7-foreign-ministers-call-on-iran-to-stop-arming-houthis/"
+                  }
+                ]
+              },
+              {
+                "summary": "California's attorney general agreed to dismiss charges against five current and former Stanford University students under a pretrial diversion agreement tied to their occupation of the university president's office during a 2024 pro-Palestinian protest. Each defendant must complete 100 hours of community service, and the group agreed to pay approximately $52,000 in combined restitution. A previous trial ended with a deadlocked jury.",
+                "category": "justice",
+                "title": "Stanford protest charges to be dismissed under diversion agreement",
+                "event_date": "2026-09-21",
+                "candidate_id": "stanford-protest-charges-diversion",
+                "geography": "California, United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/charges-against-propalestinian-stanford-protesters-to-be-dismissed-4909840"
+                  },
+                  {
+                    "name": "Bay City News via SFGate",
+                    "url": "https://www.sfgate.com/news/bayarea/article/santa-clara-co-felony-charges-will-be-dismissed-22442564.php"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. Transportation Secretary Sean Duffy said telecommunications lines had been repaired and airport operations across the Northeast were resuming after a failed circuit and a severed fiber-optic cable disrupted thousands of flights. Airports affected during the outage included major facilities serving New York and Philadelphia, with residual delays expected after operations resumed.",
+                "category": "transportation",
+                "title": "Northeast airport operations resume after telecom outage",
+                "event_date": "2026-09-21",
+                "candidate_id": "northeast-airports-telecom-outage",
+                "geography": "Northeastern United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/airport-operations-in-us-northeast-resume-after-telecom-lines-repaired-4909721"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukrainian regional officials reported that Russian attacks killed at least five people across the Kharkiv, Dnipropetrovsk, Donetsk and Mykolaiv regions. The reported victims included a 3-year-old child in Mykolaiv and people killed in Lozova, Nikopol, Kramatorsk and a nearby Donetsk village. Reuters said it could not independently verify the battlefield reports.",
+                "category": "conflict",
+                "title": "Russian attacks reported to kill five across Ukraine",
+                "event_date": "2026-09-21",
+                "candidate_id": "russian-attacks-ukraine-five-killed",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/five-dead-in-russian-attacks-across-ukrainian-regions-officials-say-ce785adbd08af023"
+                  }
+                ]
+              },
+              {
+                "summary": "European Commission President Ursula von der Leyen said the European Union and the Philippines had agreed on a free-trade deal following a call with Philippine President Ferdinand Marcos Jr. Reuters' initial report did not include the agreement's terms or implementation timetable.",
+                "category": "economy",
+                "title": "European Union and Philippines agree on trade deal",
+                "event_date": "2026-09-21",
+                "candidate_id": "eu-philippines-free-trade-deal",
+                "geography": "European Union and Philippines",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/economy-news/eu-and-philippines-agree-on-free-trade-deal-4909812"
+                  }
+                ]
+              },
+              {
+                "summary": "CNN, MS NOW and Politico filed a federal lawsuit challenging the Trump administration's decision to bar their journalists from White House grounds. The outlets alleged violations of the First Amendment and due-process rights and sought an order restoring access. Other major television networks suspended presidential pool coverage after CNN was removed from its scheduled assignment. The White House defended the restrictions.",
+                "category": "media",
+                "title": "News organizations sue over White House access ban",
+                "event_date": "2026-09-21",
+                "candidate_id": "news-outlets-white-house-access-lawsuit",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://uk.marketscreener.com/news/cnn-ms-now-and-politico-to-sue-over-white-house-ban-ce785adbdd8bf621"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-21"
+          },
+          "metadata": {
+            "responseId": "resp_01da48533e65c1dd006ab2293c846887d2b3a89f16c348e926",
+            "requestId": "req_200db0462702413c93ff66e2c5e07832",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2150,
+            "inputTokens": 87731,
+            "outputTokens": 4223,
+            "webSearchCalls": 11,
+            "stage": "discovery",
+            "targetDate": "2026-09-21",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 95628,
+            "attemptDurationMs": 95628,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-22T07:07:36.510Z",
+        "capturedAt": "2026-09-22T07:09:12.241Z"
+      }
+    ],
+    "sift": {
+      "inputFingerprint": "565faeaafdd4c4e2deb8ef352833ef023ce89d8294ee87998c0fdd124867547c",
+      "priorStories": [
+        {
+          "headline": "Haiti sends 18 assassination suspects to US",
+          "body": "Eighteen suspects in the 2021 assassination of Haitian President Jovenel Moïse were flown from Haiti to the United States to face trial, according to U.S. and Haitian officials.\n\nU.S. prosecutors have indicted 30 people in the case. Haiti’s justice minister said proceedings there had produced no trial after five years of delays.",
+          "sources": [
+            {
+              "name": "Reuters via StreetInsider",
+              "url": "https://www.streetinsider.com/Reuters/Suspects%2Bin%2B2021%2Bkilling%2Bof%2BHaitian%2Bpresident%2Bflown%2Bto%2BUS%2Bto%2Bface%2Btrial/27081912.html"
+            }
+          ]
+        },
+        {
+          "headline": "Ukraine launches vast drone attack across Russia",
+          "body": "Ukrainian forces launched more than 1,000 drones at Russia overnight, according to officials cited by the Associated Press. Russian authorities reported three deaths in the Moscow region and damage to an oil refinery and residential buildings.\n\nUkraine said it targeted oil and logistics facilities. The casualty, interception and damage reports come from the countries fighting the war and could not be independently reconciled.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/ukraine-russia-war-drones-moscow-5f7889d027c0247ca2c2c64425b9ffa9"
+            },
+            {
+              "name": "Reuters via StreetInsider",
+              "url": "https://www.streetinsider.com/Reuters/Three%2Bdead%2Bin%2BMoscow%2Bregion%2C%2Bdrones%2Bhit%2Boil%2Brefinery%2Bin%2BRussian%2Bcapital/27081816.html"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "9dd2066237c3bce62a6dde82fde6b1c620a9f8f23ce63017cd0900ad919cf1a9",
+        "claimId": "b451129f-b3e2-42fc-957e-ceb917863a94",
+        "status": "completed",
+        "attempts": 1,
+        "startedAt": "2026-09-22T08:07:33.329Z",
+        "responseId": "resp_04a0f15a53c2bdeb006ab23748ffb887d2a2d29c1dbf5394c7"
+      },
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "britain-saudi-air-refuelling-support",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "british-columbia-openai-shooting-lawsuit",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "california-data-center-oversight-laws",
+              "code": "displaced_by_stronger_story"
+            },
+            {
+              "candidate_id": "california-el-nino-preparedness-emergency",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "china-confirms-xi-us-state-visit",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "community-lenders-treasury-grants-lawsuit",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "eu-philippines-free-trade-deal",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "faa-deploys-predictive-flight-system",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "g7-iran-houthi-support-statement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "gates-ai-language-data-coalition",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "goolsbee-inflation-employment-tradeoff",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "missouri-congressional-map-appeals-ruling",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "moldova-seeks-water-energy-emergency",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "news-outlets-white-house-access-lawsuit",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "northeast-airports-telecom-outage",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "pakistan-airstrikes-afghanistan-border",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "paramount-warner-lawsuit-settlements",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "projectile-strikes-hormuz-tanker",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "russian-attacks-ukraine-five-killed",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "stanford-protest-charges-diversion",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "typhoon-dujuan-eastern-japan-disruptions",
+              "code": "displaced_by_stronger_story"
+            },
+            {
+              "candidate_id": "un-report-russia-transnational-repression",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-plans-greenland-military-bases",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "vermont-palestinian-students-shooting-conviction",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Hurricane Polo rapidly strengthened into a Category 4 storm late Monday, with maximum sustained winds of 130 mph, according to the U.S. National Hurricane Center.\n\nThe storm remained offshore, but forecasters warned of heavy rain, flooding, mudslides and hazardous seas in southwestern Mexico. Further strengthening was possible.",
+              "candidate_id": "hurricane-polo-mexico-pacific",
+              "headline": "Hurricane Polo reaches Category 4 off Mexico",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/a6c1c226c878a236442a8e1a7f37211b"
+                },
+                {
+                  "name": "U.S. National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+                }
+              ]
+            },
+            {
+              "body": "The Pennsylvania Department of Health reported 792 measles cases, 25 more than on September 18, and 155 hospitalizations. Lancaster County remained the hardest-hit area.\n\nReuters described the state outbreak as part of the largest U.S. measles resurgence in decades.",
+              "candidate_id": "pennsylvania-measles-792-cases",
+              "headline": "Pennsylvania measles outbreak reaches 792 cases",
+              "sources": [
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/Pennsylvania%2Bmeasles%2Bcases%2Bnear%2B800%2Bas%2Boutbreak%2Bgrows/27085044.html"
+                }
+              ]
+            },
+            {
+              "body": "Russia’s Central Election Commission said United Russia received 57.83% of the party-list vote with more than 95% of ballots counted. The preliminary result would give the ruling party 355 of the State Duma’s 450 seats, preserving its constitutional majority.\n\nThe election took place under tight political controls. Voting was also conducted in Russian-controlled parts of Ukraine, which Kyiv and Western governments consider illegally occupied.",
+              "candidate_id": "russia-parliamentary-election-results",
+              "headline": "United Russia retains constitutional majority",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/5342c2757623f2e46e94b4c548e94213"
+                },
+                {
+                  "name": "Reuters via MarketScreener",
+                  "url": "https://www.marketscreener.com/news/russia-s-ruling-pro-putin-party-wins-wartime-election-with-over-57-of-vote-near-complete-results-s-ce785adbda89f724"
+                }
+              ]
+            },
+            {
+              "body": "Texas Governor Greg Abbott directed the state environmental agency to stop issuing permits sought by data centers until grid and water regulators complete audits of the facilities.\n\nThe directive pauses state regulatory approvals; it does not permanently prohibit data-center development.",
+              "candidate_id": "texas-halts-data-center-permits",
+              "headline": "Texas pauses data-center permits for audits",
+              "sources": [
+                {
+                  "name": "Office of the Texas Governor",
+                  "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits"
+                },
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/General+News/Texas+Governor+Abbott+halts+all+state-issued+permits+for+data+centers+until+grid+audit+is+complete/27085893.html"
+                }
+              ]
+            },
+            {
+              "body": "Renewed fighting in Yemen has displaced 129,438 people across seven provinces, according to the International Organization for Migration. That includes 11,352 people displaced during the three days beginning September 18.\n\nThe World Food Programme said it had provided meals or food supplies to about 60,000 people and was building stocks to assist hundreds of thousands more. The United Nations has reported nearly 700 deaths in the escalation.",
+              "candidate_id": "yemen-fighting-displacement-iom-update",
+              "headline": "Fighting displaces more than 129,000 in Yemen",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/iran-us-yemen-saudi-houthis-hormuz-september-21-2026-82714681bde58c6525c2d7a1bc587b25"
+                },
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/World%2BFood%2BProgramme%2Bramps%2Bup%2Bresponse%2Bin%2BYemen%2Bas%2Bhunger%2Bfears%2Bescalate%2C%2Bofficial%2Bsays/27085077.html"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_04a0f15a53c2bdeb006ab23748ffb887d2a2d29c1dbf5394c7",
+          "requestId": "req_23523a8dc5b8488fa8b2c69f90cf20a7",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 5885,
+          "inputTokens": 6721,
+          "outputTokens": 7336,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-21",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 131877,
+          "attemptDurationMs": 131877,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
+    }
+  }
+}

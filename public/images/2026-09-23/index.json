@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "edition_date": "2026-09-23",
+  "images": {
+    "4ed89dba28340c2eac226f3f654abe74e4c3009e09231f639427a25eae8bea4e": {
+      "src": "/images/2026-09-23/4ed89dba28340c2eac226f3f654abe74e4c3009e09231f639427a25eae8bea4e.jpg",
+      "alt": "AI-generated conceptual illustration: Fighting in Ethiopia spreads beyond Tigray",
+      "width": 1536,
+      "height": 1024
+    },
+    "37756e4924c11c258727f0a982eb53a8169a11934730ab4c79e54e88fd929791": {
+      "src": "/images/2026-09-23/37756e4924c11c258727f0a982eb53a8169a11934730ab4c79e54e88fd929791.jpg",
+      "alt": "AI-generated conceptual illustration: Harvey Weinstein sentenced to 15 years",
+      "width": 1536,
+      "height": 1024
+    },
+    "da62354479d7f564e0871798e09992748524f3df9d763e7b751d1f83164ec305": {
+      "src": "/images/2026-09-23/da62354479d7f564e0871798e09992748524f3df9d763e7b751d1f83164ec305.jpg",
+      "alt": "AI-generated conceptual illustration: U.S. and China extend trade truce",
+      "width": 1536,
+      "height": 1024
+    }
+  }
+}

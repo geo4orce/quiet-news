@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-19",
+  "batch": 2,
+  "captured_at": "2026-09-19T16:08:30.906Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Russia's liberal Yabloko party said an election observer lost consciousness as police used force to arrest him at a St. Petersburg polling station during the second day of parliamentary voting. Russian officials did not immediately comment. Separately, election authorities claimed voting systems faced cyberattacks and said the attempts were thwarted; the claims were not independently confirmed.",
+        "category": "politics",
+        "title": "Russian opposition reports observer arrest as officials claim election cyberattacks",
+        "event_date": "2026-09-19",
+        "candidate_id": "russia-election-observer-arrest-cyberattack-claims",
+        "geography": "Russia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/russia-parliamentary-election-state-duma-observer-31a304d3156d9a066ff8001cf1338d7e"
+          },
+          {
+            "name": "Radio Free Europe/Radio Liberty",
+            "url": "https://www.rferl.org/a/russia-duma-vote-election-ukraine/33859408.html"
+          }
+        ]
+      },
+      {
+        "summary": "Denmark and Greenland said a pending security agreement with the United States would preserve the Danish kingdom's sovereignty and Greenlanders' right to self-determination, contrasting with President Donald Trump's description of permanent U.S. control over the island's security. The agreement's full text had not been released and still required parliamentary action before enforcement, according to Denmark's government.",
+        "category": "diplomacy",
+        "title": "Denmark and Greenland say pending US security deal preserves sovereignty",
+        "event_date": "2026-09-19",
+        "candidate_id": "greenland-denmark-us-deal-sovereignty-clarification",
+        "geography": "Greenland, Denmark and United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/trump-greenland-military-denmark-0eac9ad2196551525bcb8c71e80c480e"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/greenland-denmark-say-us-deal-will-not-cede-sovereignty-4908074"
+          }
+        ]
+      },
+      {
+        "summary": "Flames and a large plume of black smoke were documented near Riyadh's King Khalid International Airport after Saudi authorities issued overnight warnings of a potential aerial threat. Reuters imagery showed smoke and flames near apparent fuel tanks, but Saudi officials had not identified the cause or reported casualties. Flight delays and cancellations were reported at the airport.",
+        "category": "conflict",
+        "title": "Fire and smoke reported near Riyadh airport after aerial-threat alerts",
+        "event_date": "2026-09-19",
+        "candidate_id": "riyadh-airport-fire-aerial-threat-alerts",
+        "geography": "Saudi Arabia",
+        "sources": [
+          {
+            "name": "Reuters via Al-Monitor",
+            "url": "https://www.al-monitor.com/originals/2026/09/flames-smoke-seen-near-riyadh-airport-after-saudi-warning-aerial-attack-threat"
+          },
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Flames%2C%2Bblack%2Bsmoke%2Bseen%2Bnear%2BRiyadh%2Bairport%2C%2Beyewitness%2Bsays/27081677.html"
+          }
+        ]
+      },
+      {
+        "summary": "Emperor Naruhito formally opened the 20th Asian Games during a ceremony in Nagoya. The 16-day event includes athletes from 45 countries and regions competing across 43 sports, although some basketball and soccer competitions began before the opening ceremony.",
+        "category": "sports",
+        "title": "Asian Games formally open in Nagoya",
+        "event_date": "2026-09-19",
+        "candidate_id": "asian-games-open-nagoya-2026",
+        "geography": "Japan",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/asian-games-opening-ceremony-japan-a6273d8dbcd8cb86f8b9873acfc240b9"
+          },
+          {
+            "name": "Olympic Council of Asia",
+            "url": "https://oca.asia/news/7901-asian-games-times-first-edition-coincides-with-opening-ceremony.html"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-19"
+  },
+  "metadata": {
+    "responseId": "resp_004459acfdf9c44b006aaeb348659887d2b18f8d8c3332566c",
+    "requestId": "req_736900c68ac94ffb993efb295bd176d3",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1635,
+    "inputTokens": 52133,
+    "outputTokens": 2360,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-19",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 57834,
+    "attemptDurationMs": 57834,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}

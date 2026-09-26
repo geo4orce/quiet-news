@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "edition_date": "2026-09-20",
+  "images": {
+    "10493521f4d222d7154a0bcafa3b39c827eefed6a30f350cf97dfdaae4ae8b0d": {
+      "src": "/images/2026-09-20/10493521f4d222d7154a0bcafa3b39c827eefed6a30f350cf97dfdaae4ae8b0d.jpg",
+      "alt": "AI-generated conceptual illustration: Haiti sends 18 assassination suspects to US",
+      "width": 1536,
+      "height": 1024
+    },
+    "f73c7dca8fb4438730439372c2dc5654a6a9eae25687057b986bc23635ee785c": {
+      "src": "/images/2026-09-20/f73c7dca8fb4438730439372c2dc5654a6a9eae25687057b986bc23635ee785c.jpg",
+      "alt": "AI-generated conceptual illustration: Ukraine launches vast drone attack across Russia",
+      "width": 1536,
+      "height": 1024
+    }
+  }
+}

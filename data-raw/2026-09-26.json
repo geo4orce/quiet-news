@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-26",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Nearly 1.5 million are displaced in Haiti",
+            "body": "The International Organization for Migration said nearly 1.5 million people were internally displaced in Haiti. Almost 80% are now living outside Port-au-Prince.\n\nDisplacement has risen sharply in the Artibonite region as armed groups expand into rural areas. Recent attacks in Kenscoff displaced more than 4,000 people, the UN agency said.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/nearly-1-5-million-displaced-in-haiti-as-violence-spreads-un-says"
+              }
+            ]
+          },
+          {
+            "headline": "FBI breach exposed personnel medical records",
+            "body": "Documents reviewed by Reuters supported hackers’ claims that stolen FBI data included psychiatric and other medical evaluation records belonging to personnel.\n\nThe ShinyHunters group said it obtained two to three terabytes through FBIjobs.gov, but that volume and the breach’s full scope have not been verified. The FBI declined to discuss the records and said it was investigating the reported breach.",
+            "sources": [
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/world-news/exclusiveshinyhunters-hackers-say-they-stole-psychiatric-and-medical-records-of-fbi-staff-4918115"
+              }
+            ]
+          },
+          {
+            "headline": "Three countries bar Iranian airlines",
+            "body": "The United Arab Emirates, Oman and Iraq barred Iranian airlines in response to new U.S. sanctions, restricting service by Iranian carriers to three neighboring countries.\n\nAn adviser to Iran’s supreme leader threatened that countries maintaining restrictions could lose access to flights and airport services. The measures came amid continuing regional conflict and escalating Houthi attacks on Saudi Arabia.",
+            "sources": [
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/world-news/allies-unite-behind-saudi-arabia-as-houthis-step-up-attacks-4916528"
+              }
+            ]
+          },
+          {
+            "headline": "Tigray communications cut amid renewed fighting",
+            "body": "Internet and telephone service was disrupted in Ethiopia’s Tigray region amid renewed fighting involving federal and Tigrayan forces. Sources gave conflicting accounts of responsibility for the shutdown.\n\nThe extent of the combat remained unclear. Ethiopia’s military said hundreds of opposing fighters had been killed or wounded, but Reuters could not independently confirm that claim.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/internet-and-phone-network-disrupted-in-ethiopia-s-war-hit-tigray-region"
+              }
+            ]
+          },
+          {
+            "headline": "Supreme Court again blocks Missouri congressional map",
+            "body": "The U.S. Supreme Court suspended lower-court decisions that would have required Missouri to use a congressional map redrawn by Republicans for the November midterm elections.\n\nThe action was the court’s third intervention in the dispute and again blocked the map, which dismantled a Democratic-held Kansas City district. Litigation over the districts continues.",
+            "sources": [
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/politics-news/us-supreme-court-bars-republicandrawn-map-in-missouri-for-third-time-4918244"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "7cbcc589f6e52ea3288f4c2db8c7e1aeebbf75f6a4d0a1dac22794cd8b6653fd",
+          "claimId": "9fd4c2b8-d662-48bd-86c4-906ef09e12b4",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-26T10:07:35.187Z",
+          "responseId": "resp_07ed6c481c469581006ab7996a7c7087d28c349129da72aeb5"
+        },
+        "result": {
+          "output": {
+            "candidates": [],
+            "withdrawals": [],
+            "target_date": "2026-09-26"
+          },
+          "metadata": {
+            "responseId": "resp_07ed6c481c469581006ab7996a7c7087d28c349129da72aeb5",
+            "requestId": "req_708fe411757d406d9333f0168d738eee",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1089,
+            "inputTokens": 55412,
+            "outputTokens": 1098,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-26",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 37055,
+            "attemptDurationMs": 37055,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-26T10:07:35.123Z",
+        "capturedAt": "2026-09-26T10:08:12.242Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Nearly 1.5 million are displaced in Haiti",
+            "body": "The International Organization for Migration said nearly 1.5 million people were internally displaced in Haiti. Almost 80% are now living outside Port-au-Prince.\n\nDisplacement has risen sharply in the Artibonite region as armed groups expand into rural areas. Recent attacks in Kenscoff displaced more than 4,000 people, the UN agency said.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/nearly-1-5-million-displaced-in-haiti-as-violence-spreads-un-says"
+              }
+            ]
+          },
+          {
+            "headline": "FBI breach exposed personnel medical records",
+            "body": "Documents reviewed by Reuters supported hackers’ claims that stolen FBI data included psychiatric and other medical evaluation records belonging to personnel.\n\nThe ShinyHunters group said it obtained two to three terabytes through FBIjobs.gov, but that volume and the breach’s full scope have not been verified. The FBI declined to discuss the records and said it was investigating the reported breach.",
+            "sources": [
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/world-news/exclusiveshinyhunters-hackers-say-they-stole-psychiatric-and-medical-records-of-fbi-staff-4918115"
+              }
+            ]
+          },
+          {
+            "headline": "Three countries bar Iranian airlines",
+            "body": "The United Arab Emirates, Oman and Iraq barred Iranian airlines in response to new U.S. sanctions, restricting service by Iranian carriers to three neighboring countries.\n\nAn adviser to Iran’s supreme leader threatened that countries maintaining restrictions could lose access to flights and airport services. The measures came amid continuing regional conflict and escalating Houthi attacks on Saudi Arabia.",
+            "sources": [
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/world-news/allies-unite-behind-saudi-arabia-as-houthis-step-up-attacks-4916528"
+              }
+            ]
+          },
+          {
+            "headline": "Tigray communications cut amid renewed fighting",
+            "body": "Internet and telephone service was disrupted in Ethiopia’s Tigray region amid renewed fighting involving federal and Tigrayan forces. Sources gave conflicting accounts of responsibility for the shutdown.\n\nThe extent of the combat remained unclear. Ethiopia’s military said hundreds of opposing fighters had been killed or wounded, but Reuters could not independently confirm that claim.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/internet-and-phone-network-disrupted-in-ethiopia-s-war-hit-tigray-region"
+              }
+            ]
+          },
+          {
+            "headline": "Supreme Court again blocks Missouri congressional map",
+            "body": "The U.S. Supreme Court suspended lower-court decisions that would have required Missouri to use a congressional map redrawn by Republicans for the November midterm elections.\n\nThe action was the court’s third intervention in the dispute and again blocked the map, which dismantled a Democratic-held Kansas City district. Litigation over the districts continues.",
+            "sources": [
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/politics-news/us-supreme-court-bars-republicandrawn-map-in-missouri-for-third-time-4918244"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "21eca1236ae7aa7f607af75744accfd07f270b2395a9bd6e1c83bb8f1de34d76",
+          "claimId": "d5ab4c4b-eae1-443c-bb82-2d8087674378",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-26T16:07:34.644Z",
+          "responseId": "resp_01fed97b90da6438006ab7edca5f8887d29b84d733ed5f09ab"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Eleven people were killed and 30 injured in an explosion near Aman Mela in the Darazinda area of Dera Ismail Khan, Pakistan, according to emergency service Rescue 1122. The Tehreek-e-Taliban Pakistan claimed responsibility for the attack.",
+                "category": "security",
+                "title": "Blast kills 11 in northwestern Pakistan",
+                "event_date": "2026-09-26",
+                "candidate_id": "pakistan-dera-ismail-khan-blast",
+                "geography": "Dera Ismail Khan, Khyber Pakhtunkhwa, Pakistan",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/blast-in-pakistan-s-dera-ismail-khan-kills-11-injures-30"
+                  }
+                ]
+              },
+              {
+                "summary": "Hurricane Polo was a Category 5 storm southwest of Mexico on Saturday morning, with maximum sustained winds reported at 160 mph. Forecasters expected it to turn toward Baja California Sur, where hurricane conditions, life-threatening flooding and mudslides were possible on Monday.",
+                "category": "weather",
+                "title": "Category 5 Hurricane Polo approaches Baja California Sur",
+                "event_date": "2026-09-26",
+                "candidate_id": "hurricane-polo-category-five",
+                "geography": "Mexico",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/category-5-hurricane-polo-threatens-mexico-s-coast-landfall-expected-monday"
+                  },
+                  {
+                    "name": "U.S. National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/text/MIATCAPZ2.shtml"
+                  }
+                ]
+              },
+              {
+                "summary": "India's Election Commission ordered a review of its voter-roll software after reporting that internal concerns had been raised about changes that excluded millions of voters. A committee including an independent technology expert will assess whether the software complies with election laws and rules. The commission said its actions were lawful.",
+                "category": "politics",
+                "title": "India orders review of voter-roll software",
+                "event_date": "2026-09-26",
+                "candidate_id": "india-voter-roll-software-review",
+                "geography": "India",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/india-s-election-commission-orders-review-of-voter-roll-changes"
+                  }
+                ]
+              },
+              {
+                "summary": "Pope Leo celebrated an outdoor Mass on the Champs-Élysées during his visit to France. The Vatican estimated that about 700,000 people attended, making it the largest event of the four-day tour. Earlier Saturday, he met recently baptized Catholics at the Catholic University of Paris.",
+                "category": "religion",
+                "title": "About 700,000 attend Pope Leo's Paris Mass",
+                "event_date": "2026-09-26",
+                "candidate_id": "pope-leo-paris-mass",
+                "geography": "Paris, France",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/pope-leo-set-for-largest-event-of-france-tour-as-paris-crowds-swell"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-26"
+          },
+          "metadata": {
+            "responseId": "resp_01fed97b90da6438006ab7edca5f8887d29b84d733ed5f09ab",
+            "requestId": "req_c1fd179124d64785992ea5d7e6c480ca",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1782,
+            "inputTokens": 60866,
+            "outputTokens": 2433,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-26",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 53137,
+            "attemptDurationMs": 53137,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-26T16:07:34.579Z",
+        "capturedAt": "2026-09-26T16:08:27.782Z"
+      }
+    ],
+    "sift": null
+  }
+}

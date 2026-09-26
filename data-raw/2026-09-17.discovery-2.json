@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-17",
+  "batch": 2,
+  "captured_at": "2026-09-17T16:09:22.580Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Brazil’s government announced a 15% increase in Bolsa Família benefits, raising the minimum monthly payment from 600 reais to 691 reais beginning in October. Officials said the adjustment would be implemented by presidential decree and absorbed within existing budget allocations. The Finance Ministry separately confirmed that a new debt-relief program for heavily indebted consumers was being designed but had not been finalized.",
+        "category": "social policy",
+        "title": "Brazil announces 15% increase in Bolsa Família benefits",
+        "event_date": "2026-09-17",
+        "candidate_id": "brazil-bolsa-familia-benefit-increase",
+        "geography": "Brazil",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/brazil-s-lula-raises-welfare-benefit-ahead-of-october-election"
+          }
+        ]
+      },
+      {
+        "summary": "Irish public broadcaster RTE said Ireland would not participate in or broadcast the 2027 Eurovision Song Contest, citing continuing deaths and the humanitarian crisis in Gaza. Ireland also stayed out of the 2026 contest in protest over Israel’s participation. The European Broadcasting Union said it regretted but respected RTE’s decision.",
+        "category": "culture",
+        "title": "Ireland announces boycott of 2027 Eurovision contest",
+        "event_date": "2026-09-17",
+        "candidate_id": "ireland-eurovision-2027-boycott",
+        "geography": "Ireland",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/ireland-will-boycott-eurovision-2027-rte-says"
+          }
+        ]
+      },
+      {
+        "summary": "Romanian President Nicusor Dan said he would nominate Liberal European Parliament member Siegfried Muresan as prime minister after two previous nominees failed to produce a government. Muresan has 10 days to submit a cabinet and seek a parliamentary confidence vote. Dan acknowledged that no defined parliamentary majority supported the nomination.",
+        "category": "government",
+        "title": "Romanian president chooses Siegfried Muresan as prime-minister nominee",
+        "event_date": "2026-09-17",
+        "candidate_id": "romania-muresan-prime-minister-nominee",
+        "geography": "Romania",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/romanian-liberal-mep-siegfried-muresan-nominated-as-prime-minister"
+          }
+        ]
+      },
+      {
+        "summary": "Frankfurt authorities announced a third death in an unusually localized malaria outbreak around Frankfurt Airport. The latest person was a resident of the nearby Schwanheim district who had not traveled to a malaria-endemic region or worked at the airport. Two airport workers had previously died and four others recovered; laboratory testing of trapped mosquitoes remained pending.",
+        "category": "public health",
+        "title": "Frankfurt announces third death in airport-linked malaria outbreak",
+        "event_date": "2026-09-17",
+        "candidate_id": "frankfurt-airport-malaria-third-death",
+        "geography": "Germany",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/frankfurt-reports-third-malaria-death-in-airport-linked-outbreak"
+          }
+        ]
+      },
+      {
+        "summary": "Serbian President Aleksandar Vucic said the country opened a factory to assemble Israeli-designed drones for Serbia’s military and armed forces in other countries. He said the facility would employ about 100 people and that the government and its Israeli partners expected to establish at least three additional factories. Journalists were not given access to the production area.",
+        "category": "security",
+        "title": "Serbia opens Israeli-designed drone assembly plant",
+        "event_date": "2026-09-17",
+        "candidate_id": "serbia-israeli-drone-assembly-plant",
+        "geography": "Serbia",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/serbia-opens-israeli-drone-assembly-plant"
+          }
+        ]
+      },
+      {
+        "summary": "A Yemeni resident of Saudi Arabia was killed and two other people were injured when Saudi forces intercepted a drone over the southwestern Taif governorate, the kingdom’s civil defence said. Saudi authorities attributed the drone to Yemen’s Iran-backed Houthi movement, which had not claimed an attack Thursday. It was Saudi Arabia’s first announced death this month during intensified Houthi attacks.",
+        "category": "conflict",
+        "title": "Drone interception kills one in Saudi Arabia",
+        "event_date": "2026-09-17",
+        "candidate_id": "saudi-taif-houthi-drone-interception",
+        "geography": "Saudi Arabia",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/one-killed-as-saudi-arabia-intercepts-drone-launched-by-yemen-s-houthis"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/742e1eebb7d099ea42372d978e271900"
+          }
+        ]
+      },
+      {
+        "summary": "The International Organization for Migration said about 60,000 migrants and refugees had reached Europe by sea so far in 2026, down 39% from roughly 98,000 at the same point in 2025. Despite fewer crossings, at least 2,292 people had died or gone missing, compared with 1,999 during the corresponding period last year. IOM said additional deaths probably went unrecorded.",
+        "category": "migration",
+        "title": "IOM reports fewer but deadlier sea crossings to Europe",
+        "event_date": "2026-09-17",
+        "candidate_id": "iom-europe-sea-crossings-2026",
+        "geography": "Europe",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/europe-migrant-sea-crossings-fall-but-become-more-deadly-iom-says"
+          }
+        ]
+      },
+      {
+        "summary": "Pakistan’s Supreme Court suspended 17-year prison sentences imposed on human-rights lawyer Imaan Mazari and her husband, lawyer Hadi Ali Chattha, and ordered their release on bail while a lower court considers their appeal. They were convicted in January over social-media posts critical of military operations and deny the charges. Their family said it was awaiting their release.",
+        "category": "justice",
+        "title": "Pakistan Supreme Court suspends sentences of Imaan Mazari and husband",
+        "event_date": "2026-09-17",
+        "candidate_id": "pakistan-mazari-chattha-sentences-suspended",
+        "geography": "Pakistan",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/pakistan-s-top-court-suspends-sentences-of-rights-lawyer-mazari-and-husband"
+          }
+        ]
+      },
+      {
+        "summary": "Swedish Prime Minister Ulf Kristersson said he would resign after the final count from Sunday’s parliamentary election gave centre-left opposition parties 176 seats and his governing right-wing bloc 173. Kristersson asked to be relieved of office so the parliamentary speaker could begin work toward forming a new government. Social Democratic leader Magdalena Andersson is positioned to attempt forming a coalition.",
+        "category": "government",
+        "title": "Swedish prime minister announces resignation after final election count",
+        "event_date": "2026-09-17",
+        "candidate_id": "sweden-kristersson-resignation-final-count",
+        "geography": "Sweden",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/sweden-s-centre-left-opposition-wins-election-as-count-completed"
+          }
+        ]
+      },
+      {
+        "summary": "Pakistan announced energy-conservation measures including reduced fuel allocations for official vehicles and bans on state vehicle purchases, most foreign travel by officials and official dinners. Government purchases of durable goods, apart from information-technology equipment, were also restricted. Authorities attributed the measures to rising fuel prices and risks to liquefied-natural-gas supplies from the Gulf conflict.",
+        "category": "economy",
+        "title": "Pakistan announces fuel-conservation and government austerity measures",
+        "event_date": "2026-09-17",
+        "candidate_id": "pakistan-fuel-austerity-measures",
+        "geography": "Pakistan",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/pakistan-announces-austerity-measures-to-conserve-fuel-as-gulf-conflict-spirals"
+          }
+        ]
+      },
+      {
+        "summary": "Bolivia’s legislature approved a 90-day extension of the country’s state of emergency, which had been due to expire Friday. The government cited police and military reports warning that protests and road blockades could resume and disrupt supplies and economic activity. Opposition lawmakers and some social groups questioned the need for the extension.",
+        "category": "government",
+        "title": "Bolivia extends state of emergency for 90 days",
+        "event_date": "2026-09-17",
+        "candidate_id": "bolivia-state-emergency-extension",
+        "geography": "Bolivia",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/bolivia-extends-state-of-emergency-over-risks-of-new-blockades"
+          }
+        ]
+      },
+      {
+        "summary": "Greece’s parliament lifted the immunity of lawmaker and former European Commissioner Dimitris Avramopoulos, allowing action on a European arrest warrant issued by a Belgian judge in the Qatargate corruption investigation. Avramopoulos, accused of participation in a criminal group, public corruption and money laundering, denies wrongdoing and said he planned to appear voluntarily before Belgian authorities. Qatar also denies wrongdoing in the broader case.",
+        "category": "justice",
+        "title": "Greek parliament lifts Avramopoulos immunity in Qatargate investigation",
+        "event_date": "2026-09-17",
+        "candidate_id": "greece-avramopoulos-immunity-lifted",
+        "geography": "Greece",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/greek-parliament-lifts-immunity-of-ex-commissioner-amid-qatargate-probe"
+          }
+        ]
+      },
+      {
+        "summary": "Argentina’s government introduced legislation that would strengthen sanctions against companies, shareholders and suppliers involved without Argentine authorization in resource activity around the British-controlled Falkland Islands and maritime areas claimed by Argentina. The bill would also create a presidentially led National Security Council. The measures are proposals pending legislative action and are not yet in force.",
+        "category": "government",
+        "title": "Argentina proposes tougher sanctions over Falklands resource activity",
+        "event_date": "2026-09-17",
+        "candidate_id": "argentina-falklands-sanctions-bill",
+        "geography": "Argentina and Falkland Islands",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/milei-submits-bill-to-strengthen-sanctions-against-falklands-activities"
+          }
+        ]
+      },
+      {
+        "summary": "Nigeria opened the trial of five suspected members of the Islamist group Ansaru over the May abduction of pupils and teachers from schools in Oyo state. The defendants pleaded not guilty to seven terrorism-related counts. A prosecution witness said gunmen took seven teachers and 39 pupils and held them for 56 days; the presidency previously said security forces rescued 39 pupils and six teachers.",
+        "category": "justice",
+        "title": "Nigeria opens trial over Oyo school kidnappings",
+        "event_date": "2026-09-17",
+        "candidate_id": "nigeria-ansaru-school-kidnapping-trial",
+        "geography": "Nigeria",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/nigeria-begins-trial-of-five-suspected-ansaru-members-over-school-kidnapping"
+          }
+        ]
+      },
+      {
+        "summary": "South African police found the body of a ninth young woman near Johannesburg while investigating a series of killings in the Ekurhuleni area over the previous two months. Police said the victim appeared to be in the same age range as the others but that it was too early to establish a connection. Some earlier victims showed signs of sexual violence.",
+        "category": "crime",
+        "title": "Ninth woman’s body found near Johannesburg amid serial-killing investigation",
+        "event_date": "2026-09-17",
+        "candidate_id": "south-africa-ekurhuleni-ninth-body",
+        "geography": "South Africa",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/south-african-police-find-a-ninth-woman-s-body-near-johannesburg"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-17"
+  },
+  "metadata": {
+    "responseId": "resp_0331d467a9282253006aac1050cbe487d2a98d667b1cf4e7fc",
+    "requestId": "req_09d2c5f39b8040b2bd7dae331c3ca284",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1775,
+    "inputTokens": 51939,
+    "outputTokens": 4076,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-17",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 102167,
+    "attemptDurationMs": 102167,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}

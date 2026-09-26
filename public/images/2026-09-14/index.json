@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "edition_date": "2026-09-14",
+  "images": {
+    "7f2e0ca5466b3821f9d9d71273a62af387bc07d032166edd9968e47564168f0e": {
+      "src": "/images/2026-09-14/7f2e0ca5466b3821f9d9d71273a62af387bc07d032166edd9968e47564168f0e.jpg",
+      "alt": "AI-generated conceptual illustration: Houthis capture two Red Sea islands",
+      "width": 1536,
+      "height": 1024
+    },
+    "e4839184aefd3b2b18d086882eabf7fc84e83210b2f4c7303fa4e6440513c75b": {
+      "src": "/images/2026-09-14/e4839184aefd3b2b18d086882eabf7fc84e83210b2f4c7303fa4e6440513c75b.jpg",
+      "alt": "AI-generated conceptual illustration: Israeli strikes in Lebanon kill 13",
+      "width": 1536,
+      "height": 1024
+    },
+    "32f9ca90022366b93c05f9088d2124544b6bcc543ceb535929e957fc61ec9ec5": {
+      "src": "/images/2026-09-14/32f9ca90022366b93c05f9088d2124544b6bcc543ceb535929e957fc61ec9ec5.jpg",
+      "alt": "AI-generated conceptual illustration: Saudi oil pipeline faces weeks of repairs",
+      "width": 1536,
+      "height": 1024
+    },
+    "ac0f42cfce7ede74b2f0492f9860cfd002a7aa0947269245fcecd8b7066d5e49": {
+      "src": "/images/2026-09-14/ac0f42cfce7ede74b2f0492f9860cfd002a7aa0947269245fcecd8b7066d5e49.jpg",
+      "alt": "AI-generated conceptual illustration: Supreme Court keeps mail-ballot rules unchanged",
+      "width": 1536,
+      "height": 1024
+    }
+  }
+}

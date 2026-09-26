@@ -1,0 +1,855 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-20",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Saudi Arabia intercepts Houthi missile at Riyadh",
+            "body": "Saudi Arabia said it intercepted a Houthi ballistic missile aimed at Riyadh, with no casualties or damage reported. Authorities also said attempted attacks on civilian infrastructure in Yanbu, Taif, Baysh and Farasan were thwarted.\n\nThe Houthis claimed responsibility for attacks on Riyadh and an Aramco facility in Yanbu. Their claims that the attacks caused major fires were not substantiated.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/mideast-roundup-news-september-19-2026-24211a3b34731a669f3e7ab93314afdf"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Flames%2C%2Bsmoke%2Bseen%2Bnear%2BRiyadh%2Bairport%3B%2BHouthis%2Bclaim%2Battacks%2Bon%2BSaudi%2Bcapital/27081686.html"
+              },
+              {
+                "name": "Reuters via Al-Monitor",
+                "url": "https://www.al-monitor.com/originals/2026/09/flames-smoke-seen-near-riyadh-airport-after-saudi-warning-aerial-attack-threat"
+              }
+            ]
+          },
+          {
+            "headline": "US Caribbean vessel strike kills four people",
+            "body": "The U.S. military said it struck a vessel in the Caribbean Sea and killed four people, alleging that the boat was involved in drug trafficking.\n\nU.S. Southern Command did not provide evidence that the vessel was carrying drugs. The strike was part of a military campaign against alleged traffickers that began in 2025.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/trump-cartels-military-strike-caribbean-95f3d4ae10f8e2a4a193f601101898d9"
+              },
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/world-news/us-says-it-killed-four-people-in-strike-on-vessel-in-caribbean-4908126"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "0692f560afb44534ea9f809b1216a789a52fe896172aa6c8f7f77a8f9015d7ba",
+          "claimId": "f199b828-15ff-4ef4-87cc-e612a153ec8e",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-20T10:07:36.849Z",
+          "responseId": "resp_08115241eb3551a9006aafb06c241887d2a8b51976f9abb9af"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Ukrainian forces launched more than 1,000 drones at Russia overnight, according to officials cited by AP. Authorities said two people were killed and 20 wounded in the Moscow region, while hundreds were evacuated. Moscow officials reported damage to an oil refinery and a residential building. Ukraine said it targeted oil and logistics facilities; Russian officials said air defenses intercepted hundreds of drones near the capital.",
+                "category": "conflict",
+                "title": "Large Ukrainian drone attack hits Moscow region",
+                "event_date": "2026-09-20",
+                "candidate_id": "ukraine-drone-attack-moscow-region",
+                "geography": "Russia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/ukraine-russia-war-drones-moscow-5f7889d027c0247ca2c2c64425b9ffa9"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Two%2Bdead%2Bin%2BMoscow%2Bregion,%2Bdrones%2Bhit%2Boil%2Brefinery%2Bin%2BRussian%2Bcapital/27081816.html"
+                  }
+                ]
+              },
+              {
+                "summary": "North Korea launched a short-range ballistic missile toward its eastern waters, South Korea's military said. It said the missile flew about 450 kilometers. South Korea later reported another projectile launched from North Korea's east coast but did not identify the weapon. Japan said the earlier suspected missile did not land in its territorial waters.",
+                "category": "security",
+                "title": "North Korea launches ballistic missile and another projectile",
+                "event_date": "2026-09-20",
+                "candidate_id": "north-korea-missile-launch-sept-20",
+                "geography": "Korean Peninsula",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/north-south-korea-launch-ad020d996b61dedd358cc689db614fdb"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/North%2BKorea%2Bfires%2Bballistic%2Bmissile%2Boff%2Beast%2Bcoast,%2BJapan%2Bsays/27081822.html"
+                  }
+                ]
+              },
+              {
+                "summary": "A 30-year-old Israeli man was critically wounded when an attacker fired from a vehicle in the northern occupied West Bank and fled on foot, Israeli officials said. The military established roadblocks. Earlier, Israeli forces conducted a raid in Al-Mughayyir, where Palestinian officials said at least 28 people were detained.",
+                "category": "conflict",
+                "title": "Israeli man critically wounded in West Bank shooting",
+                "event_date": "2026-09-20",
+                "candidate_id": "west-bank-shooting-israeli-wounded",
+                "geography": "Occupied West Bank",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/mideast-news-roundup-september-20-2026-4ca7f5b7d7b4a6658909b7c92764973a"
+                  }
+                ]
+              },
+              {
+                "summary": "A girl wounded in a Russian drone strike in Ukraine's Kyiv region died in a hospital on Sunday, regional authorities said, bringing the reported death toll from the overnight attacks to four. A separate strike on a private home killed a mother and her two 3-year-old children. Authorities reported damage at 31 locations across five districts.",
+                "category": "conflict",
+                "title": "Death toll from Russian attacks in Kyiv region rises to four",
+                "event_date": "2026-09-20",
+                "candidate_id": "kyiv-region-drone-attack-death-toll",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Russian%2Bdrone%2Battack%2Bkills%2Bthree%2Bchildren%2Band%2Ba%2Bwoman%2Bin%2BKyiv%2Bregion/27081824.html"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/ukraine-russia-war-drones-moscow-5f7889d027c0247ca2c2c64425b9ffa9"
+                  }
+                ]
+              },
+              {
+                "summary": "Tung Chee-hwa, Hong Kong's first chief executive after its 1997 handover from Britain to China, was buried following a state funeral. Hong Kong Chief Executive John Lee served as a pallbearer, and senior Chinese Communist Party official Shi Taifeng delivered a eulogy. Tung died on September 8 at age 89.",
+                "category": "obituary",
+                "title": "Hong Kong holds state funeral for Tung Chee-hwa",
+                "event_date": "2026-09-20",
+                "candidate_id": "tung-chee-hwa-state-funeral",
+                "geography": "Hong Kong",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Tung%2BChee-hwa,%2BHong%2BKong's%2Bfirst%2Bleader%2Bunder%2BChinese%2Brule,%2Blaid%2Bto%2Brest/27081821.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-20"
+          },
+          "metadata": {
+            "responseId": "resp_08115241eb3551a9006aafb06c241887d2a8b51976f9abb9af",
+            "requestId": "req_39618d0df78f458480ae32ac3ae9581b",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1190,
+            "inputTokens": 53184,
+            "outputTokens": 2290,
+            "webSearchCalls": 5,
+            "stage": "discovery",
+            "targetDate": "2026-09-20",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 42543,
+            "attemptDurationMs": 42543,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-20T10:07:36.827Z",
+        "capturedAt": "2026-09-20T10:08:19.392Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Saudi Arabia intercepts Houthi missile at Riyadh",
+            "body": "Saudi Arabia said it intercepted a Houthi ballistic missile aimed at Riyadh, with no casualties or damage reported. Authorities also said attempted attacks on civilian infrastructure in Yanbu, Taif, Baysh and Farasan were thwarted.\n\nThe Houthis claimed responsibility for attacks on Riyadh and an Aramco facility in Yanbu. Their claims that the attacks caused major fires were not substantiated.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/mideast-roundup-news-september-19-2026-24211a3b34731a669f3e7ab93314afdf"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Flames%2C%2Bsmoke%2Bseen%2Bnear%2BRiyadh%2Bairport%3B%2BHouthis%2Bclaim%2Battacks%2Bon%2BSaudi%2Bcapital/27081686.html"
+              },
+              {
+                "name": "Reuters via Al-Monitor",
+                "url": "https://www.al-monitor.com/originals/2026/09/flames-smoke-seen-near-riyadh-airport-after-saudi-warning-aerial-attack-threat"
+              }
+            ]
+          },
+          {
+            "headline": "US Caribbean vessel strike kills four people",
+            "body": "The U.S. military said it struck a vessel in the Caribbean Sea and killed four people, alleging that the boat was involved in drug trafficking.\n\nU.S. Southern Command did not provide evidence that the vessel was carrying drugs. The strike was part of a military campaign against alleged traffickers that began in 2025.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/trump-cartels-military-strike-caribbean-95f3d4ae10f8e2a4a193f601101898d9"
+              },
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/world-news/us-says-it-killed-four-people-in-strike-on-vessel-in-caribbean-4908126"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "d3ceb969ca2b260d3cc0b8e5c3bc777adeb5c4accb021336436bccc6391b5be5",
+          "claimId": "7802a2a8-ffe7-46d6-9faa-4bb9d47b4c7b",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-20T16:07:41.079Z",
+          "responseId": "resp_0d687699f098d250006ab004d101d487d2b91a61028f06863f"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "A 30-year-old Israeli man was fatally shot near the Neve Tzuf settlement north of Ramallah. Israeli authorities said the suspected Palestinian gunman fired from a vehicle, fled and was later arrested at a Ramallah hospital. Separately, Israeli soldiers killed a Palestinian motorist near Jenin whom the military accused of attempting to ram troops; Reuters could not independently verify that account.",
+                "category": "conflict",
+                "title": "Israeli man killed in West Bank shooting; suspected gunman arrested",
+                "event_date": "2026-09-20",
+                "candidate_id": "west-bank-shooting-israeli-wounded",
+                "geography": "Occupied West Bank",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/mideast-news-roundup-september-20-2026-4ca7f5b7d7b4a6658909b7c92764973a"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Palestinian%2Bgunman%2Bshoots%2Bdead%2BIsraeli%2Bin%2Bthe%2BWest%2BBank%2C%2Bsoldiers%2Bkill%2Bmotorist/27081870.html"
+                  }
+                ]
+              },
+              {
+                "summary": "North Korea launched two short-range ballistic missiles from the Wonsan area toward its eastern waters about three hours apart, South Korea's military said. The first flew about 450 kilometers and the second more than 600 kilometers before landing in the sea. Japan said the earlier suspected missile did not land in its territorial waters.",
+                "category": "security",
+                "title": "North Korea launches two short-range ballistic missiles",
+                "event_date": "2026-09-20",
+                "candidate_id": "north-korea-missile-launch-sept-20",
+                "geography": "Korean Peninsula",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/north-south-korea-launch-ad020d996b61dedd358cc689db614fdb"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/North%2BKorea%2Bfires%2Btwo%2Bballistic%2Bmissiles%2Boff%2Beast%2Bcoast%2Bin%2Bthree%2Bhours/27081822.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukrainian forces launched more than 1,000 drones at Russia overnight, according to officials cited by AP. Russian authorities reported three deaths in the Moscow region, while an oil refinery and residential buildings were damaged. Ukraine said it targeted oil and logistics facilities. AP corrected Russia's reported interception total to 1,110 drones.",
+                "category": "conflict",
+                "title": "Death toll from large Ukrainian drone attack in Moscow region rises to three",
+                "event_date": "2026-09-20",
+                "candidate_id": "ukraine-drone-attack-moscow-region",
+                "geography": "Russia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/ukraine-russia-war-drones-moscow-5f7889d027c0247ca2c2c64425b9ffa9"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Three%2Bdead%2Bin%2BMoscow%2Bregion%2C%2Bdrones%2Bhit%2Boil%2Brefinery%2Bin%2BRussian%2Bcapital/27081816.html"
+                  }
+                ]
+              },
+              {
+                "summary": "An Iraqi court opened the trial of six French nationals accused of belonging to Islamic State. The defendants were among detainees transferred from northeast Syria to Iraq last year. A member of Iraq's Supreme Judicial Council said they could face the death penalty if convicted of crimes against Iraqis. The hearing was adjourned until October 5 to give defense lawyers time to review the files.",
+                "category": "justice",
+                "title": "Iraq opens trial of six French Islamic State suspects",
+                "event_date": "2026-09-20",
+                "candidate_id": "iraq-trial-french-islamic-state-suspects",
+                "geography": "Iraq",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Iraqi%2Bcourt%2Bopens%2Btrial%2Bof%2Bsix%2BFrench%2BIslamic%2BState%2Bsuspects/27081857.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Police arrested Aleema Khan, a sister of jailed former Pakistani Prime Minister Imran Khan, at her Lahore home, according to a spokesperson for Khan's PTI party. Lahore's district administration ordered her jailed for 30 days, alleging that her presence in public would threaten safety. The arrest came before a planned September 27 march demanding Imran Khan's release.",
+                "category": "politics",
+                "title": "Pakistani police arrest Imran Khan's sister before planned march",
+                "event_date": "2026-09-20",
+                "candidate_id": "pakistan-arrests-imran-khan-sister",
+                "geography": "Pakistan",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Police%2Barrest%2BPakistan%2Bex-PM%C2%A0Imran%2BKhan%27s%2Bsister%2Bin%2BLahore%2Bahead%2Bof%2Bparty%27s%2Bplanned%2Bmarch/27081845.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Indonesian divers recovered another body from the Virgo Transport 8, raising the confirmed death toll from the September 13 Java Sea capsizing to 10, the national rescue agency said. Authorities reported 108 survivors and 125 people still missing. Strong currents hindered Sunday's work, and officials planned to deploy a remotely operated vehicle during the continuing search.",
+                "category": "disaster",
+                "title": "Indonesia shipwreck death toll reaches 10 as 125 remain missing",
+                "event_date": "2026-09-20",
+                "candidate_id": "indonesia-virgo-transport-search-update",
+                "geography": "Indonesia",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Indonesia%2Bcontinues%2Bsearch%2Bfor%2Bhundreds%2Bmissing%2Bin%2Bcapsized%2Bship/27081837.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Italian Prime Minister Giorgia Meloni said her government would soon present a measure to the Cabinet that would ban burqas and niqabs in schools, establish a maximum number of foreign students per class and require some foreign students' parents to learn Italian. Meloni did not specify the proposed classroom limit, and the measures had not yet been approved.",
+                "category": "politics",
+                "title": "Meloni announces planned Italian school restrictions",
+                "event_date": "2026-09-20",
+                "candidate_id": "italy-meloni-school-veil-foreign-student-proposal",
+                "geography": "Italy",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Italy%2Bto%2Bban%2Bveils%2Bin%2Bschools%2C%2Blimit%2Bforeign%2Bstudents%2Bper%2Bclass%2C%2BMeloni%2Bsays/27081875.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Tropical Storm Fay formed early Sunday in the northern Atlantic about 450 miles southwest of the Azores, the U.S. National Hurricane Center said. At 5 a.m. EDT it had maximum sustained winds of 45 mph and was moving north-northeast. No coastal watches or warnings were in effect, and the storm did not appear to threaten land.",
+                "category": "weather",
+                "title": "Tropical Storm Fay forms southwest of the Azores",
+                "event_date": "2026-09-20",
+                "candidate_id": "tropical-storm-fay-forms-atlantic",
+                "geography": "North Atlantic",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/tropical-storm-fay-azores-78644c7efe89efe3799ca8ff482d739d"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-20"
+          },
+          "metadata": {
+            "responseId": "resp_0d687699f098d250006ab004d101d487d2b91a61028f06863f",
+            "requestId": "req_ac3e848a297b48cda846e9f5b97921e2",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1887,
+            "inputTokens": 65717,
+            "outputTokens": 3620,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-20",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 85087,
+            "attemptDurationMs": 85087,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-20T16:07:40.975Z",
+        "capturedAt": "2026-09-20T16:09:06.166Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [
+          {
+            "headline": "Saudi Arabia intercepts Houthi missile at Riyadh",
+            "body": "Saudi Arabia said it intercepted a Houthi ballistic missile aimed at Riyadh, with no casualties or damage reported. Authorities also said attempted attacks on civilian infrastructure in Yanbu, Taif, Baysh and Farasan were thwarted.\n\nThe Houthis claimed responsibility for attacks on Riyadh and an Aramco facility in Yanbu. Their claims that the attacks caused major fires were not substantiated.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/mideast-roundup-news-september-19-2026-24211a3b34731a669f3e7ab93314afdf"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Flames%2C%2Bsmoke%2Bseen%2Bnear%2BRiyadh%2Bairport%3B%2BHouthis%2Bclaim%2Battacks%2Bon%2BSaudi%2Bcapital/27081686.html"
+              },
+              {
+                "name": "Reuters via Al-Monitor",
+                "url": "https://www.al-monitor.com/originals/2026/09/flames-smoke-seen-near-riyadh-airport-after-saudi-warning-aerial-attack-threat"
+              }
+            ]
+          },
+          {
+            "headline": "US Caribbean vessel strike kills four people",
+            "body": "The U.S. military said it struck a vessel in the Caribbean Sea and killed four people, alleging that the boat was involved in drug trafficking.\n\nU.S. Southern Command did not provide evidence that the vessel was carrying drugs. The strike was part of a military campaign against alleged traffickers that began in 2025.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/trump-cartels-military-strike-caribbean-95f3d4ae10f8e2a4a193f601101898d9"
+              },
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/world-news/us-says-it-killed-four-people-in-strike-on-vessel-in-caribbean-4908126"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "55e73b3fd17ab337179b3e71b99b5f99c1e7ec6d70a10ba6e0ea6bceb8987adf",
+          "claimId": "e69cbb75-da6f-4c70-bf8e-916c51024b37",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-20T22:07:41.026Z",
+          "responseId": "resp_0b3eb427f43f5c5b006ab05930bd8887d2bf1cea9169f72dae"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Ukrainian President Volodymyr Zelenskyy said he spoke with U.S. President Donald Trump and that they agreed to meet in New York during the coming U.N. General Assembly week. Zelenskyy said their teams were discussing de-escalation and security issues, but he announced no agreement on ending the war with Russia.",
+                "category": "diplomacy",
+                "title": "Zelenskyy says he and Trump agreed to meet in New York",
+                "event_date": "2026-09-20",
+                "candidate_id": "zelenskyy-trump-agree-new-york-meeting",
+                "geography": "Ukraine and United States",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Ukraine%27s%2BZelenskiy%2Bsays%2Bhe%2Band%2BTrump%2Bagree%2Bto%2Bmeet%2Bin%2BNew%2BYork/27081928.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Eighteen suspects in the 2021 assassination of Haitian President Jovenel Moïse were flown from Haiti to the United States to face trial, U.S. and Haitian officials said. U.S. prosecutors said 30 people have been indicted in the case. Haiti's justice minister said proceedings there had been delayed and had not produced a trial after five years.",
+                "category": "justice",
+                "title": "Haiti transfers 18 Moïse assassination suspects to United States",
+                "event_date": "2026-09-20",
+                "candidate_id": "haiti-moise-suspects-transferred-us",
+                "geography": "Haiti and United States",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Suspects%2Bin%2B2021%2Bkilling%2Bof%2BHaitian%2Bpresident%2Bflown%2Bto%2BUS%2Bto%2Bface%2Btrial/27081912.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Two people familiar with the matter told Reuters that the Trump administration had prepared sanctions against the International Criminal Court, although the timing of any announcement remained unclear. The State Department did not immediately comment. The reported measure had not taken effect and would expand earlier U.S. sanctions targeting individual ICC judges and prosecutors.",
+                "category": "policy",
+                "title": "Sources say Trump administration prepared sanctions against entire ICC",
+                "event_date": "2026-09-20",
+                "candidate_id": "us-prepares-icc-organization-sanctions",
+                "geography": "United States and Netherlands",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Trump%2Badministration%2Bprepares%2Bto%2Bsanction%2Bthe%2BInternational%2BCriminal%2BCourt%2C%2BWSJ%2Breports/27081923.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Canadian Prime Minister Mark Carney said Canada and France had directed their space agencies and defense ministries to jointly develop space-launch systems and ground reception facilities. Carney announced the initiative at a joint news conference with French President Emmanuel Macron in Saint-Pierre and Miquelon.",
+                "category": "science",
+                "title": "Canada and France plan joint space-launch systems",
+                "event_date": "2026-09-20",
+                "candidate_id": "canada-france-joint-space-launch-systems",
+                "geography": "Canada and France",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Canada%27s%2BCarney%2Bcalls%2Bfor%2Bstronger%2Bties%2Bwith%2BFrance%2Bin%2Bface%2Bof%2Bnew%2Bglobal%2Bthreats/27081910.html"
+                  }
+                ]
+              },
+              {
+                "summary": "A senior Houthi official told the Associated Press that the group had indirect contacts with U.S. officials through Oman and had assured Washington it would not attack U.S. vessels in the Red Sea. Mohamed al-Bukhaiti warned other countries against joining Saudi Arabia in Yemen's renewed fighting and said attacks on Saudi Arabia would continue until Riyadh ended its blockade of Houthi-held areas.",
+                "category": "conflict",
+                "title": "Houthi official describes indirect U.S. contacts and warns Saudi allies",
+                "event_date": "2026-09-20",
+                "candidate_id": "houthi-official-us-contacts-saudi-warning",
+                "geography": "Yemen and Red Sea",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/yemen-houthis-iran-saudi-arabia-red-sea-93dfe17125c63897b232f6461d81d85c"
+                  }
+                ]
+              },
+              {
+                "summary": "The White House and New York City Mayor Zohran Mamdani's office confirmed that President Donald Trump and Mamdani planned to meet Monday at Gracie Mansion during Trump's visit for the U.N. General Assembly. Mamdani's communications director said they would discuss issues affecting New York City and its residents.",
+                "category": "politics",
+                "title": "Trump and Mamdani offices announce Gracie Mansion meeting",
+                "event_date": "2026-09-20",
+                "candidate_id": "trump-mamdani-gracie-mansion-meeting-announced",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/trump-mamdani-meeting-new-york-8219d3ebf8576e84a181bd46fb2dc42a"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-20"
+          },
+          "metadata": {
+            "responseId": "resp_0b3eb427f43f5c5b006ab05930bd8887d2bf1cea9169f72dae",
+            "requestId": "req_b1df0165559b44468f42e75ed4519b96",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1229,
+            "inputTokens": 66210,
+            "outputTokens": 2378,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-20",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 48779,
+            "attemptDurationMs": 48779,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-09-20T22:07:40.959Z",
+        "capturedAt": "2026-09-20T22:08:29.806Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Saudi Arabia intercepts Houthi missile at Riyadh",
+            "body": "Saudi Arabia said it intercepted a Houthi ballistic missile aimed at Riyadh, with no casualties or damage reported. Authorities also said attempted attacks on civilian infrastructure in Yanbu, Taif, Baysh and Farasan were thwarted.\n\nThe Houthis claimed responsibility for attacks on Riyadh and an Aramco facility in Yanbu. Their claims that the attacks caused major fires were not substantiated.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/mideast-roundup-news-september-19-2026-24211a3b34731a669f3e7ab93314afdf"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Flames%2C%2Bsmoke%2Bseen%2Bnear%2BRiyadh%2Bairport%3B%2BHouthis%2Bclaim%2Battacks%2Bon%2BSaudi%2Bcapital/27081686.html"
+              },
+              {
+                "name": "Reuters via Al-Monitor",
+                "url": "https://www.al-monitor.com/originals/2026/09/flames-smoke-seen-near-riyadh-airport-after-saudi-warning-aerial-attack-threat"
+              }
+            ]
+          },
+          {
+            "headline": "US Caribbean vessel strike kills four people",
+            "body": "The U.S. military said it struck a vessel in the Caribbean Sea and killed four people, alleging that the boat was involved in drug trafficking.\n\nU.S. Southern Command did not provide evidence that the vessel was carrying drugs. The strike was part of a military campaign against alleged traffickers that began in 2025.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/trump-cartels-military-strike-caribbean-95f3d4ae10f8e2a4a193f601101898d9"
+              },
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/world-news/us-says-it-killed-four-people-in-strike-on-vessel-in-caribbean-4908126"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "df0109a5c6ca0e497f4ddcdaab7bc1bbc6ca86ec3031f7c6d3ea7f739d3a5011",
+          "claimId": "eec6d3cf-a15d-4a25-833d-37a69bf3b482",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-21T07:07:31.246Z",
+          "responseId": "resp_009561c7c992325c006ab0d7b66e4887d2889e441c2bab0ef7"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "U.S. Treasury Secretary Scott Bessent said the United States proposed an incident-notification mechanism for artificial-intelligence events affecting national security during talks with Chinese Vice Premier He Lifeng in New York. The sides also discussed establishing a broader AI dialogue ahead of a Trump-Xi summit. China's response to the proposal was not disclosed, and no agreement was announced.",
+                "category": "diplomacy",
+                "title": "United States proposes AI incident notifications in talks with China",
+                "event_date": "2026-09-20",
+                "candidate_id": "us-china-ai-incident-notification-proposal",
+                "geography": "United States and China",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/2c7f54f07e755f506d9db9b91df282bd"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Bessent%2Bproposes%2BUS-China%2BAI%2Bsafety%2Bnotifications%2Bin%2Btalks%2Bwith%2BChinese%2Bvice%2Bpremier/27081812.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Australian Prime Minister Anthony Albanese formally launched Australia's campaign for a non-permanent United Nations Security Council seat for 2029-2030. Australia had previously disclosed its candidacy. Albanese said artificial intelligence, climate change and international conflicts were among the issues motivating the bid. Finland is also seeking a seat allocated to the same regional group.",
+                "category": "diplomacy",
+                "title": "Australia launches campaign for 2029 UN Security Council seat",
+                "event_date": "2026-09-20",
+                "candidate_id": "australia-launches-2029-un-security-council-campaign",
+                "geography": "Australia and United Nations",
+                "sources": [
+                  {
+                    "name": "Prime Minister of Australia",
+                    "url": "https://www.pm.gov.au/media/press-conference-united-nations-new-york"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Australia%2Bto%2Bseek%2BUN%2Bsecurity%2Bcouncil%2Bseat%2Bfrom%2B2029/27081968.html"
+                  }
+                ]
+              },
+              {
+                "summary": "The Australian and New Zealand navies signed Plan Tasman, a framework intended to deepen cooperation in personnel, training, capability development, operations, engineering, regulation and international engagement. The agreement was signed by the two navies' deputy chiefs, Rear Admiral Darren Grogan and Commodore Karl Woodhead.",
+                "category": "security",
+                "title": "Australia and New Zealand navies sign Plan Tasman cooperation pact",
+                "event_date": "2026-09-20",
+                "candidate_id": "australia-new-zealand-navies-plan-tasman",
+                "geography": "Australia and New Zealand",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Australia%2Band%2BNew%2BZealand%2Bdeepen%2Bnaval%2Bpartnership/27081975.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Afghan officials said Pakistani airstrikes hit locations in Kunar and Paktika provinces, killing three members of one family and injuring four other people in Kunar. Taliban spokesperson Hamdullah Fitrat said a shop and an unoccupied house were destroyed in Paktika without reported casualties. Pakistan's military did not immediately comment.",
+                "category": "conflict",
+                "title": "Afghan officials say Pakistani airstrikes killed three people",
+                "event_date": "2026-09-20",
+                "candidate_id": "pakistan-airstrikes-afghanistan-sept-20",
+                "geography": "Afghanistan and Pakistan",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/At%2Bleast%2Bthree%2Bkilled%2Bin%2BPakistani%2Bairstrikes%2Bon%2BAfghanistan%2C%2Bofficials%2Bsay/27082025.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-20"
+          },
+          "metadata": {
+            "responseId": "resp_009561c7c992325c006ab0d7b66e4887d2889e441c2bab0ef7",
+            "requestId": "req_213f7dd28f034578a0ef99d3597d6b68",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2680,
+            "inputTokens": 56512,
+            "outputTokens": 3548,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-09-20",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 76519,
+            "attemptDurationMs": 76519,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-21T07:07:31.168Z",
+        "capturedAt": "2026-09-21T07:08:47.765Z"
+      }
+    ],
+    "sift": {
+      "inputFingerprint": "cdf1c37a44691e3436239d15672d1363c612dca6b132eab748fabdb85d2d7823",
+      "priorStories": [
+        {
+          "headline": "Saudi Arabia intercepts Houthi missile at Riyadh",
+          "body": "Saudi Arabia said it intercepted a Houthi ballistic missile aimed at Riyadh, with no casualties or damage reported. Authorities also said attempted attacks on civilian infrastructure in Yanbu, Taif, Baysh and Farasan were thwarted.\n\nThe Houthis claimed responsibility for attacks on Riyadh and an Aramco facility in Yanbu. Their claims that the attacks caused major fires were not substantiated.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/mideast-roundup-news-september-19-2026-24211a3b34731a669f3e7ab93314afdf"
+            },
+            {
+              "name": "Reuters via StreetInsider",
+              "url": "https://www.streetinsider.com/Reuters/Flames%2C%2Bsmoke%2Bseen%2Bnear%2BRiyadh%2Bairport%3B%2BHouthis%2Bclaim%2Battacks%2Bon%2BSaudi%2Bcapital/27081686.html"
+            },
+            {
+              "name": "Reuters via Al-Monitor",
+              "url": "https://www.al-monitor.com/originals/2026/09/flames-smoke-seen-near-riyadh-airport-after-saudi-warning-aerial-attack-threat"
+            }
+          ]
+        },
+        {
+          "headline": "US Caribbean vessel strike kills four people",
+          "body": "The U.S. military said it struck a vessel in the Caribbean Sea and killed four people, alleging that the boat was involved in drug trafficking.\n\nU.S. Southern Command did not provide evidence that the vessel was carrying drugs. The strike was part of a military campaign against alleged traffickers that began in 2025.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/trump-cartels-military-strike-caribbean-95f3d4ae10f8e2a4a193f601101898d9"
+            },
+            {
+              "name": "Reuters via Investing.com",
+              "url": "https://www.investing.com/news/world-news/us-says-it-killed-four-people-in-strike-on-vessel-in-caribbean-4908126"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "68bff69d162a6dbce66652e23a9e29e6dd6274afa546f8b2dfefd7d2124f0f12",
+        "claimId": "afb531f5-5878-4b21-b278-a0f3cd302bff",
+        "status": "completed",
+        "attempts": 1,
+        "startedAt": "2026-09-21T08:07:31.067Z",
+        "responseId": "resp_07c7676694fc13a9006ab0e5c632fc87d293a197db5dee5739"
+      },
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "australia-launches-2029-un-security-council-campaign",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "australia-new-zealand-navies-plan-tasman",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "canada-france-joint-space-launch-systems",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "houthi-official-us-contacts-saudi-warning",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "indonesia-virgo-transport-search-update",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "iraq-trial-french-islamic-state-suspects",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "italy-meloni-school-veil-foreign-student-proposal",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "kyiv-region-drone-attack-death-toll",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "north-korea-missile-launch-sept-20",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "pakistan-airstrikes-afghanistan-sept-20",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "pakistan-arrests-imran-khan-sister",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "tropical-storm-fay-forms-atlantic",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-mamdani-gracie-mansion-meeting-announced",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "tung-chee-hwa-state-funeral",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "us-china-ai-incident-notification-proposal",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-prepares-icc-organization-sanctions",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "west-bank-shooting-israeli-wounded",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "zelenskyy-trump-agree-new-york-meeting",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Eighteen suspects in the 2021 assassination of Haitian President Jovenel Moïse were flown from Haiti to the United States to face trial, according to U.S. and Haitian officials.\n\nU.S. prosecutors have indicted 30 people in the case. Haiti’s justice minister said proceedings there had produced no trial after five years of delays.",
+              "candidate_id": "haiti-moise-suspects-transferred-us",
+              "headline": "Haiti sends 18 assassination suspects to US",
+              "sources": [
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/Suspects%2Bin%2B2021%2Bkilling%2Bof%2BHaitian%2Bpresident%2Bflown%2Bto%2BUS%2Bto%2Bface%2Btrial/27081912.html"
+                }
+              ]
+            },
+            {
+              "body": "Ukrainian forces launched more than 1,000 drones at Russia overnight, according to officials cited by the Associated Press. Russian authorities reported three deaths in the Moscow region and damage to an oil refinery and residential buildings.\n\nUkraine said it targeted oil and logistics facilities. The casualty, interception and damage reports come from the countries fighting the war and could not be independently reconciled.",
+              "candidate_id": "ukraine-drone-attack-moscow-region",
+              "headline": "Ukraine launches vast drone attack across Russia",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/ukraine-russia-war-drones-moscow-5f7889d027c0247ca2c2c64425b9ffa9"
+                },
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/Three%2Bdead%2Bin%2BMoscow%2Bregion%2C%2Bdrones%2Bhit%2Boil%2Brefinery%2Bin%2BRussian%2Bcapital/27081816.html"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_07c7676694fc13a9006ab0e5c632fc87d293a197db5dee5739",
+          "requestId": "req_6fea5ae60989491aa634e337f08993fa",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 981,
+          "inputTokens": 5458,
+          "outputTokens": 1803,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-20",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 42928,
+          "attemptDurationMs": 42928,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
+    }
+  }
+}

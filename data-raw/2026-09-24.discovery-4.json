@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-24",
+  "batch": 4,
+  "captured_at": "2026-09-25T07:09:01.236Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The White House said it reinstated journalists from CNN, MS NOW and Politico after several hours in which some remained barred despite a federal judge's order. The administration said affected press badges had been delivered to an entry gate by 9:55 a.m. The judge denied the outlets' request for an emergency hearing but allowed them to report further factual developments. His temporary restraining order remains in effect for 14 days while the lawsuit proceeds.",
+        "category": "Law and justice",
+        "title": "White House restores access for CNN, MS NOW and Politico",
+        "event_date": "2026-09-24",
+        "candidate_id": "white-house-media-access-order",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/White%2BHouse%2Breinstates%2Baccess%2Bto%2BCNN%2C%2BMS%2BNOW%2Band%2BPolitico%2Bfollowing%2Bjudge%27s%2Border/27099231.html"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban"
+          }
+        ]
+      },
+      {
+        "summary": "Authorities raised the death toll from a Kazakh naval training accident in the Caspian Sea to 12 and corrected the number of personnel swept into the water from 19 to 17. Three service members were rescued, while searches continued for two others. President Kassym-Jomart Tokayev declared September 25 a national day of mourning.",
+        "category": "Accidents and disasters",
+        "title": "Twelve Kazakh service members killed during Caspian Sea exercise",
+        "event_date": "2026-09-24",
+        "candidate_id": "kazakhstan-caspian-military-exercise-deaths",
+        "geography": "Kazakhstan",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://in.marketscreener.com/news/nine-kazakh-military-personnel-dead-after-being-washed-out-to-sea-during-exercises-ce785adedc88f125"
+          },
+          {
+            "name": "Interfax-Kazakhstan",
+            "url": "https://en.interfax.kz/en/news/82701"
+          },
+          {
+            "name": "Government of Kazakhstan",
+            "url": "https://www.gov.kz/memleket/entities/mfa-minsk/press/news/details/1298628"
+          }
+        ]
+      },
+      {
+        "summary": "Morocco's Authenticity and Modernity Party won 97 of 395 parliamentary seats, the largest total in official preliminary results. The National Rally of Independents won 66 seats and the Istiqlal Party 65. Official figures put turnout at 38.08%, correcting an earlier reported figure of 38.02%. No party secured a majority, requiring negotiations over a governing coalition.",
+        "category": "Politics",
+        "title": "PAM leads Morocco's preliminary parliamentary election results",
+        "event_date": "2026-09-24",
+        "candidate_id": "morocco-parliament-election-results-2026",
+        "geography": "Morocco",
+        "sources": [
+          {
+            "name": "Government of Morocco",
+            "url": "https://maroc.ma/en/news/2026-legislative-elections-pam-leads-97-seats-according-preliminary-results-minister-interior"
+          },
+          {
+            "name": "Reuters via Fidelity",
+            "url": "https://www.fidelity.com/news/article/default/202609232356RTRSNEWSCOMBINED_KBN3VA0A4-OUSWD_1"
+          }
+        ]
+      },
+      {
+        "summary": "Belarusian President Alexander Lukashenko pardoned 15 prisoners. A state announcement said 13 had been convicted of offenses authorities classify as extremist and that 10 of those pardoned were women; their names were not immediately released. The pardons followed negotiations in which the United States has linked releases of opposition figures, activists and journalists to sanctions relief.",
+        "category": "Politics",
+        "title": "Belarusian president pardons 15 prisoners",
+        "event_date": "2026-09-24",
+        "candidate_id": "belarus-lukashenko-pardons-15",
+        "geography": "Belarus",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/belarus-president-lukashenko-pardons-15-prisoners-state-media-says-ce785aded181ff22"
+          },
+          {
+            "name": "Meduza",
+            "url": "https://meduza.io/amp/en/news/2026/09/24/belarusian-president-alexander-lukashenko-pardons-another-15-people-including-13-convicted-of-what-it-calls-extremist-crimes"
+          }
+        ]
+      },
+      {
+        "summary": "Iranian Foreign Minister Abbas Araqchi publicly described a proposal conveyed to the United States through intermediaries: hostilities on all fronts would end within seven days, Washington would lift its blockade, release frozen Iranian funds and waive oil sanctions, and Iran would reopen the Strait of Hormuz on the final day. U.S. and Iranian negotiators had been exploring a phased arrangement, but no agreement had been reached.",
+        "category": "Diplomacy",
+        "title": "Iran describes proposed terms for phased end to U.S. conflict",
+        "event_date": "2026-09-24",
+        "candidate_id": "us-iran-hormuz-blockade-talks",
+        "geography": "United States and Iran",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/allies-unite-behind-saudi-arabia-as-houthis-step-up-attacks-4916528"
+          },
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say-ce785aded08ff621"
+          },
+          {
+            "name": "Reuters via Business Recorder",
+            "url": "https://www.brecorder.com/news/40441069/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say"
+          }
+        ]
+      },
+      {
+        "summary": "U.S. President Donald Trump hosted Chinese President Xi Jinping for a White House summit and state dinner. Trump and Xi described relations positively, and Xi said they reached a common understanding on multiple issues, but neither side announced breakthroughs on disputes involving trade, artificial intelligence, Taiwan or the war with Iran. Chinese state media said Xi urged opposition to Taiwanese independence and regular military dialogue.",
+        "category": "Diplomacy",
+        "title": "Trump and Xi conclude White House summit without major breakthrough",
+        "event_date": "2026-09-24",
+        "candidate_id": "trump-xi-white-house-summit-2026",
+        "geography": "United States and China",
+        "sources": [
+          {
+            "name": "Reuters via Fidelity",
+            "url": "https://www.fidelity.com/news/article/default/202609242057RTRSNEWSCOMBINED_KBN3VA0DU-OUSTP_1"
+          }
+        ]
+      },
+      {
+        "summary": "New York Attorney General Letitia James sued Polymarket, alleging that its prediction markets constitute an illegal, unlicensed gambling operation and seeking an injunction, fines, forfeiture and restitution. Polymarket filed a federal countersuit, arguing that the Commodity Futures Trading Commission has exclusive authority over prediction markets and asking a court to bar New York from enforcing its gambling laws against the company. Neither lawsuit had been decided.",
+        "category": "Law and justice",
+        "title": "New York and Polymarket file competing lawsuits over prediction markets",
+        "event_date": "2026-09-24",
+        "candidate_id": "new-york-polymarket-competing-lawsuits",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "New York Attorney General",
+            "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-and-governor-hochul-announce-lawsuit-against-polymarket"
+          },
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/new-york-sues-polymarket-says-it-ran-illegal-gambling-operation-ce785aded18ff121"
+          }
+        ]
+      },
+      {
+        "summary": "Philippine President Ferdinand Marcos Jr. signed a pardon for Mary Jane Veloso, a Filipino woman convicted of drug trafficking in Indonesia after heroin was found in her suitcase in 2010. Veloso, who maintains that she was an unwitting drug courier, received a last-minute reprieve from execution in 2015 and was transferred to Philippine custody in 2024. Marcos announced the pardon on September 25 and said he had signed it the previous day.",
+        "category": "Law and justice",
+        "title": "Philippine president pardons Mary Jane Veloso",
+        "event_date": "2026-09-24",
+        "candidate_id": "philippines-marcos-pardons-mary-jane-veloso",
+        "geography": "Philippines and Indonesia",
+        "sources": [
+          {
+            "name": "Reuters via AOL",
+            "url": "https://www.aol.com/articles/philippine-president-pardons-drug-convict-042826000.html"
+          },
+          {
+            "name": "Khaleej Times",
+            "url": "https://www.khaleejtimes.com/world/asia/philippines-marcos-pardons-drug-convict-mary-jane-veloso-indonesia-arrest-16-years-jail"
+          }
+        ]
+      },
+      {
+        "summary": "The foreign ministers of Saudi Arabia, Turkey and Pakistan met under their Mecca Joint Defence Agreement and condemned Houthi attacks on Saudi territory. They announced arrangements for an urgent meeting of their military chiefs to discuss support for Saudi Arabia; the chiefs' meeting remained pending. The Houthis said they fired dozens of missiles and drones on Thursday, while Saudi authorities said six ballistic missiles were intercepted.",
+        "category": "Conflict",
+        "title": "Saudi Arabia, Turkey and Pakistan arrange urgent defence meeting",
+        "event_date": "2026-09-24",
+        "candidate_id": "saudi-turkey-pakistan-defence-pact-meeting",
+        "geography": "Saudi Arabia, Turkey, Pakistan and Yemen",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/allies-unite-behind-saudi-arabia-as-houthis-step-up-attacks-4916528"
+          }
+        ]
+      },
+      {
+        "summary": "Israeli Prime Minister Benjamin Netanyahu defended Israel's military actions during a speech to the UN General Assembly as dozens of delegates walked out in protest. He rejected allegations of genocide in Gaza, criticized several Western governments and New York Mayor Zohran Mamdani, and said Israel would continue its regional campaigns. Mamdani responded that Netanyahu had repeated baseless claims; the International Criminal Court's arrest warrant for Netanyahu remains outstanding.",
+        "category": "Politics",
+        "title": "Delegates walk out during Netanyahu's UN address",
+        "event_date": "2026-09-24",
+        "candidate_id": "netanyahu-un-address-delegate-walkout",
+        "geography": "United Nations and Israel",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/netanyahu-expected-to-berate-new-york-s-mamdani-in-campaign-speech-of-un-address-ce785adeda88f422"
+          },
+          {
+            "name": "Reuters video via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/dozens-of-delegates-walk-out-at-start-of-netanyahu-s-un-speech-ce785adfd98dff2c"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-24"
+  },
+  "metadata": {
+    "responseId": "resp_0c904ec483bccc91006ab61db84a3887d2a3c6309d3fbc9768",
+    "requestId": "req_ca19f811325640fc83e0c388da53a7cb",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2802,
+    "inputTokens": 85564,
+    "outputTokens": 5127,
+    "webSearchCalls": 10,
+    "stage": "discovery",
+    "targetDate": "2026-09-24",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 88356,
+    "attemptDurationMs": 88356,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}

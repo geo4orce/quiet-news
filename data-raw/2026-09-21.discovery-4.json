@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-21",
+  "batch": 4,
+  "captured_at": "2026-09-22T07:09:12.241Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Hurricane Polo rapidly intensified into a Category 4 storm late Monday, reaching maximum sustained winds of 130 mph, according to the U.S. National Hurricane Center. The storm remained offshore, but forecasters warned of heavy rain, flooding, mudslides and hazardous seas along southwestern Mexico. Further strengthening was possible.",
+        "category": "weather",
+        "title": "Polo rapidly intensifies into Category 4 hurricane",
+        "event_date": "2026-09-21",
+        "candidate_id": "hurricane-polo-mexico-pacific",
+        "geography": "Mexico",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/a6c1c226c878a236442a8e1a7f37211b"
+          },
+          {
+            "name": "U.S. National Hurricane Center",
+            "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+          }
+        ]
+      },
+      {
+        "summary": "Pakistan said its forces launched airstrikes against militant hideouts in the Afghanistan-Pakistan border region, killing 28 militants. Afghan authorities said a home in Kunar province was struck, killing three civilians and injuring four; the U.N. Assistance Mission in Afghanistan confirmed those civilian casualties. Afghanistan summoned Pakistan's chargé d’affaires and protested what it called a violation of its sovereignty.",
+        "category": "security",
+        "title": "Pakistani airstrikes renew tensions with Afghanistan",
+        "event_date": "2026-09-21",
+        "candidate_id": "pakistan-airstrikes-afghanistan-border",
+        "geography": "Afghanistan and Pakistan",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/95178c5833c7a6a621c9bb0f06a78915"
+          },
+          {
+            "name": "Reuters via Al-Monitor",
+            "url": "https://www.al-monitor.com/originals/2026/09/pakistan-says-it-killed-28-militants-afghan-taliban-and-un-report-three-civilian"
+          }
+        ]
+      },
+      {
+        "summary": "British Columbia filed a lawsuit in California federal court against OpenAI and CEO Sam Altman over the February mass shooting in Tumbler Ridge. The province alleges the company failed to notify law enforcement after flagging the shooter's ChatGPT conversations about gun violence. It seeks damages for recovery costs and changes to OpenAI's handling of conversations indicating possible violence. OpenAI said it remained committed to safety work and cooperation with authorities.",
+        "category": "justice",
+        "title": "British Columbia sues OpenAI over Tumbler Ridge shooting",
+        "event_date": "2026-09-21",
+        "candidate_id": "british-columbia-openai-shooting-lawsuit",
+        "geography": "British Columbia, Canada and California, United States",
+        "sources": [
+          {
+            "name": "Government of British Columbia",
+            "url": "https://news.gov.bc.ca/releases/2026AG0067-001105"
+          },
+          {
+            "name": "Reuters via Yahoo",
+            "url": "https://currently.att.yahoo.com/att/british-columbia-sues-openai-over-220658692.html"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. Court of Appeals for the Eighth Circuit ruled in favor of Missouri's Republican-drawn congressional map and directed a lower court to allow its use. The ruling was paused through September 28 to permit further Supreme Court consideration. An existing Supreme Court order remained in effect, so the decision did not immediately determine which map would be used in the November midterm elections.",
+        "category": "justice",
+        "title": "Appeals court backs Missouri congressional map",
+        "event_date": "2026-09-21",
+        "candidate_id": "missouri-congressional-map-appeals-ruling",
+        "geography": "Missouri, United States",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/politics-news/us-appeals-court-backs-missouris-republicandrawn-congressional-map-sets-up-return-to-supreme-court-4909722"
+          }
+        ]
+      },
+      {
+        "summary": "British Prime Minister Andy Burnham said he approved a Saudi request for limited defensive air-to-air refuelling support amid intensified Houthi attacks. Britain plans to deploy one Voyager tanker aircraft in the coming days. Burnham described the assistance as time-limited and subject to review.",
+        "category": "security",
+        "title": "Britain approves refuelling support for Saudi Arabia",
+        "event_date": "2026-09-21",
+        "candidate_id": "britain-saudi-air-refuelling-support",
+        "geography": "United Kingdom and Saudi Arabia",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/uk-s-burnham-agrees-to-saudi-request-for-refuelling-support-ce785adbd18ef42c"
+          }
+        ]
+      },
+      {
+        "summary": "Reuters reported that the United States planned to reopen the former Bluie West One military base at Narsarsuaq and establish a presence at Mestersvig in Greenland under an agreement expected to be signed September 22 by the United States, Denmark and Greenland. The agreement had not yet been signed, its text was not public and sources said details could still change.",
+        "category": "security",
+        "title": "US plans expanded military presence in Greenland",
+        "event_date": "2026-09-21",
+        "candidate_id": "us-plans-greenland-military-bases",
+        "geography": "Greenland, Denmark and United States",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/exclusiveus-to-open-two-new-military-bases-in-greenland-sources-say-4909730"
+          }
+        ]
+      },
+      {
+        "summary": "G7 foreign ministers meeting alongside the U.N. General Assembly called on Iran to end its arming and support of Yemen's Houthis. Their statement condemned Houthi strikes in Yemen and Saudi Arabia and called for an end to attacks and threats against civilian shipping and a return to the political process.",
+        "category": "diplomacy",
+        "title": "G7 calls on Iran to stop supporting Houthis",
+        "event_date": "2026-09-21",
+        "candidate_id": "g7-iran-houthi-support-statement",
+        "geography": "International",
+        "sources": [
+          {
+            "name": "Reuters via KWSN",
+            "url": "https://kwsn.com/2026/09/21/g7-foreign-ministers-call-on-iran-to-stop-arming-houthis/"
+          }
+        ]
+      },
+      {
+        "summary": "California's attorney general agreed to dismiss charges against five current and former Stanford University students under a pretrial diversion agreement tied to their occupation of the university president's office during a 2024 pro-Palestinian protest. Each defendant must complete 100 hours of community service, and the group agreed to pay approximately $52,000 in combined restitution. A previous trial ended with a deadlocked jury.",
+        "category": "justice",
+        "title": "Stanford protest charges to be dismissed under diversion agreement",
+        "event_date": "2026-09-21",
+        "candidate_id": "stanford-protest-charges-diversion",
+        "geography": "California, United States",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/charges-against-propalestinian-stanford-protesters-to-be-dismissed-4909840"
+          },
+          {
+            "name": "Bay City News via SFGate",
+            "url": "https://www.sfgate.com/news/bayarea/article/santa-clara-co-felony-charges-will-be-dismissed-22442564.php"
+          }
+        ]
+      },
+      {
+        "summary": "U.S. Transportation Secretary Sean Duffy said telecommunications lines had been repaired and airport operations across the Northeast were resuming after a failed circuit and a severed fiber-optic cable disrupted thousands of flights. Airports affected during the outage included major facilities serving New York and Philadelphia, with residual delays expected after operations resumed.",
+        "category": "transportation",
+        "title": "Northeast airport operations resume after telecom outage",
+        "event_date": "2026-09-21",
+        "candidate_id": "northeast-airports-telecom-outage",
+        "geography": "Northeastern United States",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/airport-operations-in-us-northeast-resume-after-telecom-lines-repaired-4909721"
+          }
+        ]
+      },
+      {
+        "summary": "Ukrainian regional officials reported that Russian attacks killed at least five people across the Kharkiv, Dnipropetrovsk, Donetsk and Mykolaiv regions. The reported victims included a 3-year-old child in Mykolaiv and people killed in Lozova, Nikopol, Kramatorsk and a nearby Donetsk village. Reuters said it could not independently verify the battlefield reports.",
+        "category": "conflict",
+        "title": "Russian attacks reported to kill five across Ukraine",
+        "event_date": "2026-09-21",
+        "candidate_id": "russian-attacks-ukraine-five-killed",
+        "geography": "Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/five-dead-in-russian-attacks-across-ukrainian-regions-officials-say-ce785adbd08af023"
+          }
+        ]
+      },
+      {
+        "summary": "European Commission President Ursula von der Leyen said the European Union and the Philippines had agreed on a free-trade deal following a call with Philippine President Ferdinand Marcos Jr. Reuters' initial report did not include the agreement's terms or implementation timetable.",
+        "category": "economy",
+        "title": "European Union and Philippines agree on trade deal",
+        "event_date": "2026-09-21",
+        "candidate_id": "eu-philippines-free-trade-deal",
+        "geography": "European Union and Philippines",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/economy-news/eu-and-philippines-agree-on-free-trade-deal-4909812"
+          }
+        ]
+      },
+      {
+        "summary": "CNN, MS NOW and Politico filed a federal lawsuit challenging the Trump administration's decision to bar their journalists from White House grounds. The outlets alleged violations of the First Amendment and due-process rights and sought an order restoring access. Other major television networks suspended presidential pool coverage after CNN was removed from its scheduled assignment. The White House defended the restrictions.",
+        "category": "media",
+        "title": "News organizations sue over White House access ban",
+        "event_date": "2026-09-21",
+        "candidate_id": "news-outlets-white-house-access-lawsuit",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/cnn-ms-now-and-politico-to-sue-over-white-house-ban-ce785adbdd8bf621"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-21"
+  },
+  "metadata": {
+    "responseId": "resp_01da48533e65c1dd006ab2293c846887d2b3a89f16c348e926",
+    "requestId": "req_200db0462702413c93ff66e2c5e07832",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2150,
+    "inputTokens": 87731,
+    "outputTokens": 4223,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-09-21",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 95628,
+    "attemptDurationMs": 95628,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}

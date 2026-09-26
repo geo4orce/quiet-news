@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "edition_date": "2026-09-18",
+  "images": {
+    "9d12910487dc5d87d7fff7dca40c8f771ed7a5845c6d9a380136e5b1ccc3c3de": {
+      "src": "/images/2026-09-18/9d12910487dc5d87d7fff7dca40c8f771ed7a5845c6d9a380136e5b1ccc3c3de.jpg",
+      "alt": "AI-generated conceptual illustration: Cuba’s electrical grid collapses nationwide",
+      "width": 1536,
+      "height": 1024
+    },
+    "4edf95fd4ee24f4beecd783b0ab20677951803de6a9433904bcd77c33d52b135": {
+      "src": "/images/2026-09-18/4edf95fd4ee24f4beecd783b0ab20677951803de6a9433904bcd77c33d52b135.jpg",
+      "alt": "AI-generated conceptual illustration: Nigeria investigates mass deaths in state custody",
+      "width": 1536,
+      "height": 1024
+    },
+    "f39ccb846c617cc87e515d164b91caf634fb6427e1905317dc021eb994f9f9dc": {
+      "src": "/images/2026-09-18/f39ccb846c617cc87e515d164b91caf634fb6427e1905317dc021eb994f9f9dc.jpg",
+      "alt": "AI-generated conceptual illustration: Pakistan mosque attack kills at least 21",
+      "width": 1536,
+      "height": 1024
+    },
+    "c4352975755206babf4b5dc5d874776a3f7d6a9b65e3025b1a0bd61c8b4fc967": {
+      "src": "/images/2026-09-18/c4352975755206babf4b5dc5d874776a3f7d6a9b65e3025b1a0bd61c8b4fc967.jpg",
+      "alt": "AI-generated conceptual illustration: UN documents 1,004 sexual-violence cases in Ukraine",
+      "width": 1536,
+      "height": 1024
+    },
+    "bde9474486e66b08b91510ed5ba55bcb02661dce9a5b0205f2972a892b9b82e5": {
+      "src": "/images/2026-09-18/bde9474486e66b08b91510ed5ba55bcb02661dce9a5b0205f2972a892b9b82e5.jpg",
+      "alt": "AI-generated conceptual illustration: US expands sanctions on Russia and Iran",
+      "width": 1536,
+      "height": 1024
+    },
+    "db3fb8e083991339e3cdfd4adcb57710a3ebfd49ca7f6e93ba60b093240a472a": {
+      "src": "/images/2026-09-18/db3fb8e083991339e3cdfd4adcb57710a3ebfd49ca7f6e93ba60b093240a472a.jpg",
+      "alt": "AI-generated conceptual illustration: US court limits rapid third-country deportations",
+      "width": 1536,
+      "height": 1024
+    }
+  }
+}

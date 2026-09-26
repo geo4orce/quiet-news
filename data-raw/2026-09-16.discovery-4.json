@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-16",
+  "batch": 4,
+  "captured_at": "2026-09-17T07:09:16.755Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Canada formally applied to join the British-led Joint Expeditionary Force military coalition, Prime Minister Mark Carney’s office said. The application begins an accession process and does not establish that Canada has already become a member.",
+        "category": "international-relations",
+        "title": "Canada applies to join UK-led military coalition",
+        "event_date": "2026-09-16",
+        "candidate_id": "canada-jef-membership-application",
+        "geography": "Canada; United Kingdom; Northern Europe",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/canada-applies-to-join-uk-led-military-coalition-says-carney-s-office"
+          }
+        ]
+      },
+      {
+        "summary": "The foreign ministers of Israel and Morocco agreed to upgrade diplomatic relations by opening embassies and appointing ambassadors in both countries, according to an official Israeli government statement cited by Reuters. The countries had maintained liaison offices after renewing diplomatic ties in 2020.",
+        "category": "international-relations",
+        "title": "Israel and Morocco agree to open embassies",
+        "event_date": "2026-09-16",
+        "candidate_id": "israel-morocco-embassies-agreement",
+        "geography": "Israel; Morocco",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/israel-morocco-agree-to-upgrade-diplomatic-ties-israeli-government-says"
+          }
+        ]
+      },
+      {
+        "summary": "Myanmar’s military-backed government released and deported U.S. citizen Adam Castillo, who had been detained since June following a business dispute. Castillo, a former head of the American Chamber of Commerce in Myanmar, had been accused of improperly using the organization for lobbying; his supporters said the allegations were unfounded.",
+        "category": "justice",
+        "title": "Myanmar releases detained U.S. businessman",
+        "event_date": "2026-09-16",
+        "candidate_id": "myanmar-releases-adam-castillo",
+        "geography": "Myanmar; United States",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/myanmar-frees-us-businessman-trump-officials-credited"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. House approved the Lindsey O. Graham Sanctioning Russia and Iran Act by 262-159, sending it to President Donald Trump after its earlier Senate passage. The bill targets Russian energy, defense and sanctions-evasion networks and authorizes tariffs of up to 100% on countries buying Russian energy. It had not become law at the end of the target day.",
+        "category": "international-relations",
+        "title": "U.S. House sends Russia sanctions bill to Trump",
+        "event_date": "2026-09-16",
+        "candidate_id": "us-house-russia-iran-sanctions-bill",
+        "geography": "United States; Russia; Iran; Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/us-house-takes-up-russia-sanctions-bill-backed-by-late-senator-graham"
+          }
+        ]
+      },
+      {
+        "summary": "Two women filed a proposed class-action lawsuit against the co-executors of Jeffrey Epstein’s estate on behalf of people depicted as children in sexual-abuse material seized from his properties. The filing seeks at least $6 million for more than 40 people, identification and notification of those pictured, and statutory payments and other penalties.",
+        "category": "justice",
+        "title": "Epstein survivors file class action against estate",
+        "event_date": "2026-09-16",
+        "candidate_id": "epstein-estate-child-images-class-action",
+        "geography": "New York, United States",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/epstein-survivors-sue-his-estate-over-child-pornography-collection"
+          }
+        ]
+      },
+      {
+        "summary": "Suspended U.S. Immigration and Customs Enforcement agent Christian Castro surrendered to Minnesota authorities and was jailed on an outstanding warrant. State prosecutors accuse him of assault and filing a false report after he shot and wounded a Venezuelan man in Minneapolis in January. Castro separately faces a federal indictment alleging false statements; the charges remain unresolved.",
+        "category": "justice",
+        "title": "ICE agent surrenders in Minnesota shooting case",
+        "event_date": "2026-09-16",
+        "candidate_id": "ice-agent-castro-minnesota-arrest",
+        "geography": "Minnesota and Texas, United States",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/ice-agent-charged-with-assault-lying-about-shooting-arrested-in-minnesota"
+          }
+        ]
+      },
+      {
+        "summary": "Australia announced migration reforms that would generally prevent international students from bringing partners and children, restrict student-visa renewals to applicants advancing to higher qualifications, introduce a ballot for some working-holiday extensions and add no-further-stay conditions to visitor visas. Reuters said exceptions would apply to some Pacific and Southeast Asian students; implementation details and effective dates were not established in the report.",
+        "category": "policy",
+        "title": "Australia announces tighter student and temporary-visa rules",
+        "event_date": "2026-09-16",
+        "candidate_id": "australia-student-temporary-visa-reforms",
+        "geography": "Australia",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/australia-to-bar-foreign-students-from-bringing-partners-children-while-they-study"
+          }
+        ]
+      },
+      {
+        "summary": "Russian airstrikes damaged buildings and other sites in Kyiv and struck a 19-story apartment building in Odesa during the final hours of the New York target day, Ukrainian officials said. Three people, including a child, were injured in Odesa. Russia did not immediately comment in the available report.",
+        "category": "conflict",
+        "title": "Russian strikes damage Kyiv and injure three in Odesa",
+        "event_date": "2026-09-16",
+        "candidate_id": "russia-kyiv-odesa-strikes-sept-17",
+        "geography": "Kyiv and Odesa, Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-strikes-ukraine-s-kyiv-injures-three-in-odesa-officials-say"
+          }
+        ]
+      },
+      {
+        "summary": "A World Weather Attribution analysis concluded that rapid human-caused warming probably helped create conditions for the August 26 rock-and-ice avalanche and flood along the Nepal-China border. Researchers said glacier thinning, permafrost thaw, exceptional warmth and meltwater further destabilized a geologically vulnerable slope, while the precise contribution of each factor remains uncertain.",
+        "category": "science",
+        "title": "Study links Himalayan glacier disaster conditions to warming",
+        "event_date": "2026-09-16",
+        "candidate_id": "nepal-glacier-collapse-climate-attribution",
+        "geography": "Nepal; Tibet, China; Himalayas",
+        "sources": [
+          {
+            "name": "World Weather Attribution",
+            "url": "https://www.worldweatherattribution.org/rapid-warming-in-the-himalaya-exacerbates-geohazard-cascades-beyond-adaptation-limits/"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/climate-change-likely-to-have-helped-trigger-nepal-glacier-collapse-scientists-say"
+          }
+        ]
+      },
+      {
+        "summary": "Local officials and activists said rescuers had recovered 82 bodies from the collapse of interconnected shafts at the informal al-Zara gold mine in West Kordofan, with dozens of people still unaccounted for. Accounts differed on whether the collapse began Sunday or Tuesday evening, but the death toll rose on Wednesday as limited equipment hampered rescue work.",
+        "category": "disaster",
+        "title": "Sudan gold-mine collapse toll rises to 82",
+        "event_date": "2026-09-16",
+        "candidate_id": "sudan-al-zara-mine-collapse",
+        "geography": "West Kordofan, Sudan",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/sudan-gold-mine-collapse-6a6f5bc2c2f847c16f8a4f8f422c6a82"
+          }
+        ]
+      },
+      {
+        "summary": "Gaza health officials said 21 people, including 11 children and five women, were killed when a strike-damaged residential building sheltering displaced families collapsed in Gaza City. At least 14 people were injured. The Associated Press reported Wednesday afternoon that rescuers had finished digging through the wreckage.",
+        "category": "disaster",
+        "title": "Gaza building collapse kills 21",
+        "event_date": "2026-09-16",
+        "candidate_id": "gaza-city-building-collapse",
+        "geography": "Gaza City, Gaza Strip",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/gaza-israel-hamas-ceasefire-shifa-33cf517a6d89ac27a24fa9de09b088fe"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/war-damaged-gaza-building-collapses-killing-12-people-seeking-shelter-inside"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-16"
+  },
+  "metadata": {
+    "responseId": "resp_0f21231150bd2dfd006aab91bc1dec87d2a8295eb7ec6b4f7e",
+    "requestId": "req_4152e16569974f4ea968faedb5b00e58",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2491,
+    "inputTokens": 76937,
+    "outputTokens": 4487,
+    "webSearchCalls": 10,
+    "stage": "discovery",
+    "targetDate": "2026-09-16",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 100670,
+    "attemptDurationMs": 100670,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}

@@ -1,0 +1,941 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-19",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Cuba’s electrical grid collapses nationwide",
+            "body": "Cuba’s energy ministry said the national electrical grid collapsed, cutting power across the island and affecting about 9 million people.\n\nThe country’s power system has been under continuing strain from fuel shortages and deteriorating infrastructure.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/cuba-energy-grid-suffers-nationwide-collapse"
+              }
+            ]
+          },
+          {
+            "headline": "Nigeria investigates mass deaths in state custody",
+            "body": "Authorities imposed a 6 p.m. overnight curfew in Minna after protests over mining suspects who died in civil defense custody. Reports placed the number of deaths at 33 to 37; officials said many of the detainees were ages 14 to 18.\n\nPresident Bola Tinubu ordered an investigation, and the government suspended the Niger State civil defense commandant. Reuters reported that security forces fired live rounds during the protests and that a witness saw a body, but responsibility for that death was not established.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/nigeria-miners-deaths-protest-222ac9d300c15c628ebcdacfea01f86a"
+              },
+              {
+                "name": "Premium Times",
+                "url": "https://www.premiumtimesng.com/regional/north-central/910516-police-order-probe-as-37-suspected-illegal-miners-die-in-nscdc-custody.html"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/protests-erupt-in-nigeria-after-33-miners-die-in-custody-of-paramilitary-agency"
+              }
+            ]
+          },
+          {
+            "headline": "Pakistan mosque attack kills at least 21",
+            "body": "A vehicle bombing and attempted armed assault at a mosque near police offices in Kohat killed at least 21 people and wounded 80, authorities said.\n\nPolice officers attending Friday prayers were among the casualties. No group immediately claimed responsibility.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/pakistan-mosque-bombing-northwest-pakistan-ebfc29859f724630e25f8549116859c8"
+              }
+            ]
+          },
+          {
+            "headline": "UN documents 1,004 sexual-violence cases in Ukraine",
+            "body": "The UN Human Rights Office documented 1,004 verified cases of conflict-related sexual violence in Ukraine from February 2022 through July 2026. It attributed 89% to Russian authorities and 11% to Ukrainian authorities.\n\nThe office cautioned that underreporting and restricted access meant the findings were not comprehensive. It found no discernible accountability measures by Russia; Ukraine had taken preventive steps, but accountability remained limited.",
+            "sources": [
+              {
+                "name": "UN Human Rights Monitoring Mission in Ukraine",
+                "url": "https://ukraine.ohchr.org/en/Sexual-Violence-in-the-Context-of-the-Russian-Federation-Full-Scale-Armed-Attack-against-Ukraine"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/widespread-sexual-violence-in-ukraine-war-most-cases-tied-to-russia-says-un-report"
+              }
+            ]
+          },
+          {
+            "headline": "US expands sanctions on Russia and Iran",
+            "body": "President Donald Trump signed legislation expanding sanctions and prohibitions targeting Russia and extending existing sanctions on Iran.\n\nThe law targets Russia’s energy and defense sectors and vessels used to evade sanctions. It also gives the president broader authority to impose tariffs on countries that trade with Russia.",
+            "sources": [
+              {
+                "name": "White House",
+                "url": "https://www.whitehouse.gov/briefings-statements/2026/09/congressional-bill-h-r-5334-signed-into-law/"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/trump-signs-russia-sanctions-bill-into-law"
+              }
+            ]
+          },
+          {
+            "headline": "US court limits rapid third-country deportations",
+            "body": "The First Circuit Court of Appeals largely upheld a ruling that found the administration’s rapid third-country deportation policy unlawful.\n\nThe court said migrants must receive a meaningful opportunity to raise concerns about persecution or torture before being removed to a country not covered by their immigration proceedings. It reversed one portion of the lower court’s decision on procedural grounds, and an administration appeal is expected.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/us-appeals-court-rejects-trump-policy-allowing-fast-third-country-deportations"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "1c20961b203997d3bd1dc60403120228cca33b6475590614e79905d8bffa5c9a",
+          "claimId": "7f58187a-4099-4494-bf2c-4cd2438a08b5",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-19T10:07:37.734Z",
+          "responseId": "resp_0918fbf2a6613390006aae5eedb6cc87d289dd25dcb237abfa"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Iran executed Hossein Pedaran after the Supreme Court upheld his death sentence for espionage and intelligence cooperation with Israel, the judiciary-run Mizan news agency said. Iranian authorities alleged that he supplied Mossad with information about sensitive military and missile sites in Isfahan for financial gain.",
+                "category": "justice",
+                "title": "Iran executes man convicted of spying for Israel",
+                "event_date": "2026-09-19",
+                "candidate_id": "iran-executes-hossein-pedaran",
+                "geography": "Iran",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Iran%2Bexecutes%2Bman%2Bconvicted%2Bof%2Bspying%2Bfor%2BIsrael%27s%2BMossad%2C%2Bjudiciary%2Bsays/27081643.html"
+                  },
+                  {
+                    "name": "Iran International",
+                    "url": "https://www.iranintl.com/en/202609191625"
+                  }
+                ]
+              },
+              {
+                "summary": "AFP reported that the death toll from the September 18 vehicle bombing and attempted assault at a police compound and mosque in Kohat had risen to 31, citing a police official. Earlier reports had placed the toll at at least 21.",
+                "category": "conflict",
+                "title": "Reported toll in Pakistan police compound attack rises to 31",
+                "event_date": "2026-09-19",
+                "candidate_id": "pakistan-kohat-attack-toll-update",
+                "geography": "Pakistan",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/death-toll-at-31-in-pakistan-police-compound-attack-afp-reports-ce785adade8cfe2d"
+                  }
+                ]
+              },
+              {
+                "summary": "China's market regulator opened investigations into Meituan unit Beijing Sankuai Information Technology and several online travel-booking businesses linked to Alibaba, Tongcheng and Tujia over suspected unfair competition violations, state broadcaster CCTV reported. The companies said they were cooperating with regulators.",
+                "category": "business",
+                "title": "China investigates online platforms over suspected unfair competition",
+                "event_date": "2026-09-19",
+                "candidate_id": "china-online-platform-competition-probes",
+                "geography": "China",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/china-investigates-meituan-and-alibaba-units-for-suspected-violations-of-competition-laws-ce785adade8cfe23"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-19"
+          },
+          "metadata": {
+            "responseId": "resp_0918fbf2a6613390006aae5eedb6cc87d289dd25dcb237abfa",
+            "requestId": "req_c1a8101fb8d046258334a763fd0b5542",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2073,
+            "inputTokens": 58435,
+            "outputTokens": 2470,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-19",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 59339,
+            "attemptDurationMs": 59339,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-19T10:07:37.701Z",
+        "capturedAt": "2026-09-19T10:08:37.074Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Cuba’s electrical grid collapses nationwide",
+            "body": "Cuba’s energy ministry said the national electrical grid collapsed, cutting power across the island and affecting about 9 million people.\n\nThe country’s power system has been under continuing strain from fuel shortages and deteriorating infrastructure.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/cuba-energy-grid-suffers-nationwide-collapse"
+              }
+            ]
+          },
+          {
+            "headline": "Nigeria investigates mass deaths in state custody",
+            "body": "Authorities imposed a 6 p.m. overnight curfew in Minna after protests over mining suspects who died in civil defense custody. Reports placed the number of deaths at 33 to 37; officials said many of the detainees were ages 14 to 18.\n\nPresident Bola Tinubu ordered an investigation, and the government suspended the Niger State civil defense commandant. Reuters reported that security forces fired live rounds during the protests and that a witness saw a body, but responsibility for that death was not established.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/nigeria-miners-deaths-protest-222ac9d300c15c628ebcdacfea01f86a"
+              },
+              {
+                "name": "Premium Times",
+                "url": "https://www.premiumtimesng.com/regional/north-central/910516-police-order-probe-as-37-suspected-illegal-miners-die-in-nscdc-custody.html"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/protests-erupt-in-nigeria-after-33-miners-die-in-custody-of-paramilitary-agency"
+              }
+            ]
+          },
+          {
+            "headline": "Pakistan mosque attack kills at least 21",
+            "body": "A vehicle bombing and attempted armed assault at a mosque near police offices in Kohat killed at least 21 people and wounded 80, authorities said.\n\nPolice officers attending Friday prayers were among the casualties. No group immediately claimed responsibility.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/pakistan-mosque-bombing-northwest-pakistan-ebfc29859f724630e25f8549116859c8"
+              }
+            ]
+          },
+          {
+            "headline": "UN documents 1,004 sexual-violence cases in Ukraine",
+            "body": "The UN Human Rights Office documented 1,004 verified cases of conflict-related sexual violence in Ukraine from February 2022 through July 2026. It attributed 89% to Russian authorities and 11% to Ukrainian authorities.\n\nThe office cautioned that underreporting and restricted access meant the findings were not comprehensive. It found no discernible accountability measures by Russia; Ukraine had taken preventive steps, but accountability remained limited.",
+            "sources": [
+              {
+                "name": "UN Human Rights Monitoring Mission in Ukraine",
+                "url": "https://ukraine.ohchr.org/en/Sexual-Violence-in-the-Context-of-the-Russian-Federation-Full-Scale-Armed-Attack-against-Ukraine"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/widespread-sexual-violence-in-ukraine-war-most-cases-tied-to-russia-says-un-report"
+              }
+            ]
+          },
+          {
+            "headline": "US expands sanctions on Russia and Iran",
+            "body": "President Donald Trump signed legislation expanding sanctions and prohibitions targeting Russia and extending existing sanctions on Iran.\n\nThe law targets Russia’s energy and defense sectors and vessels used to evade sanctions. It also gives the president broader authority to impose tariffs on countries that trade with Russia.",
+            "sources": [
+              {
+                "name": "White House",
+                "url": "https://www.whitehouse.gov/briefings-statements/2026/09/congressional-bill-h-r-5334-signed-into-law/"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/trump-signs-russia-sanctions-bill-into-law"
+              }
+            ]
+          },
+          {
+            "headline": "US court limits rapid third-country deportations",
+            "body": "The First Circuit Court of Appeals largely upheld a ruling that found the administration’s rapid third-country deportation policy unlawful.\n\nThe court said migrants must receive a meaningful opportunity to raise concerns about persecution or torture before being removed to a country not covered by their immigration proceedings. It reversed one portion of the lower court’s decision on procedural grounds, and an administration appeal is expected.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/us-appeals-court-rejects-trump-policy-allowing-fast-third-country-deportations"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "738370077397208dc6734f10b82b1e321d818dc02a3ac6036cf1abfdccfc7d9b",
+          "claimId": "09646af7-4df2-4bba-9524-5bfb01b09aa6",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-19T16:07:33.071Z",
+          "responseId": "resp_004459acfdf9c44b006aaeb348659887d2b18f8d8c3332566c"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Russia's liberal Yabloko party said an election observer lost consciousness as police used force to arrest him at a St. Petersburg polling station during the second day of parliamentary voting. Russian officials did not immediately comment. Separately, election authorities claimed voting systems faced cyberattacks and said the attempts were thwarted; the claims were not independently confirmed.",
+                "category": "politics",
+                "title": "Russian opposition reports observer arrest as officials claim election cyberattacks",
+                "event_date": "2026-09-19",
+                "candidate_id": "russia-election-observer-arrest-cyberattack-claims",
+                "geography": "Russia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-parliamentary-election-state-duma-observer-31a304d3156d9a066ff8001cf1338d7e"
+                  },
+                  {
+                    "name": "Radio Free Europe/Radio Liberty",
+                    "url": "https://www.rferl.org/a/russia-duma-vote-election-ukraine/33859408.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Denmark and Greenland said a pending security agreement with the United States would preserve the Danish kingdom's sovereignty and Greenlanders' right to self-determination, contrasting with President Donald Trump's description of permanent U.S. control over the island's security. The agreement's full text had not been released and still required parliamentary action before enforcement, according to Denmark's government.",
+                "category": "diplomacy",
+                "title": "Denmark and Greenland say pending US security deal preserves sovereignty",
+                "event_date": "2026-09-19",
+                "candidate_id": "greenland-denmark-us-deal-sovereignty-clarification",
+                "geography": "Greenland, Denmark and United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/trump-greenland-military-denmark-0eac9ad2196551525bcb8c71e80c480e"
+                  },
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/greenland-denmark-say-us-deal-will-not-cede-sovereignty-4908074"
+                  }
+                ]
+              },
+              {
+                "summary": "Flames and a large plume of black smoke were documented near Riyadh's King Khalid International Airport after Saudi authorities issued overnight warnings of a potential aerial threat. Reuters imagery showed smoke and flames near apparent fuel tanks, but Saudi officials had not identified the cause or reported casualties. Flight delays and cancellations were reported at the airport.",
+                "category": "conflict",
+                "title": "Fire and smoke reported near Riyadh airport after aerial-threat alerts",
+                "event_date": "2026-09-19",
+                "candidate_id": "riyadh-airport-fire-aerial-threat-alerts",
+                "geography": "Saudi Arabia",
+                "sources": [
+                  {
+                    "name": "Reuters via Al-Monitor",
+                    "url": "https://www.al-monitor.com/originals/2026/09/flames-smoke-seen-near-riyadh-airport-after-saudi-warning-aerial-attack-threat"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Flames%2C%2Bblack%2Bsmoke%2Bseen%2Bnear%2BRiyadh%2Bairport%2C%2Beyewitness%2Bsays/27081677.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Emperor Naruhito formally opened the 20th Asian Games during a ceremony in Nagoya. The 16-day event includes athletes from 45 countries and regions competing across 43 sports, although some basketball and soccer competitions began before the opening ceremony.",
+                "category": "sports",
+                "title": "Asian Games formally open in Nagoya",
+                "event_date": "2026-09-19",
+                "candidate_id": "asian-games-open-nagoya-2026",
+                "geography": "Japan",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/asian-games-opening-ceremony-japan-a6273d8dbcd8cb86f8b9873acfc240b9"
+                  },
+                  {
+                    "name": "Olympic Council of Asia",
+                    "url": "https://oca.asia/news/7901-asian-games-times-first-edition-coincides-with-opening-ceremony.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-19"
+          },
+          "metadata": {
+            "responseId": "resp_004459acfdf9c44b006aaeb348659887d2b18f8d8c3332566c",
+            "requestId": "req_736900c68ac94ffb993efb295bd176d3",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1635,
+            "inputTokens": 52133,
+            "outputTokens": 2360,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-19",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 57834,
+            "attemptDurationMs": 57834,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-19T16:07:33.019Z",
+        "capturedAt": "2026-09-19T16:08:30.906Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [
+          {
+            "headline": "Cuba’s electrical grid collapses nationwide",
+            "body": "Cuba’s energy ministry said the national electrical grid collapsed, cutting power across the island and affecting about 9 million people.\n\nThe country’s power system has been under continuing strain from fuel shortages and deteriorating infrastructure.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/cuba-energy-grid-suffers-nationwide-collapse"
+              }
+            ]
+          },
+          {
+            "headline": "Nigeria investigates mass deaths in state custody",
+            "body": "Authorities imposed a 6 p.m. overnight curfew in Minna after protests over mining suspects who died in civil defense custody. Reports placed the number of deaths at 33 to 37; officials said many of the detainees were ages 14 to 18.\n\nPresident Bola Tinubu ordered an investigation, and the government suspended the Niger State civil defense commandant. Reuters reported that security forces fired live rounds during the protests and that a witness saw a body, but responsibility for that death was not established.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/nigeria-miners-deaths-protest-222ac9d300c15c628ebcdacfea01f86a"
+              },
+              {
+                "name": "Premium Times",
+                "url": "https://www.premiumtimesng.com/regional/north-central/910516-police-order-probe-as-37-suspected-illegal-miners-die-in-nscdc-custody.html"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/protests-erupt-in-nigeria-after-33-miners-die-in-custody-of-paramilitary-agency"
+              }
+            ]
+          },
+          {
+            "headline": "Pakistan mosque attack kills at least 21",
+            "body": "A vehicle bombing and attempted armed assault at a mosque near police offices in Kohat killed at least 21 people and wounded 80, authorities said.\n\nPolice officers attending Friday prayers were among the casualties. No group immediately claimed responsibility.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/pakistan-mosque-bombing-northwest-pakistan-ebfc29859f724630e25f8549116859c8"
+              }
+            ]
+          },
+          {
+            "headline": "UN documents 1,004 sexual-violence cases in Ukraine",
+            "body": "The UN Human Rights Office documented 1,004 verified cases of conflict-related sexual violence in Ukraine from February 2022 through July 2026. It attributed 89% to Russian authorities and 11% to Ukrainian authorities.\n\nThe office cautioned that underreporting and restricted access meant the findings were not comprehensive. It found no discernible accountability measures by Russia; Ukraine had taken preventive steps, but accountability remained limited.",
+            "sources": [
+              {
+                "name": "UN Human Rights Monitoring Mission in Ukraine",
+                "url": "https://ukraine.ohchr.org/en/Sexual-Violence-in-the-Context-of-the-Russian-Federation-Full-Scale-Armed-Attack-against-Ukraine"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/widespread-sexual-violence-in-ukraine-war-most-cases-tied-to-russia-says-un-report"
+              }
+            ]
+          },
+          {
+            "headline": "US expands sanctions on Russia and Iran",
+            "body": "President Donald Trump signed legislation expanding sanctions and prohibitions targeting Russia and extending existing sanctions on Iran.\n\nThe law targets Russia’s energy and defense sectors and vessels used to evade sanctions. It also gives the president broader authority to impose tariffs on countries that trade with Russia.",
+            "sources": [
+              {
+                "name": "White House",
+                "url": "https://www.whitehouse.gov/briefings-statements/2026/09/congressional-bill-h-r-5334-signed-into-law/"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/trump-signs-russia-sanctions-bill-into-law"
+              }
+            ]
+          },
+          {
+            "headline": "US court limits rapid third-country deportations",
+            "body": "The First Circuit Court of Appeals largely upheld a ruling that found the administration’s rapid third-country deportation policy unlawful.\n\nThe court said migrants must receive a meaningful opportunity to raise concerns about persecution or torture before being removed to a country not covered by their immigration proceedings. It reversed one portion of the lower court’s decision on procedural grounds, and an administration appeal is expected.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/us-appeals-court-rejects-trump-policy-allowing-fast-third-country-deportations"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "ce65efd8d262d8ebf14244da56a40031796a5f0cffffad359fe093b796287766",
+          "claimId": "4ee1e160-5c69-49a7-bdbc-1f081ff9f10c",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-19T22:07:42.373Z",
+          "responseId": "resp_08edaf37a554206e006aaf07b1fb3c87d2a888807ec8e57290"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Yemen's Houthis said they attacked unspecified sites in Riyadh with missiles and drones and an Aramco facility in Yanbu. Reuters documented flames and smoke near fuel tanks by Riyadh's main airport, but Saudi authorities had not confirmed the Houthi claims or identified the cause of the fire.",
+                "category": "conflict",
+                "title": "Houthis claim Riyadh and Yanbu attacks as fire burns near airport",
+                "event_date": "2026-09-19",
+                "candidate_id": "riyadh-airport-fire-aerial-threat-alerts",
+                "geography": "Saudi Arabia and Yemen",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Flames%2C%2Bsmoke%2Bseen%2Bnear%2BRiyadh%2Bairport%3B%2BHouthis%2Bclaim%2Battacks%2Bon%2BSaudi%2Bcapital/27081686.html"
+                  },
+                  {
+                    "name": "Reuters via Al-Monitor",
+                    "url": "https://www.al-monitor.com/originals/2026/09/flames-smoke-seen-near-riyadh-airport-after-saudi-warning-aerial-attack-threat"
+                  }
+                ]
+              },
+              {
+                "summary": "Turkish Foreign Minister Hakan Fidan said Turkey was prepared to help meet Saudi Arabia's technical military needs in response to Houthi attacks. He cited a trilateral defense pact with Saudi Arabia and Pakistan under which an armed attack on one member is considered an attack on all three.",
+                "category": "diplomacy",
+                "title": "Turkey offers military support to Saudi Arabia under defense pact",
+                "event_date": "2026-09-19",
+                "candidate_id": "turkey-offers-saudi-military-support",
+                "geography": "Turkey, Saudi Arabia, Pakistan and Yemen",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/turkey-says-it-could-help-meet-saudi-military-needs-under-defence-pact-4908115"
+                  }
+                ]
+              },
+              {
+                "summary": "Petrobras said its board approved participation in a Brazilian government subsidy program paying diesel producers 1 real per liter for 30 days, with a possible 30-day extension. The state-controlled company said the subsidy would leave its diesel prices to distributors unchanged because it offsets an equal price adjustment.",
+                "category": "business",
+                "title": "Petrobras approves participation in Brazil diesel subsidy",
+                "event_date": "2026-09-19",
+                "candidate_id": "petrobras-approves-diesel-subsidy-participation",
+                "geography": "Brazil",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/commodities-news/brazils-petrobras-board-approves-joining-diesel-subsidy-program-4908111"
+                  },
+                  {
+                    "name": "Petrobras",
+                    "url": "https://agencia.petrobras.com.br/w/negocio/petrobras-informa-sobre-pre%C3%A7os-de-diesel"
+                  }
+                ]
+              },
+              {
+                "summary": "President Donald Trump said he planned to establish a federal “AI Force” and appoint an artificial-intelligence coordinator. He provided no immediate details about the proposed body's structure, powers or formation process, and said the appointment would be announced later.",
+                "category": "technology",
+                "title": "Trump proposes federal AI Force and coordinator",
+                "event_date": "2026-09-19",
+                "candidate_id": "trump-proposes-federal-ai-force",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Investing.com",
+                    "url": "https://www.investing.com/news/economy-news/trump-calla-for-plans-to-form-federal-ai-force-4908110"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-19"
+          },
+          "metadata": {
+            "responseId": "resp_08edaf37a554206e006aaf07b1fb3c87d2a888807ec8e57290",
+            "requestId": "req_aaedab072be0441a9e8001f75f61cd66",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1851,
+            "inputTokens": 56980,
+            "outputTokens": 2525,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-19",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 63694,
+            "attemptDurationMs": 63694,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-09-19T22:07:42.311Z",
+        "capturedAt": "2026-09-19T22:08:46.068Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Cuba’s electrical grid collapses nationwide",
+            "body": "Cuba’s energy ministry said the national electrical grid collapsed, cutting power across the island and affecting about 9 million people.\n\nThe country’s power system has been under continuing strain from fuel shortages and deteriorating infrastructure.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/cuba-energy-grid-suffers-nationwide-collapse"
+              }
+            ]
+          },
+          {
+            "headline": "Nigeria investigates mass deaths in state custody",
+            "body": "Authorities imposed a 6 p.m. overnight curfew in Minna after protests over mining suspects who died in civil defense custody. Reports placed the number of deaths at 33 to 37; officials said many of the detainees were ages 14 to 18.\n\nPresident Bola Tinubu ordered an investigation, and the government suspended the Niger State civil defense commandant. Reuters reported that security forces fired live rounds during the protests and that a witness saw a body, but responsibility for that death was not established.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/nigeria-miners-deaths-protest-222ac9d300c15c628ebcdacfea01f86a"
+              },
+              {
+                "name": "Premium Times",
+                "url": "https://www.premiumtimesng.com/regional/north-central/910516-police-order-probe-as-37-suspected-illegal-miners-die-in-nscdc-custody.html"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/protests-erupt-in-nigeria-after-33-miners-die-in-custody-of-paramilitary-agency"
+              }
+            ]
+          },
+          {
+            "headline": "Pakistan mosque attack kills at least 21",
+            "body": "A vehicle bombing and attempted armed assault at a mosque near police offices in Kohat killed at least 21 people and wounded 80, authorities said.\n\nPolice officers attending Friday prayers were among the casualties. No group immediately claimed responsibility.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/pakistan-mosque-bombing-northwest-pakistan-ebfc29859f724630e25f8549116859c8"
+              }
+            ]
+          },
+          {
+            "headline": "UN documents 1,004 sexual-violence cases in Ukraine",
+            "body": "The UN Human Rights Office documented 1,004 verified cases of conflict-related sexual violence in Ukraine from February 2022 through July 2026. It attributed 89% to Russian authorities and 11% to Ukrainian authorities.\n\nThe office cautioned that underreporting and restricted access meant the findings were not comprehensive. It found no discernible accountability measures by Russia; Ukraine had taken preventive steps, but accountability remained limited.",
+            "sources": [
+              {
+                "name": "UN Human Rights Monitoring Mission in Ukraine",
+                "url": "https://ukraine.ohchr.org/en/Sexual-Violence-in-the-Context-of-the-Russian-Federation-Full-Scale-Armed-Attack-against-Ukraine"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/widespread-sexual-violence-in-ukraine-war-most-cases-tied-to-russia-says-un-report"
+              }
+            ]
+          },
+          {
+            "headline": "US expands sanctions on Russia and Iran",
+            "body": "President Donald Trump signed legislation expanding sanctions and prohibitions targeting Russia and extending existing sanctions on Iran.\n\nThe law targets Russia’s energy and defense sectors and vessels used to evade sanctions. It also gives the president broader authority to impose tariffs on countries that trade with Russia.",
+            "sources": [
+              {
+                "name": "White House",
+                "url": "https://www.whitehouse.gov/briefings-statements/2026/09/congressional-bill-h-r-5334-signed-into-law/"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/trump-signs-russia-sanctions-bill-into-law"
+              }
+            ]
+          },
+          {
+            "headline": "US court limits rapid third-country deportations",
+            "body": "The First Circuit Court of Appeals largely upheld a ruling that found the administration’s rapid third-country deportation policy unlawful.\n\nThe court said migrants must receive a meaningful opportunity to raise concerns about persecution or torture before being removed to a country not covered by their immigration proceedings. It reversed one portion of the lower court’s decision on procedural grounds, and an administration appeal is expected.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/us-appeals-court-rejects-trump-policy-allowing-fast-third-country-deportations"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "5991a83f558e2a71e5b679cb7f9bc114af1c26d156281f2e80387e79fa946882",
+          "claimId": "9738f3ff-c2a5-4338-b13b-1a5b078752e4",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-20T07:07:32.851Z",
+          "responseId": "resp_0ebe382eff0572c3006aaf8638444c87d2aae832b6bb92aeb9"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The U.S. military said it struck a vessel in the Caribbean Sea and killed four people, alleging that the boat was involved in drug trafficking. U.S. Southern Command did not provide evidence that the vessel was carrying drugs; the strike was part of a campaign against alleged traffickers that began in 2025.",
+                "category": "conflict",
+                "title": "US military says Caribbean vessel strike killed four",
+                "event_date": "2026-09-19",
+                "candidate_id": "us-caribbean-vessel-strike-four-killed",
+                "geography": "Caribbean Sea and United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/trump-cartels-military-strike-caribbean-95f3d4ae10f8e2a4a193f601101898d9"
+                  },
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/us-says-it-killed-four-people-in-strike-on-vessel-in-caribbean-4908126"
+                  }
+                ]
+              },
+              {
+                "summary": "Saudi Arabia confirmed that the Houthis tried to attack Riyadh with a ballistic missile and said the missile was intercepted, with no casualties or damage reported. Saudi authorities also said attempted attacks on civilian infrastructure in Yanbu, Taif, Baysh and Farasan were thwarted. The Houthis had claimed attacks on Riyadh and an Aramco facility in Yanbu; their claims of major fires were not substantiated.",
+                "category": "conflict",
+                "title": "Saudi Arabia says it intercepted Houthi attack on Riyadh",
+                "event_date": "2026-09-19",
+                "candidate_id": "riyadh-airport-fire-aerial-threat-alerts",
+                "geography": "Saudi Arabia and Yemen",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/mideast-roundup-news-september-19-2026-24211a3b34731a669f3e7ab93314afdf"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Flames%2C%2Bsmoke%2Bseen%2Bnear%2BRiyadh%2Bairport%3B%2BHouthis%2Bclaim%2Battacks%2Bon%2BSaudi%2Bcapital/27081686.html"
+                  },
+                  {
+                    "name": "Reuters via Al-Monitor",
+                    "url": "https://www.al-monitor.com/originals/2026/09/flames-smoke-seen-near-riyadh-airport-after-saudi-warning-aerial-attack-threat"
+                  }
+                ]
+              },
+              {
+                "summary": "Pakistani forces ended an approximately 20-hour standoff with militants following the September 18 attack on Kohat's police compound and mosque. Later casualty reports remained inconsistent: AP reported 21 people killed, Dawn cited police and counterterrorism officials reporting 23, Anadolu cited a hospital official reporting 24, and AFP reported 31. The differing counts had not been reconciled.",
+                "category": "conflict",
+                "title": "Reports diverge on Kohat attack toll after standoff ends",
+                "event_date": "2026-09-19",
+                "candidate_id": "pakistan-kohat-attack-toll-update",
+                "geography": "Pakistan",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/b63e9cf30e8b871616b7d0f94cbaff6d"
+                  },
+                  {
+                    "name": "Dawn",
+                    "url": "https://www.dawn.com/news/2031248"
+                  },
+                  {
+                    "name": "Anadolu Agency",
+                    "url": "https://www.aa.com.tr/en/asia-pacific/death-toll-from-suicide-bombing-at-police-compound-in-pakistan-rises-to-24/4061726"
+                  },
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/death-toll-at-31-in-pakistan-police-compound-attack-afp-reports-ce785adade8cfe2d"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-19"
+          },
+          "metadata": {
+            "responseId": "resp_0ebe382eff0572c3006aaf8638444c87d2aae832b6bb92aeb9",
+            "requestId": "req_d846b849cc7443e8ae630ce407d7daed",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2130,
+            "inputTokens": 98901,
+            "outputTokens": 2589,
+            "webSearchCalls": 11,
+            "stage": "discovery",
+            "targetDate": "2026-09-19",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 69787,
+            "attemptDurationMs": 69787,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-20T07:07:32.799Z",
+        "capturedAt": "2026-09-20T07:08:42.639Z"
+      }
+    ],
+    "sift": {
+      "inputFingerprint": "e55df6eddfcd04d1792251e192de90f3207951d0fa21ba8f0c59b04eba3f91c1",
+      "priorStories": [
+        {
+          "headline": "Cuba’s electrical grid collapses nationwide",
+          "body": "Cuba’s energy ministry said the national electrical grid collapsed, cutting power across the island and affecting about 9 million people.\n\nThe country’s power system has been under continuing strain from fuel shortages and deteriorating infrastructure.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/cuba-energy-grid-suffers-nationwide-collapse"
+            }
+          ]
+        },
+        {
+          "headline": "Nigeria investigates mass deaths in state custody",
+          "body": "Authorities imposed a 6 p.m. overnight curfew in Minna after protests over mining suspects who died in civil defense custody. Reports placed the number of deaths at 33 to 37; officials said many of the detainees were ages 14 to 18.\n\nPresident Bola Tinubu ordered an investigation, and the government suspended the Niger State civil defense commandant. Reuters reported that security forces fired live rounds during the protests and that a witness saw a body, but responsibility for that death was not established.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/nigeria-miners-deaths-protest-222ac9d300c15c628ebcdacfea01f86a"
+            },
+            {
+              "name": "Premium Times",
+              "url": "https://www.premiumtimesng.com/regional/north-central/910516-police-order-probe-as-37-suspected-illegal-miners-die-in-nscdc-custody.html"
+            },
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/protests-erupt-in-nigeria-after-33-miners-die-in-custody-of-paramilitary-agency"
+            }
+          ]
+        },
+        {
+          "headline": "Pakistan mosque attack kills at least 21",
+          "body": "A vehicle bombing and attempted armed assault at a mosque near police offices in Kohat killed at least 21 people and wounded 80, authorities said.\n\nPolice officers attending Friday prayers were among the casualties. No group immediately claimed responsibility.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/pakistan-mosque-bombing-northwest-pakistan-ebfc29859f724630e25f8549116859c8"
+            }
+          ]
+        },
+        {
+          "headline": "UN documents 1,004 sexual-violence cases in Ukraine",
+          "body": "The UN Human Rights Office documented 1,004 verified cases of conflict-related sexual violence in Ukraine from February 2022 through July 2026. It attributed 89% to Russian authorities and 11% to Ukrainian authorities.\n\nThe office cautioned that underreporting and restricted access meant the findings were not comprehensive. It found no discernible accountability measures by Russia; Ukraine had taken preventive steps, but accountability remained limited.",
+          "sources": [
+            {
+              "name": "UN Human Rights Monitoring Mission in Ukraine",
+              "url": "https://ukraine.ohchr.org/en/Sexual-Violence-in-the-Context-of-the-Russian-Federation-Full-Scale-Armed-Attack-against-Ukraine"
+            },
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/widespread-sexual-violence-in-ukraine-war-most-cases-tied-to-russia-says-un-report"
+            }
+          ]
+        },
+        {
+          "headline": "US expands sanctions on Russia and Iran",
+          "body": "President Donald Trump signed legislation expanding sanctions and prohibitions targeting Russia and extending existing sanctions on Iran.\n\nThe law targets Russia’s energy and defense sectors and vessels used to evade sanctions. It also gives the president broader authority to impose tariffs on countries that trade with Russia.",
+          "sources": [
+            {
+              "name": "White House",
+              "url": "https://www.whitehouse.gov/briefings-statements/2026/09/congressional-bill-h-r-5334-signed-into-law/"
+            },
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/trump-signs-russia-sanctions-bill-into-law"
+            }
+          ]
+        },
+        {
+          "headline": "US court limits rapid third-country deportations",
+          "body": "The First Circuit Court of Appeals largely upheld a ruling that found the administration’s rapid third-country deportation policy unlawful.\n\nThe court said migrants must receive a meaningful opportunity to raise concerns about persecution or torture before being removed to a country not covered by their immigration proceedings. It reversed one portion of the lower court’s decision on procedural grounds, and an administration appeal is expected.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/us-appeals-court-rejects-trump-policy-allowing-fast-third-country-deportations"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "3d36d3ef4a79c54732577e73ddcc702914369b679384190e1be867631a33c3ec",
+        "claimId": "6f1bc01e-0aa9-43ca-a756-6172ed276b13",
+        "status": "completed",
+        "attempts": 1,
+        "startedAt": "2026-09-20T08:07:37.441Z",
+        "responseId": "resp_0e3c412931e9f14d006aaf944d0b0887d28f53af2375823df2"
+      },
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "asian-games-open-nagoya-2026",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "china-online-platform-competition-probes",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "greenland-denmark-us-deal-sovereignty-clarification",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "iran-executes-hossein-pedaran",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "pakistan-kohat-attack-toll-update",
+              "code": "prior_day_repetition"
+            },
+            {
+              "candidate_id": "petrobras-approves-diesel-subsidy-participation",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "russia-election-observer-arrest-cyberattack-claims",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "trump-proposes-federal-ai-force",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "turkey-offers-saudi-military-support",
+              "code": "speculative_or_sensational"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Saudi Arabia said it intercepted a Houthi ballistic missile aimed at Riyadh, with no casualties or damage reported. Authorities also said attempted attacks on civilian infrastructure in Yanbu, Taif, Baysh and Farasan were thwarted.\n\nThe Houthis claimed responsibility for attacks on Riyadh and an Aramco facility in Yanbu. Their claims that the attacks caused major fires were not substantiated.",
+              "candidate_id": "riyadh-airport-fire-aerial-threat-alerts",
+              "headline": "Saudi Arabia intercepts Houthi missile at Riyadh",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/mideast-roundup-news-september-19-2026-24211a3b34731a669f3e7ab93314afdf"
+                },
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/Flames%2C%2Bsmoke%2Bseen%2Bnear%2BRiyadh%2Bairport%3B%2BHouthis%2Bclaim%2Battacks%2Bon%2BSaudi%2Bcapital/27081686.html"
+                },
+                {
+                  "name": "Reuters via Al-Monitor",
+                  "url": "https://www.al-monitor.com/originals/2026/09/flames-smoke-seen-near-riyadh-airport-after-saudi-warning-aerial-attack-threat"
+                }
+              ]
+            },
+            {
+              "body": "The U.S. military said it struck a vessel in the Caribbean Sea and killed four people, alleging that the boat was involved in drug trafficking.\n\nU.S. Southern Command did not provide evidence that the vessel was carrying drugs. The strike was part of a military campaign against alleged traffickers that began in 2025.",
+              "candidate_id": "us-caribbean-vessel-strike-four-killed",
+              "headline": "US Caribbean vessel strike kills four people",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/trump-cartels-military-strike-caribbean-95f3d4ae10f8e2a4a193f601101898d9"
+                },
+                {
+                  "name": "Reuters via Investing.com",
+                  "url": "https://www.investing.com/news/world-news/us-says-it-killed-four-people-in-strike-on-vessel-in-caribbean-4908126"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0e3c412931e9f14d006aaf944d0b0887d28f53af2375823df2",
+          "requestId": "req_f1511b67ed3c48e892b5f6fc5d122413",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 516,
+          "inputTokens": 4140,
+          "outputTokens": 1206,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-19",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 22213,
+          "attemptDurationMs": 22213,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
+    }
+  }
+}

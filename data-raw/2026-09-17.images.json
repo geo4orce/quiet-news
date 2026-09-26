@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "edition_date": "2026-09-17",
+  "attempts": {
+    "eedfd089b60744af46d3fc3f0f5640196580760aed532049d57052d33c97473a": {
+      "status": "completed",
+      "claimed_at": "2026-09-18T08:08:55.974Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-18T08:09:14.314Z"
+    },
+    "7e4cf5b7de6af7829bec604c9ce8e4a136ea00e7847404ef5e18a6f23936ebf0": {
+      "status": "completed",
+      "claimed_at": "2026-09-18T08:09:16.380Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-18T08:09:34.934Z"
+    },
+    "fe2eb16b671d594ba2da6b85c287cf85824adff4fa03bb244570dbc09463df12": {
+      "status": "completed",
+      "claimed_at": "2026-09-18T08:09:37.174Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-18T08:09:52.294Z"
+    },
+    "0b0f075e0f9087d69a9b37e44f4eff5dc0acd304799640423d71446e32c183cd": {
+      "status": "completed",
+      "claimed_at": "2026-09-18T08:09:54.431Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-18T08:10:11.223Z"
+    }
+  }
+}

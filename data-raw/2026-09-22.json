@@ -1,0 +1,721 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-22",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Hurricane Polo reaches Category 4 off Mexico",
+            "body": "Hurricane Polo rapidly strengthened into a Category 4 storm late Monday, with maximum sustained winds of 130 mph, according to the U.S. National Hurricane Center.\n\nThe storm remained offshore, but forecasters warned of heavy rain, flooding, mudslides and hazardous seas in southwestern Mexico. Further strengthening was possible.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/a6c1c226c878a236442a8e1a7f37211b"
+              },
+              {
+                "name": "U.S. National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+              }
+            ]
+          },
+          {
+            "headline": "Pennsylvania measles outbreak reaches 792 cases",
+            "body": "The Pennsylvania Department of Health reported 792 measles cases, 25 more than on September 18, and 155 hospitalizations. Lancaster County remained the hardest-hit area.\n\nReuters described the state outbreak as part of the largest U.S. measles resurgence in decades.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Pennsylvania%2Bmeasles%2Bcases%2Bnear%2B800%2Bas%2Boutbreak%2Bgrows/27085044.html"
+              }
+            ]
+          },
+          {
+            "headline": "United Russia retains constitutional majority",
+            "body": "Russia’s Central Election Commission said United Russia received 57.83% of the party-list vote with more than 95% of ballots counted. The preliminary result would give the ruling party 355 of the State Duma’s 450 seats, preserving its constitutional majority.\n\nThe election took place under tight political controls. Voting was also conducted in Russian-controlled parts of Ukraine, which Kyiv and Western governments consider illegally occupied.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/5342c2757623f2e46e94b4c548e94213"
+              },
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/russia-s-ruling-pro-putin-party-wins-wartime-election-with-over-57-of-vote-near-complete-results-s-ce785adbda89f724"
+              }
+            ]
+          },
+          {
+            "headline": "Texas pauses data-center permits for audits",
+            "body": "Texas Governor Greg Abbott directed the state environmental agency to stop issuing permits sought by data centers until grid and water regulators complete audits of the facilities.\n\nThe directive pauses state regulatory approvals; it does not permanently prohibit data-center development.",
+            "sources": [
+              {
+                "name": "Office of the Texas Governor",
+                "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/General+News/Texas+Governor+Abbott+halts+all+state-issued+permits+for+data+centers+until+grid+audit+is+complete/27085893.html"
+              }
+            ]
+          },
+          {
+            "headline": "Fighting displaces more than 129,000 in Yemen",
+            "body": "Renewed fighting in Yemen has displaced 129,438 people across seven provinces, according to the International Organization for Migration. That includes 11,352 people displaced during the three days beginning September 18.\n\nThe World Food Programme said it had provided meals or food supplies to about 60,000 people and was building stocks to assist hundreds of thousands more. The United Nations has reported nearly 700 deaths in the escalation.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/iran-us-yemen-saudi-houthis-hormuz-september-21-2026-82714681bde58c6525c2d7a1bc587b25"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/World%2BFood%2BProgramme%2Bramps%2Bup%2Bresponse%2Bin%2BYemen%2Bas%2Bhunger%2Bfears%2Bescalate%2C%2Bofficial%2Bsays/27085077.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "4b243999f6d0eb847aab213b55b4539923fe88b5e00d17fcae274d3d6c4b3f96",
+          "claimId": "81c6ff1c-9557-4ed3-81d5-8342b3bc91e2",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-22T10:07:32.106Z",
+          "responseId": "resp_02c9e20d69b54eb1006ab253676bd087d297fc81870cb72367"
+        },
+        "result": {
+          "output": {
+            "candidates": [],
+            "withdrawals": [],
+            "target_date": "2026-09-22"
+          },
+          "metadata": {
+            "responseId": "resp_02c9e20d69b54eb1006ab253676bd087d297fc81870cb72367",
+            "requestId": "req_b64dee49a7f4411a8ee2443d804e41f0",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1827,
+            "inputTokens": 57716,
+            "outputTokens": 1827,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-22",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 64453,
+            "attemptDurationMs": 64453,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-22T10:07:32.053Z",
+        "capturedAt": "2026-09-22T10:08:36.560Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Hurricane Polo reaches Category 4 off Mexico",
+            "body": "Hurricane Polo rapidly strengthened into a Category 4 storm late Monday, with maximum sustained winds of 130 mph, according to the U.S. National Hurricane Center.\n\nThe storm remained offshore, but forecasters warned of heavy rain, flooding, mudslides and hazardous seas in southwestern Mexico. Further strengthening was possible.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/a6c1c226c878a236442a8e1a7f37211b"
+              },
+              {
+                "name": "U.S. National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+              }
+            ]
+          },
+          {
+            "headline": "Pennsylvania measles outbreak reaches 792 cases",
+            "body": "The Pennsylvania Department of Health reported 792 measles cases, 25 more than on September 18, and 155 hospitalizations. Lancaster County remained the hardest-hit area.\n\nReuters described the state outbreak as part of the largest U.S. measles resurgence in decades.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Pennsylvania%2Bmeasles%2Bcases%2Bnear%2B800%2Bas%2Boutbreak%2Bgrows/27085044.html"
+              }
+            ]
+          },
+          {
+            "headline": "United Russia retains constitutional majority",
+            "body": "Russia’s Central Election Commission said United Russia received 57.83% of the party-list vote with more than 95% of ballots counted. The preliminary result would give the ruling party 355 of the State Duma’s 450 seats, preserving its constitutional majority.\n\nThe election took place under tight political controls. Voting was also conducted in Russian-controlled parts of Ukraine, which Kyiv and Western governments consider illegally occupied.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/5342c2757623f2e46e94b4c548e94213"
+              },
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/russia-s-ruling-pro-putin-party-wins-wartime-election-with-over-57-of-vote-near-complete-results-s-ce785adbda89f724"
+              }
+            ]
+          },
+          {
+            "headline": "Texas pauses data-center permits for audits",
+            "body": "Texas Governor Greg Abbott directed the state environmental agency to stop issuing permits sought by data centers until grid and water regulators complete audits of the facilities.\n\nThe directive pauses state regulatory approvals; it does not permanently prohibit data-center development.",
+            "sources": [
+              {
+                "name": "Office of the Texas Governor",
+                "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/General+News/Texas+Governor+Abbott+halts+all+state-issued+permits+for+data+centers+until+grid+audit+is+complete/27085893.html"
+              }
+            ]
+          },
+          {
+            "headline": "Fighting displaces more than 129,000 in Yemen",
+            "body": "Renewed fighting in Yemen has displaced 129,438 people across seven provinces, according to the International Organization for Migration. That includes 11,352 people displaced during the three days beginning September 18.\n\nThe World Food Programme said it had provided meals or food supplies to about 60,000 people and was building stocks to assist hundreds of thousands more. The United Nations has reported nearly 700 deaths in the escalation.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/iran-us-yemen-saudi-houthis-hormuz-september-21-2026-82714681bde58c6525c2d7a1bc587b25"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/World%2BFood%2BProgramme%2Bramps%2Bup%2Bresponse%2Bin%2BYemen%2Bas%2Bhunger%2Bfears%2Bescalate%2C%2Bofficial%2Bsays/27085077.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "c6fa0ea440b9d523e7df46065b8384714f6dc1d8ef47a0c7d74565ad8874dffd",
+          "claimId": "fb6d59dd-ac8c-4b6a-b620-62daaccc087b",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-22T16:07:33.127Z",
+          "responseId": "resp_09becc9328ec502a006ab2a7c9351087d2af5261c3dc9a02f9"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Gunmen killed two police officers assigned to protect polio vaccination workers during a door-to-door campaign in southwestern Pakistan, officials said. The attack occurred as Pakistan continued efforts to interrupt transmission of wild poliovirus.",
+                "category": "conflict-and-security",
+                "title": "Two police guarding polio workers killed in Pakistan",
+                "event_date": "2026-09-22",
+                "candidate_id": "pakistan-polio-guards-killed",
+                "geography": "Pakistan",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/68a36e8281dccd2ab41eb783b1d8df15"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. President Donald Trump signed an agreement with Denmark and Greenland intended to strengthen Arctic and North Atlantic security. The agreement, signed on the sidelines of the United Nations General Assembly, followed tensions over Trump's calls for Greenland to become part of the United States.",
+                "category": "international-relations",
+                "title": "US, Denmark and Greenland sign Arctic security agreement",
+                "event_date": "2026-09-22",
+                "candidate_id": "us-denmark-greenland-arctic-agreement",
+                "geography": "United States, Denmark and Greenland",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/084ac2a82952c2dff403c48bd3564113"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. President Donald Trump defended his decision to begin the war against Iran in an address to the United Nations General Assembly. He said the United States could reach an agreement with Iran but again threatened the country's government if no deal was reached.",
+                "category": "international-relations",
+                "title": "Trump defends Iran war in UN address",
+                "event_date": "2026-09-22",
+                "candidate_id": "trump-un-address-iran-war",
+                "geography": "United Nations / United States / Iran",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/f7cb0b3ebc492446c0be97ed3a6843aa"
+                  },
+                  {
+                    "name": "Axios",
+                    "url": "https://www.axios.com/2026/09/22/unga-iran-us-trump-war"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-22"
+          },
+          "metadata": {
+            "responseId": "resp_09becc9328ec502a006ab2a7c9351087d2af5261c3dc9a02f9",
+            "requestId": "req_db20b230b3f740cba2ca8deb27879d3b",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1389,
+            "inputTokens": 48490,
+            "outputTokens": 1659,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-22",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 54850,
+            "attemptDurationMs": 54850,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-22T16:07:33.093Z",
+        "capturedAt": "2026-09-22T16:08:27.977Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [
+          {
+            "headline": "Hurricane Polo reaches Category 4 off Mexico",
+            "body": "Hurricane Polo rapidly strengthened into a Category 4 storm late Monday, with maximum sustained winds of 130 mph, according to the U.S. National Hurricane Center.\n\nThe storm remained offshore, but forecasters warned of heavy rain, flooding, mudslides and hazardous seas in southwestern Mexico. Further strengthening was possible.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/a6c1c226c878a236442a8e1a7f37211b"
+              },
+              {
+                "name": "U.S. National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+              }
+            ]
+          },
+          {
+            "headline": "Pennsylvania measles outbreak reaches 792 cases",
+            "body": "The Pennsylvania Department of Health reported 792 measles cases, 25 more than on September 18, and 155 hospitalizations. Lancaster County remained the hardest-hit area.\n\nReuters described the state outbreak as part of the largest U.S. measles resurgence in decades.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Pennsylvania%2Bmeasles%2Bcases%2Bnear%2B800%2Bas%2Boutbreak%2Bgrows/27085044.html"
+              }
+            ]
+          },
+          {
+            "headline": "United Russia retains constitutional majority",
+            "body": "Russia’s Central Election Commission said United Russia received 57.83% of the party-list vote with more than 95% of ballots counted. The preliminary result would give the ruling party 355 of the State Duma’s 450 seats, preserving its constitutional majority.\n\nThe election took place under tight political controls. Voting was also conducted in Russian-controlled parts of Ukraine, which Kyiv and Western governments consider illegally occupied.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/5342c2757623f2e46e94b4c548e94213"
+              },
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/russia-s-ruling-pro-putin-party-wins-wartime-election-with-over-57-of-vote-near-complete-results-s-ce785adbda89f724"
+              }
+            ]
+          },
+          {
+            "headline": "Texas pauses data-center permits for audits",
+            "body": "Texas Governor Greg Abbott directed the state environmental agency to stop issuing permits sought by data centers until grid and water regulators complete audits of the facilities.\n\nThe directive pauses state regulatory approvals; it does not permanently prohibit data-center development.",
+            "sources": [
+              {
+                "name": "Office of the Texas Governor",
+                "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/General+News/Texas+Governor+Abbott+halts+all+state-issued+permits+for+data+centers+until+grid+audit+is+complete/27085893.html"
+              }
+            ]
+          },
+          {
+            "headline": "Fighting displaces more than 129,000 in Yemen",
+            "body": "Renewed fighting in Yemen has displaced 129,438 people across seven provinces, according to the International Organization for Migration. That includes 11,352 people displaced during the three days beginning September 18.\n\nThe World Food Programme said it had provided meals or food supplies to about 60,000 people and was building stocks to assist hundreds of thousands more. The United Nations has reported nearly 700 deaths in the escalation.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/iran-us-yemen-saudi-houthis-hormuz-september-21-2026-82714681bde58c6525c2d7a1bc587b25"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/World%2BFood%2BProgramme%2Bramps%2Bup%2Bresponse%2Bin%2BYemen%2Bas%2Bhunger%2Bfears%2Bescalate%2C%2Bofficial%2Bsays/27085077.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "6082a0d10beb44f527a9d3a09b653601c1d119e3af0ea97c9e1c2741a80b91c1",
+          "claimId": "7b0ba732-c4c5-4a20-b36f-3b484d8a4c40",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-22T22:07:30.958Z",
+          "responseId": "resp_0dd05c201a89f0ab006ab2fc26824887d2b001d3bed5426ffd"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Hurricane Polo strengthened to Category 5 off Mexico’s southwestern coast, with maximum sustained winds reaching 180 mph, according to the U.S. National Hurricane Center. The storm was expected to remain offshore, but Mexican authorities closed ports in Guerrero and Michoacán and suspended some classes as heavy rain, flooding, mudslides and hazardous surf threatened coastal areas.",
+                "category": "weather-and-climate",
+                "title": "Hurricane Polo strengthens to Category 5",
+                "event_date": "2026-09-22",
+                "candidate_id": "hurricane-polo-category-5",
+                "geography": "Mexico",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/hurricane-polo-mexico-a6c1c226c878a236442a8e1a7f37211b"
+                  },
+                  {
+                    "name": "U.S. National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+                  }
+                ]
+              },
+              {
+                "summary": "A three-judge High Court panel in Sri Lanka convicted 15 men over their involvement in the 2019 Easter Sunday bombings, which killed more than 260 people and wounded about 500. Authorities had filed charges including murder, conspiracy to commit terrorism, and firearms and explosives offenses.",
+                "category": "justice-and-law",
+                "title": "Sri Lankan court convicts 15 over Easter bombings",
+                "event_date": "2026-09-22",
+                "candidate_id": "sri-lanka-easter-bombings-convictions",
+                "geography": "Sri Lanka",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/45283b5f6fe37ed2ab07c903214001b5"
+                  }
+                ]
+              },
+              {
+                "summary": "The Greenville County Coroner’s Office ruled actor Hayden Panettiere’s death an accident caused by a combination of drugs including fentanyl, alprazolam, a muscle relaxant and an antidepressant. Panettiere, 36, was found unresponsive in a South Carolina apartment on August 16. Greenville police said their investigation remained ongoing.",
+                "category": "arts-and-entertainment",
+                "title": "Coroner rules Hayden Panettiere’s death an accidental overdose",
+                "event_date": "2026-09-22",
+                "candidate_id": "hayden-panettiere-accidental-overdose-ruling",
+                "geography": "South Carolina, United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/229349e2bb6e19d985372d8524b09fc8"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-22"
+          },
+          "metadata": {
+            "responseId": "resp_0dd05c201a89f0ab006ab2fc26824887d2b001d3bed5426ffd",
+            "requestId": "req_2167d29ce85c42f4a6924e3de4d00b4b",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2096,
+            "inputTokens": 58490,
+            "outputTokens": 2610,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-22",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 84236,
+            "attemptDurationMs": 84236,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-09-22T22:07:30.901Z",
+        "capturedAt": "2026-09-22T22:08:55.195Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Hurricane Polo reaches Category 4 off Mexico",
+            "body": "Hurricane Polo rapidly strengthened into a Category 4 storm late Monday, with maximum sustained winds of 130 mph, according to the U.S. National Hurricane Center.\n\nThe storm remained offshore, but forecasters warned of heavy rain, flooding, mudslides and hazardous seas in southwestern Mexico. Further strengthening was possible.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/a6c1c226c878a236442a8e1a7f37211b"
+              },
+              {
+                "name": "U.S. National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+              }
+            ]
+          },
+          {
+            "headline": "Pennsylvania measles outbreak reaches 792 cases",
+            "body": "The Pennsylvania Department of Health reported 792 measles cases, 25 more than on September 18, and 155 hospitalizations. Lancaster County remained the hardest-hit area.\n\nReuters described the state outbreak as part of the largest U.S. measles resurgence in decades.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Pennsylvania%2Bmeasles%2Bcases%2Bnear%2B800%2Bas%2Boutbreak%2Bgrows/27085044.html"
+              }
+            ]
+          },
+          {
+            "headline": "United Russia retains constitutional majority",
+            "body": "Russia’s Central Election Commission said United Russia received 57.83% of the party-list vote with more than 95% of ballots counted. The preliminary result would give the ruling party 355 of the State Duma’s 450 seats, preserving its constitutional majority.\n\nThe election took place under tight political controls. Voting was also conducted in Russian-controlled parts of Ukraine, which Kyiv and Western governments consider illegally occupied.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/5342c2757623f2e46e94b4c548e94213"
+              },
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/russia-s-ruling-pro-putin-party-wins-wartime-election-with-over-57-of-vote-near-complete-results-s-ce785adbda89f724"
+              }
+            ]
+          },
+          {
+            "headline": "Texas pauses data-center permits for audits",
+            "body": "Texas Governor Greg Abbott directed the state environmental agency to stop issuing permits sought by data centers until grid and water regulators complete audits of the facilities.\n\nThe directive pauses state regulatory approvals; it does not permanently prohibit data-center development.",
+            "sources": [
+              {
+                "name": "Office of the Texas Governor",
+                "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/General+News/Texas+Governor+Abbott+halts+all+state-issued+permits+for+data+centers+until+grid+audit+is+complete/27085893.html"
+              }
+            ]
+          },
+          {
+            "headline": "Fighting displaces more than 129,000 in Yemen",
+            "body": "Renewed fighting in Yemen has displaced 129,438 people across seven provinces, according to the International Organization for Migration. That includes 11,352 people displaced during the three days beginning September 18.\n\nThe World Food Programme said it had provided meals or food supplies to about 60,000 people and was building stocks to assist hundreds of thousands more. The United Nations has reported nearly 700 deaths in the escalation.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/iran-us-yemen-saudi-houthis-hormuz-september-21-2026-82714681bde58c6525c2d7a1bc587b25"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/World%2BFood%2BProgramme%2Bramps%2Bup%2Bresponse%2Bin%2BYemen%2Bas%2Bhunger%2Bfears%2Bescalate%2C%2Bofficial%2Bsays/27085077.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "937c0161057cde214c51318e1328131c59aa788936ffe23caf335093fc226b0d",
+          "claimId": "ffcff200-879b-4723-b9f6-991b7337ff26",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-23T07:07:36.858Z",
+          "responseId": "resp_069c3da401bdc2c6006ab37abcbc4487d29607fe5e11163ea6"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "U.S. President Donald Trump defended the war against Iran in his United Nations General Assembly address and threatened further military action if no agreement was reached. Later, Trump said envoys Steve Witkoff and Jared Kushner held about three hours of indirect talks with Iranian officials through mediators. Few details were disclosed, and no agreement was announced.",
+                "category": "international-relations",
+                "title": "Trump defends Iran war as US and Iran hold indirect talks",
+                "event_date": "2026-09-22",
+                "candidate_id": "trump-un-address-iran-war",
+                "geography": "United Nations / United States / Iran",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/trump-united-nations-unga-iran-ai-f7cb0b3ebc492446c0be97ed3a6843aa"
+                  },
+                  {
+                    "name": "Associated Press live updates",
+                    "url": "https://apnews.com/live/trump-unga-xi-ai-news-updates-9-22-2026"
+                  },
+                  {
+                    "name": "Axios",
+                    "url": "https://www.axios.com/2026/09/22/unga-iran-us-trump-war"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-22"
+          },
+          "metadata": {
+            "responseId": "resp_069c3da401bdc2c6006ab37abcbc4487d29607fe5e11163ea6",
+            "requestId": "req_208c14c2c7844d49a07583f28f83479a",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1916,
+            "inputTokens": 91077,
+            "outputTokens": 2180,
+            "webSearchCalls": 10,
+            "stage": "discovery",
+            "targetDate": "2026-09-22",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 68985,
+            "attemptDurationMs": 68985,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-23T07:07:36.781Z",
+        "capturedAt": "2026-09-23T07:08:45.843Z"
+      }
+    ],
+    "sift": {
+      "inputFingerprint": "2938fd2fcd6c164c5bce14731685f3630564dc23e0ba295c1d7a46dca962bea8",
+      "priorStories": [
+        {
+          "headline": "Hurricane Polo reaches Category 4 off Mexico",
+          "body": "Hurricane Polo rapidly strengthened into a Category 4 storm late Monday, with maximum sustained winds of 130 mph, according to the U.S. National Hurricane Center.\n\nThe storm remained offshore, but forecasters warned of heavy rain, flooding, mudslides and hazardous seas in southwestern Mexico. Further strengthening was possible.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/a6c1c226c878a236442a8e1a7f37211b"
+            },
+            {
+              "name": "U.S. National Hurricane Center",
+              "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+            }
+          ]
+        },
+        {
+          "headline": "Pennsylvania measles outbreak reaches 792 cases",
+          "body": "The Pennsylvania Department of Health reported 792 measles cases, 25 more than on September 18, and 155 hospitalizations. Lancaster County remained the hardest-hit area.\n\nReuters described the state outbreak as part of the largest U.S. measles resurgence in decades.",
+          "sources": [
+            {
+              "name": "Reuters via StreetInsider",
+              "url": "https://www.streetinsider.com/Reuters/Pennsylvania%2Bmeasles%2Bcases%2Bnear%2B800%2Bas%2Boutbreak%2Bgrows/27085044.html"
+            }
+          ]
+        },
+        {
+          "headline": "United Russia retains constitutional majority",
+          "body": "Russia’s Central Election Commission said United Russia received 57.83% of the party-list vote with more than 95% of ballots counted. The preliminary result would give the ruling party 355 of the State Duma’s 450 seats, preserving its constitutional majority.\n\nThe election took place under tight political controls. Voting was also conducted in Russian-controlled parts of Ukraine, which Kyiv and Western governments consider illegally occupied.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/5342c2757623f2e46e94b4c548e94213"
+            },
+            {
+              "name": "Reuters via MarketScreener",
+              "url": "https://www.marketscreener.com/news/russia-s-ruling-pro-putin-party-wins-wartime-election-with-over-57-of-vote-near-complete-results-s-ce785adbda89f724"
+            }
+          ]
+        },
+        {
+          "headline": "Texas pauses data-center permits for audits",
+          "body": "Texas Governor Greg Abbott directed the state environmental agency to stop issuing permits sought by data centers until grid and water regulators complete audits of the facilities.\n\nThe directive pauses state regulatory approvals; it does not permanently prohibit data-center development.",
+          "sources": [
+            {
+              "name": "Office of the Texas Governor",
+              "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits"
+            },
+            {
+              "name": "Reuters via StreetInsider",
+              "url": "https://www.streetinsider.com/General+News/Texas+Governor+Abbott+halts+all+state-issued+permits+for+data+centers+until+grid+audit+is+complete/27085893.html"
+            }
+          ]
+        },
+        {
+          "headline": "Fighting displaces more than 129,000 in Yemen",
+          "body": "Renewed fighting in Yemen has displaced 129,438 people across seven provinces, according to the International Organization for Migration. That includes 11,352 people displaced during the three days beginning September 18.\n\nThe World Food Programme said it had provided meals or food supplies to about 60,000 people and was building stocks to assist hundreds of thousands more. The United Nations has reported nearly 700 deaths in the escalation.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/iran-us-yemen-saudi-houthis-hormuz-september-21-2026-82714681bde58c6525c2d7a1bc587b25"
+            },
+            {
+              "name": "Reuters via StreetInsider",
+              "url": "https://www.streetinsider.com/Reuters/World%2BFood%2BProgramme%2Bramps%2Bup%2Bresponse%2Bin%2BYemen%2Bas%2Bhunger%2Bfears%2Bescalate%2C%2Bofficial%2Bsays/27085077.html"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "6c46e05ec8443dec7a674c21119566bce93163c9eebf610383e67c7d8c3ba9b4",
+        "claimId": "4a025d4d-217a-43cb-bd17-54839cb22259",
+        "status": "completed",
+        "attempts": 1,
+        "startedAt": "2026-09-23T08:07:30.457Z",
+        "responseId": "resp_06845501b3dcc166006ab388c58f1487d2b17dbe2c3d4a0a3c"
+      },
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "hayden-panettiere-accidental-overdose-ruling",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "pakistan-polio-guards-killed",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "sri-lanka-easter-bombings-convictions",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-un-address-iran-war",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-denmark-greenland-arctic-agreement",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Polo strengthened from a Category 4 storm late Monday to Category 5, with maximum sustained winds reaching 180 mph, according to the U.S. National Hurricane Center.\n\nThe hurricane was expected to remain off Mexico’s southwestern coast, but authorities closed ports in Guerrero and Michoacán and suspended some classes. Heavy rain, flooding, mudslides and hazardous surf threatened coastal areas.",
+              "candidate_id": "hurricane-polo-category-5",
+              "headline": "Hurricane Polo reaches Category 5",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/hurricane-polo-mexico-a6c1c226c878a236442a8e1a7f37211b"
+                },
+                {
+                  "name": "U.S. National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_06845501b3dcc166006ab388c58f1487d2b17dbe2c3d4a0a3c",
+          "requestId": "req_59e8eb78df804f918615db342863f2e7",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 516,
+          "inputTokens": 2757,
+          "outputTokens": 814,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-22",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 25957,
+          "attemptDurationMs": 25957,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
+    }
+  }
+}

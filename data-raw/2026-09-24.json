@@ -1,0 +1,1000 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-24",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Fighting in Ethiopia spreads beyond Tigray",
+            "body": "Tigrayan forces seized federally controlled airports as renewed fighting with Ethiopia’s federal government spread into the neighboring Afar and Amhara regions, where allied armed groups were also involved. Ethiopian Airlines suspended regional flights.\n\nTigray’s leaders described the fighting as a defensive war. An adviser to Prime Minister Abiy Ahmed and another senior Ethiopian official called it a major Tigrayan offensive. The federal government did not respond to requests for comment, while the African Union called for immediate de-escalation and direct talks.",
+            "sources": [
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts-ce785ad9da8df02c"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/23/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts"
+              },
+              {
+                "name": "Euronews",
+                "url": "https://www.euronews.com/2026/09/23/tigray-rebels-seize-airport-and-clash-with-federal-forces-as-fighting-in-ethiopia-reignite"
+              }
+            ]
+          },
+          {
+            "headline": "Harvey Weinstein sentenced to 15 years",
+            "body": "A New York judge sentenced former film producer Harvey Weinstein to 15 years in prison for a criminal sexual act against former production assistant Miriam Haley in 2006.\n\nThe sentence followed a retrial ordered after New York’s highest court overturned his original conviction in 2024. Weinstein has indicated that he will appeal.",
+            "sources": [
+              {
+                "name": "Associated Press via ABC News",
+                "url": "https://www-cdn.abcnews.com/Entertainment/wireStory/harvey-weinstein-set-sentenced-sexual-assault-after-6-136673491"
+              },
+              {
+                "name": "Bloomberg Law",
+                "url": "https://news.bloomberglaw.com/white-collar-and-criminal-law/harvey-weinstein-sentenced-to-15-years-for-ny-sexual-assault"
+              }
+            ]
+          },
+          {
+            "headline": "U.S. and China extend trade truce",
+            "body": "The United States and China agreed to keep their existing trade truce in place through January 10, extending it from its scheduled November 10 expiration, Treasury Secretary Scott Bessent said.\n\nBessent announced the extension after meeting Chinese Vice Premier He Lifeng in Washington, ahead of a summit between Presidents Donald Trump and Xi Jinping. Detailed terms were not immediately published.",
+            "sources": [
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/us-china-agree-to-extend-the-busan-agreement-until-january-bessent-says-ce785aded88ef52c"
+              },
+              {
+                "name": "Reuters via AOL",
+                "url": "https://www.aol.com/articles/us-china-agree-extend-busan-222217000.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "8bf58b8ae2b5d4aec936ed015ec0dbaa8363ca31d1e147a2010e74fd4f26a7d7",
+          "claimId": "07ef58a2-79fc-4948-b9c1-e834fde2b158",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-24T10:07:34.906Z",
+          "responseId": "resp_0533269cbce72308006ab4f66a646887d2b28c08a5842aaa9e"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "A federal judge temporarily ordered the Trump administration to restore White House access for CNN, MS NOW and Politico. U.S. District Judge Timothy Kelly said the outlets were likely to succeed on claims that the ban violated constitutional protections, including due-process requirements. The temporary restraining order was issued for 14 days while the case proceeds.",
+                "category": "Law and justice",
+                "title": "Judge temporarily blocks White House ban on three news outlets",
+                "event_date": "2026-09-24",
+                "candidate_id": "white-house-media-access-order",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "The Guardian",
+                    "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban"
+                  },
+                  {
+                    "name": "CNN via ABC17 News",
+                    "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/09/24/judge-orders-trump-administration-to-restore-white-house-access-to-cnn-ms-now-and-politico/"
+                  }
+                ]
+              },
+              {
+                "summary": "Morocco's Authenticity and Modernity Party won 97 of 395 parliamentary seats, the largest total in official preliminary results announced by Interior Minister Abdelouafi Laftit. The National Rally of Independents won 66 seats and the Istiqlal Party 65. Turnout was reported at 38.02%, and no party secured a majority, requiring negotiations over a governing coalition.",
+                "category": "Politics",
+                "title": "PAM leads Morocco's preliminary parliamentary election results",
+                "event_date": "2026-09-24",
+                "candidate_id": "morocco-parliament-election-results-2026",
+                "geography": "Morocco",
+                "sources": [
+                  {
+                    "name": "Reuters via Yahoo",
+                    "url": "https://currently.att.yahoo.com/att/pam-party-wins-most-seats-035724391.html"
+                  }
+                ]
+              },
+              {
+                "summary": "An Indonesian appeals court reduced Gojek co-founder and former education minister Nadiem Makarim's prison sentence from 10 years to nine years in a corruption case involving the procurement of Chromebooks for schools. Judges rejected his request to dismiss the charges but reduced the restitution ordered from 809 billion rupiah to 548 billion rupiah. Makarim said he would appeal to the Supreme Court.",
+                "category": "Law and justice",
+                "title": "Indonesian court reduces Nadiem Makarim's corruption sentence",
+                "event_date": "2026-09-24",
+                "candidate_id": "indonesia-makarim-appeal-sentence",
+                "geography": "Indonesia",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Indonesia%2Bcourt%2Breduces%2BGojek%2Bfounder%27s%2Bsentence%2Bto%2B9%2Byears%2Bin%2Bappeal%2Bhearing/27097903.html"
+                  },
+                  {
+                    "name": "Reuters Connect",
+                    "url": "https://www.reutersconnect.com/item/indonesia-court-reduces-gojek-founders-sentence-to-9-years-in-appeal-hearing/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMklQTkFOWE1ONA"
+                  }
+                ]
+              },
+              {
+                "summary": "Polish Deputy Prime Minister Krzysztof Gawkowski said authorities suspected that a fire at a Starlink ground station in central Poland was deliberate sabotage intended to disrupt connectivity, including service used by Ukraine. The fire occurred Wednesday evening and affected the station's power equipment and generator, but service was restored. Gawkowski said responsibility had not been established and did not definitively attribute the incident to Russia.",
+                "category": "Security",
+                "title": "Poland suspects sabotage in fire at Starlink station",
+                "event_date": "2026-09-24",
+                "candidate_id": "poland-starlink-station-sabotage-suspicion",
+                "geography": "Poland",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/24/poland-suspects-fire-at-starlink-station-was-act-of-sabotage"
+                  }
+                ]
+              },
+              {
+                "summary": "Pakistan said it struck 10 locations in Afghanistan that it alleged were used to launch and store drones deployed against Pakistan a day earlier. Afghanistan's Taliban government denied launching the drones and said the strikes in Kandahar, Paktia and Khost provinces killed four civilians. The casualty claim and the competing accounts were not independently verified.",
+                "category": "Conflict",
+                "title": "Pakistan strikes sites in Afghanistan after alleged drone attacks",
+                "event_date": "2026-09-24",
+                "candidate_id": "pakistan-afghanistan-drone-site-strikes",
+                "geography": "Pakistan and Afghanistan",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Pakistan%2Bair%2Bstrikes%2Bkill%2B4%2Bcivilians%2Bin%2BAfghanistan%2C%2BKabul%2Bsays/27097848.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-24"
+          },
+          "metadata": {
+            "responseId": "resp_0533269cbce72308006ab4f66a646887d2b28c08a5842aaa9e",
+            "requestId": "req_e958bacad7704457998c067806a9212f",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 3056,
+            "inputTokens": 48322,
+            "outputTokens": 3864,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-24",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 78889,
+            "attemptDurationMs": 78889,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-24T10:07:34.837Z",
+        "capturedAt": "2026-09-24T10:08:53.795Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Fighting in Ethiopia spreads beyond Tigray",
+            "body": "Tigrayan forces seized federally controlled airports as renewed fighting with Ethiopia’s federal government spread into the neighboring Afar and Amhara regions, where allied armed groups were also involved. Ethiopian Airlines suspended regional flights.\n\nTigray’s leaders described the fighting as a defensive war. An adviser to Prime Minister Abiy Ahmed and another senior Ethiopian official called it a major Tigrayan offensive. The federal government did not respond to requests for comment, while the African Union called for immediate de-escalation and direct talks.",
+            "sources": [
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts-ce785ad9da8df02c"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/23/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts"
+              },
+              {
+                "name": "Euronews",
+                "url": "https://www.euronews.com/2026/09/23/tigray-rebels-seize-airport-and-clash-with-federal-forces-as-fighting-in-ethiopia-reignite"
+              }
+            ]
+          },
+          {
+            "headline": "Harvey Weinstein sentenced to 15 years",
+            "body": "A New York judge sentenced former film producer Harvey Weinstein to 15 years in prison for a criminal sexual act against former production assistant Miriam Haley in 2006.\n\nThe sentence followed a retrial ordered after New York’s highest court overturned his original conviction in 2024. Weinstein has indicated that he will appeal.",
+            "sources": [
+              {
+                "name": "Associated Press via ABC News",
+                "url": "https://www-cdn.abcnews.com/Entertainment/wireStory/harvey-weinstein-set-sentenced-sexual-assault-after-6-136673491"
+              },
+              {
+                "name": "Bloomberg Law",
+                "url": "https://news.bloomberglaw.com/white-collar-and-criminal-law/harvey-weinstein-sentenced-to-15-years-for-ny-sexual-assault"
+              }
+            ]
+          },
+          {
+            "headline": "U.S. and China extend trade truce",
+            "body": "The United States and China agreed to keep their existing trade truce in place through January 10, extending it from its scheduled November 10 expiration, Treasury Secretary Scott Bessent said.\n\nBessent announced the extension after meeting Chinese Vice Premier He Lifeng in Washington, ahead of a summit between Presidents Donald Trump and Xi Jinping. Detailed terms were not immediately published.",
+            "sources": [
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/us-china-agree-to-extend-the-busan-agreement-until-january-bessent-says-ce785aded88ef52c"
+              },
+              {
+                "name": "Reuters via AOL",
+                "url": "https://www.aol.com/articles/us-china-agree-extend-busan-222217000.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "7223abd74fe0e8a6f2d80e12c00132b57ebdc3bcea3d8b38343d6accc9c50c39",
+          "claimId": "4b8734d4-8189-4b5c-b367-3a3a41dc1caf",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-24T16:07:33.360Z",
+          "responseId": "resp_0e9e623b4677903a006ab54aca78c887d282264d6336b85d4f"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "A federal judge temporarily ordered the Trump administration to restore White House access for CNN, MS NOW and Politico, finding the outlets likely to succeed on due-process claims. Later Thursday, reporters for Politico and MS NOW said they were still denied entry, and Politico said a reporter's credentials were confiscated. Reuters initially said it was unclear whether CNN journalists had been admitted. The restraining order remains in effect for 14 days while the case proceeds.",
+                "category": "Law and justice",
+                "title": "News outlets report continued White House exclusion after court order",
+                "event_date": "2026-09-24",
+                "candidate_id": "white-house-media-access-order",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "The Guardian",
+                    "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban"
+                  },
+                  {
+                    "name": "CNN via ABC17 News",
+                    "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/09/24/judge-orders-trump-administration-to-restore-white-house-access-to-cnn-ms-now-and-politico/"
+                  },
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/politico-ms-now-denied-access-to-white-house-after-judge-s-order-ce785adede8af42c"
+                  },
+                  {
+                    "name": "Axios",
+                    "url": "https://www.axios.com/2026/09/24/white-house-press-ban-court-order"
+                  }
+                ]
+              },
+              {
+                "summary": "Russian drone and missile attacks killed eight people in Ukraine, according to Ukrainian authorities. Six agricultural workers were killed and 12 people were injured when a farm storage facility in the Kharkiv region was struck; two people were killed and eight injured in Kyiv. Officials said the Kyiv attack damaged homes, warehouses, a post office and a maternity hospital, where no patients or medical workers were reported injured. Russia said it targeted military-related facilities and vessels.",
+                "category": "Conflict",
+                "title": "Russian strikes kill eight people in Ukraine",
+                "event_date": "2026-09-24",
+                "candidate_id": "russia-ukraine-strikes-eight-killed",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Yahoo News",
+                    "url": "https://hk.news.yahoo.com/world/articles/kyiv-under-missile-attack-emergency-225051151.html"
+                  },
+                  {
+                    "name": "Associated Press via San Francisco Chronicle",
+                    "url": "https://www.sfchronicle.com/news/world/article/russian-strikes-kill-8-in-ukraine-as-the-un-22446808.php"
+                  }
+                ]
+              },
+              {
+                "summary": "A Patriot air-defense battery operated by Greek military personnel intercepted a ballistic missile and a drone in the wider Yanbu region of Saudi Arabia, Greek security sources told Reuters. The area contains major oil-refining facilities. The sources did not identify the origin of either weapon, and Saudi authorities had issued danger alerts covering Yanbu and several other western Saudi locations.",
+                "category": "Conflict",
+                "title": "Greek-operated Patriot system intercepts missile and drone over Saudi Arabia",
+                "event_date": "2026-09-24",
+                "candidate_id": "saudi-yanbu-greek-patriot-interceptions",
+                "geography": "Saudi Arabia",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/greek-operated-air-defence-system-shoots-down-ballistic-missile-drone-over-saudi-ce785adedf8ef121"
+                  }
+                ]
+              },
+              {
+                "summary": "Kazakhstan's Defence Ministry said nine military personnel were killed after being swept into the Caspian Sea during a naval training exercise in the western Mangistau region. The ministry initially said 19 personnel were swept away after weather conditions deteriorated and that three had been rescued, including one who was hospitalized. Search operations continued for those still missing.",
+                "category": "Accidents and disasters",
+                "title": "Nine Kazakh service members killed during Caspian Sea exercise",
+                "event_date": "2026-09-24",
+                "candidate_id": "kazakhstan-caspian-military-exercise-deaths",
+                "geography": "Kazakhstan",
+                "sources": [
+                  {
+                    "name": "Reuters via AOL",
+                    "url": "https://www.aol.com/articles/nine-kazakh-military-personnel-dead-092404000.html"
+                  },
+                  {
+                    "name": "The Times of Central Asia",
+                    "url": "https://timesca.com/at-least-nine-kazakh-servicemen-killed-during-caspian-sea-exercises/"
+                  }
+                ]
+              },
+              {
+                "summary": "Initial claims for U.S. state unemployment benefits declined by 1,000 to a seasonally adjusted 197,000 in the week ending September 19, the Labor Department reported. Economists polled by Reuters had forecast 201,000 claims. The four-week moving average fell by 1,750 to 202,250. Economists cautioned that seasonal-adjustment difficulties may partly account for claims remaining near levels last recorded in 1969.",
+                "category": "Economy",
+                "title": "U.S. weekly jobless claims fall to 197,000",
+                "event_date": "2026-09-24",
+                "candidate_id": "us-jobless-claims-september-19",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/us-weekly-jobless-claims-near-57-year-lows-as-labor-market-regains-footing-ce785aded181f524"
+                  }
+                ]
+              },
+              {
+                "summary": "Belarusian President Alexander Lukashenko pardoned 15 prisoners, the state news agency Belta reported. The report did not immediately identify the prisoners. The United States has been negotiating with Lukashenko's government over releases of opposition figures, activists and journalists in exchange for sanctions relief; U.S. envoy John Coale met Lukashenko in Minsk the previous week.",
+                "category": "Politics",
+                "title": "Belarusian president pardons 15 prisoners",
+                "event_date": "2026-09-24",
+                "candidate_id": "belarus-lukashenko-pardons-15",
+                "geography": "Belarus",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/belarus-president-lukashenko-pardons-15-prisoners-state-media-says-ce785aded181ff22"
+                  }
+                ]
+              },
+              {
+                "summary": "The International Monetary Fund recommended changes to the design and implementation of its lending programs, including concentrating on fewer but more substantial reforms. Its review also supported more front-loaded and sustained fiscal adjustments where feasible, alongside realistic measures to promote growth and sufficient social spending to protect vulnerable people. Civil-society groups have expressed concern that the review could result in stricter austerity requirements for indebted countries.",
+                "category": "Economy",
+                "title": "IMF review recommends fewer but deeper loan-program reforms",
+                "event_date": "2026-09-24",
+                "candidate_id": "imf-loan-program-design-review",
+                "geography": "Global",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/imf-review-calls-for-fewer-but-deeper-reforms-in-design-of-loan-programs-ce785aded18df421"
+                  }
+                ]
+              },
+              {
+                "summary": "The yield on the 30-year U.S. Treasury rose above 5.45%, its highest level since 2004, while the benchmark 10-year yield reached about 5.16%. The selloff extended across major government-bond markets as investors weighed strong economic growth, elevated public debt, rising energy costs and inflation risks. Bond yields rise when prices fall.",
+                "category": "Economy",
+                "title": "U.S. 30-year Treasury yield reaches highest level since 2004",
+                "event_date": "2026-09-24",
+                "candidate_id": "us-treasury-yields-september-24-2026",
+                "geography": "United States and global markets",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/u-s-30-year-bond-yield-rises-to-highest-since-2004-as-selloff-deepens-ce785adedd80f12c"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-24"
+          },
+          "metadata": {
+            "responseId": "resp_0e9e623b4677903a006ab54aca78c887d282264d6336b85d4f",
+            "requestId": "req_ee86bbeab1aa4d05ad316895872e36ff",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2541,
+            "inputTokens": 57706,
+            "outputTokens": 4211,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-24",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 77032,
+            "attemptDurationMs": 77032,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-24T16:07:33.325Z",
+        "capturedAt": "2026-09-24T16:08:50.393Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [
+          {
+            "headline": "Fighting in Ethiopia spreads beyond Tigray",
+            "body": "Tigrayan forces seized federally controlled airports as renewed fighting with Ethiopia’s federal government spread into the neighboring Afar and Amhara regions, where allied armed groups were also involved. Ethiopian Airlines suspended regional flights.\n\nTigray’s leaders described the fighting as a defensive war. An adviser to Prime Minister Abiy Ahmed and another senior Ethiopian official called it a major Tigrayan offensive. The federal government did not respond to requests for comment, while the African Union called for immediate de-escalation and direct talks.",
+            "sources": [
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts-ce785ad9da8df02c"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/23/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts"
+              },
+              {
+                "name": "Euronews",
+                "url": "https://www.euronews.com/2026/09/23/tigray-rebels-seize-airport-and-clash-with-federal-forces-as-fighting-in-ethiopia-reignite"
+              }
+            ]
+          },
+          {
+            "headline": "Harvey Weinstein sentenced to 15 years",
+            "body": "A New York judge sentenced former film producer Harvey Weinstein to 15 years in prison for a criminal sexual act against former production assistant Miriam Haley in 2006.\n\nThe sentence followed a retrial ordered after New York’s highest court overturned his original conviction in 2024. Weinstein has indicated that he will appeal.",
+            "sources": [
+              {
+                "name": "Associated Press via ABC News",
+                "url": "https://www-cdn.abcnews.com/Entertainment/wireStory/harvey-weinstein-set-sentenced-sexual-assault-after-6-136673491"
+              },
+              {
+                "name": "Bloomberg Law",
+                "url": "https://news.bloomberglaw.com/white-collar-and-criminal-law/harvey-weinstein-sentenced-to-15-years-for-ny-sexual-assault"
+              }
+            ]
+          },
+          {
+            "headline": "U.S. and China extend trade truce",
+            "body": "The United States and China agreed to keep their existing trade truce in place through January 10, extending it from its scheduled November 10 expiration, Treasury Secretary Scott Bessent said.\n\nBessent announced the extension after meeting Chinese Vice Premier He Lifeng in Washington, ahead of a summit between Presidents Donald Trump and Xi Jinping. Detailed terms were not immediately published.",
+            "sources": [
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/us-china-agree-to-extend-the-busan-agreement-until-january-bessent-says-ce785aded88ef52c"
+              },
+              {
+                "name": "Reuters via AOL",
+                "url": "https://www.aol.com/articles/us-china-agree-extend-busan-222217000.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "5f821432014a011ea4bd873ff9e0fc71c45b913f9d26ab04bf3d0ca026a40745",
+          "claimId": "e98fb717-aabd-4b52-aea4-026abd6af286",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-24T22:07:35.308Z",
+          "responseId": "resp_0d00635ad9e8fb94006ab59f2b133887d2b0a2978b0e600259"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "U.S. and Iranian negotiators in New York were exploring a phased arrangement under which Iran would reopen the Strait of Hormuz and the United States would lift its economic blockade, sources close to the talks told Reuters. A senior Iranian official said access to frozen assets could also be involved. No agreement had been reached, and sources said neither side wanted to relinquish its leverage first.",
+                "category": "Diplomacy",
+                "title": "U.S. and Iran discuss phased Hormuz and blockade arrangement",
+                "event_date": "2026-09-24",
+                "candidate_id": "us-iran-hormuz-blockade-talks",
+                "geography": "United States and Iran",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://uk.marketscreener.com/news/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say-ce785aded08ff621"
+                  },
+                  {
+                    "name": "Reuters via Business Recorder",
+                    "url": "https://www.brecorder.com/news/40441069/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say"
+                  }
+                ]
+              },
+              {
+                "summary": "The Federal Reserve requested public comment on two proposals for payment-stablecoin issuers under its supervision. One would require eligible reserve assets, standardized capital requirements and risk-management standards, while the other would establish an application process for supervised banks seeking to issue stablecoins through subsidiaries. The proposals remain pending, with comments due 60 days after publication in the Federal Register.",
+                "category": "Economy",
+                "title": "Federal Reserve proposes stablecoin regulatory framework",
+                "event_date": "2026-09-24",
+                "candidate_id": "federal-reserve-stablecoin-framework-proposals",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Federal Reserve Board",
+                    "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm"
+                  },
+                  {
+                    "name": "Federal Reserve Governor Michael Barr",
+                    "url": "https://www.federalreserve.gov/newsevents/pressreleases/barr-statement-20260924.htm"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-24"
+          },
+          "metadata": {
+            "responseId": "resp_0d00635ad9e8fb94006ab59f2b133887d2b0a2978b0e600259",
+            "requestId": "req_28f609ca56984e5b8ecab315e6d401ea",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1443,
+            "inputTokens": 60864,
+            "outputTokens": 1787,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-24",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 48030,
+            "attemptDurationMs": 48030,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-09-24T22:07:35.224Z",
+        "capturedAt": "2026-09-24T22:08:23.338Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Fighting in Ethiopia spreads beyond Tigray",
+            "body": "Tigrayan forces seized federally controlled airports as renewed fighting with Ethiopia’s federal government spread into the neighboring Afar and Amhara regions, where allied armed groups were also involved. Ethiopian Airlines suspended regional flights.\n\nTigray’s leaders described the fighting as a defensive war. An adviser to Prime Minister Abiy Ahmed and another senior Ethiopian official called it a major Tigrayan offensive. The federal government did not respond to requests for comment, while the African Union called for immediate de-escalation and direct talks.",
+            "sources": [
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts-ce785ad9da8df02c"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/23/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts"
+              },
+              {
+                "name": "Euronews",
+                "url": "https://www.euronews.com/2026/09/23/tigray-rebels-seize-airport-and-clash-with-federal-forces-as-fighting-in-ethiopia-reignite"
+              }
+            ]
+          },
+          {
+            "headline": "Harvey Weinstein sentenced to 15 years",
+            "body": "A New York judge sentenced former film producer Harvey Weinstein to 15 years in prison for a criminal sexual act against former production assistant Miriam Haley in 2006.\n\nThe sentence followed a retrial ordered after New York’s highest court overturned his original conviction in 2024. Weinstein has indicated that he will appeal.",
+            "sources": [
+              {
+                "name": "Associated Press via ABC News",
+                "url": "https://www-cdn.abcnews.com/Entertainment/wireStory/harvey-weinstein-set-sentenced-sexual-assault-after-6-136673491"
+              },
+              {
+                "name": "Bloomberg Law",
+                "url": "https://news.bloomberglaw.com/white-collar-and-criminal-law/harvey-weinstein-sentenced-to-15-years-for-ny-sexual-assault"
+              }
+            ]
+          },
+          {
+            "headline": "U.S. and China extend trade truce",
+            "body": "The United States and China agreed to keep their existing trade truce in place through January 10, extending it from its scheduled November 10 expiration, Treasury Secretary Scott Bessent said.\n\nBessent announced the extension after meeting Chinese Vice Premier He Lifeng in Washington, ahead of a summit between Presidents Donald Trump and Xi Jinping. Detailed terms were not immediately published.",
+            "sources": [
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/us-china-agree-to-extend-the-busan-agreement-until-january-bessent-says-ce785aded88ef52c"
+              },
+              {
+                "name": "Reuters via AOL",
+                "url": "https://www.aol.com/articles/us-china-agree-extend-busan-222217000.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "8dcbed679a05a04d93b201fa99d005716c91e6770257f380cb67c7a38ec9edb2",
+          "claimId": "9b91a830-a0f9-4d27-8a2a-5ce637662a85",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-25T07:07:32.879Z",
+          "responseId": "resp_0c904ec483bccc91006ab61db84a3887d2a3c6309d3fbc9768"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The White House said it reinstated journalists from CNN, MS NOW and Politico after several hours in which some remained barred despite a federal judge's order. The administration said affected press badges had been delivered to an entry gate by 9:55 a.m. The judge denied the outlets' request for an emergency hearing but allowed them to report further factual developments. His temporary restraining order remains in effect for 14 days while the lawsuit proceeds.",
+                "category": "Law and justice",
+                "title": "White House restores access for CNN, MS NOW and Politico",
+                "event_date": "2026-09-24",
+                "candidate_id": "white-house-media-access-order",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/White%2BHouse%2Breinstates%2Baccess%2Bto%2BCNN%2C%2BMS%2BNOW%2Band%2BPolitico%2Bfollowing%2Bjudge%27s%2Border/27099231.html"
+                  },
+                  {
+                    "name": "The Guardian",
+                    "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban"
+                  }
+                ]
+              },
+              {
+                "summary": "Authorities raised the death toll from a Kazakh naval training accident in the Caspian Sea to 12 and corrected the number of personnel swept into the water from 19 to 17. Three service members were rescued, while searches continued for two others. President Kassym-Jomart Tokayev declared September 25 a national day of mourning.",
+                "category": "Accidents and disasters",
+                "title": "Twelve Kazakh service members killed during Caspian Sea exercise",
+                "event_date": "2026-09-24",
+                "candidate_id": "kazakhstan-caspian-military-exercise-deaths",
+                "geography": "Kazakhstan",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://in.marketscreener.com/news/nine-kazakh-military-personnel-dead-after-being-washed-out-to-sea-during-exercises-ce785adedc88f125"
+                  },
+                  {
+                    "name": "Interfax-Kazakhstan",
+                    "url": "https://en.interfax.kz/en/news/82701"
+                  },
+                  {
+                    "name": "Government of Kazakhstan",
+                    "url": "https://www.gov.kz/memleket/entities/mfa-minsk/press/news/details/1298628"
+                  }
+                ]
+              },
+              {
+                "summary": "Morocco's Authenticity and Modernity Party won 97 of 395 parliamentary seats, the largest total in official preliminary results. The National Rally of Independents won 66 seats and the Istiqlal Party 65. Official figures put turnout at 38.08%, correcting an earlier reported figure of 38.02%. No party secured a majority, requiring negotiations over a governing coalition.",
+                "category": "Politics",
+                "title": "PAM leads Morocco's preliminary parliamentary election results",
+                "event_date": "2026-09-24",
+                "candidate_id": "morocco-parliament-election-results-2026",
+                "geography": "Morocco",
+                "sources": [
+                  {
+                    "name": "Government of Morocco",
+                    "url": "https://maroc.ma/en/news/2026-legislative-elections-pam-leads-97-seats-according-preliminary-results-minister-interior"
+                  },
+                  {
+                    "name": "Reuters via Fidelity",
+                    "url": "https://www.fidelity.com/news/article/default/202609232356RTRSNEWSCOMBINED_KBN3VA0A4-OUSWD_1"
+                  }
+                ]
+              },
+              {
+                "summary": "Belarusian President Alexander Lukashenko pardoned 15 prisoners. A state announcement said 13 had been convicted of offenses authorities classify as extremist and that 10 of those pardoned were women; their names were not immediately released. The pardons followed negotiations in which the United States has linked releases of opposition figures, activists and journalists to sanctions relief.",
+                "category": "Politics",
+                "title": "Belarusian president pardons 15 prisoners",
+                "event_date": "2026-09-24",
+                "candidate_id": "belarus-lukashenko-pardons-15",
+                "geography": "Belarus",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/belarus-president-lukashenko-pardons-15-prisoners-state-media-says-ce785aded181ff22"
+                  },
+                  {
+                    "name": "Meduza",
+                    "url": "https://meduza.io/amp/en/news/2026/09/24/belarusian-president-alexander-lukashenko-pardons-another-15-people-including-13-convicted-of-what-it-calls-extremist-crimes"
+                  }
+                ]
+              },
+              {
+                "summary": "Iranian Foreign Minister Abbas Araqchi publicly described a proposal conveyed to the United States through intermediaries: hostilities on all fronts would end within seven days, Washington would lift its blockade, release frozen Iranian funds and waive oil sanctions, and Iran would reopen the Strait of Hormuz on the final day. U.S. and Iranian negotiators had been exploring a phased arrangement, but no agreement had been reached.",
+                "category": "Diplomacy",
+                "title": "Iran describes proposed terms for phased end to U.S. conflict",
+                "event_date": "2026-09-24",
+                "candidate_id": "us-iran-hormuz-blockade-talks",
+                "geography": "United States and Iran",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/allies-unite-behind-saudi-arabia-as-houthis-step-up-attacks-4916528"
+                  },
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://uk.marketscreener.com/news/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say-ce785aded08ff621"
+                  },
+                  {
+                    "name": "Reuters via Business Recorder",
+                    "url": "https://www.brecorder.com/news/40441069/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. President Donald Trump hosted Chinese President Xi Jinping for a White House summit and state dinner. Trump and Xi described relations positively, and Xi said they reached a common understanding on multiple issues, but neither side announced breakthroughs on disputes involving trade, artificial intelligence, Taiwan or the war with Iran. Chinese state media said Xi urged opposition to Taiwanese independence and regular military dialogue.",
+                "category": "Diplomacy",
+                "title": "Trump and Xi conclude White House summit without major breakthrough",
+                "event_date": "2026-09-24",
+                "candidate_id": "trump-xi-white-house-summit-2026",
+                "geography": "United States and China",
+                "sources": [
+                  {
+                    "name": "Reuters via Fidelity",
+                    "url": "https://www.fidelity.com/news/article/default/202609242057RTRSNEWSCOMBINED_KBN3VA0DU-OUSTP_1"
+                  }
+                ]
+              },
+              {
+                "summary": "New York Attorney General Letitia James sued Polymarket, alleging that its prediction markets constitute an illegal, unlicensed gambling operation and seeking an injunction, fines, forfeiture and restitution. Polymarket filed a federal countersuit, arguing that the Commodity Futures Trading Commission has exclusive authority over prediction markets and asking a court to bar New York from enforcing its gambling laws against the company. Neither lawsuit had been decided.",
+                "category": "Law and justice",
+                "title": "New York and Polymarket file competing lawsuits over prediction markets",
+                "event_date": "2026-09-24",
+                "candidate_id": "new-york-polymarket-competing-lawsuits",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "New York Attorney General",
+                    "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-and-governor-hochul-announce-lawsuit-against-polymarket"
+                  },
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/new-york-sues-polymarket-says-it-ran-illegal-gambling-operation-ce785aded18ff121"
+                  }
+                ]
+              },
+              {
+                "summary": "Philippine President Ferdinand Marcos Jr. signed a pardon for Mary Jane Veloso, a Filipino woman convicted of drug trafficking in Indonesia after heroin was found in her suitcase in 2010. Veloso, who maintains that she was an unwitting drug courier, received a last-minute reprieve from execution in 2015 and was transferred to Philippine custody in 2024. Marcos announced the pardon on September 25 and said he had signed it the previous day.",
+                "category": "Law and justice",
+                "title": "Philippine president pardons Mary Jane Veloso",
+                "event_date": "2026-09-24",
+                "candidate_id": "philippines-marcos-pardons-mary-jane-veloso",
+                "geography": "Philippines and Indonesia",
+                "sources": [
+                  {
+                    "name": "Reuters via AOL",
+                    "url": "https://www.aol.com/articles/philippine-president-pardons-drug-convict-042826000.html"
+                  },
+                  {
+                    "name": "Khaleej Times",
+                    "url": "https://www.khaleejtimes.com/world/asia/philippines-marcos-pardons-drug-convict-mary-jane-veloso-indonesia-arrest-16-years-jail"
+                  }
+                ]
+              },
+              {
+                "summary": "The foreign ministers of Saudi Arabia, Turkey and Pakistan met under their Mecca Joint Defence Agreement and condemned Houthi attacks on Saudi territory. They announced arrangements for an urgent meeting of their military chiefs to discuss support for Saudi Arabia; the chiefs' meeting remained pending. The Houthis said they fired dozens of missiles and drones on Thursday, while Saudi authorities said six ballistic missiles were intercepted.",
+                "category": "Conflict",
+                "title": "Saudi Arabia, Turkey and Pakistan arrange urgent defence meeting",
+                "event_date": "2026-09-24",
+                "candidate_id": "saudi-turkey-pakistan-defence-pact-meeting",
+                "geography": "Saudi Arabia, Turkey, Pakistan and Yemen",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/allies-unite-behind-saudi-arabia-as-houthis-step-up-attacks-4916528"
+                  }
+                ]
+              },
+              {
+                "summary": "Israeli Prime Minister Benjamin Netanyahu defended Israel's military actions during a speech to the UN General Assembly as dozens of delegates walked out in protest. He rejected allegations of genocide in Gaza, criticized several Western governments and New York Mayor Zohran Mamdani, and said Israel would continue its regional campaigns. Mamdani responded that Netanyahu had repeated baseless claims; the International Criminal Court's arrest warrant for Netanyahu remains outstanding.",
+                "category": "Politics",
+                "title": "Delegates walk out during Netanyahu's UN address",
+                "event_date": "2026-09-24",
+                "candidate_id": "netanyahu-un-address-delegate-walkout",
+                "geography": "United Nations and Israel",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://uk.marketscreener.com/news/netanyahu-expected-to-berate-new-york-s-mamdani-in-campaign-speech-of-un-address-ce785adeda88f422"
+                  },
+                  {
+                    "name": "Reuters video via MarketScreener",
+                    "url": "https://uk.marketscreener.com/news/dozens-of-delegates-walk-out-at-start-of-netanyahu-s-un-speech-ce785adfd98dff2c"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-24"
+          },
+          "metadata": {
+            "responseId": "resp_0c904ec483bccc91006ab61db84a3887d2a3c6309d3fbc9768",
+            "requestId": "req_ca19f811325640fc83e0c388da53a7cb",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2802,
+            "inputTokens": 85564,
+            "outputTokens": 5127,
+            "webSearchCalls": 10,
+            "stage": "discovery",
+            "targetDate": "2026-09-24",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 88356,
+            "attemptDurationMs": 88356,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-25T07:07:32.786Z",
+        "capturedAt": "2026-09-25T07:09:01.236Z"
+      }
+    ],
+    "sift": {
+      "inputFingerprint": "01740beb7162c98c954c9cd30e7f725b2608c87812f2f8615ea1d40037b5aa3a",
+      "priorStories": [
+        {
+          "headline": "Fighting in Ethiopia spreads beyond Tigray",
+          "body": "Tigrayan forces seized federally controlled airports as renewed fighting with Ethiopia’s federal government spread into the neighboring Afar and Amhara regions, where allied armed groups were also involved. Ethiopian Airlines suspended regional flights.\n\nTigray’s leaders described the fighting as a defensive war. An adviser to Prime Minister Abiy Ahmed and another senior Ethiopian official called it a major Tigrayan offensive. The federal government did not respond to requests for comment, while the African Union called for immediate de-escalation and direct talks.",
+          "sources": [
+            {
+              "name": "Reuters via MarketScreener",
+              "url": "https://www.marketscreener.com/news/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts-ce785ad9da8df02c"
+            },
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/23/tigrayan-leaders-say-new-war-with-ethiopian-government-has-begun-as-fighting-erupts"
+            },
+            {
+              "name": "Euronews",
+              "url": "https://www.euronews.com/2026/09/23/tigray-rebels-seize-airport-and-clash-with-federal-forces-as-fighting-in-ethiopia-reignite"
+            }
+          ]
+        },
+        {
+          "headline": "Harvey Weinstein sentenced to 15 years",
+          "body": "A New York judge sentenced former film producer Harvey Weinstein to 15 years in prison for a criminal sexual act against former production assistant Miriam Haley in 2006.\n\nThe sentence followed a retrial ordered after New York’s highest court overturned his original conviction in 2024. Weinstein has indicated that he will appeal.",
+          "sources": [
+            {
+              "name": "Associated Press via ABC News",
+              "url": "https://www-cdn.abcnews.com/Entertainment/wireStory/harvey-weinstein-set-sentenced-sexual-assault-after-6-136673491"
+            },
+            {
+              "name": "Bloomberg Law",
+              "url": "https://news.bloomberglaw.com/white-collar-and-criminal-law/harvey-weinstein-sentenced-to-15-years-for-ny-sexual-assault"
+            }
+          ]
+        },
+        {
+          "headline": "U.S. and China extend trade truce",
+          "body": "The United States and China agreed to keep their existing trade truce in place through January 10, extending it from its scheduled November 10 expiration, Treasury Secretary Scott Bessent said.\n\nBessent announced the extension after meeting Chinese Vice Premier He Lifeng in Washington, ahead of a summit between Presidents Donald Trump and Xi Jinping. Detailed terms were not immediately published.",
+          "sources": [
+            {
+              "name": "Reuters via MarketScreener",
+              "url": "https://www.marketscreener.com/news/us-china-agree-to-extend-the-busan-agreement-until-january-bessent-says-ce785aded88ef52c"
+            },
+            {
+              "name": "Reuters via AOL",
+              "url": "https://www.aol.com/articles/us-china-agree-extend-busan-222217000.html"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "e59cc1cf794e569c2c8514c610f1d0efae9f11ae1f2aa1188bec1561262d9803",
+        "claimId": "a716203e-e59b-4460-993c-ef02ecf7f23d",
+        "status": "completed",
+        "attempts": 1,
+        "startedAt": "2026-09-25T08:07:31.770Z",
+        "responseId": "resp_059694eecf77f840006ab62bc6ae8887d2ba017d84be49fa29"
+      },
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "belarus-lukashenko-pardons-15",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "federal-reserve-stablecoin-framework-proposals",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "imf-loan-program-design-review",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "indonesia-makarim-appeal-sentence",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "kazakhstan-caspian-military-exercise-deaths",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "morocco-parliament-election-results-2026",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "netanyahu-un-address-delegate-walkout",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "new-york-polymarket-competing-lawsuits",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "philippines-marcos-pardons-mary-jane-veloso",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "poland-starlink-station-sabotage-suspicion",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "russia-ukraine-strikes-eight-killed",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "saudi-turkey-pakistan-defence-pact-meeting",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "saudi-yanbu-greek-patriot-interceptions",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-xi-white-house-summit-2026",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "us-iran-hormuz-blockade-talks",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-jobless-claims-september-19",
+              "code": "incremental_update"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Pakistan said it struck 10 sites in Afghanistan that it described as drone launch and storage facilities, a day after drones were allegedly used against Pakistan.\n\nAfghanistan’s Taliban government denied launching the drones and said the strikes in Kandahar, Paktia and Khost provinces killed four civilians. The casualty count and the two governments’ competing accounts were not independently verified.",
+              "candidate_id": "pakistan-afghanistan-drone-site-strikes",
+              "headline": "Pakistan strikes 10 sites in Afghanistan",
+              "sources": [
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/Pakistan%2Bair%2Bstrikes%2Bkill%2B4%2Bcivilians%2Bin%2BAfghanistan%2C%2BKabul%2Bsays/27097848.html"
+                }
+              ]
+            },
+            {
+              "body": "The yield on the 30-year U.S. Treasury bond climbed above 5.45%, its highest level since 2004. The benchmark 10-year yield reached about 5.16%. Bond yields rise as prices fall.\n\nThe selloff extended across major government-bond markets as investors weighed strong economic growth, elevated public debt, higher energy costs and inflation risks.",
+              "candidate_id": "us-treasury-yields-september-24-2026",
+              "headline": "30-year Treasury yield reaches 22-year high",
+              "sources": [
+                {
+                  "name": "Reuters via MarketScreener",
+                  "url": "https://www.marketscreener.com/news/u-s-30-year-bond-yield-rises-to-highest-since-2004-as-selloff-deepens-ce785adedd80f12c"
+                }
+              ]
+            },
+            {
+              "body": "The White House reinstated journalists from CNN, MS NOW and Politico after a federal judge ordered their access restored. Some remained barred for several hours before the administration said their badges had been delivered to an entry gate by 9:55 a.m.\n\nThe judge’s temporary restraining order remains in effect for 14 days while the outlets’ lawsuit proceeds.",
+              "candidate_id": "white-house-media-access-order",
+              "headline": "White House restores three outlets’ press access",
+              "sources": [
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/White%2BHouse%2Breinstates%2Baccess%2Bto%2BCNN%2C%2BMS%2BNOW%2Band%2BPolitico%2Bfollowing%2Bjudge%27s%2Border/27099231.html"
+                },
+                {
+                  "name": "The Guardian",
+                  "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_059694eecf77f840006ab62bc6ae8887d2ba017d84be49fa29",
+          "requestId": "req_5b171fbe72b640559862eb5d577932b8",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 2070,
+          "inputTokens": 5616,
+          "outputTokens": 2991,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-24",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 46934,
+          "attemptDurationMs": 46934,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
+    }
+  }
+}

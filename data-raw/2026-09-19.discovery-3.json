@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-19",
+  "batch": 3,
+  "captured_at": "2026-09-19T22:08:46.068Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Yemen's Houthis said they attacked unspecified sites in Riyadh with missiles and drones and an Aramco facility in Yanbu. Reuters documented flames and smoke near fuel tanks by Riyadh's main airport, but Saudi authorities had not confirmed the Houthi claims or identified the cause of the fire.",
+        "category": "conflict",
+        "title": "Houthis claim Riyadh and Yanbu attacks as fire burns near airport",
+        "event_date": "2026-09-19",
+        "candidate_id": "riyadh-airport-fire-aerial-threat-alerts",
+        "geography": "Saudi Arabia and Yemen",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Flames%2C%2Bsmoke%2Bseen%2Bnear%2BRiyadh%2Bairport%3B%2BHouthis%2Bclaim%2Battacks%2Bon%2BSaudi%2Bcapital/27081686.html"
+          },
+          {
+            "name": "Reuters via Al-Monitor",
+            "url": "https://www.al-monitor.com/originals/2026/09/flames-smoke-seen-near-riyadh-airport-after-saudi-warning-aerial-attack-threat"
+          }
+        ]
+      },
+      {
+        "summary": "Turkish Foreign Minister Hakan Fidan said Turkey was prepared to help meet Saudi Arabia's technical military needs in response to Houthi attacks. He cited a trilateral defense pact with Saudi Arabia and Pakistan under which an armed attack on one member is considered an attack on all three.",
+        "category": "diplomacy",
+        "title": "Turkey offers military support to Saudi Arabia under defense pact",
+        "event_date": "2026-09-19",
+        "candidate_id": "turkey-offers-saudi-military-support",
+        "geography": "Turkey, Saudi Arabia, Pakistan and Yemen",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/turkey-says-it-could-help-meet-saudi-military-needs-under-defence-pact-4908115"
+          }
+        ]
+      },
+      {
+        "summary": "Petrobras said its board approved participation in a Brazilian government subsidy program paying diesel producers 1 real per liter for 30 days, with a possible 30-day extension. The state-controlled company said the subsidy would leave its diesel prices to distributors unchanged because it offsets an equal price adjustment.",
+        "category": "business",
+        "title": "Petrobras approves participation in Brazil diesel subsidy",
+        "event_date": "2026-09-19",
+        "candidate_id": "petrobras-approves-diesel-subsidy-participation",
+        "geography": "Brazil",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/commodities-news/brazils-petrobras-board-approves-joining-diesel-subsidy-program-4908111"
+          },
+          {
+            "name": "Petrobras",
+            "url": "https://agencia.petrobras.com.br/w/negocio/petrobras-informa-sobre-pre%C3%A7os-de-diesel"
+          }
+        ]
+      },
+      {
+        "summary": "President Donald Trump said he planned to establish a federal “AI Force” and appoint an artificial-intelligence coordinator. He provided no immediate details about the proposed body's structure, powers or formation process, and said the appointment would be announced later.",
+        "category": "technology",
+        "title": "Trump proposes federal AI Force and coordinator",
+        "event_date": "2026-09-19",
+        "candidate_id": "trump-proposes-federal-ai-force",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Investing.com",
+            "url": "https://www.investing.com/news/economy-news/trump-calla-for-plans-to-form-federal-ai-force-4908110"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-19"
+  },
+  "metadata": {
+    "responseId": "resp_08edaf37a554206e006aaf07b1fb3c87d2a888807ec8e57290",
+    "requestId": "req_aaedab072be0441a9e8001f75f61cd66",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1851,
+    "inputTokens": 56980,
+    "outputTokens": 2525,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-19",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 63694,
+    "attemptDurationMs": 63694,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}

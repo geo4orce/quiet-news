@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-15",
+  "batch": 3,
+  "captured_at": "2026-09-15T22:08:39.844Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The Kennedy Center board voted to close the Washington performing arts venue for up to two years for a $257 million renovation. The vote followed a federal judge’s order temporarily blocking the center from adding President Donald Trump’s name to its facade or renaming its campus for him without congressional approval. Trump subsequently said renovation would not begin while the naming dispute is under appeal.",
+        "category": "Arts and public institutions",
+        "title": "Kennedy Center board votes to close venue for renovations",
+        "event_date": "2026-09-15",
+        "candidate_id": "kennedy-center-renovation-closure-vote",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/kennedy-center-board-to-vote-on-venue-s-future-says-trump-name-critical-to-survival"
+          }
+        ]
+      },
+      {
+        "summary": "The United States announced a visa-restriction policy targeting foreign nationals it considers responsible for South African laws or policies enabling uncompensated land seizures, racial discrimination or incitement of imminent violence against minority groups. Secretary of State Marco Rubio said South Africa had not adequately addressed previously stated U.S. concerns.",
+        "category": "Foreign policy",
+        "title": "US announces South Africa-related visa restrictions",
+        "event_date": "2026-09-15",
+        "candidate_id": "us-south-africa-visa-restrictions",
+        "geography": "United States; South Africa",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/us-announces-visa-curbs-for-some-foreign-nationals-in-south-africa"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. Senate voted 50-49 to advance the Clarity Act, falling 10 votes short of the 60 required. Four Republicans joined all Democrats in opposing the cryptocurrency-regulation bill. One Republican changed his vote for procedural reasons that preserve the option of reconsideration, but Congress’s approaching pre-election recess left the measure stalled.",
+        "category": "Legislation and finance",
+        "title": "US Senate blocks cryptocurrency regulation bill",
+        "event_date": "2026-09-15",
+        "candidate_id": "us-senate-crypto-clarity-act-vote",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/us-senate-to-vote-on-advancing-landmark-crypto-bill"
+          }
+        ]
+      },
+      {
+        "summary": "Argentina’s government submitted its proposed 2027 budget to Congress. The bill forecasts 4% economic growth, annual inflation of 18% and a trade surplus exceeding $15 billion in 2027. The proposal must proceed through the budget committee and Congress; the projections and spending plans have not been enacted.",
+        "category": "Economy and government",
+        "title": "Argentina submits proposed 2027 budget to Congress",
+        "event_date": "2026-09-15",
+        "candidate_id": "argentina-2027-budget-submission",
+        "geography": "Argentina",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/argentina-submits-2027-budget-bill-to-congress-foresees-4-gdp-growth"
+          }
+        ]
+      },
+      {
+        "summary": "German Defense Minister Boris Pistorius and U.S. Defense Secretary Pete Hegseth signed a letter of intent aimed at increasing cooperation between the two countries’ weapons industries. Pistorius said details of the cooperation and a planned German purchase of Tomahawk cruise missiles remained to be negotiated.",
+        "category": "Defense cooperation",
+        "title": "Germany and US sign defense-industry cooperation letter",
+        "event_date": "2026-09-15",
+        "candidate_id": "germany-us-defense-industry-letter",
+        "geography": "Germany; United States",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/germany-us-sign-agreement-to-deepen-defense-cooperation-between-industries"
+          }
+        ]
+      },
+      {
+        "summary": "Colombian-born businessman and former Venezuelan minister Alex Saab pleaded guilty in Miami federal court to one count of conspiracy to launder money. Court records said Saab agreed to forfeit $195 million and cooperate with the U.S. Justice Department. Prosecutors accused him of diverting money from a Venezuelan food-assistance program and transferring some proceeds through U.S. accounts.",
+        "category": "Courts and corruption",
+        "title": "Alex Saab pleads guilty in US money-laundering case",
+        "event_date": "2026-09-15",
+        "candidate_id": "alex-saab-guilty-plea-miami",
+        "geography": "United States; Venezuela; Colombia",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/alex-saab-ally-of-venezuela-s-maduro-to-change-plea-in-us-corruption-case"
+          }
+        ]
+      },
+      {
+        "summary": "Republican U.S. Representative Thomas Massie filed privileged articles of impeachment against Defense Secretary Pete Hegseth, alleging that Hegseth abused his office by carrying out hostilities against Iran without congressional approval. The privileged designation requires the House to consider the resolution within two legislative days. The Pentagon said the department remained united behind Hegseth.",
+        "category": "Politics and conflict oversight",
+        "title": "Republican lawmaker files impeachment articles against Hegseth",
+        "event_date": "2026-09-15",
+        "candidate_id": "massie-hegseth-impeachment-articles",
+        "geography": "United States; Iran",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/15/us-republican-lawmaker-seeks-hegseth-s-impeachment-over-iran"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-15"
+  },
+  "metadata": {
+    "responseId": "resp_0e2f512274cafce0006aa9c1a0addc87d2886b222438cc1b51",
+    "requestId": "req_7ee8cbfec728432faa4a085583b8a20c",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2244,
+    "inputTokens": 50521,
+    "outputTokens": 3246,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-15",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 74539,
+    "attemptDurationMs": 74539,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}

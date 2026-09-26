@@ -1,0 +1,21 @@
+{
+  "edition_date": "2026-09-22",
+  "published_at": "2026-09-23T08:07:58.059Z",
+  "expires_at": "2026-09-24T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "Hurricane Polo reaches Category 5",
+      "body": "Polo strengthened from a Category 4 storm late Monday to Category 5, with maximum sustained winds reaching 180 mph, according to the U.S. National Hurricane Center.\n\nThe hurricane was expected to remain off Mexico’s southwestern coast, but authorities closed ports in Guerrero and Michoacán and suspended some classes. Heavy rain, flooding, mudslides and hazardous surf threatened coastal areas.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/hurricane-polo-mexico-a6c1c226c878a236442a8e1a7f37211b"
+        },
+        {
+          "name": "U.S. National Hurricane Center",
+          "url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+        }
+      ]
+    }
+  ]
+}

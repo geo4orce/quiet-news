@@ -1,0 +1,977 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-18",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "UN cites US war crimes, Iran crimes against humanity",
+            "body": "A United Nations fact-finding mission said it had reasonable grounds to believe two U.S. strikes on a school and sports facility in Iran in February were indiscriminate attacks amounting to war crimes. It also found that Iranian authorities committed crimes against humanity during a crackdown on anti-government protests.\n\nThe Pentagon said its investigation was continuing. The White House rejected the finding about the U.S. strikes, while Iran’s Geneva mission did not immediately respond.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/un-mission-finds-grounds-to-believe-us-committed-war-crimes-in-iran-and-tehran-crimes-against-humanity"
+              }
+            ]
+          },
+          {
+            "headline": "Russia, China end Iran sanctions-monitoring mandate",
+            "body": "Russia and China vetoed a Security Council resolution extending independent monitoring of international sanctions on Iran. Eleven members supported the resolution, while Pakistan and Somalia abstained.\n\nThe veto ended the monitoring mandate. Its expert panel had already gone unfilled during the previous year because appointments required council consensus.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-china-end-mandate-for-independent-monitoring-of-un-sanctions-on-iran"
+              }
+            ]
+          },
+          {
+            "headline": "Sweden’s center-left wins parliamentary election",
+            "body": "The final count from Sunday’s election gave Sweden’s center-left opposition parties 176 parliamentary seats, compared with 173 for the governing right-wing bloc.\n\nPrime Minister Ulf Kristersson said he would resign and asked to be relieved of office, allowing the parliamentary speaker to begin forming a new government. Social Democratic leader Magdalena Andersson is positioned to try to assemble a coalition.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/sweden-s-centre-left-opposition-wins-election-as-count-completed"
+              }
+            ]
+          },
+          {
+            "headline": "Sea crossings to Europe fall as deaths rise",
+            "body": "About 60,000 migrants and refugees reached Europe by sea so far this year, down 39% from roughly 98,000 at the same point in 2025, the International Organization for Migration said.\n\nDespite the decline in crossings, at least 2,292 people died or went missing, up from 1,999 during the corresponding period last year. The organization said additional deaths probably went unrecorded.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/europe-migrant-sea-crossings-fall-but-become-more-deadly-iom-says"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "79b4ae356c522dd3295bb6a3b52557f81faaf0badfefb3e0f02ab7636cfb8424",
+          "claimId": "f857eeef-c750-48ad-ae26-fc0b3c334f10",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-18T10:07:36.040Z",
+          "responseId": "resp_05e8f75d3d927bf7006aad0d6bc2c887d2b23d7d2f376de128"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Malaysia’s king granted former Prime Minister Najib Razak a conditional pardon allowing him to serve the remainder of his current corruption sentence under house arrest until August 23, 2028, subject to payment of a 50 million ringgit fine. The government said the pardon would be revoked if he violated its conditions. Najib remains subject to a separate 15-year sentence from another 1MDB-related conviction, which he is appealing.",
+                "category": "law and justice",
+                "title": "Malaysia grants Najib conditional pardon and house arrest",
+                "event_date": "2026-09-18",
+                "candidate_id": "malaysia-najib-conditional-pardon",
+                "geography": "Malaysia",
+                "sources": [
+                  {
+                    "name": "Bernama",
+                    "url": "https://www.bernama.com/en/news.php?id=2608750"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/malaysia-najib-corruption-house-arrest-3a61e8b1551eaa0f023f91116b6f06a0"
+                  }
+                ]
+              },
+              {
+                "summary": "A shooting at Banga National High School in South Cotabato killed three young people and injured six others, according to Philippine police and local officials. The circumstances remained under investigation. The Department of Education suspended in-person classes through September 21 and said it was coordinating with law enforcement and arranging psychosocial support.",
+                "category": "public safety",
+                "title": "Three killed in Philippine high school shooting",
+                "event_date": "2026-09-18",
+                "candidate_id": "philippines-banga-school-shooting",
+                "geography": "South Cotabato, Philippines",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/philippines-school-shooting-south-cotabato-0fb2a2443f64829985e0aab1368d2ee8"
+                  },
+                  {
+                    "name": "Philippine News Agency",
+                    "url": "https://www.pna.gov.ph/articles/1284362"
+                  }
+                ]
+              },
+              {
+                "summary": "Nigerian police fired tear gas at dozens of miners and relatives protesting near the civil defense corps office in Minna after 37 mining suspects died in the agency’s custody the previous day. Survivors disputed the agency’s preliminary suggestion of a disease outbreak and said detainees had suffocated in an overcrowded cell. Nigeria’s government suspended the Niger State civil defense commandant pending an investigation.",
+                "category": "human rights",
+                "title": "Police disperse Nigeria protest over deaths in custody",
+                "event_date": "2026-09-18",
+                "candidate_id": "nigeria-minna-custody-deaths-protest",
+                "geography": "Niger State, Nigeria",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/nigeria-miners-deaths-protest-222ac9d300c15c628ebcdacfea01f86a"
+                  },
+                  {
+                    "name": "Premium Times",
+                    "url": "https://www.premiumtimesng.com/regional/north-central/910516-police-order-probe-as-37-suspected-illegal-miners-die-in-nscdc-custody.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-18"
+          },
+          "metadata": {
+            "responseId": "resp_05e8f75d3d927bf7006aad0d6bc2c887d2b23d7d2f376de128",
+            "requestId": "req_ec14bd4879eb4002a32d09c4a48bea40",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1927,
+            "inputTokens": 58110,
+            "outputTokens": 2382,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-18",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 80140,
+            "attemptDurationMs": 80140,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-18T10:07:35.958Z",
+        "capturedAt": "2026-09-18T10:08:56.181Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "UN cites US war crimes, Iran crimes against humanity",
+            "body": "A United Nations fact-finding mission said it had reasonable grounds to believe two U.S. strikes on a school and sports facility in Iran in February were indiscriminate attacks amounting to war crimes. It also found that Iranian authorities committed crimes against humanity during a crackdown on anti-government protests.\n\nThe Pentagon said its investigation was continuing. The White House rejected the finding about the U.S. strikes, while Iran’s Geneva mission did not immediately respond.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/un-mission-finds-grounds-to-believe-us-committed-war-crimes-in-iran-and-tehran-crimes-against-humanity"
+              }
+            ]
+          },
+          {
+            "headline": "Russia, China end Iran sanctions-monitoring mandate",
+            "body": "Russia and China vetoed a Security Council resolution extending independent monitoring of international sanctions on Iran. Eleven members supported the resolution, while Pakistan and Somalia abstained.\n\nThe veto ended the monitoring mandate. Its expert panel had already gone unfilled during the previous year because appointments required council consensus.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-china-end-mandate-for-independent-monitoring-of-un-sanctions-on-iran"
+              }
+            ]
+          },
+          {
+            "headline": "Sweden’s center-left wins parliamentary election",
+            "body": "The final count from Sunday’s election gave Sweden’s center-left opposition parties 176 parliamentary seats, compared with 173 for the governing right-wing bloc.\n\nPrime Minister Ulf Kristersson said he would resign and asked to be relieved of office, allowing the parliamentary speaker to begin forming a new government. Social Democratic leader Magdalena Andersson is positioned to try to assemble a coalition.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/sweden-s-centre-left-opposition-wins-election-as-count-completed"
+              }
+            ]
+          },
+          {
+            "headline": "Sea crossings to Europe fall as deaths rise",
+            "body": "About 60,000 migrants and refugees reached Europe by sea so far this year, down 39% from roughly 98,000 at the same point in 2025, the International Organization for Migration said.\n\nDespite the decline in crossings, at least 2,292 people died or went missing, up from 1,999 during the corresponding period last year. The organization said additional deaths probably went unrecorded.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/europe-migrant-sea-crossings-fall-but-become-more-deadly-iom-says"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "9c094d5311fedd928bfdb17b97ef75c0d7b0791acbd981c7279bc19f23a385df",
+          "claimId": "0a586cea-6737-4307-a4bb-a856423dadfb",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-18T16:07:37.776Z",
+          "responseId": "resp_07c254ea0e1c04e1006aad61ce12c487d28137e96115e7ee8b"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Authorities raised the reported death toll from a vehicle bombing and attempted armed assault at a mosque in a police compound in Kohat to at least 16, with more than 50 people wounded. Police said officers attending Friday prayers were among the casualties. No group immediately claimed responsibility.",
+                "category": "conflict and security",
+                "title": "Pakistan police-compound mosque attack kills at least 16",
+                "event_date": "2026-09-18",
+                "candidate_id": "pakistan-kohat-police-mosque-bombing",
+                "geography": "Kohat, Khyber Pakhtunkhwa, Pakistan",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/ebfc29859f724630e25f8549116859c8"
+                  }
+                ]
+              },
+              {
+                "summary": "Berkshire Hathaway named Warren Buffett chairman emeritus, effective immediately, while retaining him as a director. The board elected his son Howard G. Buffett as chairman, and Susan Decker remained lead independent director. Warren Buffett had held the chairman’s post since 1970.",
+                "category": "business",
+                "title": "Warren Buffett steps down as Berkshire Hathaway chairman",
+                "event_date": "2026-09-18",
+                "candidate_id": "berkshire-buffett-chairman-transition",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Berkshire Hathaway",
+                    "url": "https://www.berkshirehathaway.com/news/sep1826.pdf"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/70f52159fdcaedae3f8926893de37023"
+                  }
+                ]
+              },
+              {
+                "summary": "In-person voting began in Virginia for the 2026 U.S. midterm elections, opening the first early-voting period of the general-election campaign. Voters in Idaho, Minnesota and South Dakota also became able to cast absentee ballots in person.",
+                "category": "politics and elections",
+                "title": "Early voting begins in US midterm elections",
+                "event_date": "2026-09-18",
+                "candidate_id": "us-2026-midterm-early-voting-begins",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/9e8603ba58eee87d8f305615d11871af"
+                  }
+                ]
+              },
+              {
+                "summary": "Britain’s domestic security service formally accepted in the High Court that it had submitted evidence based on lies to three courts while seeking secrecy around a violent neo-Nazi informant known as Agent X. A panel of judges was considering whether contempt proceedings or other action should follow.",
+                "category": "law and justice",
+                "title": "MI5 admits court evidence was based on lies",
+                "event_date": "2026-09-18",
+                "candidate_id": "uk-mi5-agent-x-court-admission",
+                "geography": "United Kingdom",
+                "sources": [
+                  {
+                    "name": "BBC News via Yahoo News",
+                    "url": "https://nz.news.yahoo.com/mi5-accepts-gave-evidence-based-100833834.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Romanian prime-minister candidate Siegfried Mureșan said he had begun work on a governing program and would seek to form a cabinet with the National Liberal Party, Save Romania Union and the ethnic Hungarian UDMR. The proposed grouping lacked a parliamentary majority, and the president’s formal nomination decree remained pending.",
+                "category": "politics and government",
+                "title": "Romanian prime-minister candidate begins coalition talks",
+                "event_date": "2026-09-18",
+                "candidate_id": "romania-muresan-coalition-talks",
+                "geography": "Romania",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/9b64634ce8bc041444d2fb0aa98e0ac0"
+                  },
+                  {
+                    "name": "Radio Romania International",
+                    "url": "https://www.rri.ro/en/news-and-current-affairs/newsflash/september-18-2026-id1060937.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukraine hosted leaders and representatives from seven neighboring countries for the inaugural Carpathian Eight summit, intended to deepen regional cooperation on trade, infrastructure, energy and security. The participants represented Ukraine, Romania, Serbia, Poland, Slovakia, the Czech Republic, Austria and Hungary, with the European Union also involved.",
+                "category": "international relations",
+                "title": "Ukraine hosts inaugural Carpathian Eight summit",
+                "event_date": "2026-09-18",
+                "candidate_id": "ukraine-carpathian-eight-summit",
+                "geography": "Ukraine and Central Europe",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/b05ea50c3ed8b64cf25e254783a17d39"
+                  }
+                ]
+              },
+              {
+                "summary": "The International Committee of the Red Cross said it had not been allowed to visit Ukrainian prisoners of war held in Russia since 2024. The organization said its president raised the lack of access during a visit to Russia in August. Russia denies torturing or otherwise mistreating prisoners.",
+                "category": "human rights",
+                "title": "Red Cross says Russia has blocked POW access since 2024",
+                "event_date": "2026-09-18",
+                "candidate_id": "icrc-ukrainian-pow-access-russia",
+                "geography": "Russia and Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://uk.marketscreener.com/news/red-cross-says-no-access-to-ukrainian-pows-in-two-years-ce785adadd8df726"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-18"
+          },
+          "metadata": {
+            "responseId": "resp_07c254ea0e1c04e1006aad61ce12c487d28137e96115e7ee8b",
+            "requestId": "req_6e08f04c9d734bf7995d3ee65161cb74",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2497,
+            "inputTokens": 58821,
+            "outputTokens": 3535,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-18",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 138090,
+            "attemptDurationMs": 138090,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-18T16:07:37.720Z",
+        "capturedAt": "2026-09-18T16:09:55.866Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [
+          {
+            "headline": "UN cites US war crimes, Iran crimes against humanity",
+            "body": "A United Nations fact-finding mission said it had reasonable grounds to believe two U.S. strikes on a school and sports facility in Iran in February were indiscriminate attacks amounting to war crimes. It also found that Iranian authorities committed crimes against humanity during a crackdown on anti-government protests.\n\nThe Pentagon said its investigation was continuing. The White House rejected the finding about the U.S. strikes, while Iran’s Geneva mission did not immediately respond.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/un-mission-finds-grounds-to-believe-us-committed-war-crimes-in-iran-and-tehran-crimes-against-humanity"
+              }
+            ]
+          },
+          {
+            "headline": "Russia, China end Iran sanctions-monitoring mandate",
+            "body": "Russia and China vetoed a Security Council resolution extending independent monitoring of international sanctions on Iran. Eleven members supported the resolution, while Pakistan and Somalia abstained.\n\nThe veto ended the monitoring mandate. Its expert panel had already gone unfilled during the previous year because appointments required council consensus.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-china-end-mandate-for-independent-monitoring-of-un-sanctions-on-iran"
+              }
+            ]
+          },
+          {
+            "headline": "Sweden’s center-left wins parliamentary election",
+            "body": "The final count from Sunday’s election gave Sweden’s center-left opposition parties 176 parliamentary seats, compared with 173 for the governing right-wing bloc.\n\nPrime Minister Ulf Kristersson said he would resign and asked to be relieved of office, allowing the parliamentary speaker to begin forming a new government. Social Democratic leader Magdalena Andersson is positioned to try to assemble a coalition.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/sweden-s-centre-left-opposition-wins-election-as-count-completed"
+              }
+            ]
+          },
+          {
+            "headline": "Sea crossings to Europe fall as deaths rise",
+            "body": "About 60,000 migrants and refugees reached Europe by sea so far this year, down 39% from roughly 98,000 at the same point in 2025, the International Organization for Migration said.\n\nDespite the decline in crossings, at least 2,292 people died or went missing, up from 1,999 during the corresponding period last year. The organization said additional deaths probably went unrecorded.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/europe-migrant-sea-crossings-fall-but-become-more-deadly-iom-says"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "ca481b2d7b37b745d4803e61490f01bf61b790ad4435d58e8368bc5847ffc33b",
+          "claimId": "2c22a0f2-f7fb-44c5-ba3c-a617f5fe47e6",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-18T22:07:37.222Z",
+          "responseId": "resp_00bf3ba3d81a1393006aadb62d74bc87d28a5355866abad8de"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Authorities imposed a 6 p.m. overnight curfew in Minna after protests over 37 mining suspects who died in civil defense custody. Reuters reported that security forces fired live rounds and that a witness saw a body, without establishing who caused the death. President Bola Tinubu ordered an investigation, and the government suspended the Niger State civil defense commandant. Officials said many of the detainees were ages 14 to 18.",
+                "category": "human rights",
+                "title": "Nigeria imposes Minna curfew after custody-death protests",
+                "event_date": "2026-09-18",
+                "candidate_id": "nigeria-minna-custody-deaths-protest",
+                "geography": "Niger State, Nigeria",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/nigeria-miners-deaths-protest-222ac9d300c15c628ebcdacfea01f86a"
+                  },
+                  {
+                    "name": "Premium Times",
+                    "url": "https://www.premiumtimesng.com/regional/north-central/910516-police-order-probe-as-37-suspected-illegal-miners-die-in-nscdc-custody.html"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/protests-erupt-in-nigeria-after-33-miners-die-in-custody-of-paramilitary-agency"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukraine hosted leaders and representatives from seven neighboring countries for the inaugural Carpathian Eight summit on trade, infrastructure, energy and security. During the summit, Polish Prime Minister Donald Tusk announced that Poland had joined a coalition developing an anti-ballistic missile system with Ukraine and other European countries. Tusk also announced a new aid package for Ukraine but did not disclose its contents.",
+                "category": "international relations",
+                "title": "Ukraine hosts Carpathian Eight summit as Poland joins missile coalition",
+                "event_date": "2026-09-18",
+                "candidate_id": "ukraine-carpathian-eight-summit",
+                "geography": "Ukraine and Central Europe",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/b05ea50c3ed8b64cf25e254783a17d39"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/poland-joins-anti-ballistic-missile-coalition-with-ukraine"
+                  }
+                ]
+              },
+              {
+                "summary": "The UN Human Rights Office published a report documenting 1,004 verified cases of conflict-related sexual violence from February 2022 through July 2026. It attributed 89% to Russian authorities and 11% to Ukrainian authorities, while warning that underreporting and restricted access meant the findings were not comprehensive. The report said Russia had taken no discernible accountability measures; it said Ukraine had adopted preventive steps but accountability remained limited.",
+                "category": "human rights",
+                "title": "UN documents widespread sexual violence in Ukraine war",
+                "event_date": "2026-09-18",
+                "candidate_id": "un-ukraine-conflict-sexual-violence-report",
+                "geography": "Ukraine and Russia",
+                "sources": [
+                  {
+                    "name": "UN Human Rights Monitoring Mission in Ukraine",
+                    "url": "https://ukraine.ohchr.org/en/Sexual-Violence-in-the-Context-of-the-Russian-Federation-Full-Scale-Armed-Attack-against-Ukraine"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/widespread-sexual-violence-in-ukraine-war-most-cases-tied-to-russia-says-un-report"
+                  }
+                ]
+              },
+              {
+                "summary": "An informal secret poll of the UN Security Council placed former Costa Rican Vice President Rebeca Grynspan narrowly ahead in the contest to succeed Secretary-General António Guterres, according to diplomats and sources cited by Reuters. Grynspan received nine encourage votes, five discourage votes and one no-opinion vote; Guyana’s Carolyn Rodrigues Birkett received eight, six and one respectively. Further straw polls and a formal council recommendation remain pending.",
+                "category": "international relations",
+                "title": "Grynspan leads third informal UN secretary-general poll",
+                "event_date": "2026-09-18",
+                "candidate_id": "un-secretary-general-third-straw-poll",
+                "geography": "United Nations",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/costa-rica-s-grynspan-narrowly-leads-informal-un-chief-poll-sources-say"
+                  }
+                ]
+              },
+              {
+                "summary": "UN Secretary-General António Guterres and Food and Agriculture Organization Director-General Qu Dongyu appointed Luke J. Lindberg as the World Food Programme’s next executive director after consultations with the agency’s board. Lindberg succeeds Cindy McCain, who stepped down for health reasons in May, after an interim period led by Carl Skau.",
+                "category": "international organizations",
+                "title": "Luke Lindberg appointed to lead World Food Programme",
+                "event_date": "2026-09-18",
+                "candidate_id": "wfp-luke-lindberg-appointment",
+                "geography": "United Nations",
+                "sources": [
+                  {
+                    "name": "World Food Programme",
+                    "url": "https://www.wfp.org/news/statement-by-world-food-programme-executive-board-president-on-appointment-of-new-executive-director"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/un-appoints-trump-nominee-lindberg-to-head-world-food-programme"
+                  }
+                ]
+              },
+              {
+                "summary": "Cuba’s energy ministry said the national electrical grid suffered a total collapse, causing an island-wide blackout affecting a population of about 9 million. The country’s power system has faced continuing strain from fuel shortages and deteriorating infrastructure.",
+                "category": "energy and infrastructure",
+                "title": "Cuba suffers nationwide electrical-grid collapse",
+                "event_date": "2026-09-18",
+                "candidate_id": "cuba-nationwide-grid-collapse",
+                "geography": "Cuba",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/cuba-energy-grid-suffers-nationwide-collapse"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. Court of Appeals for the First Circuit largely upheld a lower-court ruling that found the administration’s rapid third-country deportation policy unlawful. The panel said migrants must receive a meaningful opportunity to raise persecution or torture concerns before removal to a country not covered by their proceedings. It reversed one portion of the lower-court decision on procedural grounds, and the administration was expected to appeal.",
+                "category": "law and justice",
+                "title": "US appeals court rejects rapid third-country deportation policy",
+                "event_date": "2026-09-18",
+                "candidate_id": "us-third-country-deportation-appeal-ruling",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/us-appeals-court-rejects-trump-policy-allowing-fast-third-country-deportations"
+                  }
+                ]
+              },
+              {
+                "summary": "A Russian glide bomb struck an apartment building in Sumy, killing two people and injuring seven, according to Ukrainian officials. Three of the injured were in serious condition, and rescuers pulled four people, including a child, from the rubble. Officials said others might remain trapped. Russia did not immediately comment on the specific strike.",
+                "category": "conflict and security",
+                "title": "Russian glide bomb hits Sumy apartment building",
+                "event_date": "2026-09-18",
+                "candidate_id": "ukraine-sumy-apartment-glide-bomb",
+                "geography": "Sumy, Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/russian-glide-bomb-hits-apartment-in-ukraine-s-sumy-two-dead-seven-injured"
+                  }
+                ]
+              },
+              {
+                "summary": "President Donald Trump said he was immediately banning CNN, MS NOW and Politico from the White House because of coverage he characterized as unfavorable and threatened additional exclusions. His social-media announcement did not explain how the restrictions would be implemented.",
+                "category": "media and government",
+                "title": "Trump announces White House ban on three news organizations",
+                "event_date": "2026-09-18",
+                "candidate_id": "trump-white-house-media-ban",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/trump-cnn-msnow-politico-media-bans-bb675679fb10738a51bef90bde6c525a"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-18"
+          },
+          "metadata": {
+            "responseId": "resp_00bf3ba3d81a1393006aadb62d74bc87d28a5355866abad8de",
+            "requestId": "req_525cc2adbd214d71b04014e6ec4e3ec1",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1867,
+            "inputTokens": 63849,
+            "outputTokens": 3533,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-18",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 96199,
+            "attemptDurationMs": 96199,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-09-18T22:07:37.175Z",
+        "capturedAt": "2026-09-18T22:09:13.422Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "UN cites US war crimes, Iran crimes against humanity",
+            "body": "A United Nations fact-finding mission said it had reasonable grounds to believe two U.S. strikes on a school and sports facility in Iran in February were indiscriminate attacks amounting to war crimes. It also found that Iranian authorities committed crimes against humanity during a crackdown on anti-government protests.\n\nThe Pentagon said its investigation was continuing. The White House rejected the finding about the U.S. strikes, while Iran’s Geneva mission did not immediately respond.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/un-mission-finds-grounds-to-believe-us-committed-war-crimes-in-iran-and-tehran-crimes-against-humanity"
+              }
+            ]
+          },
+          {
+            "headline": "Russia, China end Iran sanctions-monitoring mandate",
+            "body": "Russia and China vetoed a Security Council resolution extending independent monitoring of international sanctions on Iran. Eleven members supported the resolution, while Pakistan and Somalia abstained.\n\nThe veto ended the monitoring mandate. Its expert panel had already gone unfilled during the previous year because appointments required council consensus.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-china-end-mandate-for-independent-monitoring-of-un-sanctions-on-iran"
+              }
+            ]
+          },
+          {
+            "headline": "Sweden’s center-left wins parliamentary election",
+            "body": "The final count from Sunday’s election gave Sweden’s center-left opposition parties 176 parliamentary seats, compared with 173 for the governing right-wing bloc.\n\nPrime Minister Ulf Kristersson said he would resign and asked to be relieved of office, allowing the parliamentary speaker to begin forming a new government. Social Democratic leader Magdalena Andersson is positioned to try to assemble a coalition.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/sweden-s-centre-left-opposition-wins-election-as-count-completed"
+              }
+            ]
+          },
+          {
+            "headline": "Sea crossings to Europe fall as deaths rise",
+            "body": "About 60,000 migrants and refugees reached Europe by sea so far this year, down 39% from roughly 98,000 at the same point in 2025, the International Organization for Migration said.\n\nDespite the decline in crossings, at least 2,292 people died or went missing, up from 1,999 during the corresponding period last year. The organization said additional deaths probably went unrecorded.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/europe-migrant-sea-crossings-fall-but-become-more-deadly-iom-says"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "972de82f257a37dcd1cc6cfc743a45e3610814ac6e69dec5276370d5f676ddb8",
+          "claimId": "c2a2fd10-b093-43b6-a14d-8a64f5e14d8f",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-19T07:07:36.546Z",
+          "responseId": "resp_0da1402234ebeb5f006aae34bc269c87d2878f4b690627489a"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "President Donald Trump signed legislation expanding sanctions, tariffs and prohibitions targeting Russia and extending existing sanctions on Iran. The law targets Russian energy and defense sectors and vessels used to evade sanctions, while granting the president broader authority to impose tariffs on countries trading with Russia.",
+                "category": "international relations",
+                "title": "Trump signs expanded Russia and Iran sanctions law",
+                "event_date": "2026-09-18",
+                "candidate_id": "us-russia-iran-sanctions-law",
+                "geography": "United States, Russia and Iran",
+                "sources": [
+                  {
+                    "name": "White House",
+                    "url": "https://www.whitehouse.gov/briefings-statements/2026/09/congressional-bill-h-r-5334-signed-into-law/"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/trump-signs-russia-sanctions-bill-into-law"
+                  }
+                ]
+              },
+              {
+                "summary": "Trump extended for 12 months an entry restriction requiring a $100,000 payment with certain H-1B petitions for workers outside the United States, subject to exceptions. A separate executive order directed agencies to consider sponsoring employers’ recent or planned layoffs of similarly situated U.S. workers when reviewing H-1B applications. Legal challenges to the payment requirement remained pending.",
+                "category": "immigration and labor",
+                "title": "Trump extends H-1B restrictions and orders added scrutiny",
+                "event_date": "2026-09-18",
+                "candidate_id": "us-h1b-restrictions-extension",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "White House",
+                    "url": "https://www.whitehouse.gov/presidential-actions/2026/09/restriction-on-entry-of-certain-nonimmigrant-workers-faad/"
+                  },
+                  {
+                    "name": "White House",
+                    "url": "https://www.whitehouse.gov/presidential-actions/2026/09/enhancing-program-integrity-and-integrity-and-interagency-coordination-in-the-administration-of-the-h-1b-nonimmigrant-visa-program/"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/trump-extends-restrictions-on-h-1b-non-immigrant-visa-program-by-another-year"
+                  }
+                ]
+              },
+              {
+                "summary": "The governments of Greenland, Denmark and the United States announced a planned agreement to strengthen Arctic and North Atlantic security. Trump described the agreement as completed and said it would provide permanent U.S. access, basing and overflight rights. Denmark’s official statement said signature was expected the following week at the UN General Assembly and that the agreement would take effect only after required parliamentary procedures.",
+                "category": "international relations",
+                "title": "Greenland, Denmark and US announce planned Arctic security agreement",
+                "event_date": "2026-09-18",
+                "candidate_id": "greenland-denmark-us-security-agreement",
+                "geography": "Greenland, Denmark and United States",
+                "sources": [
+                  {
+                    "name": "Danish Prime Minister's Office",
+                    "url": "https://stm.dk/en/press/press-releases/expected-agreement-on-strengthened-security-in-the-arctic-and-the-north-atlantic-area/"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/exclusive-us-and-denmark-close-in-on-a-greenland-deal-sources-say"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. State Department approved a possible $2.7 billion military sale to Ukraine covering air-defense upgrades, missiles, launcher modifications, counter-drone radars and related equipment and services. The proposed purchase would use European contributions and previously appropriated U.S. Foreign Military Financing, and remained subject to congressional review.",
+                "category": "conflict and security",
+                "title": "US approves possible $2.7 billion Ukraine air-defense sale",
+                "event_date": "2026-09-18",
+                "candidate_id": "us-ukraine-air-defense-sale-approval",
+                "geography": "United States and Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/us-clears-way-for-2-7-billion-sale-to-ukraine-of-air-defense-development-upgrades"
+                  }
+                ]
+              },
+              {
+                "summary": "Authorities raised the reported toll from the vehicle bombing and attempted armed assault at a mosque near police offices in Kohat to at least 21 dead and 80 wounded. Police officers attending Friday prayers were among the casualties. No group immediately claimed responsibility.",
+                "category": "conflict and security",
+                "title": "Pakistan police-compound mosque attack kills at least 21",
+                "event_date": "2026-09-18",
+                "candidate_id": "pakistan-kohat-police-mosque-bombing",
+                "geography": "Kohat, Khyber Pakhtunkhwa, Pakistan",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/pakistan-mosque-bombing-northwest-pakistan-ebfc29859f724630e25f8549116859c8"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-18"
+          },
+          "metadata": {
+            "responseId": "resp_0da1402234ebeb5f006aae34bc269c87d2878f4b690627489a",
+            "requestId": "req_c31f98e4f2764359993ae0a4a8eeef98",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 3641,
+            "inputTokens": 77159,
+            "outputTokens": 4648,
+            "webSearchCalls": 11,
+            "stage": "discovery",
+            "targetDate": "2026-09-18",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 106999,
+            "attemptDurationMs": 106999,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-19T07:07:36.468Z",
+        "capturedAt": "2026-09-19T07:09:23.545Z"
+      }
+    ],
+    "sift": {
+      "inputFingerprint": "f5711bf9f7e6bbeea9e69e7406407e6a65336dbd5237f018b68a3251467897dd",
+      "priorStories": [
+        {
+          "headline": "UN cites US war crimes, Iran crimes against humanity",
+          "body": "A United Nations fact-finding mission said it had reasonable grounds to believe two U.S. strikes on a school and sports facility in Iran in February were indiscriminate attacks amounting to war crimes. It also found that Iranian authorities committed crimes against humanity during a crackdown on anti-government protests.\n\nThe Pentagon said its investigation was continuing. The White House rejected the finding about the U.S. strikes, while Iran’s Geneva mission did not immediately respond.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/un-mission-finds-grounds-to-believe-us-committed-war-crimes-in-iran-and-tehran-crimes-against-humanity"
+            }
+          ]
+        },
+        {
+          "headline": "Russia, China end Iran sanctions-monitoring mandate",
+          "body": "Russia and China vetoed a Security Council resolution extending independent monitoring of international sanctions on Iran. Eleven members supported the resolution, while Pakistan and Somalia abstained.\n\nThe veto ended the monitoring mandate. Its expert panel had already gone unfilled during the previous year because appointments required council consensus.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-china-end-mandate-for-independent-monitoring-of-un-sanctions-on-iran"
+            }
+          ]
+        },
+        {
+          "headline": "Sweden’s center-left wins parliamentary election",
+          "body": "The final count from Sunday’s election gave Sweden’s center-left opposition parties 176 parliamentary seats, compared with 173 for the governing right-wing bloc.\n\nPrime Minister Ulf Kristersson said he would resign and asked to be relieved of office, allowing the parliamentary speaker to begin forming a new government. Social Democratic leader Magdalena Andersson is positioned to try to assemble a coalition.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/sweden-s-centre-left-opposition-wins-election-as-count-completed"
+            }
+          ]
+        },
+        {
+          "headline": "Sea crossings to Europe fall as deaths rise",
+          "body": "About 60,000 migrants and refugees reached Europe by sea so far this year, down 39% from roughly 98,000 at the same point in 2025, the International Organization for Migration said.\n\nDespite the decline in crossings, at least 2,292 people died or went missing, up from 1,999 during the corresponding period last year. The organization said additional deaths probably went unrecorded.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/europe-migrant-sea-crossings-fall-but-become-more-deadly-iom-says"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "93a0f83235c6a71c95594a0380f79f0684fd084fbaa5a466df9f416e71fabfa6",
+        "claimId": "116dd5c2-f228-48d8-b8fe-5e47990f3026",
+        "status": "completed",
+        "attempts": 1,
+        "startedAt": "2026-09-19T08:07:37.975Z",
+        "responseId": "resp_01bb06af37911627006aae42cdd0d887d2bcdcadca6f7e4551"
+      },
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "berkshire-buffett-chairman-transition",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "greenland-denmark-us-security-agreement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "icrc-ukrainian-pow-access-russia",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "malaysia-najib-conditional-pardon",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "philippines-banga-school-shooting",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "romania-muresan-coalition-talks",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-white-house-media-ban",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "uk-mi5-agent-x-court-admission",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ukraine-carpathian-eight-summit",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ukraine-sumy-apartment-glide-bomb",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "un-secretary-general-third-straw-poll",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-2026-midterm-early-voting-begins",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-h1b-restrictions-extension",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "us-ukraine-air-defense-sale-approval",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "wfp-luke-lindberg-appointment",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Cuba’s energy ministry said the national electrical grid collapsed, cutting power across the island and affecting about 9 million people.\n\nThe country’s power system has been under continuing strain from fuel shortages and deteriorating infrastructure.",
+              "candidate_id": "cuba-nationwide-grid-collapse",
+              "headline": "Cuba’s electrical grid collapses nationwide",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/cuba-energy-grid-suffers-nationwide-collapse"
+                }
+              ]
+            },
+            {
+              "body": "Authorities imposed a 6 p.m. overnight curfew in Minna after protests over mining suspects who died in civil defense custody. Reports placed the number of deaths at 33 to 37; officials said many of the detainees were ages 14 to 18.\n\nPresident Bola Tinubu ordered an investigation, and the government suspended the Niger State civil defense commandant. Reuters reported that security forces fired live rounds during the protests and that a witness saw a body, but responsibility for that death was not established.",
+              "candidate_id": "nigeria-minna-custody-deaths-protest",
+              "headline": "Nigeria investigates mass deaths in state custody",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/nigeria-miners-deaths-protest-222ac9d300c15c628ebcdacfea01f86a"
+                },
+                {
+                  "name": "Premium Times",
+                  "url": "https://www.premiumtimesng.com/regional/north-central/910516-police-order-probe-as-37-suspected-illegal-miners-die-in-nscdc-custody.html"
+                },
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/protests-erupt-in-nigeria-after-33-miners-die-in-custody-of-paramilitary-agency"
+                }
+              ]
+            },
+            {
+              "body": "A vehicle bombing and attempted armed assault at a mosque near police offices in Kohat killed at least 21 people and wounded 80, authorities said.\n\nPolice officers attending Friday prayers were among the casualties. No group immediately claimed responsibility.",
+              "candidate_id": "pakistan-kohat-police-mosque-bombing",
+              "headline": "Pakistan mosque attack kills at least 21",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/pakistan-mosque-bombing-northwest-pakistan-ebfc29859f724630e25f8549116859c8"
+                }
+              ]
+            },
+            {
+              "body": "The UN Human Rights Office documented 1,004 verified cases of conflict-related sexual violence in Ukraine from February 2022 through July 2026. It attributed 89% to Russian authorities and 11% to Ukrainian authorities.\n\nThe office cautioned that underreporting and restricted access meant the findings were not comprehensive. It found no discernible accountability measures by Russia; Ukraine had taken preventive steps, but accountability remained limited.",
+              "candidate_id": "un-ukraine-conflict-sexual-violence-report",
+              "headline": "UN documents 1,004 sexual-violence cases in Ukraine",
+              "sources": [
+                {
+                  "name": "UN Human Rights Monitoring Mission in Ukraine",
+                  "url": "https://ukraine.ohchr.org/en/Sexual-Violence-in-the-Context-of-the-Russian-Federation-Full-Scale-Armed-Attack-against-Ukraine"
+                },
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/widespread-sexual-violence-in-ukraine-war-most-cases-tied-to-russia-says-un-report"
+                }
+              ]
+            },
+            {
+              "body": "President Donald Trump signed legislation expanding sanctions and prohibitions targeting Russia and extending existing sanctions on Iran.\n\nThe law targets Russia’s energy and defense sectors and vessels used to evade sanctions. It also gives the president broader authority to impose tariffs on countries that trade with Russia.",
+              "candidate_id": "us-russia-iran-sanctions-law",
+              "headline": "US expands sanctions on Russia and Iran",
+              "sources": [
+                {
+                  "name": "White House",
+                  "url": "https://www.whitehouse.gov/briefings-statements/2026/09/congressional-bill-h-r-5334-signed-into-law/"
+                },
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/19/trump-signs-russia-sanctions-bill-into-law"
+                }
+              ]
+            },
+            {
+              "body": "The First Circuit Court of Appeals largely upheld a ruling that found the administration’s rapid third-country deportation policy unlawful.\n\nThe court said migrants must receive a meaningful opportunity to raise concerns about persecution or torture before being removed to a country not covered by their immigration proceedings. It reversed one portion of the lower court’s decision on procedural grounds, and an administration appeal is expected.",
+              "candidate_id": "us-third-country-deportation-appeal-ruling",
+              "headline": "US court limits rapid third-country deportations",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/us-appeals-court-rejects-trump-policy-allowing-fast-third-country-deportations"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_01bb06af37911627006aae42cdd0d887d2bcdcadca6f7e4551",
+          "requestId": "req_68bbbe0f680f440a8cecfb8550c04b3b",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 3239,
+          "inputTokens": 5491,
+          "outputTokens": 4640,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-18",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 74313,
+          "attemptDurationMs": 74313,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
+    }
+  }
+}

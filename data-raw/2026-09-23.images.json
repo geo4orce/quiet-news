@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "edition_date": "2026-09-23",
+  "attempts": {
+    "4ed89dba28340c2eac226f3f654abe74e4c3009e09231f639427a25eae8bea4e": {
+      "status": "completed",
+      "claimed_at": "2026-09-24T08:08:01.910Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-24T08:08:21.030Z"
+    },
+    "37756e4924c11c258727f0a982eb53a8169a11934730ab4c79e54e88fd929791": {
+      "status": "completed",
+      "claimed_at": "2026-09-24T08:08:23.104Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-24T08:08:40.476Z"
+    },
+    "da62354479d7f564e0871798e09992748524f3df9d763e7b751d1f83164ec305": {
+      "status": "completed",
+      "claimed_at": "2026-09-24T08:08:42.822Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-24T08:08:58.937Z"
+    }
+  }
+}

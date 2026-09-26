@@ -1,0 +1,1235 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-17",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Fed raises rates by quarter point",
+            "body": "The Federal Open Market Committee unanimously increased its target for the federal funds rate to 3.75%-4%. The quarter-point increase and related implementation measures take effect September 17.\n\nThe committee said inflation remained elevated even as economic growth stayed solid.",
+            "sources": [
+              {
+                "name": "Federal Reserve",
+                "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+              },
+              {
+                "name": "Federal Reserve",
+                "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a1.htm"
+              }
+            ]
+          },
+          {
+            "headline": "France estimates nearly 8,000 heatwave excess deaths",
+            "body": "France’s national health agency estimated at least 817 excess deaths during exceptionally hot weather from July 27 through August 20. That brought recorded excess mortality since June and the start of successive heatwaves to nearly 8,000.\n\nMost of the excess deaths were among people 75 and older. The estimates cover deaths from all causes and are based on death certificates, rather than counting only deaths directly attributed to heat.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/france-recorded-at-least-817-excess-deaths-during-july-27-august-20-heatwaves"
+              }
+            ]
+          },
+          {
+            "headline": "Sudan mine collapse death toll reaches 82",
+            "body": "Rescuers had recovered 82 bodies from collapsed, interconnected shafts at the informal al-Zara gold mine in West Kordofan, local officials and activists said. Dozens of people remained unaccounted for.\n\nAccounts differed on whether the collapse began Sunday or Tuesday evening. Limited equipment was hampering rescue work.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/sudan-gold-mine-collapse-6a6f5bc2c2f847c16f8a4f8f422c6a82"
+              }
+            ]
+          },
+          {
+            "headline": "Syria nullifies Assad-era terrorism court rulings",
+            "body": "Syria’s parliament voted to abolish the Counter-Terrorism Court created under Bashar Assad and nullify the legal effects of its rulings, state television reported. The vote formalized steps already taken by the country’s post-Assad authorities.\n\nThe court, established in 2012, prosecuted thousands of Syrians. United Nations bodies had criticized its lack of judicial safeguards and links to arbitrary detention and torture.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/syria-parliament-votes-to-abolish-assad-era-terrorism-court-nullify-rulings"
+              }
+            ]
+          },
+          {
+            "headline": "Kosovo tribunal sentences Thaci to 25 years",
+            "body": "The EU-backed Kosovo Specialist Chambers sentenced former Kosovo President Hashim Thaci to 25 years in prison after convicting him of war crimes from the 1998-99 conflict.\n\nThe court found him guilty of crimes including murder, torture, cruel treatment and arbitrary or illegal detention. Thaci denied the charges, and either side may appeal.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/0b24b81d6e1ca8f01d8b8b54bb465ee9"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/former-kosovo-president-thaci-sentenced-to-25-years-in-prison-for-war-crimes"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "55165680e5945d91ffbf51ef71c1f400cdd061a7c1c286189f464ad0f583e189",
+          "claimId": "ca7c4f82-b25a-4495-94f9-470fcd5905d7",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-17T10:07:29.155Z",
+          "responseId": "resp_0e15ca0d8d407929006aabbbe4046887d281688baedabc2611"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Russian missiles and nearly 160 drones struck Kyiv and other Ukrainian cities overnight, Ukrainian officials said. At least 18 people, including two children, were wounded in Kyiv; six were wounded in Odesa and three in Zaporizhzhia. Ukraine reported damage across eight regions, including energy infrastructure in Sumy and Odesa. Russia said it targeted vessels used by Ukraine’s military.",
+                "category": "conflict",
+                "title": "Russian overnight strikes wound civilians across Ukraine",
+                "event_date": "2026-09-17",
+                "candidate_id": "ukraine-russian-overnight-strikes-sep17",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-strikes-ukraine-s-kyiv-injures-three-in-odesa-officials-say"
+                  }
+                ]
+              },
+              {
+                "summary": "European Commission President Ursula von der Leyen proposed an EU ban on social media access for children under 13 and restrictions for those ages 13 to 15. She also proposed obligations for social media platforms, video-sharing services, online games and AI chatbots serving users under 18. The measures remain proposals rather than rules in force.",
+                "category": "technology",
+                "title": "European Commission proposes youth social media restrictions",
+                "event_date": "2026-09-17",
+                "candidate_id": "eu-youth-social-media-proposal",
+                "geography": "European Union",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/eu-commission-proposes-social-media-ban-for-children-under-13"
+                  }
+                ]
+              },
+              {
+                "summary": "A United Nations fact-finding mission said it had reasonable grounds to believe two U.S. strikes on a school and sports facility in Iran in February were indiscriminate attacks amounting to war crimes. The mission also found that Iranian authorities committed crimes against humanity during a crackdown on anti-government protests. The U.S. and Iranian missions in Geneva did not immediately respond to requests for comment.",
+                "category": "human rights",
+                "title": "UN mission issues findings on US strikes and Iran crackdown",
+                "event_date": "2026-09-17",
+                "candidate_id": "un-iran-us-war-crimes-findings",
+                "geography": "Iran",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/un-mission-finds-grounds-to-believe-us-committed-war-crimes-in-iran-and-tehran-crimes-against-humanity"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukrainian President Volodymyr Zelenskiy appointed Anton Kovalskyi as acting prosecutor general, according to a presidential decree published Thursday. Kovalskyi had led the Khmelnytskyi regional prosecutor’s office since July 2025. He replaces Ruslan Kravchenko, whose removal lawmakers approved Tuesday after Kravchenko resigned amid an anti-corruption investigation involving his office; Kravchenko denied involvement and has not been charged.",
+                "category": "government",
+                "title": "Zelenskiy appoints acting prosecutor general",
+                "event_date": "2026-09-17",
+                "candidate_id": "ukraine-acting-prosecutor-kovalskyi",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/ukraine-s-zelenskiy-appoints-acting-prosecutor-general-decree-shows"
+                  }
+                ]
+              },
+              {
+                "summary": "Japanese Prime Minister Sanae Takaichi retained key economic and security ministers in her first cabinet reshuffle, including Economy Minister Minoru Kiuchi, Finance Minister Satsuki Katayama, Foreign Minister Toshimitsu Motegi and Defence Minister Shinjiro Koizumi. Eight of 18 ministers remained in their posts. Hiroshi Nakatsuka of the Japan Innovation Party joined the cabinet as deregulation minister.",
+                "category": "government",
+                "title": "Japan retains key ministers in cabinet reshuffle",
+                "event_date": "2026-09-17",
+                "candidate_id": "japan-takaichi-cabinet-reshuffle",
+                "geography": "Japan",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/japan-s-takaichi-set-to-signal-policy-continuity-in-cabinet-reshuffle"
+                  }
+                ]
+              },
+              {
+                "summary": "Australia announced plans to generally bar international students from bringing partners and children, restrict student-visa renewals to people advancing to higher qualifications and introduce a ballot for backpackers seeking working-holiday visa extensions. Visitor visas would include a provision preventing holders from remaining while applying for another visa category. The government also plans to add 100 immigration-compliance officers.",
+                "category": "migration",
+                "title": "Australia announces tighter student and working-holiday visa rules",
+                "event_date": "2026-09-17",
+                "candidate_id": "australia-temporary-visa-restrictions",
+                "geography": "Australia",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/australia-to-bar-foreign-students-from-bringing-partners-children-while-they-study"
+                  }
+                ]
+              },
+              {
+                "summary": "North Korean Vice Defence Minister Kim Kang Il told the Beijing Xiangshan Forum that Pyongyang would continue expanding its nuclear forces, describing the country’s nuclear-weapons status as irreversible. Separately, Kim Yo Jong rejected renewed international calls for denuclearization in a statement carried by state media. North Korean officials attributed their position to military cooperation among the United States, South Korea and Japan.",
+                "category": "security",
+                "title": "North Korean officials reject denuclearization and pledge nuclear expansion",
+                "event_date": "2026-09-17",
+                "candidate_id": "north-korea-nuclear-expansion-statements",
+                "geography": "North Korea",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/north-korea-vice-defence-minister-says-us-arms-buildup-justifies-expanding-nuclear-force"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-17"
+          },
+          "metadata": {
+            "responseId": "resp_0e15ca0d8d407929006aabbbe4046887d281688baedabc2611",
+            "requestId": "req_3b920304ba0740059467c7cfa46c445e",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1322,
+            "inputTokens": 46404,
+            "outputTokens": 2618,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-17",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 62328,
+            "attemptDurationMs": 62328,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-17T10:07:29.095Z",
+        "capturedAt": "2026-09-17T10:08:31.483Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Fed raises rates by quarter point",
+            "body": "The Federal Open Market Committee unanimously increased its target for the federal funds rate to 3.75%-4%. The quarter-point increase and related implementation measures take effect September 17.\n\nThe committee said inflation remained elevated even as economic growth stayed solid.",
+            "sources": [
+              {
+                "name": "Federal Reserve",
+                "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+              },
+              {
+                "name": "Federal Reserve",
+                "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a1.htm"
+              }
+            ]
+          },
+          {
+            "headline": "France estimates nearly 8,000 heatwave excess deaths",
+            "body": "France’s national health agency estimated at least 817 excess deaths during exceptionally hot weather from July 27 through August 20. That brought recorded excess mortality since June and the start of successive heatwaves to nearly 8,000.\n\nMost of the excess deaths were among people 75 and older. The estimates cover deaths from all causes and are based on death certificates, rather than counting only deaths directly attributed to heat.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/france-recorded-at-least-817-excess-deaths-during-july-27-august-20-heatwaves"
+              }
+            ]
+          },
+          {
+            "headline": "Sudan mine collapse death toll reaches 82",
+            "body": "Rescuers had recovered 82 bodies from collapsed, interconnected shafts at the informal al-Zara gold mine in West Kordofan, local officials and activists said. Dozens of people remained unaccounted for.\n\nAccounts differed on whether the collapse began Sunday or Tuesday evening. Limited equipment was hampering rescue work.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/sudan-gold-mine-collapse-6a6f5bc2c2f847c16f8a4f8f422c6a82"
+              }
+            ]
+          },
+          {
+            "headline": "Syria nullifies Assad-era terrorism court rulings",
+            "body": "Syria’s parliament voted to abolish the Counter-Terrorism Court created under Bashar Assad and nullify the legal effects of its rulings, state television reported. The vote formalized steps already taken by the country’s post-Assad authorities.\n\nThe court, established in 2012, prosecuted thousands of Syrians. United Nations bodies had criticized its lack of judicial safeguards and links to arbitrary detention and torture.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/syria-parliament-votes-to-abolish-assad-era-terrorism-court-nullify-rulings"
+              }
+            ]
+          },
+          {
+            "headline": "Kosovo tribunal sentences Thaci to 25 years",
+            "body": "The EU-backed Kosovo Specialist Chambers sentenced former Kosovo President Hashim Thaci to 25 years in prison after convicting him of war crimes from the 1998-99 conflict.\n\nThe court found him guilty of crimes including murder, torture, cruel treatment and arbitrary or illegal detention. Thaci denied the charges, and either side may appeal.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/0b24b81d6e1ca8f01d8b8b54bb465ee9"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/former-kosovo-president-thaci-sentenced-to-25-years-in-prison-for-war-crimes"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "da92d5ed2a4f900329f8da993c3bcf692f809e48e1c74f9d32e2855ca3851af2",
+          "claimId": "61bf7932-ef22-4183-a56b-2559b548b70e",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-17T16:07:40.412Z",
+          "responseId": "resp_0331d467a9282253006aac1050cbe487d2a98d667b1cf4e7fc"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Brazil’s government announced a 15% increase in Bolsa Família benefits, raising the minimum monthly payment from 600 reais to 691 reais beginning in October. Officials said the adjustment would be implemented by presidential decree and absorbed within existing budget allocations. The Finance Ministry separately confirmed that a new debt-relief program for heavily indebted consumers was being designed but had not been finalized.",
+                "category": "social policy",
+                "title": "Brazil announces 15% increase in Bolsa Família benefits",
+                "event_date": "2026-09-17",
+                "candidate_id": "brazil-bolsa-familia-benefit-increase",
+                "geography": "Brazil",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/brazil-s-lula-raises-welfare-benefit-ahead-of-october-election"
+                  }
+                ]
+              },
+              {
+                "summary": "Irish public broadcaster RTE said Ireland would not participate in or broadcast the 2027 Eurovision Song Contest, citing continuing deaths and the humanitarian crisis in Gaza. Ireland also stayed out of the 2026 contest in protest over Israel’s participation. The European Broadcasting Union said it regretted but respected RTE’s decision.",
+                "category": "culture",
+                "title": "Ireland announces boycott of 2027 Eurovision contest",
+                "event_date": "2026-09-17",
+                "candidate_id": "ireland-eurovision-2027-boycott",
+                "geography": "Ireland",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/ireland-will-boycott-eurovision-2027-rte-says"
+                  }
+                ]
+              },
+              {
+                "summary": "Romanian President Nicusor Dan said he would nominate Liberal European Parliament member Siegfried Muresan as prime minister after two previous nominees failed to produce a government. Muresan has 10 days to submit a cabinet and seek a parliamentary confidence vote. Dan acknowledged that no defined parliamentary majority supported the nomination.",
+                "category": "government",
+                "title": "Romanian president chooses Siegfried Muresan as prime-minister nominee",
+                "event_date": "2026-09-17",
+                "candidate_id": "romania-muresan-prime-minister-nominee",
+                "geography": "Romania",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/romanian-liberal-mep-siegfried-muresan-nominated-as-prime-minister"
+                  }
+                ]
+              },
+              {
+                "summary": "Frankfurt authorities announced a third death in an unusually localized malaria outbreak around Frankfurt Airport. The latest person was a resident of the nearby Schwanheim district who had not traveled to a malaria-endemic region or worked at the airport. Two airport workers had previously died and four others recovered; laboratory testing of trapped mosquitoes remained pending.",
+                "category": "public health",
+                "title": "Frankfurt announces third death in airport-linked malaria outbreak",
+                "event_date": "2026-09-17",
+                "candidate_id": "frankfurt-airport-malaria-third-death",
+                "geography": "Germany",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/frankfurt-reports-third-malaria-death-in-airport-linked-outbreak"
+                  }
+                ]
+              },
+              {
+                "summary": "Serbian President Aleksandar Vucic said the country opened a factory to assemble Israeli-designed drones for Serbia’s military and armed forces in other countries. He said the facility would employ about 100 people and that the government and its Israeli partners expected to establish at least three additional factories. Journalists were not given access to the production area.",
+                "category": "security",
+                "title": "Serbia opens Israeli-designed drone assembly plant",
+                "event_date": "2026-09-17",
+                "candidate_id": "serbia-israeli-drone-assembly-plant",
+                "geography": "Serbia",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/serbia-opens-israeli-drone-assembly-plant"
+                  }
+                ]
+              },
+              {
+                "summary": "A Yemeni resident of Saudi Arabia was killed and two other people were injured when Saudi forces intercepted a drone over the southwestern Taif governorate, the kingdom’s civil defence said. Saudi authorities attributed the drone to Yemen’s Iran-backed Houthi movement, which had not claimed an attack Thursday. It was Saudi Arabia’s first announced death this month during intensified Houthi attacks.",
+                "category": "conflict",
+                "title": "Drone interception kills one in Saudi Arabia",
+                "event_date": "2026-09-17",
+                "candidate_id": "saudi-taif-houthi-drone-interception",
+                "geography": "Saudi Arabia",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/one-killed-as-saudi-arabia-intercepts-drone-launched-by-yemen-s-houthis"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/742e1eebb7d099ea42372d978e271900"
+                  }
+                ]
+              },
+              {
+                "summary": "The International Organization for Migration said about 60,000 migrants and refugees had reached Europe by sea so far in 2026, down 39% from roughly 98,000 at the same point in 2025. Despite fewer crossings, at least 2,292 people had died or gone missing, compared with 1,999 during the corresponding period last year. IOM said additional deaths probably went unrecorded.",
+                "category": "migration",
+                "title": "IOM reports fewer but deadlier sea crossings to Europe",
+                "event_date": "2026-09-17",
+                "candidate_id": "iom-europe-sea-crossings-2026",
+                "geography": "Europe",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/europe-migrant-sea-crossings-fall-but-become-more-deadly-iom-says"
+                  }
+                ]
+              },
+              {
+                "summary": "Pakistan’s Supreme Court suspended 17-year prison sentences imposed on human-rights lawyer Imaan Mazari and her husband, lawyer Hadi Ali Chattha, and ordered their release on bail while a lower court considers their appeal. They were convicted in January over social-media posts critical of military operations and deny the charges. Their family said it was awaiting their release.",
+                "category": "justice",
+                "title": "Pakistan Supreme Court suspends sentences of Imaan Mazari and husband",
+                "event_date": "2026-09-17",
+                "candidate_id": "pakistan-mazari-chattha-sentences-suspended",
+                "geography": "Pakistan",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/pakistan-s-top-court-suspends-sentences-of-rights-lawyer-mazari-and-husband"
+                  }
+                ]
+              },
+              {
+                "summary": "Swedish Prime Minister Ulf Kristersson said he would resign after the final count from Sunday’s parliamentary election gave centre-left opposition parties 176 seats and his governing right-wing bloc 173. Kristersson asked to be relieved of office so the parliamentary speaker could begin work toward forming a new government. Social Democratic leader Magdalena Andersson is positioned to attempt forming a coalition.",
+                "category": "government",
+                "title": "Swedish prime minister announces resignation after final election count",
+                "event_date": "2026-09-17",
+                "candidate_id": "sweden-kristersson-resignation-final-count",
+                "geography": "Sweden",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/sweden-s-centre-left-opposition-wins-election-as-count-completed"
+                  }
+                ]
+              },
+              {
+                "summary": "Pakistan announced energy-conservation measures including reduced fuel allocations for official vehicles and bans on state vehicle purchases, most foreign travel by officials and official dinners. Government purchases of durable goods, apart from information-technology equipment, were also restricted. Authorities attributed the measures to rising fuel prices and risks to liquefied-natural-gas supplies from the Gulf conflict.",
+                "category": "economy",
+                "title": "Pakistan announces fuel-conservation and government austerity measures",
+                "event_date": "2026-09-17",
+                "candidate_id": "pakistan-fuel-austerity-measures",
+                "geography": "Pakistan",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/pakistan-announces-austerity-measures-to-conserve-fuel-as-gulf-conflict-spirals"
+                  }
+                ]
+              },
+              {
+                "summary": "Bolivia’s legislature approved a 90-day extension of the country’s state of emergency, which had been due to expire Friday. The government cited police and military reports warning that protests and road blockades could resume and disrupt supplies and economic activity. Opposition lawmakers and some social groups questioned the need for the extension.",
+                "category": "government",
+                "title": "Bolivia extends state of emergency for 90 days",
+                "event_date": "2026-09-17",
+                "candidate_id": "bolivia-state-emergency-extension",
+                "geography": "Bolivia",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/bolivia-extends-state-of-emergency-over-risks-of-new-blockades"
+                  }
+                ]
+              },
+              {
+                "summary": "Greece’s parliament lifted the immunity of lawmaker and former European Commissioner Dimitris Avramopoulos, allowing action on a European arrest warrant issued by a Belgian judge in the Qatargate corruption investigation. Avramopoulos, accused of participation in a criminal group, public corruption and money laundering, denies wrongdoing and said he planned to appear voluntarily before Belgian authorities. Qatar also denies wrongdoing in the broader case.",
+                "category": "justice",
+                "title": "Greek parliament lifts Avramopoulos immunity in Qatargate investigation",
+                "event_date": "2026-09-17",
+                "candidate_id": "greece-avramopoulos-immunity-lifted",
+                "geography": "Greece",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/greek-parliament-lifts-immunity-of-ex-commissioner-amid-qatargate-probe"
+                  }
+                ]
+              },
+              {
+                "summary": "Argentina’s government introduced legislation that would strengthen sanctions against companies, shareholders and suppliers involved without Argentine authorization in resource activity around the British-controlled Falkland Islands and maritime areas claimed by Argentina. The bill would also create a presidentially led National Security Council. The measures are proposals pending legislative action and are not yet in force.",
+                "category": "government",
+                "title": "Argentina proposes tougher sanctions over Falklands resource activity",
+                "event_date": "2026-09-17",
+                "candidate_id": "argentina-falklands-sanctions-bill",
+                "geography": "Argentina and Falkland Islands",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/milei-submits-bill-to-strengthen-sanctions-against-falklands-activities"
+                  }
+                ]
+              },
+              {
+                "summary": "Nigeria opened the trial of five suspected members of the Islamist group Ansaru over the May abduction of pupils and teachers from schools in Oyo state. The defendants pleaded not guilty to seven terrorism-related counts. A prosecution witness said gunmen took seven teachers and 39 pupils and held them for 56 days; the presidency previously said security forces rescued 39 pupils and six teachers.",
+                "category": "justice",
+                "title": "Nigeria opens trial over Oyo school kidnappings",
+                "event_date": "2026-09-17",
+                "candidate_id": "nigeria-ansaru-school-kidnapping-trial",
+                "geography": "Nigeria",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/nigeria-begins-trial-of-five-suspected-ansaru-members-over-school-kidnapping"
+                  }
+                ]
+              },
+              {
+                "summary": "South African police found the body of a ninth young woman near Johannesburg while investigating a series of killings in the Ekurhuleni area over the previous two months. Police said the victim appeared to be in the same age range as the others but that it was too early to establish a connection. Some earlier victims showed signs of sexual violence.",
+                "category": "crime",
+                "title": "Ninth woman’s body found near Johannesburg amid serial-killing investigation",
+                "event_date": "2026-09-17",
+                "candidate_id": "south-africa-ekurhuleni-ninth-body",
+                "geography": "South Africa",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/south-african-police-find-a-ninth-woman-s-body-near-johannesburg"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-17"
+          },
+          "metadata": {
+            "responseId": "resp_0331d467a9282253006aac1050cbe487d2a98d667b1cf4e7fc",
+            "requestId": "req_09d2c5f39b8040b2bd7dae331c3ca284",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1775,
+            "inputTokens": 51939,
+            "outputTokens": 4076,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-17",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 102167,
+            "attemptDurationMs": 102167,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-17T16:07:40.360Z",
+        "capturedAt": "2026-09-17T16:09:22.580Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [
+          {
+            "headline": "Fed raises rates by quarter point",
+            "body": "The Federal Open Market Committee unanimously increased its target for the federal funds rate to 3.75%-4%. The quarter-point increase and related implementation measures take effect September 17.\n\nThe committee said inflation remained elevated even as economic growth stayed solid.",
+            "sources": [
+              {
+                "name": "Federal Reserve",
+                "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+              },
+              {
+                "name": "Federal Reserve",
+                "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a1.htm"
+              }
+            ]
+          },
+          {
+            "headline": "France estimates nearly 8,000 heatwave excess deaths",
+            "body": "France’s national health agency estimated at least 817 excess deaths during exceptionally hot weather from July 27 through August 20. That brought recorded excess mortality since June and the start of successive heatwaves to nearly 8,000.\n\nMost of the excess deaths were among people 75 and older. The estimates cover deaths from all causes and are based on death certificates, rather than counting only deaths directly attributed to heat.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/france-recorded-at-least-817-excess-deaths-during-july-27-august-20-heatwaves"
+              }
+            ]
+          },
+          {
+            "headline": "Sudan mine collapse death toll reaches 82",
+            "body": "Rescuers had recovered 82 bodies from collapsed, interconnected shafts at the informal al-Zara gold mine in West Kordofan, local officials and activists said. Dozens of people remained unaccounted for.\n\nAccounts differed on whether the collapse began Sunday or Tuesday evening. Limited equipment was hampering rescue work.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/sudan-gold-mine-collapse-6a6f5bc2c2f847c16f8a4f8f422c6a82"
+              }
+            ]
+          },
+          {
+            "headline": "Syria nullifies Assad-era terrorism court rulings",
+            "body": "Syria’s parliament voted to abolish the Counter-Terrorism Court created under Bashar Assad and nullify the legal effects of its rulings, state television reported. The vote formalized steps already taken by the country’s post-Assad authorities.\n\nThe court, established in 2012, prosecuted thousands of Syrians. United Nations bodies had criticized its lack of judicial safeguards and links to arbitrary detention and torture.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/syria-parliament-votes-to-abolish-assad-era-terrorism-court-nullify-rulings"
+              }
+            ]
+          },
+          {
+            "headline": "Kosovo tribunal sentences Thaci to 25 years",
+            "body": "The EU-backed Kosovo Specialist Chambers sentenced former Kosovo President Hashim Thaci to 25 years in prison after convicting him of war crimes from the 1998-99 conflict.\n\nThe court found him guilty of crimes including murder, torture, cruel treatment and arbitrary or illegal detention. Thaci denied the charges, and either side may appeal.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/0b24b81d6e1ca8f01d8b8b54bb465ee9"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/former-kosovo-president-thaci-sentenced-to-25-years-in-prison-for-war-crimes"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "2488e891f87cb66124ff0f3f895b79f0c2f711e27ccaf2644731ee6d51d1f4a5",
+          "claimId": "2673930d-dd95-4f3a-9311-3ccfcd877cb4",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-17T22:07:37.127Z",
+          "responseId": "resp_04ad30529392f97d006aac64ad280487d2ad88b71dde9c8a61"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The United States said it would grant visas to a core Iranian delegation, including President Masoud Pezeshkian and Foreign Minister Abbas Araqchi, for the United Nations General Assembly in New York. The State Department said the smaller-than-usual delegation would face travel and shopping restrictions. The decision came despite the continuing U.S.-Iran conflict and intermittent negotiations aimed at ending it.",
+                "category": "diplomacy",
+                "title": "US says Iranian leaders may attend UN General Assembly",
+                "event_date": "2026-09-17",
+                "candidate_id": "us-iran-un-general-assembly-visas",
+                "geography": "United States and Iran",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/iranian-delegation-will-be-able-to-attend-un-general-assembly-us-says"
+                  }
+                ]
+              },
+              {
+                "summary": "European Commission President Ursula von der Leyen said the European Union would disburse €3.3 billion to Ukraine on Friday for missiles and drones. Ukrainian President Volodymyr Zelenskiy described their telephone conversation as productive and said it covered defense resilience and financing, but did not separately mention the planned disbursement.",
+                "category": "security",
+                "title": "EU announces planned €3.3 billion disbursement for Ukrainian weapons",
+                "event_date": "2026-09-17",
+                "candidate_id": "eu-ukraine-missile-drone-disbursement",
+                "geography": "European Union and Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/eu-to-disburse-3-3-billion-to-ukraine-to-procure-missiles-and-drones-von-der-leyen-says"
+                  }
+                ]
+              },
+              {
+                "summary": "Africa CDC said the Ebola outbreak in the Democratic Republic of Congo remained serious and was not consistently under control across affected areas. Agency data showed a slight decline in cases during the previous two weeks, including improvement in Ituri province, but Director-General Jean Kaseya said incomplete data did not establish that the outbreak had passed its peak.",
+                "category": "public health",
+                "title": "Africa CDC says Congo Ebola outbreak remains serious",
+                "event_date": "2026-09-17",
+                "candidate_id": "congo-ebola-africa-cdc-assessment",
+                "geography": "Democratic Republic of Congo",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/ebola-outbreak-in-congo-is-still-serious-african-health-body-says"
+                  }
+                ]
+              },
+              {
+                "summary": "The United Nations General Assembly voted 152-3, with four abstentions, to permit Palestinian President Mahmoud Abbas to address the next week’s gathering by video after the United States denied him a visa. The resolution also allows Abbas and other senior Palestinian officials to participate remotely in UN meetings during the following year if they are prevented from traveling to the United States.",
+                "category": "diplomacy",
+                "title": "UN permits Abbas to address General Assembly by video",
+                "event_date": "2026-09-17",
+                "candidate_id": "un-abbas-video-address-vote",
+                "geography": "United Nations and Palestinian territories",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/un-allows-palestinian-president-to-again-speak-via-video-after-us-denies-visa"
+                  }
+                ]
+              },
+              {
+                "summary": "Suspected Islamist militants killed at least 15 people in a predawn attack on Madegoua village near Makary in Cameroon’s Far North region, a local vigilante and an administrative authority said. No group immediately claimed responsibility. A security analyst said Islamic State West Africa Province, which operates in the Lake Chad basin, was the likely perpetrator.",
+                "category": "conflict",
+                "title": "Suspected militants kill at least 15 in northern Cameroon",
+                "event_date": "2026-09-17",
+                "candidate_id": "cameroon-madegoua-militant-attack",
+                "geography": "Cameroon",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/militants-kill-15-in-overnight-cameroon-raid-village-sources-say"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. State Department approved a potential $24.3 billion sale of 48 F-35 fighter aircraft, 49 engines and related equipment and support to Saudi Arabia. The approval clears a required stage but does not mean a sale has been completed. If finalized, it would make Saudi Arabia the second Middle Eastern country after Israel to obtain the stealth aircraft.",
+                "category": "security",
+                "title": "US approves potential $24.3 billion F-35 sale to Saudi Arabia",
+                "event_date": "2026-09-17",
+                "candidate_id": "us-saudi-f35-sale-approval",
+                "geography": "United States and Saudi Arabia",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/us-state-department-oks-possible-24-3-billion-military-aircraft-sale-to-saudi-arabia"
+                  }
+                ]
+              },
+              {
+                "summary": "The United States imposed sanctions on 11 Cuban targets: four state enterprises connected to nickel reserves, four military research-and-development enterprises, including organizations involved with weapons systems, and three military officials. Secretary of State Marco Rubio said the targets formed part of a system that enriched Cuba’s elite. Cuba has argued that U.S. sanctions worsen severe shortages and harm its population.",
+                "category": "sanctions",
+                "title": "US sanctions Cuban nickel and military entities",
+                "event_date": "2026-09-17",
+                "candidate_id": "us-cuba-nickel-military-sanctions",
+                "geography": "United States and Cuba",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/us-sanctions-cuban-nickel-reserves-military-enterprises"
+                  }
+                ]
+              },
+              {
+                "summary": "French Prime Minister Sebastien Lecornu said the government planned to include €54 billion in savings in its proposed 2027 budget, targeting a deficit of 5% of gross domestic product without raising taxes. The plan still requires inclusion in a budget bill and parliamentary approval. The announcement came as fishermen blocked southern ports over energy costs and other workers staged strikes over fuel prices and pay.",
+                "category": "economy",
+                "title": "France proposes €54 billion savings plan for 2027 budget",
+                "event_date": "2026-09-17",
+                "candidate_id": "france-2027-budget-savings-plan",
+                "geography": "France",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/france-plans-54-billion-savings-drive-as-protests-grow"
+                  }
+                ]
+              },
+              {
+                "summary": "Russia and China vetoed a United Nations Security Council resolution extending the mandate for independent monitoring of international sanctions on Iran. Eleven council members supported the resolution and Pakistan and Somalia abstained. The veto ended the monitoring mandate, although the council had been unable to appoint the required expert panel during the previous year because appointments required consensus.",
+                "category": "diplomacy",
+                "title": "Russia and China end UN mandate for monitoring Iran sanctions",
+                "event_date": "2026-09-17",
+                "candidate_id": "un-iran-sanctions-monitoring-veto",
+                "geography": "United Nations and Iran",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-china-end-mandate-for-independent-monitoring-of-un-sanctions-on-iran"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-17"
+          },
+          "metadata": {
+            "responseId": "resp_04ad30529392f97d006aac64ad280487d2ad88b71dde9c8a61",
+            "requestId": "req_21c65f44efb5420781dc13d5b6f39fb5",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1049,
+            "inputTokens": 38392,
+            "outputTokens": 2698,
+            "webSearchCalls": 4,
+            "stage": "discovery",
+            "targetDate": "2026-09-17",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 58982,
+            "attemptDurationMs": 58982,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-09-17T22:07:37.007Z",
+        "capturedAt": "2026-09-17T22:08:36.110Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Fed raises rates by quarter point",
+            "body": "The Federal Open Market Committee unanimously increased its target for the federal funds rate to 3.75%-4%. The quarter-point increase and related implementation measures take effect September 17.\n\nThe committee said inflation remained elevated even as economic growth stayed solid.",
+            "sources": [
+              {
+                "name": "Federal Reserve",
+                "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+              },
+              {
+                "name": "Federal Reserve",
+                "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a1.htm"
+              }
+            ]
+          },
+          {
+            "headline": "France estimates nearly 8,000 heatwave excess deaths",
+            "body": "France’s national health agency estimated at least 817 excess deaths during exceptionally hot weather from July 27 through August 20. That brought recorded excess mortality since June and the start of successive heatwaves to nearly 8,000.\n\nMost of the excess deaths were among people 75 and older. The estimates cover deaths from all causes and are based on death certificates, rather than counting only deaths directly attributed to heat.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/france-recorded-at-least-817-excess-deaths-during-july-27-august-20-heatwaves"
+              }
+            ]
+          },
+          {
+            "headline": "Sudan mine collapse death toll reaches 82",
+            "body": "Rescuers had recovered 82 bodies from collapsed, interconnected shafts at the informal al-Zara gold mine in West Kordofan, local officials and activists said. Dozens of people remained unaccounted for.\n\nAccounts differed on whether the collapse began Sunday or Tuesday evening. Limited equipment was hampering rescue work.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/sudan-gold-mine-collapse-6a6f5bc2c2f847c16f8a4f8f422c6a82"
+              }
+            ]
+          },
+          {
+            "headline": "Syria nullifies Assad-era terrorism court rulings",
+            "body": "Syria’s parliament voted to abolish the Counter-Terrorism Court created under Bashar Assad and nullify the legal effects of its rulings, state television reported. The vote formalized steps already taken by the country’s post-Assad authorities.\n\nThe court, established in 2012, prosecuted thousands of Syrians. United Nations bodies had criticized its lack of judicial safeguards and links to arbitrary detention and torture.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/syria-parliament-votes-to-abolish-assad-era-terrorism-court-nullify-rulings"
+              }
+            ]
+          },
+          {
+            "headline": "Kosovo tribunal sentences Thaci to 25 years",
+            "body": "The EU-backed Kosovo Specialist Chambers sentenced former Kosovo President Hashim Thaci to 25 years in prison after convicting him of war crimes from the 1998-99 conflict.\n\nThe court found him guilty of crimes including murder, torture, cruel treatment and arbitrary or illegal detention. Thaci denied the charges, and either side may appeal.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/0b24b81d6e1ca8f01d8b8b54bb465ee9"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/former-kosovo-president-thaci-sentenced-to-25-years-in-prison-for-war-crimes"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "2faaec203a727a8ad94a878234ed5e6b86323276ef4542dfb43879b81d6104ab",
+          "claimId": "e95fb331-513c-4e5a-93f8-e062f128feb4",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-18T07:07:37.514Z",
+          "responseId": "resp_0a988479e43c72be006aace33da13c87d286dc7cf31df1f248"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Russian missiles and nearly 160 drones struck Kyiv and other Ukrainian cities overnight, Ukrainian officials said, wounding at least 18 people in Kyiv and others in Odesa and Zaporizhzhia. Attacks continued during the day: a strike on an industrial park near Korosten killed one person, while strikes in Kyiv and Dnipro wounded three. A market in Zaporizhzhia was set ablaze without reported casualties. Russian-installed officials separately said Ukrainian attacks killed three people in occupied Donetsk.",
+                "category": "conflict",
+                "title": "Russian strikes kill one and wound civilians across Ukraine",
+                "event_date": "2026-09-17",
+                "candidate_id": "ukraine-russian-overnight-strikes-sep17",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-strikes-ukraine-s-kyiv-injures-three-in-odesa-officials-say"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/russia-continues-barrage-on-ukrainian-cities-one-dead-west-of-kyiv"
+                  }
+                ]
+              },
+              {
+                "summary": "A United Nations fact-finding mission said it had reasonable grounds to believe two U.S. strikes on a school and sports facility in Iran in February were indiscriminate attacks amounting to war crimes. It also found that Iranian authorities committed crimes against humanity during a crackdown on anti-government protests. The Pentagon said its investigation remained underway. The White House rejected the U.S.-focused finding and said Iran was the only party in the conflict to have committed war crimes. Iran’s Geneva mission did not immediately respond.",
+                "category": "human rights",
+                "title": "UN mission issues findings on US strikes and Iran crackdown",
+                "event_date": "2026-09-17",
+                "candidate_id": "un-iran-us-war-crimes-findings",
+                "geography": "Iran",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/un-mission-finds-grounds-to-believe-us-committed-war-crimes-in-iran-and-tehran-crimes-against-humanity"
+                  }
+                ]
+              },
+              {
+                "summary": "A U.S. federal judge sentenced former Damascus Central Prison chief Samir Ousman Alsheikh to 60 years in prison. A jury convicted him in March of conspiracy to commit torture, three torture counts and immigration-related offenses. Prosecutors said he ordered and sometimes participated in abuses intended to deter opposition to Bashar Assad’s government. His legal team had sought a five-year sentence and previously said it was disappointed by the conviction.",
+                "category": "justice",
+                "title": "Former Syrian prison chief sentenced to 60 years in US",
+                "event_date": "2026-09-17",
+                "candidate_id": "us-syrian-prison-chief-sentencing",
+                "geography": "United States and Syria",
+                "sources": [
+                  {
+                    "name": "U.S. Department of Justice",
+                    "url": "https://www.justice.gov/usao-cdca/pr/former-syrian-prison-chief-sentenced-60-years-federal-prison-torturing-inmates-and"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/assad-era-syrian-official-jailed-for-60-years-by-us-court"
+                  }
+                ]
+              },
+              {
+                "summary": "A federal judge in Minneapolis sentenced Anthony James Kazmierczak to 14 months in prison after he pleaded guilty to assaulting a federal official by spraying vinegar at Representative Ilhan Omar during a January town hall. Kazmierczak admitted targeting Omar because he disagreed with her political views. His lawyer said he apologized during the hearing. State assault and threats-of-violence charges remained pending.",
+                "category": "justice",
+                "title": "Man who assaulted Ilhan Omar sentenced to 14 months",
+                "event_date": "2026-09-17",
+                "candidate_id": "ilhan-omar-assailant-sentenced",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/man-who-assaulted-us-lawmaker-ilhan-omar-sentenced-to-14-months-in-prison"
+                  },
+                  {
+                    "name": "Associated Press via KSL",
+                    "url": "https://www.ksl.com/article/news/politics/man-who-sprayed-minnesota-rep-omar-with-vinegar-sentenced-to-14-months-in-prison/51625080"
+                  }
+                ]
+              },
+              {
+                "summary": "Indonesia ended a 10-day search for eight people missing at sea, including five photojournalists who had been covering the eruption of Mount Anak Krakatau. The group departed Banten province by speedboat on September 7 and subsequently lost contact. Banten Governor Andra Soni said late Thursday that the operation was halted because rescuers had found no trace of them, but it could resume if new leads emerged.",
+                "category": "disaster",
+                "title": "Indonesia ends search for eight missing near Anak Krakatau",
+                "event_date": "2026-09-17",
+                "candidate_id": "indonesia-anak-krakatau-missing-search-ended",
+                "geography": "Indonesia",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/indonesia-calls-off-search-for-journalists-missing-while-covering-volcano-eruption"
+                  }
+                ]
+              },
+              {
+                "summary": "South Korean President Lee Jae Myung said the country would not deploy military assets to the Middle East in a way that would draw it into conflict connected to the Iran war. Lee said the government was separately considering whether to expand its role in safeguarding navigation through the Strait of Hormuz.",
+                "category": "security",
+                "title": "South Korea rules out military involvement in Iran conflict",
+                "event_date": "2026-09-17",
+                "candidate_id": "south-korea-middle-east-deployment-position",
+                "geography": "South Korea and Middle East",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/south-korea-s-lee-says-will-not-deploy-military-to-get-involved-in-middle-east-conflict"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-17"
+          },
+          "metadata": {
+            "responseId": "resp_0a988479e43c72be006aace33da13c87d286dc7cf31df1f248",
+            "requestId": "req_0da0fc8fc1824d1494f6cd06e6d2ce5a",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2830,
+            "inputTokens": 68778,
+            "outputTokens": 4184,
+            "webSearchCalls": 9,
+            "stage": "discovery",
+            "targetDate": "2026-09-17",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 116402,
+            "attemptDurationMs": 116402,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-18T07:07:37.459Z",
+        "capturedAt": "2026-09-18T07:09:33.917Z"
+      }
+    ],
+    "sift": {
+      "inputFingerprint": "4189e9a76885cc2de2bf725a36b9719da71c066b40d62d62f745564c19970ca5",
+      "priorStories": [
+        {
+          "headline": "Fed raises rates by quarter point",
+          "body": "The Federal Open Market Committee unanimously increased its target for the federal funds rate to 3.75%-4%. The quarter-point increase and related implementation measures take effect September 17.\n\nThe committee said inflation remained elevated even as economic growth stayed solid.",
+          "sources": [
+            {
+              "name": "Federal Reserve",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+            },
+            {
+              "name": "Federal Reserve",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a1.htm"
+            }
+          ]
+        },
+        {
+          "headline": "France estimates nearly 8,000 heatwave excess deaths",
+          "body": "France’s national health agency estimated at least 817 excess deaths during exceptionally hot weather from July 27 through August 20. That brought recorded excess mortality since June and the start of successive heatwaves to nearly 8,000.\n\nMost of the excess deaths were among people 75 and older. The estimates cover deaths from all causes and are based on death certificates, rather than counting only deaths directly attributed to heat.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/france-recorded-at-least-817-excess-deaths-during-july-27-august-20-heatwaves"
+            }
+          ]
+        },
+        {
+          "headline": "Sudan mine collapse death toll reaches 82",
+          "body": "Rescuers had recovered 82 bodies from collapsed, interconnected shafts at the informal al-Zara gold mine in West Kordofan, local officials and activists said. Dozens of people remained unaccounted for.\n\nAccounts differed on whether the collapse began Sunday or Tuesday evening. Limited equipment was hampering rescue work.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/sudan-gold-mine-collapse-6a6f5bc2c2f847c16f8a4f8f422c6a82"
+            }
+          ]
+        },
+        {
+          "headline": "Syria nullifies Assad-era terrorism court rulings",
+          "body": "Syria’s parliament voted to abolish the Counter-Terrorism Court created under Bashar Assad and nullify the legal effects of its rulings, state television reported. The vote formalized steps already taken by the country’s post-Assad authorities.\n\nThe court, established in 2012, prosecuted thousands of Syrians. United Nations bodies had criticized its lack of judicial safeguards and links to arbitrary detention and torture.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/syria-parliament-votes-to-abolish-assad-era-terrorism-court-nullify-rulings"
+            }
+          ]
+        },
+        {
+          "headline": "Kosovo tribunal sentences Thaci to 25 years",
+          "body": "The EU-backed Kosovo Specialist Chambers sentenced former Kosovo President Hashim Thaci to 25 years in prison after convicting him of war crimes from the 1998-99 conflict.\n\nThe court found him guilty of crimes including murder, torture, cruel treatment and arbitrary or illegal detention. Thaci denied the charges, and either side may appeal.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/0b24b81d6e1ca8f01d8b8b54bb465ee9"
+            },
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/16/former-kosovo-president-thaci-sentenced-to-25-years-in-prison-for-war-crimes"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "9eb1e2314faf2329053986396d33ab487bf1317a3c6d650762eb69bda3423d07",
+        "claimId": "a6d523ae-590a-43fa-99ed-930b8630257a",
+        "status": "completed",
+        "attempts": 1,
+        "startedAt": "2026-09-18T08:07:37.498Z",
+        "responseId": "resp_042d451a7d7cf62b006aacf14d5f2c87d291cd9a3d681ade74"
+      },
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "argentina-falklands-sanctions-bill",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "australia-temporary-visa-restrictions",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "bolivia-state-emergency-extension",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "brazil-bolsa-familia-benefit-increase",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "cameroon-madegoua-militant-attack",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "congo-ebola-africa-cdc-assessment",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "eu-ukraine-missile-drone-disbursement",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "eu-youth-social-media-proposal",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "france-2027-budget-savings-plan",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "frankfurt-airport-malaria-third-death",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "greece-avramopoulos-immunity-lifted",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ilhan-omar-assailant-sentenced",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "indonesia-anak-krakatau-missing-search-ended",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "ireland-eurovision-2027-boycott",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "japan-takaichi-cabinet-reshuffle",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "nigeria-ansaru-school-kidnapping-trial",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "north-korea-nuclear-expansion-statements",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "pakistan-fuel-austerity-measures",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "pakistan-mazari-chattha-sentences-suspended",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "romania-muresan-prime-minister-nominee",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "saudi-taif-houthi-drone-interception",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "serbia-israeli-drone-assembly-plant",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "south-africa-ekurhuleni-ninth-body",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "south-korea-middle-east-deployment-position",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ukraine-acting-prosecutor-kovalskyi",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "ukraine-russian-overnight-strikes-sep17",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "un-abbas-video-address-vote",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-cuba-nickel-military-sanctions",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "us-iran-un-general-assembly-visas",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-saudi-f35-sale-approval",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-syrian-prison-chief-sentencing",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": [
+            {
+              "body": "A United Nations fact-finding mission said it had reasonable grounds to believe two U.S. strikes on a school and sports facility in Iran in February were indiscriminate attacks amounting to war crimes. It also found that Iranian authorities committed crimes against humanity during a crackdown on anti-government protests.\n\nThe Pentagon said its investigation was continuing. The White House rejected the finding about the U.S. strikes, while Iran’s Geneva mission did not immediately respond.",
+              "candidate_id": "un-iran-us-war-crimes-findings",
+              "headline": "UN cites US war crimes, Iran crimes against humanity",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/un-mission-finds-grounds-to-believe-us-committed-war-crimes-in-iran-and-tehran-crimes-against-humanity"
+                }
+              ]
+            },
+            {
+              "body": "Russia and China vetoed a Security Council resolution extending independent monitoring of international sanctions on Iran. Eleven members supported the resolution, while Pakistan and Somalia abstained.\n\nThe veto ended the monitoring mandate. Its expert panel had already gone unfilled during the previous year because appointments required council consensus.",
+              "candidate_id": "un-iran-sanctions-monitoring-veto",
+              "headline": "Russia, China end Iran sanctions-monitoring mandate",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/russia-china-end-mandate-for-independent-monitoring-of-un-sanctions-on-iran"
+                }
+              ]
+            },
+            {
+              "body": "The final count from Sunday’s election gave Sweden’s center-left opposition parties 176 parliamentary seats, compared with 173 for the governing right-wing bloc.\n\nPrime Minister Ulf Kristersson said he would resign and asked to be relieved of office, allowing the parliamentary speaker to begin forming a new government. Social Democratic leader Magdalena Andersson is positioned to try to assemble a coalition.",
+              "candidate_id": "sweden-kristersson-resignation-final-count",
+              "headline": "Sweden’s center-left wins parliamentary election",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/sweden-s-centre-left-opposition-wins-election-as-count-completed"
+                }
+              ]
+            },
+            {
+              "body": "About 60,000 migrants and refugees reached Europe by sea so far this year, down 39% from roughly 98,000 at the same point in 2025, the International Organization for Migration said.\n\nDespite the decline in crossings, at least 2,292 people died or went missing, up from 1,999 during the corresponding period last year. The organization said additional deaths probably went unrecorded.",
+              "candidate_id": "iom-europe-sea-crossings-2026",
+              "headline": "Sea crossings to Europe fall as deaths rise",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/17/europe-migrant-sea-crossings-fall-but-become-more-deadly-iom-says"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_042d451a7d7cf62b006aacf14d5f2c87d291cd9a3d681ade74",
+          "requestId": "req_95a9a13aa1404b20b367d1f63c53fe84",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 3624,
+          "inputTokens": 8164,
+          "outputTokens": 4930,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-17",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 73734,
+          "attemptDurationMs": 73734,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
+    }
+  }
+}

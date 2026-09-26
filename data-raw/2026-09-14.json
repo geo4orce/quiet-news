@@ -1,0 +1,925 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-14",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Strike on vessel in Hormuz kills one",
+            "body": "A projectile struck a commercial vessel traveling through the Strait of Hormuz, starting a fire and forcing the crew to evacuate, according to the British navy-linked UK Maritime Trade Operations agency.\n\nIranian authorities said one person was killed and four crew members were wounded aboard the Iranian vessel, which was struck off Iran’s coast. Responsibility for the attack had not been established.",
+            "sources": [
+              {
+                "name": "Reuters via ThePrint",
+                "url": "https://theprint.in/world/new-attacks-in-hormuz-and-saudi-test-nerves-as-wars-spread-worsens-oil-disruption/3041771/"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/27d276de911a983cdb1b81101ee56083"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "b713b456c5eb47ae36f97b6f6c7f48d0faab9226fde0ade54c7cdac7273c3d4e",
+          "claimId": "e4aaa97b-2943-4a38-b570-b113716f97c8",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-14T10:07:22.331Z",
+          "responseId": "resp_080900544d2be41b006aa7c75d1d4087d2af8c31c964e92e7d"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Yemen’s Houthi rebels captured the Greater and Lesser Hanish islands in the southern Red Sea after government-allied forces withdrew, according to two Yemeni government officials and a Houthi official. The islands are about 160 kilometers north of the Bab el-Mandeb Strait, a major shipping route.",
+                "category": "Conflict",
+                "title": "Houthis capture two strategic Red Sea islands",
+                "event_date": "2026-09-14",
+                "candidate_id": "houthis-capture-hanish-islands",
+                "geography": "Yemen; Red Sea",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/yemen-houthis-saudi-shipping-mandeb-8c18d82c109a8ea91347ce53c0096c53"
+                  }
+                ]
+              },
+              {
+                "summary": "Nigerian industrialist Aliko Dangote opened Africa’s largest oil refinery to public ownership through an initial public offering seeking $1.6 billion from retail investors. Shares were offered at 5,250 naira each, with Dangote retaining an 87% stake.",
+                "category": "Business",
+                "title": "Dangote opens refinery to public investors",
+                "event_date": "2026-09-14",
+                "candidate_id": "dangote-refinery-public-offering",
+                "geography": "Nigeria",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/nigeria-refinery-dangote-f3cc90fde930845eefd8bcc6231adb02"
+                  }
+                ]
+              },
+              {
+                "summary": "China’s Foreign Ministry rejected Anthropic CEO Dario Amodei’s call for continued U.S. restrictions on sales of advanced artificial-intelligence chips and manufacturing equipment to China. Ministry spokesperson Guo Jiakun said confrontation and competition would disrupt global AI governance.",
+                "category": "Technology",
+                "title": "China responds to Anthropic chief’s AI restrictions proposal",
+                "event_date": "2026-09-14",
+                "candidate_id": "china-responds-anthropic-ai-curbs",
+                "geography": "China; United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/china-anthropic-ai-us-amodei-3da458d2c078da3e60900728d59f1ae8"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-14"
+          },
+          "metadata": {
+            "responseId": "resp_080900544d2be41b006aa7c75d1d4087d2af8c31c964e92e7d",
+            "requestId": "req_4969f6a98b7a4ad89e6c4f86619f178c",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1140,
+            "inputTokens": 62332,
+            "outputTokens": 1436,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-14",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 41611,
+            "attemptDurationMs": 41611,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-14T10:07:22.309Z",
+        "capturedAt": "2026-09-14T10:08:03.942Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Strike on vessel in Hormuz kills one",
+            "body": "A projectile struck a commercial vessel traveling through the Strait of Hormuz, starting a fire and forcing the crew to evacuate, according to the British navy-linked UK Maritime Trade Operations agency.\n\nIranian authorities said one person was killed and four crew members were wounded aboard the Iranian vessel, which was struck off Iran’s coast. Responsibility for the attack had not been established.",
+            "sources": [
+              {
+                "name": "Reuters via ThePrint",
+                "url": "https://theprint.in/world/new-attacks-in-hormuz-and-saudi-test-nerves-as-wars-spread-worsens-oil-disruption/3041771/"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/27d276de911a983cdb1b81101ee56083"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "2e10cf2860576b039f7ee8788ff7e975558601d8122f31cbb5dd0dc1d3b08496",
+          "claimId": "63ee9be0-c012-4bc3-9ba3-8ca52696e3ec",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-14T16:07:30.038Z",
+          "responseId": "resp_042ef94ae9b67464006aa81bc5c59887d2af88030114ff6d84"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Greek authorities said 51 people were rescued after a boat carrying migrants from Libya took on water south of Crete early Monday. At least one person died, and 20 others were believed missing as coast guard vessels, aircraft, commercial ships and the EU border agency Frontex continued searching.",
+                "category": "Migration",
+                "title": "One dead and 20 missing from migrant boat near Crete",
+                "event_date": "2026-09-14",
+                "candidate_id": "crete-migrant-boat-search",
+                "geography": "Greece; Mediterranean Sea; Libya",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/migration-greece-crete-eu-libya-5c09f669e692b06f53991f4c1455d6de"
+                  }
+                ]
+              },
+              {
+                "summary": "NATO Secretary-General Mark Rutte pledged increased support for Ukraine and stronger defenses along the alliance’s eastern border after Russian drone strikes near Poland. Polish officials also said the military recovered what was believed to be a Russian drone from the Baltic Sea near Jaroslawiec.",
+                "category": "Conflict",
+                "title": "NATO chief pledges more Ukraine support after border-area strikes",
+                "event_date": "2026-09-14",
+                "candidate_id": "nato-rutte-ukraine-border-support",
+                "geography": "Ukraine; Poland; Europe",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-poland-nato-drones-dbba56f09562f337aa731f7d4bbd1235"
+                  }
+                ]
+              },
+              {
+                "summary": "Finland joined France’s Forward Nuclear Deterrence Initiative, Finnish and French leaders said. The initiative provides for consultations, exercises and possible temporary deployments of nuclear-capable assets, while leaving decisions on the use of France’s nuclear weapons with the French president. Finland said it did not intend to station nuclear weapons on its territory in peacetime.",
+                "category": "International Relations",
+                "title": "Finland joins French nuclear deterrence initiative",
+                "event_date": "2026-09-14",
+                "candidate_id": "finland-france-nuclear-deterrence",
+                "geography": "Finland; France; Europe",
+                "sources": [
+                  {
+                    "name": "Reuters via KhanList",
+                    "url": "https://www.khanlist.com/story/finland-joins-frances-nuclear-deterrent-initiative-3ede10ca"
+                  },
+                  {
+                    "name": "Reuters via Modesto Bee",
+                    "url": "https://www.modbee.com/news/nation-world/world/article317235283.html"
+                  }
+                ]
+              },
+              {
+                "summary": "The World Food Programme’s acting executive director said funding for its Sudan operations had fallen from $645 million last year to $206 million so far this year, leaving a gap of nearly $300 million to sustain current operations. The International Organization for Migration separately warned that emergency supplies for displaced people could run out by the end of September without additional funding.",
+                "category": "Humanitarian Crisis",
+                "title": "UN agencies warn of worsening Sudan aid shortfalls",
+                "event_date": "2026-09-14",
+                "candidate_id": "sudan-un-aid-funding-shortfall",
+                "geography": "Sudan",
+                "sources": [
+                  {
+                    "name": "Reuters via WSAU",
+                    "url": "https://wsau.com/2026/09/14/world-food-programme-funding-for-sudan-plummets-as-more-go-hungry-head-says/"
+                  }
+                ]
+              },
+              {
+                "summary": "Two regional officials briefed on repairs said Saudi Arabia’s East-West Pipeline would remain mostly out of service for three to five weeks after an attack the previous week damaged the line and a major pumping facility. One official said limited oil movements might continue while repairs were underway.",
+                "category": "Energy",
+                "title": "Damaged Saudi oil pipeline expected to face weeks of repairs",
+                "event_date": "2026-09-14",
+                "candidate_id": "saudi-east-west-pipeline-repairs",
+                "geography": "Saudi Arabia; Middle East",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/b95a5a6c73a26bbbb1caddcbf365ca62"
+                  }
+                ]
+              },
+              {
+                "summary": "President Donald Trump dismissed calls for new artificial-intelligence guardrails, describing opposition to rapid AI and data-center development as a conspiracy. He said the United States should maintain its lead over China, while acknowledging that some regulation was needed without offering specific proposals.",
+                "category": "Technology",
+                "title": "Trump dismisses calls for new AI guardrails",
+                "event_date": "2026-09-14",
+                "candidate_id": "trump-dismisses-ai-guardrails",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/c1fd92ed754f6d320006c270cffbece7"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-14"
+          },
+          "metadata": {
+            "responseId": "resp_042ef94ae9b67464006aa81bc5c59887d2af88030114ff6d84",
+            "requestId": "req_93870aa93ab54bbd8420a3180f60c469",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2275,
+            "inputTokens": 51144,
+            "outputTokens": 2906,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-14",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 74474,
+            "attemptDurationMs": 74474,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-14T16:07:29.950Z",
+        "capturedAt": "2026-09-14T16:08:44.513Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [
+          {
+            "headline": "Strike on vessel in Hormuz kills one",
+            "body": "A projectile struck a commercial vessel traveling through the Strait of Hormuz, starting a fire and forcing the crew to evacuate, according to the British navy-linked UK Maritime Trade Operations agency.\n\nIranian authorities said one person was killed and four crew members were wounded aboard the Iranian vessel, which was struck off Iran’s coast. Responsibility for the attack had not been established.",
+            "sources": [
+              {
+                "name": "Reuters via ThePrint",
+                "url": "https://theprint.in/world/new-attacks-in-hormuz-and-saudi-test-nerves-as-wars-spread-worsens-oil-disruption/3041771/"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/27d276de911a983cdb1b81101ee56083"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "62ddd548fa690cf30bf37d17dc1da5ccdbc193af1e37b7b5a6d6bbe35e4a8751",
+          "claimId": "b2f0b0e6-ad78-45bb-b4d1-c602a8a137d6",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-14T22:07:28.747Z",
+          "responseId": "resp_02db2a440cb1d443006aa87024a0f487d28a3445af78c4545b"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Fashion and costume designer Bob Mackie died Monday in Palm Springs, California, from pneumonia, his publicist said. Mackie, 87, designed for performers including Cher and Carol Burnett and won nine Emmy Awards and a Tony Award.",
+                "category": "Obituaries",
+                "title": "Fashion designer Bob Mackie dies at 87",
+                "event_date": "2026-09-14",
+                "candidate_id": "bob-mackie-dies-87",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/b2e50b957a55462995e76290a3920e1b"
+                  }
+                ]
+              },
+              {
+                "summary": "A Turkish court ordered 16 people detained pending trial in Izmir following raids involving LGBTQ+ associations. The chief prosecutor’s office said two other suspects were placed under judicial supervision. Prosecutors cited alleged offenses including prostitution and obscenity, while rights groups described the wider operation as discriminatory repression.",
+                "category": "Civil Rights",
+                "title": "Turkish court detains 16 after raids involving LGBTQ+ groups",
+                "event_date": "2026-09-14",
+                "candidate_id": "turkey-izmir-lgbtq-detentions",
+                "geography": "Turkey",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/14/turkish-court-jails-16-in-izmir-after-raids-on-lgbtq-groups"
+                  },
+                  {
+                    "name": "eKathimerini",
+                    "url": "https://www.ekathimerini.com/in-depth/society-in-depth/1315200/turkish-court-jails-16-in-izmir-after-raids-on-lgbtq-groups/"
+                  }
+                ]
+              },
+              {
+                "summary": "European Union ambassadors extended sanctions listings covering nearly 3,000 Russian-linked people and companies for seven days, until September 22, after member states failed to agree on a six-month renewal. The dispute included calls by France and Slovakia to remove Russian-Uzbek billionaire Alisher Usmanov from the list.",
+                "category": "International Relations",
+                "title": "EU temporarily extends Russia sanctions amid renewal dispute",
+                "event_date": "2026-09-14",
+                "candidate_id": "eu-russia-sanctions-seven-day-extension",
+                "geography": "European Union; Russia",
+                "sources": [
+                  {
+                    "name": "Reuters via Yahoo",
+                    "url": "https://currently.att.yahoo.com/att/eu-envoys-extend-russia-sanctions-171245890.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Argentine President Javier Milei was preparing legislation to increase penalties against companies conducting unauthorized operations around the Falkland Islands, according to a congressional aide. The proposed bill had not yet been enacted and could extend sanctions to corporate affiliates and activities beyond offshore oil exploration.",
+                "category": "International Relations",
+                "title": "Milei prepares bill targeting firms operating around Falklands",
+                "event_date": "2026-09-14",
+                "candidate_id": "argentina-falklands-sanctions-bill",
+                "geography": "Argentina; Falkland Islands; United Kingdom",
+                "sources": [
+                  {
+                    "name": "Reuters via Yahoo",
+                    "url": "https://currently.att.yahoo.com/att/argentinas-milei-plans-bill-toughen-182917244.html"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. Treasury announced sanctions against Russia’s VTB Bank as part of an effort to restrict Iran’s financial network, accusing the bank of establishing correspondent relationships with sanctioned Iranian banks. The Associated Press noted that VTB had already faced sweeping U.S. sanctions since 2022, leaving the additional practical effect unclear.",
+                "category": "International Relations",
+                "title": "US targets VTB Bank over alleged links to Iranian financial network",
+                "event_date": "2026-09-14",
+                "candidate_id": "us-vtb-iran-financial-sanctions",
+                "geography": "United States; Russia; Iran",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/b95a5a6c73a26bbbb1caddcbf365ca62"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-14"
+          },
+          "metadata": {
+            "responseId": "resp_02db2a440cb1d443006aa87024a0f487d28a3445af78c4545b",
+            "requestId": "req_1ab6372b085245afa5e2226d57a3074f",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2725,
+            "inputTokens": 51494,
+            "outputTokens": 3554,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-14",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 84534,
+            "attemptDurationMs": 84534,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-09-14T22:07:28.650Z",
+        "capturedAt": "2026-09-14T22:08:53.281Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Strike on vessel in Hormuz kills one",
+            "body": "A projectile struck a commercial vessel traveling through the Strait of Hormuz, starting a fire and forcing the crew to evacuate, according to the British navy-linked UK Maritime Trade Operations agency.\n\nIranian authorities said one person was killed and four crew members were wounded aboard the Iranian vessel, which was struck off Iran’s coast. Responsibility for the attack had not been established.",
+            "sources": [
+              {
+                "name": "Reuters via ThePrint",
+                "url": "https://theprint.in/world/new-attacks-in-hormuz-and-saudi-test-nerves-as-wars-spread-worsens-oil-disruption/3041771/"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/27d276de911a983cdb1b81101ee56083"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "eb41c694f39a686a6423ca0a640f4f491eda22cd7b7a6654d491c5099569b2fe",
+          "claimId": "8d61a3a1-3665-4ef0-9f55-1d681a948714",
+          "status": "completed",
+          "attempts": 1,
+          "startedAt": "2026-09-15T07:07:26.243Z",
+          "responseId": "resp_0dda22ad491268f2006aa8eeb1718487d2b5590c2e54a41155"
+        },
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The U.S. Supreme Court rejected the Trump administration’s request to allow new restrictions on mail ballots before the November midterm elections. The brief emergency order said the administration was unlikely to prevail in court; Justices Samuel Alito and Clarence Thomas publicly dissented. Existing state mail-ballot processes remain in place while litigation continues.",
+                "category": "Law",
+                "title": "Supreme Court rejects Trump administration’s mail-ballot restrictions",
+                "event_date": "2026-09-14",
+                "candidate_id": "supreme-court-mail-ballot-restrictions",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/78a4fbeb48d9c5fd27d1c865529fc65f"
+                  }
+                ]
+              },
+              {
+                "summary": "The Environmental Protection Agency finalized the repeal of most provisions in 2024 greenhouse-gas standards for fossil-fuel power plants. It also proposed repealing the remaining federal greenhouse-gas emissions standards for the power sector; that broader action remains subject to public comment and has not been finalized.",
+                "category": "Environment",
+                "title": "EPA repeals most 2024 power-plant greenhouse-gas standards",
+                "event_date": "2026-09-14",
+                "candidate_id": "epa-power-plant-ghg-standards-repeal",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "U.S. Environmental Protection Agency",
+                    "url": "https://www.epa.gov/system/files/documents/2026-09/fact-sheet_final-and-supp_technical_september2026_1.pdf"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/cac1c2c75f8656d8eaf5f0a240edae15"
+                  }
+                ]
+              },
+              {
+                "summary": "Israeli strikes on a town in southern Lebanon killed at least 13 people, including six children, Lebanon’s Health Ministry said. The attacks occurred amid several days of escalating strikes despite a June ceasefire between Israel and Hezbollah.",
+                "category": "Conflict",
+                "title": "Israeli strikes in southern Lebanon kill at least 13",
+                "event_date": "2026-09-14",
+                "candidate_id": "israeli-strikes-south-lebanon-13-killed",
+                "geography": "Lebanon; Israel",
+                "sources": [
+                  {
+                    "name": "Reuters via Business Recorder",
+                    "url": "https://www.brecorder.com/news/40439435"
+                  }
+                ]
+              },
+              {
+                "summary": "Air Baltic Corporation and related debtors filed voluntary petitions for protection under Chapter 11 of the U.S. Bankruptcy Code. The Latvian airline described the proceeding as a financial reorganization and said passenger flights and services would continue during the process.",
+                "category": "Business",
+                "title": "AirBaltic files for Chapter 11 reorganization",
+                "event_date": "2026-09-14",
+                "candidate_id": "airbaltic-chapter-11-reorganization",
+                "geography": "Latvia; United States",
+                "sources": [
+                  {
+                    "name": "U.S. Trustee Program",
+                    "url": "https://www.justice.gov/ust/media/1461171/dl?inline="
+                  },
+                  {
+                    "name": "AirBaltic via PublicNow",
+                    "url": "https://ebs.publicnow.com/view/C118C8DE7F8720B1AB61B82BC0CE86B8E943F40D"
+                  }
+                ]
+              },
+              {
+                "summary": "Preliminary results from Sweden’s September 13 parliamentary election gave the center-left opposition a narrow three-seat advantage over Prime Minister Ulf Kristersson’s governing right-wing bloc. The result remained uncertain because outstanding and overseas ballots had not been fully counted; the Swedish Election Authority said final results were expected about a week after election day.",
+                "category": "Elections",
+                "title": "Swedish center-left holds narrow lead in preliminary election count",
+                "event_date": "2026-09-14",
+                "candidate_id": "sweden-election-preliminary-centre-left-lead",
+                "geography": "Sweden",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/ce72489ed01f77a7cb1a40dd442ff82c"
+                  },
+                  {
+                    "name": "Swedish Election Authority",
+                    "url": "https://www.val.se/english/election-results/elections-to-the-riksdag-and-regional-and-municipal-councils/election-results-2026"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukrainian President Volodymyr Zelenskyy said Ukraine was prepared to stop strikes on Russian territory if partners secured a genuine Russian commitment to refrain from attacking Ukraine’s energy, food and other critical infrastructure. Russia had not confirmed an agreement, and Kremlin spokesperson Dmitry Peskov said Russian strikes across Ukraine would continue.",
+                "category": "Conflict",
+                "title": "Zelenskyy offers reciprocal halt to critical-infrastructure strikes",
+                "event_date": "2026-09-14",
+                "candidate_id": "zelenskyy-reciprocal-infrastructure-strike-halt",
+                "geography": "Ukraine; Russia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/dbba56f09562f337aa731f7d4bbd1235"
+                  }
+                ]
+              },
+              {
+                "summary": "President Donald Trump dismissed warnings about potentially dangerous artificial intelligence, calling concerns about AI taking over or harming humanity a hoax and describing efforts to limit rapid AI and data-center development as a conspiracy. His comments responded to calls from technology executives for slower development and greater government oversight.",
+                "category": "Technology",
+                "title": "Trump dismisses calls for new AI guardrails",
+                "event_date": "2026-09-14",
+                "candidate_id": "trump-dismisses-ai-guardrails",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/b85df16775ff7e9611a456b061a0e4b9"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-14"
+          },
+          "metadata": {
+            "responseId": "resp_0dda22ad491268f2006aa8eeb1718487d2b5590c2e54a41155",
+            "requestId": "req_8cd79794367040099abbc8612689ae9b",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2338,
+            "inputTokens": 82472,
+            "outputTokens": 3515,
+            "webSearchCalls": 11,
+            "stage": "discovery",
+            "targetDate": "2026-09-14",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 88443,
+            "attemptDurationMs": 88443,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-15T07:07:26.178Z",
+        "capturedAt": "2026-09-15T07:08:54.686Z"
+      }
+    ],
+    "sift": {
+      "inputFingerprint": "fb4869154ebfcdde06864af44ba20b700f00a14fb127257cebde88b3c699c063",
+      "priorStories": [
+        {
+          "headline": "Strike on vessel in Hormuz kills one",
+          "body": "A projectile struck a commercial vessel traveling through the Strait of Hormuz, starting a fire and forcing the crew to evacuate, according to the British navy-linked UK Maritime Trade Operations agency.\n\nIranian authorities said one person was killed and four crew members were wounded aboard the Iranian vessel, which was struck off Iran’s coast. Responsibility for the attack had not been established.",
+          "sources": [
+            {
+              "name": "Reuters via ThePrint",
+              "url": "https://theprint.in/world/new-attacks-in-hormuz-and-saudi-test-nerves-as-wars-spread-worsens-oil-disruption/3041771/"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/27d276de911a983cdb1b81101ee56083"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "94c0fef9b1937da323dc0f50a748684f4a69014a7ced7008da39295728fea6e7",
+        "claimId": "bdd1e4bc-6b57-4d4f-98dc-30340fe91152",
+        "status": "completed",
+        "attempts": 2,
+        "startedAt": "2026-09-15T10:56:38.524Z",
+        "responseId": "resp_0d0d82d390e7e264006aa9246884b487d2af426b761c2d96ff",
+        "retryable": false,
+        "reviewedFailureCode": "malformed_output"
+      },
+      "result": {
+        "output": {
+          "stories": [
+            {
+              "body": "Yemen’s Houthi rebels took control of the Greater and Lesser Hanish islands after government-allied forces withdrew, according to two Yemeni government officials and a Houthi official.\n\nThe islands are in the southern Red Sea, about 160 kilometers north of the Bab el-Mandeb Strait, a major shipping route.",
+              "candidate_id": "houthis-capture-hanish-islands",
+              "headline": "Houthis capture two Red Sea islands",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/yemen-houthis-saudi-shipping-mandeb-8c18d82c109a8ea91347ce53c0096c53"
+                }
+              ]
+            },
+            {
+              "body": "Israeli strikes on a town in southern Lebanon killed at least 13 people, including six children, according to Lebanon’s Health Ministry.\n\nThe attacks came during several days of escalating strikes despite a ceasefire reached by Israel and Hezbollah in June.",
+              "candidate_id": "israeli-strikes-south-lebanon-13-killed",
+              "headline": "Israeli strikes in Lebanon kill 13",
+              "sources": [
+                {
+                  "name": "Reuters via Business Recorder",
+                  "url": "https://www.brecorder.com/news/40439435"
+                }
+              ]
+            },
+            {
+              "body": "Saudi Arabia’s East-West Pipeline is expected to remain mostly out of service for three to five weeks after an attack last week damaged the line and a major pumping facility, two regional officials briefed on repairs said.\n\nOne official said limited oil movements might continue while repairs are underway.",
+              "candidate_id": "saudi-east-west-pipeline-repairs",
+              "headline": "Saudi oil pipeline faces weeks of repairs",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/b95a5a6c73a26bbbb1caddcbf365ca62"
+                }
+              ]
+            },
+            {
+              "body": "The Supreme Court rejected the Trump administration’s emergency request to permit new restrictions on mail ballots before November’s midterm elections.\n\nThe brief order said the administration was unlikely to prevail in court. Justices Samuel Alito and Clarence Thomas publicly dissented. Existing state mail-ballot processes remain in effect while the litigation continues.",
+              "candidate_id": "supreme-court-mail-ballot-restrictions",
+              "headline": "Supreme Court keeps mail-ballot rules unchanged",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/78a4fbeb48d9c5fd27d1c865529fc65f"
+                }
+              ]
+            }
+          ],
+          "rejections": [
+            {
+              "candidate_id": "airbaltic-chapter-11-reorganization",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "argentina-falklands-sanctions-bill",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "bob-mackie-dies-87",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "china-responds-anthropic-ai-curbs",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "crete-migrant-boat-search",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "dangote-refinery-public-offering",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "eu-russia-sanctions-seven-day-extension",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "finland-france-nuclear-deterrence",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "nato-rutte-ukraine-border-support",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "sudan-un-aid-funding-shortfall",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "sweden-election-preliminary-centre-left-lead",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "trump-dismisses-ai-guardrails",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "turkey-izmir-lgbtq-detentions",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "us-vtb-iran-financial-sanctions",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "zelenskyy-reciprocal-infrastructure-strike-halt",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "epa-power-plant-ghg-standards-repeal",
+              "code": "weak_support"
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0d0d82d390e7e264006aa9246884b487d2af426b761c2d96ff",
+          "requestId": null,
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1174,
+          "inputTokens": 4265,
+          "outputTokens": 2163,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-14",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 2,
+          "background": true,
+          "manualReview": true,
+          "excludedCount": 1
+        }
+      },
+      "previousRequests": [
+        {
+          "fingerprint": "94c0fef9b1937da323dc0f50a748684f4a69014a7ced7008da39295728fea6e7",
+          "claimId": "68926fe9-02f2-489b-8381-009d0f2460b1",
+          "status": "failed",
+          "attempts": 1,
+          "startedAt": "2026-09-15T08:07:31.535Z",
+          "responseId": "resp_0f0b467dc825b1f3006aa8fcc7472087d284134e7decc6885d",
+          "retryable": false,
+          "code": "malformed_output",
+          "manualRetryAuthorizedAt": "2026-09-15T10:56:38.523Z"
+        }
+      ],
+      "review": {
+        "exclusions": [
+          {
+            "candidate_id": "epa-power-plant-ghg-standards-repeal",
+            "code": "weak_support",
+            "source": "https://www.epa.gov/system/files/documents/2026-09/fact-sheet_final-and-supp_technical_september2026_1.pdf",
+            "reason": "Manual recovery excluded a selection whose returned citation did not match the collected source."
+          }
+        ],
+        "reviewedAt": "2026-09-15T11:00:33.421Z",
+        "originalOutputHash": "765aecfd23e6dd309aeb2b8bc4e7288f3c656714c1186e2fc7729974e3f1c673",
+        "originalStoryCount": 5
+      },
+      "comparisons": [
+        {
+          "historyDays": 7,
+          "inputFingerprint": "6083e9442daeb28abebe7cf91cf9f5bf1cbf554c91c144f1cb36b56fab8f3c2c",
+          "sourceCommit": "8065fcf2ab27d18919701ca244e746be8bf08424",
+          "priorPublicationDates": [
+            "2026-09-07",
+            "2026-09-08",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-11",
+            "2026-09-12",
+            "2026-09-13"
+          ],
+          "request": {
+            "fingerprint": "22b27fad43209d7325de69fb929c57c0ce78d30c1a1627f8fe4c9e0cf69964a1",
+            "claimId": "94124e36-9380-45ac-9324-4b9f6cc7d2e2",
+            "status": "completed",
+            "attempts": 1,
+            "startedAt": "2026-09-15T11:13:16.852Z",
+            "responseId": "resp_0f6aa9b6847a6ecf006aa9284f7fe887d2b4d7a528e1297f8d"
+          },
+          "result": {
+            "output": {
+              "rejections": [
+                {
+                  "candidate_id": "airbaltic-chapter-11-reorganization",
+                  "code": "narrow_interest"
+                },
+                {
+                  "candidate_id": "argentina-falklands-sanctions-bill",
+                  "code": "insufficient_materiality"
+                },
+                {
+                  "candidate_id": "bob-mackie-dies-87",
+                  "code": "narrow_interest"
+                },
+                {
+                  "candidate_id": "china-responds-anthropic-ai-curbs",
+                  "code": "insufficient_materiality"
+                },
+                {
+                  "candidate_id": "crete-migrant-boat-search",
+                  "code": "narrow_interest"
+                },
+                {
+                  "candidate_id": "dangote-refinery-public-offering",
+                  "code": "narrow_interest"
+                },
+                {
+                  "candidate_id": "eu-russia-sanctions-seven-day-extension",
+                  "code": "incremental_update"
+                },
+                {
+                  "candidate_id": "finland-france-nuclear-deterrence",
+                  "code": "insufficient_materiality"
+                },
+                {
+                  "candidate_id": "houthis-capture-hanish-islands",
+                  "code": "incremental_update"
+                },
+                {
+                  "candidate_id": "nato-rutte-ukraine-border-support",
+                  "code": "incremental_update"
+                },
+                {
+                  "candidate_id": "sudan-un-aid-funding-shortfall",
+                  "code": "insufficient_materiality"
+                },
+                {
+                  "candidate_id": "sweden-election-preliminary-centre-left-lead",
+                  "code": "incremental_update"
+                },
+                {
+                  "candidate_id": "trump-dismisses-ai-guardrails",
+                  "code": "insufficient_materiality"
+                },
+                {
+                  "candidate_id": "turkey-izmir-lgbtq-detentions",
+                  "code": "narrow_interest"
+                },
+                {
+                  "candidate_id": "us-vtb-iran-financial-sanctions",
+                  "code": "incremental_update"
+                },
+                {
+                  "candidate_id": "zelenskyy-reciprocal-infrastructure-strike-halt",
+                  "code": "insufficient_materiality"
+                }
+              ],
+              "stories": [
+                {
+                  "body": "The Environmental Protection Agency finalized the repeal of most provisions in greenhouse-gas standards adopted in 2024 for fossil-fuel power plants.\n\nThe agency also proposed eliminating the remaining federal greenhouse-gas standards for the power sector. That broader step is not final and remains subject to public comment.",
+                  "candidate_id": "epa-power-plant-ghg-standards-repeal",
+                  "headline": "EPA repeals most power-plant climate rules",
+                  "sources": [
+                    {
+                      "name": "U.S. Environmental Protection Agency",
+                      "url": "https://www.epa.gov/system/files/documents/2026-09/fact-sheet_final-and-supp_technical_september2026_1.pdf"
+                    },
+                    {
+                      "name": "Associated Press",
+                      "url": "https://apnews.com/article/cac1c2c75f8656d8eaf5f0a240edae15"
+                    }
+                  ]
+                },
+                {
+                  "body": "Lebanon’s Health Ministry said Israeli strikes on a town in southern Lebanon killed at least 13 people, including six children.\n\nThe attacks followed several days of escalating strikes despite a ceasefire reached by Israel and Hezbollah in June.",
+                  "candidate_id": "israeli-strikes-south-lebanon-13-killed",
+                  "headline": "Israeli strikes kill 13 in southern Lebanon",
+                  "sources": [
+                    {
+                      "name": "Reuters via Business Recorder",
+                      "url": "https://www.brecorder.com/news/40439435"
+                    }
+                  ]
+                },
+                {
+                  "body": "Saudi Arabia’s East-West oil pipeline is expected to remain mostly out of service for three to five weeks, according to two regional officials briefed on repairs.\n\nAn attack the previous week damaged the pipeline and a major pumping facility. One official said limited oil movements might continue during the repairs.",
+                  "candidate_id": "saudi-east-west-pipeline-repairs",
+                  "headline": "Saudi oil pipeline faces weeks of repairs",
+                  "sources": [
+                    {
+                      "name": "Associated Press",
+                      "url": "https://apnews.com/article/b95a5a6c73a26bbbb1caddcbf365ca62"
+                    }
+                  ]
+                },
+                {
+                  "body": "The Supreme Court rejected the Trump administration’s request to allow new restrictions on mail ballots before the November midterm elections. Existing state mail-ballot processes will remain in place while the litigation continues.\n\nThe brief emergency order said the administration was unlikely to prevail in court. Justices Samuel Alito and Clarence Thomas publicly dissented.",
+                  "candidate_id": "supreme-court-mail-ballot-restrictions",
+                  "headline": "Supreme Court rejects new mail-ballot restrictions",
+                  "sources": [
+                    {
+                      "name": "Associated Press",
+                      "url": "https://apnews.com/article/78a4fbeb48d9c5fd27d1c865529fc65f"
+                    }
+                  ]
+                }
+              ]
+            },
+            "metadata": {
+              "responseId": "resp_0f6aa9b6847a6ecf006aa9284f7fe887d2b4d7a528e1297f8d",
+              "requestId": "req_6898ceddc7644b9c923a89325ea2de7e",
+              "responseModel": "gpt-5.6-sol",
+              "reasoningTokens": 2407,
+              "inputTokens": 7107,
+              "outputTokens": 3272,
+              "webSearchCalls": 0,
+              "stage": "sift",
+              "targetDate": "2026-09-14",
+              "model": "gpt-5.6-sol",
+              "reasoningEffort": "high",
+              "attempts": 1,
+              "httpStatus": 200,
+              "durationMs": 73137,
+              "attemptDurationMs": 73137,
+              "softTimeoutMs": 180000,
+              "timeoutMs": 600000,
+              "background": true,
+              "promptVersion": "quiet-sift-history-v1",
+              "basePromptVersion": "quiet-sift-v7"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

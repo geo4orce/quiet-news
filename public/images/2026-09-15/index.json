@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "edition_date": "2026-09-15",
+  "images": {
+    "c7fa3fb35dfd01521fc62d119976fe9960ac223ebc7055b9ed67d2c84735d72c": {
+      "src": "/images/2026-09-15/c7fa3fb35dfd01521fc62d119976fe9960ac223ebc7055b9ed67d2c84735d72c.jpg",
+      "alt": "AI-generated conceptual illustration: CBO estimates Iran operations cost $38 billion",
+      "width": 1536,
+      "height": 1024
+    },
+    "6f1b4d244a8ece3faa6ac63897fd3a38ecbcbde4c937a77f4a9da81d6396c867": {
+      "src": "/images/2026-09-15/6f1b4d244a8ece3faa6ac63897fd3a38ecbcbde4c937a77f4a9da81d6396c867.jpg",
+      "alt": "AI-generated conceptual illustration: Congo Ebola outbreak reaches 7,258 confirmed cases",
+      "width": 1536,
+      "height": 1024
+    },
+    "06ee0478ecfb0327a28ca182844f2e0ea271c8992a871259c074748aa065f618": {
+      "src": "/images/2026-09-15/06ee0478ecfb0327a28ca182844f2e0ea271c8992a871259c074748aa065f618.jpg",
+      "alt": "AI-generated conceptual illustration: Hospital failures left infants unprotected from Letby",
+      "width": 1536,
+      "height": 1024
+    },
+    "744488a3938cb1b9b1d0c7171024898550a7e998f736fa8f43c5c843e84fc566": {
+      "src": "/images/2026-09-15/744488a3938cb1b9b1d0c7171024898550a7e998f736fa8f43c5c843e84fc566.jpg",
+      "alt": "AI-generated conceptual illustration: Belarus justice system coordinated repression, UN finds",
+      "width": 1536,
+      "height": 1024
+    }
+  }
+}

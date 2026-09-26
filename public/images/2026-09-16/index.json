@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "edition_date": "2026-09-16",
+  "images": {
+    "4dd8fd01c763ffbe0be99621a290ee5267e28ede65d999c36dcb4d21e18f3975": {
+      "src": "/images/2026-09-16/4dd8fd01c763ffbe0be99621a290ee5267e28ede65d999c36dcb4d21e18f3975.jpg",
+      "alt": "AI-generated conceptual illustration: Fed raises rates by quarter point",
+      "width": 1536,
+      "height": 1024
+    },
+    "921ec89f11fae258b095bd4e97fb2bf59cd59fa51b9b26fa6be83dbeb46e0769": {
+      "src": "/images/2026-09-16/921ec89f11fae258b095bd4e97fb2bf59cd59fa51b9b26fa6be83dbeb46e0769.jpg",
+      "alt": "AI-generated conceptual illustration: France estimates nearly 8,000 heatwave excess deaths",
+      "width": 1536,
+      "height": 1024
+    },
+    "9c09a0e49775bac4f9bc058926b89499e8243a92e025fd90ca75a3d01b80a104": {
+      "src": "/images/2026-09-16/9c09a0e49775bac4f9bc058926b89499e8243a92e025fd90ca75a3d01b80a104.jpg",
+      "alt": "AI-generated conceptual illustration: Sudan mine collapse death toll reaches 82",
+      "width": 1536,
+      "height": 1024
+    },
+    "40f89bfcf8a4c311b802d2efa3606be6c5f79ebd36c6922edc43cd9bc25ec636": {
+      "src": "/images/2026-09-16/40f89bfcf8a4c311b802d2efa3606be6c5f79ebd36c6922edc43cd9bc25ec636.jpg",
+      "alt": "AI-generated conceptual illustration: Syria nullifies Assad-era terrorism court rulings",
+      "width": 1536,
+      "height": 1024
+    },
+    "957672740be1e01002c232f1cda97416e1a8a9e0c75025d39fb9849a26ba20e4": {
+      "src": "/images/2026-09-16/957672740be1e01002c232f1cda97416e1a8a9e0c75025d39fb9849a26ba20e4.jpg",
+      "alt": "AI-generated conceptual illustration: Kosovo tribunal sentences Thaci to 25 years",
+      "width": 1536,
+      "height": 1024
+    }
+  }
+}

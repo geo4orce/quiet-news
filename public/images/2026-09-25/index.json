@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "edition_date": "2026-09-25",
+  "images": {
+    "fa8b878128a89396e5dfde82475ae05aebf0cedcbeaf43cbbe80717458d52295": {
+      "src": "/images/2026-09-25/fa8b878128a89396e5dfde82475ae05aebf0cedcbeaf43cbbe80717458d52295.jpg",
+      "alt": "AI-generated conceptual illustration: Nearly 1.5 million are displaced in Haiti",
+      "width": 1536,
+      "height": 1024
+    },
+    "9a7827d588f8c774470c656e5e0585a8efa9910f926b0aece820ca9050ce9216": {
+      "src": "/images/2026-09-25/9a7827d588f8c774470c656e5e0585a8efa9910f926b0aece820ca9050ce9216.jpg",
+      "alt": "AI-generated conceptual illustration: FBI breach exposed personnel medical records",
+      "width": 1536,
+      "height": 1024
+    },
+    "37dd4a689b25177d74126b7da225df7af244911c111a01eb552fa486bcfe58f1": {
+      "src": "/images/2026-09-25/37dd4a689b25177d74126b7da225df7af244911c111a01eb552fa486bcfe58f1.jpg",
+      "alt": "AI-generated conceptual illustration: Three countries bar Iranian airlines",
+      "width": 1536,
+      "height": 1024
+    },
+    "123902611387b1550e0f04e875094c04a4d9bf7d23ed21293d8bd14825dc4cf1": {
+      "src": "/images/2026-09-25/123902611387b1550e0f04e875094c04a4d9bf7d23ed21293d8bd14825dc4cf1.jpg",
+      "alt": "AI-generated conceptual illustration: Tigray communications cut amid renewed fighting",
+      "width": 1536,
+      "height": 1024
+    },
+    "d9daa1201417f510e4174bb47cac4eafe674c876ec00b1c7f03d3b59e173dbb3": {
+      "src": "/images/2026-09-25/d9daa1201417f510e4174bb47cac4eafe674c876ec00b1c7f03d3b59e173dbb3.jpg",
+      "alt": "AI-generated conceptual illustration: Supreme Court again blocks Missouri congressional map",
+      "width": 1536,
+      "height": 1024
+    }
+  }
+}

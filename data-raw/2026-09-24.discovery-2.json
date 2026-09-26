@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-24",
+  "batch": 2,
+  "captured_at": "2026-09-24T16:08:50.393Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "A federal judge temporarily ordered the Trump administration to restore White House access for CNN, MS NOW and Politico, finding the outlets likely to succeed on due-process claims. Later Thursday, reporters for Politico and MS NOW said they were still denied entry, and Politico said a reporter's credentials were confiscated. Reuters initially said it was unclear whether CNN journalists had been admitted. The restraining order remains in effect for 14 days while the case proceeds.",
+        "category": "Law and justice",
+        "title": "News outlets report continued White House exclusion after court order",
+        "event_date": "2026-09-24",
+        "candidate_id": "white-house-media-access-order",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban"
+          },
+          {
+            "name": "CNN via ABC17 News",
+            "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/09/24/judge-orders-trump-administration-to-restore-white-house-access-to-cnn-ms-now-and-politico/"
+          },
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/politico-ms-now-denied-access-to-white-house-after-judge-s-order-ce785adede8af42c"
+          },
+          {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/09/24/white-house-press-ban-court-order"
+          }
+        ]
+      },
+      {
+        "summary": "Russian drone and missile attacks killed eight people in Ukraine, according to Ukrainian authorities. Six agricultural workers were killed and 12 people were injured when a farm storage facility in the Kharkiv region was struck; two people were killed and eight injured in Kyiv. Officials said the Kyiv attack damaged homes, warehouses, a post office and a maternity hospital, where no patients or medical workers were reported injured. Russia said it targeted military-related facilities and vessels.",
+        "category": "Conflict",
+        "title": "Russian strikes kill eight people in Ukraine",
+        "event_date": "2026-09-24",
+        "candidate_id": "russia-ukraine-strikes-eight-killed",
+        "geography": "Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via Yahoo News",
+            "url": "https://hk.news.yahoo.com/world/articles/kyiv-under-missile-attack-emergency-225051151.html"
+          },
+          {
+            "name": "Associated Press via San Francisco Chronicle",
+            "url": "https://www.sfchronicle.com/news/world/article/russian-strikes-kill-8-in-ukraine-as-the-un-22446808.php"
+          }
+        ]
+      },
+      {
+        "summary": "A Patriot air-defense battery operated by Greek military personnel intercepted a ballistic missile and a drone in the wider Yanbu region of Saudi Arabia, Greek security sources told Reuters. The area contains major oil-refining facilities. The sources did not identify the origin of either weapon, and Saudi authorities had issued danger alerts covering Yanbu and several other western Saudi locations.",
+        "category": "Conflict",
+        "title": "Greek-operated Patriot system intercepts missile and drone over Saudi Arabia",
+        "event_date": "2026-09-24",
+        "candidate_id": "saudi-yanbu-greek-patriot-interceptions",
+        "geography": "Saudi Arabia",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/greek-operated-air-defence-system-shoots-down-ballistic-missile-drone-over-saudi-ce785adedf8ef121"
+          }
+        ]
+      },
+      {
+        "summary": "Kazakhstan's Defence Ministry said nine military personnel were killed after being swept into the Caspian Sea during a naval training exercise in the western Mangistau region. The ministry initially said 19 personnel were swept away after weather conditions deteriorated and that three had been rescued, including one who was hospitalized. Search operations continued for those still missing.",
+        "category": "Accidents and disasters",
+        "title": "Nine Kazakh service members killed during Caspian Sea exercise",
+        "event_date": "2026-09-24",
+        "candidate_id": "kazakhstan-caspian-military-exercise-deaths",
+        "geography": "Kazakhstan",
+        "sources": [
+          {
+            "name": "Reuters via AOL",
+            "url": "https://www.aol.com/articles/nine-kazakh-military-personnel-dead-092404000.html"
+          },
+          {
+            "name": "The Times of Central Asia",
+            "url": "https://timesca.com/at-least-nine-kazakh-servicemen-killed-during-caspian-sea-exercises/"
+          }
+        ]
+      },
+      {
+        "summary": "Initial claims for U.S. state unemployment benefits declined by 1,000 to a seasonally adjusted 197,000 in the week ending September 19, the Labor Department reported. Economists polled by Reuters had forecast 201,000 claims. The four-week moving average fell by 1,750 to 202,250. Economists cautioned that seasonal-adjustment difficulties may partly account for claims remaining near levels last recorded in 1969.",
+        "category": "Economy",
+        "title": "U.S. weekly jobless claims fall to 197,000",
+        "event_date": "2026-09-24",
+        "candidate_id": "us-jobless-claims-september-19",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/us-weekly-jobless-claims-near-57-year-lows-as-labor-market-regains-footing-ce785aded181f524"
+          }
+        ]
+      },
+      {
+        "summary": "Belarusian President Alexander Lukashenko pardoned 15 prisoners, the state news agency Belta reported. The report did not immediately identify the prisoners. The United States has been negotiating with Lukashenko's government over releases of opposition figures, activists and journalists in exchange for sanctions relief; U.S. envoy John Coale met Lukashenko in Minsk the previous week.",
+        "category": "Politics",
+        "title": "Belarusian president pardons 15 prisoners",
+        "event_date": "2026-09-24",
+        "candidate_id": "belarus-lukashenko-pardons-15",
+        "geography": "Belarus",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/belarus-president-lukashenko-pardons-15-prisoners-state-media-says-ce785aded181ff22"
+          }
+        ]
+      },
+      {
+        "summary": "The International Monetary Fund recommended changes to the design and implementation of its lending programs, including concentrating on fewer but more substantial reforms. Its review also supported more front-loaded and sustained fiscal adjustments where feasible, alongside realistic measures to promote growth and sufficient social spending to protect vulnerable people. Civil-society groups have expressed concern that the review could result in stricter austerity requirements for indebted countries.",
+        "category": "Economy",
+        "title": "IMF review recommends fewer but deeper loan-program reforms",
+        "event_date": "2026-09-24",
+        "candidate_id": "imf-loan-program-design-review",
+        "geography": "Global",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/imf-review-calls-for-fewer-but-deeper-reforms-in-design-of-loan-programs-ce785aded18df421"
+          }
+        ]
+      },
+      {
+        "summary": "The yield on the 30-year U.S. Treasury rose above 5.45%, its highest level since 2004, while the benchmark 10-year yield reached about 5.16%. The selloff extended across major government-bond markets as investors weighed strong economic growth, elevated public debt, rising energy costs and inflation risks. Bond yields rise when prices fall.",
+        "category": "Economy",
+        "title": "U.S. 30-year Treasury yield reaches highest level since 2004",
+        "event_date": "2026-09-24",
+        "candidate_id": "us-treasury-yields-september-24-2026",
+        "geography": "United States and global markets",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/u-s-30-year-bond-yield-rises-to-highest-since-2004-as-selloff-deepens-ce785adedd80f12c"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-24"
+  },
+  "metadata": {
+    "responseId": "resp_0e9e623b4677903a006ab54aca78c887d282264d6336b85d4f",
+    "requestId": "req_ee86bbeab1aa4d05ad316895872e36ff",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2541,
+    "inputTokens": 57706,
+    "outputTokens": 4211,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-24",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 77032,
+    "attemptDurationMs": 77032,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
