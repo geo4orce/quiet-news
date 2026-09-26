@@ -62,6 +62,10 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
   Show sources per story; preserve accessible loading and reduced motion.
 - Sanitize browser warnings/errors; never include raw input or response bodies.
   Sitemap lists only the canonical homepage; robots advertises the sitemap.
+- Social metadata uses the production canonical URL and permanent social-card.png.
+  Keep the title/description consistent with site metadata. Render the existing
+  logo and approved copy with scripts/render-social-card.ps1; do not use daily
+  story images as the site-wide share identity.
 
 ## Storage and contracts
 
