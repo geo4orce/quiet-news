@@ -24,11 +24,11 @@
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://quietnews.ai/">
     <link rel="icon" type="image/svg+xml" href="/quiet-news.svg?v=0.5.0">
-    <link rel="stylesheet" href="/styles.css?v=0.5.3">
-    <script type="module" src="/app.js?v=0.5.3"></script>
+    <link rel="stylesheet" href="/styles.css?v=0.6.0">
     <title>Quiet News</title>
   </head>
   <body>
+    <a class="skip-link" href="#news">Skip to news</a>
     <header>
       <img class="mark" src="/quiet-news.svg?v=0.5.0" alt="Quiet News" width="42" height="42">
       <section id="archive" class="hidden" aria-label="Past days">
@@ -42,13 +42,14 @@
           <div class="calendar-weekdays" aria-hidden="true">
             <span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span><span>Su</span>
           </div>
-          <div id="archive-calendar" role="grid" aria-labelledby="archive-month"></div>
+          <div id="archive-calendar" role="group" aria-labelledby="archive-month"></div>
           <a id="archive-today" class="hidden" href="/">Today</a>
         </div>
       </section>
     </header>
-    <main id="news" aria-live="polite">
-      <div id="stories" class="hidden" data-news-state></div>
+    <main id="news" tabindex="-1" aria-live="polite">
+      <!-- saved-day-heading -->
+      <div id="stories" class="hidden" data-news-state><!-- saved-stories --></div>
       <p id="news-loading" class="empty" data-news-state>
         <span class="visually-hidden">Loading Quiet News.</span>
         <span class="loading-dots" aria-hidden="true">
@@ -62,10 +63,11 @@
       <p id="error" class="empty hidden" data-news-state>Error.</p>
       <template id="story-template">
         <article data-story>
-          <h2 data-story-headline></h2>
+          <h2 data-story-headline><!-- story-headline --></h2>
           <div class="story-details" data-story-details>
-            <p class="summary" data-story-body></p>
-            <p class="sources" data-story-sources></p>
+            <!-- story-image -->
+            <p class="summary" data-story-body><!-- story-body --></p>
+            <p class="sources" data-story-sources><!-- story-sources --></p>
           </div>
         </article>
       </template>
@@ -73,7 +75,7 @@
 
     <footer>
       <p class="footer-copy">
-        <span>AI-powered daily news. Only what earns your attention.</span>
+        <span>AI-powered daily news</span>
         <span>Verify important details with the original sources.</span>
       </p>
       <p class="credit">
@@ -81,5 +83,6 @@
         <span>All rights reserved.</span>
       </p>
     </footer>
+    <script type="module" src="/app.js?v=0.6.0"></script>
   </body>
 </html>

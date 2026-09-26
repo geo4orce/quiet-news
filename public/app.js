@@ -1,5 +1,6 @@
 import { illustrationFor } from "./illustrations.js";
 import { dailyImagesEnabled, loadDailyImages } from "./image-manifest.js";
+import { calendarDate, dateFromPath, datePath, legacyDateRedirect } from "./date-route.js";
 
 const PUBLICATION_FIELDS = ["edition_date", "published_at", "expires_at", "stories"];
 const STORY_FIELDS = ["headline", "body", "sources"];
@@ -9,9 +10,6 @@ const INDEX_FIELDS = ["updated_at", "dates"];
 const isObject = (value) => value !== null && typeof value === "object" && !Array.isArray(value);
 const hasOnly = (value, fields) => Object.keys(value).every((field) => fields.includes(field));
 const nonEmpty = (value) => typeof value === "string" && value.trim().length > 0;
-const calendarDate = (value) => typeof value === "string"
-  && /^\d{4}-\d{2}-\d{2}$/.test(value)
-  && new Date(`${value}T12:00:00Z`).toISOString().slice(0, 10) === value;
 const isoInstant = (value) => typeof value === "string"
   && !Number.isNaN(Date.parse(value))
   && new Date(value).toISOString() === value;
@@ -114,6 +112,11 @@ function showNewsState(id) {
   });
 }
 
+// Give readable content a rendering opportunity before optional enhancement work.
+function afterNewsPaint(callback) {
+  requestAnimationFrame(() => setTimeout(callback, 0));
+}
+
 function attachIllustration(details, illustration, index) {
   const figure = document.createElement("figure");
   const image = document.createElement("img");
@@ -121,7 +124,8 @@ function attachIllustration(details, illustration, index) {
   image.alt = illustration.alt;
   image.width = 1536;
   image.height = 1024;
-  image.loading = index === 0 ? "eager" : "lazy";
+  image.loading = "lazy";
+  image.fetchPriority = "low";
   image.decoding = "async";
   image.addEventListener("error", () => {
     figure.remove();
@@ -210,12 +214,14 @@ async function loadPublication(selectedDate) {
       throw new Error("Today's file expired");
     }
     renderPublication(value, selectedDate);
-    void loadDailyImages(value).then((images) => {
-      const details = document.querySelectorAll("[data-story-details]");
-      images.forEach((image, index) => {
-        if (!image || !details[index]) return;
-        details[index].querySelector(".story-illustration")?.remove();
-        attachIllustration(details[index], image, index);
+    afterNewsPaint(() => {
+      void loadDailyImages(value).then((images) => {
+        const details = document.querySelectorAll("[data-story-details]");
+        images.forEach((image, index) => {
+          if (!image || !details[index]) return;
+          details[index].querySelector(".story-illustration")?.remove();
+          attachIllustration(details[index], image, index);
+        });
       });
     });
   } catch {
@@ -251,9 +257,8 @@ function renderArchiveCalendar({ dates, selectedDate, month, today }) {
     if (publishedDates.has(date)) {
       const link = document.createElement("a");
       link.className = "calendar-day";
-      link.href = date === dates[0] ? "/" : `/?date=${date}`;
+      link.href = date === dates[0] ? "/" : datePath(date);
       link.textContent = String(dayNumber);
-      link.setAttribute("role", "gridcell");
       link.setAttribute("aria-label", formatDay(date));
       if (selectedDate === date) link.setAttribute("aria-current", "date");
       cells.push(link);
@@ -263,7 +268,6 @@ function renderArchiveCalendar({ dates, selectedDate, month, today }) {
       day.type = "button";
       day.disabled = true;
       day.textContent = String(dayNumber);
-      day.setAttribute("role", "gridcell");
       const status = classifyDateRequest(date, dates, today) === "not-yet"
         ? "not yet"
         : "unavailable";
@@ -309,7 +313,7 @@ function setupArchive({ dates, selectedDate, today }) {
     ? "Jump to date"
     : `Jump to date. Showing ${formatDay(selectedDate)}`);
   document.querySelector("#archive-today").classList.toggle("hidden",
-    selectedDate === null || selectedDate === dates[0]);
+    selectedDate === null);
   toggle.addEventListener("click", () => setOpen(menu.classList.contains("hidden")));
   previous.addEventListener("click", () => {
     month = moveMonth(month, -1);
@@ -350,14 +354,14 @@ async function loadArchive(selectedDate, today) {
 
 async function loadPage(selectedDate, today) {
   if (selectedDate === null) {
-    loadPublication(null);
-    loadArchive(null, today);
+    await loadPublication(null);
+    afterNewsPaint(() => { void loadArchive(null, today); });
     return;
   }
 
   const dates = await loadArchive(selectedDate, today);
   if (dates === null) {
-    loadPublication(selectedDate);
+    showNewsState("error");
     return;
   }
 
@@ -376,15 +380,47 @@ async function loadPage(selectedDate, today) {
 }
 
 if (typeof window !== "undefined") {
-  const requestedDate = new URLSearchParams(location.search).get("date");
-  const selectedDate = selectedDateFrom(requestedDate);
-  if (requestedDate !== null && selectedDate === null) {
-    console.warn("Quiet News ignored an invalid date parameter.", {
-      code: "invalid_date_parameter"
-    });
-    const cleanUrl = new URL(location.href);
-    cleanUrl.searchParams.delete("date");
-    history.replaceState(null, "", `${cleanUrl.pathname}${cleanUrl.search}${cleanUrl.hash}`);
+  const legacyTarget = legacyDateRedirect(new URL(location.href));
+  if (legacyTarget) {
+    // Static hosting has no query-aware redirect rule. Local serving uses HTTP 308.
+    location.replace(legacyTarget);
+  } else {
+    const requestedDate = new URLSearchParams(location.search).get("date");
+    const selectedDate = dateFromPath(location.pathname);
+    if (requestedDate !== null) {
+      console.warn("Quiet News ignored an invalid date parameter.", {
+        code: "invalid_date_parameter"
+      });
+      const cleanUrl = new URL(location.href);
+      cleanUrl.searchParams.delete("date");
+      history.replaceState(null, "", `${cleanUrl.pathname}${cleanUrl.search}${cleanUrl.hash}`);
+    }
+    if (selectedDate && location.hostname === "quietnews.dev") {
+      // DEV code can predate new publications. Refresh from main, including on its 404 page.
+      if (!document.querySelector(".saved-date")) {
+        const heading = document.createElement("h1");
+        heading.className = "saved-date";
+        heading.textContent = formatDay(selectedDate);
+        document.querySelector("#news").prepend(heading);
+      }
+      afterNewsPaint(() => { void loadPage(selectedDate, newYorkToday()); });
+    } else if (selectedDate && document.documentElement.dataset.savedDate === selectedDate) {
+      // The saved HTML already contains validated content. Enhance without a reload or flash.
+      document.querySelectorAll(".story-illustration img").forEach((image) => {
+        const remove = () => {
+          image.closest("[data-story-details]")?.classList.remove("has-illustration");
+          image.closest("figure")?.remove();
+        };
+        image.addEventListener("error", remove, { once: true });
+        if (image.complete && image.naturalWidth === 0) remove();
+      });
+      afterNewsPaint(() => { void loadArchive(selectedDate, newYorkToday()); });
+    } else if (location.pathname === "/" || location.pathname === "/index.html") {
+      loadPage(null, newYorkToday());
+    } else {
+      // A missing route is never a request for current news.
+      showNewsState(selectedDate && selectedDate >= newYorkToday() ? "not-yet" : "unavailable");
+      if (selectedDate) void loadArchive(selectedDate, newYorkToday());
+    }
   }
-  loadPage(selectedDate, newYorkToday());
 }

@@ -1,7 +1,8 @@
 # Quiet News maintenance
 
 Production static site and Git-backed daily note. Keep it dependency-free:
-plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
+plain HTML/CSS/JS, Node.js 24, no framework or external build dependencies.
+The local saved-page generator is a plain Node script. Avoid em dashes.
 
 ## Working rules
 
@@ -23,8 +24,28 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
 
 ## Product and browser
 
+- Permanent date pages are generated during deployment. `npm run dev`
+  generates and serves ignored `dist/`; `npm run build` refreshes it. Shared page
+  and story markup lives in `public/index.html`, rendering in `lib/site.mjs`.
+  Keep template data attributes and generation markers. JSON is the source of
+  truth; never edit generated pages. See `docs/permanent-pages.md` for deployment behavior.
+  `/YYYY-MM-DD/` pages include full content and dated canonicals. Archive
+  navigation uses the calendar only, with no bottom earlier/Today/later row.
+  The generated sitemap lists all indexed dates and omits
+  unverified lastmod values. Local legacy query/slash redirects use HTTP 308.
+  Hosting serves `dist/` with `404.html`, without a homepage catchall.
+
 - Header: show the original Q mark without the site-name h1.
   The image retains "Quiet News" alternative text. Approved for production on 2026-09-26.
+
+- Accessibility work targets AA, with AAA text contrast where feasible.
+  Keep reading and control text at least 7:1 against its displayed background;
+  source/footer text must not be faded with transparency. The Q logo is unchanged.
+  Saved days use a date h1 and story h2 headings. Retain the skip link and native
+  calendar links/buttons. Full AA/AAA conformance has not yet been audited.
+  News comes first: saved text is in HTML; optional illustrations are lazy and
+  low priority; calendar work follows a rendering opportunity. Keep the small
+  reading stylesheet early and preserve homepage expiry validation.
 
 - On `quietnews.dev`, current, dated and index JSON come from public
   `main` through `raw.githubusercontent.com`, which supports cross-origin reads.
@@ -35,9 +56,9 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
 - Stories are always expanded, with no story toggle controls.
   `public/illustrations.js` maps exact dates/headlines to
   optional static images. The September 11 trial remains accessible at
-  `/?date=2026-09-11` after current content expires. No trial banner or visible
-  image captions; the footer says "AI-powered daily news. Only what earns your
-  attention." Missing images must not block text.
+  `/2026-09-11/` after current content expires. No trial banner or visible
+  image captions; the footer says "AI-powered daily news".
+  Missing images must not block text.
   Daily image generation runs after successful text publication, using a separate private QNP prompt. Images display on quietnews.ai, quietnews.dev and localhost; production uses same-origin image files while DEV reads published main images. Keep
   publication data and illustration metadata separate. These reading and
   illustration changes are approved for production; retain the original Q logo.
@@ -50,7 +71,7 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
   quiet day `Quiet.`, missing past day `Unavailable.`, current New York day or
   future `Not yet.`, load/validation failure `Error.`.
 - Default loads `/data/current.json` with expiry; valid `?date=YYYY-MM-DD`
-  loads that dated file without expiry. Remove malformed date parameters.
+  redirects in the browser to its clean path. Saved pages do not expire. Remove malformed date parameters.
   Check index membership for past dates; missing data is not a quiet result.
 - Calendar enables indexed dates only and stays within indexed months. Its
   latest date links to `/` and is selected on the homepage. Show `Today` linking
@@ -60,7 +81,7 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
   Invalid/missing index hides the calendar without blocking current content.
   Show sources per story; preserve accessible loading and reduced motion.
 - Sanitize browser warnings/errors; never include raw input or response bodies.
-  Sitemap lists only the canonical homepage; robots advertises the sitemap.
+  Generated sitemap lists the homepage and all saved dates; robots advertises it.
 - Social metadata uses the production canonical URL and permanent social-card.png.
   Keep the title/description consistent with site metadata. Render the existing
   logo and approved copy with scripts/render-social-card.ps1; do not use daily

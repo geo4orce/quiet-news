@@ -2,10 +2,10 @@
   color-scheme: light;
   --paper: #f4f1e9;
   --ink: #18211d;
-  --muted: #626b65;
+  --muted: #465048;
   --line: #cbd0ca;
-  --accent: #147d76;
-  --accent-dark: #0d655f;
+  --accent: #0c5852;
+  --accent-dark: #084940;
   --surface: #faf8f2;
 }
 
@@ -108,7 +108,7 @@ header { padding-bottom: 22px; border-bottom: 1px solid var(--line); }
 .calendar-nav:disabled { color: var(--line); cursor: default; }
 .calendar-weekdays,
 #archive-calendar { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; }
-.calendar-weekdays { padding: 10px 0 5px; color: #a9afaa; font-size: 0.62rem; font-weight: 700; text-align: center; text-transform: uppercase; }
+.calendar-weekdays { padding: 10px 0 5px; color: var(--muted); font-size: 0.75rem; font-weight: 700; text-align: center; text-transform: uppercase; }
 
 .calendar-day {
   display: grid;
@@ -127,7 +127,7 @@ header { padding-bottom: 22px; border-bottom: 1px solid var(--line); }
 .calendar-nav:hover:not(:disabled),
 a.calendar-day:hover { color: var(--paper); background: var(--accent); }
 a.calendar-day[aria-current="date"] { color: var(--paper); background: var(--accent); font-weight: 700; }
-button.calendar-day:disabled { color: #a9afaa; cursor: default; }
+button.calendar-day:disabled { color: var(--muted); cursor: default; }
 .calendar-day-empty { visibility: hidden; }
 main { min-height: 50vh; }
 #stories { padding: 18px 0 32px; }
@@ -163,12 +163,12 @@ h2 {
 }
 .sources,
 footer {
-  color: color-mix(in srgb, var(--muted) 70%, transparent);
+  color: var(--muted);
 }
 .sources {
   margin: 18px 0 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.68rem;
+  font-size: 0.8rem;
   text-align: right;
 }
 .sources a:hover,
@@ -219,7 +219,7 @@ footer {
   align-items: flex-start;
   padding-top: 18px;
   border-top: 1px solid color-mix(in srgb, var(--line) 70%, transparent);
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   line-height: 1.5;
 }
 
@@ -239,6 +239,10 @@ footer a:focus-visible {
 .credit span,
 .credit > a { display: block; }
 .hidden { display: none !important; }
+
+.saved-date { margin: 24px 4px 0; color: var(--muted); font: 0.8rem Arial, Helvetica, sans-serif; }
+.skip-link { position: absolute; top: 8px; left: 8px; padding: 10px 16px; color: var(--ink); background: var(--paper); transform: translateY(-200%); z-index: 20; }
+.skip-link:focus { transform: none; outline: 2px solid var(--accent); outline-offset: 2px; }
 
 @media (max-width: 560px) {
   body { padding: 20px 18px; }

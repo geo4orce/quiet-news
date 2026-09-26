@@ -29,9 +29,9 @@ test("the static site retains publication, archive, and source wiring", () => {
   assert.match(app, /"\/data\/current\.json"/);
   assert.match(app, /"\/data\/index\.json"/);
   assert.match(app, /`\/data\/\$\{selectedDate\}\.json`/);
-  assert.match(app, /\?date=\$\{date\}/);
+  assert.match(app, /datePath\(date\)/);
   assert.match(html, /id="archive-toggle"/);
-  assert.match(html, /id="archive-calendar" role="grid"/);
+  assert.match(html, /id="archive-calendar" role="group"/);
   assert.match(html, /data-story-details>/);
   assert.match(html, /data-story-sources/);
   assert.match(app, /publishedDates\.has\(date\)/);
@@ -102,7 +102,7 @@ test("there is no mock, Function, database, or secret path in public artifacts",
   assert.doesNotMatch(publicSource, /postgres(?:ql)?:\/\/[^\s"']+@/i);
 });
 
-test("the sitemap exposes only the canonical homepage", () => {
+test("the source sitemap is a homepage template; generated archives are tested separately", () => {
   const canonical = html.match(/<link rel="canonical" href="([^"]+)">/)?.[1];
   const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 
