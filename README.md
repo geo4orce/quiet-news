@@ -9,13 +9,25 @@ saved pages.
 Production: [quietnews.ai](https://quietnews.ai/), branch `main`.
 DEV: [quietnews.dev](https://quietnews.dev/), branch `dev`; excluded from indexing.
 
+## Saved pages and indexing
+
+Production `/YYYY-MM-DD/` pages serve complete saved stories and source links
+in the initial HTML, readable without JavaScript. Each has its own canonical
+URL and appears in the generated sitemap. They are crawlable and eligible for
+indexing; inclusion in search results is not guaranteed.
+
+The homepage still fetches current news with JavaScript to enforce expiry.
+The calendar and old `?date=` redirects also use JavaScript. DEV refreshes news
+from public main and is kept out of indexing; it is not an exact preview of
+production's no-JavaScript behavior. See [permanent pages](docs/permanent-pages.md)
+for the full distinction and remaining work.
+
 ## Local Dev
 
 Use Node.js 24: `npm ci`, `npm run check`, then
 `npm run dev` at <http://localhost:4173/>.
 
-`npm run dev` first
-generates the site into ignored `dist/`, including every saved `/YYYY-MM-DD/`
+`npm run dev` first generates the site into ignored `dist/`, including every saved `/YYYY-MM-DD/`
 page, then serves that output. `npm run build` regenerates it without starting
 a server. After editing templates, CSS or saved content, run `npm run build`
 and reload the preview. There are no new dependencies or model calls.

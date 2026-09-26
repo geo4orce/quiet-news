@@ -15,6 +15,27 @@ Run `npm run build` to refresh the generated output while the preview is running
 Reload the browser after changes. `npm run build -- --noindex` marks every HTML
 page noindex and disallows crawling, for deployment previews.
 
+## What is static
+
+| Page or feature | Behavior |
+| --- | --- |
+| Production saved date | Complete news, source links, metadata and available image markup in initial HTML; no JavaScript needed to read the news. |
+| Production homepage | JavaScript fetches and validates current JSON, including expiry. Initial HTML has no news. |
+| Calendar | JavaScript loads the date index and creates navigation links after setup. |
+| Hosted legacy `?date=` link | JavaScript redirects to the clean date path. |
+| DEV news | JavaScript refreshes data from public main; generated date HTML is a preview snapshot. |
+
+Production saved pages return HTTP 200, allow crawling and indexing, identify
+their own canonical URLs, and are discoverable through the sitemap advertised
+in robots.txt. This establishes technical eligibility, not evidence that Google
+has crawled or indexed them. Search Console inspection remains a follow-up.
+See [Google's technical requirements](https://developers.google.com/search/docs/essentials/technical).
+
+The website still uses JavaScript, but saved production news does not depend on
+it. Lazy image loading is the browser fetching static files; it does not fetch
+or generate story text. Without JavaScript, the sitemap provides archive
+discovery for crawlers; the page itself has no archive navigation links.
+
 ## Content and presentation
 
 - `public/data` remains the sole source of saved news. Rendering never calls a
@@ -45,7 +66,8 @@ page noindex and disallows crawling, for deployment previews.
 
 - Each saved day has a dated title/description, its own production canonical and
   social URL, and the existing permanent social card.
-- The generated sitemap includes `/` and every indexed saved date. It omits
+- The generated sitemap includes `/` and every saved date in `data/index.json`.
+  This publication index does not track search-engine indexing. The sitemap omits
   `lastmod`: the contract has no reliable correction timestamp, and rebuild time
   must not masquerade as a news update.
 - The homepage still loads current JSON with its existing expiry check. Its

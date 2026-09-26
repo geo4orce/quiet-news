@@ -2,7 +2,8 @@
 
 Production static site and Git-backed daily note. Keep it dependency-free:
 plain HTML/CSS/JS, Node.js 24, no framework or external build dependencies.
-The local saved-page generator is a plain Node script. Avoid em dashes.
+The saved-page generator runs locally and during deployment as a plain Node script.
+Avoid em dashes.
 
 ## Working rules
 
@@ -29,10 +30,14 @@ The local saved-page generator is a plain Node script. Avoid em dashes.
   and story markup lives in `public/index.html`, rendering in `lib/site.mjs`.
   Keep template data attributes and generation markers. JSON is the source of
   truth; never edit generated pages. See `docs/permanent-pages.md` for deployment behavior.
-  `/YYYY-MM-DD/` pages include full content and dated canonicals. Archive
+  Production `/YYYY-MM-DD/` pages include full content and dated canonicals;
+  JavaScript does not fetch or render their news. Archive
   navigation uses the calendar only, with no bottom earlier/Today/later row.
-  The generated sitemap lists all indexed dates and omits
-  unverified lastmod values. Local legacy query/slash redirects use HTTP 308.
+  The generated sitemap lists the homepage and every date in `data/index.json`,
+  not a list of dates confirmed indexed by search engines. Pages are eligible
+  for indexing; never promise actual inclusion or ranking. Omit unverified lastmod.
+  Local legacy query/slash redirects use HTTP 308; hosted query compatibility
+  uses JavaScript. Hosted slashless/index.html aliases retain the clean canonical.
   Hosting serves `dist/` with `404.html`, without a homepage catchall.
 
 - Header: show the original Q mark without the site-name h1.
@@ -49,8 +54,11 @@ The local saved-page generator is a plain Node script. Avoid em dashes.
 
 - On `quietnews.dev`, current, dated and index JSON come from public
   `main` through `raw.githubusercontent.com`, which supports cross-origin reads.
-  DEV's branch-local daily files can expire between code deployments. Production
-  and localhost keep using their own `/data/` files. Preserve validation and
+  DEV's branch-local daily files can expire between code deployments. Its dated
+  HTML is refreshed with JavaScript; new dates absent from the DEV snapshot load
+  through the noindex 404 shell and retain HTTP 404. Keep DEV noindex.
+  Production and localhost fetch current/calendar data from their own `/data/`;
+  saved news is rendered during generation. Preserve validation and
   expiry checks for every host; never hide a real publishing failure as quiet.
 
 - Stories are always expanded, with no story toggle controls.
@@ -70,8 +78,10 @@ The local saved-page generator is a plain Node script. Avoid em dashes.
 - Exact states: current quiet day `Today is quiet. Come back tomorrow.`, saved
   quiet day `Quiet.`, missing past day `Unavailable.`, current New York day or
   future `Not yet.`, load/validation failure `Error.`.
-- Default loads `/data/current.json` with expiry; valid `?date=YYYY-MM-DD`
-  redirects in the browser to its clean path. Saved pages do not expire. Remove malformed date parameters.
+- The homepage requires JavaScript to load `/data/current.json` with expiry;
+  its initial HTML does not include news. Homepage prerendering remains separate
+  work. Valid `?date=YYYY-MM-DD` redirects in the browser to its clean path.
+  Saved pages do not expire. Remove malformed date parameters.
   Check index membership for past dates; missing data is not a quiet result.
 - Calendar enables indexed dates only and stays within indexed months. Its
   latest date links to `/` and is selected on the homepage. Show `Today` linking
