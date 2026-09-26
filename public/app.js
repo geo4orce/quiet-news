@@ -185,7 +185,7 @@ function renderPublication(publication, selectedDate) {
 
 export function publicationDataUrl(path, hostname) {
   // DEV code deploys independently; published news belongs to main.
-  return hostname === "dev.quiet-news.com"
+  return hostname === "quietnews.dev"
     ? `https://raw.githubusercontent.com/geo4orce/quiet-news/main/public${path}`
     : path;
 }

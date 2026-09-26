@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://quiet-news.com/sitemap.xml
+Sitemap: https://quietnews.ai/sitemap.xml

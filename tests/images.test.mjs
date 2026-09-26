@@ -91,7 +91,7 @@ test("image API uses a single bounded JPEG request and never exposes provider er
     json: async () => ({ data: [{ b64_json: Buffer.from("not an image").toString("base64") }] }) }) }));
 });
 
-test("production never fetches images; DEV matches full story content and rejects unsafe manifests", async () => {
+test("production and DEV load matching images and reject unsafe manifests", async () => {
   const id = await storyImageId(story);
   const manifest = { version: 1, edition_date: date, images: { [id]: {
     src: `/images/${date}/${id}.jpg`, alt: "Conceptual illustration", width: 1536, height: 1024
@@ -99,11 +99,18 @@ test("production never fetches images; DEV matches full story content and reject
   let calls = 0;
   const fetcher = async (url) => { calls++; assert.ok(url.startsWith("https://raw.githubusercontent.com/geo4orce/quiet-news/main/public/images/"));
     return { ok: true, json: async () => manifest }; };
-  assert.deepEqual(await loadDailyImages(publication(), { hostname: "quiet-news.com", fetcher }), []);
+  for (const hostname of ["quietnews.ai", "quiet-news.com", "localhost"]) {
+    const result = await loadDailyImages(publication(), { hostname, fetcher: async (url) => {
+      assert.equal(url, `/images/${date}/index.json`);
+      return { ok: true, json: async () => manifest };
+    } });
+    assert.equal(result[0].src, `/images/${date}/${id}.jpg`);
+  }
+  assert.deepEqual(await loadDailyImages(publication([]), { hostname: "quietnews.ai", fetcher }), []);
   assert.equal(calls, 0);
-  assert.ok((await loadDailyImages(publication(), { hostname: "dev.quiet-news.com", fetcher }))[0].src.includes(id));
-  assert.deepEqual(await loadDailyImages(publication([{ ...story, body: "Corrected" }]), { hostname: "dev.quiet-news.com", fetcher }), [null]);
+  assert.ok((await loadDailyImages(publication(), { hostname: "quietnews.dev", fetcher }))[0].src.includes(id));
+  assert.deepEqual(await loadDailyImages(publication([{ ...story, body: "Corrected" }]), { hostname: "quietnews.dev", fetcher }), [null]);
   manifest.images[id].src = "https://untrusted.example/image.jpg";
-  assert.deepEqual(await loadDailyImages(publication(), { hostname: "dev.quiet-news.com", fetcher }), []);
-  assert.deepEqual(await loadDailyImages(publication(), { hostname: "dev.quiet-news.com", fetcher: async () => { throw new Error("offline"); } }), []);
+  assert.deepEqual(await loadDailyImages(publication(), { hostname: "quietnews.dev", fetcher }), []);
+  assert.deepEqual(await loadDailyImages(publication(), { hostname: "quietnews.dev", fetcher: async () => { throw new Error("offline"); } }), []);
 });

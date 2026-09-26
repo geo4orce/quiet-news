@@ -22,10 +22,11 @@ export function validImageManifest(value, date) {
       && image.width === 1536 && image.height === 1024);
 }
 
-export const dailyImagesEnabled = (hostname) => hostname === "dev.quiet-news.com"
+export const dailyImagesEnabled = (hostname) => hostname === "quietnews.dev"
+  || hostname === "quietnews.ai" || hostname === "quiet-news.com"
   || hostname === "localhost" || hostname === "127.0.0.1";
 
-export const imageDataUrl = (path, hostname) => hostname === "dev.quiet-news.com"
+export const imageDataUrl = (path, hostname) => hostname === "quietnews.dev"
   ? `https://raw.githubusercontent.com/geo4orce/quiet-news/main/public${path}` : path;
 
 export async function loadDailyImages(publication, { hostname = globalThis.location?.hostname, fetcher = globalThis.fetch } = {}) {

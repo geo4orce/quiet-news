@@ -23,11 +23,10 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
 
 ## Product and browser
 
-- DEV header trial: show the original Q mark without the site-name h1.
-  The image retains "Quiet News" alternative text. Keep this on `dev` until
-  explicitly approved for production.
+- Header: show the original Q mark without the site-name h1.
+  The image retains "Quiet News" alternative text. Approved for production on 2026-09-26.
 
-- On `dev.quiet-news.com`, current, dated and index JSON come from public
+- On `quietnews.dev`, current, dated and index JSON come from public
   `main` through `raw.githubusercontent.com`, which supports cross-origin reads.
   DEV's branch-local daily files can expire between code deployments. Production
   and localhost keep using their own `/data/` files. Preserve validation and
@@ -40,7 +39,7 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
   image captions; the footer says "AI-powered daily news. Only what earns your
   attention." Sources and footer share the muted color and 0.7 opacity,
   returning to 1 on hover or focus. Missing images must not block text.
-  Daily image generation runs after successful text publication, using a separate private QNP prompt. Images display only on dev.quiet-news.com and localhost during the trial; production must not fetch or render story images. Keep
+  Daily image generation runs after successful text publication, using a separate private QNP prompt. Images display on quietnews.ai, quietnews.dev and localhost; production uses same-origin image files while DEV reads published main images. Keep
   publication data and illustration metadata separate. These reading and
   illustration changes are approved for production; retain the original Q logo.
 
@@ -148,7 +147,7 @@ plain HTML/CSS/JS, Node.js 24, no build system. Avoid em dashes.
   [structured outputs](https://developers.openai.com/api/docs/guides/structured-outputs),
   [background](https://developers.openai.com/api/docs/guides/background).
 
-## Daily image trial
+## Daily images
 
 - jobs/images.mjs owns generation/storage; QNP supplies its private illustration prompt after publish or already-published recovery. Never run images during collection. Quiet days skip all image work.
 - One medium-quality 1536x1024 JPEG per final story, currently gpt-image-1.5. Text is saved/pushed first. Image failure must not block publication.

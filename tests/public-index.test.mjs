@@ -17,10 +17,10 @@ const robots = await readFile(new URL("../public/robots.txt", import.meta.url), 
 test("DEV reads current news and its archive from published main data", () => {
   for (const path of ["/data/current.json", "/data/index.json", "/data/2026-09-12.json"]) {
     assert.equal(
-      publicationDataUrl(path, "dev.quiet-news.com"),
+      publicationDataUrl(path, "quietnews.dev"),
       `https://raw.githubusercontent.com/geo4orce/quiet-news/main/public${path}`
     );
-    for (const hostname of ["quiet-news.com", "www.quiet-news.com", "localhost", undefined]) {
+    for (const hostname of ["quietnews.ai", "www.quietnews.ai", "localhost", undefined]) {
       assert.equal(publicationDataUrl(path, hostname), path);
     }
   }
@@ -106,11 +106,11 @@ test("the sitemap exposes only the canonical homepage", () => {
   const canonical = html.match(/<link rel="canonical" href="([^"]+)">/)?.[1];
   const locations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 
-  assert.equal(canonical, "https://quiet-news.com/");
+  assert.equal(canonical, "https://quietnews.ai/");
   assert.deepEqual(locations, [canonical]);
   assert.doesNotMatch(sitemap, /<lastmod>|\?date=|\/data\//);
   assert.equal(
     robots.replaceAll("\r\n", "\n").trimEnd(),
-    "User-agent: *\nAllow: /\n\nSitemap: https://quiet-news.com/sitemap.xml"
+    "User-agent: *\nAllow: /\n\nSitemap: https://quietnews.ai/sitemap.xml"
   );
 });

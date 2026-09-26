@@ -1,6 +1,6 @@
 # Quiet News
 
-[Quiet News](https://quiet-news.com/) is an AI-powered news filter.
+[Quiet News](https://quietnews.ai/) is an AI-powered news filter.
 Each morning it shares a few things worth your attention from the previous
 New York day, or simply says the day was quiet. No accounts, ads, or endless
 feed. The calendar links the latest date to the homepage and older dates to
@@ -19,9 +19,9 @@ uses the checked-out `public/data` files.
 
 For source stats, run `npm run sources`.
 
-## Image trial
+## Images
 
 The publisher generates optional cartoon illustrations after publishing the news.
-Only DEV (and localhost) displays images during the trial. Images and a dated
+Production, DEV and localhost display images when a matching image is available. Images and a dated
 manifest are stored in public/images; news JSON remains unchanged. Failed or
 uncertain image requests are never automatically resubmitted.
