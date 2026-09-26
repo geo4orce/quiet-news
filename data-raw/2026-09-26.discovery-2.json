@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-26",
+  "batch": 2,
+  "captured_at": "2026-09-26T16:08:27.782Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Eleven people were killed and 30 injured in an explosion near Aman Mela in the Darazinda area of Dera Ismail Khan, Pakistan, according to emergency service Rescue 1122. The Tehreek-e-Taliban Pakistan claimed responsibility for the attack.",
+        "category": "security",
+        "title": "Blast kills 11 in northwestern Pakistan",
+        "event_date": "2026-09-26",
+        "candidate_id": "pakistan-dera-ismail-khan-blast",
+        "geography": "Dera Ismail Khan, Khyber Pakhtunkhwa, Pakistan",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/blast-in-pakistan-s-dera-ismail-khan-kills-11-injures-30"
+          }
+        ]
+      },
+      {
+        "summary": "Hurricane Polo was a Category 5 storm southwest of Mexico on Saturday morning, with maximum sustained winds reported at 160 mph. Forecasters expected it to turn toward Baja California Sur, where hurricane conditions, life-threatening flooding and mudslides were possible on Monday.",
+        "category": "weather",
+        "title": "Category 5 Hurricane Polo approaches Baja California Sur",
+        "event_date": "2026-09-26",
+        "candidate_id": "hurricane-polo-category-five",
+        "geography": "Mexico",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/category-5-hurricane-polo-threatens-mexico-s-coast-landfall-expected-monday"
+          },
+          {
+            "name": "U.S. National Hurricane Center",
+            "url": "https://www.nhc.noaa.gov/text/MIATCAPZ2.shtml"
+          }
+        ]
+      },
+      {
+        "summary": "India's Election Commission ordered a review of its voter-roll software after reporting that internal concerns had been raised about changes that excluded millions of voters. A committee including an independent technology expert will assess whether the software complies with election laws and rules. The commission said its actions were lawful.",
+        "category": "politics",
+        "title": "India orders review of voter-roll software",
+        "event_date": "2026-09-26",
+        "candidate_id": "india-voter-roll-software-review",
+        "geography": "India",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/india-s-election-commission-orders-review-of-voter-roll-changes"
+          }
+        ]
+      },
+      {
+        "summary": "Pope Leo celebrated an outdoor Mass on the Champs-Élysées during his visit to France. The Vatican estimated that about 700,000 people attended, making it the largest event of the four-day tour. Earlier Saturday, he met recently baptized Catholics at the Catholic University of Paris.",
+        "category": "religion",
+        "title": "About 700,000 attend Pope Leo's Paris Mass",
+        "event_date": "2026-09-26",
+        "candidate_id": "pope-leo-paris-mass",
+        "geography": "Paris, France",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/pope-leo-set-for-largest-event-of-france-tour-as-paris-crowds-swell"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-26"
+  },
+  "metadata": {
+    "responseId": "resp_01fed97b90da6438006ab7edca5f8887d29b84d733ed5f09ab",
+    "requestId": "req_c1fd179124d64785992ea5d7e6c480ca",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1782,
+    "inputTokens": 60866,
+    "outputTokens": 2433,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-26",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 53137,
+    "attemptDurationMs": 53137,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
