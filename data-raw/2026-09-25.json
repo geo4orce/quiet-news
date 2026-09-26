@@ -572,6 +572,56 @@
         },
         "observedAt": "2026-09-25T22:07:35.052Z",
         "capturedAt": "2026-09-25T22:08:15.680Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Pakistan strikes 10 sites in Afghanistan",
+            "body": "Pakistan said it struck 10 sites in Afghanistan that it described as drone launch and storage facilities, a day after drones were allegedly used against Pakistan.\n\nAfghanistan’s Taliban government denied launching the drones and said the strikes in Kandahar, Paktia and Khost provinces killed four civilians. The casualty count and the two governments’ competing accounts were not independently verified.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Pakistan%2Bair%2Bstrikes%2Bkill%2B4%2Bcivilians%2Bin%2BAfghanistan%2C%2BKabul%2Bsays/27097848.html"
+              }
+            ]
+          },
+          {
+            "headline": "30-year Treasury yield reaches 22-year high",
+            "body": "The yield on the 30-year U.S. Treasury bond climbed above 5.45%, its highest level since 2004. The benchmark 10-year yield reached about 5.16%. Bond yields rise as prices fall.\n\nThe selloff extended across major government-bond markets as investors weighed strong economic growth, elevated public debt, higher energy costs and inflation risks.",
+            "sources": [
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/u-s-30-year-bond-yield-rises-to-highest-since-2004-as-selloff-deepens-ce785adedd80f12c"
+              }
+            ]
+          },
+          {
+            "headline": "White House restores three outlets’ press access",
+            "body": "The White House reinstated journalists from CNN, MS NOW and Politico after a federal judge ordered their access restored. Some remained barred for several hours before the administration said their badges had been delivered to an entry gate by 9:55 a.m.\n\nThe judge’s temporary restraining order remains in effect for 14 days while the outlets’ lawsuit proceeds.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/White%2BHouse%2Breinstates%2Baccess%2Bto%2BCNN%2C%2BMS%2BNOW%2Band%2BPolitico%2Bfollowing%2Bjudge%27s%2Border/27099231.html"
+              },
+              {
+                "name": "The Guardian",
+                "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "977283e9e7e5607044c958bf6c6de251568588ab4b604a9c3b9ba265320b9069",
+          "claimId": "37e61be0-ea38-4864-a909-3967093577da",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-09-26T07:07:39.229Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-09-26T07:07:39.133Z"
       }
     ],
     "sift": null
