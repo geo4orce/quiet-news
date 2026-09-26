@@ -836,10 +836,10 @@
       "request": {
         "fingerprint": "657599d3bb1a2eff28d8252eb0eab4f5dcc1b843bcf07e3d7cfd8911de155cd2",
         "claimId": "9ed1c97a-fa85-4503-af9c-7d85f7530242",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-09-26T08:07:35.278Z",
-        "responseId": null
+        "responseId": "resp_039f72b254fd3cd9006ab77d4ab85087d28e37b60934ab51b3"
       },
       "result": null
     }
