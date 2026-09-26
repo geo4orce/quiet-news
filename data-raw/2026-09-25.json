@@ -836,12 +836,183 @@
       "request": {
         "fingerprint": "657599d3bb1a2eff28d8252eb0eab4f5dcc1b843bcf07e3d7cfd8911de155cd2",
         "claimId": "9ed1c97a-fa85-4503-af9c-7d85f7530242",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-26T08:07:35.278Z",
         "responseId": "resp_039f72b254fd3cd9006ab77d4ab85087d28e37b60934ab51b3"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "anthropic-pentagon-blacklisting-appeal",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "arcelormittal-ukraine-impairment",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "colombia-rojas-extradition-us",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "india-election-commission-protests",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "iran-nuclear-hormuz-concessions",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "kalshi-state-gambling-regulation-ruling",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "kyiv-drone-strike-sept-25",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "meta-new-mexico-facebook-verdict",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "openai-agent-user-image-leak",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "philippines-china-resupply-accusation",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "philippines-veloso-pardon",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "pope-leo-france-unesco-speech",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "putin-ukraine-peace-proposals-sept-25",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "shinyhunters-peoplesoft-mass-exploitation",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "sri-lanka-judges-term-amendment",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "taiwan-rejects-xi-comments",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "tiktok-alabama-teen-safety-settlement",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "ukraine-drone-attacks-russia-sept-25",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "un-west-bank-settlement-company-list",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-china-optical-transceiver-bill",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-ukraine-russia-uae-meeting-proposal",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "white-house-tv-pool-coverage-resumes",
+              "code": "prior_day_repetition"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The International Organization for Migration said nearly 1.5 million people were internally displaced in Haiti. Almost 80% are now living outside Port-au-Prince.\n\nDisplacement has risen sharply in the Artibonite region as armed groups expand into rural areas. Recent attacks in Kenscoff displaced more than 4,000 people, the UN agency said.",
+              "candidate_id": "haiti-displacement-iom-sept-25",
+              "headline": "Nearly 1.5 million are displaced in Haiti",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/nearly-1-5-million-displaced-in-haiti-as-violence-spreads-un-says"
+                }
+              ]
+            },
+            {
+              "body": "Documents reviewed by Reuters supported hackers’ claims that stolen FBI data included psychiatric and other medical evaluation records belonging to personnel.\n\nThe ShinyHunters group said it obtained two to three terabytes through FBIjobs.gov, but that volume and the breach’s full scope have not been verified. The FBI declined to discuss the records and said it was investigating the reported breach.",
+              "candidate_id": "fbi-shinyhunters-medical-records",
+              "headline": "FBI breach exposed personnel medical records",
+              "sources": [
+                {
+                  "name": "Reuters via Investing.com",
+                  "url": "https://www.investing.com/news/world-news/exclusiveshinyhunters-hackers-say-they-stole-psychiatric-and-medical-records-of-fbi-staff-4918115"
+                }
+              ]
+            },
+            {
+              "body": "The United Arab Emirates, Oman and Iraq barred Iranian airlines in response to new U.S. sanctions, restricting service by Iranian carriers to three neighboring countries.\n\nAn adviser to Iran’s supreme leader threatened that countries maintaining restrictions could lose access to flights and airport services. The measures came amid continuing regional conflict and escalating Houthi attacks on Saudi Arabia.",
+              "candidate_id": "iran-airline-regional-restrictions",
+              "headline": "Three countries bar Iranian airlines",
+              "sources": [
+                {
+                  "name": "Reuters via Investing.com",
+                  "url": "https://www.investing.com/news/world-news/allies-unite-behind-saudi-arabia-as-houthis-step-up-attacks-4916528"
+                }
+              ]
+            },
+            {
+              "body": "Internet and telephone service was disrupted in Ethiopia’s Tigray region amid renewed fighting involving federal and Tigrayan forces. Sources gave conflicting accounts of responsibility for the shutdown.\n\nThe extent of the combat remained unclear. Ethiopia’s military said hundreds of opposing fighters had been killed or wounded, but Reuters could not independently confirm that claim.",
+              "candidate_id": "tigray-telecom-disruption-fighting",
+              "headline": "Tigray communications cut amid renewed fighting",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/internet-and-phone-network-disrupted-in-ethiopia-s-war-hit-tigray-region"
+                }
+              ]
+            },
+            {
+              "body": "The U.S. Supreme Court suspended lower-court decisions that would have required Missouri to use a congressional map redrawn by Republicans for the November midterm elections.\n\nThe action was the court’s third intervention in the dispute and again blocked the map, which dismantled a Democratic-held Kansas City district. Litigation over the districts continues.",
+              "candidate_id": "us-supreme-court-missouri-map-sept-25",
+              "headline": "Supreme Court again blocks Missouri congressional map",
+              "sources": [
+                {
+                  "name": "Reuters via Investing.com",
+                  "url": "https://www.investing.com/news/politics-news/us-supreme-court-bars-republicandrawn-map-in-missouri-for-third-time-4918244"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_039f72b254fd3cd9006ab77d4ab85087d28e37b60934ab51b3",
+          "requestId": "req_39f372803be04a9489a1c709f638faa5",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 3074,
+          "inputTokens": 6361,
+          "outputTokens": 4284,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-25",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 74445,
+          "attemptDurationMs": 74445,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
