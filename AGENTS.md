@@ -43,11 +43,12 @@ Avoid em dashes.
 - Header: show the original Q mark without the site-name h1.
   The image retains "Quiet News" alternative text. Approved for production on 2026-09-26.
 
-- Accessibility work targets AA, with AAA text contrast where feasible.
-  Keep reading and control text at least 7:1 against its displayed background;
-  source/footer text must not be faded with transparency. The Q logo is unchanged.
+- Accessibility work targets AA.
+  Keep reading and control text at least 4.5:1 against its displayed background,
+  except source/footer text, whose lower contrast is explicitly approved.
+  The Q logo is unchanged.
   Saved days use a date h1 and story h2 headings. Retain the skip link and native
-  calendar links/buttons. Full AA/AAA conformance has not yet been audited.
+  calendar links/buttons. Full AA conformance has not yet been audited.
   News comes first: saved text is in HTML; optional illustrations are lazy and
   low priority; calendar work follows a rendering opportunity. Keep the small
   reading stylesheet early and preserve homepage expiry validation.
