@@ -137,6 +137,7 @@ article {
 }
 
 article:last-of-type { border-bottom: 0; }
+article:not(:last-of-type) { padding-bottom: 32px; }
 
 h2 {
   margin: 0;
