@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-27",
+  "batch": 1,
+  "captured_at": "2026-09-27T10:08:24.249Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "British police arrested several men on suspicion of explosives offences during a major incident near RAF Fairford, a base used by U.S. forces in southwest England. Army bomb-disposal specialists examined several vehicles, nearby homes were evacuated, and police said they believed the incident was contained.",
+        "category": "security",
+        "title": "Explosives arrests prompt evacuations near RAF Fairford",
+        "event_date": "2026-09-27",
+        "candidate_id": "raf-fairford-explosives-arrests",
+        "geography": "United Kingdom",
+        "sources": [
+          {
+            "name": "Reuters via KWSN",
+            "url": "https://kwsn.com/2026/09/27/security-increased-at-us-fairford-air-base-in-england/"
+          }
+        ]
+      },
+      {
+        "summary": "Catania airport operator SAC extended the suspension of all flight operations until 21:59 GMT Sunday because of volcanic ash from Mount Etna. Passengers were advised to confirm their flight status with airlines before traveling to the Sicilian airport.",
+        "category": "transportation",
+        "title": "Etna ash keeps Catania flights suspended through Sunday",
+        "event_date": "2026-09-27",
+        "candidate_id": "catania-etna-flight-suspension",
+        "geography": "Italy",
+        "sources": [
+          {
+            "name": "Reuters via KWSN",
+            "url": "https://kwsn.com/2026/09/27/italys-catania-airport-keeps-flights-suspended-until-midnight-due-to-etna-ash/"
+          },
+          {
+            "name": "LaPresse",
+            "url": "https://uk.lapresse.it/news-en/2026/09/26/etna-all-flights-from-catania-have-been-suspended-until-12-noon-tomorrow/"
+          }
+        ]
+      },
+      {
+        "summary": "Pope Leo XIV urged the Catholic Church to acknowledge its failings and address wounds caused within the institution during a visit to Lourdes. In an earlier meeting with French bishops, he explicitly discussed abuse of minors by clergy and called for continued vigilance and stronger safeguarding. A meeting with French abuse survivors was scheduled for later Sunday.",
+        "category": "religion",
+        "title": "Pope urges French Church to confront abuse failings",
+        "event_date": "2026-09-27",
+        "candidate_id": "pope-leo-lourdes-abuse-address",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "Reuters via KWSN",
+            "url": "https://kwsn.com/2026/09/27/pope-leo-urges-church-to-face-failings-before-meeting-french-abuse-survivors/"
+          },
+          {
+            "name": "The Holy See",
+            "url": "https://www.vatican.va/content/leo-xiv/en/travels/2026/documents/francia-25-28settembre2026.html"
+          }
+        ]
+      },
+      {
+        "summary": "Iranian army spokesperson Mohammad Akraminia said the country’s armed forces were prepared for renewed U.S. attacks and warned that another strike would cause greater damage to the United States. Army commander Amir Hatami separately said Iran would not accept being unable to trade while other countries used regional waterways.",
+        "category": "conflict",
+        "title": "Iranian army says it is prepared for renewed U.S. attacks",
+        "event_date": "2026-09-27",
+        "candidate_id": "iran-army-us-attack-warning",
+        "geography": "Iran",
+        "sources": [
+          {
+            "name": "Reuters via KWSN",
+            "url": "https://kwsn.com/2026/09/27/irans-army-voices-readiness-for-potential-renewed-us-attack/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-27"
+  },
+  "metadata": {
+    "responseId": "resp_04cf2783683f4b7b006ab8eaf0fb8087d2a13308512e331793",
+    "requestId": "req_c08c71260d6143319a922eae99f93086",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1728,
+    "inputTokens": 51552,
+    "outputTokens": 2463,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-27",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 42827,
+    "attemptDurationMs": 42827,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
