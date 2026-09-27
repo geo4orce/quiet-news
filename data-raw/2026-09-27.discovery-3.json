@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-27",
+  "batch": 3,
+  "captured_at": "2026-09-27T22:08:38.631Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "French National Rally leaders said the party and right-wing allies won enough seats in Sunday’s indirect Senate elections to establish their own caucus for the first time. A caucus requires at least 10 senators; the party did not immediately provide its final seat count. Of the Senate’s 348 seats, 178 were contested.",
+        "category": "politics",
+        "title": "French National Rally says it secured Senate caucus",
+        "event_date": "2026-09-27",
+        "candidate_id": "france-national-rally-senate-caucus",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/french-farright-leaders-say-they-have-won-enough-seats-to-form-senate-caucus-4919084"
+          }
+        ]
+      },
+      {
+        "summary": "About 2,000 protesters blocked an Orange Order parade from entering the predominantly Catholic Garvaghy Road area of Portadown after authorities permitted a limited march along a route barred for nearly 30 years. The parade did not begin, police positioned themselves between the groups, and the British and Irish prime ministers called for calm.",
+        "category": "politics",
+        "title": "Protesters block contentious Portadown parade",
+        "event_date": "2026-09-27",
+        "candidate_id": "portadown-orange-order-parade-blocked",
+        "geography": "Northern Ireland, United Kingdom",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/protesters-block-orange-order-from-marching-through-catholic-area-in-northern-ireland-4919060"
+          }
+        ]
+      },
+      {
+        "summary": "Russian attacks killed two people near a family support center in Sumy and a driver in Kharkiv, Ukrainian officials said. Strikes in Kyiv wounded people and damaged residential and communications infrastructure. Kyivstar said its headquarters was hit without casualties, while Ukrainian officials said data centers were also struck. Russia said it hit a Vodafone Ukraine data center; the company did not immediately comment.",
+        "category": "conflict",
+        "title": "Russian attacks kill three and hit Ukrainian communications sites",
+        "event_date": "2026-09-27",
+        "candidate_id": "ukraine-russian-attacks-telecom-sites",
+        "geography": "Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/russian-attacks-kills-three-in-ukrainian-cities-strikes-hit-kyiv-districts-officials-say-4919053"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/russia-hits-ukraines-largest-mobile-provider-strikes-data-centres-4919040"
+          }
+        ]
+      },
+      {
+        "summary": "Hurricane Polo weakened to Category 3, with maximum sustained winds of 125 mph at 11 a.m. EDT, as it moved toward Baja California Sur. Forecasters expected further weakening before a possible Monday landfall, while heavy rain, dangerous surf and strong winds had already prompted evacuations, port closures and school cancellations.",
+        "category": "weather",
+        "title": "Hurricane Polo weakens to Category 3 near Baja California",
+        "event_date": "2026-09-27",
+        "candidate_id": "hurricane-polo-category-3",
+        "geography": "Mexico",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/category-3-hurricane-polo-threatens-mexicos-coast-landfall-expected-monday-4919050"
+          }
+        ]
+      },
+      {
+        "summary": "South African police searched Sunday for suspects in two separate shootings that killed 27 people near Johannesburg and Cape Town. Police said 17 people were killed and 15 injured at a tavern in Wedela township on Saturday evening. Authorities were investigating possible links to an illegal-mining turf dispute in one attack and a business rivalry in the other.",
+        "category": "crime",
+        "title": "South African police hunt suspects after two mass shootings",
+        "event_date": "2026-09-27",
+        "candidate_id": "south-africa-two-mass-shootings-police-hunt",
+        "geography": "South Africa",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/south-africa-police-hunt-suspects-after-27-killed-in-two-separate-shootings-4918899"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-27"
+  },
+  "metadata": {
+    "responseId": "resp_0ac0162d9fc66bc9006ab993b4b25c87d2a016a21add8b923e",
+    "requestId": "req_bbfde90ae7a749d2b6f7308ff5668a65",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2136,
+    "inputTokens": 55812,
+    "outputTokens": 3048,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-27",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 54028,
+    "attemptDurationMs": 54028,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
