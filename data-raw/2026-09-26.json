@@ -409,13 +409,93 @@
         "request": {
           "fingerprint": "3379d095ddfae6da8346ff72590dcfaf8b48f549f9e2fb07ebaaa42a59f7a16b",
           "claimId": "f740d124-a3b8-410a-8c8e-0e564414452f",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-27T07:07:40.197Z",
           "responseId": "resp_078d6643ec001da5006ab8c0bfc6a487d2b5d8719d7e180ed4"
         },
-        "result": null,
-        "observedAt": "2026-09-27T07:07:40.096Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Hurricane Polo weakened slightly on Saturday. The National Hurricane Center estimated maximum sustained winds of 155 mph at 1500 UTC, below Category 5 strength, while forecasting continued weakening as the storm approached Baja California Sur. Forecasters still expected dangerous winds, flooding and mudslides, with landfall possible Monday.",
+                "category": "weather",
+                "title": "Hurricane Polo weakens while approaching Baja California Sur",
+                "event_date": "2026-09-26",
+                "candidate_id": "hurricane-polo-category-five",
+                "geography": "Mexico",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/category-5-hurricane-polo-threatens-mexico-s-coast-landfall-expected-monday"
+                  },
+                  {
+                    "name": "U.S. National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCMEP2%2Bhtml/261449.shtml"
+                  },
+                  {
+                    "name": "U.S. National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/text/refresh/MIATCDEP2%2Bshtml/261451.shtml"
+                  }
+                ]
+              },
+              {
+                "summary": "A nor’easter caused coastal flooding and power outages across the northeastern United States. More than 100,000 homes and businesses lost power at the storm’s peak Saturday, with about 73,000 still without service late that evening. FlightAware reported 445 cancellations and 3,016 delays involving U.S. airports.",
+                "category": "weather",
+                "title": "Nor’easter disrupts power and flights in US Northeast",
+                "event_date": "2026-09-26",
+                "candidate_id": "us-northeast-noreaster-outages",
+                "geography": "Northeastern United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/commodities-news/noreaster-leaves-over-100000-customers-without-power-in-us-northeast-over-400-flights-canceled-4918608"
+                  }
+                ]
+              },
+              {
+                "summary": "Four people died when a helicopter crashed and caught fire near Sainte-Brigide-d’Iberville, southeast of Montreal, Quebec provincial police said. The crash occurred at about 2:30 p.m. Eastern time, and all four people aboard were pronounced dead. Canada’s Transportation Safety Board deployed investigators.",
+                "category": "accident",
+                "title": "Four killed in Quebec helicopter crash",
+                "event_date": "2026-09-26",
+                "candidate_id": "quebec-helicopter-crash-four-killed",
+                "geography": "Quebec, Canada",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/helicopter-crash-kills-four-in-quebec-4918653"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-26"
+          },
+          "metadata": {
+            "responseId": "resp_078d6643ec001da5006ab8c0bfc6a487d2b5d8719d7e180ed4",
+            "requestId": "req_19457d5d86fe4370b203fd3a7f48e9e2",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 3179,
+            "inputTokens": 77298,
+            "outputTokens": 3763,
+            "webSearchCalls": 11,
+            "stage": "discovery",
+            "targetDate": "2026-09-26",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 58204,
+            "attemptDurationMs": 58204,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-09-27T07:07:40.096Z",
+        "capturedAt": "2026-09-27T07:08:38.403Z"
       }
     ],
     "sift": null
