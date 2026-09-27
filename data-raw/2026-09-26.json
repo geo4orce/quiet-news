@@ -562,12 +562,86 @@
       "request": {
         "fingerprint": "07daa7cafbc296009bffb5b1c493bf5b270123687fedbcdd7a6764403bfe0bba",
         "claimId": "54b3202b-9ee6-48ea-b255-d3d6e74cc7d7",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-27T08:07:48.100Z",
         "responseId": "resp_038e03a2adb28e90006ab8ced7de1087d2a6545a4bacc39511"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "india-voter-roll-software-review",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "pakistan-dera-ismail-khan-blast",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "pope-leo-paris-mass",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "quebec-helicopter-crash-four-killed",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Hurricane Polo’s maximum sustained winds fell to 155 mph Saturday as it approached Baja California Sur. Forecasters expected further weakening, but warned that dangerous winds, flooding and mudslides remained possible.\n\nLandfall could occur Monday, though the storm’s path and strength may still change.",
+              "candidate_id": "hurricane-polo-category-five",
+              "headline": "Polo nears Baja California with 155 mph winds",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/category-5-hurricane-polo-threatens-mexico-s-coast-landfall-expected-monday"
+                },
+                {
+                  "name": "U.S. National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCMEP2%2Bhtml/261449.shtml"
+                },
+                {
+                  "name": "U.S. National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/text/refresh/MIATCDEP2%2Bshtml/261451.shtml"
+                }
+              ]
+            },
+            {
+              "body": "A nor’easter caused coastal flooding and widespread disruption across the northeastern United States. More than 100,000 homes and businesses lost electricity at the storm’s peak Saturday, and about 73,000 remained without power late that evening.\n\nFlightAware recorded 445 cancellations and 3,016 delays involving U.S. airports.",
+              "candidate_id": "us-northeast-noreaster-outages",
+              "headline": "Nor’easter cuts power, disrupts Northeast flights",
+              "sources": [
+                {
+                  "name": "Reuters via Investing.com",
+                  "url": "https://www.investing.com/news/commodities-news/noreaster-leaves-over-100000-customers-without-power-in-us-northeast-over-400-flights-canceled-4918608"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_038e03a2adb28e90006ab8ced7de1087d2a6545a4bacc39511",
+          "requestId": "req_c3f0a497cf6547998145766525faef34",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 903,
+          "inputTokens": 2597,
+          "outputTokens": 1370,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-26",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 27375,
+          "attemptDurationMs": 27375,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
