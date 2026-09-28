@@ -23,13 +23,85 @@
         "request": {
           "fingerprint": "254314a84682622548474b83b386be5c3194becd0cf95085685ff0ec28e0d3eb",
           "claimId": "e4e240c7-7872-403a-a20c-abb16a85bba4",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-28T10:07:40.095Z",
           "responseId": "resp_009def3f94fc305f006aba3c6fdbe887d2aa8d8bb486ace8c2"
         },
-        "result": null,
-        "observedAt": "2026-09-28T10:07:40.001Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Ukraine's military struck Russian oil facilities in the Krasnodar region, President Volodymyr Zelenskyy said Monday. The Reuters report did not identify the facilities or provide an independent damage assessment.",
+                "category": "conflict",
+                "title": "Ukraine says it struck oil facilities in Russia's Krasnodar region",
+                "event_date": "2026-09-28",
+                "candidate_id": "ukraine-strikes-krasnodar-oil-facilities",
+                "geography": "Krasnodar Krai, Russia",
+                "sources": [
+                  {
+                    "name": "Reuters via Devdiscourse",
+                    "url": "https://www.devdiscourse.com/article/international/3983074-ukraine-hits-russian-oil-facilities-in-krasnodar-region-zelenskiy-says"
+                  }
+                ]
+              },
+              {
+                "summary": "China's Commerce Ministry confirmed that a two-month extension of the country's trade truce with the United States will run through January 10. The ministry said the extension gives both sides time to assess implementation of their arrangement and continue economic and trade discussions.",
+                "category": "trade",
+                "title": "China confirms extension of US trade truce through January 10",
+                "event_date": "2026-09-28",
+                "candidate_id": "china-confirms-us-trade-truce-extension",
+                "geography": "China; United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://ca.investing.com/news/commodities-news/china-says-us-trade-truce-extension-creates-space-to-advance-talks-4855005"
+                  }
+                ]
+              },
+              {
+                "summary": "Preliminary Kpler data released Monday showed September crude exports from major Middle Eastern producers rising to 12.8 million barrels per day, the highest level since the Iran war began in February. Saudi Arabia was on track to export about 5.4 million barrels per day, up from 2.446 million in August, though total regional exports remained below February levels.",
+                "category": "energy",
+                "title": "Middle East crude exports rebound in September",
+                "event_date": "2026-09-28",
+                "candidate_id": "mideast-september-crude-exports-rebound",
+                "geography": "Middle East",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://za.investing.com/news/commodities-news/mideast-oil-exports-rebound-in-september-as-saudi-arabia-boosts-shipments-4479602"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-28"
+          },
+          "metadata": {
+            "responseId": "resp_009def3f94fc305f006aba3c6fdbe887d2aa8d8bb486ace8c2",
+            "requestId": "req_a9522bd8484045da8ca7586f967a8dd1",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2365,
+            "inputTokens": 58545,
+            "outputTokens": 2801,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-28",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 58458,
+            "attemptDurationMs": 58458,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-09-28T10:07:40.001Z",
+        "capturedAt": "2026-09-28T10:08:38.554Z"
       }
     ],
     "sift": null
