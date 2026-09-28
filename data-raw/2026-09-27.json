@@ -566,12 +566,99 @@
       "request": {
         "fingerprint": "3ea3d737d880803971c45be6fa41eb4cd8d2dde37c34cea538732bc03a5e5380",
         "claimId": "4bcc7cce-265a-4398-b3f7-9127b7de2e12",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-28T08:07:40.217Z",
         "responseId": "resp_0e01493cf848276a006aba204fe93c87d29ef0b0e3c5963851"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "catania-etna-flight-suspension",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "france-national-rally-senate-caucus",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "hurricane-nolo-major-hawaii",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "hurricane-polo-category-3",
+              "code": "prior_day_repetition"
+            },
+            {
+              "candidate_id": "iran-army-us-attack-warning",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "openai-pauses-training-agent-incidents",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "pope-leo-lourdes-abuse-address",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "portadown-orange-order-parade-blocked",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "raf-fairford-explosives-arrests",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "south-korea-ukraine-pow-disclosure-apology",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "switzerland-neutrality-initiative-rejected",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ukraine-russian-attacks-telecom-sites",
+              "code": "incremental_update"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Two separate shootings near Johannesburg and Cape Town killed 27 people, and South African police were searching for suspects Sunday.\n\nOne attack at a tavern in Wedela township killed 17 people and injured 15 on Saturday evening. Authorities were investigating whether an illegal-mining turf dispute was behind one shooting and a business rivalry was behind the other.",
+              "candidate_id": "south-africa-two-mass-shootings-police-hunt",
+              "headline": "Two shootings in South Africa kill 27",
+              "sources": [
+                {
+                  "name": "Reuters via Investing.com",
+                  "url": "https://www.investing.com/news/world-news/south-africa-police-hunt-suspects-after-27-killed-in-two-separate-shootings-4918899"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0e01493cf848276a006aba204fe93c87d29ef0b0e3c5963851",
+          "requestId": "req_39184a61bcdf4fc08784723fc5c12355",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 965,
+          "inputTokens": 3468,
+          "outputTokens": 1372,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-27",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 27256,
+          "attemptDurationMs": 27256,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
