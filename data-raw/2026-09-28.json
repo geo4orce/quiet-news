@@ -121,13 +121,121 @@
         "request": {
           "fingerprint": "a0bb86cb572edab335b925ae53c436cfbc20ca9173dc7fc4c41f633a86726462",
           "claimId": "f620cc4c-c5f4-439b-b048-8076d9c94b5b",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-28T16:07:41.907Z",
           "responseId": "resp_0114d2c6ac2177bd006aba90d1c4c487d2b4424f9bf073d610"
         },
-        "result": null,
-        "observedAt": "2026-09-28T16:07:41.868Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "South Korea's military said preliminary findings indicated that blasts in the Demilitarized Zone on September 21 were highly likely caused by a North Korean mine. Three South Korean soldiers were injured, two seriously. The military said it would hold North Korea accountable and take corresponding measures if the finding is confirmed.",
+                "category": "security",
+                "title": "South Korea says North Korean mine likely caused DMZ blast",
+                "event_date": "2026-09-28",
+                "candidate_id": "south-korea-dmz-blast-north-korean-mine",
+                "geography": "Korean Demilitarized Zone",
+                "sources": [
+                  {
+                    "name": "Yonhap News Agency",
+                    "url": "https://en.yna.co.kr/view/AEN20260928011900315?section=national%2Fdefense"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/South%2BKorean%2Bmilitary%3A%2B%27Highly%2Blikely%27%2BNorth%2BKorean%2Bmine%2Binjured%2Bsoldiers%2Bin%2BDMZ/27110644.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Qatari mediators were expected to hold separate talks with Iranian Foreign Minister Abbas Araqchi and the United States on Monday or Tuesday, an official briefed on the negotiations told Reuters. The discussions were expected to concern an amended version of Iran's proposal for reopening the Strait of Hormuz and resuming broader negotiations.",
+                "category": "diplomacy",
+                "title": "Qatari mediators plan separate US-Iran talks",
+                "event_date": "2026-09-28",
+                "candidate_id": "qatar-plans-separate-us-iran-talks",
+                "geography": "United States; Iran; Qatar",
+                "sources": [
+                  {
+                    "name": "Reuters via Yahoo",
+                    "url": "https://currently.att.yahoo.com/att/us-iran-set-hold-separate-134649923.html"
+                  }
+                ]
+              },
+              {
+                "summary": "At least 33 people were killed and 36 injured in a Myanmar military airstrike near a market in Kyauktaw, Rakhine state, according to the Arakan Army and a local aid worker cited by Reuters. Reuters attributed the attack to the military but did not report an immediate response from the junta.",
+                "category": "conflict",
+                "title": "Airstrike reportedly kills at least 33 in Myanmar's Rakhine state",
+                "event_date": "2026-09-28",
+                "candidate_id": "myanmar-kyauktaw-airstrike-kills-33",
+                "geography": "Kyauktaw, Rakhine State, Myanmar",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/28/at-least-33-people-killed-in-western-myanmar-airstrike-rebel-group-and-aid-worker-say"
+                  }
+                ]
+              },
+              {
+                "summary": "Thailand's Constitutional Court dismissed a petition challenging the legality of the February general election. The court ruled that identifying codes printed on ballot papers did not violate voter secrecy. The election was won by Prime Minister Anutin Charnvirakul's Bhumjaithai Party.",
+                "category": "politics",
+                "title": "Thai court rejects challenge to 2026 general election",
+                "event_date": "2026-09-28",
+                "candidate_id": "thai-court-rejects-election-challenge",
+                "geography": "Thailand",
+                "sources": [
+                  {
+                    "name": "Reuters via Black News",
+                    "url": "https://www.blacknews.uk/thai-court-dismisses-petition-challenging-legality-of-2026-election"
+                  },
+                  {
+                    "name": "Reuters via Devdiscourse",
+                    "url": "https://www.devdiscourse.com/article/international/3983209-reuters-world-news-summary"
+                  }
+                ]
+              },
+              {
+                "summary": "South Korea's Foreign Ministry summoned Ukraine's acting ambassador to protest Kyiv's disclosure that captured North Korean soldiers had been transferred to South Korea. Seoul said the disclosure breached an agreement to keep the transfer confidential and requested an official explanation and apology.",
+                "category": "diplomacy",
+                "title": "South Korea summons Ukrainian envoy over POW-transfer disclosure",
+                "event_date": "2026-09-28",
+                "candidate_id": "south-korea-summons-ukraine-envoy-pow-disclosure",
+                "geography": "South Korea; Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Devdiscourse",
+                    "url": "https://www.devdiscourse.com/article/international/3983209-reuters-world-news-summary"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-28"
+          },
+          "metadata": {
+            "responseId": "resp_0114d2c6ac2177bd006aba90d1c4c487d2b4424f9bf073d610",
+            "requestId": "req_49f6c1ca49cc449290a5c1b37b0cf944",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1465,
+            "inputTokens": 52797,
+            "outputTokens": 2352,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-28",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 60933,
+            "attemptDurationMs": 60933,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-28T16:07:41.868Z",
+        "capturedAt": "2026-09-28T16:08:42.841Z"
       }
     ],
     "sift": null
