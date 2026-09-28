@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-28",
+  "batch": 3,
+  "captured_at": "2026-09-28T22:08:39.291Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "China's Commerce Ministry confirmed that a two-month extension of the country's trade truce with the United States will run through January 10. The two countries also agreed to reduce tariffs on $60 billion of bilateral trade, split evenly between lists of U.S. and Chinese goods, although Reuters reported no timetable for implementing the reductions.",
+        "category": "trade",
+        "title": "China confirms US trade-truce extension and tariff-cut agreement",
+        "event_date": "2026-09-28",
+        "candidate_id": "china-confirms-us-trade-truce-extension",
+        "geography": "China; United States",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/China%2C%2BUS%2Bagree%2Btariff%2Bcuts%2Bon%2B%2460%2Bbillion%2Bof%2Bgoods%2Bincluding%2Bagriculture%2C%2Bhousehold%2Bitems/27108837.html"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://ca.investing.com/news/commodities-news/china-says-us-trade-truce-extension-creates-space-to-advance-talks-4855005"
+          }
+        ]
+      },
+      {
+        "summary": "Thirteen people were killed in a fire at a pyrotechnics factory in Kubrinsk in Russia's Yaroslavl region, TASS reported, citing emergency services. The fire engulfed two buildings, and authorities opened a criminal investigation into alleged violations of industrial-safety regulations.",
+        "category": "disaster",
+        "title": "Fire at Russian pyrotechnics factory kills 13",
+        "event_date": "2026-09-28",
+        "candidate_id": "yaroslavl-pyrotechnics-factory-fire",
+        "geography": "Kubrinsk, Yaroslavl Oblast, Russia",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/28/thirteen-killed-in-fire-at-pyrotechnics-factory-in-russia-s-yaroslavl-region-tass-reports"
+          }
+        ]
+      },
+      {
+        "summary": "A court in Rome convicted three Egyptian security officials of involvement in the 2016 kidnapping and killing of Italian doctoral researcher Giulio Regeni and sentenced each to 10 years in prison. A fourth defendant was acquitted. The defendants were tried in absentia.",
+        "category": "justice",
+        "title": "Italian court convicts three Egyptian officials in Giulio Regeni case",
+        "event_date": "2026-09-28",
+        "candidate_id": "italy-regeni-case-verdict",
+        "geography": "Italy; Egypt",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/28/italian-court-convicts-three-egyptians-over-regeni-murder-acquits-fourth"
+          },
+          {
+            "name": "The New Arab",
+            "url": "https://www.newarab.com/news/italian-court-convicts-three-egyptians-giulio-regeni-case"
+          }
+        ]
+      },
+      {
+        "summary": "Russian draft budget documents reviewed by Reuters call for 17.1 trillion roubles in defense spending in 2027, about 27% above the amount previously budgeted. The documents also raise the estimated 2026 budget deficit to 3.2% of gross domestic product. The draft had not yet been submitted to parliament, which was expected by October 1.",
+        "category": "government",
+        "title": "Russian draft budget raises planned 2027 defense spending",
+        "event_date": "2026-09-28",
+        "candidate_id": "russia-draft-budget-defense-spending-2027",
+        "geography": "Russia",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Exclusive-Russia%2Braises%2B2027%2Bmilitary%2Bspending%2Bby%2B27%25%2C%2Bbudget%2Bdocuments%2Bshow/27113318.html"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. Transportation Department finalized vehicle fuel-economy standards requiring a fleetwide average of 34.9 miles per gallon by 2031, down from the prior 50.4-mpg requirement. Department estimates said the rule would lower manufacturers' compliance costs but increase lifetime fuel costs and gasoline consumption compared with the superseded standards.",
+        "category": "policy",
+        "title": "US finalizes lower vehicle fuel-economy standards",
+        "event_date": "2026-09-28",
+        "candidate_id": "us-finalizes-lower-fuel-economy-standards",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://ca.investing.com/news/stock-market-news/us-finalizes-new-lower-fuel-economy-standards-in-boost-for-gaspowered-vehicles-4856498"
+          }
+        ]
+      },
+      {
+        "summary": "U.S. District Judge Amir Ali blocked the Trump administration from withholding portions of federal counterterrorism grants unless state and local governments adopted administration-backed election procedures. The judge ruled that Congress had not authorized the grant programs to be conditioned on those election-administration changes.",
+        "category": "justice",
+        "title": "US judge blocks election conditions on counterterrorism grants",
+        "event_date": "2026-09-28",
+        "candidate_id": "us-judge-blocks-election-grant-conditions",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via WSAU",
+            "url": "https://wsau.com/2026/09/28/judge-blocks-trump-from-tying-anti-terrorism-grants-to-election-changes/"
+          },
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Judge%2Bblocks%2BTrump%2Bfrom%2Btying%2Banti-terrorism%2Bgrants%2Bto%2Belection%2Bchanges/27112713.html"
+          }
+        ]
+      },
+      {
+        "summary": "Pennsylvania reported 68 additional measles infections since September 23, bringing the state's outbreak total to 903, according to state health department data. Hospitalizations rose to 176 from 164, with Lancaster County remaining the state's hardest-hit area.",
+        "category": "health",
+        "title": "Pennsylvania measles outbreak exceeds 900 cases",
+        "event_date": "2026-09-28",
+        "candidate_id": "pennsylvania-measles-cases-exceed-900",
+        "geography": "Pennsylvania, United States",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Pennsylvania%2Bmeasles%2Bcases%2Bcross%2B900%2Bas%2Boutbreak%2Bgrows/27113739.html"
+          }
+        ]
+      },
+      {
+        "summary": "India announced that Trade Minister Piyush Goyal would visit the United States from September 29 through October 5 for talks intended to advance a bilateral trade agreement and finalize an interim deal. The government said he would also attend a G20 trade ministers' meeting in Wisconsin.",
+        "category": "trade",
+        "title": "India announces US visit for trade-deal negotiations",
+        "event_date": "2026-09-28",
+        "candidate_id": "india-announces-us-trade-talks-visit",
+        "geography": "India; United States",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://ca.marketscreener.com/news/india-trade-minister-to-visit-us-for-deal-talks-new-delhi-says-ce785adcde8bf323"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-28"
+  },
+  "metadata": {
+    "responseId": "resp_0fa68dc51ce31d58006abae533520887d2bd613fad2551d24a",
+    "requestId": "req_4adbfe2e59c342a5ad8697d4f979e31d",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1679,
+    "inputTokens": 58699,
+    "outputTokens": 3156,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-28",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 55631,
+    "attemptDurationMs": 55631,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
