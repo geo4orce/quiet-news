@@ -406,6 +406,50 @@
         },
         "observedAt": "2026-09-27T22:07:44.557Z",
         "capturedAt": "2026-09-27T22:08:38.631Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Polo nears Baja California with 155 mph winds",
+            "body": "Hurricane Polo’s maximum sustained winds fell to 155 mph Saturday as it approached Baja California Sur. Forecasters expected further weakening, but warned that dangerous winds, flooding and mudslides remained possible.\n\nLandfall could occur Monday, though the storm’s path and strength may still change.",
+            "sources": [
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/category-5-hurricane-polo-threatens-mexico-s-coast-landfall-expected-monday"
+              },
+              {
+                "name": "U.S. National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCMEP2%2Bhtml/261449.shtml"
+              },
+              {
+                "name": "U.S. National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/text/refresh/MIATCDEP2%2Bshtml/261451.shtml"
+              }
+            ]
+          },
+          {
+            "headline": "Nor’easter cuts power, disrupts Northeast flights",
+            "body": "A nor’easter caused coastal flooding and widespread disruption across the northeastern United States. More than 100,000 homes and businesses lost electricity at the storm’s peak Saturday, and about 73,000 remained without power late that evening.\n\nFlightAware recorded 445 cancellations and 3,016 delays involving U.S. airports.",
+            "sources": [
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/commodities-news/noreaster-leaves-over-100000-customers-without-power-in-us-northeast-over-400-flights-canceled-4918608"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "88bad94a25e5ff6728d461b81bb965725a0e64ddde7d79373f3bf7c99f015578",
+          "claimId": "676204f6-d7ce-41ee-b42e-0be0e0dc8586",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-09-28T07:07:43.328Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-09-28T07:07:43.202Z"
       }
     ],
     "sift": null
