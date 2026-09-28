@@ -524,6 +524,54 @@
         "capturedAt": "2026-09-28T07:09:08.882Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "01b28a0cf84d0a704ef0355882b1c7f6009b6feca582f387d48d8d6ab692ead8",
+      "priorStories": [
+        {
+          "headline": "Polo nears Baja California with 155 mph winds",
+          "body": "Hurricane Polo’s maximum sustained winds fell to 155 mph Saturday as it approached Baja California Sur. Forecasters expected further weakening, but warned that dangerous winds, flooding and mudslides remained possible.\n\nLandfall could occur Monday, though the storm’s path and strength may still change.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/26/category-5-hurricane-polo-threatens-mexico-s-coast-landfall-expected-monday"
+            },
+            {
+              "name": "U.S. National Hurricane Center",
+              "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCMEP2%2Bhtml/261449.shtml"
+            },
+            {
+              "name": "U.S. National Hurricane Center",
+              "url": "https://www.nhc.noaa.gov/text/refresh/MIATCDEP2%2Bshtml/261451.shtml"
+            }
+          ]
+        },
+        {
+          "headline": "Nor’easter cuts power, disrupts Northeast flights",
+          "body": "A nor’easter caused coastal flooding and widespread disruption across the northeastern United States. More than 100,000 homes and businesses lost electricity at the storm’s peak Saturday, and about 73,000 remained without power late that evening.\n\nFlightAware recorded 445 cancellations and 3,016 delays involving U.S. airports.",
+          "sources": [
+            {
+              "name": "Reuters via Investing.com",
+              "url": "https://www.investing.com/news/commodities-news/noreaster-leaves-over-100000-customers-without-power-in-us-northeast-over-400-flights-canceled-4918608"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "3ea3d737d880803971c45be6fa41eb4cd8d2dde37c34cea538732bc03a5e5380",
+        "claimId": "4bcc7cce-265a-4398-b3f7-9127b7de2e12",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-09-28T08:07:40.217Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
