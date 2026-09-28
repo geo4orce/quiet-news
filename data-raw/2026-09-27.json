@@ -443,10 +443,10 @@
         "request": {
           "fingerprint": "88bad94a25e5ff6728d461b81bb965725a0e64ddde7d79373f3bf7c99f015578",
           "claimId": "676204f6-d7ce-41ee-b42e-0be0e0dc8586",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-09-28T07:07:43.328Z",
-          "responseId": null
+          "responseId": "resp_08d1b22de23a0817006aba1243e48087d2a9eebc30cddbfef7"
         },
         "result": null,
         "observedAt": "2026-09-28T07:07:43.202Z"
