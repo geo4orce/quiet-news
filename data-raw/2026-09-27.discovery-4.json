@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-27",
+  "batch": 4,
+  "captured_at": "2026-09-28T07:09:08.882Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "South Korea’s presidential office demanded an explanation and apology from Ukraine over Kyiv’s disclosure that two captured North Korean soldiers had been transferred to South Korea. Seoul said Ukraine had requested confidentiality, then disclosed the transfer and denied that a nondisclosure agreement existed. Ukraine’s embassy in Seoul did not immediately comment.",
+        "category": "diplomacy",
+        "title": "South Korea demands Ukrainian apology over prisoner-transfer disclosure",
+        "event_date": "2026-09-27",
+        "candidate_id": "south-korea-ukraine-pow-disclosure-apology",
+        "geography": "South Korea and Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/south-korea-demands-apology-from-ukraine-over-disclosure-of-north-korean-pow-transfer-4919148"
+          }
+        ]
+      },
+      {
+        "summary": "Hurricane Nolo strengthened into a Category 3 major hurricane while moving westward south of Hawaii. Air Force Reserve Hurricane Hunter observations supported maximum sustained winds of about 115 mph at 11 a.m. HST, and aircraft data indicated its central pressure was falling.",
+        "category": "weather",
+        "title": "Nolo strengthens into major hurricane south of Hawaii",
+        "event_date": "2026-09-27",
+        "candidate_id": "hurricane-nolo-major-hawaii",
+        "geography": "Hawaii, United States",
+        "sources": [
+          {
+            "name": "U.S. National Hurricane Center",
+            "url": "https://www.nhc.noaa.gov/text/refresh/HFOTCDCP2%2Bshtml/609066.shtml"
+          }
+        ]
+      },
+      {
+        "summary": "British police said five men arrested near RAF Fairford were being held on suspicion of preparing a terrorist act after three vans were reported heading toward the base. Bomb-disposal specialists examined the vehicles and residents of 85 homes were evacuated. President Donald Trump said the suspects had been under British and U.S. investigation and intended major damage; police had not publicly identified them or stated a motive.",
+        "category": "security",
+        "title": "Five held on terrorism suspicion near RAF Fairford",
+        "event_date": "2026-09-27",
+        "candidate_id": "raf-fairford-explosives-arrests",
+        "geography": "United Kingdom",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/security-increased-at-us-fairford-air-base-in-england-4918847"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-27"
+  },
+  "metadata": {
+    "responseId": "resp_08d1b22de23a0817006aba1243e48087d2a9eebc30cddbfef7",
+    "requestId": "req_33058bec48c746da84dc4a55a03ec6e7",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2957,
+    "inputTokens": 91201,
+    "outputTokens": 3331,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-09-27",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 85553,
+    "attemptDurationMs": 85553,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
