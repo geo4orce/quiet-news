@@ -27,11 +27,12 @@
       "completed_at": "2026-09-29T08:09:34.446Z"
     },
     "82172df7c981b588a5a885be73f24259d04c1c9932f61a790582a928446da904": {
-      "status": "claimed",
+      "status": "completed",
       "claimed_at": "2026-09-29T08:09:36.918Z",
       "model": "gpt-image-1.5",
       "quality": "medium",
-      "prompt_version": "quiet-illustration-v1"
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-09-29T08:09:53.418Z"
     }
   }
 }
