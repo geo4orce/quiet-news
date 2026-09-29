@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-29",
+  "batch": 3,
+  "captured_at": "2026-09-29T22:08:54.125Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Morocco's King Mohammed VI appointed Fatima Ezzahra El Mansouri as head of government and tasked her with forming a cabinet after her Authenticity and Modernity Party won the most seats in the September 23 legislative election. Mansouri, previously urban planning minister and mayor of Marrakech, is the first woman appointed to lead Morocco's government.",
+        "category": "government and politics",
+        "title": "Morocco appoints first woman head of government",
+        "event_date": "2026-09-29",
+        "candidate_id": "morocco-mansouri-head-of-government",
+        "geography": "Morocco",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/8456b759e417876f008d8c49c2a729c3"
+          },
+          {
+            "name": "Embassy of Morocco in the United States",
+            "url": "https://www.prnewswire.com/news-releases/fatima-ezzahra-el-mansouri-appointed-moroccos-first-woman-prime-minister-302893387.html"
+          }
+        ]
+      },
+      {
+        "summary": "The Premier League said an independent commission found Manchester City guilty of all charges involving serious financial-rule breaches over nine seasons and most charges concerning failure to cooperate with the league's investigation. The commission found that the club used arrangements to inflate revenue and reduce reported costs. Sanctions will be decided separately, and Manchester City said it would pursue available appeals.",
+        "category": "sports and governance",
+        "title": "Manchester City found guilty of financial-rule breaches",
+        "event_date": "2026-09-29",
+        "candidate_id": "manchester-city-financial-rules-verdict",
+        "geography": "United Kingdom",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/1512d84efdb2251970d2bf63dc681f57"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/football/2026/sep/29/manchester-city-found-guilty-all-premier-league-charges-rule-breaches"
+          }
+        ]
+      },
+      {
+        "summary": "President Donald Trump said leaders of major technology companies signed a voluntary artificial-intelligence accord providing for internal and external reviews. He described the agreement as morally binding and said the industry should largely police itself. Details of the accord, including its signatories, review standards and enforcement arrangements, were not immediately released.",
+        "category": "technology and government",
+        "title": "Trump announces voluntary AI industry accord",
+        "event_date": "2026-09-29",
+        "candidate_id": "white-house-voluntary-ai-accord",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/595796511f110fc006cca0d01329733e"
+          },
+          {
+            "name": "Reuters via KFGO",
+            "url": "https://kfgo.com/2026/09/29/trump-tech-executives-sign-morally-binding-ai-document/"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. Supreme Court temporarily lifted lower-court requirements that people facing deportation to countries other than their own receive an opportunity to object before removal. The apparent 6-3 order allows the administration's expedited third-country deportation policy to continue while the court considers its legality. Arguments are scheduled for December; the order did not decide the policy's ultimate lawfulness.",
+        "category": "government and law",
+        "title": "Supreme Court permits third-country deportations pending review",
+        "event_date": "2026-09-29",
+        "candidate_id": "supreme-court-third-country-deportations",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/2219c35c065eab4b0690058d81bd787a"
+          },
+          {
+            "name": "Supreme Court of the United States",
+            "url": "https://www.supremecourt.gov/DocketPDF/26/26A406/425583/20260924155624768_DVD%20stay%20Sept%202026%20FILE%20corrected.pdf"
+          }
+        ]
+      },
+      {
+        "summary": "OpenAI introduced proactive agents called Dots, designed to perform continuing tasks on users' behalf, and released GPT-6.1 Sol and a premium processing tier called Ultrafast. The announcements followed the company's decision a day earlier to halt another model's rollout because of security concerns. OpenAI said GPT-6.1 Sol is classified under its framework as Critical for cybersecurity capability and High for biological and chemical capability and uses its existing safeguards stack.",
+        "category": "technology",
+        "title": "OpenAI introduces Dots agents and GPT-6.1 Sol",
+        "event_date": "2026-09-29",
+        "candidate_id": "openai-dots-gpt-6-1-sol-launch",
+        "geography": "United States; Global",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/77b6b8888145869206996d7509d24256"
+          },
+          {
+            "name": "OpenAI Deployment Safety Hub",
+            "url": "https://deploymentsafety.openai.com/gpt-6-1-sol/respecting-auto-review"
+          }
+        ]
+      },
+      {
+        "summary": "The United States withdrew from the Council of Europe's Group of States against Corruption, known as GRECO. The Council of Europe said the U.S. formally notified it on September 28. The State Department confirmed the withdrawal and said participation did not provide tangible national-security benefits; GRECO said it remained open to renewed cooperation.",
+        "category": "international relations",
+        "title": "United States withdraws from European anti-corruption group",
+        "event_date": "2026-09-29",
+        "candidate_id": "us-withdraws-council-europe-greco",
+        "geography": "United States; Europe",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/31f7f0e4bba7bf26dfc99cd2c3a20d16"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-29"
+  },
+  "metadata": {
+    "responseId": "resp_057d79124332eef0006abc36bc3c2487d28320c1337ddcce67",
+    "requestId": "req_ebfbad8e17834437bc8255b314ede906",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1433,
+    "inputTokens": 48132,
+    "outputTokens": 2609,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-29",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 62502,
+    "attemptDurationMs": 62502,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
