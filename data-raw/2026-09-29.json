@@ -201,10 +201,10 @@
         "request": {
           "fingerprint": "7ed07871282708c47857019f68e90392e05ced2f82be9278294780775ba32db5",
           "claimId": "dc8f8d61-3e22-475d-9436-34eb5103ed83",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-09-29T16:07:46.212Z",
-          "responseId": null
+          "responseId": "resp_0ac2b4932069b251006abbe2562f3087d29d221160667903bb"
         },
         "result": null,
         "observedAt": "2026-09-29T16:07:46.159Z"
