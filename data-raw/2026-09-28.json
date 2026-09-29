@@ -416,6 +416,32 @@
         },
         "observedAt": "2026-09-28T22:07:43.587Z",
         "capturedAt": "2026-09-28T22:08:39.291Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Two shootings in South Africa kill 27",
+            "body": "Two separate shootings near Johannesburg and Cape Town killed 27 people, and South African police were searching for suspects Sunday.\n\nOne attack at a tavern in Wedela township killed 17 people and injured 15 on Saturday evening. Authorities were investigating whether an illegal-mining turf dispute was behind one shooting and a business rivalry was behind the other.",
+            "sources": [
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/world-news/south-africa-police-hunt-suspects-after-27-killed-in-two-separate-shootings-4918899"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "58f80462d446d1151adf54fff1045a621e069a2251a714444cdb55c6ad374c00",
+          "claimId": "36e620d5-9e80-4514-91de-8c5a54fb9a0d",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-09-29T07:07:50.317Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-09-29T07:07:50.230Z"
       }
     ],
     "sift": null
