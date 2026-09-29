@@ -686,12 +686,183 @@
       "request": {
         "fingerprint": "c2620d74f18c16672a94f3056395c29f2fd87e5cae6719377b45079ce0f9a6d9",
         "claimId": "37bfa95c-74c0-4e15-ae7b-93f1f11ec8ef",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-29T08:07:47.469Z",
         "responseId": "resp_07d470ca5aef0c91006abb71d7bf0887d28a48a5c4b09bcd82"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "anthropic-ipo-prospectus-costs-valuation",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "haiti-artibonite-gang-retaliation",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "india-announces-us-trade-talks-visit",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "italy-regeni-case-verdict",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "mideast-september-crude-exports-rebound",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "new-zealand-smaller-deficit-forecast",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "north-korea-condemns-south-korea-nuclear-submarine",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "openai-cancels-gpt-6-1-astra-release",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "pentagon-raytheon-amraam-contract",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qatar-plans-separate-us-iran-talks",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "russia-draft-budget-defense-spending-2027",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "russia-drone-strikes-ukraine-science-academy",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "south-korea-dmz-blast-north-korean-mine",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "south-korea-summons-ukraine-envoy-pow-disclosure",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "states-sue-faa-drone-delivery-review",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "thai-court-rejects-election-challenge",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "ukraine-strikes-krasnodar-oil-facilities",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "yaroslavl-pyrotechnics-factory-fire",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "zelensky-north-korea-prepares-10000-troops",
+              "code": "weak_support"
+            }
+          ],
+          "stories": [
+            {
+              "body": "China confirmed that its trade truce with the United States has been extended for two months, through January 10.\n\nThe countries also agreed to reduce tariffs on $60 billion in bilateral trade, divided evenly between lists of American and Chinese goods. No timetable for putting those reductions into effect was reported.",
+              "candidate_id": "china-confirms-us-trade-truce-extension",
+              "headline": "U.S.-China trade truce extended to January",
+              "sources": [
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/China%2C%2BUS%2Bagree%2Btariff%2Bcuts%2Bon%2B%2460%2Bbillion%2Bof%2Bgoods%2Bincluding%2Bagriculture%2C%2Bhousehold%2Bitems/27108837.html"
+                },
+                {
+                  "name": "Reuters via Investing.com",
+                  "url": "https://ca.investing.com/news/commodities-news/china-says-us-trade-truce-extension-creates-space-to-advance-talks-4855005"
+                }
+              ]
+            },
+            {
+              "body": "At least 49 people were killed and 58 wounded in an airstrike near a market in Kyauktaw, according to the Arakan Army and a rescue official. Twenty-two of the wounded were reported in critical condition.\n\nThe Arakan Army said a military jet dropped two bombs around noon. The Associated Press could not independently confirm the account, and Myanmar’s military had not commented.",
+              "candidate_id": "myanmar-kyauktaw-airstrike-kills-33",
+              "headline": "Myanmar airstrike reportedly kills at least 49",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/myanmar-market-airstrike-deaths-0ef9bf26ce3998693ea6c86450392e11"
+                },
+                {
+                  "name": "Reuters via MarketScreener",
+                  "url": "https://www.marketscreener.com/news/at-least-33-people-killed-in-western-myanmar-airstrike-rebel-group-and-aid-worker-say-ce785adcdc8cf522"
+                }
+              ]
+            },
+            {
+              "body": "Pennsylvania recorded 68 additional measles infections since September 23, bringing the state’s outbreak total to 903.\n\nHospitalizations rose from 164 to 176, according to state health department data. Lancaster County remained the hardest-hit part of the state.",
+              "candidate_id": "pennsylvania-measles-cases-exceed-900",
+              "headline": "Pennsylvania measles outbreak passes 900 cases",
+              "sources": [
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/Pennsylvania%2Bmeasles%2Bcases%2Bcross%2B900%2Bas%2Boutbreak%2Bgrows/27113739.html"
+                }
+              ]
+            },
+            {
+              "body": "The Transportation Department finalized standards requiring automakers’ fleets to average 34.9 miles per gallon by 2031. The rule replaces a requirement of 50.4 mpg.\n\nThe department estimates that the lower standard will reduce manufacturers’ compliance costs but increase gasoline consumption and drivers’ lifetime fuel costs compared with the superseded rule.",
+              "candidate_id": "us-finalizes-lower-fuel-economy-standards",
+              "headline": "U.S. lowers 2031 vehicle fuel-economy standard",
+              "sources": [
+                {
+                  "name": "Reuters via Investing.com",
+                  "url": "https://ca.investing.com/news/stock-market-news/us-finalizes-new-lower-fuel-economy-standards-in-boost-for-gaspowered-vehicles-4856498"
+                }
+              ]
+            },
+            {
+              "body": "A federal judge blocked the Trump administration from withholding portions of federal counterterrorism grants unless state and local governments adopted election procedures backed by the administration.\n\nU.S. District Judge Amir Ali ruled that Congress had not authorized the grant programs to be conditioned on those election-administration changes.",
+              "candidate_id": "us-judge-blocks-election-grant-conditions",
+              "headline": "Judge blocks election conditions on security grants",
+              "sources": [
+                {
+                  "name": "Reuters via WSAU",
+                  "url": "https://wsau.com/2026/09/28/judge-blocks-trump-from-tying-anti-terrorism-grants-to-election-changes/"
+                },
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/Judge%2Bblocks%2BTrump%2Bfrom%2Btying%2Banti-terrorism%2Bgrants%2Bto%2Belection%2Bchanges/27112713.html"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_07d470ca5aef0c91006abb71d7bf0887d28a48a5c4b09bcd82",
+          "requestId": "req_79ce74edafbe4e149c694f066b967e80",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1412,
+          "inputTokens": 5753,
+          "outputTokens": 2778,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-28",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 44148,
+          "attemptDurationMs": 44148,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
