@@ -201,13 +201,107 @@
         "request": {
           "fingerprint": "7ed07871282708c47857019f68e90392e05ced2f82be9278294780775ba32db5",
           "claimId": "dc8f8d61-3e22-475d-9436-34eb5103ed83",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-09-29T16:07:46.212Z",
           "responseId": "resp_0ac2b4932069b251006abbe2562f3087d29d221160667903bb"
         },
-        "result": null,
-        "observedAt": "2026-09-29T16:07:46.159Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Former special counsel Jack Smith told the Senate Judiciary Committee that he stood behind the federal criminal cases he brought against President Donald Trump and said his decisions were made without regard to politics. Republican senators accused Smith of partisan and improper investigative conduct, while Democratic senators defended the prosecutions.",
+                "category": "government and law",
+                "title": "Jack Smith defends Trump prosecutions at Senate hearing",
+                "event_date": "2026-09-29",
+                "candidate_id": "jack-smith-senate-testimony",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/jack-smith-trump-congress-5739c9cd8bee9652bdeedbd10336492b"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. government launched America.gov, an AI-based interface intended to help users find federal information and services. The site says its chatbot searches official government sources and provides citations, but does not identify the specific AI model it uses. It is free, has no advertising and does not require users to log in.",
+                "category": "technology and government",
+                "title": "U.S. launches AI-based America.gov portal",
+                "event_date": "2026-09-29",
+                "candidate_id": "america-gov-ai-portal-launch",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/c6dd26d8e67270db543c37ac3762acd9"
+                  },
+                  {
+                    "name": "America.gov",
+                    "url": "https://america.gov/"
+                  }
+                ]
+              },
+              {
+                "summary": "The Conference Board's U.S. consumer confidence index fell 6.7 points to 81.9 in September from 88.6 in August. Its measure of consumers' current conditions declined to 109.3, while the short-term expectations measure fell to 63.6.",
+                "category": "economy",
+                "title": "U.S. consumer confidence falls in September",
+                "event_date": "2026-09-29",
+                "candidate_id": "us-consumer-confidence-september-2026",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "The Conference Board",
+                    "url": "https://www.conference-board.org/topics/consumer-confidence/"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/c6dd26d8e67270db543c37ac3762acd9"
+                  }
+                ]
+              },
+              {
+                "summary": "Iran's currency reached a record low, with traders in Tehran exchanging more than 2.5 million rials per U.S. dollar. The previous reported low was 2.2 million rials per dollar on September 2. The decline came amid war, sanctions and a U.S. naval blockade affecting Iranian oil.",
+                "category": "economy",
+                "title": "Iranian rial falls to record low",
+                "event_date": "2026-09-29",
+                "candidate_id": "iran-rial-record-low-september-29",
+                "geography": "Iran",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/israel-gaza-houthis-saudi-iran-yemen-september-29-2026-fb270c839b8c774788a09b3d1aeb0a84"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-09-29"
+          },
+          "metadata": {
+            "responseId": "resp_0ac2b4932069b251006abbe2562f3087d29d221160667903bb",
+            "requestId": "req_09c135e0bffe4b16a058222215b50722",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1817,
+            "inputTokens": 66132,
+            "outputTokens": 2465,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-09-29",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 60766,
+            "attemptDurationMs": 60766,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-09-29T16:07:46.159Z",
+        "capturedAt": "2026-09-29T16:08:46.979Z"
       }
     ],
     "sift": null
