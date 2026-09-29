@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-29",
+  "batch": 1,
+  "captured_at": "2026-09-29T10:08:32.943Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Malaysia began returning 1,476 Myanmar nationals, including children, in the first phase of a program that could repatriate 5,000 people. Malaysia described the returns as voluntary. The U.N. refugee agency and rights groups raised safety concerns because of Myanmar’s civil war and questioned whether refugees and asylum-seekers were adequately protected.",
+        "category": "migration",
+        "title": "Malaysia begins returning 1,476 Myanmar nationals",
+        "event_date": "2026-09-29",
+        "candidate_id": "malaysia-myanmar-repatriations-begin",
+        "geography": "Malaysia; Myanmar",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/29/malaysia-begins-sending-home-myanmar-refugees-despite-safety-concerns"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/5cafd8a3997a500e6c74216138960972"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-29"
+  },
+  "metadata": {
+    "responseId": "resp_0933bb3d5bad20c7006abb8def756887d283f9a53cf3e7a776",
+    "requestId": "req_0b0bfe9e3581474ca05796b96c73244b",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1587,
+    "inputTokens": 45274,
+    "outputTokens": 1587,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-29",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 53116,
+    "attemptDurationMs": 53116,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
