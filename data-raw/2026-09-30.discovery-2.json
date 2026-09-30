@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-30",
+  "batch": 2,
+  "captured_at": "2026-09-30T16:08:42.503Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Iranian officials said Tehran received an official U.S. response to its latest proposal for ending the seven-month war. Government spokesperson Fatemeh Mohajerani said Foreign Minister Abbas Araghchi presented the response to President Masoud Pezeshkian at a Cabinet meeting. Officials did not disclose its contents or say whether it rejected the proposal.",
+        "category": "International affairs",
+        "title": "Iran says it received U.S. response to war-ending proposal",
+        "event_date": "2026-09-30",
+        "candidate_id": "iran-receives-us-war-proposal-response",
+        "geography": "Iran; United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/iran-war-hormuz-trump-proposal-2c42d71d8a4be3443147cd65a6ee9193"
+          }
+        ]
+      },
+      {
+        "summary": "Officials at Shifa and Nasser hospitals said Israeli strikes killed five Palestinians and wounded 19 in Gaza. A strike in Gaza City killed a woman and critically wounded her husband, another struck a bus and killed four people, and a strike in Khan Younis wounded four people.",
+        "category": "Conflict",
+        "title": "Israeli strikes kill five Palestinians in Gaza, hospital officials say",
+        "event_date": "2026-09-30",
+        "candidate_id": "gaza-israeli-strikes-five-killed",
+        "geography": "Gaza Strip",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/iran-us-israel-saudi-arabia-uae-war-september-30-2026-449f9e378b8c9bc66fe36712efdfa6b5"
+          }
+        ]
+      },
+      {
+        "summary": "The Bureau of Economic Analysis reported that U.S. consumer prices, as measured by the personal consumption expenditures price index, were 3.4% higher in August than a year earlier. The reading was below economists’ expectations of 3.7%.",
+        "category": "Economy",
+        "title": "U.S. preferred inflation measure rises 3.4% from a year earlier",
+        "event_date": "2026-09-30",
+        "candidate_id": "us-august-2026-pce-inflation",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/stocks-markets-oil-bonds-us-ai-chips-e61d3d7b947a390c7eee6c8758e3095d"
+          },
+          {
+            "name": "U.S. Bureau of Economic Analysis",
+            "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
+          }
+        ]
+      },
+      {
+        "summary": "The Treasury Department’s Office of Foreign Assets Control designated 10 targets it said were involved in a Tren de Aragua ATM-malware and money-laundering network, along with a separate senior group leader. Treasury said the network stole millions of dollars from U.S. financial institutions and generated revenue for the organization.",
+        "category": "Sanctions and crime",
+        "title": "U.S. sanctions alleged Tren de Aragua financial network",
+        "event_date": "2026-09-30",
+        "candidate_id": "treasury-sanctions-tren-de-aragua-network",
+        "geography": "United States; Mexico; Venezuela; South America",
+        "sources": [
+          {
+            "name": "U.S. Department of the Treasury",
+            "url": "https://home.treasury.gov/news/press-releases/sb0640/"
+          }
+        ]
+      },
+      {
+        "summary": "The Treasury and Education departments launched an online Defaulted Loans Support Center for people with defaulted federal student loans. The agencies said the portal consolidates information about resolving defaults and returning loans to repayment.",
+        "category": "Education and government services",
+        "title": "U.S. launches portal for defaulted federal student loans",
+        "event_date": "2026-09-30",
+        "candidate_id": "defaulted-student-loans-support-center",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Department of the Treasury",
+            "url": "https://home.treasury.gov/news/press-releases/sb0639/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-30"
+  },
+  "metadata": {
+    "responseId": "resp_00a05187273211c4006abd33d18cbc87d2add96bffa408d6ce",
+    "requestId": "req_9bfab5e95a7c4aff9698087e76e22ef7",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1340,
+    "inputTokens": 60829,
+    "outputTokens": 2178,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-09-30",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 60972,
+    "attemptDurationMs": 60972,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
