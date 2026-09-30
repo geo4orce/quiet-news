@@ -722,10 +722,10 @@
       "request": {
         "fingerprint": "d4552b0986499937d5f6409d1dbd39534268de4cda1aedb4b9a8fcb89aefbd59",
         "claimId": "70745690-87cb-49e1-8731-02c6d4eeeb08",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-09-30T08:07:48.905Z",
-        "responseId": null
+        "responseId": "resp_074282a69e156617006abcc35913a887d2975484a42f09d9cb"
       },
       "result": null
     }
