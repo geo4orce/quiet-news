@@ -134,10 +134,10 @@
         "request": {
           "fingerprint": "cc23b5cdf7aba613cdd0edc64c906e9d3b0700a30ac4232190a7ef4fe4468881",
           "claimId": "afa8d459-441b-4dc5-bb2f-aff94b65c36a",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-09-30T16:07:41.531Z",
-          "responseId": null
+          "responseId": "resp_00a05187273211c4006abd33d18cbc87d2add96bffa408d6ce"
         },
         "result": null,
         "observedAt": "2026-09-30T16:07:41.468Z"
