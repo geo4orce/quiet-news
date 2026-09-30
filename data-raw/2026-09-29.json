@@ -722,12 +722,117 @@
       "request": {
         "fingerprint": "d4552b0986499937d5f6409d1dbd39534268de4cda1aedb4b9a8fcb89aefbd59",
         "claimId": "70745690-87cb-49e1-8731-02c6d4eeeb08",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-09-30T08:07:48.905Z",
         "responseId": "resp_074282a69e156617006abcc35913a887d2975484a42f09d9cb"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "jack-smith-senate-testimony",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "malaysia-myanmar-repatriations-begin",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "manchester-city-financial-rules-verdict",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "morocco-mansouri-head-of-government",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "openai-dots-gpt-6-1-sol-launch",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "polo-remnants-new-mexico-evacuations",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "us-consumer-confidence-september-2026",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "us-withdraws-council-europe-greco",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "white-house-voluntary-ai-accord",
+              "code": "weak_support"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The federal government launched America.gov, an AI-based interface for finding information and services across government websites.\n\nIts chatbot searches official sources and provides citations with its responses. The site is free, carries no advertising and does not require an account. The government has not identified the AI model behind it.",
+              "candidate_id": "america-gov-ai-portal-launch",
+              "headline": "U.S. launches AI portal for federal services",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/c6dd26d8e67270db543c37ac3762acd9"
+                },
+                {
+                  "name": "America.gov",
+                  "url": "https://america.gov/"
+                }
+              ]
+            },
+            {
+              "body": "Traders in Tehran exchanged more than 2.5 million Iranian rials for one U.S. dollar, marking a record low for the currency. The previously reported low was 2.2 million rials per dollar on September 2.\n\nThe decline comes as Iran contends with war, international sanctions and a U.S. naval blockade affecting its oil trade.",
+              "candidate_id": "iran-rial-record-low-september-29",
+              "headline": "Iran’s currency falls to a record low",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/israel-gaza-houthis-saudi-iran-yemen-september-29-2026-fb270c839b8c774788a09b3d1aeb0a84"
+                }
+              ]
+            },
+            {
+              "body": "The Supreme Court temporarily lifted lower-court requirements that people facing deportation to countries other than their own be given an opportunity to object before removal.\n\nThe apparent 6-3 order lets the administration continue expedited third-country deportations while the justices review the policy. It does not decide whether the policy is lawful; arguments are scheduled for December.",
+              "candidate_id": "supreme-court-third-country-deportations",
+              "headline": "Court permits expedited third-country deportations",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/2219c35c065eab4b0690058d81bd787a"
+                },
+                {
+                  "name": "Supreme Court of the United States",
+                  "url": "https://www.supremecourt.gov/DocketPDF/26/26A406/425583/20260924155624768_DVD%20stay%20Sept%202026%20FILE%20corrected.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_074282a69e156617006abcc35913a887d2975484a42f09d9cb",
+          "requestId": "req_7457cc423c6742b3a598954a32c34ff6",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1034,
+          "inputTokens": 4019,
+          "outputTokens": 1725,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-29",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 28529,
+          "attemptDurationMs": 28529,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
