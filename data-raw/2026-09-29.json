@@ -514,6 +514,84 @@
         },
         "observedAt": "2026-09-29T22:07:51.535Z",
         "capturedAt": "2026-09-29T22:08:54.125Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "U.S.-China trade truce extended to January",
+            "body": "China confirmed that its trade truce with the United States has been extended for two months, through January 10.\n\nThe countries also agreed to reduce tariffs on $60 billion in bilateral trade, divided evenly between lists of American and Chinese goods. No timetable for putting those reductions into effect was reported.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/China%2C%2BUS%2Bagree%2Btariff%2Bcuts%2Bon%2B%2460%2Bbillion%2Bof%2Bgoods%2Bincluding%2Bagriculture%2C%2Bhousehold%2Bitems/27108837.html"
+              },
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://ca.investing.com/news/commodities-news/china-says-us-trade-truce-extension-creates-space-to-advance-talks-4855005"
+              }
+            ]
+          },
+          {
+            "headline": "Myanmar airstrike reportedly kills at least 49",
+            "body": "At least 49 people were killed and 58 wounded in an airstrike near a market in Kyauktaw, according to the Arakan Army and a rescue official. Twenty-two of the wounded were reported in critical condition.\n\nThe Arakan Army said a military jet dropped two bombs around noon. The Associated Press could not independently confirm the account, and Myanmar’s military had not commented.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/myanmar-market-airstrike-deaths-0ef9bf26ce3998693ea6c86450392e11"
+              },
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/at-least-33-people-killed-in-western-myanmar-airstrike-rebel-group-and-aid-worker-say-ce785adcdc8cf522"
+              }
+            ]
+          },
+          {
+            "headline": "Pennsylvania measles outbreak passes 900 cases",
+            "body": "Pennsylvania recorded 68 additional measles infections since September 23, bringing the state’s outbreak total to 903.\n\nHospitalizations rose from 164 to 176, according to state health department data. Lancaster County remained the hardest-hit part of the state.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Pennsylvania%2Bmeasles%2Bcases%2Bcross%2B900%2Bas%2Boutbreak%2Bgrows/27113739.html"
+              }
+            ]
+          },
+          {
+            "headline": "U.S. lowers 2031 vehicle fuel-economy standard",
+            "body": "The Transportation Department finalized standards requiring automakers’ fleets to average 34.9 miles per gallon by 2031. The rule replaces a requirement of 50.4 mpg.\n\nThe department estimates that the lower standard will reduce manufacturers’ compliance costs but increase gasoline consumption and drivers’ lifetime fuel costs compared with the superseded rule.",
+            "sources": [
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://ca.investing.com/news/stock-market-news/us-finalizes-new-lower-fuel-economy-standards-in-boost-for-gaspowered-vehicles-4856498"
+              }
+            ]
+          },
+          {
+            "headline": "Judge blocks election conditions on security grants",
+            "body": "A federal judge blocked the Trump administration from withholding portions of federal counterterrorism grants unless state and local governments adopted election procedures backed by the administration.\n\nU.S. District Judge Amir Ali ruled that Congress had not authorized the grant programs to be conditioned on those election-administration changes.",
+            "sources": [
+              {
+                "name": "Reuters via WSAU",
+                "url": "https://wsau.com/2026/09/28/judge-blocks-trump-from-tying-anti-terrorism-grants-to-election-changes/"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Judge%2Bblocks%2BTrump%2Bfrom%2Btying%2Banti-terrorism%2Bgrants%2Bto%2Belection%2Bchanges/27112713.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "eec36a84b2ccda95993b27fbd4eaf1910ecc2b81b4ea2ea90a95fd6fd4366c88",
+          "claimId": "94156cdb-4147-4228-a5a5-4cd0189429d2",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-09-30T07:07:44.224Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-09-30T07:07:44.154Z"
       }
     ],
     "sift": null
