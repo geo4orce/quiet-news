@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-09-29",
+  "batch": 4,
+  "captured_at": "2026-09-30T07:09:16.357Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Remnants of Hurricane Polo caused flooding across the U.S. Southwest on Tuesday evening. Authorities ordered evacuations in Hatch, Garfield and other communities in New Mexico’s Hatch Valley because flooding threatened the McLeod Dam. Roads were flooded or obstructed by debris, and water rescues were reported in Arizona. The available reports did not establish that the dam had failed.",
+        "category": "weather and disasters",
+        "title": "Hurricane Polo remnants prompt New Mexico evacuations",
+        "event_date": "2026-09-29",
+        "candidate_id": "polo-remnants-new-mexico-evacuations",
+        "geography": "United States; Mexico",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/hurricane-polo-landfall-mexico-baja-california-rachel-db57554d97c70cd44b99df9ff0a41668"
+          },
+          {
+            "name": "Albuquerque Journal",
+            "url": "https://www.abqjournal.com/news/hatch-evacuated-potential-dam-failure-in-dona-ana-county/3131680"
+          },
+          {
+            "name": "Doña Ana County Office of Emergency Management alert via GovOneStop",
+            "url": "https://www.govonestop.com/eas/new-mexico-severe-flood-effective-09-29-2026-1404"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-09-29"
+  },
+  "metadata": {
+    "responseId": "resp_01544b4c983b5546006abcb5443df087d28638b084b8e97af0",
+    "requestId": "req_bd3aebd28e7d4585af8f2148c2f6cfb5",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2124,
+    "inputTokens": 85293,
+    "outputTokens": 2124,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-09-29",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 92132,
+    "attemptDurationMs": 92132,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
