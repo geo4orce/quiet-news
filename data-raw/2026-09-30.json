@@ -586,10 +586,10 @@
       "request": {
         "fingerprint": "0561800c7a2a06da8454ef4ec7a3f45427aec38424873ed50c9502d65e4ba8c7",
         "claimId": "0d149c9c-6c82-4499-89b8-b8900e664c43",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-01T08:07:46.092Z",
-        "responseId": null
+        "responseId": "resp_03a1974373848e79006abe14d5dec887d29532565b5bb397b7"
       },
       "result": null
     }
