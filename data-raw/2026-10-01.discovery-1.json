@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-01",
+  "batch": 1,
+  "captured_at": "2026-10-01T10:08:31.441Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [],
+    "withdrawals": [],
+    "target_date": "2026-10-01"
+  },
+  "metadata": {
+    "responseId": "resp_0431d8ce5aef4636006abe30f16ae887d2ad58c34bf0e47b8b",
+    "requestId": "req_96cfb09a0c0e4d679216eff4ef18b2f0",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1132,
+    "inputTokens": 59211,
+    "outputTokens": 1132,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-01",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 49608,
+    "attemptDurationMs": 49608,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
