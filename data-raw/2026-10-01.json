@@ -278,13 +278,89 @@
         "request": {
           "fingerprint": "79ce9cddbdb23cba7e1b505634d3b4ecd7c8be09d41d619d0695035f2bffbfff",
           "claimId": "5b31c6b3-b249-498f-a1ec-de4de796e525",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-01T22:07:37.105Z",
           "responseId": "resp_082b30278742955b006abed9acc16c87d2ac40066e9dca15d7"
         },
-        "result": null,
-        "observedAt": "2026-10-01T22:07:37.030Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The U.S. military began dispatching roughly 9,000 sailors and Marines aboard the USS Theodore Roosevelt carrier strike group and USS Makin Island amphibious readiness group to the Middle East, according to a U.S. official. Their arrival could raise the regional U.S. presence to three aircraft carriers and more than 20,000 sailors and Marines.",
+                "category": "conflict",
+                "title": "U.S. dispatches roughly 9,000 personnel and third carrier to Middle East",
+                "event_date": "2026-10-01",
+                "candidate_id": "us-third-carrier-middle-east-deployment",
+                "geography": "Middle East",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/iran-war-trump-ships-deployment-middle-east-42c23e9af0333f4bc3b4f419cc3a603e"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. Treasury sanctioned the A7 Network as a significant transnational criminal organization, issued an alert about its activity and proposed restricting fund transfers involving its sub-agents. Treasury said the Russia-linked network had also been used by Iranian state bodies and Iran-backed organizations for oil sales, weapons procurement and sanctions evasion.",
+                "category": "economy",
+                "title": "U.S. targets A7 sanctions-evasion network used by Iran",
+                "event_date": "2026-10-01",
+                "candidate_id": "treasury-a7-network-iran-sanctions",
+                "geography": "United States, Russia and Iran",
+                "sources": [
+                  {
+                    "name": "U.S. Department of the Treasury",
+                    "url": "https://home.treasury.gov/news/press-releases/sb0644/"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. Treasury issued sectoral sanctions determinations covering Iran’s automotive and rail industries and imposed designations targeting Iranian automakers, rail and steel interests, and foreign suppliers and facilitators. The action included Iran Khodro and SAIPA, the country’s two largest automakers.",
+                "category": "economy",
+                "title": "U.S. expands sanctions to Iranian automotive and rail sectors",
+                "event_date": "2026-10-01",
+                "candidate_id": "us-sanctions-iran-auto-rail-sectors",
+                "geography": "United States and Iran",
+                "sources": [
+                  {
+                    "name": "U.S. Department of the Treasury",
+                    "url": "https://home.treasury.gov/news/press-releases/sb0643/"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/flydubai-trump-netanyahu-iran-yemen-israel-saudi-uae-october-1-2026-af2443646cf96ff01b8b1becff3f3e0e"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-01"
+          },
+          "metadata": {
+            "responseId": "resp_082b30278742955b006abed9acc16c87d2ac40066e9dca15d7",
+            "requestId": "req_17febc2ee6ee452399dff3cfb5101a2f",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1260,
+            "inputTokens": 59226,
+            "outputTokens": 1793,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-01",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 45154,
+            "attemptDurationMs": 45154,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-10-01T22:07:37.030Z",
+        "capturedAt": "2026-10-01T22:08:22.259Z"
       }
     ],
     "sift": null
