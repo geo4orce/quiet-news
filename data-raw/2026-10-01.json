@@ -87,6 +87,60 @@
         },
         "observedAt": "2026-10-01T10:07:41.792Z",
         "capturedAt": "2026-10-01T10:08:31.441Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Tennessee halts executions after injection fails",
+            "body": "Tennessee officials were unable to execute Christa Gail Pike after administering two doses of a lethal-injection drug. She was taken to a medical facility afterward.\n\nGov. Bill Lee halted the state’s remaining executions for the rest of 2026.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/f826a60582083b90ac7695ecb16afbdf"
+              },
+              {
+                "name": "Tennessee Department of Correction",
+                "url": "https://www.tn.gov/correction/news/2026/9/30/media-advisory--christa-pike--261368.html"
+              }
+            ]
+          },
+          {
+            "headline": "U.S. consumer inflation measured 3.4% in August",
+            "body": "The Bureau of Economic Analysis reported that consumer prices, as measured by the personal consumption expenditures price index, were 3.4% higher in August than a year earlier. Economists had expected a 3.7% increase.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/stocks-markets-oil-bonds-us-ai-chips-e61d3d7b947a390c7eee6c8758e3095d"
+              },
+              {
+                "name": "U.S. Bureau of Economic Analysis",
+                "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
+              }
+            ]
+          },
+          {
+            "headline": "U.S. completes troop withdrawal from Iraq",
+            "body": "The U.S. military said it withdrew all American troops from Iraq, completing an agreement reached with the Iraqi government two years ago.\n\nThe withdrawal ends a 12-year U.S. military mission against the Islamic State group in Iraq.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/a097a39f3d1a3515adc2ba3298a6816f"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "d0e9067212fe5831867a471d76eeaeaa0b5ec16fce6ae73005c13c647398718b",
+          "claimId": "79ada64a-e28f-47c7-b457-9865013116fc",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-01T16:07:43.860Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-01T16:07:43.780Z"
       }
     ],
     "sift": null
