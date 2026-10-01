@@ -534,6 +534,64 @@
         "capturedAt": "2026-10-01T07:09:34.509Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "3bdf2fb1bac5c3a5492bcd62b790b286bd9837b2afcdc0b84afffade7eb56fdf",
+      "priorStories": [
+        {
+          "headline": "U.S. launches AI portal for federal services",
+          "body": "The federal government launched America.gov, an AI-based interface for finding information and services across government websites.\n\nIts chatbot searches official sources and provides citations with its responses. The site is free, carries no advertising and does not require an account. The government has not identified the AI model behind it.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/c6dd26d8e67270db543c37ac3762acd9"
+            },
+            {
+              "name": "America.gov",
+              "url": "https://america.gov/"
+            }
+          ]
+        },
+        {
+          "headline": "Iran’s currency falls to a record low",
+          "body": "Traders in Tehran exchanged more than 2.5 million Iranian rials for one U.S. dollar, marking a record low for the currency. The previously reported low was 2.2 million rials per dollar on September 2.\n\nThe decline comes as Iran contends with war, international sanctions and a U.S. naval blockade affecting its oil trade.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/israel-gaza-houthis-saudi-iran-yemen-september-29-2026-fb270c839b8c774788a09b3d1aeb0a84"
+            }
+          ]
+        },
+        {
+          "headline": "Court permits expedited third-country deportations",
+          "body": "The Supreme Court temporarily lifted lower-court requirements that people facing deportation to countries other than their own be given an opportunity to object before removal.\n\nThe apparent 6-3 order lets the administration continue expedited third-country deportations while the justices review the policy. It does not decide whether the policy is lawful; arguments are scheduled for December.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/2219c35c065eab4b0690058d81bd787a"
+            },
+            {
+              "name": "Supreme Court of the United States",
+              "url": "https://www.supremecourt.gov/DocketPDF/26/26A406/425583/20260924155624768_DVD%20stay%20Sept%202026%20FILE%20corrected.pdf"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "0561800c7a2a06da8454ef4ec7a3f45427aec38424873ed50c9502d65e4ba8c7",
+        "claimId": "0d149c9c-6c82-4499-89b8-b8900e664c43",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-10-01T08:07:46.092Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
