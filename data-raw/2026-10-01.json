@@ -134,13 +134,103 @@
         "request": {
           "fingerprint": "d0e9067212fe5831867a471d76eeaeaa0b5ec16fce6ae73005c13c647398718b",
           "claimId": "79ada64a-e28f-47c7-b457-9865013116fc",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-01T16:07:43.860Z",
           "responseId": "resp_0ddf6bdbbec7ef1e006abe855448d887d286c9e89f68499fbc"
         },
-        "result": null,
-        "observedAt": "2026-10-01T16:07:43.780Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The U.S. Supreme Court agreed to review the Trump administration’s policy denying bond hearings to immigrants detained while contesting possible deportation. The case concerns a Brazilian citizen who sought a bond hearing after his 2025 arrest and will address conflicting federal appeals-court interpretations of immigration detention law.",
+                "category": "law",
+                "title": "Supreme Court takes immigration bond-hearing case",
+                "event_date": "2026-10-01",
+                "candidate_id": "supreme-court-immigration-bond-hearings",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/ice-immigration-detention-supreme-court-f8ee63bcb11f1be3d7d6300022f3bc88"
+                  }
+                ]
+              },
+              {
+                "summary": "A Russian drone struck a school in Kyiv while children and staff were in shelters. Officials reported no casualties, and the drone’s warhead did not explode. Two other drones hit a bridge across the Dnipro River, suspending traffic pending a safety inspection, according to Kyiv officials.",
+                "category": "conflict",
+                "title": "Russian drone strikes Kyiv school",
+                "event_date": "2026-10-01",
+                "candidate_id": "russian-drone-strikes-kyiv-school",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-school-drones-missiles-1c4ea39898c03a432c8f005cb6b1f32c"
+                  }
+                ]
+              },
+              {
+                "summary": "A three-judge tribunal overturned Naomi Campbell’s five-year disqualification from serving as a charity trustee in England and Wales. The tribunal found that another Fashion for Relief trustee had deceived Campbell and concealed misuse of charity funds, while confirming that serious misconduct and mismanagement had occurred at the charity.",
+                "category": "law",
+                "title": "Tribunal overturns Naomi Campbell charity-trustee ban",
+                "event_date": "2026-10-01",
+                "candidate_id": "naomi-campbell-trustee-ban-overturned",
+                "geography": "United Kingdom",
+                "sources": [
+                  {
+                    "name": "Associated Press via The Journal",
+                    "url": "https://www.the-journal.com/articles/associated-press/naomi-campbells-5-year-ban-on-serving-as-a-charity-trustee-in-england-and-wales-is-overturned/"
+                  }
+                ]
+              },
+              {
+                "summary": "An AP-NORC poll found that 17% of U.S. adults approved of President Donald Trump’s handling of living costs and 26% approved of his handling of the economy. Sixty-five percent said his policies bore more responsibility for persistently high costs than factors outside his control.",
+                "category": "politics",
+                "title": "AP-NORC poll finds low approval of Trump’s economic handling",
+                "event_date": "2026-10-01",
+                "candidate_id": "ap-norc-trump-economy-poll-october",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press via The Journal",
+                    "url": "https://www.the-journal.com/articles/associated-press/most-americans-blame-trump-for-high-prices-as-midterms-approach-a-new-ap-norc-poll-finds/"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/be0180733928c2350ce205c10f48ec81"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-01"
+          },
+          "metadata": {
+            "responseId": "resp_0ddf6bdbbec7ef1e006abe855448d887d286c9e89f68499fbc",
+            "requestId": "req_d4e838529ca048568395e320fd99df8b",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1742,
+            "inputTokens": 62605,
+            "outputTokens": 2054,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-01",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 64249,
+            "attemptDurationMs": 64249,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-10-01T16:07:43.780Z",
+        "capturedAt": "2026-10-01T16:08:48.110Z"
       }
     ],
     "sift": null
