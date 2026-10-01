@@ -586,12 +586,121 @@
       "request": {
         "fingerprint": "0561800c7a2a06da8454ef4ec7a3f45427aec38424873ed50c9502d65e4ba8c7",
         "claimId": "0d149c9c-6c82-4499-89b8-b8900e664c43",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-01T08:07:46.092Z",
         "responseId": "resp_03a1974373848e79006abe14d5dec887d29532565b5bb397b7"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "defaulted-student-loans-support-center",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "flydubai-pilot-stabbing-saudi-landing",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "gaza-israeli-strikes-five-killed",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "iran-executes-two-january-protest-cases",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "iran-receives-us-war-proposal-response",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "pentagon-drone-command-senior-rank-cuts",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "russia-ukraine-power-grid-barrage",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "senate-bipartisan-energy-permitting-deal",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "treasury-sanctions-tren-de-aragua-network",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-removes-syria-arms-export-ban",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Tennessee officials were unable to execute Christa Gail Pike after administering two doses of a lethal-injection drug. She was taken to a medical facility afterward.\n\nGov. Bill Lee halted the state’s remaining executions for the rest of 2026.",
+              "candidate_id": "tennessee-pike-failed-execution",
+              "headline": "Tennessee halts executions after injection fails",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/f826a60582083b90ac7695ecb16afbdf"
+                },
+                {
+                  "name": "Tennessee Department of Correction",
+                  "url": "https://www.tn.gov/correction/news/2026/9/30/media-advisory--christa-pike--261368.html"
+                }
+              ]
+            },
+            {
+              "body": "The Bureau of Economic Analysis reported that consumer prices, as measured by the personal consumption expenditures price index, were 3.4% higher in August than a year earlier. Economists had expected a 3.7% increase.",
+              "candidate_id": "us-august-2026-pce-inflation",
+              "headline": "U.S. consumer inflation measured 3.4% in August",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/stocks-markets-oil-bonds-us-ai-chips-e61d3d7b947a390c7eee6c8758e3095d"
+                },
+                {
+                  "name": "U.S. Bureau of Economic Analysis",
+                  "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
+                }
+              ]
+            },
+            {
+              "body": "The U.S. military said it withdrew all American troops from Iraq, completing an agreement reached with the Iraqi government two years ago.\n\nThe withdrawal ends a 12-year U.S. military mission against the Islamic State group in Iraq.",
+              "candidate_id": "us-completes-iraq-troop-withdrawal",
+              "headline": "U.S. completes troop withdrawal from Iraq",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/a097a39f3d1a3515adc2ba3298a6816f"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_03a1974373848e79006abe14d5dec887d29532565b5bb397b7",
+          "requestId": "req_bad4dd43008243f4b990055cb694d8be",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 3026,
+          "inputTokens": 3331,
+          "outputTokens": 3686,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-09-30",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 55458,
+          "attemptDurationMs": 55458,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
