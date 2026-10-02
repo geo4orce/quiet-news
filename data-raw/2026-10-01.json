@@ -408,10 +408,10 @@
         "request": {
           "fingerprint": "914892a9708108a88b4758e289b774c38f25edc8a80568b5913a497530d098d0",
           "claimId": "91c0b6ec-2993-4951-9d4e-82272f121c39",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-02T07:07:47.395Z",
-          "responseId": null
+          "responseId": "resp_01055663ba5964fe006abf58475afc87d284df69e5b280cbc5"
         },
         "result": null,
         "observedAt": "2026-10-02T07:07:47.356Z"
