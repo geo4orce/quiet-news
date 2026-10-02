@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-02",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "U.S. sends third carrier toward Middle East",
+            "body": "The U.S. military began sending about 9,000 sailors and Marines to the Middle East aboard the USS Theodore Roosevelt carrier strike group and the USS Makin Island amphibious readiness group, according to a U.S. official.\n\nTheir arrival could bring the regional U.S. presence to three aircraft carriers and more than 20,000 sailors and Marines.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/iran-war-trump-ships-deployment-middle-east-42c23e9af0333f4bc3b4f419cc3a603e"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "0e1429beb8d9d6479bd6cf703ebeccc9b246d644ac42c0953001e5dbb9b94e4b",
+          "claimId": "21e51efc-1db2-42db-af26-cda9467bd901",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-02T10:07:53.015Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-02T10:07:52.941Z"
+      }
+    ],
+    "sift": null
+  }
+}
