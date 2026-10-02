@@ -125,13 +125,107 @@
         "request": {
           "fingerprint": "975147042f2a36860942db83739fa2da7235f5a43861014b0c3a55d09c19aa3a",
           "claimId": "44643bc0-5e4a-4209-a5f0-904591ffbcc5",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-02T16:07:38.874Z",
           "responseId": "resp_09fbe3e5aaade6f7006abfd6ceb9c887d2bf5432287835ceb5"
         },
-        "result": null,
-        "observedAt": "2026-10-02T16:07:38.784Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The U.S. Bureau of Labor Statistics reported that nonfarm payroll employment increased by 29,000 in September while the unemployment rate was 4.2%. July and August payroll gains were revised down by a combined 60,000, and average hourly earnings were 3.0% higher than a year earlier.",
+                "category": "economy",
+                "title": "U.S. payroll growth slows to 29,000 in September",
+                "event_date": "2026-10-02",
+                "candidate_id": "us-september-2026-jobs-report",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "U.S. Bureau of Labor Statistics",
+                    "url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/jobs-unemployment-economy-ai-hiring-44b99f9ccbff863888af99402ddf535e"
+                  }
+                ]
+              },
+              {
+                "summary": "G7 leaders agreed to coordinate the release of 100 million barrels of oil and fuel products through the International Energy Agency over four months, beginning immediately. Their statement called for a substantial, front-loaded diesel release during the first 20 days and said members would refrain from restricting energy exports to one another.",
+                "category": "energy",
+                "title": "G7 agrees to coordinated release of 100 million barrels of oil and fuel",
+                "event_date": "2026-10-02",
+                "candidate_id": "g7-oil-diesel-release-oct-2",
+                "geography": "G7 / Global",
+                "sources": [
+                  {
+                    "name": "UK Foreign, Commonwealth & Development Office",
+                    "url": "https://www.gov.uk/government/news/g7-leaders-statement-on-global-energy-security-and-market-stability"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/trump-europe-diesel-fuel-prices-774a360d1646d9ce8aba764fdd9959d2"
+                  }
+                ]
+              },
+              {
+                "summary": "Russian aerial attacks forced the full or partial closure of three of Kyiv’s six road bridges across the Dnipro River, according to Mayor Vitalii Klitschko. One bridge was struck again Friday afternoon. The closures caused major traffic disruption in the Ukrainian capital.",
+                "category": "conflict",
+                "title": "Russian attacks force closures of three Kyiv bridges",
+                "event_date": "2026-10-02",
+                "candidate_id": "kyiv-bridge-attacks-oct-2",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-kyiv-bridges-truce-1949f2a68b6b8b4bfeba5a86878c79bd"
+                  }
+                ]
+              },
+              {
+                "summary": "Israel and the United Arab Emirates agreed to begin repatriation flights for travelers stranded after the UAE suspended commercial flights to Israel following the September 30 FlyDubai cockpit attack. Tel Aviv’s Ben Gurion Airport listed Arkia and Israir arrivals from Dubai for late Friday and early Saturday, with an El Al flight expected Sunday.",
+                "category": "transportation",
+                "title": "Israel and UAE arrange repatriation flights after FlyDubai attack",
+                "event_date": "2026-10-02",
+                "candidate_id": "israel-uae-repatriation-flights-oct-2",
+                "geography": "Israel / United Arab Emirates",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/israel-saudi-flight-copilot-flydubai-repatriation-93d54fd230acb35d7112f47bba203459"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-02"
+          },
+          "metadata": {
+            "responseId": "resp_09fbe3e5aaade6f7006abfd6ceb9c887d2bf5432287835ceb5",
+            "requestId": "req_fd79de68670b47b587f894cde80d278d",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1277,
+            "inputTokens": 58401,
+            "outputTokens": 2013,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-02",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 42899,
+            "attemptDurationMs": 42899,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-10-02T16:07:38.784Z",
+        "capturedAt": "2026-10-02T16:08:21.774Z"
       }
     ],
     "sift": null
