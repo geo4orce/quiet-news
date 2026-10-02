@@ -553,10 +553,10 @@
       "request": {
         "fingerprint": "2e380b4687593f9a1bfe955621e2ab3438d5ab938eaf3cd9a346a299e5634c71",
         "claimId": "38220f84-43a3-470c-964d-b4254cddc22f",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-02T08:07:42.839Z",
-        "responseId": null
+        "responseId": "resp_0f84b513c0c3d156006abf66523cdc87d2be5545bd9eae1b02"
       },
       "result": null
     }
