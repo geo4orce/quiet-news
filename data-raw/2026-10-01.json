@@ -553,12 +553,87 @@
       "request": {
         "fingerprint": "2e380b4687593f9a1bfe955621e2ab3438d5ab938eaf3cd9a346a299e5634c71",
         "claimId": "38220f84-43a3-470c-964d-b4254cddc22f",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-02T08:07:42.839Z",
         "responseId": "resp_0f84b513c0c3d156006abf66523cdc87d2be5545bd9eae1b02"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "ap-norc-trump-economy-poll-october",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "hurricane-rachel-category-3",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "naomi-campbell-trustee-ban-overturned",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "russian-drone-strikes-kyiv-school",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "spacex-crew-13-record-iss-docking",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "supreme-court-immigration-bond-hearings",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "tanker-struck-strait-hormuz-october-1",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "treasury-a7-network-iran-sanctions",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-sanctions-iran-auto-rail-sectors",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The U.S. military began sending about 9,000 sailors and Marines to the Middle East aboard the USS Theodore Roosevelt carrier strike group and the USS Makin Island amphibious readiness group, according to a U.S. official.\n\nTheir arrival could bring the regional U.S. presence to three aircraft carriers and more than 20,000 sailors and Marines.",
+              "candidate_id": "us-third-carrier-middle-east-deployment",
+              "headline": "U.S. sends third carrier toward Middle East",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/iran-war-trump-ships-deployment-middle-east-42c23e9af0333f4bc3b4f419cc3a603e"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0f84b513c0c3d156006abf66523cdc87d2be5545bd9eae1b02",
+          "requestId": "req_66e44808b784411a9cc26eb3caebccdc",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 516,
+          "inputTokens": 3098,
+          "outputTokens": 880,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-01",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 16795,
+          "attemptDurationMs": 16795,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
