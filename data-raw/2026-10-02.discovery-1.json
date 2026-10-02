@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-02",
+  "batch": 1,
+  "captured_at": "2026-10-02T10:08:45.019Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "A spokesperson for Yemen’s internationally recognized government said its warplanes carried out 20 strikes over a three-hour period against Houthi movements, personnel, vehicles and military equipment in Taiz province. A Houthi military source quoted by the Houthi-run Saba news agency denied the government’s account. Reuters said roads into the province had been designated military operational areas amid wider fighting.",
+        "category": "conflict",
+        "title": "Yemeni government claims 20 airstrikes against Houthi targets in Taiz",
+        "event_date": "2026-10-02",
+        "candidate_id": "yemen-taiz-airstrikes-oct-2",
+        "geography": "Yemen",
+        "sources": [
+          {
+            "name": "Reuters via AOL",
+            "url": "https://www.aol.com/articles/yemen-carried-20-strikes-houthi-062109000.html"
+          }
+        ]
+      },
+      {
+        "summary": "The United Nations Food and Agriculture Organization reported that its global food price index rose in September to its highest level in nearly four years. Reuters attributed the increase to weather concerns and disruptions affecting crop-market logistics. FAO had scheduled the September index for release on October 2.",
+        "category": "economy",
+        "title": "UN global food price index reaches nearly four-year high",
+        "event_date": "2026-10-02",
+        "candidate_id": "fao-food-price-index-september-2026",
+        "geography": "Global",
+        "sources": [
+          {
+            "name": "Food and Agriculture Organization",
+            "url": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/"
+          },
+          {
+            "name": "Reuters via The News & Observer",
+            "url": "https://www.newsobserver.com/news/nation-world/world/"
+          }
+        ]
+      },
+      {
+        "summary": "FlyDubai captain Smit Machchhar, speaking from a hospital during a televised call with Indian Prime Minister Narendra Modi, described regaining his footing and opening the cockpit door during the September 30 attack aboard a Dubai-to-Tel Aviv flight. The target-day interview provided his first detailed public account of how passengers gained access to the cockpit and restrained the co-pilot accused of attacking him.",
+        "category": "transportation",
+        "title": "FlyDubai captain gives first detailed account of cockpit attack",
+        "event_date": "2026-10-02",
+        "candidate_id": "flydubai-pilot-account-oct-2",
+        "geography": "India / United Arab Emirates / Saudi Arabia",
+        "sources": [
+          {
+            "name": "Associated Press via WDIV",
+            "url": "https://gmg-wdiv-prod.cdn.arcpublishing.com/news/world/2026/10/02/i-was-fighting-for-my-life-indian-pilot-hailed-as-hero-recalls-flydubai-cockpit-attack/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-02"
+  },
+  "metadata": {
+    "responseId": "resp_00ece0a851938b67006abf827e214c87d2ab1fb0256de75306",
+    "requestId": "req_0dae23201d27436ea3ed1f69946f2001",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2275,
+    "inputTokens": 56199,
+    "outputTokens": 2641,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-02",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 52003,
+    "attemptDurationMs": 52003,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
