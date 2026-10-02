@@ -408,13 +408,97 @@
         "request": {
           "fingerprint": "914892a9708108a88b4758e289b774c38f25edc8a80568b5913a497530d098d0",
           "claimId": "91c0b6ec-2993-4951-9d4e-82272f121c39",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-02T07:07:47.395Z",
           "responseId": "resp_01055663ba5964fe006abf58475afc87d284df69e5b280cbc5"
         },
-        "result": null,
-        "observedAt": "2026-10-02T07:07:47.356Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "NASA’s SpaceX Crew-13 Dragon docked with the International Space Station at 7:05 p.m. EDT, seven hours and 55 minutes after launch—the fastest launch-to-docking by a U.S. spacecraft in ISS history. The crew consists of NASA astronauts Jessica Watkins and Luke Delaney, Canadian astronaut Joshua Kutryk and Russian cosmonaut Sergey Teteryatnikov.",
+                "category": "science",
+                "title": "Crew-13 reaches space station in record U.S. transit time",
+                "event_date": "2026-10-01",
+                "candidate_id": "spacex-crew-13-record-iss-docking",
+                "geography": "United States and space",
+                "sources": [
+                  {
+                    "name": "NASA",
+                    "url": "https://www.nasa.gov/blogs/spacestation/2026/10/01/dragon-docks-bringing-spacex-crew-13-to-station/"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/d885ec0dcb9fab8bbf8977103118caa0"
+                  }
+                ]
+              },
+              {
+                "summary": "Hurricane Rachel strengthened into a Category 3 storm off Mexico’s Pacific coast. The National Hurricane Center reported maximum sustained winds of 120 mph at 8 p.m. Mountain time, with the center about 235 miles south of the southern tip of Baja California. No coastal watches or warnings were in effect, but life-threatening surf and rip currents were expected along parts of Mexico’s coast.",
+                "category": "weather",
+                "title": "Hurricane Rachel strengthens to Category 3 off Mexico",
+                "event_date": "2026-10-01",
+                "candidate_id": "hurricane-rachel-category-3",
+                "geography": "Mexico and eastern Pacific Ocean",
+                "sources": [
+                  {
+                    "name": "National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/archive/2026/ep18/ep182026.public.020.shtml"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/8752e5abd8b0a52aa01976a4cf3f1462"
+                  }
+                ]
+              },
+              {
+                "summary": "The United Kingdom Maritime Trade Operations center said it received a third-party report that an unidentified tanker was struck by an unknown projectile while transiting the Strait of Hormuz, causing a fire. The crew was reported safe; the vessel’s damage and any environmental impact were not immediately known, and no party claimed responsibility.",
+                "category": "conflict",
+                "title": "Tanker catches fire after reported strike in Strait of Hormuz",
+                "event_date": "2026-10-01",
+                "candidate_id": "tanker-struck-strait-hormuz-october-1",
+                "geography": "Strait of Hormuz",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/flydubai-trump-netanyahu-iran-yemen-israel-saudi-uae-october-1-2026-af2443646cf96ff01b8b1becff3f3e0e"
+                  },
+                  {
+                    "name": "United Kingdom Maritime Trade Operations",
+                    "url": "https://www.ukmto.org/"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-01"
+          },
+          "metadata": {
+            "responseId": "resp_01055663ba5964fe006abf58475afc87d284df69e5b280cbc5",
+            "requestId": "req_0257c7ce8d1e41548d735579f9e94153",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2244,
+            "inputTokens": 75290,
+            "outputTokens": 2834,
+            "webSearchCalls": 11,
+            "stage": "discovery",
+            "targetDate": "2026-10-01",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 80534,
+            "attemptDurationMs": 80534,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-10-02T07:07:47.356Z",
+        "capturedAt": "2026-10-02T07:09:07.930Z"
       }
     ],
     "sift": null
