@@ -35,11 +35,12 @@
       "completed_at": "2026-10-03T08:09:32.153Z"
     },
     "734a87f431f491faf18dee8bc0767176f408849db8829130307f54be1a388f2a": {
-      "status": "claimed",
+      "status": "completed",
       "claimed_at": "2026-10-03T08:09:34.153Z",
       "model": "gpt-image-1.5",
       "quality": "medium",
-      "prompt_version": "quiet-illustration-v1"
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-10-03T08:09:48.614Z"
     }
   }
 }
