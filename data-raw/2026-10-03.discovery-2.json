@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-03",
+  "batch": 2,
+  "captured_at": "2026-10-03T16:08:36.709Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "A witness reported a large plume of smoke and fire near a Saudi Aramco facility in Riyadh. Saudi authorities and Aramco had not confirmed the fire, and no cause or claim of responsibility was immediately reported.",
+        "category": "energy",
+        "title": "Smoke and fire reported near Aramco facility in Riyadh",
+        "event_date": "2026-10-03",
+        "candidate_id": "riyadh-aramco-facility-fire",
+        "geography": "Saudi Arabia",
+        "sources": [
+          {
+            "name": "Reuters via NDTV",
+            "url": "https://www.ndtv.com/world-news/video-plumes-of-smoke-fire-emerge-from-aramco-facility-near-riyadh-12134222/amp/1"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-03"
+  },
+  "metadata": {
+    "responseId": "resp_0a147d67b20d2506006ac1285c1ce487d289b143c6a68e4acc",
+    "requestId": "req_61537596fdd541999633d5683ce0d43d",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1953,
+    "inputTokens": 59348,
+    "outputTokens": 2066,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-03",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 44898,
+    "attemptDurationMs": 44898,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
