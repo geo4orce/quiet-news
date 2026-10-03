@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-03",
+  "batch": 3,
+  "captured_at": "2026-10-03T22:08:40.250Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Yemen’s Iran-aligned Houthis claimed they targeted a Saudi Aramco facility in Riyadh with ballistic missiles and drones, saying the operation retaliated for Saudi attacks in Yemen. A witness earlier reported smoke and fire near an Aramco facility. Saudi authorities and Aramco had not confirmed that an attack occurred or identified the cause of the fire.",
+        "category": "energy",
+        "title": "Houthis claim missile and drone attack on Riyadh Aramco facility",
+        "event_date": "2026-10-03",
+        "candidate_id": "riyadh-aramco-facility-fire",
+        "geography": "Saudi Arabia",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/commodities-news/yemens-houthis-say-they-attacked-aramco-facility-in-riyadh-with-missiles-drones-4930877"
+          },
+          {
+            "name": "Reuters via NDTV",
+            "url": "https://www.ndtv.com/world-news/video-plumes-of-smoke-fire-emerge-from-aramco-facility-near-riyadh-12134222/amp/1"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-03"
+  },
+  "metadata": {
+    "responseId": "resp_031748a270b6123e006ac17cb6a32087d29ca2a7ae8544dbb4",
+    "requestId": "req_a53ed37353624032a5d0598bd1a2e1f6",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1677,
+    "inputTokens": 56610,
+    "outputTokens": 1690,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-03",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 53505,
+    "attemptDurationMs": 53505,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
