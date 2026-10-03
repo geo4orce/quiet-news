@@ -252,6 +252,84 @@
         },
         "observedAt": "2026-10-03T16:07:51.722Z",
         "capturedAt": "2026-10-03T16:08:36.709Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [
+          {
+            "headline": "Global food prices reach nearly four-year high",
+            "body": "The United Nations’ global food price index rose in September to its highest level in nearly four years.\n\nReuters attributed the increase to concerns about weather and disruptions affecting the movement of crops through global markets.",
+            "sources": [
+              {
+                "name": "Food and Agriculture Organization",
+                "url": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/"
+              },
+              {
+                "name": "Reuters via The News & Observer",
+                "url": "https://www.newsobserver.com/news/nation-world/world/"
+              }
+            ]
+          },
+          {
+            "headline": "Florida dengue outbreak tops 250 local cases",
+            "body": "Florida health officials have recorded more than 250 locally acquired dengue cases this year, most of them in Hillsborough County. The Associated Press said it appears to be the continental United States’ largest outbreak in decades.\n\nHillsborough and surrounding counties have declared local emergencies, and mosquito-control spraying is underway. One death has been reported: a Tampa woman who died September 4.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/7f0bda2b0a1e7895e834010f38cedb1e"
+              }
+            ]
+          },
+          {
+            "headline": "G7 coordinates 100-million-barrel energy release",
+            "body": "G7 leaders agreed to release 100 million barrels of oil and fuel products through the International Energy Agency over four months, starting immediately.\n\nThe plan calls for a substantial, front-loaded release of diesel during the first 20 days. Members also said they would not restrict energy exports to one another.",
+            "sources": [
+              {
+                "name": "UK Foreign, Commonwealth & Development Office",
+                "url": "https://www.gov.uk/government/news/g7-leaders-statement-on-global-energy-security-and-market-stability"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/trump-europe-diesel-fuel-prices-774a360d1646d9ce8aba764fdd9959d2"
+              }
+            ]
+          },
+          {
+            "headline": "Russian strikes disrupt three of Kyiv’s six bridges",
+            "body": "Russian aerial attacks forced the full or partial closure of three of Kyiv’s six road bridges across the Dnipro River, according to Mayor Vitalii Klitschko. One of the bridges was struck again Friday afternoon.\n\nThe closures caused major traffic disruption across the Ukrainian capital.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/russia-ukraine-war-kyiv-bridges-truce-1949f2a68b6b8b4bfeba5a86878c79bd"
+              }
+            ]
+          },
+          {
+            "headline": "U.S. payrolls grew by 29,000 in September",
+            "body": "U.S. employers added 29,000 jobs in September, while the unemployment rate was 4.2%, the Bureau of Labor Statistics reported.\n\nThe government also reduced its estimates for July and August by a combined 60,000 jobs. Average hourly earnings were 3% higher than a year earlier.",
+            "sources": [
+              {
+                "name": "U.S. Bureau of Labor Statistics",
+                "url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/jobs-unemployment-economy-ai-hiring-44b99f9ccbff863888af99402ddf535e"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "26031b66b7b0f2842220ca98ac5f3daea9ea9f15a5bf772fe6900bf090d604d6",
+          "claimId": "d76710d0-9c6c-498a-b1d3-70499d44ef12",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-03T22:07:46.745Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-03T22:07:46.657Z"
       }
     ],
     "sift": null
