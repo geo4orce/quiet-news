@@ -452,10 +452,10 @@
       "request": {
         "fingerprint": "855eb008495b160857b77ef30f0b60a78676c348f97b04dec5095adb9b709c84",
         "claimId": "879a19b3-477c-4cab-afff-8553fbdfd529",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-03T08:07:42.343Z",
-        "responseId": null
+        "responseId": "resp_07647fde0109224a006ac0b7d209d087d294f2320e103c9e8d"
       },
       "result": null
     }
