@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-03",
+  "batch": 1,
+  "captured_at": "2026-10-03T10:08:28.935Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Lithuania temporarily closed controlled airspace over Vilnius Airport after radar detected an unidentified airborne object. NATO air-policing fighters were deployed, but the object disappeared from surveillance and the alert was lifted. Lithuania’s crisis-management chief said it had not been confirmed as a drone and could have been an atmospheric anomaly or migrating birds.",
+        "category": "security",
+        "title": "Vilnius Airport airspace briefly closed over unidentified object",
+        "event_date": "2026-10-03",
+        "candidate_id": "vilnius-airport-unidentified-object",
+        "geography": "Lithuania",
+        "sources": [
+          {
+            "name": "LRT",
+            "url": "https://archyvai.lrt.lt/naujienos/lietuvoje/2/3053200/oro-pavojus-atsauktas-radaruose-matyto-signalo-dingimo-vieta-bus-papildomai-apziureta"
+          },
+          {
+            "name": "EFE",
+            "url": "https://efe.com/mundo/2026-10-03/aeropuerto-vilna-dron/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-03"
+  },
+  "metadata": {
+    "responseId": "resp_0c9b4f6af3ff11a2006ac0d3f5efd087d2b8666f3b06135683",
+    "requestId": "req_350e11a80b4949a7b18d1886cfb6b25d",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1192,
+    "inputTokens": 55878,
+    "outputTokens": 1192,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-03",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 42566,
+    "attemptDurationMs": 42566,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
