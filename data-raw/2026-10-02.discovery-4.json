@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-02",
+  "batch": 4,
+  "captured_at": "2026-10-03T07:08:29.865Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "North Korea launched at least one ballistic missile from the Wonsan area at about 6:30 a.m. October 3 in Korea, corresponding to 5:30 p.m. October 2 in New York. South Korea’s military said the missile flew more than 700 kilometers toward the sea. Japan’s Defense Ministry said it landed outside Japan’s exclusive economic zone, while South Korea increased surveillance for additional launches.",
+        "category": "conflict",
+        "title": "North Korea launches ballistic missile from Wonsan area",
+        "event_date": "2026-10-02",
+        "candidate_id": "north-korea-ballistic-missile-oct-2",
+        "geography": "North Korea / South Korea / Japan",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/south-north-korea-projectile-fired-0b5b69e919f9c9a2358f3cd3346649e7"
+          },
+          {
+            "name": "Yonhap News Agency",
+            "url": "https://en.yna.co.kr/view/AEN20261003000500315"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-02"
+  },
+  "metadata": {
+    "responseId": "resp_0dc7c5247469cd7a006ac0a9c6839887d2ad924c6f28e6ab9a",
+    "requestId": "req_c37f130cdac2453da7df401aea4b629e",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1786,
+    "inputTokens": 80624,
+    "outputTokens": 2035,
+    "webSearchCalls": 8,
+    "stage": "discovery",
+    "targetDate": "2026-10-02",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 43431,
+    "attemptDurationMs": 43431,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
