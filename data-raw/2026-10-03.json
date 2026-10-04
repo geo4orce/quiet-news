@@ -449,10 +449,10 @@
         "request": {
           "fingerprint": "d12f4022a62a92c393ecd0fb1d29199fe2775c4012cddec4a20c062c29bb4043",
           "claimId": "676c22f0-0e01-4310-bf70-78f3691e3285",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-04T07:07:47.850Z",
-          "responseId": null
+          "responseId": "resp_0b27cebdc3fe06fc006ac1fb47fb4487d2ba4c55779811daf6"
         },
         "result": null,
         "observedAt": "2026-10-04T07:07:47.783Z"
