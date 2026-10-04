@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-03",
+  "batch": 4,
+  "captured_at": "2026-10-04T07:08:46.848Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "North Korean state media said the country conducted an intermediate-range missile drill overseen by Kim Jong Un. KCNA said the missile was launched Saturday from eastern North Korea, struck a target 1,000 kilometers away in the sea, and was intended to train forces and assess a hypersonic strategic weapon system. South Korea’s military said it detected a ballistic missile that flew more than 700 kilometers.",
+        "category": "security",
+        "title": "North Korea reports intermediate-range missile drill",
+        "event_date": "2026-10-03",
+        "candidate_id": "north-korea-intermediate-range-missile-drill",
+        "geography": "North Korea",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/North%2BKorea%2Bsays%2Bit%2Bconducted%2Bintermediate-range%2Bstrategic%2Bmissile%2Bdrill/27144332.html"
+          }
+        ]
+      },
+      {
+        "summary": "Britain’s government announced it would abandon plans to remove jury trials for defendants in less serious criminal cases after opposition from lawyers and politicians. The Justice Ministry said it would retain proposals allowing some complex fraud cases to be heard by a judge alone and would increase magistrates’ sentencing powers. Legal groups welcomed the reversal while raising concerns about other elements of the revised policy.",
+        "category": "justice",
+        "title": "Britain abandons plan to curb jury trials in less serious cases",
+        "event_date": "2026-10-03",
+        "candidate_id": "britain-jury-trial-policy-reversal",
+        "geography": "United Kingdom",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/britain-scraps-heavily-criticised-plans-to-curb-jury-trials-after-backlash-ce785ddbdc8af721"
+          }
+        ]
+      },
+      {
+        "summary": "Police in Japan’s Okinawa prefecture arrested a 20-year-old U.S. Marine on suspicion of robbing and killing a 39-year-old Japanese woman at a hotel in Naha on Saturday. Police identified the Marine as Devin Jacob Ballard, stationed at Marine Corps Air Station Futenma, and said he denied the allegations. The report did not indicate that charges had been adjudicated.",
+        "category": "crime",
+        "title": "U.S. Marine arrested on murder suspicion in Okinawa",
+        "event_date": "2026-10-03",
+        "candidate_id": "okinawa-us-marine-murder-arrest",
+        "geography": "Japan",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/us-marine-arrested-on-suspicion-of-murder-in-japans-okinawa-4930901"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-03"
+  },
+  "metadata": {
+    "responseId": "resp_0b27cebdc3fe06fc006ac1fb47fb4487d2ba4c55779811daf6",
+    "requestId": "req_fa6a6db93e234043b960de093afa487e",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1983,
+    "inputTokens": 63966,
+    "outputTokens": 2535,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-10-03",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 58997,
+    "attemptDurationMs": 58997,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
