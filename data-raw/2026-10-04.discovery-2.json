@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-04",
+  "batch": 2,
+  "captured_at": "2026-10-04T16:09:00.346Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Brazilians began first-round voting in a general election led by the presidential contest between incumbent Luiz Inácio Lula da Silva and Senator Flávio Bolsonaro. Nearly 159 million people were eligible to vote; the election also covers Congress, governorships and state legislatures. No outcome had been established during the coverage interval.",
+        "category": "politics and elections",
+        "title": "Brazil begins voting in presidential and general elections",
+        "event_date": "2026-10-04",
+        "candidate_id": "brazil-general-election-voting-2026-10-04",
+        "geography": "Brazil",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/57a4175077593f2f3517d80c3146b6bc"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/c194f8965632c8af9bcc4e7a3716cd7c"
+          }
+        ]
+      },
+      {
+        "summary": "Yemen's Saudi-backed Presidential Leadership Council chief Rashad al-Alimi announced the start of military operations intended to retake Houthi-held territory and extend government authority nationwide. Government-aligned forces said they were conducting strikes against Houthi targets in Sanaa and Saada; Houthi-run media attributed an attack on Sanaa to Saudi Arabia, which had not immediately confirmed that claim.",
+        "category": "security and defense",
+        "title": "Yemen's government announces operation to retake Houthi-held territory",
+        "event_date": "2026-10-04",
+        "candidate_id": "yemen-government-houthi-offensive-2026-10-04",
+        "geography": "Yemen",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/head-of-yemen-s-presidential-council-announces-military-operations-to-retake-territory"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/yemen-s-armed-forces-say-it-is-conducting-strikes-against-houthis-in-sanaa"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/a37b24d446b3066d3b17441ac5bb0264"
+          }
+        ]
+      },
+      {
+        "summary": "Thousands of young demonstrators and opposition supporters rallied in New Delhi and Mumbai for a third consecutive day, demanding the resignation of Chief Election Commissioner Gyanesh Kumar and reversal of electoral-roll revisions. Police detained demonstrators. Kumar had not responded publicly, while the Election Commission said the revisions were intended to remove duplicate, deceased or ineligible entries.",
+        "category": "protests and civil society",
+        "title": "Indian protests demanding election commissioner's resignation escalate",
+        "event_date": "2026-10-04",
+        "candidate_id": "india-election-chief-protests-2026-10-04",
+        "geography": "India",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/protests-demanding-indian-election-chief-resigns-escalate"
+          }
+        ]
+      },
+      {
+        "summary": "The Philippine Coast Guard said Chinese vessels obstructed a Philippine operation against a foreign fishing vessel suspected of blast fishing near Philippine-held Thitu Island. It described the presence of a Chinese navy helicopter as intimidation. The Chinese Embassy in Manila had not immediately commented on the Philippine account.",
+        "category": "international affairs",
+        "title": "Philippines says Chinese vessels obstructed operation near Thitu Island",
+        "event_date": "2026-10-04",
+        "candidate_id": "philippines-china-thitu-operation-2026-10-04",
+        "geography": "South China Sea; Philippines; China",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/philippines-accuses-chinese-coast-guard-of-blocking-law-enforcement-mission-near-thitu"
+          }
+        ]
+      },
+      {
+        "summary": "Russia's Defence Ministry said Russian forces struck Kyiv's Northern Bridge over the Dnipro River on Sunday, describing it as a route for military personnel and cargo. The claim was not independently verified in the initial report and Ukrainian authorities had not been cited as confirming the target or damage.",
+        "category": "security and defense",
+        "title": "Russia claims strike on Kyiv bridge over Dnipro River",
+        "event_date": "2026-10-04",
+        "candidate_id": "russia-claims-kyiv-northern-bridge-strike-2026-10-04",
+        "geography": "Ukraine; Russia",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/russia-says-it-hit-kyiv-bridge-two-vessels-in-black-sea"
+          }
+        ]
+      },
+      {
+        "summary": "U.S. President Donald Trump announced that Director of National Intelligence Jay Clayton would additionally serve as White House artificial-intelligence czar and lead a new Super Intelligence Force. Trump said the body would coordinate federal engagement with public-interest groups, infrastructure providers and AI companies.",
+        "category": "government and policy",
+        "title": "Trump names intelligence director Jay Clayton as White House AI czar",
+        "event_date": "2026-10-04",
+        "candidate_id": "trump-names-clayton-ai-czar-2026-10-04",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/us-news/2026/oct/04/trump-jay-clayton-white-house-ai-czar"
+          }
+        ]
+      },
+      {
+        "summary": "The British government announced it would abandon plans to remove jury trials for defendants in less serious criminal cases after sustained criticism from lawyers and politicians. The announcement withdrew the proposal rather than changing trial rights immediately through enacted legislation.",
+        "category": "government and policy",
+        "title": "British government drops proposal to restrict jury trials",
+        "event_date": "2026-10-04",
+        "candidate_id": "britain-drops-jury-trial-restrictions-2026-10-04",
+        "geography": "United Kingdom",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/britain-scraps-heavily-criticised-plans-to-curb-jury-trials-after-backlash"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-04"
+  },
+  "metadata": {
+    "responseId": "resp_0241db8d6ae27537006ac279dabb7087d2a79c6aec9dbe014a",
+    "requestId": "req_f3965c2be50847b6a6f49c7e20d62b10",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2608,
+    "inputTokens": 51464,
+    "outputTokens": 3281,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-04",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 69390,
+    "attemptDurationMs": 69390,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
