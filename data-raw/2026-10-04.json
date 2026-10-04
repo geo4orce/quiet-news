@@ -288,10 +288,10 @@
         "request": {
           "fingerprint": "d1eebe4c99b43f6e98fb9c49cfb3296dbca22d0e77c270eb0a94e5022021fae7",
           "claimId": "941829e3-7de8-4cd0-8cf2-7502d2c509c0",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-04T22:07:48.589Z",
-          "responseId": null
+          "responseId": "resp_085437d53ff426ee006ac2ce392bb087d2b6363f6cb8e131f3"
         },
         "result": null,
         "observedAt": "2026-10-04T22:07:48.466Z"
