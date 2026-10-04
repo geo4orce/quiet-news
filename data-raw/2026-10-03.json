@@ -606,12 +606,59 @@
       "request": {
         "fingerprint": "b2be8003c1c0f15c5da45854bca61fe1be30ed42692aa20b8b70fcc3241bd2f2",
         "claimId": "af69b481-f6f8-4a06-82ba-20ca68f0fec4",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-04T08:07:45.790Z",
         "responseId": "resp_088c3ddaec26340d006ac2095530d087d289e9ca1c70c35f88"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "britain-jury-trial-policy-reversal",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "north-korea-intermediate-range-missile-drill",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "okinawa-us-marine-murder-arrest",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "riyadh-aramco-facility-fire",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "vilnius-airport-unidentified-object",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": []
+        },
+        "metadata": {
+          "responseId": "resp_088c3ddaec26340d006ac2095530d087d289e9ca1c70c35f88",
+          "requestId": "req_1cfab42d56c44f07bad2ffce8d9a3c3b",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 142,
+          "inputTokens": 2543,
+          "outputTokens": 259,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-03",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 11295,
+          "attemptDurationMs": 11295,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
