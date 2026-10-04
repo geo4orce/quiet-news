@@ -280,6 +280,21 @@
         },
         "observedAt": "2026-10-04T16:07:50.873Z",
         "capturedAt": "2026-10-04T16:09:00.346Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [],
+        "request": {
+          "fingerprint": "d1eebe4c99b43f6e98fb9c49cfb3296dbca22d0e77c270eb0a94e5022021fae7",
+          "claimId": "941829e3-7de8-4cd0-8cf2-7502d2c509c0",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-04T22:07:48.589Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-04T22:07:48.466Z"
       }
     ],
     "sift": null
