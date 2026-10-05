@@ -483,10 +483,10 @@
         "request": {
           "fingerprint": "6540077db795f8ec6418be5cef5b97a4614f642a73545aecfa60dac8e09542d6",
           "claimId": "8878fe2f-b2f1-4684-a41c-acac6798f207",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-05T07:07:47.516Z",
-          "responseId": null
+          "responseId": "resp_023a774ed43997fe006ac34cc7f9fc87d2b50e86e245072edf"
         },
         "result": null,
         "observedAt": "2026-10-05T07:07:47.395Z"
