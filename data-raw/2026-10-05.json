@@ -469,13 +469,79 @@
         "request": {
           "fingerprint": "6bd243dcae79ce23a5a5da33818d7be549c92ea5d635a3ceee7fd3f6c095cb2b",
           "claimId": "90bad6de-5fa5-40d9-b067-76fd802c5d51",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-05T22:07:41.561Z",
           "responseId": "resp_0ebcd6d082543a46006ac41fb16bdc87d29c41278decbd2d72"
         },
-        "result": null,
-        "observedAt": "2026-10-05T22:07:41.474Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Ukrainian officials said three Russian bombs struck separate parts of Kharkiv, killing six people and injuring 59, including three children. Regional governor Oleh Syniehubov said 30 people were hospitalized and three were in serious condition. Residential buildings and warehouses were damaged. Officials separately reported one person killed in Sloviansk and three people injured when a drone struck an apartment building in Zaporizhzhia.",
+                "category": "conflict",
+                "title": "Russian bombing kills six and injures 59 in Kharkiv",
+                "event_date": "2026-10-05",
+                "candidate_id": "russia-kharkiv-bombing-six-killed",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/russian-attack-kills-five-in-ukraines-kharkiv-shatters-residences-4932640"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/48793b176934f0516b7402c8706a421a"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. Supreme Court heard arguments over whether federal law prevents Boulder, Colorado, from pursuing state-law claims against ExxonMobil and Suncor for alleged climate-related costs and deceptive marketing. Several justices questioned the potential scope of similar litigation and whether the court has jurisdiction at this stage. Justice Samuel Alito recused himself; a 4-4 split would leave intact the Colorado Supreme Court decision allowing the case to proceed. No ruling was issued.",
+                "category": "law",
+                "title": "US Supreme Court hears Boulder climate lawsuit dispute",
+                "event_date": "2026-10-05",
+                "candidate_id": "us-supreme-court-boulder-climate-case",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/supreme-court-climate-change-wildfires-natural-disasters-6f8bb7d17b03c128017c961f872cff3e"
+                  },
+                  {
+                    "name": "Legal Information Institute",
+                    "url": "https://www.law.cornell.edu/supct/cert/25-170"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-05"
+          },
+          "metadata": {
+            "responseId": "resp_0ebcd6d082543a46006ac41fb16bdc87d29c41278decbd2d72",
+            "requestId": "req_ba749289364c4e459e2050253c0364fa",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1489,
+            "inputTokens": 56933,
+            "outputTokens": 1867,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-05",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 55159,
+            "attemptDurationMs": 55159,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-10-05T22:07:41.474Z",
+        "capturedAt": "2026-10-05T22:08:36.721Z"
       }
     ],
     "sift": null
