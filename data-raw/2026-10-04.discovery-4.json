@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-04",
+  "batch": 4,
+  "captured_at": "2026-10-05T07:08:52.922Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Brazil's Superior Electoral Court said Flávio Bolsonaro and President Luiz Inácio Lula da Silva advanced to an October 25 runoff after neither won a first-round majority. With 99.99% of ballots counted, Bolsonaro had 47.03% of valid votes and Lula 45.16%.",
+        "category": "politics and elections",
+        "title": "Flávio Bolsonaro and Lula advance to Brazilian presidential runoff",
+        "event_date": "2026-10-04",
+        "candidate_id": "brazil-general-election-voting-2026-10-04",
+        "geography": "Brazil",
+        "sources": [
+          {
+            "name": "Brazil Superior Electoral Court",
+            "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/57a4175077593f2f3517d80c3146b6bc"
+          },
+          {
+            "name": "Reuters via Devdiscourse",
+            "url": "https://www.devdiscourse.com/article/international/3986784-bolsonaro-beats-expectations-in-brazil-presidential-vote-faces-lula-in-runoff"
+          }
+        ]
+      },
+      {
+        "summary": "Preliminary results from about 94% of polling stations indicated that Denis Bećirović, Darijana Filipović and Željka Cvijanović received the most votes for the Bosniak, Croat and Serb seats, respectively, on Bosnia and Herzegovina's tripartite presidency. Bećirović's lead was narrower than those of Filipović and Cvijanović, and final certification remained pending.",
+        "category": "politics and elections",
+        "title": "Bosnia presidency races take shape in updated preliminary results",
+        "event_date": "2026-10-04",
+        "candidate_id": "bosnia-general-election-preliminary-results-2026-10-04",
+        "geography": "Bosnia and Herzegovina",
+        "sources": [
+          {
+            "name": "Bosnia and Herzegovina Central Election Commission",
+            "url": "https://www.izbori.ba/?CategoryID=183&Id=6187&Lang=6"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/8d8ce8f6a3c676ef8ba3422f68ea9d11"
+          },
+          {
+            "name": "BHRT",
+            "url": "https://www.bhrt.ba/be%C4%87irovi%C4%87-filipovi%C4%87-i-cvijanovi%C4%87-osvojili-najvi%C5%A1e-glasova-za-predsjedni%C5%A1tvo-bih"
+          }
+        ]
+      },
+      {
+        "summary": "With more than 99.9% of ballots counted from Latvia's October 3 parliamentary election, Prime Minister Andris Kulbergs' United List had about 35.4% of the vote and was projected to receive 42 of parliament's 100 seats. The party remained short of a majority, requiring coalition negotiations.",
+        "category": "politics and elections",
+        "title": "Latvia's United List wins 42 seats in near-complete election count",
+        "event_date": "2026-10-04",
+        "candidate_id": "latvia-provisional-election-results-2026-10-04",
+        "geography": "Latvia",
+        "sources": [
+          {
+            "name": "Latvia Central Election Commission",
+            "url": "https://dati.cvk.lv/SV2026/en/velesanu-rezultati/"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/e8f2309be23c2bb394a738a2dfcfe623"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/10/04/latvias-pro-european-ruling-party-wins-election-as-populists-gain-ground"
+          }
+        ]
+      },
+      {
+        "summary": "Preliminary results from Paraguay's municipal elections showed opposition candidate Soledad Núñez leading the Asunción mayoral race with 47.78%, against 45.98% for ruling Colorado Party candidate Camilo Pérez, with 99.92% counted. Pérez said he would await the formal review. Opposition candidate Dani Mujica also won decisively in Ciudad del Este, according to the preliminary count.",
+        "category": "politics and elections",
+        "title": "Paraguayan opposition leads mayoral contests in Asunción and Ciudad del Este",
+        "event_date": "2026-10-04",
+        "candidate_id": "paraguay-opposition-mayoral-wins-2026-10-04",
+        "geography": "Paraguay",
+        "sources": [
+          {
+            "name": "Paraguay Superior Tribunal of Electoral Justice",
+            "url": "https://rcp.tsje.gov.py/trep"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/paraguay-opposition-candidate-wins-asuncion-mayor-s-race-in-gauge-of-2028-vote"
+          }
+        ]
+      },
+      {
+        "summary": "U.S. Southern Command said it carried out a lethal strike against a speedboat on a Caribbean narcotics-trafficking route, killing four people it described as narco-terrorists. The command cited intelligence alleging the vessel's involvement in trafficking but released no further evidence. Human-rights organizations and United Nations experts have disputed the legality of the broader strike campaign.",
+        "category": "security and defense",
+        "title": "U.S. military announces Caribbean vessel strike that killed four",
+        "event_date": "2026-10-04",
+        "candidate_id": "us-caribbean-vessel-strike-2026-10-04",
+        "geography": "Caribbean Sea; United States",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/us-military-says-it-struck-vessel-in-caribbean-killing-four"
+          }
+        ]
+      },
+      {
+        "summary": "The FBI arrested Wanying Zhang at Los Angeles International Airport and charged her with acting as an unregistered foreign agent. U.S. authorities alleged that she surveilled a son of Taiwanese President Lai Ching-te and supplied Chinese officials with photographs, video and vehicle information. Zhang had not entered a plea, and China's foreign ministry had not commented.",
+        "category": "law and justice",
+        "title": "U.S. charges California woman accused of surveilling Taiwanese president's son",
+        "event_date": "2026-10-04",
+        "candidate_id": "us-charges-alleged-china-agent-2026-10-04",
+        "geography": "United States; Taiwan; China",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/us-accuses-california-woman-of-spying-for-china-surveilling-taiwan-leader-s-son"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-04"
+  },
+  "metadata": {
+    "responseId": "resp_023a774ed43997fe006ac34cc7f9fc87d2b50e86e245072edf",
+    "requestId": "req_dd95d7c9ae9148798da679db418f1752",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2049,
+    "inputTokens": 75836,
+    "outputTokens": 3485,
+    "webSearchCalls": 9,
+    "stage": "discovery",
+    "targetDate": "2026-10-04",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 65406,
+    "attemptDurationMs": 65406,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
