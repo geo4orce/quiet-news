@@ -647,10 +647,10 @@
       "request": {
         "fingerprint": "c28783cffd07919ecce93808398c0aa340ce55bd81b79cbac2eb380654198c36",
         "claimId": "1ca2b317-8704-4a09-89de-4172c8883282",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-05T08:07:46.418Z",
-        "responseId": null
+        "responseId": "resp_0ea205629ff99528006ac35ad668dc87d2a2683103a4a838a3"
       },
       "result": null
     }
