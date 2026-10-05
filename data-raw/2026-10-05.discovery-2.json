@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-05",
+  "batch": 2,
+  "captured_at": "2026-10-05T16:08:47.995Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Vaxcyte said its experimental 31-valent pneumococcal vaccine, VAX-31, met all prespecified primary immunogenicity and safety endpoints in a pivotal Phase 3 trial. In adults 50 and older, immune responses met the trial’s noninferiority criterion for all 28 strains shared with at least one comparator vaccine, while three unique strains and cross-reactive strain 20B met a superiority criterion. The results do not constitute regulatory approval; Vaxcyte plans additional trial readouts in 2027 and a U.S. application in 2028.",
+        "category": "science",
+        "title": "Vaxcyte pneumococcal vaccine meets Phase 3 trial endpoints",
+        "event_date": "2026-10-05",
+        "candidate_id": "vaxcyte-vax31-phase-3-results",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Vaxcyte",
+            "url": "https://www.globenewswire.com/de/news-release/2026/10/05/3374299/0/en/vaxcyte-reports-positive-topline-data-from-opus-1-the-pivotal-adult-phase-3-trial-of-vax-31-the-company-s-31-valent-pneumococcal-conjugate-vaccine-candidate.html"
+          },
+          {
+            "name": "Reuters via Yahoo Finance",
+            "url": "https://finance.yahoo.com/healthcare/articles/vaxcyte-shares-surge-pneumococcal-vaccine-103743833.html"
+          }
+        ]
+      },
+      {
+        "summary": "A Nigerian military aircraft carrying 25 passengers and seven crew members crashed near a naval base in Igbokoda, Ondo state, after air traffic controllers lost contact with it at 08:13 GMT, Aviation Minister Festus Keyamo said. Authorities located the wreckage and began search-and-rescue operations. No casualties had been confirmed in the initial reports.",
+        "category": "disaster",
+        "title": "Nigerian military aircraft crashes with 32 aboard",
+        "event_date": "2026-10-05",
+        "candidate_id": "nigeria-military-aircraft-crash-igbokoda",
+        "geography": "Nigeria",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/nigerian-military-helicopter-carrying-32-passengers-and-crew-members-crashes-aviation-minister-says"
+          },
+          {
+            "name": "Radio Nigeria Lagos",
+            "url": "https://radionigerialagos.gov.ng/military-aircraft-crashes-near-naval-base-in-ondo-search-and-rescue-underway/"
+          }
+        ]
+      },
+      {
+        "summary": "Romanian authorities said two people died and 11 crew members were rescued after the Royad Mammadov caught fire and sank in the Black Sea outside Romania’s territorial waters. Ukrainian President Volodymyr Zelenskyy attributed the incident to two Russian drones striking the Turkish-owned civilian grain vessel; Romania did not confirm the cause, and Russia had not commented directly. Russia’s Defense Ministry had separately said it struck two cargo vessels.",
+        "category": "conflict",
+        "title": "Two die after cargo ship burns and sinks in Black Sea",
+        "event_date": "2026-10-05",
+        "candidate_id": "black-sea-royad-mammadov-sinking",
+        "geography": "Black Sea",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/4c97a0881505c62b1bb8f5b2f608176c"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/two-dead-11-rescued-in-serious-maritime-incident-in-black-sea-romania-says"
+          },
+          {
+            "name": "TVR Info",
+            "url": "https://tvrinfo.ro/operatiune-de-salvare-in-marea-neagra-dupa-scufundarea-unei-nave-11-membri-ai-echipajului-au-fost-salvati/"
+          }
+        ]
+      },
+      {
+        "summary": "A humanitarian bulletin circulated among aid groups said overnight airstrikes killed at least 17 people in Adwa and Sheraro in Ethiopia’s Tigray region. It also reported heavy artillery exchanges between federal and Tigrayan forces near the Tekeze River on Monday morning. The bulletin did not identify who conducted the airstrikes, and Reuters said it could not independently verify the casualty reports.",
+        "category": "conflict",
+        "title": "Aid sources report 17 killed in Tigray airstrikes",
+        "event_date": "2026-10-05",
+        "candidate_id": "tigray-airstrikes-adwa-sheraro",
+        "geography": "Ethiopia",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/airstrikes-and-artillery-hit-north-ethiopia-after-tigray-capital-s-fall-aid-sources-say"
+          }
+        ]
+      },
+      {
+        "summary": "A 15-year-old lost a hand and part of his lower arm after picking up a police stun grenade during clashes between school protesters and riot police in Lens, according to regional newspaper La Voix du Nord. A local official declined to confirm the precise circumstances. French authorities said 400 to 500 high schools were closed or partly closed amid nationwide protests over school conditions, and reported clashes in several cities.",
+        "category": "protest",
+        "title": "Teenager severely injured during French school protests",
+        "event_date": "2026-10-05",
+        "candidate_id": "france-school-protests-lens-injury",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/hundreds-of-french-schools-stay-closed-ahead-of-nationwide-day-of-student-protests"
+          }
+        ]
+      },
+      {
+        "summary": "Russian authorities said contacts of a 28-year-old laboratory worker at an anti-plague research institute in Siberia had been quarantined or placed under medical supervision after she died from pneumonia of unknown origin. Health watchdog Rospotrebnadzor said it found no evidence of a pathogen-handling accident, while regional officials said no additional cases had been identified and there was no evidence linking the death to her work.",
+        "category": "health",
+        "title": "Russia quarantines contacts after anti-plague institute worker dies",
+        "event_date": "2026-10-05",
+        "candidate_id": "siberia-plague-institute-worker-death",
+        "geography": "Russia",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/dozens-quarantined-in-siberia-after-plague-institute-lab-worker-dies"
+          }
+        ]
+      },
+      {
+        "summary": "Yemen’s information minister told Reuters that Saudi-backed government forces had secured effective control of the Bab el-Mandeb Strait after taking key positions and the Dhubab airstrip, though another government source said fighting continued near the strait. The Houthis denied government gains. Government military sources separately reported Houthi advances near Taiz, while another government source disputed that a key road had been cut. The UN migration agency said about 184,000 people had been displaced since fighting resumed.",
+        "category": "conflict",
+        "title": "Yemeni government claims effective control of Bab el-Mandeb",
+        "event_date": "2026-10-05",
+        "candidate_id": "yemen-dhubab-bab-el-mandeb-gains",
+        "geography": "Yemen",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/yemeni-government-forces-seize-district-by-bab-el-mandeb-military-sources-say"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-05"
+  },
+  "metadata": {
+    "responseId": "resp_06cd257787b5906c006ac3cb527aa487d2b77a32b59e2a5a53",
+    "requestId": "req_e6395983535e4f369003bd7dea79e774",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1797,
+    "inputTokens": 51971,
+    "outputTokens": 3389,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-05",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 65392,
+    "attemptDurationMs": 65392,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
