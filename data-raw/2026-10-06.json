@@ -257,13 +257,111 @@
         "request": {
           "fingerprint": "c6c1c5c03b51ccf7d035a43cdc3455fbbd807301025643b9f9aebc8ea43c0d7e",
           "claimId": "4c3e89a9-b35f-4c98-9f0f-486a4c93c906",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-06T16:07:41.560Z",
           "responseId": "resp_0e8f4cc54a87ae67006ac51cd0ecb887d287bfa9c4f622f08e"
         },
-        "result": null,
-        "observedAt": "2026-10-06T16:07:41.496Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Kenya confirmed its first imported case of Bundibugyo virus disease linked to the outbreak in the Democratic Republic of Congo. The Kenyan citizen died in a Nairobi hospital after returning from Congo. Authorities began tracing contacts, screening travelers and taking measures intended to prevent further transmission.",
+                "category": "health",
+                "title": "Kenya confirms first imported Bundibugyo virus case",
+                "event_date": "2026-10-06",
+                "candidate_id": "kenya-first-imported-bundibugyo-case",
+                "geography": "Kenya",
+                "sources": [
+                  {
+                    "name": "Kenya News Agency",
+                    "url": "https://www.kenyanews.go.ke/kenya-confirms-first-imported-ebola-case-patient-dies/"
+                  },
+                  {
+                    "name": "World Health Organization Regional Office for Africa",
+                    "url": "https://www.afro.who.int/countries/kenya/news/kenya-confirms-first-imported-bundibugyo-virus-disease-case-who-supports-control-efforts"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/32ccde1e74048396ad5cb9f9fe47495e"
+                  }
+                ]
+              },
+              {
+                "summary": "German authorities arrested former foreign intelligence chief August Hanning and former BND official Manfred D. Federal prosecutors allege that Manfred D. supplied Hanning with about 2,000 documents, including classified material, and that Hanning used some intelligence to prepare an analysis for an officer of a foreign intelligence service. The foreign service was not identified, and the allegations have not been adjudicated.",
+                "category": "security",
+                "title": "Germany arrests former intelligence chief in espionage investigation",
+                "event_date": "2026-10-06",
+                "candidate_id": "germany-hanning-espionage-arrests",
+                "geography": "Germany",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/47bb15543a3e2404e3f756dbb517d14c"
+                  },
+                  {
+                    "name": "Reuters via Daily Maverick",
+                    "url": "https://www.dailymaverick.co.za/article/2026-10-06-former-german-spy-chief-arrested-over-alleged-buying-of-classified-information/"
+                  }
+                ]
+              },
+              {
+                "summary": "The European Commission proposed measures intended to prepare the European Union for possible expansion involving countries including Montenegro, Albania, Ukraine and Moldova. The proposals include safeguards aimed at addressing democratic backsliding by future members and limiting political and economic risks for the existing bloc. Adoption would require further action by EU institutions and member governments.",
+                "category": "governance",
+                "title": "European Commission proposes safeguards for future EU expansion",
+                "event_date": "2026-10-06",
+                "candidate_id": "eu-expansion-safeguards-proposal",
+                "geography": "European Union",
+                "sources": [
+                  {
+                    "name": "Reuters via Lexington Herald-Leader",
+                    "url": "https://www.kentucky.com/news/nation-world/world/article317510824.html"
+                  }
+                ]
+              },
+              {
+                "summary": "The Royal Swedish Academy of Sciences awarded the 2026 Nobel Prize in Physics to Belgian-American physicist Francis Halzen for contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos originating beyond Earth. IceCube uses detectors embedded in Antarctic ice to observe the difficult-to-detect particles.",
+                "category": "science",
+                "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
+                "event_date": "2026-10-06",
+                "candidate_id": "nobel-physics-francis-halzen-2026",
+                "geography": "Sweden",
+                "sources": [
+                  {
+                    "name": "Reuters via Lexington Herald-Leader",
+                    "url": "https://www.kentucky.com/news/nation-world/world/article317502456.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-06"
+          },
+          "metadata": {
+            "responseId": "resp_0e8f4cc54a87ae67006ac51cd0ecb887d287bfa9c4f622f08e",
+            "requestId": "req_6462b8fa662746f68ac690584d52adb2",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2774,
+            "inputTokens": 52540,
+            "outputTokens": 3407,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-06",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 80278,
+            "attemptDurationMs": 80278,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-10-06T16:07:41.496Z",
+        "capturedAt": "2026-10-06T16:09:01.838Z"
       }
     ],
     "sift": null
