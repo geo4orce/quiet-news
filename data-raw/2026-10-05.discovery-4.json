@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-05",
+  "batch": 4,
+  "captured_at": "2026-10-06T07:09:40.221Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Romanian authorities said two people died and 11 crew members were rescued after the Royad Mammadov caught fire and sank in the Black Sea. Ukraine attributed the incident to Russian drones, while Romania did not confirm the cause. Azerbaijan’s Foreign Ministry later said the Azerbaijani captain was killed and another Azerbaijani crew member was missing, creating a discrepancy with the initial Romanian accounting.",
+        "category": "conflict",
+        "title": "Two die after cargo ship burns and sinks in Black Sea",
+        "event_date": "2026-10-05",
+        "candidate_id": "black-sea-royad-mammadov-sinking",
+        "geography": "Black Sea",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/4c97a0881505c62b1bb8f5b2f608176c"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/two-dead-11-rescued-in-serious-maritime-incident-in-black-sea-romania-says"
+          },
+          {
+            "name": "TVR Info",
+            "url": "https://tvrinfo.ro/operatiune-de-salvare-in-marea-neagra-dupa-scufundarea-unei-nave-11-membri-ai-echipajului-au-fost-salvati/"
+          },
+          {
+            "name": "APA citing Azerbaijan Foreign Ministry",
+            "url": "https://en.apa.az/foreign-policy/azerbaijani-citizen-killed-another-missing-after-drone-attack-on-cargo-ship-in-black-sea-528328"
+          }
+        ]
+      },
+      {
+        "summary": "Nigeria’s presidency said personnel aboard the Air Force ATR-42 that crashed near Igbokoda had died and declared three days of national mourning, but officials had not released a confirmed death toll or names. The aircraft carried 25 passengers and seven crew members. Ondo’s governor said no survivors had been found, while search teams had not yet accessed the main wreckage in the swamp. President Bola Tinubu ordered an investigation.",
+        "category": "disaster",
+        "title": "Nigeria mourns personnel killed in military aircraft crash",
+        "event_date": "2026-10-05",
+        "candidate_id": "nigeria-military-aircraft-crash-igbokoda",
+        "geography": "Nigeria",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/nigerian-military-helicopter-carrying-32-passengers-and-crew-members-crashes-aviation-minister-says"
+          },
+          {
+            "name": "Radio Nigeria Lagos",
+            "url": "https://radionigerialagos.gov.ng/military-aircraft-crashes-near-naval-base-in-ondo-search-and-rescue-underway/"
+          },
+          {
+            "name": "State House of Nigeria",
+            "url": "https://statehouse.gov.ng/president-tinubu-mourns-naf-personnel-in-ondo-jet-crash-orders-thorough-investigation-of-the-mishap/"
+          },
+          {
+            "name": "TheCable",
+            "url": "https://www.thecable.ng/tinubu-declares-three-day-national-mourning-for-air-force-personnel-killed-in-ondo-crash/"
+          }
+        ]
+      },
+      {
+        "summary": "Saudi Arabia, Pakistan and Türkiye agreed to begin implementing their collective-defense commitments and take measures to provide agreed military forces and capabilities for rapid deployment in Saudi Arabia. Their joint statement did not specify troop numbers, equipment or a deployment schedule and said implementation would follow approved arrangements and each country’s laws.",
+        "category": "defense",
+        "title": "Saudi Arabia, Pakistan and Türkiye activate defense commitments",
+        "event_date": "2026-10-05",
+        "candidate_id": "makkah-alliance-rapid-deployment-saudi",
+        "geography": "Middle East",
+        "sources": [
+          {
+            "name": "Ministry of Foreign Affairs of Pakistan",
+            "url": "https://mofa.gov.pk/press-releases/joint-statementemergency-meeting-of-the-strategic-political-and-defense-committee-of-the-makkah-alliance-for-defense-riyadh-5-october-2026"
+          },
+          {
+            "name": "Reuters via L'Orient Today",
+            "url": "https://today.lorientlejour.com/article/1549804/pakistan-saudi-arabia-turkey-agree-rapid-force-deployment-in-saudi-arabia.html"
+          }
+        ]
+      },
+      {
+        "summary": "President Donald Trump signed an order directing the Treasury Department to determine within five days whether it can defer certain diesel excise-tax payments incurred from October 5 through December 31. The order also directs Treasury to announce penalty relief for highway use of dyed diesel during that period. The payment deferral remains conditional on Treasury’s legal determinations, and implementing guidance is pending.",
+        "category": "economic-policy",
+        "title": "Trump orders consideration of temporary diesel tax relief",
+        "event_date": "2026-10-05",
+        "candidate_id": "us-trump-diesel-tax-relief-order",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "The White House",
+            "url": "https://www.whitehouse.gov/presidential-actions/2026/10/emergency-tax-relief-on-diesel-fuel/"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/c4306184648d24c5d749ec7fb41610d9"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. Energy Department announced a conditional loan commitment of up to $4.2 billion to Vistra for upgrades at the Beaver Valley, Davis-Besse and Perry nuclear plants in Pennsylvania and Ohio. DOE said the projects would preserve nearly four gigawatts of existing generation and add 433 megawatts. Vistra must satisfy technical, legal, environmental and financial conditions before financing documents are finalized or funds are released.",
+        "category": "energy",
+        "title": "US offers Vistra conditional $4.2 billion nuclear loan",
+        "event_date": "2026-10-05",
+        "candidate_id": "us-vistra-nuclear-loan-commitment",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Department of Energy",
+            "url": "https://www.energy.gov/articles/energy-department-announces-42-billion-investment-boost-nuclear-power-and-help-lower"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/c4306184648d24c5d749ec7fb41610d9"
+          }
+        ]
+      },
+      {
+        "summary": "A school bus carrying 39 people overturned near Winter Haven, Florida, after an oncoming car struck it near the rear wheels, authorities said. A 10th-grade student aboard the bus and the driver of a Jeep that subsequently collided with the bus were killed. Twenty-six students were taken to a hospital, including at least one person reported in critical condition.",
+        "category": "disaster",
+        "title": "Two killed in Florida school bus crash",
+        "event_date": "2026-10-05",
+        "candidate_id": "florida-winter-haven-school-bus-crash",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press via News4JAX",
+            "url": "https://www.news4jax.com/news/florida/2026/10/05/2-people-killed-including-a-student-after-florida-school-bus-rolls-over-in-crash-sheriff-says/"
+          }
+        ]
+      },
+      {
+        "summary": "Jim Bakker, who built the PTL television ministry and Heritage USA with his then-wife Tammy Faye before a fraud conviction sent him to prison, died at 86. His wife, Lori Bakker, announced that he died Monday evening. A cause of death was not immediately disclosed.",
+        "category": "obituary",
+        "title": "Televangelist Jim Bakker dies at 86",
+        "event_date": "2026-10-05",
+        "candidate_id": "jim-bakker-dies-86",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/ef6d58ffa0b511edba773c219cee77e8"
+          },
+          {
+            "name": "KY3",
+            "url": "https://www.ky3.com/2026/10/06/ozarks-televangelist-jim-bakker-dies-86/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-05"
+  },
+  "metadata": {
+    "responseId": "resp_0c6cadf0b918c733006ac49e4838cc87d2a1bf215c23259b7f",
+    "requestId": "req_b3c28eb60e2a40758b8649b527130861",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2796,
+    "inputTokens": 89331,
+    "outputTokens": 4090,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-10-05",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 112380,
+    "attemptDurationMs": 112380,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
