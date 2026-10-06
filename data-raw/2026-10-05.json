@@ -601,10 +601,10 @@
         "request": {
           "fingerprint": "472c524f2b78c26054b4b93bb5a4325606ebad883ab13ec65da91f729dd0df30",
           "claimId": "0d4262be-4a66-4420-945a-bdfd5dd84184",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-06T07:07:47.841Z",
-          "responseId": null
+          "responseId": "resp_0c6cadf0b918c733006ac49e4838cc87d2a1bf215c23259b7f"
         },
         "result": null,
         "observedAt": "2026-10-06T07:07:47.714Z"
