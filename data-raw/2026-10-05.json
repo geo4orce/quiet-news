@@ -842,12 +842,175 @@
       "request": {
         "fingerprint": "e648ddf26c6a6a2844dafc8009be6eda9d8db680602b1391cd8db67ab6111e7c",
         "claimId": "19ef4a7f-4fbb-46e4-b033-3c76d409af17",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-06T08:07:46.910Z",
         "responseId": "resp_0d7c39c2c90e616b006ac4ac56f27087d2b33e5e8561f51601"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "black-sea-royad-mammadov-sinking",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "florida-winter-haven-school-bus-crash",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "jim-bakker-dies-86",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "norway-proposes-ai-glasses-ban",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "russia-kharkiv-bombing-six-killed",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "russia-strikes-odesa-ports-vessels",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "siberia-plague-institute-worker-death",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "thailand-flood-death-toll-31",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "tigray-airstrikes-adwa-sheraro",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "us-supreme-court-boulder-climate-case",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "us-trump-diesel-tax-relief-order",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-vistra-nuclear-loan-commitment",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "vaxcyte-vax31-phase-3-results",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "yemen-dhubab-bab-el-mandeb-gains",
+              "code": "weak_support"
+            }
+          ],
+          "stories": [
+            {
+              "body": "French authorities said 400 to 500 high schools were closed or partly closed during nationwide protests over school conditions, with clashes reported in several cities.\n\nA 15-year-old lost a hand and part of his lower arm after picking up a police stun grenade during clashes in Lens, regional newspaper La Voix du Nord reported. A local official did not confirm the precise circumstances of the injury.",
+              "candidate_id": "france-school-protests-lens-injury",
+              "headline": "Hundreds of French schools close amid protests",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/hundreds-of-french-schools-stay-closed-ahead-of-nationwide-day-of-student-protests"
+                }
+              ]
+            },
+            {
+              "body": "Saudi Arabia, Pakistan and Türkiye agreed to begin implementing their collective-defense commitments and make agreed military forces and capabilities available for rapid deployment in Saudi Arabia.\n\nTheir joint statement did not specify troop numbers, equipment or a deployment schedule. It said implementation would follow approved arrangements and each country’s laws.",
+              "candidate_id": "makkah-alliance-rapid-deployment-saudi",
+              "headline": "Three countries activate Saudi defense commitments",
+              "sources": [
+                {
+                  "name": "Ministry of Foreign Affairs of Pakistan",
+                  "url": "https://mofa.gov.pk/press-releases/joint-statementemergency-meeting-of-the-strategic-political-and-defense-committee-of-the-makkah-alliance-for-defense-riyadh-5-october-2026"
+                },
+                {
+                  "name": "Reuters via L'Orient Today",
+                  "url": "https://today.lorientlejour.com/article/1549804/pakistan-saudi-arabia-turkey-agree-rapid-force-deployment-in-saudi-arabia.html"
+                }
+              ]
+            },
+            {
+              "body": "A Nigerian Air Force ATR-42 carrying 25 passengers and seven crew members crashed near Igbokoda in Ondo State. Nigeria’s presidency said personnel aboard had died, and the state’s governor said no survivors had been found.\n\nSearch teams had not reached the main wreckage in the surrounding swamp, leaving the death toll and victims’ names unconfirmed. President Bola Tinubu ordered an investigation and three days of national mourning.",
+              "candidate_id": "nigeria-military-aircraft-crash-igbokoda",
+              "headline": "Nigerian military plane crashes with 32 aboard",
+              "sources": [
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/nigerian-military-helicopter-carrying-32-passengers-and-crew-members-crashes-aviation-minister-says"
+                },
+                {
+                  "name": "Radio Nigeria Lagos",
+                  "url": "https://radionigerialagos.gov.ng/military-aircraft-crashes-near-naval-base-in-ondo-search-and-rescue-underway/"
+                },
+                {
+                  "name": "State House of Nigeria",
+                  "url": "https://statehouse.gov.ng/president-tinubu-mourns-naf-personnel-in-ondo-jet-crash-orders-thorough-investigation-of-the-mishap/"
+                },
+                {
+                  "name": "TheCable",
+                  "url": "https://www.thecable.ng/tinubu-declares-three-day-national-mourning-for-air-force-personnel-killed-in-ondo-crash/"
+                }
+              ]
+            },
+            {
+              "body": "The Nobel Assembly awarded the 2026 medicine prize to Karl Deisseroth, Peter Hegemann and Georg Nagel for discoveries involving light-gated ion channels and optogenetics.\n\nHegemann and Nagel discovered the light-sensitive protein channelrhodopsin. Deisseroth developed its use as a light-controlled switch for nerve cells, giving researchers a way to control selected neural activity.",
+              "candidate_id": "nobel-medicine-optogenetics-2026",
+              "headline": "Optogenetics pioneers win Nobel medicine prize",
+              "sources": [
+                {
+                  "name": "Karolinska Institutet",
+                  "url": "https://news.ki.se/the-2026-nobel-prize-in-physiology-or-medicine-to-peter-hegemann-georg-nagel-and-karl-deisseroth"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/2efe9ee7eae9d808fd49a6da1f53ceba"
+                }
+              ]
+            },
+            {
+              "body": "Prime Minister Pedro Sánchez announced plans to dissolve Spain’s parliament and hold a general election on November 29.\n\nSánchez said he was seeking a renewed mandate after repeated parliamentary deadlock, including lawmakers’ rejection of his government’s housing measures. An extraordinary cabinet meeting will complete the steps needed to call the election.",
+              "candidate_id": "spain-snap-election-november-29",
+              "headline": "Spain calls November 29 snap election",
+              "sources": [
+                {
+                  "name": "Government of Spain",
+                  "url": "https://www.lamoncloa.gob.es/presidente/intervenciones/paginas/2026/20260905-sanchez-decl-inst-convocatoria-elecciones.aspx"
+                },
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/spanish-pm-sanchez-to-make-morning-announcement-amid-speculation-about-early-election"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0d7c39c2c90e616b006ac4ac56f27087d2b33e5e8561f51601",
+          "requestId": "req_2b71c860d338490686040bab5cd47d2e",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 2821,
+          "inputTokens": 5672,
+          "outputTokens": 4199,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-05",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 61087,
+          "attemptDurationMs": 61087,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
