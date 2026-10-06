@@ -842,10 +842,10 @@
       "request": {
         "fingerprint": "e648ddf26c6a6a2844dafc8009be6eda9d8db680602b1391cd8db67ab6111e7c",
         "claimId": "19ef4a7f-4fbb-46e4-b033-3c76d409af17",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-06T08:07:46.910Z",
-        "responseId": null
+        "responseId": "resp_0d7c39c2c90e616b006ac4ac56f27087d2b33e5e8561f51601"
       },
       "result": null
     }
