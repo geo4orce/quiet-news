@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-06",
+  "batch": 1,
+  "captured_at": "2026-10-06T10:08:32.840Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Ukrainian drone attacks killed two people and injured nine in the Moscow region overnight, regional Governor Andrei Vorobyov said. The claims and casualty figures were reported from Russian authorities and had not been independently verified.",
+        "category": "conflict",
+        "title": "Moscow region governor reports deaths in Ukrainian drone attacks",
+        "event_date": "2026-10-06",
+        "candidate_id": "moscow-region-drone-attacks-oct-6",
+        "geography": "Russia",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/ukrainian-drones-kill-two-in-moscow-region-injure-nine-more-governor-says-ce785dd8df8ef522"
+          }
+        ]
+      },
+      {
+        "summary": "Police briefly detained Indian opposition leader Rahul Gandhi, Priyanka Gandhi and other lawmakers during a New Delhi march demanding the resignation of Chief Election Commissioner Gyanesh Kumar over disputed voter-list revisions. Protesters allege the changes favor the governing Bharatiya Janata Party; the Election Commission and government deny wrongdoing.",
+        "category": "politics",
+        "title": "Indian opposition leaders detained during election protest",
+        "event_date": "2026-10-06",
+        "candidate_id": "india-election-protest-detentions-oct-6",
+        "geography": "India",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/6d3dd66ebaa9bb1e2c6b688ffc576842"
+          },
+          {
+            "name": "Channel News Asia",
+            "url": "https://www.channelnewsasia.com/asia/india-opposition-rahul-gandhi-protest-march-election-resignation-6435051"
+          }
+        ]
+      },
+      {
+        "summary": "Singapore's Public Service Division referred eight civil servants to police after reviewing property purchases by 191 officers involved in rail planning. The review examined transactions near locations later announced as MRT stations. Coordinating Minister Chan Chun Sing said the referrals warrant further examination but do not establish wrongdoing.",
+        "category": "governance",
+        "title": "Singapore refers eight civil servants to police after property review",
+        "event_date": "2026-10-06",
+        "candidate_id": "singapore-civil-servants-property-referrals",
+        "geography": "Singapore",
+        "sources": [
+          {
+            "name": "Singapore Public Service Division",
+            "url": "https://www.psd.gov.sg/newsroom/reply-to-pqs-on-government-s-response-to-academic-paper/"
+          },
+          {
+            "name": "Reuters via Yahoo News Malaysia",
+            "url": "https://malaysia.news.yahoo.com/singapore-refers-8-civil-servants-053758776.html"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-06"
+  },
+  "metadata": {
+    "responseId": "resp_09528e3365cab511006ac4c872891087d2ae246632ab052b25",
+    "requestId": "req_329b2f7e816744449c18e3f4ebe785a5",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1443,
+    "inputTokens": 53899,
+    "outputTokens": 1985,
+    "webSearchCalls": 6,
+    "stage": "discovery",
+    "targetDate": "2026-10-06",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 49635,
+    "attemptDurationMs": 49635,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
