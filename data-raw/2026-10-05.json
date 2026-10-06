@@ -778,6 +778,76 @@
         "capturedAt": "2026-10-06T07:09:40.221Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "c84c530d704ba9631ca96124a61ea9c42a6e56929693de3eacd6bb998132d307",
+      "priorStories": [
+        {
+          "headline": "Flávio Bolsonaro and Lula advance to runoff",
+          "body": "Brazil’s electoral court said Flávio Bolsonaro received 47.03% of valid votes and President Luiz Inácio Lula da Silva received 45.16%, with 99.99% of ballots counted.\n\nNeither secured a majority, sending them to a presidential runoff on October 25.",
+          "sources": [
+            {
+              "name": "Brazil Superior Electoral Court",
+              "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/57a4175077593f2f3517d80c3146b6bc"
+            },
+            {
+              "name": "Reuters via Devdiscourse",
+              "url": "https://www.devdiscourse.com/article/international/3986784-bolsonaro-beats-expectations-in-brazil-presidential-vote-faces-lula-in-runoff"
+            }
+          ]
+        },
+        {
+          "headline": "Germany adds €1 billion in Ukraine military aid",
+          "body": "Chancellor Friedrich Merz announced €1 billion in additional military aid for Ukraine and €350 million to repair its energy system during a visit to Kyiv.\n\nGerman executives also signed 14 agreements with Ukrainian government and business counterparts worth about €6.6 billion. They include agreements involving IRIS-T missiles, radar equipment and interceptors for jet-powered drones. A broader defense-production agreement remains under negotiation.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/germany-s-merz-arrives-in-kyiv-to-finalize-drone-deal-release-aid"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/89bb8d2a97cc09d01a316723d08d2fb3"
+            }
+          ]
+        },
+        {
+          "headline": "Yemen’s government launches offensive against Houthis",
+          "body": "The head of Yemen’s Saudi-backed Presidential Leadership Council announced military operations intended to retake Houthi-controlled territory and extend government authority nationwide.\n\nGovernment-aligned forces said they were striking Houthi targets in Sanaa and Saada. Houthi-run media attributed an attack on Sanaa to Saudi Arabia, but Saudi officials had not confirmed that account. No territorial gains were reported in the initial accounts.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/head-of-yemen-s-presidential-council-announces-military-operations-to-retake-territory"
+            },
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/04/yemen-s-armed-forces-say-it-is-conducting-strikes-against-houthis-in-sanaa"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/a37b24d446b3066d3b17441ac5bb0264"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "e648ddf26c6a6a2844dafc8009be6eda9d8db680602b1391cd8db67ab6111e7c",
+        "claimId": "19ef4a7f-4fbb-46e4-b033-3c76d409af17",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-10-06T08:07:46.910Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
