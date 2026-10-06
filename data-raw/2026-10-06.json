@@ -445,13 +445,57 @@
         "request": {
           "fingerprint": "55819eefdabeea47e470eec9ce2f09756f6a0adc6da8d77957f5ea4b9027269d",
           "claimId": "d7429843-a2be-41c6-9f09-cb980b6c5d96",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-06T22:07:54.332Z",
           "responseId": "resp_03c87b1176709270006ac5713f283487d295cc25adf1b93a97"
         },
-        "result": null,
-        "observedAt": "2026-10-06T22:07:54.167Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Defense technology company Anduril said it will invest $3.7 billion to expand production of components for nuclear-powered submarines at the Sparrows Point shipyard near Baltimore. President Donald Trump highlighted the planned investment during remarks at the shipyard. The spending is planned rather than completed.",
+                "category": "business",
+                "title": "Anduril plans $3.7 billion submarine-component investment in Maryland",
+                "event_date": "2026-10-06",
+                "candidate_id": "anduril-sparrows-point-investment",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/36a6e4f32e3e2e617b0cd463ce6da5cf"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-06"
+          },
+          "metadata": {
+            "responseId": "resp_03c87b1176709270006ac5713f283487d295cc25adf1b93a97",
+            "requestId": "req_00136209dd0a45b4a90ae81e596e2546",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1916,
+            "inputTokens": 61929,
+            "outputTokens": 2004,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-06",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 50637,
+            "attemptDurationMs": 50637,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-10-06T22:07:54.167Z",
+        "capturedAt": "2026-10-06T22:08:44.969Z"
       }
     ],
     "sift": null
