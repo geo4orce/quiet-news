@@ -110,6 +110,68 @@
         },
         "observedAt": "2026-10-07T10:07:47.833Z",
         "capturedAt": "2026-10-07T10:08:43.235Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Germany arrests former spy chief in secrets case",
+            "body": "German authorities arrested August Hanning, a former head of the country’s foreign intelligence service, and former intelligence official Manfred D.\n\nFederal prosecutors allege that Manfred D. supplied Hanning with about 2,000 documents, including classified material. They say Hanning used some of the intelligence to prepare an analysis for an officer of an unidentified foreign intelligence service.\n\nThe allegations have not been adjudicated.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/47bb15543a3e2404e3f756dbb517d14c"
+              },
+              {
+                "name": "Reuters via Daily Maverick",
+                "url": "https://www.dailymaverick.co.za/article/2026-10-06-former-german-spy-chief-arrested-over-alleged-buying-of-classified-information/"
+              }
+            ]
+          },
+          {
+            "headline": "Kenya confirms fatal imported Bundibugyo virus case",
+            "body": "Kenya confirmed that a citizen who returned from the Democratic Republic of Congo had Bundibugyo virus disease and died in a Nairobi hospital. It is Kenya’s first imported case linked to the current outbreak in Congo.\n\nAuthorities began tracing the person’s contacts and screening travelers. The confirmation does not by itself establish that the virus has spread within Kenya.",
+            "sources": [
+              {
+                "name": "Kenya News Agency",
+                "url": "https://www.kenyanews.go.ke/kenya-confirms-first-imported-ebola-case-patient-dies/"
+              },
+              {
+                "name": "World Health Organization Regional Office for Africa",
+                "url": "https://www.afro.who.int/countries/kenya/news/kenya-confirms-first-imported-bundibugyo-virus-disease-case-who-supports-control-efforts"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/32ccde1e74048396ad5cb9f9fe47495e"
+              }
+            ]
+          },
+          {
+            "headline": "Francis Halzen wins Nobel Prize in Physics",
+            "body": "The Royal Swedish Academy of Sciences awarded the 2026 Nobel Prize in Physics to Francis Halzen for his contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos from beyond Earth.\n\nIceCube uses sensors embedded deep in Antarctic ice to detect rare neutrino interactions. Those observations help researchers study distant, highly energetic processes that are difficult to examine using light alone.",
+            "sources": [
+              {
+                "name": "Royal Swedish Academy of Sciences",
+                "url": "https://www.kva.se/en/news/the-nobel-prize-in-physics-2026/"
+              },
+              {
+                "name": "Reuters via Lexington Herald-Leader",
+                "url": "https://www.kentucky.com/news/nation-world/world/article317502456.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "a6000103b95b9d35a9a687f0cf75e6f0f7aefc86d77745b678936115bd35b800",
+          "claimId": "5b575c34-3c71-4966-b083-cbad1542534a",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-07T16:07:43.292Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-07T16:07:43.260Z"
       }
     ],
     "sift": null
