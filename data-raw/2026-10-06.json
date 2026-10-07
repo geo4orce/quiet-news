@@ -828,12 +828,129 @@
       "request": {
         "fingerprint": "2b75133455399d5f23900968a8118fc477dae4f6df0f8bafdda9f58a35e27be8",
         "claimId": "1f98bd7f-5f38-427c-aed3-abc0e30b66f4",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-07T08:07:47.997Z",
         "responseId": "resp_0c7d847554d9d39c006ac5fdd7aab887d2aff480b4b1980999"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "aframax-rio-black-sea-attack-rescue",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "anduril-sparrows-point-investment",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "christa-pike-regains-consciousness",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "eu-expansion-safeguards-proposal",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "india-election-protest-detentions-oct-6",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "michael-smith-streaming-fraud-sentence",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "moscow-region-drone-attacks-oct-6",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "singapore-civil-servants-property-referrals",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "tropical-depression-nine-gulf-oct-6",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "yemen-giants-brigade-video-investigation",
+              "code": "weak_support"
+            }
+          ],
+          "stories": [
+            {
+              "body": "German authorities arrested August Hanning, a former head of the country’s foreign intelligence service, and former intelligence official Manfred D.\n\nFederal prosecutors allege that Manfred D. supplied Hanning with about 2,000 documents, including classified material. They say Hanning used some of the intelligence to prepare an analysis for an officer of an unidentified foreign intelligence service.\n\nThe allegations have not been adjudicated.",
+              "candidate_id": "germany-hanning-espionage-arrests",
+              "headline": "Germany arrests former spy chief in secrets case",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/47bb15543a3e2404e3f756dbb517d14c"
+                },
+                {
+                  "name": "Reuters via Daily Maverick",
+                  "url": "https://www.dailymaverick.co.za/article/2026-10-06-former-german-spy-chief-arrested-over-alleged-buying-of-classified-information/"
+                }
+              ]
+            },
+            {
+              "body": "Kenya confirmed that a citizen who returned from the Democratic Republic of Congo had Bundibugyo virus disease and died in a Nairobi hospital. It is Kenya’s first imported case linked to the current outbreak in Congo.\n\nAuthorities began tracing the person’s contacts and screening travelers. The confirmation does not by itself establish that the virus has spread within Kenya.",
+              "candidate_id": "kenya-first-imported-bundibugyo-case",
+              "headline": "Kenya confirms fatal imported Bundibugyo virus case",
+              "sources": [
+                {
+                  "name": "Kenya News Agency",
+                  "url": "https://www.kenyanews.go.ke/kenya-confirms-first-imported-ebola-case-patient-dies/"
+                },
+                {
+                  "name": "World Health Organization Regional Office for Africa",
+                  "url": "https://www.afro.who.int/countries/kenya/news/kenya-confirms-first-imported-bundibugyo-virus-disease-case-who-supports-control-efforts"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/32ccde1e74048396ad5cb9f9fe47495e"
+                }
+              ]
+            },
+            {
+              "body": "The Royal Swedish Academy of Sciences awarded the 2026 Nobel Prize in Physics to Francis Halzen for his contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos from beyond Earth.\n\nIceCube uses sensors embedded deep in Antarctic ice to detect rare neutrino interactions. Those observations help researchers study distant, highly energetic processes that are difficult to examine using light alone.",
+              "candidate_id": "nobel-physics-francis-halzen-2026",
+              "headline": "Francis Halzen wins Nobel Prize in Physics",
+              "sources": [
+                {
+                  "name": "Royal Swedish Academy of Sciences",
+                  "url": "https://www.kva.se/en/news/the-nobel-prize-in-physics-2026/"
+                },
+                {
+                  "name": "Reuters via Lexington Herald-Leader",
+                  "url": "https://www.kentucky.com/news/nation-world/world/article317502456.html"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0c7d847554d9d39c006ac5fdd7aab887d2aff480b4b1980999",
+          "requestId": "req_6fa510250224455f8b8e7528f83a211a",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 516,
+          "inputTokens": 4373,
+          "outputTokens": 1341,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-06",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 22488,
+          "attemptDurationMs": 22488,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
