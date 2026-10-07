@@ -828,10 +828,10 @@
       "request": {
         "fingerprint": "2b75133455399d5f23900968a8118fc477dae4f6df0f8bafdda9f58a35e27be8",
         "claimId": "1f98bd7f-5f38-427c-aed3-abc0e30b66f4",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-07T08:07:47.997Z",
-        "responseId": null
+        "responseId": "resp_0c7d847554d9d39c006ac5fdd7aab887d2aff480b4b1980999"
       },
       "result": null
     }
