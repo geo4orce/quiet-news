@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-06",
+  "batch": 4,
+  "captured_at": "2026-10-07T07:09:19.427Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The National Hurricane Center classified a southwestern Gulf system as Tropical Depression Nine at 2100 UTC, with maximum sustained winds of 35 mph. By 0300 UTC on October 7, it remained a depression moving east at 5 mph. No coastal watches or warnings were in effect, although forecasters advised interests in the Yucatán Peninsula and the northern U.S. Gulf Coast to monitor it.",
+        "category": "weather",
+        "title": "Tropical Depression Nine forms in southwestern Gulf",
+        "event_date": "2026-10-06",
+        "candidate_id": "tropical-depression-nine-gulf-oct-6",
+        "geography": "Gulf of Mexico",
+        "sources": [
+          {
+            "name": "U.S. National Hurricane Center",
+            "url": "https://www.nhc.noaa.gov/archive/2026/NINE.shtml"
+          },
+          {
+            "name": "U.S. National Hurricane Center Public Advisory 1",
+            "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPAT4%2Bshtml/240858.shtml"
+          },
+          {
+            "name": "U.S. National Hurricane Center Forecast Discussion 2",
+            "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCDAT4%2Bhtml/070255.shtml"
+          }
+        ]
+      },
+      {
+        "summary": "Russian emergency crews rescued all 23 crew members of the Liberian-flagged tanker Aframax Rio after it caught fire off Russia's Black Sea coast following an attack by an unmanned vessel, Russia's Transport Ministry said. The ministry said the crew members were Indian nationals and no injuries were reported. The account did not identify who carried out the attack.",
+        "category": "conflict",
+        "title": "Russia says 23 rescued from tanker attacked in Black Sea",
+        "event_date": "2026-10-06",
+        "candidate_id": "aframax-rio-black-sea-attack-rescue",
+        "geography": "Russia",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/06/russia-says-tanker-crew-rescued-in-black-sea-after-attack-set-ship-ablaze"
+          }
+        ]
+      },
+      {
+        "summary": "The Giants Brigade said it was investigating verified videos showing armored vehicles operated by Saudi-backed Yemeni government forces running over Houthi fighters near the Bab el-Mandeb Strait, including people who appeared unarmed. The Houthis alleged war crimes. A brigade spokesperson said some fighters had opened fire after appearing to surrender. Fighting continued in the area Tuesday, and the extent of government territorial gains remained disputed.",
+        "category": "conflict",
+        "title": "Yemeni government brigade investigates videos of fighters being run over",
+        "event_date": "2026-10-06",
+        "candidate_id": "yemen-giants-brigade-video-investigation",
+        "geography": "Yemen",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/06/yemeni-government-fighters-recorded-driving-vehicles-over-houthi-opponents"
+          }
+        ]
+      },
+      {
+        "summary": "Attorneys for Tennessee death-row inmate Christa Pike said she had regained consciousness and was speaking while receiving critical hospital care. Pike had remained unconscious after Tennessee's September 30 attempt to execute her by lethal injection failed despite the administration of two doses of pentobarbital. Her lawyers said her prognosis remained unclear and that she faced a long recovery.",
+        "category": "justice",
+        "title": "Christa Pike regains consciousness after failed Tennessee execution",
+        "event_date": "2026-10-06",
+        "candidate_id": "christa-pike-regains-consciousness",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/85ea61961fc14ce01f78dbd9bdd728cb"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/07/tennessee-execution-survivor-christa-pike-is-conscious-and-speaking-lawyers-say"
+          }
+        ]
+      },
+      {
+        "summary": "A federal judge sentenced Michael Smith of North Carolina to 18 months in prison for a scheme that used hundreds of thousands of computer-generated songs and automated accounts to fraudulently obtain more than $8 million in music-streaming royalties. Smith, who pleaded guilty in March, was also ordered to forfeit about $8.09 million and serve two years of supervised release.",
+        "category": "justice",
+        "title": "Man sentenced for automated music-streaming royalty fraud",
+        "event_date": "2026-10-06",
+        "candidate_id": "michael-smith-streaming-fraud-sentence",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Attorney's Office for the Southern District of New York",
+            "url": "https://www.justice.gov/usao-sdny/pr/north-carolina-man-sentenced-18-months-prison-super-intelligence-assisted-music"
+          }
+        ]
+      },
+      {
+        "summary": "The European Commission adopted a package intended to prepare the European Union for future expansion. It proposes stronger sectoral safeguards and a new institutional safeguard for future accession treaties, with possible temporary remedies including restrictions on voting rights in serious cases of democratic or rule-of-law backsliding. The package requires further consideration by EU institutions and member states.",
+        "category": "governance",
+        "title": "European Commission proposes safeguards for future EU expansion",
+        "event_date": "2026-10-06",
+        "candidate_id": "eu-expansion-safeguards-proposal",
+        "geography": "European Union",
+        "sources": [
+          {
+            "name": "European Commission",
+            "url": "https://enlargement.ec.europa.eu/news/preparing-wider-union-2026-10-06_en?prefLang=pt"
+          },
+          {
+            "name": "European Commission",
+            "url": "https://enlargement.ec.europa.eu/news/questions-and-answers-pre-enlargement-policy-reviews-2026-10-06_en?prefLang=it"
+          },
+          {
+            "name": "Reuters via Lexington Herald-Leader",
+            "url": "https://www.kentucky.com/news/nation-world/world/article317510824.html"
+          }
+        ]
+      },
+      {
+        "summary": "The Royal Swedish Academy of Sciences awarded the 2026 Nobel Prize in Physics to Francis Halzen for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin. IceCube uses sensors embedded in Antarctic ice to detect rare interactions involving neutrinos from energetic processes beyond Earth.",
+        "category": "science",
+        "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
+        "event_date": "2026-10-06",
+        "candidate_id": "nobel-physics-francis-halzen-2026",
+        "geography": "Sweden",
+        "sources": [
+          {
+            "name": "Royal Swedish Academy of Sciences",
+            "url": "https://www.kva.se/en/news/the-nobel-prize-in-physics-2026/"
+          },
+          {
+            "name": "Reuters via Lexington Herald-Leader",
+            "url": "https://www.kentucky.com/news/nation-world/world/article317502456.html"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-06"
+  },
+  "metadata": {
+    "responseId": "resp_0a34779d654be009006ac5efc69ae487d2ae1f5214b250b942",
+    "requestId": "req_8b21332dfede4781be854df39981819b",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2648,
+    "inputTokens": 77719,
+    "outputTokens": 4083,
+    "webSearchCalls": 10,
+    "stage": "discovery",
+    "targetDate": "2026-10-06",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 93171,
+    "attemptDurationMs": 93171,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
