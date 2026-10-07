@@ -165,13 +165,85 @@
         "request": {
           "fingerprint": "a6000103b95b9d35a9a687f0cf75e6f0f7aefc86d77745b678936115bd35b800",
           "claimId": "5b575c34-3c71-4966-b083-cbad1542534a",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-07T16:07:43.292Z",
           "responseId": "resp_06dee2a06bd415cb006ac66e53681087d2b49c19736fc63ccc"
         },
-        "result": null,
-        "observedAt": "2026-10-07T16:07:43.260Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "NASA said the SpaceX Crew-12 Dragon undocked from the International Space Station with NASA astronauts Jessica Meir and Jack Hathaway, European Space Agency astronaut Sophie Adenot and Roscosmos cosmonaut Andrey Fedyaev aboard. The departure began the crew’s return journey after a mission lasting nearly eight months.",
+                "category": "space",
+                "title": "SpaceX Crew-12 departs International Space Station",
+                "event_date": "2026-10-07",
+                "candidate_id": "spacex-crew-12-iss-undocking",
+                "geography": "International Space Station",
+                "sources": [
+                  {
+                    "name": "NASA",
+                    "url": "https://www.nasa.gov/blogs/spacestation/2026/10/07/dragon-undocks-from-station-to-bring-nasas-spacex-crew-12-home/"
+                  }
+                ]
+              },
+              {
+                "summary": "Izmir Mayor Cemil Tugay joined Turkish President Recep Tayyip Erdogan’s Justice and Development Party, giving the party the mayoralty of Turkey’s third-largest city and a longtime opposition stronghold. Tugay had left the Republican People’s Party in June and served as an independent. Izmir’s municipal assembly remains controlled by the opposition New Party.",
+                "category": "politics",
+                "title": "Izmir mayor joins Erdogan’s ruling party",
+                "event_date": "2026-10-07",
+                "candidate_id": "izmir-mayor-tugay-joins-akp",
+                "geography": "Turkey",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/ea178b0a3aab879228f03266dc4be029"
+                  }
+                ]
+              },
+              {
+                "summary": "Polish authorities said a 19-year-old student attacked students, teachers and passersby with a sharp object at a vocational school in Ostroleka. Nine people were reported injured, none with life-threatening wounds, although one was seriously hurt. Police arrested the suspect near the school; authorities had not announced a suspected motive.",
+                "category": "crime and public safety",
+                "title": "Nine injured in attack at Polish vocational school",
+                "event_date": "2026-10-07",
+                "candidate_id": "ostroleka-vocational-school-attack",
+                "geography": "Poland",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/a425ff14a4bb2efb81c78bb53b4e2ef0"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-07"
+          },
+          "metadata": {
+            "responseId": "resp_06dee2a06bd415cb006ac66e53681087d2b49c19736fc63ccc",
+            "requestId": "req_8b87dfb67f6043f781d3bd28ac0b12d5",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1951,
+            "inputTokens": 50482,
+            "outputTokens": 2347,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-07",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 70010,
+            "attemptDurationMs": 70010,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-10-07T16:07:43.260Z",
+        "capturedAt": "2026-10-07T16:08:53.303Z"
       }
     ],
     "sift": null
