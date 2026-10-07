@@ -740,6 +740,100 @@
         "capturedAt": "2026-10-07T07:09:19.427Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "31ed9585ce3e3282b027e828c65e4c95540cbf7e05a47e1b4434f2080986693e",
+      "priorStories": [
+        {
+          "headline": "Hundreds of French schools close amid protests",
+          "body": "French authorities said 400 to 500 high schools were closed or partly closed during nationwide protests over school conditions, with clashes reported in several cities.\n\nA 15-year-old lost a hand and part of his lower arm after picking up a police stun grenade during clashes in Lens, regional newspaper La Voix du Nord reported. A local official did not confirm the precise circumstances of the injury.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/hundreds-of-french-schools-stay-closed-ahead-of-nationwide-day-of-student-protests"
+            }
+          ]
+        },
+        {
+          "headline": "Three countries activate Saudi defense commitments",
+          "body": "Saudi Arabia, Pakistan and Türkiye agreed to begin implementing their collective-defense commitments and make agreed military forces and capabilities available for rapid deployment in Saudi Arabia.\n\nTheir joint statement did not specify troop numbers, equipment or a deployment schedule. It said implementation would follow approved arrangements and each country’s laws.",
+          "sources": [
+            {
+              "name": "Ministry of Foreign Affairs of Pakistan",
+              "url": "https://mofa.gov.pk/press-releases/joint-statementemergency-meeting-of-the-strategic-political-and-defense-committee-of-the-makkah-alliance-for-defense-riyadh-5-october-2026"
+            },
+            {
+              "name": "Reuters via L'Orient Today",
+              "url": "https://today.lorientlejour.com/article/1549804/pakistan-saudi-arabia-turkey-agree-rapid-force-deployment-in-saudi-arabia.html"
+            }
+          ]
+        },
+        {
+          "headline": "Nigerian military plane crashes with 32 aboard",
+          "body": "A Nigerian Air Force ATR-42 carrying 25 passengers and seven crew members crashed near Igbokoda in Ondo State. Nigeria’s presidency said personnel aboard had died, and the state’s governor said no survivors had been found.\n\nSearch teams had not reached the main wreckage in the surrounding swamp, leaving the death toll and victims’ names unconfirmed. President Bola Tinubu ordered an investigation and three days of national mourning.",
+          "sources": [
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/nigerian-military-helicopter-carrying-32-passengers-and-crew-members-crashes-aviation-minister-says"
+            },
+            {
+              "name": "Radio Nigeria Lagos",
+              "url": "https://radionigerialagos.gov.ng/military-aircraft-crashes-near-naval-base-in-ondo-search-and-rescue-underway/"
+            },
+            {
+              "name": "State House of Nigeria",
+              "url": "https://statehouse.gov.ng/president-tinubu-mourns-naf-personnel-in-ondo-jet-crash-orders-thorough-investigation-of-the-mishap/"
+            },
+            {
+              "name": "TheCable",
+              "url": "https://www.thecable.ng/tinubu-declares-three-day-national-mourning-for-air-force-personnel-killed-in-ondo-crash/"
+            }
+          ]
+        },
+        {
+          "headline": "Optogenetics pioneers win Nobel medicine prize",
+          "body": "The Nobel Assembly awarded the 2026 medicine prize to Karl Deisseroth, Peter Hegemann and Georg Nagel for discoveries involving light-gated ion channels and optogenetics.\n\nHegemann and Nagel discovered the light-sensitive protein channelrhodopsin. Deisseroth developed its use as a light-controlled switch for nerve cells, giving researchers a way to control selected neural activity.",
+          "sources": [
+            {
+              "name": "Karolinska Institutet",
+              "url": "https://news.ki.se/the-2026-nobel-prize-in-physiology-or-medicine-to-peter-hegemann-georg-nagel-and-karl-deisseroth"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/2efe9ee7eae9d808fd49a6da1f53ceba"
+            }
+          ]
+        },
+        {
+          "headline": "Spain calls November 29 snap election",
+          "body": "Prime Minister Pedro Sánchez announced plans to dissolve Spain’s parliament and hold a general election on November 29.\n\nSánchez said he was seeking a renewed mandate after repeated parliamentary deadlock, including lawmakers’ rejection of his government’s housing measures. An extraordinary cabinet meeting will complete the steps needed to call the election.",
+          "sources": [
+            {
+              "name": "Government of Spain",
+              "url": "https://www.lamoncloa.gob.es/presidente/intervenciones/paginas/2026/20260905-sanchez-decl-inst-convocatoria-elecciones.aspx"
+            },
+            {
+              "name": "Reuters via Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/05/spanish-pm-sanchez-to-make-morning-announcement-amid-speculation-about-early-election"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "2b75133455399d5f23900968a8118fc477dae4f6df0f8bafdda9f58a35e27be8",
+        "claimId": "1f98bd7f-5f38-427c-aed3-abc0e30b66f4",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-10-07T08:07:47.997Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
