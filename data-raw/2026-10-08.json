@@ -55,10 +55,10 @@
         "request": {
           "fingerprint": "b8f1fcc13172f5903b23fc70e181c59bba0535f67fc383e2405311e8fa197a95",
           "claimId": "49413ec7-453a-4330-8b57-c8cc3f10da92",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-08T10:07:46.086Z",
-          "responseId": null
+          "responseId": "resp_03d893c0cea328e4006ac76b7621ec87d29fa19a5323fb1264"
         },
         "result": null,
         "observedAt": "2026-10-08T10:07:46.032Z"
