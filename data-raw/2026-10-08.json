@@ -309,10 +309,10 @@
         "request": {
           "fingerprint": "dc9a623ed1d7d496f9c809a4a08ac7f9c5c1863dcc05b61ae28ef669a8340987",
           "claimId": "1cde7528-7d96-4dbe-9636-b8f5d36ccb71",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-08T22:07:44.228Z",
-          "responseId": null
+          "responseId": "resp_00e031c7160cbc35006ac81434038887d29bfa7e95b0580e95"
         },
         "result": null,
         "observedAt": "2026-10-08T22:07:44.152Z"
