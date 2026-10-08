@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-08",
+  "batch": 1,
+  "captured_at": "2026-10-08T10:08:42.469Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Police used tear gas after students erected barricades outside the Hélène Boucher high school in northeastern Paris during continuing protests over school funding and conditions. France’s Education Ministry said 375 schools were fully or partially closed Thursday, while the Interior Ministry said more than 6,600 arrests had been made since the protests began in late September.",
+        "category": "education protests",
+        "title": "French school protests continue with Paris clashes",
+        "event_date": "2026-10-08",
+        "candidate_id": "france-school-protests-oct-8",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/france-school-protests-police-clashes-belgium-liege-2f8ce76dbcf1bce398b6f513d49f325f"
+          }
+        ]
+      },
+      {
+        "summary": "The British government said its consulate-general building in Jerusalem would remain open but operate as the UK Mission, Jerusalem, after discussions with Israel. Britain temporarily withdrew some staff and families and said it would not retaliate while talks continued. Israel said the site had ceased functioning as a consulate and that 20 British diplomats would leave, while seven would remain with limited duties.",
+        "category": "diplomacy",
+        "title": "Britain downgrades Jerusalem consulate to mission",
+        "event_date": "2026-10-08",
+        "candidate_id": "uk-jerusalem-mission",
+        "geography": "United Kingdom; Israel; Palestinian territories",
+        "sources": [
+          {
+            "name": "UK Foreign, Commonwealth & Development Office",
+            "url": "https://www.gov.uk/government/news/foreign-secretary-statement-on-the-uks-diplomatic-presence-in-jerusalem"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/4d02b4476d7ebf57d3947d9a9f1875e8"
+          }
+        ]
+      },
+      {
+        "summary": "Hurricane Isaias intensified over the Gulf, reaching maximum sustained winds of 80 mph by the National Hurricane Center’s 0900 UTC advisory. Forecasters expected further strengthening before a projected landfall along the northern U.S. Gulf Coast late Friday or early Saturday and warned of dangerous storm surge, damaging winds and flooding.",
+        "category": "weather",
+        "title": "Hurricane Isaias intensifies in Gulf",
+        "event_date": "2026-10-08",
+        "candidate_id": "hurricane-isaias-intensifies",
+        "geography": "Gulf of Mexico; United States",
+        "sources": [
+          {
+            "name": "National Hurricane Center",
+            "url": "https://www.nhc.noaa.gov/text/refresh/MIATCMAT4%2Bshtml/080853.shtml"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/8244ca45b8d4c292350f00adfabb0967"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-08"
+  },
+  "metadata": {
+    "responseId": "resp_03d893c0cea328e4006ac76b7621ec87d29fa19a5323fb1264",
+    "requestId": "req_f30ff29711ba4ad1a4c92639174e3b05",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1532,
+    "inputTokens": 58320,
+    "outputTokens": 1980,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-08",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 56383,
+    "attemptDurationMs": 56383,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
