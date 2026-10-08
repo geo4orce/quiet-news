@@ -622,10 +622,10 @@
       "request": {
         "fingerprint": "7150db6ad7ca0455c8534ba0c9e6cbd3f9c61807fddff8f21979e67a6ce62bf1",
         "claimId": "bd76819a-6f9e-4a0d-bc8b-9d5cda667ca3",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-08T08:07:47.263Z",
-        "responseId": null
+        "responseId": "resp_07f40d2b54bbdb20006ac74f56888087d2aee11b751e447dfa"
       },
       "result": null
     }
