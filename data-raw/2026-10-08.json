@@ -309,13 +309,83 @@
         "request": {
           "fingerprint": "dc9a623ed1d7d496f9c809a4a08ac7f9c5c1863dcc05b61ae28ef669a8340987",
           "claimId": "1cde7528-7d96-4dbe-9636-b8f5d36ccb71",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-08T22:07:44.228Z",
           "responseId": "resp_00e031c7160cbc35006ac81434038887d29bfa7e95b0580e95"
         },
-        "result": null,
-        "observedAt": "2026-10-08T22:07:44.152Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Hurricane Isaias strengthened as it approached the northern U.S. Gulf Coast. Authorities ordered mandatory evacuations in parts of Florida, and Alabama declared emergencies as forecasters warned of life-threatening storm surge, tornadoes, damaging winds and flooding.",
+                "category": "weather",
+                "title": "Hurricane Isaias prompts Gulf Coast evacuations",
+                "event_date": "2026-10-08",
+                "candidate_id": "hurricane-isaias-intensifies",
+                "geography": "Gulf of Mexico; Florida; Alabama, United States",
+                "sources": [
+                  {
+                    "name": "National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/text/refresh/MIATCMAT4%2Bshtml/080853.shtml"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/8244ca45b8d4c292350f00adfabb0967"
+                  },
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://ca.investing.com/news/stock-market-news/hurricane-isaias-strengthens-as-us-gulf-coast-prepares-for-landfall-4872290"
+                  }
+                ]
+              },
+              {
+                "summary": "President Donald Trump said the United States would not resume military strikes against Iran before the November 3 midterm elections. He said discussions with Iran were productive while the U.S. blockade of Iranian ports remained in effect.",
+                "category": "foreign policy",
+                "title": "Trump says US will not strike Iran before midterms",
+                "event_date": "2026-10-08",
+                "candidate_id": "trump-iran-strikes-midterms",
+                "geography": "United States; Iran",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/422b1799a1a06466279ac265f560e014"
+                  },
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/commodities-news/trump-us-having-productive-talks-with-iran-will-not-attack-before-us-elections-in-november-4939501"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-08"
+          },
+          "metadata": {
+            "responseId": "resp_00e031c7160cbc35006ac81434038887d29bfa7e95b0580e95",
+            "requestId": "req_2cf56c5cf5294c91bd9fb024b0016b97",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1800,
+            "inputTokens": 43981,
+            "outputTokens": 2082,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-08",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 50547,
+            "attemptDurationMs": 50547,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-10-08T22:07:44.152Z",
+        "capturedAt": "2026-10-08T22:08:34.775Z"
       }
     ],
     "sift": null
