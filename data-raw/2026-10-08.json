@@ -193,13 +193,71 @@
         "request": {
           "fingerprint": "57510d959a0d7d00fc47532324bc0168bb7685492068c941a1e58f7225b825e8",
           "claimId": "25e9780c-0b1f-43ab-a5b7-41bf94e69811",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-08T16:07:52.484Z",
           "responseId": "resp_09f66c73d7a127dc006ac7bfdcc20087d2be655cd1d34c233a"
         },
-        "result": null,
-        "observedAt": "2026-10-08T16:07:52.397Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Swedish Academy awarded the 2026 Nobel Prize in Literature to Canadian poet, essayist and translator Anne Carson, citing her genre-crossing body of work and engagement with classical traditions. Carson’s books include “Autobiography of Red,” “Eros the Bittersweet” and translations of ancient Greek literature.",
+                "category": "awards",
+                "title": "Anne Carson wins Nobel Prize in Literature",
+                "event_date": "2026-10-08",
+                "candidate_id": "anne-carson-literature-nobel-2026",
+                "geography": "Sweden; Canada",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/nobel-prize-literature-sweden-swedish-academy-05a268ffc76827d273f9d986c5a5a65e"
+                  }
+                ]
+              },
+              {
+                "summary": "A man carrying a gun was fatally shot by security personnel at the federal courthouse in downtown Nashville, police said. Federal authorities took charge of the investigation because the shooting occurred on federal property. Officials had not released the man’s identity or additional circumstances by the end of the coverage interval.",
+                "category": "public safety",
+                "title": "Armed man fatally shot at Nashville federal courthouse",
+                "event_date": "2026-10-08",
+                "candidate_id": "nashville-federal-courthouse-shooting",
+                "geography": "Nashville, Tennessee, United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/nashville-courthouse-shooting-b89d9fca923731bf31280c980bc52d05"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-08"
+          },
+          "metadata": {
+            "responseId": "resp_09f66c73d7a127dc006ac7bfdcc20087d2be655cd1d34c233a",
+            "requestId": "req_6932e0d703e84fd0bca997e7a1174ae7",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1428,
+            "inputTokens": 51098,
+            "outputTokens": 1719,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-08",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 61131,
+            "attemptDurationMs": 61131,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-10-08T16:07:52.397Z",
+        "capturedAt": "2026-10-08T16:08:53.616Z"
       }
     ],
     "sift": null
