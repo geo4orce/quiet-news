@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "edition_date": "2026-10-07",
+  "attempts": {
+    "69358f9d071c732ab655bc3bccfbd887ed6b6ab3c16bd817114c1dbc720988c2": {
+      "status": "claimed",
+      "claimed_at": "2026-10-08T08:08:24.176Z",
+      "model": "gpt-image-1.5",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1"
+    }
+  }
+}
