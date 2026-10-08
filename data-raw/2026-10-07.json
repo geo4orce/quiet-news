@@ -622,12 +622,117 @@
       "request": {
         "fingerprint": "7150db6ad7ca0455c8534ba0c9e6cbd3f9c61807fddff8f21979e67a6ce62bf1",
         "claimId": "bd76819a-6f9e-4a0d-bc8b-9d5cda667ca3",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-08T08:07:47.263Z",
         "responseId": "resp_07f40d2b54bbdb20006ac74f56888087d2aee11b751e447dfa"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "crowdstrike-artex-south-korea-finance-campaign",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "fed-september-minutes-rate-hike-outlook",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "interpol-madre-tierra-viii-results",
+              "code": "outside_target_day"
+            },
+            {
+              "candidate_id": "izmir-mayor-tugay-joins-akp",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "national-juneteenth-museum-groundbreaking",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ostroleka-vocational-school-attack",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "russia-irkutsk-lab-worker-health-update",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "spacex-crew-12-iss-undocking",
+              "code": "incremental_update"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Federal prosecutors charged 18-year-old Sheikhdoon Abdullahi Mohamud with receiving a firearm and ammunition to commit a federal terrorism crime. They allege that he planned an ISIS-inspired mass shooting at the Mall of America on October 24.\n\nThe FBI arrested Mohamud on October 6 after an undercover transaction involving an inert rifle. He made his initial court appearance October 7. The allegations have not been adjudicated.",
+              "candidate_id": "mall-of-america-isis-plot-charge",
+              "headline": "Man charged in alleged Mall of America plot",
+              "sources": [
+                {
+                  "name": "U.S. Department of Justice",
+                  "url": "https://www.justice.gov/opa/pr/man-arrested-and-charged-role-plotting-conduct-mass-shooting-event-support-isis-mall-america"
+                }
+              ]
+            },
+            {
+              "body": "Russian missile and drone attacks across Ukraine killed at least 28 people and injured about 100, according to a late update from Ukraine’s interior minister.\n\nThe largest reported loss was in Pryluky, where a missile destroyed a residential building. Ukrainian officials also reported damage to energy and industrial facilities. Russia said it targeted military-industrial sites.",
+              "candidate_id": "russia-ukraine-october-7-mass-strikes",
+              "headline": "Russian barrage kills at least 28 in Ukraine",
+              "sources": [
+                {
+                  "name": "Reuters via MarketScreener",
+                  "url": "https://uk.marketscreener.com/news/latest/At-least-28-killed-in-Ukraine-Zelenskiy-condemns-one-of-Russia-s-most-vile-strikes-12426983/"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/russia-ukraine-war-kyiv-strike-650e298d7bc3881351533683ff4040ed"
+                },
+                {
+                  "name": "Office of the President of Ukraine",
+                  "url": "https://www.president.gov.ua/en/news/zagroza-ye-kozhnogo-dnya-i-kozhnogo-dnya-potribno-shob-u-bat-106785"
+                }
+              ]
+            },
+            {
+              "body": "Attacks on Abha International Airport and Riyadh’s King Khalid International Airport killed three foreign residents and injured 36 people, according to Saudi aviation authorities.\n\nThe Abha attack occurred October 6. The Riyadh attack on October 7 killed a Sudanese resident. Saudi authorities did not assign responsibility, while Yemen’s Houthi movement claimed the attacks.",
+              "candidate_id": "saudi-airport-attacks-three-killed",
+              "headline": "Attacks on Saudi airports kill three people",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/yemen-houthis-saudi-airport-aden-rebels-f22f20dd78b03b741dfa1279881cedbb"
+                },
+                {
+                  "name": "Arab News",
+                  "url": "https://www.arabnews.com/saudi-arabia/three-people-killed-and-dozens-injured-in-attacks-on-riyadh-and-abha-airports-3005127"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_07f40d2b54bbdb20006ac74f56888087d2aee11b751e447dfa",
+          "requestId": "req_109fa9edca8542f9807d9e1152bd5a67",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1034,
+          "inputTokens": 3540,
+          "outputTokens": 1843,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-07",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 32447,
+          "attemptDurationMs": 32447,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
