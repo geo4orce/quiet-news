@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-09",
+  "batch": 1,
+  "captured_at": "2026-10-09T10:08:31.798Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The Norwegian Nobel Committee awarded the 2026 Nobel Peace Prize to South African jurist and former U.N. human rights chief Navanethem “Navi” Pillay for her work promoting peace and international law. Pillay currently serves as an ad hoc judge at the International Court of Justice.",
+        "category": "world",
+        "title": "Navi Pillay awarded 2026 Nobel Peace Prize",
+        "event_date": "2026-10-09",
+        "candidate_id": "navi-pillay-2026-nobel-peace-prize",
+        "geography": "Norway / South Africa",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/nobel-peace-prize-f60744c07df969e50e9e69786fdb7de1"
+          }
+        ]
+      },
+      {
+        "summary": "Ukrainian officials reported that Friday morning Russian strikes killed one person and wounded five, including a child, in the Zaporizhzhia region, and killed another person in Ivano-Frankivsk. Ukraine’s Interior Ministry separately said strikes on warehouses in the Kyiv region’s Bucha district wounded three people and left a woman possibly trapped under rubble.",
+        "category": "conflict",
+        "title": "Russian strikes kill two across Ukraine",
+        "event_date": "2026-10-09",
+        "candidate_id": "russian-strikes-ukraine-oct-9",
+        "geography": "Ukraine",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/russia-ukraine-war-drone-missile-strikes-2c6c8b081e8e316c83af17a39bce7fe5"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-09"
+  },
+  "metadata": {
+    "responseId": "resp_0fe68b46f6116c07006ac8bcf7f56887d29a510f6ff02cf8db",
+    "requestId": "req_ca13b2d220094d0e97dd939f7fdab0a3",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1396,
+    "inputTokens": 63759,
+    "outputTokens": 1742,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-09",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 43584,
+    "attemptDurationMs": 43584,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
