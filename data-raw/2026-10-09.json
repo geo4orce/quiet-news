@@ -363,10 +363,10 @@
         "request": {
           "fingerprint": "3ee77e2be384eefaf5bcc9c25119cfca042009e479992fedd342313758ef56c4",
           "claimId": "c275573b-7170-44bc-a5a7-5fd1788d102c",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-09T22:07:46.711Z",
-          "responseId": null
+          "responseId": "resp_04700d98b1120edf006ac965b8ae0887d28fab8831409e4d8f"
         },
         "result": null,
         "observedAt": "2026-10-09T22:07:46.651Z"
