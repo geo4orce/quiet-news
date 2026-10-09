@@ -640,12 +640,135 @@
       "request": {
         "fingerprint": "fbb348e62f1d20f77bca050e2849cb492eff61db933bad7c57d79e50372cabf6",
         "claimId": "1d5ea0fa-756a-433e-9904-35e44945067b",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-09T08:07:48.372Z",
         "responseId": "resp_0bfb7b10651cd461006ac8a0d81eb487d29d065ee36d1feaca"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "anne-carson-literature-nobel-2026",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "nashville-federal-courthouse-shooting",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "new-york-ice-shooting-oct-8",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "trump-iran-strikes-midterms",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "uk-jerusalem-mission",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "us-tech-firms-perm-suspension",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Hurricane Isaias had maximum sustained winds of 105 mph at 10 p.m. CDT, the National Hurricane Center said.\n\nHurricane and storm-surge warnings remained in effect along parts of the northern Gulf Coast, where evacuations and other preparations were underway.",
+              "candidate_id": "hurricane-isaias-intensifies",
+              "headline": "Isaias reaches Category 2 near Gulf Coast",
+              "sources": [
+                {
+                  "name": "National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCDAT4%2Bhtml/090250.shtml"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/8244ca45b8d4c292350f00adfabb0967"
+                }
+              ]
+            },
+            {
+              "body": "A Russian guided bomb struck near two passenger buses in Kramatorsk, according to Ukrainian authorities. Later reporting from Ukraine’s emergency service put the death toll at 33, with 18 people injured.\n\nPublic transportation was suspended in Kramatorsk and nearby Sloviansk after the attack.",
+              "candidate_id": "kramatorsk-bus-strike-oct-8",
+              "headline": "Russian strike near Kramatorsk buses kills 33",
+              "sources": [
+                {
+                  "name": "Donetsk Regional State Administration",
+                  "url": "https://dn.gov.ua/en/news/u-kramatorskii-ta-slovianskii-hromadakh-zupyniaiut-rukh-hromadskoho-transportu"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/russia-ukraine-war-drones-missiles-zelenskyy-putin-7f395d215bb67082da29f9c4467ef776"
+                },
+                {
+                  "name": "Ukrinform",
+                  "url": "https://www.ukrinform.net/rubric-ato/4172298-death-toll-from-russian-strike-on-two-buses-in-kramatorsk-rises-to-33-18-injured.html"
+                }
+              ]
+            },
+            {
+              "body": "France’s Education Ministry said 375 schools were fully or partially closed Thursday amid continuing protests over funding and conditions.\n\nIn northeastern Paris, police used tear gas after students erected barricades outside the Hélène Boucher high school. The Interior Ministry said more than 6,600 arrests had been made since the protests began in late September.",
+              "candidate_id": "france-school-protests-oct-8",
+              "headline": "French protests close or disrupt 375 schools",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/france-school-protests-police-clashes-belgium-liege-2f8ce76dbcf1bce398b6f513d49f325f"
+                }
+              ]
+            },
+            {
+              "body": "Heavy rain caused flash floods and mudslides in Santiago, sweeping away vehicles and flooding homes. Firefighters said they rescued or evacuated more than 1,000 people; authorities reported at least six injuries.\n\nPresident José Antonio Kast declared an emergency in Las Condes after the Mapocho River overflowed.",
+              "candidate_id": "santiago-chile-floods-oct-8",
+              "headline": "Santiago floods prompt over 1,000 evacuations",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/chile-el-nino-weather-landslide-santiago-7f44b0f7271741c686c5a918a6581997"
+                }
+              ]
+            },
+            {
+              "body": "Simon became a hurricane over the eastern Pacific with maximum sustained winds of 75 mph, the National Hurricane Center said.\n\nAt 9 p.m. CST, its center was about 235 miles south of Manzanillo. Hurricane warnings covered portions of Mexico’s southwestern and west-central coast.",
+              "candidate_id": "hurricane-simon-forms",
+              "headline": "Hurricane Simon prompts warnings in Mexico",
+              "sources": [
+                {
+                  "name": "National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.007.shtml"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/hurricane-simon-pacific-8321f4e8055824dcdbcecde4631e93c2"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0bfb7b10651cd461006ac8a0d81eb487d29d065ee36d1feaca",
+          "requestId": "req_378056e77a314f82ba5a08e019cfec74",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1844,
+          "inputTokens": 3527,
+          "outputTokens": 2833,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-08",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 44371,
+          "attemptDurationMs": 44371,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
