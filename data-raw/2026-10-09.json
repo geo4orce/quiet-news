@@ -144,6 +144,88 @@
         },
         "observedAt": "2026-10-09T10:07:48.170Z",
         "capturedAt": "2026-10-09T10:08:31.798Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Isaias reaches Category 2 near Gulf Coast",
+            "body": "Hurricane Isaias had maximum sustained winds of 105 mph at 10 p.m. CDT, the National Hurricane Center said.\n\nHurricane and storm-surge warnings remained in effect along parts of the northern Gulf Coast, where evacuations and other preparations were underway.",
+            "sources": [
+              {
+                "name": "National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCDAT4%2Bhtml/090250.shtml"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/8244ca45b8d4c292350f00adfabb0967"
+              }
+            ]
+          },
+          {
+            "headline": "Russian strike near Kramatorsk buses kills 33",
+            "body": "A Russian guided bomb struck near two passenger buses in Kramatorsk, according to Ukrainian authorities. Later reporting from Ukraine’s emergency service put the death toll at 33, with 18 people injured.\n\nPublic transportation was suspended in Kramatorsk and nearby Sloviansk after the attack.",
+            "sources": [
+              {
+                "name": "Donetsk Regional State Administration",
+                "url": "https://dn.gov.ua/en/news/u-kramatorskii-ta-slovianskii-hromadakh-zupyniaiut-rukh-hromadskoho-transportu"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/russia-ukraine-war-drones-missiles-zelenskyy-putin-7f395d215bb67082da29f9c4467ef776"
+              },
+              {
+                "name": "Ukrinform",
+                "url": "https://www.ukrinform.net/rubric-ato/4172298-death-toll-from-russian-strike-on-two-buses-in-kramatorsk-rises-to-33-18-injured.html"
+              }
+            ]
+          },
+          {
+            "headline": "French protests close or disrupt 375 schools",
+            "body": "France’s Education Ministry said 375 schools were fully or partially closed Thursday amid continuing protests over funding and conditions.\n\nIn northeastern Paris, police used tear gas after students erected barricades outside the Hélène Boucher high school. The Interior Ministry said more than 6,600 arrests had been made since the protests began in late September.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/france-school-protests-police-clashes-belgium-liege-2f8ce76dbcf1bce398b6f513d49f325f"
+              }
+            ]
+          },
+          {
+            "headline": "Santiago floods prompt over 1,000 evacuations",
+            "body": "Heavy rain caused flash floods and mudslides in Santiago, sweeping away vehicles and flooding homes. Firefighters said they rescued or evacuated more than 1,000 people; authorities reported at least six injuries.\n\nPresident José Antonio Kast declared an emergency in Las Condes after the Mapocho River overflowed.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/chile-el-nino-weather-landslide-santiago-7f44b0f7271741c686c5a918a6581997"
+              }
+            ]
+          },
+          {
+            "headline": "Hurricane Simon prompts warnings in Mexico",
+            "body": "Simon became a hurricane over the eastern Pacific with maximum sustained winds of 75 mph, the National Hurricane Center said.\n\nAt 9 p.m. CST, its center was about 235 miles south of Manzanillo. Hurricane warnings covered portions of Mexico’s southwestern and west-central coast.",
+            "sources": [
+              {
+                "name": "National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.007.shtml"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/hurricane-simon-pacific-8321f4e8055824dcdbcecde4631e93c2"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "ddce397077b880e09a3a6ffb7c49110d3ba6099b20a134c1faaa6591a6348a52",
+          "claimId": "982faa63-1400-497d-9909-7ff8fb942e13",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-09T16:07:42.327Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-09T16:07:42.262Z"
       }
     ],
     "sift": null
