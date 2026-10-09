@@ -386,6 +386,64 @@
         },
         "observedAt": "2026-10-08T22:07:44.152Z",
         "capturedAt": "2026-10-08T22:08:34.775Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Man charged in alleged Mall of America plot",
+            "body": "Federal prosecutors charged 18-year-old Sheikhdoon Abdullahi Mohamud with receiving a firearm and ammunition to commit a federal terrorism crime. They allege that he planned an ISIS-inspired mass shooting at the Mall of America on October 24.\n\nThe FBI arrested Mohamud on October 6 after an undercover transaction involving an inert rifle. He made his initial court appearance October 7. The allegations have not been adjudicated.",
+            "sources": [
+              {
+                "name": "U.S. Department of Justice",
+                "url": "https://www.justice.gov/opa/pr/man-arrested-and-charged-role-plotting-conduct-mass-shooting-event-support-isis-mall-america"
+              }
+            ]
+          },
+          {
+            "headline": "Russian barrage kills at least 28 in Ukraine",
+            "body": "Russian missile and drone attacks across Ukraine killed at least 28 people and injured about 100, according to a late update from Ukraine’s interior minister.\n\nThe largest reported loss was in Pryluky, where a missile destroyed a residential building. Ukrainian officials also reported damage to energy and industrial facilities. Russia said it targeted military-industrial sites.",
+            "sources": [
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://uk.marketscreener.com/news/latest/At-least-28-killed-in-Ukraine-Zelenskiy-condemns-one-of-Russia-s-most-vile-strikes-12426983/"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/russia-ukraine-war-kyiv-strike-650e298d7bc3881351533683ff4040ed"
+              },
+              {
+                "name": "Office of the President of Ukraine",
+                "url": "https://www.president.gov.ua/en/news/zagroza-ye-kozhnogo-dnya-i-kozhnogo-dnya-potribno-shob-u-bat-106785"
+              }
+            ]
+          },
+          {
+            "headline": "Attacks on Saudi airports kill three people",
+            "body": "Attacks on Abha International Airport and Riyadh’s King Khalid International Airport killed three foreign residents and injured 36 people, according to Saudi aviation authorities.\n\nThe Abha attack occurred October 6. The Riyadh attack on October 7 killed a Sudanese resident. Saudi authorities did not assign responsibility, while Yemen’s Houthi movement claimed the attacks.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/yemen-houthis-saudi-airport-aden-rebels-f22f20dd78b03b741dfa1279881cedbb"
+              },
+              {
+                "name": "Arab News",
+                "url": "https://www.arabnews.com/saudi-arabia/three-people-killed-and-dozens-injured-in-attacks-on-riyadh-and-abha-airports-3005127"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "118a5144fe76d87e7322d2b86cc7669956583f8757d09e2c332e9873eb0e6d3b",
+          "claimId": "9af231e2-f7f2-4e32-b4c3-5d2cb9fbde7d",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-09T07:07:42.093Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-09T07:07:42.010Z"
       }
     ],
     "sift": null
