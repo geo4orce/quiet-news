@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-08",
+  "batch": 4,
+  "captured_at": "2026-10-09T07:09:22.449Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The National Hurricane Center said Isaias strengthened to a Category 2 hurricane with maximum sustained winds of 105 mph at 10 p.m. CDT. Storm-surge and hurricane warnings remained in effect along parts of the northern Gulf Coast, where evacuations and preparations were underway.",
+        "category": "weather",
+        "title": "Hurricane Isaias strengthens to Category 2",
+        "event_date": "2026-10-08",
+        "candidate_id": "hurricane-isaias-intensifies",
+        "geography": "Gulf of Mexico; United States Gulf Coast",
+        "sources": [
+          {
+            "name": "National Hurricane Center",
+            "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCDAT4%2Bhtml/090250.shtml"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/8244ca45b8d4c292350f00adfabb0967"
+          }
+        ]
+      },
+      {
+        "summary": "Heavy rain caused flash floods and mudslides in Santiago, sweeping away vehicles, flooding homes and prompting evacuations. Authorities reported at least six injuries, and firefighters said they rescued or evacuated more than 1,000 people. President José Antonio Kast declared an emergency in Las Condes after the Mapocho River overflowed.",
+        "category": "weather",
+        "title": "Floods and mudslides hit Santiago",
+        "event_date": "2026-10-08",
+        "candidate_id": "santiago-chile-floods-oct-8",
+        "geography": "Santiago, Chile",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/chile-el-nino-weather-landslide-santiago-7f44b0f7271741c686c5a918a6581997"
+          }
+        ]
+      },
+      {
+        "summary": "The National Hurricane Center said Tropical Storm Simon became a hurricane over the eastern Pacific, with maximum sustained winds of 75 mph at 9 p.m. CST. The storm was about 235 miles south of Manzanillo, Mexico, and hurricane warnings covered portions of the southwestern and west-central Mexican coast.",
+        "category": "weather",
+        "title": "Simon becomes hurricane off Mexico",
+        "event_date": "2026-10-08",
+        "candidate_id": "hurricane-simon-forms",
+        "geography": "Eastern Pacific; Mexico",
+        "sources": [
+          {
+            "name": "National Hurricane Center",
+            "url": "https://www.nhc.noaa.gov/archive/2026/ep20/ep202026.discus.007.shtml"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/hurricane-simon-pacific-8321f4e8055824dcdbcecde4631e93c2"
+          }
+        ]
+      },
+      {
+        "summary": "A Russian guided bomb struck near two passenger buses in Kramatorsk, killing at least 30 people and wounding 18, according to Ukrainian regional authorities. Later reporting citing Ukraine’s emergency service put the death toll at 33. Public transportation was suspended in Kramatorsk and Sloviansk after the attack.",
+        "category": "war",
+        "title": "Russian bomb strikes passenger buses in Kramatorsk",
+        "event_date": "2026-10-08",
+        "candidate_id": "kramatorsk-bus-strike-oct-8",
+        "geography": "Kramatorsk, Donetsk region, Ukraine",
+        "sources": [
+          {
+            "name": "Donetsk Regional State Administration",
+            "url": "https://dn.gov.ua/en/news/u-kramatorskii-ta-slovianskii-hromadakh-zupyniaiut-rukh-hromadskoho-transportu"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/russia-ukraine-war-drones-missiles-zelenskyy-putin-7f395d215bb67082da29f9c4467ef776"
+          },
+          {
+            "name": "Ukrinform",
+            "url": "https://www.ukrinform.net/rubric-ato/4172298-death-toll-from-russian-strike-on-two-buses-in-kramatorsk-rises-to-33-18-injured.html"
+          }
+        ]
+      },
+      {
+        "summary": "A U.S. Immigration and Customs Enforcement officer shot and wounded a Dominican man in the neck during an arrest operation in New York City, officials said. A 5-year-old boy was inside the man’s car and was unharmed. Federal authorities did not provide a detailed account of what led to the officer firing.",
+        "category": "public safety",
+        "title": "ICE officer wounds man in New York City shooting",
+        "event_date": "2026-10-08",
+        "candidate_id": "new-york-ice-shooting-oct-8",
+        "geography": "New York City, New York, United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/c0fd349ab75c176f15fc410df1d59814"
+          },
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/person-wounded-in-new-york-shooting-involving-us-homeland-security-agents-police-say-ce785ddfdc8cff25"
+          }
+        ]
+      },
+      {
+        "summary": "The Trump administration announced that Microsoft, Adobe and six technology and outsourcing firms would be suspended from the Permanent Labor Certification program, which employers use to sponsor foreign workers for permanent residency. Officials alleged abuse and fraud; the action did not suspend the H-1B visa program or establish that the allegations had been proven.",
+        "category": "immigration policy",
+        "title": "US suspends technology firms from worker green-card program",
+        "event_date": "2026-10-08",
+        "candidate_id": "us-tech-firms-perm-suspension",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/e7b3a407f822702b269ee277d21343ea"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/explainerthe-skilled-foreign-tech-workers-green-card-program-under-attack-from-trump-4939632"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-08"
+  },
+  "metadata": {
+    "responseId": "resp_0e596e47c1c0954c006ac892c2294887d2811aea1c0a121e20",
+    "requestId": "req_2364b6de1cb347e088fd3bc434a8bcf8",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2215,
+    "inputTokens": 77456,
+    "outputTokens": 3302,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-10-08",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 100356,
+    "attemptDurationMs": 100356,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
