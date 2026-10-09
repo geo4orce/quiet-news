@@ -79,10 +79,10 @@
         "request": {
           "fingerprint": "10bd3030f82fe87736da0c8e57a865fa7db9cf11b822ccb4a2b60c70aef4794e",
           "claimId": "d0a4c93c-d272-45e5-b1dc-1a9eedaf857b",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-09T10:07:48.213Z",
-          "responseId": null
+          "responseId": "resp_0fe68b46f6116c07006ac8bcf7f56887d29a510f6ff02cf8db"
         },
         "result": null,
         "observedAt": "2026-10-09T10:07:48.170Z"
