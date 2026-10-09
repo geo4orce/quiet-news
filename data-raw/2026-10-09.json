@@ -219,13 +219,75 @@
         "request": {
           "fingerprint": "ddce397077b880e09a3a6ffb7c49110d3ba6099b20a134c1faaa6591a6348a52",
           "claimId": "982faa63-1400-497d-9909-7ff8fb942e13",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-09T16:07:42.327Z",
           "responseId": "resp_00bde1144f0829b0006ac91151f49487d2ade9796cfe71c196"
         },
-        "result": null,
-        "observedAt": "2026-10-09T16:07:42.262Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The National Hurricane Center issued a tropical storm watch for the Southern California coast from the U.S.-Mexico border to the San Diego-Orange County line. Mexico issued watches for portions of both coasts of Baja California. Tropical Storm Rachel had maximum sustained winds of 50 mph at 8 a.m. PDT and was forecast to approach northern Baja California or Southern California late Saturday or early Sunday.",
+                "category": "weather",
+                "title": "Tropical storm watches issued for Southern California and Baja California",
+                "event_date": "2026-10-09",
+                "candidate_id": "rachel-watches-california-baja-oct-9",
+                "geography": "United States / Mexico",
+                "sources": [
+                  {
+                    "name": "National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP3%2Bhtml/723022.shtml"
+                  }
+                ]
+              },
+              {
+                "summary": "The National Hurricane Center extended a hurricane watch northward along Mexico’s Pacific coast from Punta Mita to San Blas. Hurricane Simon had maximum sustained winds of 100 mph at 9 a.m. CST and was about 210 miles south of Manzanillo, with forecasters warning that it could approach the coast as a major hurricane during the weekend.",
+                "category": "weather",
+                "title": "Mexico extends Hurricane Simon watch northward",
+                "event_date": "2026-10-09",
+                "candidate_id": "simon-watch-expanded-mexico-oct-9",
+                "geography": "Mexico",
+                "sources": [
+                  {
+                    "name": "National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP5%2Bshtml/091446.shtml"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/733c6a028547ee832c885274cf11589e"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-09"
+          },
+          "metadata": {
+            "responseId": "resp_00bde1144f0829b0006ac91151f49487d2ade9796cfe71c196",
+            "requestId": "req_40b402c4e4244521917481d93060945d",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2050,
+            "inputTokens": 58078,
+            "outputTokens": 2378,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-09",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 58733,
+            "attemptDurationMs": 58733,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-10-09T16:07:42.262Z",
+        "capturedAt": "2026-10-09T16:08:41.062Z"
       }
     ],
     "sift": null
