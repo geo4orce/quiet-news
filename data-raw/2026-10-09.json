@@ -720,10 +720,10 @@
       "request": {
         "fingerprint": "faa18e0e3fec086768582f2daf7bb2b98572ae8cb6c44d92631868484b665b86",
         "claimId": "c34097f2-4199-47d8-88f4-d3d781bcc76e",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-10T08:07:47.724Z",
-        "responseId": null
+        "responseId": "resp_0d7fde1759ea68d5006ac9f257dc6487d2aaa0966547757d51"
       },
       "result": null
     }
