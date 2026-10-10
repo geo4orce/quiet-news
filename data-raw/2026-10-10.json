@@ -73,13 +73,79 @@
         "request": {
           "fingerprint": "b6a608337f70f61d677199577f6f7cd907d230ac3dce3ce4bdfc57f763c7e92e",
           "claimId": "5dfe3604-d668-4517-a265-bd2a03f19b04",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-10T10:07:47.308Z",
           "responseId": "resp_0a0c93add62113c7006aca0e76fd7087d286fa1f74a5a0daff"
         },
-        "result": null,
-        "observedAt": "2026-10-10T10:07:47.192Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Isaias became a post-tropical cyclone over southern Alabama at 1 a.m. CDT, with maximum sustained winds of 65 mph. More than 726,000 electricity customers in Florida and Alabama were without power early Saturday, while flooded roads, downed trees and power lines were reported across the region.",
+                "category": "weather",
+                "title": "Isaias weakens as widespread outages hit Florida and Alabama",
+                "event_date": "2026-10-10",
+                "candidate_id": "isaias-post-tropical-power-outages",
+                "geography": "United States — Florida and Alabama",
+                "sources": [
+                  {
+                    "name": "National Hurricane Center",
+                    "url": "https://prod-west-nhc.woc.noaa.gov/archive/2026/al09/al092026.public_a.014.shtml"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/hurricane-isaias-flooding-power-outages-65ac97bf16477d89ec6f847b09ccb6fc"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. Geological Survey recorded a magnitude 6.0 earthquake at 04:14 UTC about 7 kilometers north of La Tronosa, Panama, at a depth of 10 kilometers. It followed the previous day’s two powerful earthquakes and continuing aftershock sequence.",
+                "category": "natural-disaster",
+                "title": "Magnitude 6.0 aftershock strikes Panama",
+                "event_date": "2026-10-10",
+                "candidate_id": "panama-magnitude-6-aftershock",
+                "geography": "Panama",
+                "sources": [
+                  {
+                    "name": "U.S. Geological Survey",
+                    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cf"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/panama-earthquake-e4e5dc85829714db88a74de3b7019d55"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-10"
+          },
+          "metadata": {
+            "responseId": "resp_0a0c93add62113c7006aca0e76fd7087d286fa1f74a5a0daff",
+            "requestId": "req_b1327bef2fcb4fe791e992e2395d40f8",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1467,
+            "inputTokens": 57605,
+            "outputTokens": 1778,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-10",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 64126,
+            "attemptDurationMs": 64126,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-10-10T10:07:47.192Z",
+        "capturedAt": "2026-10-10T10:08:51.435Z"
       }
     ],
     "sift": null
