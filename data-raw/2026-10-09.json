@@ -720,12 +720,120 @@
       "request": {
         "fingerprint": "faa18e0e3fec086768582f2daf7bb2b98572ae8cb6c44d92631868484b665b86",
         "claimId": "c34097f2-4199-47d8-88f4-d3d781bcc76e",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-10T08:07:47.724Z",
         "responseId": "resp_0d7fde1759ea68d5006ac9f257dc6487d2aaa0966547757d51"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "katie-zacharia-white-house-press-secretary",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "navi-pillay-2026-nobel-peace-prize",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "rachel-watches-california-baja-oct-9",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "russian-strikes-ukraine-oct-9",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Hurricane Isaias made landfall near Destin around 8:30 p.m. CDT with maximum sustained winds of 105 mph, the National Hurricane Center said. It had reached Category 3 strength earlier Friday.\n\nBy 10 p.m., Isaias was inland and its maximum winds had fallen to an estimated 90 mph. Damaging winds, storm surge and flash flooding remained hazards.",
+              "candidate_id": "isaias-category-3-gulf-coast-oct-9",
+              "headline": "Hurricane Isaias makes landfall near Destin",
+              "sources": [
+                {
+                  "name": "National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/archive/2026/al09/al092026.update.10100129.shtml"
+                },
+                {
+                  "name": "National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/text/refresh/MIATCDAT4%2Bshtml/052046.shtml"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/hurricane-isaias-landfall-gulf-alabama-mississippi-919a46d4bd705726b4e57f18ce677ac5"
+                }
+              ]
+            },
+            {
+              "body": "A magnitude 7.6 earthquake struck central Panama at 17:56 UTC, according to the U.S. Geological Survey. The Associated Press reported two powerful earthquakes and numerous aftershocks.\n\nSome buildings near the epicenter partially collapsed, and evacuations occurred across the country. Officials reported several injuries but no immediate deaths.",
+              "candidate_id": "panama-earthquakes-oct-9",
+              "headline": "Magnitude 7.6 earthquake strikes Panama",
+              "sources": [
+                {
+                  "name": "U.S. Geological Survey",
+                  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/panama-earthquake-e4e5dc85829714db88a74de3b7019d55"
+                }
+              ]
+            },
+            {
+              "body": "Hurricane Simon strengthened to Category 3 with maximum sustained winds of 120 mph by 9 p.m. CST. Its center was about 155 miles south of Manzanillo.\n\nA hurricane warning remained in effect along Mexico’s coast from Punta San Telmo to Punta Mita.",
+              "candidate_id": "simon-watch-expanded-mexico-oct-9",
+              "headline": "Simon becomes Category 3 hurricane off Mexico",
+              "sources": [
+                {
+                  "name": "National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP5%2Bhtml/091446.shtml"
+                },
+                {
+                  "name": "National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP5%2Bhtml/100236.shtml"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/733c6a028547ee832c885274cf11589e"
+                }
+              ]
+            },
+            {
+              "body": "The Treasury Department issued a temporary license easing sanctions on Russian diesel loaded onto tankers beginning Friday.\n\nPresident Donald Trump said he had reached an agreement with Russian President Vladimir Putin for Russia to supply diesel to the United States and global markets. Trump said the initial shipment would exceed 300,000 tons.",
+              "candidate_id": "trump-putin-russian-diesel-deal-oct-9",
+              "headline": "U.S. eases sanctions for Russian diesel",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/trump-russia-diesel-midterms-12baccc7aade559bf329079b0548c9da"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0d7fde1759ea68d5006ac9f257dc6487d2aaa0966547757d51",
+          "requestId": "req_5389a096a422472f845fe8e161276154",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1368,
+          "inputTokens": 3082,
+          "outputTokens": 2206,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-09",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 38280,
+          "attemptDurationMs": 38280,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
