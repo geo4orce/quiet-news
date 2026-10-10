@@ -557,13 +557,87 @@
         "request": {
           "fingerprint": "7277cf4a5c09b99ee8b762c139075a31f5431f79e09b04397b0e2673849f36af",
           "claimId": "df852f53-1405-42f9-a44d-d0fa11e8a7af",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-10T07:07:46.697Z",
           "responseId": "resp_0b8fcf67184dd26b006ac9e446a9b487d296bdf0bcc039e32c"
         },
-        "result": null,
-        "observedAt": "2026-10-10T07:07:46.541Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Hurricane Isaias, which reached Category 3 strength Friday morning, made landfall near Destin, Florida, around 8:30 p.m. CDT with maximum sustained winds of 105 mph, the National Hurricane Center said. By 10 p.m. CDT, the center had moved inland and maximum sustained winds were estimated at 90 mph, though damaging winds, storm surge and flash flooding continued.",
+                "category": "weather",
+                "title": "Hurricane Isaias makes landfall near Destin, Florida",
+                "event_date": "2026-10-09",
+                "candidate_id": "isaias-category-3-gulf-coast-oct-9",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/archive/2026/al09/al092026.update.10100129.shtml"
+                  },
+                  {
+                    "name": "National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/text/refresh/MIATCDAT4%2Bshtml/052046.shtml"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/hurricane-isaias-landfall-gulf-alabama-mississippi-919a46d4bd705726b4e57f18ce677ac5"
+                  }
+                ]
+              },
+              {
+                "summary": "Hurricane Simon strengthened into a Category 3 hurricane with maximum sustained winds of 120 mph by 9 p.m. CST. Its center was about 155 miles south of Manzanillo, and a hurricane warning remained in effect from Punta San Telmo to Punta Mita. Forecasters said preparations to protect life and property should be nearing completion.",
+                "category": "weather",
+                "title": "Simon strengthens into major hurricane south of Mexico",
+                "event_date": "2026-10-09",
+                "candidate_id": "simon-watch-expanded-mexico-oct-9",
+                "geography": "Mexico",
+                "sources": [
+                  {
+                    "name": "National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP5%2Bhtml/091446.shtml"
+                  },
+                  {
+                    "name": "National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP5%2Bhtml/100236.shtml"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/733c6a028547ee832c885274cf11589e"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-09"
+          },
+          "metadata": {
+            "responseId": "resp_0b8fcf67184dd26b006ac9e446a9b487d296bdf0bcc039e32c",
+            "requestId": "req_a8a054574af747f786691c41d8be9b0e",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1510,
+            "inputTokens": 50562,
+            "outputTokens": 2016,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-09",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 43053,
+            "attemptDurationMs": 43053,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-10-10T07:07:46.541Z",
+        "capturedAt": "2026-10-10T07:08:29.750Z"
       }
     ],
     "sift": null
