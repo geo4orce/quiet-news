@@ -146,6 +146,82 @@
         },
         "observedAt": "2026-10-10T10:07:47.192Z",
         "capturedAt": "2026-10-10T10:08:51.435Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Hurricane Isaias makes landfall near Destin",
+            "body": "Hurricane Isaias made landfall near Destin around 8:30 p.m. CDT with maximum sustained winds of 105 mph, the National Hurricane Center said. It had reached Category 3 strength earlier Friday.\n\nBy 10 p.m., Isaias was inland and its maximum winds had fallen to an estimated 90 mph. Damaging winds, storm surge and flash flooding remained hazards.",
+            "sources": [
+              {
+                "name": "National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/archive/2026/al09/al092026.update.10100129.shtml"
+              },
+              {
+                "name": "National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/text/refresh/MIATCDAT4%2Bshtml/052046.shtml"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/hurricane-isaias-landfall-gulf-alabama-mississippi-919a46d4bd705726b4e57f18ce677ac5"
+              }
+            ]
+          },
+          {
+            "headline": "Magnitude 7.6 earthquake strikes Panama",
+            "body": "A magnitude 7.6 earthquake struck central Panama at 17:56 UTC, according to the U.S. Geological Survey. The Associated Press reported two powerful earthquakes and numerous aftershocks.\n\nSome buildings near the epicenter partially collapsed, and evacuations occurred across the country. Officials reported several injuries but no immediate deaths.",
+            "sources": [
+              {
+                "name": "U.S. Geological Survey",
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/panama-earthquake-e4e5dc85829714db88a74de3b7019d55"
+              }
+            ]
+          },
+          {
+            "headline": "Simon becomes Category 3 hurricane off Mexico",
+            "body": "Hurricane Simon strengthened to Category 3 with maximum sustained winds of 120 mph by 9 p.m. CST. Its center was about 155 miles south of Manzanillo.\n\nA hurricane warning remained in effect along Mexico’s coast from Punta San Telmo to Punta Mita.",
+            "sources": [
+              {
+                "name": "National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP5%2Bhtml/091446.shtml"
+              },
+              {
+                "name": "National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP5%2Bhtml/100236.shtml"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/733c6a028547ee832c885274cf11589e"
+              }
+            ]
+          },
+          {
+            "headline": "U.S. eases sanctions for Russian diesel",
+            "body": "The Treasury Department issued a temporary license easing sanctions on Russian diesel loaded onto tankers beginning Friday.\n\nPresident Donald Trump said he had reached an agreement with Russian President Vladimir Putin for Russia to supply diesel to the United States and global markets. Trump said the initial shipment would exceed 300,000 tons.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/trump-russia-diesel-midterms-12baccc7aade559bf329079b0548c9da"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "a986de2a3b0a9728864d372b9e6d56d690fbf695f1fd5626775916f17c445d9b",
+          "claimId": "fa5da0ee-7c2e-4c48-84a3-c3a17233dcd4",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-10T16:08:03.340Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-10T16:08:03.260Z"
       }
     ],
     "sift": null
