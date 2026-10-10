@@ -215,13 +215,125 @@
         "request": {
           "fingerprint": "a986de2a3b0a9728864d372b9e6d56d690fbf695f1fd5626775916f17c445d9b",
           "claimId": "fa5da0ee-7c2e-4c48-84a3-c3a17233dcd4",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-10T16:08:03.340Z",
           "responseId": "resp_020b55b006f49f49006aca62e7674087d2897e33076814c5b9"
         },
-        "result": null,
-        "observedAt": "2026-10-10T16:08:03.260Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "By 10 a.m. CDT, Isaias was a post-tropical cyclone near Birmingham, Alabama, with maximum sustained winds of 35 mph. Flood watches covered parts of the Southeast and southern Appalachians, and high-wind warnings covered northeastern Alabama, northern Georgia and the southern Appalachians. The Associated Press reported more than 911,000 customers without power across Florida, Alabama and Georgia early Saturday.",
+                "category": "weather",
+                "title": "Isaias weakens further as flood risk and widespread outages persist",
+                "event_date": "2026-10-10",
+                "candidate_id": "isaias-post-tropical-power-outages",
+                "geography": "United States — Southeast",
+                "sources": [
+                  {
+                    "name": "Weather Prediction Center",
+                    "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPAT4%2Bhtml/101458.shtml"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/c5a7c17b8b739dd81a9e5c64860757a4"
+                  }
+                ]
+              },
+              {
+                "summary": "Police detained more than 2,000 protesters and leaders of India’s youth-led “Cockroach” movement as authorities restricted access, transport and mobile internet in parts of New Delhi. The planned demonstration demanded the resignation of Chief Election Commissioner Gyanesh Kumar over a disputed voter-list revision. The Election Commission and government deny allegations that the revision manipulates voter rolls.",
+                "category": "politics",
+                "title": "Thousands detained as authorities disrupt New Delhi election protest",
+                "event_date": "2026-10-10",
+                "candidate_id": "india-delhi-election-protest-detentions",
+                "geography": "India — New Delhi",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/india-sir-cockroach-election-commission-gyanesh-protests-030b35e23279c75394b7654233c99d6b"
+                  },
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/latest/India-detains-thousands-locks-down-Delhi-to-foil-election-chief-protest-12493816/"
+                  }
+                ]
+              },
+              {
+                "summary": "Two Israeli strikes killed at least five Palestinians in Gaza City, according to local health officials. Four people were reported killed near Panda Mall and one in the Tuffah neighborhood. The Israeli military said the strikes targeted militants but did not provide further details.",
+                "category": "conflict",
+                "title": "Israeli strikes kill five people in Gaza City",
+                "event_date": "2026-10-10",
+                "candidate_id": "gaza-city-israeli-strikes-five-killed",
+                "geography": "Palestinian territories — Gaza Strip",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/10/israeli-strikes-kill-five-people-in-gaza-medics-say-2"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/lebanon-flights-saudi-sudan-october-10-2026-a5f40b5e0ab08ae8128db5ed749114d8"
+                  }
+                ]
+              },
+              {
+                "summary": "Germany said it would maintain sanctions against Russia and work with European partners on further measures despite the United States temporarily easing restrictions on Russian diesel. Government spokesperson Stefan Kornelius said Germany’s support for Ukraine remained unchanged.",
+                "category": "foreign-policy",
+                "title": "Germany says Russian sanctions will remain despite U.S. diesel decision",
+                "event_date": "2026-10-10",
+                "candidate_id": "germany-maintains-russia-sanctions-diesel",
+                "geography": "Germany",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-announcement-on-diesel"
+                  }
+                ]
+              },
+              {
+                "summary": "Lawyer Miriam González Durántez launched Democracy21, a new centrist Spanish political party, to contest the November 29 snap general election in Madrid and Barcelona. She said the party would seek to bridge Spain’s ideological divide and depoliticize public institutions.",
+                "category": "politics",
+                "title": "Miriam González Durántez launches Spanish centrist party",
+                "event_date": "2026-10-10",
+                "candidate_id": "spain-democracy21-party-launch",
+                "geography": "Spain",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/10/spanish-lawyer-gonzalez-durantez-launches-centrist-party-for-november-election"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-10"
+          },
+          "metadata": {
+            "responseId": "resp_020b55b006f49f49006aca62e7674087d2897e33076814c5b9",
+            "requestId": "req_4068ac1da2864cc1881781e161e29b6b",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2110,
+            "inputTokens": 57453,
+            "outputTokens": 2844,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-10",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 59515,
+            "attemptDurationMs": 59515,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-10-10T16:08:03.260Z",
+        "capturedAt": "2026-10-10T16:09:02.856Z"
       }
     ],
     "sift": null
