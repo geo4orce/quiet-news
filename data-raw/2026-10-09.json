@@ -557,10 +557,10 @@
         "request": {
           "fingerprint": "7277cf4a5c09b99ee8b762c139075a31f5431f79e09b04397b0e2673849f36af",
           "claimId": "df852f53-1405-42f9-a44d-d0fa11e8a7af",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-10T07:07:46.697Z",
-          "responseId": null
+          "responseId": "resp_0b8fcf67184dd26b006ac9e446a9b487d296bdf0bcc039e32c"
         },
         "result": null,
         "observedAt": "2026-10-10T07:07:46.541Z"
