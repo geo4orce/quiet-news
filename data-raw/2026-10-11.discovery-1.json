@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-11",
+  "batch": 1,
+  "captured_at": "2026-10-11T10:08:23.080Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Indian authorities released Cockroach Janata Party leaders Abhijeet Dipke, Saurav Das and Ashutosh Ranka, one day after detaining them before a New Delhi demonstration over voter-list revisions. The movement’s legal director said their release was conditioned on committing no breach of peace for one year; it was unclear how that condition would affect future protest activity. Police also detained protesters during demonstrations Sunday.",
+        "category": "politics",
+        "title": "India releases leaders of youth protest movement",
+        "event_date": "2026-10-11",
+        "candidate_id": "india-cockroach-leaders-released",
+        "geography": "India",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/india-cockroach-election-commission-protests-c849d7c5c53b7e21d343eb238fdea382"
+          }
+        ]
+      },
+      {
+        "summary": "Yemen’s Houthis renewed threats against Saudi aviation after the deadly attack on Riyadh’s King Khalid International Airport. A Houthi military spokesman said Saudi airports were targets and urged people to heed the group’s warnings. The Saudi-led coalition has blamed the Houthis for the airport attack, while the group had not claimed responsibility for that strike.",
+        "category": "conflict",
+        "title": "Houthis renew threats against Saudi airports",
+        "event_date": "2026-10-11",
+        "candidate_id": "houthis-renew-saudi-airport-threats",
+        "geography": "Saudi Arabia and Yemen",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-d2e0868ffb18d883c16465d7d6a87ccb"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-11"
+  },
+  "metadata": {
+    "responseId": "resp_074be778b110d3f5006acb5ff548d487d2888a3953de235e2e",
+    "requestId": "req_cf540bb02c6e4860adf059cbcfde2277",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1202,
+    "inputTokens": 55307,
+    "outputTokens": 1562,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-11",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 37487,
+    "attemptDurationMs": 37487,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
