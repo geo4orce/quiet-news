@@ -605,10 +605,10 @@
         "request": {
           "fingerprint": "a0649c3e81f52d624e39dddd8cbfd83f60a792ac2f923ea3049836d3ab052c37",
           "claimId": "b8ba1d13-eb5a-4965-a612-3d774c00603b",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-11T07:07:42.928Z",
-          "responseId": null
+          "responseId": "resp_0859dbc2a00b4b79006acb35c2428887d28d904300d5fecad9"
         },
         "result": null,
         "observedAt": "2026-10-11T07:07:42.877Z"
