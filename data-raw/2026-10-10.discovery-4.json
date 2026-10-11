@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-10",
+  "batch": 4,
+  "captured_at": "2026-10-11T07:08:40.597Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Saudi civil aviation authorities said the attack on King Khalid International Airport killed 12 people and injured 309, some critically. The dead included four Saudis and eight foreign nationals, including a U.S. citizen. Airport operations were suspended, and the closure was extended until 9 p.m. Sunday. The Saudi-led coalition blamed the Houthis, who had not claimed responsibility.",
+        "category": "conflict",
+        "title": "Saudi authorities confirm 12 killed and 309 injured in Riyadh airport attack",
+        "event_date": "2026-10-10",
+        "candidate_id": "riyadh-airport-attack-12-reported-killed",
+        "geography": "Saudi Arabia — Riyadh",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-f0e0e6105f33400e37bb20bb9a8130af"
+          },
+          {
+            "name": "Reuters via Al-Monitor",
+            "url": "https://www.al-monitor.com/originals/2026/10/houthi-strike-saudi-airport-kills-12-worst-attack-kingdom-decade"
+          }
+        ]
+      },
+      {
+        "summary": "Hurricane Simon’s maximum sustained winds reached 155 mph by 9 p.m. CST as its eyewall approached Mexico’s west-central coast. The Category 4 hurricane was moving north at 5 mph, and the National Hurricane Center warned that conditions would deteriorate rapidly in the hurricane-warning area.",
+        "category": "weather",
+        "title": "Simon reaches 155 mph as eyewall nears Mexico",
+        "event_date": "2026-10-10",
+        "candidate_id": "simon-strengthens-category-4",
+        "geography": "Mexico — Pacific coast",
+        "sources": [
+          {
+            "name": "National Hurricane Center",
+            "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCDEP5%2Bhtml/141434.shtml"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/us-extreme-weather-mexico-simon-isaias-florida-1e6f590459e5ee4ead370192f52f9239"
+          }
+        ]
+      },
+      {
+        "summary": "Authorities linked at least four deaths to Isaias in Florida and Alabama. Two people died when trees fell on homes, one person died from carbon monoxide produced by a generator, and another died in a vehicle crash involving a downed tree. The post-tropical system continued bringing flood and wind hazards across the Southeast and toward the Appalachians.",
+        "category": "weather",
+        "title": "At least four deaths linked to Isaias",
+        "event_date": "2026-10-10",
+        "candidate_id": "isaias-post-tropical-power-outages",
+        "geography": "United States — Southeast",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/hurricane-isaias-flooding-power-outages-65ac97bf16477d89ec6f847b09ccb6fc"
+          },
+          {
+            "name": "Weather Prediction Center",
+            "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPAT4%2Bhtml/101458.shtml"
+          }
+        ]
+      },
+      {
+        "summary": "Philadelphia police officer Shane Seiber was killed and another officer was wounded while responding to a report of an armed man early Saturday. The surviving officer, who police said was shot 12 times, was in stable condition. Prosecutors charged Eric Lewis with homicide, attempted homicide and other offenses and said nine additional responding officers were fired upon but not injured.",
+        "category": "public-safety",
+        "title": "Philadelphia police officer killed and another wounded",
+        "event_date": "2026-10-10",
+        "candidate_id": "philadelphia-police-officer-killed",
+        "geography": "United States — Pennsylvania",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/philadelphia-officer-killed-6f55fa03d3312bc3c3094a662ad42fea"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-10"
+  },
+  "metadata": {
+    "responseId": "resp_0859dbc2a00b4b79006acb35c2428887d28d904300d5fecad9",
+    "requestId": "req_c5356447c4074428ba71e4f074498679",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2329,
+    "inputTokens": 104873,
+    "outputTokens": 3021,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-10-10",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 57667,
+    "attemptDurationMs": 57667,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
