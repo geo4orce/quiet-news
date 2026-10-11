@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-11",
+  "batch": 3,
+  "captured_at": "2026-10-11T22:08:25.317Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "A projectile struck a passenger terminal at Riyadh’s King Khalid International Airport, causing injuries, the Saudi-led coalition said. The Houthis claimed responsibility for this strike and the previous day’s deadly attack. India’s embassy said one of its citizens died Sunday from injuries sustained Saturday, raising that attack’s toll to 13. Saudi authorities also reported an attack on King Fahd International Airport in Dammam without providing details.",
+        "category": "conflict",
+        "title": "Houthis claim new attacks on Saudi airports",
+        "event_date": "2026-10-11",
+        "candidate_id": "houthis-renew-saudi-airport-threats",
+        "geography": "Saudi Arabia and Yemen",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-d2e0868ffb18d883c16465d7d6a87ccb"
+          }
+        ]
+      },
+      {
+        "summary": "Hurricane Simon pounded Mexico’s Pacific coast while remaining just offshore as a Category 4 storm. By midday Sunday, its eye was about 65 miles from Cabo Corrientes, with sustained winds near 140 mph. Jalisco authorities evacuated people from high-risk areas, and forecasters warned of catastrophic winds, life-threatening storm surge, flooding and mudslides along west-central Mexico.",
+        "category": "disaster",
+        "title": "Hurricane Simon pounds Mexico’s Pacific coast",
+        "event_date": "2026-10-11",
+        "candidate_id": "hurricane-simon-pounds-mexico-coast",
+        "geography": "Mexico",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mexico-hurricane-simon-0e3336ba92518117ca8008c5746d230e"
+          },
+          {
+            "name": "National Hurricane Center",
+            "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCDEP5%2Bhtml/141434.shtml"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-11"
+  },
+  "metadata": {
+    "responseId": "resp_0a1944a4daa4e2c4006acc08b2932c87d28b1126a41e6e5744",
+    "requestId": "req_53b7bda067f44b908a570b6ddc63b973",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1319,
+    "inputTokens": 63752,
+    "outputTokens": 1574,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-11",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 42269,
+    "attemptDurationMs": 42269,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
