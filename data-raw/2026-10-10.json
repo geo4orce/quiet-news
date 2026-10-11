@@ -786,12 +786,147 @@
       "request": {
         "fingerprint": "8e79aaa7033be3011ac24f7b9465645c36ff0831c400811a04c4a337be7a13d4",
         "claimId": "df9b791c-b066-4eac-8f20-53b08a4a9579",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-11T08:07:46.403Z",
         "responseId": "resp_033b858b1d520c29006acb43d6371087d2ab40704c9e16ba8a"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "christa-pike-returns-prison-execution-attempt",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "gaza-city-israeli-strikes-five-killed",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "germany-maintains-russia-sanctions-diesel",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "panama-magnitude-6-aftershock",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "philadelphia-police-officer-killed",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "spain-democracy21-party-launch",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-cooperation-okinawa-murder-investigation",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "warsaw-school-stabbing-three-injured",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": [
+            {
+              "body": "An attack on King Khalid International Airport in Riyadh killed 12 people and injured 309, Saudi civil aviation authorities said. Some of those injured were in critical condition. The dead included four Saudis and eight foreign nationals, including a U.S. citizen.\n\nAirport operations were suspended, with the closure extended until 9 p.m. Sunday. The Saudi-led coalition blamed the Houthis, who had not claimed responsibility.",
+              "candidate_id": "riyadh-airport-attack-12-reported-killed",
+              "headline": "Riyadh airport attack kills 12, injures 309",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-f0e0e6105f33400e37bb20bb9a8130af"
+                },
+                {
+                  "name": "Reuters via Al-Monitor",
+                  "url": "https://www.al-monitor.com/originals/2026/10/houthi-strike-saudi-airport-kills-12-worst-attack-kingdom-decade"
+                }
+              ]
+            },
+            {
+              "body": "Police detained more than 2,000 protesters and leaders of India’s youth-led “Cockroach” movement before a planned demonstration in New Delhi. Authorities also restricted access, transportation and mobile internet in parts of the capital.\n\nThe demonstrators were demanding the resignation of Chief Election Commissioner Gyanesh Kumar over a disputed revision of voter lists. India’s government and Election Commission deny allegations that the process is being used to manipulate the rolls.",
+              "candidate_id": "india-delhi-election-protest-detentions",
+              "headline": "India detains thousands before election protest",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/india-sir-cockroach-election-commission-gyanesh-protests-030b35e23279c75394b7654233c99d6b"
+                },
+                {
+                  "name": "Reuters via MarketScreener",
+                  "url": "https://www.marketscreener.com/news/latest/India-detains-thousands-locks-down-Delhi-to-foil-election-chief-protest-12493816/"
+                }
+              ]
+            },
+            {
+              "body": "Palestinian President Mahmoud Abbas canceled legislative elections scheduled for November 28, 2026. His decree instead set simultaneous presidential and legislative elections for September 11, 2027.\n\nThe Palestinian presidency cited security, logistical and on-the-ground obstacles to holding the November vote.",
+              "candidate_id": "abbas-postpones-palestinian-elections-2027",
+              "headline": "Abbas postpones Palestinian elections to 2027",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/3c0ab74a39492328a15318d7949b972c"
+                },
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/Abbas%2Bpostpones%2BPalestinian%2Belections,%2Bsets%2Bpresidential%2Bpoll%2Bfor%2BSeptember%2B2027/27172668.html"
+                }
+              ]
+            },
+            {
+              "body": "Hurricane Simon’s maximum sustained winds reached 155 mph as its eyewall approached Mexico’s west-central coast. The Category 4 storm was moving north at 5 mph at 9 p.m. CST.\n\nThe National Hurricane Center warned that conditions would deteriorate rapidly within the hurricane-warning area.",
+              "candidate_id": "simon-strengthens-category-4",
+              "headline": "Simon nears Mexico with 155 mph winds",
+              "sources": [
+                {
+                  "name": "National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCDEP5%2Bhtml/141434.shtml"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/us-extreme-weather-mexico-simon-isaias-florida-1e6f590459e5ee4ead370192f52f9239"
+                }
+              ]
+            },
+            {
+              "body": "Authorities linked at least four deaths in Florida and Alabama to Hurricane Isaias. Two people died when trees fell on homes, one died from carbon monoxide produced by a generator, and another died in a vehicle crash involving a downed tree.\n\nThe post-tropical system continued to bring flood and wind hazards across the Southeast and toward the Appalachians.",
+              "candidate_id": "isaias-post-tropical-power-outages",
+              "headline": "Hurricane Isaias linked to four deaths",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/hurricane-isaias-flooding-power-outages-65ac97bf16477d89ec6f847b09ccb6fc"
+                },
+                {
+                  "name": "Weather Prediction Center",
+                  "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPAT4%2Bhtml/101458.shtml"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_033b858b1d520c29006acb43d6371087d2ab40704c9e16ba8a",
+          "requestId": "req_51e9c5882879454c8d59779d87677ced",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1419,
+          "inputTokens": 3946,
+          "outputTokens": 2576,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-10",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 38880,
+          "attemptDurationMs": 38880,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
