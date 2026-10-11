@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-11",
+  "batch": 2,
+  "captured_at": "2026-10-11T16:08:51.011Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Pope Leo XIV announced during his Sunday Angelus that he will undergo surgery in the coming days to remove a lung nodule discovered during recent medical checks. He said it was detected at a very early stage and was well-localized. The Vatican said the operation is expected early this week at Rome’s Gemelli hospital, with hospitalization lasting about one week.",
+        "category": "health",
+        "title": "Pope Leo XIV announces surgery for lung nodule",
+        "event_date": "2026-10-11",
+        "candidate_id": "pope-leo-lung-nodule-surgery",
+        "geography": "Vatican City and Italy",
+        "sources": [
+          {
+            "name": "Vatican News",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-to-undergo-surgery-remove-nodule-lung.html"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/pope-leo-vatican-surgery-lung-nodule-1e7fe8609a652d7945dd78d2c31b0973"
+          }
+        ]
+      },
+      {
+        "summary": "The International Organization for Migration said Sunday that at least 139 migrants had died and 84 remained missing after an overcrowded boat carrying 305 people capsized off Djibouti during the night of October 8-9. More than 80 people survived. The vessel was traveling toward Yemen, and rescue work continued.",
+        "category": "disaster",
+        "title": "IOM reports 139 dead in Djibouti migrant shipwreck",
+        "event_date": "2026-10-11",
+        "candidate_id": "iom-djibouti-shipwreck-toll-139",
+        "geography": "Djibouti and Yemen",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/migrants-boat-shipwreck-djibouti-africa-yemen-a9e324ca36a7d9dee0e745c736c8aa95"
+          },
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/109-migrants-including-15-children-dead-after-boat-from-djibouti-to-yemen-capsizes-un-agency-says-ce785ddcdc88fe2d"
+          }
+        ]
+      },
+      {
+        "summary": "Polish authorities arrested a man suspected of threatening an attack on Prime Minister Donald Tusk after police received information concerning possible attacks on Tusk and Defense Minister Władysław Kosiniak-Kamysz. Security officials held an emergency meeting and said they treated the threat as having a high probability of being carried out. Officials disclosed no details about the suspect or the alleged plan.",
+        "category": "security",
+        "title": "Poland arrests man over alleged threat to prime minister",
+        "event_date": "2026-10-11",
+        "candidate_id": "poland-arrest-tusk-attack-threat",
+        "geography": "Poland",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/poland-plot-prime-minister-tusk-defense-863309837b5239327364d868f626c73f"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-11"
+  },
+  "metadata": {
+    "responseId": "resp_0337aa4e73c57fea006acbb465898487d2990cd75af634dc38",
+    "requestId": "req_50233c7742b14df5b7a969cc3ab69d85",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1367,
+    "inputTokens": 57304,
+    "outputTokens": 2028,
+    "webSearchCalls": 6,
+    "stage": "discovery",
+    "targetDate": "2026-10-11",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 50630,
+    "attemptDurationMs": 50630,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
