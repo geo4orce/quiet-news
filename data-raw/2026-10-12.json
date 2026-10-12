@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-12",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Riyadh airport strike kills one, injures 11",
+            "body": "Saudi authorities said a projectile struck a domestic terminal at King Khalid International Airport in Riyadh on Sunday, killing a Pakistani national and injuring 11 people. The Houthis claimed responsibility.\n\nThis was separate from Saturday’s attack at the same airport. India’s embassy said an Indian citizen died Sunday from injuries sustained then, raising that attack’s toll to 13. Saudi authorities also reported an attack on King Fahd International Airport in Dammam but provided no details.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-d2e0868ffb18d883c16465d7d6a87ccb"
+              }
+            ]
+          },
+          {
+            "headline": "Djibouti shipwreck leaves 139 migrants dead",
+            "body": "The International Organization for Migration said Sunday that at least 139 migrants died and 84 remained missing after an overcrowded boat carrying 305 people capsized off Djibouti during the night of October 8-9.\n\nMore than 80 people survived, and rescue work continued. The vessel had been traveling toward Yemen.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/migrants-boat-shipwreck-djibouti-africa-yemen-a9e324ca36a7d9dee0e745c736c8aa95"
+              },
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/109-migrants-including-15-children-dead-after-boat-from-djibouti-to-yemen-capsizes-un-agency-says-ce785ddcdc88fe2d"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "b84e9f770ac8b5d7a69372a297ebcff5d0383bd238263e48b0f75946ea891a3d",
+          "claimId": "e8adf37a-355f-4c6d-96a1-33ee83239df0",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-12T10:07:49.537Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-12T10:07:49.482Z"
+      }
+    ],
+    "sift": null
+  }
+}
