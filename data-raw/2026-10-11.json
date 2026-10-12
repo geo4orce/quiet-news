@@ -732,12 +732,90 @@
       "request": {
         "fingerprint": "9a30ca2193f80ef16bc930deb117249668b6e4f3829a5054c14deb416e1d98fd",
         "claimId": "78270e0c-8b25-43c8-b468-24dff752d8ef",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-12T08:07:51.984Z",
         "responseId": "resp_0ddc053901d164e6006acc955be4c087d2b1483ce3e9a64a01"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "hurricane-simon-pounds-mexico-coast",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "india-cockroach-leaders-released",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "judge-blocks-taxpayer-funded-trump-ads",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "poland-arrest-tusk-attack-threat",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "pope-leo-lung-nodule-surgery",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-ukraine-russia-energy-ceasefire-claim",
+              "code": "weak_support"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Saudi authorities said a projectile struck a domestic terminal at King Khalid International Airport in Riyadh on Sunday, killing a Pakistani national and injuring 11 people. The Houthis claimed responsibility.\n\nThis was separate from Saturday’s attack at the same airport. India’s embassy said an Indian citizen died Sunday from injuries sustained then, raising that attack’s toll to 13. Saudi authorities also reported an attack on King Fahd International Airport in Dammam but provided no details.",
+              "candidate_id": "houthis-renew-saudi-airport-threats",
+              "headline": "Riyadh airport strike kills one, injures 11",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-d2e0868ffb18d883c16465d7d6a87ccb"
+                }
+              ]
+            },
+            {
+              "body": "The International Organization for Migration said Sunday that at least 139 migrants died and 84 remained missing after an overcrowded boat carrying 305 people capsized off Djibouti during the night of October 8-9.\n\nMore than 80 people survived, and rescue work continued. The vessel had been traveling toward Yemen.",
+              "candidate_id": "iom-djibouti-shipwreck-toll-139",
+              "headline": "Djibouti shipwreck leaves 139 migrants dead",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/migrants-boat-shipwreck-djibouti-africa-yemen-a9e324ca36a7d9dee0e745c736c8aa95"
+                },
+                {
+                  "name": "Reuters via MarketScreener",
+                  "url": "https://www.marketscreener.com/news/109-migrants-including-15-children-dead-after-boat-from-djibouti-to-yemen-capsizes-un-agency-says-ce785ddcdc88fe2d"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0ddc053901d164e6006acc955be4c087d2b1483ce3e9a64a01",
+          "requestId": "req_aae8b44323c74c3cb6449459a2bfff25",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1647,
+          "inputTokens": 3407,
+          "outputTokens": 2181,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-11",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 38156,
+          "attemptDurationMs": 38156,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
