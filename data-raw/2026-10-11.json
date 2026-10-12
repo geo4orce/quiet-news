@@ -462,6 +462,92 @@
         },
         "observedAt": "2026-10-11T22:07:42.968Z",
         "capturedAt": "2026-10-11T22:08:25.317Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Riyadh airport attack kills 12, injures 309",
+            "body": "An attack on King Khalid International Airport in Riyadh killed 12 people and injured 309, Saudi civil aviation authorities said. Some of those injured were in critical condition. The dead included four Saudis and eight foreign nationals, including a U.S. citizen.\n\nAirport operations were suspended, with the closure extended until 9 p.m. Sunday. The Saudi-led coalition blamed the Houthis, who had not claimed responsibility.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-f0e0e6105f33400e37bb20bb9a8130af"
+              },
+              {
+                "name": "Reuters via Al-Monitor",
+                "url": "https://www.al-monitor.com/originals/2026/10/houthi-strike-saudi-airport-kills-12-worst-attack-kingdom-decade"
+              }
+            ]
+          },
+          {
+            "headline": "India detains thousands before election protest",
+            "body": "Police detained more than 2,000 protesters and leaders of India’s youth-led “Cockroach” movement before a planned demonstration in New Delhi. Authorities also restricted access, transportation and mobile internet in parts of the capital.\n\nThe demonstrators were demanding the resignation of Chief Election Commissioner Gyanesh Kumar over a disputed revision of voter lists. India’s government and Election Commission deny allegations that the process is being used to manipulate the rolls.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/india-sir-cockroach-election-commission-gyanesh-protests-030b35e23279c75394b7654233c99d6b"
+              },
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/latest/India-detains-thousands-locks-down-Delhi-to-foil-election-chief-protest-12493816/"
+              }
+            ]
+          },
+          {
+            "headline": "Abbas postpones Palestinian elections to 2027",
+            "body": "Palestinian President Mahmoud Abbas canceled legislative elections scheduled for November 28, 2026. His decree instead set simultaneous presidential and legislative elections for September 11, 2027.\n\nThe Palestinian presidency cited security, logistical and on-the-ground obstacles to holding the November vote.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/3c0ab74a39492328a15318d7949b972c"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Abbas%2Bpostpones%2BPalestinian%2Belections,%2Bsets%2Bpresidential%2Bpoll%2Bfor%2BSeptember%2B2027/27172668.html"
+              }
+            ]
+          },
+          {
+            "headline": "Simon nears Mexico with 155 mph winds",
+            "body": "Hurricane Simon’s maximum sustained winds reached 155 mph as its eyewall approached Mexico’s west-central coast. The Category 4 storm was moving north at 5 mph at 9 p.m. CST.\n\nThe National Hurricane Center warned that conditions would deteriorate rapidly within the hurricane-warning area.",
+            "sources": [
+              {
+                "name": "National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCDEP5%2Bhtml/141434.shtml"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/us-extreme-weather-mexico-simon-isaias-florida-1e6f590459e5ee4ead370192f52f9239"
+              }
+            ]
+          },
+          {
+            "headline": "Hurricane Isaias linked to four deaths",
+            "body": "Authorities linked at least four deaths in Florida and Alabama to Hurricane Isaias. Two people died when trees fell on homes, one died from carbon monoxide produced by a generator, and another died in a vehicle crash involving a downed tree.\n\nThe post-tropical system continued to bring flood and wind hazards across the Southeast and toward the Appalachians.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/hurricane-isaias-flooding-power-outages-65ac97bf16477d89ec6f847b09ccb6fc"
+              },
+              {
+                "name": "Weather Prediction Center",
+                "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPAT4%2Bhtml/101458.shtml"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "50d705756ca14d3fca1abb2415f8d3b718d5ad768622de4bcca47c3dda02a0d4",
+          "claimId": "620ac662-66ba-422f-acaf-425c16246a76",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-12T07:07:56.979Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-12T07:07:56.866Z"
       }
     ],
     "sift": null
