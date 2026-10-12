@@ -541,13 +541,111 @@
         "request": {
           "fingerprint": "50d705756ca14d3fca1abb2415f8d3b718d5ad768622de4bcca47c3dda02a0d4",
           "claimId": "620ac662-66ba-422f-acaf-425c16246a76",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-12T07:07:56.979Z",
           "responseId": "resp_0906b4bb5488111a006acc87514ddc87d294dfdc8beddbab3d"
         },
-        "result": null,
-        "observedAt": "2026-10-12T07:07:56.866Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Saudi authorities said one Pakistani national was killed and 11 people were injured when a projectile struck a domestic terminal at Riyadh’s King Khalid International Airport on Sunday. The Houthis claimed responsibility. India’s embassy said an Indian citizen also died Sunday from injuries sustained in Saturday’s attack, raising that strike’s toll to 13. Saudi authorities separately reported an attack on King Fahd International Airport in Dammam without providing details.",
+                "category": "conflict",
+                "title": "Houthis claim new attacks on Saudi airports",
+                "event_date": "2026-10-11",
+                "candidate_id": "houthis-renew-saudi-airport-threats",
+                "geography": "Saudi Arabia and Yemen",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-d2e0868ffb18d883c16465d7d6a87ccb"
+                  }
+                ]
+              },
+              {
+                "summary": "Hurricane Simon weakened while moving slowly just offshore of Mexico’s west-central coast. At 8 p.m. MST Sunday, the National Hurricane Center classified Simon as a Category 3 storm with maximum sustained winds of 120 mph, centered about 45 miles south-southwest of Cabo Corrientes and moving northwest at 5 mph. Destructive winds and flooding rain remained threats along the coast.",
+                "category": "disaster",
+                "title": "Hurricane Simon weakens while remaining offshore Mexico",
+                "event_date": "2026-10-11",
+                "candidate_id": "hurricane-simon-pounds-mexico-coast",
+                "geography": "Mexico",
+                "sources": [
+                  {
+                    "name": "National Hurricane Center",
+                    "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP5%2Bshtml/091446.shtml"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/mexico-hurricane-simon-0e3336ba92518117ca8008c5746d230e"
+                  }
+                ]
+              },
+              {
+                "summary": "President Donald Trump announced that Russia and Ukraine had agreed to an immediate ceasefire covering attacks on energy infrastructure, without providing terms. Russia did not immediately confirm an agreement. Ukrainian President Volodymyr Zelenskyy said Ukraine was prepared to refrain from such strikes if Russia did the same, but reported that Russia attacked energy facilities in Kyiv and Kharkiv after Trump’s announcement.",
+                "category": "conflict",
+                "title": "Trump announces energy ceasefire as Ukraine reports continued strikes",
+                "event_date": "2026-10-11",
+                "candidate_id": "trump-ukraine-russia-energy-ceasefire-claim",
+                "geography": "Ukraine, Russia and United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-yandex-trump-zelenskyy-f621fa788196f204448e7f75fcc78c68"
+                  },
+                  {
+                    "name": "Office of the President of Ukraine",
+                    "url": "https://www.president.gov.ua/en/videos/ukrayina-gotova-ne-zavdavati-udariv-po-rosijskij-energetici-8933"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. District Judge Jennifer Rochon issued a 14-day temporary restraining order requiring the Trump administration to stop producing and airing taxpayer-funded television advertisements promoting President Donald Trump’s political message. The order required cancellation of remaining placements, including ads scheduled for Sunday night, and barred new or expanded agreements for the challenged advertisements while the order remains in effect.",
+                "category": "law",
+                "title": "Federal judge temporarily blocks taxpayer-funded Trump ads",
+                "event_date": "2026-10-11",
+                "candidate_id": "judge-blocks-taxpayer-funded-trump-ads",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "U.S. District Court order via Campaign Legal Center",
+                    "url": "https://campaignlegal.org/document/common-cause-et-al-v-department-homeland-security-et-al-order-tro"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/trump-tv-ads-f845554063cea0b4b41275d32abd3633"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-11"
+          },
+          "metadata": {
+            "responseId": "resp_0906b4bb5488111a006acc87514ddc87d294dfdc8beddbab3d",
+            "requestId": "req_dfb74ee484ee47769ecda4878c284d50",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1909,
+            "inputTokens": 76859,
+            "outputTokens": 2760,
+            "webSearchCalls": 9,
+            "stage": "discovery",
+            "targetDate": "2026-10-11",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 74943,
+            "attemptDurationMs": 74943,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-10-12T07:07:56.866Z",
+        "capturedAt": "2026-10-12T07:09:11.922Z"
       }
     ],
     "sift": null
