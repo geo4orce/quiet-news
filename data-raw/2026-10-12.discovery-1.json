@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-12",
+  "batch": 1,
+  "captured_at": "2026-10-12T10:08:43.373Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "International Monetary Fund Managing Director Kristalina Georgieva said at the IMF-World Bank meetings in Bangkok that investment in artificial-intelligence infrastructure was helping keep global economic growth near 3% despite the energy supply shock. She said the investment boom could add 0.5 to 1 percentage point to growth in advanced Asian economies and 0.2 to 0.8 point in emerging Asian economies. World Bank President Ajay Banga emphasized smaller-scale AI applications in emerging markets, while Singapore President Tharman Shanmugaratnam warned about reduced entry-level employment.",
+        "category": "economy",
+        "title": "IMF says AI investment is supporting global growth",
+        "event_date": "2026-10-12",
+        "candidate_id": "imf-ai-investment-global-growth",
+        "geography": "Global",
+        "sources": [
+          {
+            "name": "Reuters via AOL",
+            "url": "https://www.aol.com/articles/imf-says-ai-investment-keeps-035003000.html"
+          }
+        ]
+      },
+      {
+        "summary": "Delhi authorities closed six metro stations and imposed traffic restrictions as opposition parties prepared to march to India's Supreme Court over revisions to voter lists. Critics say the revisions favor Prime Minister Narendra Modi's Bharatiya Janata Party. Police had detained thousands of protesters over the weekend amid demonstrations demanding Chief Election Commissioner Gyanesh Kumar's resignation.",
+        "category": "politics",
+        "title": "Delhi closes metro stations before election-roll protest",
+        "event_date": "2026-10-12",
+        "candidate_id": "delhi-metro-closures-election-protest",
+        "geography": "India",
+        "sources": [
+          {
+            "name": "Reuters via AOL",
+            "url": "https://www.aol.com/articles/delhi-shuts-metro-stations-restricts-050318000.html"
+          }
+        ]
+      },
+      {
+        "summary": "The chief executives of ExxonMobil, TotalEnergies, Shell, Chevron and BP were absent from an updated schedule released early Monday for the WPC Energy Congress in Riyadh following deadly attacks on the Saudi capital's airport. BP attributed its absence to travel disruption; the other companies either declined to comment or did not immediately respond. Saudi authorities continued holding the conference, located about 10 kilometers from the airport.",
+        "category": "business",
+        "title": "Energy executives dropped from Riyadh conference schedule after airport attacks",
+        "event_date": "2026-10-12",
+        "candidate_id": "riyadh-energy-congress-executive-absences",
+        "geography": "Saudi Arabia",
+        "sources": [
+          {
+            "name": "Reuters via AOL",
+            "url": "https://www.aol.com/articles/top-oil-executives-dropped-event-081626000.html"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-12"
+  },
+  "metadata": {
+    "responseId": "resp_012f67e5f943794b006accb1797c4487d2b9e09cecae772e78",
+    "requestId": "req_2aacd7d618d1473fb19a9e91e33a2103",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1854,
+    "inputTokens": 55681,
+    "outputTokens": 2363,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-12",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 53836,
+    "attemptDurationMs": 53836,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
