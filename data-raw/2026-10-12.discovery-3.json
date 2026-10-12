@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-12",
+  "batch": 3,
+  "captured_at": "2026-10-12T22:08:38.765Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "U.S. District Judge Ana Reyes ordered a 24-hour halt to tree-cutting at Washington's East Potomac Golf Course after an emergency hearing concerning work performed over the holiday weekend. Reyes said the pause could be extended and scheduled another hearing for October 13. The order came amid a lawsuit challenging the Trump administration's renovation plans for the historic public course.",
+        "category": "law",
+        "title": "Judge temporarily halts tree-cutting at Washington golf course",
+        "event_date": "2026-10-12",
+        "candidate_id": "east-potomac-golf-course-tree-cutting-halt",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/fdf4667378e21a8bd7fced6a80258ec8"
+          },
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/judge-ana-reyes-justice-department-trees-east-potomac-golf-course/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-12"
+  },
+  "metadata": {
+    "responseId": "resp_08c883997f00da87006acd5a3e8a7887d2981f846ed486c16d",
+    "requestId": "req_a0ca62f1b86c4fc191e99cfd0a5212c6",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1670,
+    "inputTokens": 48915,
+    "outputTokens": 1787,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-12",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 44476,
+    "attemptDurationMs": 44476,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}

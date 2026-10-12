@@ -293,13 +293,61 @@
         "request": {
           "fingerprint": "a314d567aab8819d675439b2c9a75c4b14527dabde79f454dae08909fafddee0",
           "claimId": "efc8822d-45f5-4521-8295-40222a00ff4a",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-12T22:07:54.289Z",
           "responseId": "resp_08c883997f00da87006acd5a3e8a7887d2981f846ed486c16d"
         },
-        "result": null,
-        "observedAt": "2026-10-12T22:07:54.195Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "U.S. District Judge Ana Reyes ordered a 24-hour halt to tree-cutting at Washington's East Potomac Golf Course after an emergency hearing concerning work performed over the holiday weekend. Reyes said the pause could be extended and scheduled another hearing for October 13. The order came amid a lawsuit challenging the Trump administration's renovation plans for the historic public course.",
+                "category": "law",
+                "title": "Judge temporarily halts tree-cutting at Washington golf course",
+                "event_date": "2026-10-12",
+                "candidate_id": "east-potomac-golf-course-tree-cutting-halt",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/fdf4667378e21a8bd7fced6a80258ec8"
+                  },
+                  {
+                    "name": "CBS News",
+                    "url": "https://www.cbsnews.com/news/judge-ana-reyes-justice-department-trees-east-potomac-golf-course/"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-12"
+          },
+          "metadata": {
+            "responseId": "resp_08c883997f00da87006acd5a3e8a7887d2981f846ed486c16d",
+            "requestId": "req_a0ca62f1b86c4fc191e99cfd0a5212c6",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1670,
+            "inputTokens": 48915,
+            "outputTokens": 1787,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-12",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 44476,
+            "attemptDurationMs": 44476,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-10-12T22:07:54.195Z",
+        "capturedAt": "2026-10-12T22:08:38.765Z"
       }
     ],
     "sift": null
