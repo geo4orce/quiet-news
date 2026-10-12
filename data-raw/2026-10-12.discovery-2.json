@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-12",
+  "batch": 2,
+  "captured_at": "2026-10-12T16:08:45.583Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "French police detained a 14-year-old student suspected of shooting and wounding the principal and a teacher at Joseph Lakanal middle school in Aubagne. Prosecutors said the student concealed a hunting gun in a guitar case and fired several shots before a staff member disarmed him. The two victims' injuries were not life-threatening, and no students were physically injured.",
+        "category": "public safety",
+        "title": "Teen detained after two staff members shot at French school",
+        "event_date": "2026-10-12",
+        "candidate_id": "aubagne-school-shooting",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/france-school-shooting-613f6ac2f6f9fc7025a96ca719f2c753"
+          },
+          {
+            "name": "City of Aubagne",
+            "url": "https://www.aubagne.fr/actualite/drame-au-college-lakanal/"
+          }
+        ]
+      },
+      {
+        "summary": "The Royal Swedish Academy of Sciences awarded the 2026 Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel to American economists Robert E. Hall and Michael Woodford for research providing microeconomic foundations for macroeconomic stabilization. Their models have influenced how governments and central banks respond to shocks including inflation and energy crises.",
+        "category": "science",
+        "title": "Robert Hall and Michael Woodford win economics Nobel",
+        "event_date": "2026-10-12",
+        "candidate_id": "hall-woodford-2026-economics-nobel",
+        "geography": "Sweden",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/96f32f1aaeff1054e2dd653e6ea86268"
+          }
+        ]
+      },
+      {
+        "summary": "Ukraine's parliament adopted legislation expanding the use of European Union minority languages and Indigenous languages in education and school communications. The measure also defines a status for minority-language secondary schools, protects continued instruction in the relevant language when schools are reorganized or closed, and adjusts rules for external assessments. Parliamentary adoption does not by itself establish that the law has taken effect.",
+        "category": "politics",
+        "title": "Ukraine parliament adopts minority-language education law",
+        "event_date": "2026-10-12",
+        "candidate_id": "ukraine-minority-language-education-law",
+        "geography": "Ukraine",
+        "sources": [
+          {
+            "name": "Verkhovna Rada of Ukraine",
+            "url": "https://www.rada.gov.ua/news/razom/275837.html"
+          }
+        ]
+      },
+      {
+        "summary": "The Holy See press office said Pope Leo XIV was expected to enter Rome's Gemelli hospital late on the morning of October 13 for surgery to remove a localized lung nodule detected during routine examinations. The pope had announced the planned operation Sunday, describing the nodule as being at a very early stage. The Vatican said the expected postoperative hospital stay was about one week.",
+        "category": "health",
+        "title": "Vatican details Pope Leo XIV's planned hospitalization",
+        "event_date": "2026-10-12",
+        "candidate_id": "pope-leo-lung-surgery-hospitalization-details",
+        "geography": "Vatican City",
+        "sources": [
+          {
+            "name": "Vatican News",
+            "url": "https://www.vaticannews.va/ro/papa/news/2026-10/papa-leon-xiv-internare-spital-gemelli-marti-13-octombrie-2026.html"
+          }
+        ]
+      },
+      {
+        "summary": "An explosion involving unexploded ordnance killed one student and injured 24 other people during a school trip in northern Israel, according to officials. Authorities were investigating the circumstances of the blast.",
+        "category": "public safety",
+        "title": "Unexploded munition kills student during Israeli school trip",
+        "event_date": "2026-10-12",
+        "candidate_id": "israel-school-trip-munition-blast",
+        "geography": "Israel",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/1d422095dcfb4e8d1b51319066bcf445"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-12"
+  },
+  "metadata": {
+    "responseId": "resp_0d95040a0cb5cb8d006acd05d07df087d2898d918836cffbf6",
+    "requestId": "req_b1ccc966529c417c9fe6239e3244dabb",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1842,
+    "inputTokens": 58966,
+    "outputTokens": 2591,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-12",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 64823,
+    "attemptDurationMs": 64823,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
