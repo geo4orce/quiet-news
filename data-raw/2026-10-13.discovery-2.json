@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-13",
+  "batch": 2,
+  "captured_at": "2026-10-13T16:09:01.495Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Ukrainian officials said Russian strikes overnight and Tuesday killed at least five people, including four in a destroyed Kharkiv apartment building, and wounded dozens. President Volodymyr Zelenskyy said five ballistic missiles hit civilian infrastructure in Kyiv without advance warning from Ukraine's partners. Russia said it targeted military-industrial, logistics, railway and port facilities.",
+        "category": "conflict",
+        "title": "Russian strikes kill at least five across Ukraine",
+        "event_date": "2026-10-13",
+        "candidate_id": "russian-strikes-ukraine-oct-13",
+        "geography": "Ukraine",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/10c54e55f31aded2db95242fdb4fd153"
+          }
+        ]
+      },
+      {
+        "summary": "France's finance minister said a cyberattack targeting connected refrigeration systems affected about 700 supermarkets. He told Parliament that the incident posed no risk to national food supplies, while the Paris prosecutor's office opened an investigation. The attack caused food losses and fires at some stores, and no group had publicly claimed responsibility.",
+        "category": "cybersecurity",
+        "title": "France says supermarket cyberattack affected about 700 stores",
+        "event_date": "2026-10-13",
+        "candidate_id": "france-supermarket-refrigeration-cyberattack",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/78a813a8efd466b360655339f96083dc"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/13/investigators-hunt-french-supermarket-fridge-hackers-no-claim-of-responsibility"
+          }
+        ]
+      },
+      {
+        "summary": "Pope Leo XIV was admitted to Rome's Gemelli hospital for planned surgery later Tuesday to remove a localized lung nodule. The procedure is intended to determine whether the lesion is malignant and whether further treatment is necessary. The Vatican canceled his audiences through October 20 and anticipated a hospital stay of about a week.",
+        "category": "health",
+        "title": "Pope Leo admitted for lung nodule surgery",
+        "event_date": "2026-10-13",
+        "candidate_id": "pope-leo-lung-nodule-hospital",
+        "geography": "Vatican City and Italy",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/86268530ef22fd14d2712067e89946f1"
+          }
+        ]
+      },
+      {
+        "summary": "Formula 1 announced a 10-year agreement for Rwanda to host an African Grand Prix beginning in the early 2030s, after a purpose-built circuit is completed in Bugesera southeast of Kigali. The event would mark Formula 1's return to Africa for the first time since the 1993 South African Grand Prix.",
+        "category": "sports",
+        "title": "Formula 1 announces African Grand Prix in Rwanda",
+        "event_date": "2026-10-13",
+        "candidate_id": "formula-one-rwanda-grand-prix",
+        "geography": "Rwanda",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/0f71bcd619e82380ab226b012e4ec21f"
+          }
+        ]
+      },
+      {
+        "summary": "Polish officials accused Russian intelligence services of directing a September arson attack on Starlink infrastructure south of Warsaw. Two Turkish citizens arrested in Germany are accused of setting the fire. Prime Minister Donald Tusk described the incident as hybrid warfare; Russia's response was not reported in the initial account.",
+        "category": "security",
+        "title": "Poland blames Russia for Starlink station arson",
+        "event_date": "2026-10-13",
+        "candidate_id": "poland-starlink-arson-russia-accusation",
+        "geography": "Poland",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/d609c35778de4a8223b56bf45b0c48d1"
+          }
+        ]
+      },
+      {
+        "summary": "Drones struck two commercial ships in the Black Sea near Bulgaria, sinking the Guinea-Bissau-flagged Dignity. Five sailors were rescued and 11 remained missing. All 15 crew members aboard the Maltese-flagged Chelsea 3 were evacuated, with five treated for minor injuries. Bulgarian authorities said responsibility had not been established; Ukrainian officials blamed Russia.",
+        "category": "conflict",
+        "title": "Drone strikes sink commercial ship off Bulgaria",
+        "event_date": "2026-10-13",
+        "candidate_id": "black-sea-drone-strikes-commercial-ships",
+        "geography": "Black Sea near Bulgaria",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/7dfef251fb7d47a717f0d600873dbf5b"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-13"
+  },
+  "metadata": {
+    "responseId": "resp_0fe724c9a61b09ad006ace575bb52887d2819751cf6188d0c5",
+    "requestId": "req_7ceefd43510f4aa8880c4357dddc508c",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2370,
+    "inputTokens": 44130,
+    "outputTokens": 3258,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-13",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 70491,
+    "attemptDurationMs": 70491,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
