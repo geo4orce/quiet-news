@@ -1,29 +1,43 @@
 {
-  "edition_date": "2026-10-11",
-  "published_at": "2026-10-12T08:08:32.357Z",
-  "expires_at": "2026-10-13T09:00:00.000Z",
+  "edition_date": "2026-10-12",
+  "published_at": "2026-10-13T08:08:44.114Z",
+  "expires_at": "2026-10-14T09:00:00.000Z",
   "stories": [
     {
-      "headline": "Riyadh airport strike kills one, injures 11",
-      "body": "Saudi authorities said a projectile struck a domestic terminal at King Khalid International Airport in Riyadh on Sunday, killing a Pakistani national and injuring 11 people. The Houthis claimed responsibility.\n\nThis was separate from Saturday’s attack at the same airport. India’s embassy said an Indian citizen died Sunday from injuries sustained then, raising that attack’s toll to 13. Saudi authorities also reported an attack on King Fahd International Airport in Dammam but provided no details.",
+      "headline": "Riyadh airport closure extended through Saturday",
+      "body": "Saudi aviation authorities extended the suspension of operations at King Khalid International Airport through 9 p.m. GMT on Saturday, October 17, following deadly attacks there over the weekend.\n\nSaudi Arabia said it intercepted and destroyed two ballistic missiles launched toward Riyadh on Monday night. The Houthis said they targeted the airport with a ballistic missile and an airbase in southwestern Saudi Arabia with a drone, but Saudi authorities did not confirm any impacts from those claims.",
       "sources": [
         {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-d2e0868ffb18d883c16465d7d6a87ccb"
+          "url": "https://apnews.com/article/saudi-yemen-houthis-riyadh-airport-40c6ab822df376688ce1a0955a044488"
+        },
+        {
+          "name": "Reuters via Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/10/saudi-capitals-airport-remain-shut-week-airlines-cancel-services"
+        },
+        {
+          "name": "Qatar News Agency",
+          "url": "https://qna.org.qa/en/news/news-details?date=12%2F10%2F2026&id=saudi-civil-aviation-authority-extends-suspension-of-operations-at-king-khalid-intl-airport"
         }
       ]
     },
     {
-      "headline": "Djibouti shipwreck leaves 139 migrants dead",
-      "body": "The International Organization for Migration said Sunday that at least 139 migrants died and 84 remained missing after an overcrowded boat carrying 305 people capsized off Djibouti during the night of October 8-9.\n\nMore than 80 people survived, and rescue work continued. The vessel had been traveling toward Yemen.",
+      "headline": "Pacific storms kill five in Mexico",
+      "body": "Mexican officials reported five deaths from Hurricane Simon and post-tropical cyclone Rachel, which brought flooding, landslides and infrastructure damage to the Pacific coast.\n\nFour people died in Baja California, where six others remained missing, and another person died in a wall collapse in Guerrero. Mexico deployed 14,000 personnel in Baja California.",
       "sources": [
         {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/migrants-boat-shipwreck-djibouti-africa-yemen-a9e324ca36a7d9dee0e745c736c8aa95"
-        },
+          "url": "https://apnews.com/article/tropical-storm-flooding-rain-hurricane-cc01ec735f4ff7c11798bc9066dc1879"
+        }
+      ]
+    },
+    {
+      "headline": "Hall and Woodford win economics Nobel",
+      "body": "The Royal Swedish Academy of Sciences awarded the 2026 economics prize to American economists Robert E. Hall and Michael Woodford for research providing microeconomic foundations for macroeconomic stabilization.\n\nTheir models have influenced how governments and central banks respond to inflation, energy crises and other economic shocks.",
+      "sources": [
         {
-          "name": "Reuters via MarketScreener",
-          "url": "https://www.marketscreener.com/news/109-migrants-including-15-children-dead-after-boat-from-djibouti-to-yemen-capsizes-un-agency-says-ce785ddcdc88fe2d"
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/96f32f1aaeff1054e2dd653e6ea86268"
         }
       ]
     }
