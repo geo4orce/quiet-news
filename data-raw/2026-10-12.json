@@ -496,6 +496,50 @@
         "capturedAt": "2026-10-13T07:08:39.306Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "9f1c55d6183e99bcd4d289f004bd87d4f17be50b3146acc45985a2918813c7e0",
+      "priorStories": [
+        {
+          "headline": "Riyadh airport strike kills one, injures 11",
+          "body": "Saudi authorities said a projectile struck a domestic terminal at King Khalid International Airport in Riyadh on Sunday, killing a Pakistani national and injuring 11 people. The Houthis claimed responsibility.\n\nThis was separate from Saturday’s attack at the same airport. India’s embassy said an Indian citizen died Sunday from injuries sustained then, raising that attack’s toll to 13. Saudi authorities also reported an attack on King Fahd International Airport in Dammam but provided no details.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-d2e0868ffb18d883c16465d7d6a87ccb"
+            }
+          ]
+        },
+        {
+          "headline": "Djibouti shipwreck leaves 139 migrants dead",
+          "body": "The International Organization for Migration said Sunday that at least 139 migrants died and 84 remained missing after an overcrowded boat carrying 305 people capsized off Djibouti during the night of October 8-9.\n\nMore than 80 people survived, and rescue work continued. The vessel had been traveling toward Yemen.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/migrants-boat-shipwreck-djibouti-africa-yemen-a9e324ca36a7d9dee0e745c736c8aa95"
+            },
+            {
+              "name": "Reuters via MarketScreener",
+              "url": "https://www.marketscreener.com/news/109-migrants-including-15-children-dead-after-boat-from-djibouti-to-yemen-capsizes-un-agency-says-ce785ddcdc88fe2d"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "262da66c606b0fc7ca7c1c953638bae37160fc459e266177de9642fb8085d421",
+        "claimId": "17ad1235-e2f4-4f2e-ac31-9af98cac3881",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-10-13T08:07:55.995Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
