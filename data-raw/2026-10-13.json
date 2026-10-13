@@ -330,6 +330,60 @@
         },
         "observedAt": "2026-10-13T16:07:50.911Z",
         "capturedAt": "2026-10-13T16:09:01.495Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [
+          {
+            "headline": "Riyadh airport closure extended through Saturday",
+            "body": "Saudi aviation authorities extended the suspension of operations at King Khalid International Airport through 9 p.m. GMT on Saturday, October 17, following deadly attacks there over the weekend.\n\nSaudi Arabia said it intercepted and destroyed two ballistic missiles launched toward Riyadh on Monday night. The Houthis said they targeted the airport with a ballistic missile and an airbase in southwestern Saudi Arabia with a drone, but Saudi authorities did not confirm any impacts from those claims.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/saudi-yemen-houthis-riyadh-airport-40c6ab822df376688ce1a0955a044488"
+              },
+              {
+                "name": "Reuters via Al-Monitor",
+                "url": "https://www.al-monitor.com/originals/2026/10/saudi-capitals-airport-remain-shut-week-airlines-cancel-services"
+              },
+              {
+                "name": "Qatar News Agency",
+                "url": "https://qna.org.qa/en/news/news-details?date=12%2F10%2F2026&id=saudi-civil-aviation-authority-extends-suspension-of-operations-at-king-khalid-intl-airport"
+              }
+            ]
+          },
+          {
+            "headline": "Pacific storms kill five in Mexico",
+            "body": "Mexican officials reported five deaths from Hurricane Simon and post-tropical cyclone Rachel, which brought flooding, landslides and infrastructure damage to the Pacific coast.\n\nFour people died in Baja California, where six others remained missing, and another person died in a wall collapse in Guerrero. Mexico deployed 14,000 personnel in Baja California.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/tropical-storm-flooding-rain-hurricane-cc01ec735f4ff7c11798bc9066dc1879"
+              }
+            ]
+          },
+          {
+            "headline": "Hall and Woodford win economics Nobel",
+            "body": "The Royal Swedish Academy of Sciences awarded the 2026 economics prize to American economists Robert E. Hall and Michael Woodford for research providing microeconomic foundations for macroeconomic stabilization.\n\nTheir models have influenced how governments and central banks respond to inflation, energy crises and other economic shocks.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/96f32f1aaeff1054e2dd653e6ea86268"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "153fa7e086799ce41847ce9e45fb6a3c1ccc8fcace5fa139197e63f0c5a58619",
+          "claimId": "faad7c56-1439-47ab-9feb-702b54f282a3",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-13T22:07:40.000Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-13T22:07:39.922Z"
       }
     ],
     "sift": null
