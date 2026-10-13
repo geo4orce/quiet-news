@@ -534,12 +534,117 @@
       "request": {
         "fingerprint": "262da66c606b0fc7ca7c1c953638bae37160fc459e266177de9642fb8085d421",
         "claimId": "17ad1235-e2f4-4f2e-ac31-9af98cac3881",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-13T08:07:55.995Z",
         "responseId": "resp_0bfc7151673e6935006acde6e0147487d28241cfe060d799bd"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "aubagne-school-shooting",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "delhi-metro-closures-election-protest",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "east-potomac-golf-course-tree-cutting-halt",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "ilhan-omar-home-search",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "imf-ai-investment-global-growth",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "israel-school-trip-munition-blast",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "pope-leo-lung-surgery-hospitalization-details",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "riyadh-energy-congress-executive-absences",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "ukraine-minority-language-education-law",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Saudi aviation authorities extended the suspension of operations at King Khalid International Airport through 9 p.m. GMT on Saturday, October 17, following deadly attacks there over the weekend.\n\nSaudi Arabia said it intercepted and destroyed two ballistic missiles launched toward Riyadh on Monday night. The Houthis said they targeted the airport with a ballistic missile and an airbase in southwestern Saudi Arabia with a drone, but Saudi authorities did not confirm any impacts from those claims.",
+              "candidate_id": "saudi-monday-missile-interceptions-airport-closure",
+              "headline": "Riyadh airport closure extended through Saturday",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/saudi-yemen-houthis-riyadh-airport-40c6ab822df376688ce1a0955a044488"
+                },
+                {
+                  "name": "Reuters via Al-Monitor",
+                  "url": "https://www.al-monitor.com/originals/2026/10/saudi-capitals-airport-remain-shut-week-airlines-cancel-services"
+                },
+                {
+                  "name": "Qatar News Agency",
+                  "url": "https://qna.org.qa/en/news/news-details?date=12%2F10%2F2026&id=saudi-civil-aviation-authority-extends-suspension-of-operations-at-king-khalid-intl-airport"
+                }
+              ]
+            },
+            {
+              "body": "Mexican officials reported five deaths from Hurricane Simon and post-tropical cyclone Rachel, which brought flooding, landslides and infrastructure damage to the Pacific coast.\n\nFour people died in Baja California, where six others remained missing, and another person died in a wall collapse in Guerrero. Mexico deployed 14,000 personnel in Baja California.",
+              "candidate_id": "mexico-storm-deaths-simon-rachel",
+              "headline": "Pacific storms kill five in Mexico",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/tropical-storm-flooding-rain-hurricane-cc01ec735f4ff7c11798bc9066dc1879"
+                }
+              ]
+            },
+            {
+              "body": "The Royal Swedish Academy of Sciences awarded the 2026 economics prize to American economists Robert E. Hall and Michael Woodford for research providing microeconomic foundations for macroeconomic stabilization.\n\nTheir models have influenced how governments and central banks respond to inflation, energy crises and other economic shocks.",
+              "candidate_id": "hall-woodford-2026-economics-nobel",
+              "headline": "Hall and Woodford win economics Nobel",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/96f32f1aaeff1054e2dd653e6ea86268"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0bfc7151673e6935006acde6e0147487d28241cfe060d799bd",
+          "requestId": "req_79a3eef6f47c494b93620c3150874a9d",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1905,
+          "inputTokens": 3492,
+          "outputTokens": 2637,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-12",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 45877,
+          "attemptDurationMs": 45877,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
