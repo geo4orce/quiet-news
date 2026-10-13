@@ -381,10 +381,10 @@
         "request": {
           "fingerprint": "cf7b041015f4087b803f713bbe057c3cdfe49d8d84ba9dfc02ce5c8d54e98e32",
           "claimId": "a436e802-54b4-4f2a-8810-f0f167cb6370",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-13T07:07:45.364Z",
-          "responseId": null
+          "responseId": "resp_06a2eb57c48accef006acdd8c53b8c87d29d7327af14ca86ff"
         },
         "result": null,
         "observedAt": "2026-10-13T07:07:45.276Z"
