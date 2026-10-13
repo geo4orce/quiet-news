@@ -381,13 +381,119 @@
         "request": {
           "fingerprint": "cf7b041015f4087b803f713bbe057c3cdfe49d8d84ba9dfc02ce5c8d54e98e32",
           "claimId": "a436e802-54b4-4f2a-8810-f0f167cb6370",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-13T07:07:45.364Z",
           "responseId": "resp_06a2eb57c48accef006acdd8c53b8c87d29d7327af14ca86ff"
         },
-        "result": null,
-        "observedAt": "2026-10-13T07:07:45.276Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Several opposition lawmakers and thousands of supporters marched through New Delhi to the Supreme Court and submitted a petition to the chief justice alleging irregularities in India's voter-list revision. The Election Commission and Prime Minister Narendra Modi's Bharatiya Janata Party deny manipulation. Authorities closed six metro stations and imposed traffic restrictions before the march.",
+                "category": "politics",
+                "title": "Indian opposition marches to Supreme Court over voter lists",
+                "event_date": "2026-10-12",
+                "candidate_id": "delhi-metro-closures-election-protest",
+                "geography": "India",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/india-cockroach-protests-voters-elections-4f8b0557165015b5de99abd55c2eaeaa"
+                  },
+                  {
+                    "name": "Reuters via ThePrint",
+                    "url": "https://theprint.in/world/delhi-shuts-metro-stations-restricts-traffic-as-opposition-marches-against-election-chief/3069125/"
+                  }
+                ]
+              },
+              {
+                "summary": "Federal agents searched Democratic Rep. Ilhan Omar's Washington home under a court-authorized warrant as part of an ongoing criminal investigation. The Justice Department did not publicly specify the investigation's details. Omar denied wrongdoing and described the search as politically motivated; President Donald Trump said he had no involvement in it.",
+                "category": "law",
+                "title": "Federal agents search Rep. Ilhan Omar's home",
+                "event_date": "2026-10-12",
+                "candidate_id": "ilhan-omar-home-search",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/ilhan-omar-home-searched-8e18c2aea948bd90f4d7a4eb32b9ec3a"
+                  },
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/politics-news/us-launches-immigrationraid-of-democratic-congresswoman-ilhan-omars-home-fox-news-reports-4944336"
+                  },
+                  {
+                    "name": "CBS News",
+                    "url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/"
+                  }
+                ]
+              },
+              {
+                "summary": "Saudi Arabia said it intercepted and destroyed two ballistic missiles launched toward Riyadh on Monday night. The Houthis separately claimed they targeted King Khalid International Airport with a ballistic missile and an airbase in southwestern Saudi Arabia with a drone; Saudi authorities did not confirm impacts from those claims. Authorities extended the Riyadh airport closure until 2100 GMT on October 17 for safety and operational checks.",
+                "category": "conflict",
+                "title": "Saudi Arabia intercepts missiles as Riyadh airport closure is extended",
+                "event_date": "2026-10-12",
+                "candidate_id": "saudi-monday-missile-interceptions-airport-closure",
+                "geography": "Saudi Arabia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/saudi-yemen-houthis-riyadh-airport-40c6ab822df376688ce1a0955a044488"
+                  },
+                  {
+                    "name": "Reuters via Al-Monitor",
+                    "url": "https://www.al-monitor.com/originals/2026/10/saudi-capitals-airport-remain-shut-week-airlines-cancel-services"
+                  },
+                  {
+                    "name": "Qatar News Agency",
+                    "url": "https://qna.org.qa/en/news/news-details?date=12%2F10%2F2026&id=saudi-civil-aviation-authority-extends-suspension-of-operations-at-king-khalid-intl-airport"
+                  }
+                ]
+              },
+              {
+                "summary": "Mexican officials reported five deaths from Hurricane Simon and post-tropical cyclone Rachel. Four people died in Baja California, where rescuers recovered three bodies Monday and six people remained missing; another person died when a wall collapsed in Guerrero. Simon's rain and winds caused flooding, landslides and infrastructure damage along Mexico's Pacific coast, while 14,000 personnel were deployed in Baja California.",
+                "category": "weather",
+                "title": "Storms kill five along Mexico's Pacific coast",
+                "event_date": "2026-10-12",
+                "candidate_id": "mexico-storm-deaths-simon-rachel",
+                "geography": "Mexico",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/tropical-storm-flooding-rain-hurricane-cc01ec735f4ff7c11798bc9066dc1879"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-12"
+          },
+          "metadata": {
+            "responseId": "resp_06a2eb57c48accef006acdd8c53b8c87d29d7327af14ca86ff",
+            "requestId": "req_10f7fbd3b9454b0b91fa17db65804619",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1539,
+            "inputTokens": 58579,
+            "outputTokens": 2469,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-10-12",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 53942,
+            "attemptDurationMs": 53942,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-10-13T07:07:45.276Z",
+        "capturedAt": "2026-10-13T07:08:39.306Z"
       }
     ],
     "sift": null
