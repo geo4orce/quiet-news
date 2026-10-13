@@ -51,13 +51,113 @@
         "request": {
           "fingerprint": "ce1f73c5f66c0c2db790e5bfc74139a4d977c27ab157e8db6ce7312490a6f9a8",
           "claimId": "99c1dfa2-87f4-47bb-8f7f-21f7821bb447",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-13T10:07:49.774Z",
           "responseId": "resp_033d8084de6de0b4006ace02f96fbc87d28be54a6db8225a3c"
         },
-        "result": null,
-        "observedAt": "2026-10-13T10:07:49.688Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Eight people were injured in a stabbing at a supermarket in Incheon, South Korea, according to police and media reports. Initial reports said one person suffered cardiac arrest.",
+                "category": "crime",
+                "title": "Eight injured in Incheon supermarket stabbing",
+                "event_date": "2026-10-13",
+                "candidate_id": "incheon-supermarket-stabbing",
+                "geography": "Incheon, South Korea",
+                "sources": [
+                  {
+                    "name": "Reuters via Devdiscourse",
+                    "url": "https://www.devdiscourse.com/article/international/3991327-up-to-eight-people-hurt-in-supermarket-stabbing-in-south-koreas-incheon-media-reports-say"
+                  }
+                ]
+              },
+              {
+                "summary": "The Philippine Senate, sitting as an impeachment court, approved prosecutors' withdrawal of three charges against Vice President Sara Duterte. The action removed most of the charges in a trial that could affect Duterte's eligibility to run for president in 2028.",
+                "category": "politics",
+                "title": "Philippine impeachment court drops most charges against Sara Duterte",
+                "event_date": "2026-10-13",
+                "candidate_id": "philippines-duterte-impeachment-charges",
+                "geography": "Philippines",
+                "sources": [
+                  {
+                    "name": "Reuters via Devdiscourse",
+                    "url": "https://www.devdiscourse.com/article/international/3991388-prosecutors-drop-three-impeachment-charges-against-philippine-vp-duterte"
+                  }
+                ]
+              },
+              {
+                "summary": "South Korea plans to move about 10,000 government jobs and 44 central government agencies from the Seoul metropolitan area to Sejong between 2027 and 2031, Yonhap reported.",
+                "category": "government",
+                "title": "South Korea plans transfer of 10,000 government jobs to Sejong",
+                "event_date": "2026-10-13",
+                "candidate_id": "south-korea-sejong-government-relocation",
+                "geography": "South Korea",
+                "sources": [
+                  {
+                    "name": "Reuters via Devdiscourse",
+                    "url": "https://www.devdiscourse.com/article/international/3991315-south-korea-to-relocate-10000-government-jobs-to-sejong-from-seoul-by-2031-yonhap-reports"
+                  }
+                ]
+              },
+              {
+                "summary": "The International Monetary Fund warned that an artificial-intelligence investment slowdown, rising sovereign bond yields or a major cyberattack could trigger broader financial instability. Its Global Financial Stability Report said banks remained broadly resilient in stress tests, though institutions representing 22% of global banking assets showed weak capital levels under the modeled downturn.",
+                "category": "economy",
+                "title": "IMF warns of AI, bond and cyber risks to financial stability",
+                "event_date": "2026-10-13",
+                "candidate_id": "imf-global-financial-stability-risks",
+                "geography": "Global",
+                "sources": [
+                  {
+                    "name": "Reuters via Devdiscourse",
+                    "url": "https://www.devdiscourse.com/article/international/3991357-imf-cites-ai-slowdown-spiking-yields-as-looming-global-market-risks"
+                  }
+                ]
+              },
+              {
+                "summary": "Asian stocks fell to their lowest level in more than two months as semiconductor shares sold off amid concerns about competition and the durability of the artificial-intelligence investment boom. South Korea's KOSPI dropped more than 6%, while Samsung fell 8%, SK Hynix 10% and Japan's Kioxia 14%.",
+                "category": "markets",
+                "title": "Asian chip selloff pushes regional stocks to two-month low",
+                "event_date": "2026-10-13",
+                "candidate_id": "asia-chip-stocks-ai-selloff",
+                "geography": "Asia-Pacific",
+                "sources": [
+                  {
+                    "name": "Reuters via Devdiscourse",
+                    "url": "https://www.devdiscourse.com/article/international/3991320-global-markets-asian-stocks-hit-2-month-low-on-ai-jitters-bonds-find-favour"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-13"
+          },
+          "metadata": {
+            "responseId": "resp_033d8084de6de0b4006ace02f96fbc87d28be54a6db8225a3c",
+            "requestId": "req_e454888341034401a473904c3471c840",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2037,
+            "inputTokens": 46901,
+            "outputTokens": 2782,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-13",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 49991,
+            "attemptDurationMs": 49991,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-10-13T10:07:49.688Z",
+        "capturedAt": "2026-10-13T10:08:39.765Z"
       }
     ],
     "sift": null
