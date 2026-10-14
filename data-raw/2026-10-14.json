@@ -71,13 +71,89 @@
         "request": {
           "fingerprint": "d7d3a84cb9f72365539a35b8a69b5110ee7bba6f698087edf639e1d9bb4fc484",
           "claimId": "d0ad3d04-b9cb-4685-aae3-762802f47d36",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-14T10:07:44.271Z",
           "responseId": "resp_0241e84f408d973d006acf54744e1487d28eac7a3c827f2711"
         },
-        "result": null,
-        "observedAt": "2026-10-14T10:07:44.207Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "About 300,000 teachers, health workers, civil servants and other public employees began Ireland’s first widespread public-sector strike since 2009 after unions and the government failed to agree on terms for pay negotiations. Emergency hospital departments and public transport continued operating, but reduced health, fire and ambulance services caused widespread disruption and thousands of canceled medical procedures.",
+                "category": "labor",
+                "title": "Irish public-sector workers stage nationwide strike",
+                "event_date": "2026-10-14",
+                "candidate_id": "ireland-public-sector-strike-2026-10-14",
+                "geography": "Ireland",
+                "sources": [
+                  {
+                    "name": "Reuters via Devdiscourse",
+                    "url": "https://www.devdiscourse.com/article/international/3992016-irish-public-sector-workers-strike-for-first-time-since-2009-over-pay-deadlock"
+                  },
+                  {
+                    "name": "Intellectual Property Office of Ireland",
+                    "url": "https://ipoi.gov.ie/en/news-events/news-categories/intellectual-property-office-of-ireland-publishes-2025-annual-report/office-phone-lines-closed-on-wednesday-14th-of-october-2026/"
+                  }
+                ]
+              },
+              {
+                "summary": "A Ukrainian presidential adviser said SpaceX imposed a 100 mph operating limit on a military-grade Starlink service in Ukraine without advance notice, disrupting several combat missions. A source in Ukraine’s 7th Rapid Reaction Corps confirmed service disruptions. SpaceX had not publicly explained the reported Ukraine-specific change in the cited report.",
+                "category": "technology",
+                "title": "Ukraine reports Starlink service limit disrupted military missions",
+                "event_date": "2026-10-14",
+                "candidate_id": "ukraine-starlink-speed-limit-2026-10-14",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Devdiscourse",
+                    "url": "https://www.devdiscourse.com/article/international/3992030-spacex-limits-starlink-operations-in-ukraine-disrupting-military-missions-presidential-aide-says"
+                  }
+                ]
+              },
+              {
+                "summary": "Germany’s cabinet approved a revised proposal for a tax on sugary drinks, reducing the planned number of tax brackets from three to two and proposing exemptions for small manufacturers. The measure remains pending before parliament and has not taken effect.",
+                "category": "policy",
+                "title": "German cabinet revises proposed sugary-drink tax",
+                "event_date": "2026-10-14",
+                "candidate_id": "germany-sugary-drink-tax-proposal-2026-10-14",
+                "geography": "Germany",
+                "sources": [
+                  {
+                    "name": "Reuters via Devdiscourse",
+                    "url": "https://www.devdiscourse.com/article/international/3992159-germany-waters-down-tax-on-sweet-drinks-exempts-small-producers"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-14"
+          },
+          "metadata": {
+            "responseId": "resp_0241e84f408d973d006acf54744e1487d28eac7a3c827f2711",
+            "requestId": "req_aa09438e7d1742b2bf2949151a231fa1",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1858,
+            "inputTokens": 57396,
+            "outputTokens": 2429,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-10-14",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 49070,
+            "attemptDurationMs": 49070,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-10-14T10:07:44.207Z",
+        "capturedAt": "2026-10-14T10:08:33.341Z"
       }
     ],
     "sift": null
