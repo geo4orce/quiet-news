@@ -221,13 +221,113 @@
         "request": {
           "fingerprint": "5d560d8233ec5d7920947b181f6bad80120dc5025edae17cd26e88ac001ed312",
           "claimId": "3c79c047-fe1e-448d-a283-e9dd6b66dcd0",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-14T16:07:40.394Z",
           "responseId": "resp_084c3d87680be169006acfa8d09f2887d2a814880b0f10c717"
         },
-        "result": null,
-        "observedAt": "2026-10-14T16:07:40.300Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The U.S. Consumer Price Index rose 0.6% in September and 3.7% from a year earlier, the Bureau of Labor Statistics reported. Gasoline prices increased 9.1% during the month and accounted for more than half of the overall monthly rise. Core prices excluding food and energy rose 0.3% monthly and 2.6% annually.",
+                "category": "economy",
+                "title": "U.S. inflation rises to 3.7%",
+                "event_date": "2026-10-14",
+                "candidate_id": "us-september-cpi-2026-10-14",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "U.S. Bureau of Labor Statistics",
+                    "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm"
+                  }
+                ]
+              },
+              {
+                "summary": "Maritime security sources reported that the Singapore-flagged container ship GFS Pride sank near the Strait of Hormuz after being struck by a projectile. A Pakistani navigational warning dated October 14 cautioned mariners about floating containers. The ship's manager had not commented, and the report did not identify who launched the projectile.",
+                "category": "conflict",
+                "title": "Container ship sinks near Strait of Hormuz",
+                "event_date": "2026-10-14",
+                "candidate_id": "gfs-pride-sinks-hormuz-2026-10-14",
+                "geography": "Strait of Hormuz",
+                "sources": [
+                  {
+                    "name": "Reuters via NDTV",
+                    "url": "https://www.ndtv.com/world-news/us-iran-war-container-ship-sinks-near-strait-of-hormuz-after-being-hit-by-projectile-report-12185423"
+                  }
+                ]
+              },
+              {
+                "summary": "Netflix is cutting about 6% of its workforce, or roughly 1,000 jobs, according to a Wall Street Journal report citing an email sent to employees by its co-chief executives. Reuters said most reductions would affect product, technology, legal and human-resources teams; Netflix had not responded to its request for comment.",
+                "category": "business",
+                "title": "Netflix reportedly cuts about 1,000 jobs",
+                "event_date": "2026-10-14",
+                "candidate_id": "netflix-layoffs-2026-10-14",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Devdiscourse",
+                    "url": "https://www.devdiscourse.com/article/international/3992385-netflix-cuts-about-6-of-jobs-in-biggest-layoff-since-2022wsj-reports"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. Health Secretary Robert F. Kennedy Jr. said the federal government will halt subsidy payments for 189,000 Affordable Care Act enrollees identified as deceased, improperly enrolled or duplicated in other government health programs. He said the action would prevent $738 million in payments during 2026.",
+                "category": "policy",
+                "title": "U.S. announces halt to subsidies for 189,000 ACA enrollees",
+                "event_date": "2026-10-14",
+                "candidate_id": "us-aca-subsidy-halt-2026-10-14",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Devdiscourse",
+                    "url": "https://www.devdiscourse.com/article/international/3992401-us-government-cuts-subsidies-for-189000-obamacare-enrollees"
+                  }
+                ]
+              },
+              {
+                "summary": "The World Food Programme said intensified fighting had placed about 800,000 people in Yemen beyond its reach, including more than 600,000 aid-dependent residents of besieged Taiz. The International Committee of the Red Cross reported unprecedented numbers of weapon-wounded patients at some front-line hospitals, while the United Nations said more than 200,000 people had recently been displaced.",
+                "category": "humanitarian",
+                "title": "Yemen fighting cuts aid access to 800,000 people",
+                "event_date": "2026-10-14",
+                "candidate_id": "yemen-aid-access-crisis-2026-10-14",
+                "geography": "Yemen",
+                "sources": [
+                  {
+                    "name": "Reuters via Devdiscourse",
+                    "url": "https://www.devdiscourse.com/article/international/3992435-yemen-fighting-overwhelms-hospitals-cuts-aid-to-800000-people-relief-agencies-say"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-14"
+          },
+          "metadata": {
+            "responseId": "resp_084c3d87680be169006acfa8d09f2887d2a814880b0f10c717",
+            "requestId": "req_367405be7daa4ee38f00cc993418fd21",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1550,
+            "inputTokens": 62492,
+            "outputTokens": 2371,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-14",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 59202,
+            "attemptDurationMs": 59202,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-10-14T16:07:40.300Z",
+        "capturedAt": "2026-10-14T16:08:39.596Z"
       }
     ],
     "sift": null
