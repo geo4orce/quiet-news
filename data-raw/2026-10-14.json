@@ -154,6 +154,80 @@
         },
         "observedAt": "2026-10-14T10:07:44.207Z",
         "capturedAt": "2026-10-14T10:08:33.341Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Congo Ebola outbreak exceeds 9,000 cases",
+            "body": "Congo’s Health Ministry reported 9,066 confirmed Ebola cases and 4,381 deaths, including 88 new cases in its latest update.\n\nThe outbreak has reached 65 health zones across seven provinces. Officials said community transmission was continuing and that many infections remained undetected.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/23d7b1bfdae22c7a17cac49cc7b5826e"
+              }
+            ]
+          },
+          {
+            "headline": "Pope Leo XIV diagnosed with lung cancer",
+            "body": "Surgery confirmed that Pope Leo XIV has lung adenocarcinoma. Doctors removed the lower lobe of his right lung, and the Vatican said the operation was successful.\n\nDecisions about chemotherapy or other treatment will follow additional testing, including an examination of whether the cancer reached his lymph nodes.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/86268530ef22fd14d2712067e89946f1"
+              }
+            ]
+          },
+          {
+            "headline": "Drones strike two commercial ships near Bulgaria",
+            "body": "Drones struck two commercial ships in the Black Sea near Bulgaria, sinking the Guinea-Bissau-flagged Dignity. Five sailors were rescued, while 11 remained missing.\n\nAll 15 crew members escaped the Maltese-flagged Chelsea 3; five were treated for minor injuries. Bulgarian authorities had not established responsibility. Ukrainian officials blamed Russia.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/7dfef251fb7d47a717f0d600873dbf5b"
+              }
+            ]
+          },
+          {
+            "headline": "Cyberattack hits 700 French supermarkets",
+            "body": "A cyberattack targeting connected refrigeration systems affected about 700 supermarkets in France, according to the country’s finance minister. Some stores suffered food losses and fires.\n\nOfficials said the incident did not threaten the national food supply. Prosecutors opened an investigation, and no group had publicly claimed responsibility.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/78a813a8efd466b360655339f96083dc"
+              },
+              {
+                "name": "Reuters via Internazionale",
+                "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/13/investigators-hunt-french-supermarket-fridge-hackers-no-claim-of-responsibility"
+              }
+            ]
+          },
+          {
+            "headline": "Bank of America fined over $1.21 billion",
+            "body": "The Treasury Department imposed more than $1.21 billion in penalties on Bank of America for anti-money-laundering and sanctions violations.\n\nTreasury said the bank failed to report more than $5 billion in suspicious transactions on time. Bank of America admitted willfully violating the Bank Secrecy Act and said it was addressing the compliance failures.",
+            "sources": [
+              {
+                "name": "U.S. Department of the Treasury",
+                "url": "https://home.treasury.gov/news/press-releases/sb0657"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/29013b2c8f08a3a8d579a96721ed1aa4"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "5d560d8233ec5d7920947b181f6bad80120dc5025edae17cd26e88ac001ed312",
+          "claimId": "3c79c047-fe1e-448d-a283-e9dd6b66dcd0",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-14T16:07:40.394Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-14T16:07:40.300Z"
       }
     ],
     "sift": null
