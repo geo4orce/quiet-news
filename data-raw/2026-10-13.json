@@ -561,10 +561,10 @@
         "request": {
           "fingerprint": "b39d791dc9896def520792cb08bbc28b712ca57197001042ad79825288eb4555",
           "claimId": "4ab56495-b6fb-493c-b196-70167792f541",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-14T07:07:49.490Z",
-          "responseId": null
+          "responseId": "resp_05f866856abe0f61006acf2a4979e087d2be497de5f9da5c5c"
         },
         "result": null,
         "observedAt": "2026-10-14T07:07:49.423Z"
