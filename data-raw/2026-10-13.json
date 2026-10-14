@@ -736,10 +736,10 @@
       "request": {
         "fingerprint": "8aaad319292ecd847d87c6f62a0759f94821844ac46437d1fa7fbbb37690f52b",
         "claimId": "ea17a99c-132e-46d4-bc79-c1c0dd4e53d7",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-14T08:07:44.392Z",
-        "responseId": null
+        "responseId": "resp_07728f013a0b8a91006acf385437fc87d28aec32ba813cad71"
       },
       "result": null
     }
