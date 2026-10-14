@@ -736,12 +736,171 @@
       "request": {
         "fingerprint": "8aaad319292ecd847d87c6f62a0759f94821844ac46437d1fa7fbbb37690f52b",
         "claimId": "ea17a99c-132e-46d4-bc79-c1c0dd4e53d7",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-14T08:07:44.392Z",
         "responseId": "resp_07728f013a0b8a91006acf385437fc87d28aec32ba813cad71"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "asia-chip-stocks-ai-selloff",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "att-mexico-televisa-sale",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "cvs-opioid-prescription-settlement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "formula-one-rwanda-grand-prix",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "imf-global-financial-stability-risks",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "incheon-supermarket-stabbing",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "iswap-kukawa-nigeria-base-attack",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "mexico-pacific-storm-deaths-rise-six",
+              "code": "prior_day_repetition"
+            },
+            {
+              "candidate_id": "openai-employee-recording-device-charge",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "philippines-duterte-impeachment-charges",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "poland-starlink-arson-russia-accusation",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "russian-strikes-ukraine-oct-13",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "south-korea-sejong-government-relocation",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-cartel-del-noreste-sanctions",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-nicaragua-envoy-recall",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-north-korea-laptop-farms-crackdown",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "west-africa-scam-network-disruption",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Congo’s Health Ministry reported 9,066 confirmed Ebola cases and 4,381 deaths, including 88 new cases in its latest update.\n\nThe outbreak has reached 65 health zones across seven provinces. Officials said community transmission was continuing and that many infections remained undetected.",
+              "candidate_id": "congo-ebola-cases-9000",
+              "headline": "Congo Ebola outbreak exceeds 9,000 cases",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/23d7b1bfdae22c7a17cac49cc7b5826e"
+                }
+              ]
+            },
+            {
+              "body": "Surgery confirmed that Pope Leo XIV has lung adenocarcinoma. Doctors removed the lower lobe of his right lung, and the Vatican said the operation was successful.\n\nDecisions about chemotherapy or other treatment will follow additional testing, including an examination of whether the cancer reached his lymph nodes.",
+              "candidate_id": "pope-leo-lung-nodule-hospital",
+              "headline": "Pope Leo XIV diagnosed with lung cancer",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/86268530ef22fd14d2712067e89946f1"
+                }
+              ]
+            },
+            {
+              "body": "Drones struck two commercial ships in the Black Sea near Bulgaria, sinking the Guinea-Bissau-flagged Dignity. Five sailors were rescued, while 11 remained missing.\n\nAll 15 crew members escaped the Maltese-flagged Chelsea 3; five were treated for minor injuries. Bulgarian authorities had not established responsibility. Ukrainian officials blamed Russia.",
+              "candidate_id": "black-sea-drone-strikes-commercial-ships",
+              "headline": "Drones strike two commercial ships near Bulgaria",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/7dfef251fb7d47a717f0d600873dbf5b"
+                }
+              ]
+            },
+            {
+              "body": "A cyberattack targeting connected refrigeration systems affected about 700 supermarkets in France, according to the country’s finance minister. Some stores suffered food losses and fires.\n\nOfficials said the incident did not threaten the national food supply. Prosecutors opened an investigation, and no group had publicly claimed responsibility.",
+              "candidate_id": "france-supermarket-refrigeration-cyberattack",
+              "headline": "Cyberattack hits 700 French supermarkets",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/78a813a8efd466b360655339f96083dc"
+                },
+                {
+                  "name": "Reuters via Internazionale",
+                  "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/13/investigators-hunt-french-supermarket-fridge-hackers-no-claim-of-responsibility"
+                }
+              ]
+            },
+            {
+              "body": "The Treasury Department imposed more than $1.21 billion in penalties on Bank of America for anti-money-laundering and sanctions violations.\n\nTreasury said the bank failed to report more than $5 billion in suspicious transactions on time. Bank of America admitted willfully violating the Bank Secrecy Act and said it was addressing the compliance failures.",
+              "candidate_id": "bank-of-america-treasury-penalties",
+              "headline": "Bank of America fined over $1.21 billion",
+              "sources": [
+                {
+                  "name": "U.S. Department of the Treasury",
+                  "url": "https://home.treasury.gov/news/press-releases/sb0657"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/29013b2c8f08a3a8d579a96721ed1aa4"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_07728f013a0b8a91006acf385437fc87d28aec32ba813cad71",
+          "requestId": "req_43794bbe6f694cde833482f601305989",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 2588,
+          "inputTokens": 4968,
+          "outputTokens": 3675,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-13",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 58548,
+          "attemptDurationMs": 58548,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
