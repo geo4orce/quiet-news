@@ -395,13 +395,131 @@
         "request": {
           "fingerprint": "286a8ad04580ef0a5ec606128b50014052cc79026202c22c9834a9aa0647ca56",
           "claimId": "3ce89d05-2969-486e-a1f3-f6e5c394f4d2",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-14T22:07:43.987Z",
           "responseId": "resp_02211919e1e7ec9f006acffd33a94487d282cad3b21668da6b"
         },
-        "result": null,
-        "observedAt": "2026-10-14T22:07:43.891Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Maritime officials confirmed that the Singapore-flagged GFS Pride and Antigua and Barbuda-flagged Cape Dao sank near the Strait of Hormuz. The GFS Pride was struck while transiting the strait on October 13; all 21 crew members were evacuated without reported injuries. The Cape Dao sank weeks after a September 23 projectile strike that killed one crew member. Responsibility for the attacks was not established in the cited report.",
+                "category": "conflict",
+                "title": "Two commercial ships confirmed sunk near Strait of Hormuz",
+                "event_date": "2026-10-14",
+                "candidate_id": "gfs-pride-sinks-hormuz-2026-10-14",
+                "geography": "Strait of Hormuz",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/container-ship-sinks-near-hormuz-after-being-hit-by-projectile-sources-say"
+                  },
+                  {
+                    "name": "Reuters via NDTV",
+                    "url": "https://www.ndtv.com/world-news/us-iran-war-container-ship-sinks-near-strait-of-hormuz-after-being-hit-by-projectile-report-12185423"
+                  }
+                ]
+              },
+              {
+                "summary": "Tens of thousands of students protested in Tirana over education costs, university conditions, corruption and employment prospects. Protesters set fire to the Education Ministry and two banks and threw stones at police, who used tear gas and water cannons. Albanian media reported related protests at universities in Elbasan and Shkodra, while the government condemned the violence.",
+                "category": "protests",
+                "title": "Albanian student protest turns violent in Tirana",
+                "event_date": "2026-10-14",
+                "candidate_id": "albania-student-protests-2026-10-14",
+                "geography": "Albania",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/fire-breaks-out-at-albania-s-education-ministry-during-student-protest"
+                  }
+                ]
+              },
+              {
+                "summary": "Colombia opened an embassy in Jerusalem, restoring diplomatic representation in Israel under President Abelardo De La Espriella after his predecessor severed relations in 2024. Colombia’s foreign minister described the opening as a step toward rebuilding bilateral ties. Palestinian Vice President Hussein Al Sheikh condemned the move. A Colombian-Israeli free-trade agreement had been reinstated on October 13.",
+                "category": "diplomacy",
+                "title": "Colombia opens embassy in Jerusalem",
+                "event_date": "2026-10-14",
+                "candidate_id": "colombia-jerusalem-embassy-2026-10-14",
+                "geography": "Colombia and Israel",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/colombia-opens-embassy-in-jerusalem-restores-free-trade-deal-with-israel"
+                  }
+                ]
+              },
+              {
+                "summary": "Guyanese opposition leader Azruddin Mohamed and two other men were arrested after gunfire outside the home of a senior police officer involved in Mohamed’s U.S. extradition proceedings. Police alleged that a shot came from their vehicle and said officers found an unlicensed firearm. Mohamed’s office denied possessing the weapon, accused police of planting it and described the incident as an assassination attempt.",
+                "category": "politics",
+                "title": "Guyanese opposition leader arrested after shooting incident",
+                "event_date": "2026-10-14",
+                "candidate_id": "guyana-opposition-leader-arrest-2026-10-14",
+                "geography": "Guyana",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/guyanese-opposition-leader-arrested-after-shots-fired-outside-home-of-police-official"
+                  }
+                ]
+              },
+              {
+                "summary": "A Danish Meteorological Institute modeling study published in Science Advances found no irreversible tipping point for the Atlantic Meridional Overturning Circulation in the model used: the current weakened as temperatures rose and began recovering if warming was reversed. Researchers said full recovery could take centuries, the Greenland ice sheet would remain irreversibly damaged after melting, and the cooling scenario modeled exceeds what current technology could realistically achieve. The single-model findings require further testing.",
+                "category": "science",
+                "title": "Study models possible recovery of weakened Atlantic circulation",
+                "event_date": "2026-10-14",
+                "candidate_id": "amoc-recovery-model-study-2026-10-14",
+                "geography": "North Atlantic",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/atlantic-ocean-currents-can-recover-from-severe-climate-weakening-study-finds"
+                  }
+                ]
+              },
+              {
+                "summary": "The Vatican said Pope Leo XIV’s recovery after lung-cancer surgery was progressing as expected. He had begun walking in his hospital room and eating normally, while blood tests and a chest X-ray showed normal postoperative results. The Vatican said he was expected to remain hospitalized for about a week and canceled his public engagements through October 20.",
+                "category": "health",
+                "title": "Vatican reports normal recovery after Pope Leo’s surgery",
+                "event_date": "2026-10-14",
+                "candidate_id": "pope-leo-surgery-recovery-2026-10-14",
+                "geography": "Vatican City",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/pope-leo-spent-peaceful-night-in-hospital-after-surgery-vatican-says"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-14"
+          },
+          "metadata": {
+            "responseId": "resp_02211919e1e7ec9f006acffd33a94487d282cad3b21668da6b",
+            "requestId": "req_a369d11135794ed7afe2044646b9c275",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1666,
+            "inputTokens": 51711,
+            "outputTokens": 2853,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-14",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 58495,
+            "attemptDurationMs": 58495,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-10-14T22:07:43.891Z",
+        "capturedAt": "2026-10-14T22:08:42.483Z"
       }
     ],
     "sift": null
