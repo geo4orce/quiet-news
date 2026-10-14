@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-13",
+  "batch": 4,
+  "captured_at": "2026-10-14T07:08:32.920Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The death toll from Hurricane Simon and the remnants of Tropical Storm Rachel rose to six after authorities reported another body found near a stream in Baja California on Tuesday. Five people remained missing in the state. Simon strengthened while moving parallel to Mexico's Pacific coast, bringing additional flooding risks.",
+        "category": "weather",
+        "title": "Mexico storm death toll rises to six",
+        "event_date": "2026-10-13",
+        "candidate_id": "mexico-pacific-storm-deaths-rise-six",
+        "geography": "Mexico",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mexico-hurricanes-simon-rachel-pacific-deaths-1276142fb7db0f50d0f61d86ae7fa977"
+          }
+        ]
+      },
+      {
+        "summary": "Islamic State West Africa Province militants attacked a military base in Kukawa, Borno state, on Tuesday. Nigeria's military said an unspecified number of soldiers were killed and more than 25 militants died in a counteroffensive. A military officer who was not authorized to speak publicly told the Associated Press that 10 soldiers were killed.",
+        "category": "conflict",
+        "title": "Islamic State-affiliated militants attack Nigerian military base",
+        "event_date": "2026-10-13",
+        "candidate_id": "iswap-kukawa-nigeria-base-attack",
+        "geography": "Borno state, Nigeria",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/nigeria-militants-attack-islamic-state-iswap-3cebadb3e037942384924a24917e2a7d"
+          }
+        ]
+      },
+      {
+        "summary": "CVS agreed to pay $315 million to resolve U.S. government allegations that it filled unlawful prescriptions for opioids and other controlled substances and sought federal reimbursement for some prescriptions. CVS also entered an agreement requiring measures including monitoring dispensing patterns and establishing a reporting hotline. The settlement resolves allegations without a determination of liability.",
+        "category": "business",
+        "title": "CVS agrees to $315 million opioid-prescription settlement",
+        "event_date": "2026-10-13",
+        "candidate_id": "cvs-opioid-prescription-settlement",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Department of Justice",
+            "url": "https://www.justice.gov/opa/pr/cvs-agrees-pay-315m-illegally-filling-unlawful-opioid-prescriptions-and-submitting-false"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. Treasury sanctioned four individuals and 11 entities that it said were connected to Mexico's Cartel del Noreste. The designations targeted alleged cartel-linked operations in horse racing, construction, trucking, and the oil and gas sector, including the Club La Molienda racetrack near Nuevo Laredo.",
+        "category": "security",
+        "title": "US sanctions Cartel del Noreste commercial network",
+        "event_date": "2026-10-13",
+        "candidate_id": "us-cartel-del-noreste-sanctions",
+        "geography": "Mexico and United States",
+        "sources": [
+          {
+            "name": "U.S. Department of the Treasury",
+            "url": "https://home.treasury.gov/news/press-releases/sb0656/"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. Justice Department announced results from a coordinated operation targeting online scam networks in West Africa. Authorities made 28 arrests in Ghana and Nigeria, while private companies removed more than 3.7 million accounts, pages and groups. Officials said 117 suspected trafficking victims were identified in Ghana pending repatriation to Nigeria, and more than $11 million in potentially freezable funds was identified.",
+        "category": "crime",
+        "title": "International operation disrupts West African scam networks",
+        "event_date": "2026-10-13",
+        "candidate_id": "west-africa-scam-network-disruption",
+        "geography": "West Africa and international",
+        "sources": [
+          {
+            "name": "U.S. Department of Justice",
+            "url": "https://www.justice.gov/opa/pr/department-justice-announces-results-law-enforcement-and-private-industry-joint-disruption"
+          }
+        ]
+      },
+      {
+        "summary": "The United States recalled its chargé d’affaires in Nicaragua for consultations after Nicaragua rejected the Trump administration's nominee for U.S. ambassador. The State Department said Managua's denial of diplomatic approval showed an unwillingness to engage in productive dialogue.",
+        "category": "diplomacy",
+        "title": "US recalls top envoy to Nicaragua after ambassador nominee rejected",
+        "event_date": "2026-10-13",
+        "candidate_id": "us-nicaragua-envoy-recall",
+        "geography": "United States and Nicaragua",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/aa4ec095692c57a851a942c0f21624f7"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-13"
+  },
+  "metadata": {
+    "responseId": "resp_05f866856abe0f61006acf2a4979e087d2be497de5f9da5c5c",
+    "requestId": "req_1460d6bdeea943ac93621f0033f95241",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1127,
+    "inputTokens": 61306,
+    "outputTokens": 2098,
+    "webSearchCalls": 6,
+    "stage": "discovery",
+    "targetDate": "2026-10-13",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 43429,
+    "attemptDurationMs": 43429,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
