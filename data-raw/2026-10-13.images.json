@@ -3,11 +3,12 @@
   "edition_date": "2026-10-13",
   "attempts": {
     "dba7ff54361d8e0b2300b8fcab5964b617a4199dcc0c14947f91f7fd49a2dbee": {
-      "status": "claimed",
+      "status": "completed",
       "claimed_at": "2026-10-14T08:08:50.870Z",
       "model": "gpt-image-1.5",
       "quality": "medium",
-      "prompt_version": "quiet-illustration-v1"
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-10-14T08:09:06.126Z"
     }
   }
 }
