@@ -1,43 +1,63 @@
 {
-  "edition_date": "2026-10-12",
-  "published_at": "2026-10-13T08:08:44.114Z",
-  "expires_at": "2026-10-14T09:00:00.000Z",
+  "edition_date": "2026-10-13",
+  "published_at": "2026-10-14T08:08:46.462Z",
+  "expires_at": "2026-10-15T09:00:00.000Z",
   "stories": [
     {
-      "headline": "Riyadh airport closure extended through Saturday",
-      "body": "Saudi aviation authorities extended the suspension of operations at King Khalid International Airport through 9 p.m. GMT on Saturday, October 17, following deadly attacks there over the weekend.\n\nSaudi Arabia said it intercepted and destroyed two ballistic missiles launched toward Riyadh on Monday night. The Houthis said they targeted the airport with a ballistic missile and an airbase in southwestern Saudi Arabia with a drone, but Saudi authorities did not confirm any impacts from those claims.",
+      "headline": "Congo Ebola outbreak exceeds 9,000 cases",
+      "body": "Congo’s Health Ministry reported 9,066 confirmed Ebola cases and 4,381 deaths, including 88 new cases in its latest update.\n\nThe outbreak has reached 65 health zones across seven provinces. Officials said community transmission was continuing and that many infections remained undetected.",
       "sources": [
         {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/saudi-yemen-houthis-riyadh-airport-40c6ab822df376688ce1a0955a044488"
-        },
-        {
-          "name": "Reuters via Al-Monitor",
-          "url": "https://www.al-monitor.com/originals/2026/10/saudi-capitals-airport-remain-shut-week-airlines-cancel-services"
-        },
-        {
-          "name": "Qatar News Agency",
-          "url": "https://qna.org.qa/en/news/news-details?date=12%2F10%2F2026&id=saudi-civil-aviation-authority-extends-suspension-of-operations-at-king-khalid-intl-airport"
+          "url": "https://apnews.com/article/23d7b1bfdae22c7a17cac49cc7b5826e"
         }
       ]
     },
     {
-      "headline": "Pacific storms kill five in Mexico",
-      "body": "Mexican officials reported five deaths from Hurricane Simon and post-tropical cyclone Rachel, which brought flooding, landslides and infrastructure damage to the Pacific coast.\n\nFour people died in Baja California, where six others remained missing, and another person died in a wall collapse in Guerrero. Mexico deployed 14,000 personnel in Baja California.",
+      "headline": "Pope Leo XIV diagnosed with lung cancer",
+      "body": "Surgery confirmed that Pope Leo XIV has lung adenocarcinoma. Doctors removed the lower lobe of his right lung, and the Vatican said the operation was successful.\n\nDecisions about chemotherapy or other treatment will follow additional testing, including an examination of whether the cancer reached his lymph nodes.",
       "sources": [
         {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/tropical-storm-flooding-rain-hurricane-cc01ec735f4ff7c11798bc9066dc1879"
+          "url": "https://apnews.com/article/86268530ef22fd14d2712067e89946f1"
         }
       ]
     },
     {
-      "headline": "Hall and Woodford win economics Nobel",
-      "body": "The Royal Swedish Academy of Sciences awarded the 2026 economics prize to American economists Robert E. Hall and Michael Woodford for research providing microeconomic foundations for macroeconomic stabilization.\n\nTheir models have influenced how governments and central banks respond to inflation, energy crises and other economic shocks.",
+      "headline": "Drones strike two commercial ships near Bulgaria",
+      "body": "Drones struck two commercial ships in the Black Sea near Bulgaria, sinking the Guinea-Bissau-flagged Dignity. Five sailors were rescued, while 11 remained missing.\n\nAll 15 crew members escaped the Maltese-flagged Chelsea 3; five were treated for minor injuries. Bulgarian authorities had not established responsibility. Ukrainian officials blamed Russia.",
       "sources": [
         {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/96f32f1aaeff1054e2dd653e6ea86268"
+          "url": "https://apnews.com/article/7dfef251fb7d47a717f0d600873dbf5b"
+        }
+      ]
+    },
+    {
+      "headline": "Cyberattack hits 700 French supermarkets",
+      "body": "A cyberattack targeting connected refrigeration systems affected about 700 supermarkets in France, according to the country’s finance minister. Some stores suffered food losses and fires.\n\nOfficials said the incident did not threaten the national food supply. Prosecutors opened an investigation, and no group had publicly claimed responsibility.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/78a813a8efd466b360655339f96083dc"
+        },
+        {
+          "name": "Reuters via Internazionale",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/13/investigators-hunt-french-supermarket-fridge-hackers-no-claim-of-responsibility"
+        }
+      ]
+    },
+    {
+      "headline": "Bank of America fined over $1.21 billion",
+      "body": "The Treasury Department imposed more than $1.21 billion in penalties on Bank of America for anti-money-laundering and sanctions violations.\n\nTreasury said the bank failed to report more than $5 billion in suspicious transactions on time. Bank of America admitted willfully violating the Bank Secrecy Act and said it was addressing the compliance failures.",
+      "sources": [
+        {
+          "name": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/sb0657"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/29013b2c8f08a3a8d579a96721ed1aa4"
         }
       ]
     }
