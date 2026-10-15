@@ -1,0 +1,69 @@
+{
+  "edition_date": "2026-10-14",
+  "published_at": "2026-10-15T08:08:28.964Z",
+  "expires_at": "2026-10-16T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "U.S. inflation reaches 3.7%",
+      "body": "Consumer prices rose 0.6% in September and were 3.7% higher than a year earlier, the Bureau of Labor Statistics reported.\n\nGasoline prices jumped 9.1% during the month and accounted for more than half of the overall increase. Prices excluding food and energy rose 0.3% for the month and 2.6% over the year.",
+      "sources": [
+        {
+          "name": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm"
+        }
+      ]
+    },
+    {
+      "headline": "Social Security benefits will rise 3.6%",
+      "body": "About 76 million Social Security and Supplemental Security Income recipients will receive a 3.6% cost-of-living adjustment for 2027.\n\nRetirement benefits will increase by about $75 a month on average. The adjustment starts with January Social Security payments; higher SSI payments begin December 31.",
+      "sources": [
+        {
+          "name": "U.S. Social Security Administration",
+          "url": "https://www.ssa.gov/news/en/press/releases/2026-10-14.html"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/c7c73bbb304205696e7dd1afa27fc850"
+        }
+      ]
+    },
+    {
+      "headline": "Fighting puts aid beyond 800,000 Yemenis",
+      "body": "Intensified fighting has put about 800,000 people beyond the World Food Programme’s reach. They include more than 600,000 aid-dependent residents of besieged Taiz.\n\nThe United Nations said more than 200,000 people had recently been displaced. The International Committee of the Red Cross reported unprecedented numbers of weapon-wounded patients at some front-line hospitals.",
+      "sources": [
+        {
+          "name": "Reuters via Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/international/3992435-yemen-fighting-overwhelms-hospitals-cuts-aid-to-800000-people-relief-agencies-say"
+        }
+      ]
+    },
+    {
+      "headline": "Two struck commercial ships sink near Hormuz",
+      "body": "Maritime officials confirmed that two commercial ships struck by projectiles have sunk near the Strait of Hormuz.\n\nThe Singapore-flagged GFS Pride was struck while crossing the strait on October 13. All 21 crew members were evacuated without reported injuries. The Antigua and Barbuda-flagged Cape Dao sank weeks after a September 23 strike that killed one crew member.\n\nResponsibility for the attacks had not been established.",
+      "sources": [
+        {
+          "name": "Reuters via Internazionale",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/14/container-ship-sinks-near-hormuz-after-being-hit-by-projectile-sources-say"
+        },
+        {
+          "name": "Reuters via NDTV",
+          "url": "https://www.ndtv.com/world-news/us-iran-war-container-ship-sinks-near-strait-of-hormuz-after-being-hit-by-projectile-report-12185423"
+        }
+      ]
+    },
+    {
+      "headline": "Ireland’s public sector begins nationwide strike",
+      "body": "About 300,000 teachers, health workers, civil servants and other public employees began Ireland’s first widespread public-sector strike since 2009 after pay talks stalled.\n\nEmergency hospital departments and public transportation continued operating, but reduced health, fire and ambulance services caused widespread disruption. Thousands of medical procedures were canceled.",
+      "sources": [
+        {
+          "name": "Reuters via Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/international/3992016-irish-public-sector-workers-strike-for-first-time-since-2009-over-pay-deadlock"
+        },
+        {
+          "name": "Intellectual Property Office of Ireland",
+          "url": "https://ipoi.gov.ie/en/news-events/news-categories/intellectual-property-office-of-ireland-publishes-2025-annual-report/office-phone-lines-closed-on-wednesday-14th-of-october-2026/"
+        }
+      ]
+    }
+  ]
+}
