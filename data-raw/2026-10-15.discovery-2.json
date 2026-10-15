@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-15",
+  "batch": 2,
+  "captured_at": "2026-10-15T16:08:47.707Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Heavy rain that began Wednesday night flooded homes, roads and underpasses across Istanbul. The governor’s office reported three deaths and four people missing Thursday, while Turkey’s interior minister said more than 2,700 stranded people were evacuated. Schools remained closed, and officials said some districts received their heaviest rainfall since 1985.",
+        "category": "weather",
+        "title": "Istanbul flooding kills three and prompts mass evacuations",
+        "event_date": "2026-10-15",
+        "candidate_id": "istanbul-flooding-deaths",
+        "geography": "Istanbul, Turkey",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/istanbul-turkey-rain-51f3d03c2662b8b5d50098ae6a069a80"
+          }
+        ]
+      },
+      {
+        "summary": "The Saudi-led coalition said it intercepted and destroyed a cruise missile over Medina province and separately destroyed a drone over Saudi Arabia’s Eastern province. The coalition did not assign responsibility for the missile, and Yemen’s Houthi movement denied carrying out the attack on Medina.",
+        "category": "conflict",
+        "title": "Saudi coalition reports intercepting missile over Medina",
+        "event_date": "2026-10-15",
+        "candidate_id": "saudi-medina-missile-intercepted",
+        "geography": "Saudi Arabia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-saudi-medina-houthis-october-15-2026-ffa2a29fe8f91f400b0b75067d269ad3"
+          }
+        ]
+      },
+      {
+        "summary": "Ukrainian drones struck an oil refinery in Russia’s Ryazan region, starting a fire, according to Russian officials. A senior Ukrainian official confirmed the strike to the Associated Press. Ukraine said it was resuming attacks on Russian oil facilities because Moscow had not observed a brief pause in attacks on energy targets.",
+        "category": "conflict",
+        "title": "Ukraine resumes refinery strikes with attack in Russia’s Ryazan region",
+        "event_date": "2026-10-15",
+        "candidate_id": "ukraine-ryazan-refinery-strike",
+        "geography": "Ryazan region, Russia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/russia-ukraine-war-oil-refinery-attacks-resume-0071b4f3792c9912b977b0ee73505b18"
+          }
+        ]
+      },
+      {
+        "summary": "President Donald Trump said the Pentagon would no longer livestream the scheduled firing-squad execution of Nidal Malik Hasan. Immediate family members of victims may still attend the December 3 execution in person. The reversal followed criticism from Republican and Democratic officials and the U.S. Conference of Catholic Bishops.",
+        "category": "government",
+        "title": "Trump cancels planned livestream of Nidal Hasan execution",
+        "event_date": "2026-10-15",
+        "candidate_id": "hasan-execution-livestream-canceled",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/trump-fort-hood-execution-9b48781e88660064bf0f5aa020db8df7"
+          }
+        ]
+      },
+      {
+        "summary": "A global sell-off in artificial-intelligence-related shares sent South Korea’s Kospi down 7.6% and Japan’s Nikkei 225 down 4.9%. U.S. markets were mixed by late Thursday morning: the Nasdaq was down 0.4%, while the Dow was up about 0.9%, as concerns centered on debt-funded AI investment and elevated bond yields.",
+        "category": "business",
+        "title": "AI stock sell-off drives steep declines in Asian markets",
+        "event_date": "2026-10-15",
+        "candidate_id": "ai-stocks-asian-market-selloff",
+        "geography": "Asia and United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/stock-markets-kospi-tech-shares-e889ad7dee2b7dd959f1b8bc87366914"
+          }
+        ]
+      },
+      {
+        "summary": "An AP-NORC survey released ahead of the U.S. midterm elections found roughly eight in 10 registered voters disapproved of President Donald Trump’s handling of the cost of living and about three-quarters disapproved of his handling of the economy. About half wanted substantial change in how the country is governed, while roughly three in 10 wanted a complete overhaul.",
+        "category": "politics",
+        "title": "AP-NORC poll finds broad dissatisfaction with Trump and economy",
+        "event_date": "2026-10-15",
+        "candidate_id": "ap-norc-midterm-voter-poll",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/2026-midterms-trump-approval-economy-change-election-e12dd9b19013c75a3d4ede01c1b9d0c3"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-15"
+  },
+  "metadata": {
+    "responseId": "resp_010f53e9e6aaee4a006ad0fa4e556487d28febaefd4612b338",
+    "requestId": "req_4bee84790b704e4ab00375e79295c467",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2385,
+    "inputTokens": 66048,
+    "outputTokens": 3317,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-15",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 69215,
+    "attemptDurationMs": 69215,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
