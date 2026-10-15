@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-14",
+  "batch": 4,
+  "captured_at": "2026-10-15T07:09:12.988Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Ukraine said an unannounced 100 mph limit on its military-grade Starshield satellite service disrupted drone attack and air-defense missions. Elon Musk said Starshield is owned and controlled by the U.S. government and that its speed and usage limits are decided by the U.S. military and ultimately the president. Former Ukrainian defense minister Mykhailo Fedorov later said connectivity at speeds up to 100 mph was being restored but called for the limit’s complete removal.",
+        "category": "technology",
+        "title": "Ukraine reports Starshield limit disrupted military missions",
+        "event_date": "2026-10-14",
+        "candidate_id": "ukraine-starlink-speed-limit-2026-10-14",
+        "geography": "Ukraine and United States",
+        "sources": [
+          {
+            "name": "Reuters via Devdiscourse",
+            "url": "https://www.devdiscourse.com/article/international/3992030-spacex-limits-starlink-operations-in-ukraine-disrupting-military-missions-presidential-aide-says"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/explainerwhat-is-starshieldspacexs-military-version-of-starlink-4949897"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/9fe44ec1bb361f19d46dfafb58da46f6"
+          }
+        ]
+      },
+      {
+        "summary": "North Korea test-fired two types of submarine-launched strategic cruise missiles in its eastern waters, according to state media and South Korea’s military. South Korea said one missile was fired from a vertical launch tube and another from a torpedo tube. The launches were North Korea’s first publicly reported underwater missile tests since January 2024; the exact submarine involved was not officially identified.",
+        "category": "security",
+        "title": "North Korea tests two submarine-launched cruise missiles",
+        "event_date": "2026-10-14",
+        "candidate_id": "north-korea-submarine-missile-tests-2026-10-14",
+        "geography": "North Korea",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/a9c469a236ade7921e7dee2456542740"
+          },
+          {
+            "name": "Seoul Economic Daily",
+            "url": "https://en.sedaily.com/politics/2026/10/15/north-korea-tests-two-submarine-launched-cruise-missiles"
+          }
+        ]
+      },
+      {
+        "summary": "Costa Rica inaugurated the High-Containment Center Against Organized Crime, a maximum-security prison near San José modeled on El Salvador’s anti-gang facility. President Laura Fernández said the prison was part of a tougher approach to organized crime. It can hold 5,100 inmates, and officials said the first transfers were scheduled for the end of October.",
+        "category": "justice",
+        "title": "Costa Rica inaugurates maximum-security mega-prison",
+        "event_date": "2026-10-14",
+        "candidate_id": "costa-rica-mega-prison-opens-2026-10-14",
+        "geography": "Costa Rica",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/costa-rica-opens-megaprison-as-organized-crime-fight-intensifies-4950158"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. Government Accountability Office said Customs and Border Protection and Immigration and Customs Enforcement should improve management of their body-camera programs. Its recommendations included controls such as automatic activation to help ensure ICE cameras record required encounters. The Department of Homeland Security accepted six recommendations but rejected automated activation, citing privacy and operational risks.",
+        "category": "government",
+        "title": "DHS rejects automatic activation for ICE body cameras",
+        "event_date": "2026-10-14",
+        "candidate_id": "ice-body-camera-automatic-activation-2026-10-14",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Government Accountability Office",
+            "url": "https://www.gao.gov/products/gao-26-108157"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/politics-news/us-rejects-recommendation-for-ice-body-cams-to-be-automatically-activated-4950315"
+          }
+        ]
+      },
+      {
+        "summary": "ITV released undercover footage showing elected Reform UK councillors and party candidates making racist, anti-Muslim, sexist and violent remarks during election campaigns. Reform UK said investigations had begun and that some people had been suspended. Several people shown had already resigned from the party, while others had not responded to ITV’s findings.",
+        "category": "politics",
+        "title": "ITV investigation records extreme remarks by Reform UK officials",
+        "event_date": "2026-10-14",
+        "candidate_id": "reform-uk-undercover-investigation-2026-10-14",
+        "geography": "United Kingdom",
+        "sources": [
+          {
+            "name": "ITV News",
+            "url": "https://www.itv.com/news/2026-10-14/inside-reform-councillors-extreme-and-racist-views-on-camera"
+          },
+          {
+            "name": "Reuters via AOL",
+            "url": "https://www.aol.com/articles/undercover-documentary-shows-reform-uk-203106000.html"
+          }
+        ]
+      },
+      {
+        "summary": "The Social Security Administration announced a 3.6% cost-of-living adjustment for 2027, affecting about 76 million people receiving Social Security or Supplemental Security Income. Retirement benefits will rise by about $75 per month on average. The increase begins with January 2027 Social Security payments, while higher SSI payments begin December 31, 2026.",
+        "category": "economy",
+        "title": "U.S. Social Security benefits to rise 3.6% in 2027",
+        "event_date": "2026-10-14",
+        "candidate_id": "us-social-security-cola-2027-announced-2026-10-14",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Social Security Administration",
+            "url": "https://www.ssa.gov/news/en/press/releases/2026-10-14.html"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/c7c73bbb304205696e7dd1afa27fc850"
+          }
+        ]
+      },
+      {
+        "summary": "A judge ordered 19-year-old Alexandros Paporakis detained after police in Palatine, Illinois, charged him with making a terrorist threat and unlawful weapon possession. Police said a search following his October 11 arrest recovered a rifle, loaded magazines, ammunition, body armor and white-supremacist imagery. Investigators alleged that communications and a document attributed to him indicated a possible mass-shooting plan targeting people of South Asian heritage, potentially at a Hindu place of worship. The specific intended location remained unconfirmed.",
+        "category": "justice",
+        "title": "Illinois suspect detained over alleged mass-shooting plot",
+        "event_date": "2026-10-14",
+        "candidate_id": "illinois-alleged-hindu-temple-attack-plot-2026-10-14",
+        "geography": "Illinois, United States",
+        "sources": [
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/15/police-say-chicago-suburb-suspect-in-alleged-mass-shooting-plot-had-white-supremacy-manifesto"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-14"
+  },
+  "metadata": {
+    "responseId": "resp_0246c111a591e381006ad07bbdead487d2b175aa43d089e498",
+    "requestId": "req_88534495120d434683b39ab5e7b4247a",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2402,
+    "inputTokens": 84651,
+    "outputTokens": 3910,
+    "webSearchCalls": 10,
+    "stage": "discovery",
+    "targetDate": "2026-10-14",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 94950,
+    "attemptDurationMs": 94950,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
