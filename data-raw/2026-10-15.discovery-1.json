@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-15",
+  "batch": 1,
+  "captured_at": "2026-10-15T10:08:38.119Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "A private school roof collapsed while classes were underway in Peshawar, killing at least 28 people, mostly children, according to initial reports from authorities and hospital officials. Dozens of people were injured, and reported casualty totals varied as rescue teams cleared the rubble.",
+        "category": "disaster",
+        "title": "School roof collapse kills children and teacher in Peshawar",
+        "event_date": "2026-10-15",
+        "candidate_id": "peshawar-school-roof-collapse",
+        "geography": "Peshawar, Pakistan",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/c0be44527f22b43ea16a1f10d4b43e54"
+          },
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Pakistan%2Bschool%2Broof%2Bcollapse%2Bkills%2B27%2Bstudents%2C%2Bone%2Bteacher/27188395.html"
+          }
+        ]
+      },
+      {
+        "summary": "An overnight Russian attack killed three people and injured six in Ukraine’s Kirovohrad region, regional authorities said. Ukraine’s Air Force said Russia launched two missiles and 580 drones nationally from Wednesday evening into Thursday morning; it reported destroying or jamming 536 drones, with impacts recorded at 31 locations.",
+        "category": "conflict",
+        "title": "Russian drone attack kills three in central Ukraine",
+        "event_date": "2026-10-15",
+        "candidate_id": "kirovohrad-overnight-drone-attack",
+        "geography": "Kirovohrad region, Ukraine",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/0071b4f3792c9912b977b0ee73505b18"
+          },
+          {
+            "name": "Ukrinform",
+            "url": "https://www.ukrinform.net/amp/rubric-ato/4174578-kirovohrad-region-hit-by-largestever-attack-critical-infrastructure-and-logistics-damaged-people-killed-and-injured.html"
+          },
+          {
+            "name": "Ukrainska Pravda",
+            "url": "https://www.pravda.com.ua/eng/news/2026/10/15/8058090/"
+          }
+        ]
+      },
+      {
+        "summary": "Trudy strengthened into a Category 1 hurricane over the eastern Pacific, with maximum sustained winds of 75 mph. At 0900 UTC, the National Hurricane Center placed it about 300 miles south-southwest of Acapulco and forecast rapid intensification as it approached southwestern and west-central Mexico over the weekend.",
+        "category": "weather",
+        "title": "Trudy strengthens into a hurricane south of Mexico",
+        "event_date": "2026-10-15",
+        "candidate_id": "hurricane-trudy-strengthens",
+        "geography": "Eastern Pacific Ocean and Mexico",
+        "sources": [
+          {
+            "name": "U.S. National Hurricane Center",
+            "url": "https://prod-east-nhc.woc.noaa.gov/mobile/text/refresh/MIATCPEP1%2Bhtml/150837.shtml"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/6eb987f5a1ef914582d95b07fce244da"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-15"
+  },
+  "metadata": {
+    "responseId": "resp_03bfa8c21ecb7d91006ad0a5ee9eb887d2ada145c87ac51de3",
+    "requestId": "req_7b81b51e8de44829895d5c736ca29a4a",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1743,
+    "inputTokens": 54352,
+    "outputTokens": 2358,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-15",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 59042,
+    "attemptDurationMs": 59042,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
