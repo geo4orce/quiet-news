@@ -587,10 +587,10 @@
         "request": {
           "fingerprint": "b6323b300276de6eed91966cc4543f1ece6e7fd6adc5e4becf7b35d782766b66",
           "claimId": "073af9bf-8870-44aa-8c89-f7665e14ccad",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-15T07:07:38.037Z",
-          "responseId": null
+          "responseId": "resp_0246c111a591e381006ad07bbdead487d2b175aa43d089e498"
         },
         "result": null,
         "observedAt": "2026-10-15T07:07:37.923Z"
