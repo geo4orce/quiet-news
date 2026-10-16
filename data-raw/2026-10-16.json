@@ -321,10 +321,10 @@
         "request": {
           "fingerprint": "472603f0a3fc7c7cbd909658577a233bbdf3c6296191cf70cfa7da911c8a1c0b",
           "claimId": "9b891614-66c8-4a25-ad5d-a70f788b1743",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-16T22:07:49.486Z",
-          "responseId": null
+          "responseId": "resp_0de3dbd93de4c028006ad2a03961ec87d2b097bf7f9653f387"
         },
         "result": null,
         "observedAt": "2026-10-16T22:07:49.438Z"
