@@ -826,10 +826,10 @@
       "request": {
         "fingerprint": "1f830f85871993c9144b7ef44b37f3aaa8a57743d6b2dfe5338d7e658d286d06",
         "claimId": "fd4a0d06-b476-4658-852e-db9c1321912f",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-16T08:07:39.008Z",
-        "responseId": null
+        "responseId": "resp_0a1e1631492b1863006ad1db4ec0f487d2a308df4853c423f0"
       },
       "result": null
     }
