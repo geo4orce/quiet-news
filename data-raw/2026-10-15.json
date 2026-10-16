@@ -661,10 +661,10 @@
         "request": {
           "fingerprint": "cd7d730305671e5abbf7e0167e75c5d059040ebbe1e3f816843ab00b190ee8dc",
           "claimId": "566b4e95-7348-433e-a185-702467a5dff7",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-16T07:07:38.202Z",
-          "responseId": null
+          "responseId": "resp_012e99a3d271335b006ad1cd3dd9f887d2b28f79d36c76d02b"
         },
         "result": null,
         "observedAt": "2026-10-16T07:07:38.110Z"
