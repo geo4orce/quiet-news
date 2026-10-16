@@ -71,13 +71,57 @@
         "request": {
           "fingerprint": "2942067696dea4b474291032da0d643634ed0607826c12441584c78e2d4ad0b8",
           "claimId": "5380f3ba-e6ae-4d12-9533-5e7308caef64",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-16T10:07:37.885Z",
           "responseId": "resp_0038c1f4af346d9a006ad1f76d9f8487d2b438128e61aeb322"
         },
-        "result": null,
-        "observedAt": "2026-10-16T10:07:37.825Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Saudi organizers said preparations for the 2027 Asian Cup remain on schedule despite escalating regional conflict and recent Houthi attacks inside Saudi Arabia. The Asian Football Confederation has said it could postpone the tournament if security conditions require it, with a decision possible by the end of November.",
+                "category": "sports",
+                "title": "Saudi organizers say Asian Cup remains on schedule",
+                "event_date": "2026-10-16",
+                "candidate_id": "saudi-asian-cup-security-status",
+                "geography": "Saudi Arabia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/6e84ad35e25582f3b9f45e598fc1e4e7"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-16"
+          },
+          "metadata": {
+            "responseId": "resp_0038c1f4af346d9a006ad1f76d9f8487d2b438128e61aeb322",
+            "requestId": "req_ff5b89a5a39745b19ff4565b5b2cc91a",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1149,
+            "inputTokens": 39913,
+            "outputTokens": 1284,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-16",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 42661,
+            "attemptDurationMs": 42661,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-10-16T10:07:37.825Z",
+        "capturedAt": "2026-10-16T10:08:20.546Z"
       }
     ],
     "sift": null

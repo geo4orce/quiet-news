@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-16",
+  "batch": 1,
+  "captured_at": "2026-10-16T10:08:20.546Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Saudi organizers said preparations for the 2027 Asian Cup remain on schedule despite escalating regional conflict and recent Houthi attacks inside Saudi Arabia. The Asian Football Confederation has said it could postpone the tournament if security conditions require it, with a decision possible by the end of November.",
+        "category": "sports",
+        "title": "Saudi organizers say Asian Cup remains on schedule",
+        "event_date": "2026-10-16",
+        "candidate_id": "saudi-asian-cup-security-status",
+        "geography": "Saudi Arabia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/6e84ad35e25582f3b9f45e598fc1e4e7"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-16"
+  },
+  "metadata": {
+    "responseId": "resp_0038c1f4af346d9a006ad1f76d9f8487d2b438128e61aeb322",
+    "requestId": "req_ff5b89a5a39745b19ff4565b5b2cc91a",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1149,
+    "inputTokens": 39913,
+    "outputTokens": 1284,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-16",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 42661,
+    "attemptDurationMs": 42661,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
