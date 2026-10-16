@@ -189,13 +189,71 @@
         "request": {
           "fingerprint": "0a2cbfcd7a953deca7112f279be5cb1e593a98eef82210b7d3d8f000d151e661",
           "claimId": "24b024f4-7910-4a82-b918-d85a28ee66fd",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-16T16:07:39.640Z",
           "responseId": "resp_0e5c0046f97cfee4006ad24bd0386c87d2bdf1db658c755183"
         },
-        "result": null,
-        "observedAt": "2026-10-16T16:07:39.616Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Russian attacks hit nine Ukrainian regions overnight, wounding at least 15 people and cutting electricity to hundreds of thousands of households, Ukrainian officials said. Separately, Russia's Defense Ministry said its forces intercepted 644 Ukrainian drones; airport restrictions delayed more than 200 flights from four Moscow airports and delayed or canceled 46 flights in St. Petersburg.",
+                "category": "conflict",
+                "title": "Overnight attacks disrupt power and flights in Ukraine and Russia",
+                "event_date": "2026-10-16",
+                "candidate_id": "ukraine-russia-overnight-aerial-attacks",
+                "geography": "Ukraine and Russia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-trump-zelenskyy-power-grid-025bdb5cebc0be727a6197ce37f2c365"
+                  }
+                ]
+              },
+              {
+                "summary": "Hot, windy conditions fueled several Southern California brush fires Friday. A Malibu fire prompted evacuation orders and warnings across part of the Santa Monica Mountains, while the 147-acre Bryson Fire was 17% contained Friday morning. More than 175,000 California electricity customers lacked power, including customers affected by preventive utility shutoffs during elevated fire danger.",
+                "category": "weather",
+                "title": "Southern California fires prompt evacuations amid high winds",
+                "event_date": "2026-10-16",
+                "candidate_id": "southern-california-wildfires-evacuations",
+                "geography": "California, United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/9356828fc52bf1f1c76c9b0f7a2fa1a3"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-16"
+          },
+          "metadata": {
+            "responseId": "resp_0e5c0046f97cfee4006ad24bd0386c87d2bdf1db658c755183",
+            "requestId": "req_8f8025a1b7464d1ca4d94ac4391142ae",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1314,
+            "inputTokens": 57967,
+            "outputTokens": 1642,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-16",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 69654,
+            "attemptDurationMs": 69654,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-10-16T16:07:39.616Z",
+        "capturedAt": "2026-10-16T16:08:49.294Z"
       }
     ],
     "sift": null
