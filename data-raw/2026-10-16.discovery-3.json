@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-16",
+  "batch": 3,
+  "captured_at": "2026-10-16T22:09:00.207Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Katie Zacharia was leaving her role as White House press secretary after five days on the job, the Associated Press reported, citing a person familiar with the personnel decision. Axios, citing two senior administration officials, reported that Zacharia had been ousted.",
+        "category": "politics",
+        "title": "Katie Zacharia leaves White House press secretary role",
+        "event_date": "2026-10-16",
+        "candidate_id": "katie-zacharia-leaves-press-secretary-role",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/trump-katie-zacharia-press-secretary-c40a8c276f5e2a9d71685a5daba94731"
+          },
+          {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/10/16/trump-katie-zacharia-press-secretary"
+          }
+        ]
+      },
+      {
+        "summary": "U.S. stocks closed lower Friday as technology shares extended their sell-off. The S&P 500 fell 1.1%, the Nasdaq Composite dropped 2.1% and the Dow Jones Industrial Average declined 0.3%. The Nasdaq ended the week down 4.5%, its worst weekly performance since June.",
+        "category": "business",
+        "title": "U.S. stocks fall as technology sell-off continues",
+        "event_date": "2026-10-16",
+        "candidate_id": "us-stocks-tech-selloff-oct-16-close",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c27809783ae3230b44c26e5ee4bea056"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-16"
+  },
+  "metadata": {
+    "responseId": "resp_0de3dbd93de4c028006ad2a03961ec87d2b097bf7f9653f387",
+    "requestId": "req_5ab24f73b8c54fd3851f20d2a77e1a0f",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1493,
+    "inputTokens": 57522,
+    "outputTokens": 1852,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-16",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 70721,
+    "attemptDurationMs": 70721,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
