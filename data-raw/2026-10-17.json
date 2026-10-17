@@ -204,13 +204,171 @@
         "request": {
           "fingerprint": "f9699ffb4d703a9b185914c9ffe02c46e7acab99005e60a3660d619be85c81d2",
           "claimId": "90ab0f47-cdc1-48be-8367-3253abfc584b",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-17T22:07:47.269Z",
           "responseId": "resp_08b03a12d82b67ad006ad3f1b767c887d2b3dee4d4d54d05e1"
         },
-        "result": null,
-        "observedAt": "2026-10-17T22:07:47.236Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Authorities said at least 17 people were killed and 25 injured in a crowd crush at a Durga Puja pavilion in north Kolkata. Police attributed the incident to heavy crowds amid rainfall; West Bengal Chief Minister Suvendu Adhikari said a seven-year-old girl was among those killed.",
+                "category": "public safety",
+                "title": "Crowd crush at Kolkata religious festival kills at least 17",
+                "event_date": "2026-10-17",
+                "candidate_id": "kolkata-durga-puja-crowd-crush",
+                "geography": "Kolkata, West Bengal, India",
+                "sources": [
+                  {
+                    "name": "Al Jazeera, with AFP and Reuters",
+                    "url": "https://www.aljazeera.com/news/2026/10/17/at-least-17-killed-in-stampede-at-religious-gathering-in-india"
+                  },
+                  {
+                    "name": "NDTV",
+                    "url": "https://www.ndtv.com/india-news/chorebagan-kolkata-stampede-kolkata-durga-puja-stampede-what-we-know-so-far-12200413"
+                  }
+                ]
+              },
+              {
+                "summary": "Pope Leo XIV returned to the Vatican four days after surgery that removed the cancerous lower lobe of his right lung. His surgeon said he expected a full recovery and saw no clinical reason to prevent the pope's planned November trip to Uruguay, Peru and Argentina.",
+                "category": "health",
+                "title": "Pope Leo returns to Vatican after lung cancer surgery",
+                "event_date": "2026-10-17",
+                "candidate_id": "pope-leo-returns-after-lung-surgery",
+                "geography": "Vatican City; Italy",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/pope-leo-lung-surgery-hospital-release-41683469bc294bcae08aa631b622e435"
+                  },
+                  {
+                    "name": "United States Conference of Catholic Bishops",
+                    "url": "https://www.usccb.org/news/2026/pope-leo-leaves-hospital-four-days-after-lung-cancer-surgery"
+                  }
+                ]
+              },
+              {
+                "summary": "France's interior minister said about 550,000 people joined 110 marches over living costs and school conditions, while organizers estimated 800,000. Authorities reported about 400 arrests after clashes, fires and looting in several cities. An investigation was opened after a protester in Saint-Etienne lost a hand.",
+                "category": "civil unrest",
+                "title": "Nationwide French protests draw hundreds of thousands",
+                "event_date": "2026-10-17",
+                "candidate_id": "france-cost-of-living-school-protests",
+                "geography": "France",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/france-school-protests-yellow-vest-44b9d3ba91ffad4029f975dced7e31cb"
+                  }
+                ]
+              },
+              {
+                "summary": "Masked people described by Belgian officials as Israeli settlers attacked Palestinian olive harvesters and a visiting delegation near Taybeh in the occupied West Bank. The delegation included Belgian, French and Polish diplomats and Catholic representatives. A French mayor said he was beaten, and a Belgian diplomatic vehicle was damaged. Israeli police opened an investigation.",
+                "category": "conflict",
+                "title": "European diplomatic delegation attacked in occupied West Bank",
+                "event_date": "2026-10-17",
+                "candidate_id": "taybeh-diplomats-settler-attack",
+                "geography": "Taybeh, occupied West Bank",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/west-bank-israel-european-diplomats-settlers-89ebd068167669db357ad1fa4f3a8758"
+                  },
+                  {
+                    "name": "Reuters via Al-Monitor",
+                    "url": "https://www.al-monitor.com/originals/2026/10/israeli-settlers-attack-palestinians-european-diplomats-west-bank-belgium-says"
+                  }
+                ]
+              },
+              {
+                "summary": "Authorities in Sanaa unilaterally released 159 people recently detained in connection with Yemen's conflict, with support from the International Committee of the Red Cross. The ICRC said it interviewed and medically assessed the detainees but did not determine who or how many people would be freed. The release was outside the Stockholm Agreement framework.",
+                "category": "conflict",
+                "title": "Sanaa authorities release 159 conflict-related detainees",
+                "event_date": "2026-10-17",
+                "candidate_id": "yemen-sanaa-releases-159-detainees",
+                "geography": "Sanaa, Yemen",
+                "sources": [
+                  {
+                    "name": "International Committee of the Red Cross",
+                    "url": "https://www.icrc.org/en/news-release/yemen-icrc-supports-release-154-detainees-sanaa"
+                  }
+                ]
+              },
+              {
+                "summary": "Rallies organized by the No Kings network took place in cities and communities across the United States, including Washington, New York and Atlanta. Organizers opposing President Donald Trump focused the demonstrations on encouraging early voting before the November 3 midterm elections.",
+                "category": "politics",
+                "title": "No Kings rallies promote early voting across US",
+                "event_date": "2026-10-17",
+                "candidate_id": "no-kings-early-voting-rallies",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008"
+                  }
+                ]
+              },
+              {
+                "summary": "A march in Milan against wars and rising living costs began peacefully before masked participants clashed with police, looted stores and set property and barricades on fire. Police used tear gas and water cannons. LaPresse reported that at least two officers were injured and about 50 demonstrators, many of them minors, were detained.",
+                "category": "civil unrest",
+                "title": "Milan protest ends in clashes, looting and fires",
+                "event_date": "2026-10-17",
+                "candidate_id": "milan-cost-of-living-protest-clashes",
+                "geography": "Milan, Italy",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/italy-milan-riots-living-costs-aada57790a8d2d3c02ab55911b9ecead"
+                  }
+                ]
+              },
+              {
+                "summary": "President Donald Trump held a campaign rally at Truist Arena in Highland Heights, Kentucky, to support Republican candidates and encourage turnout before the midterm elections. Trump said his second term was more powerful than his first while promoting candidates including U.S. House hopeful Ed Gallrein.",
+                "category": "politics",
+                "title": "Trump campaigns for Republican candidates in Kentucky",
+                "event_date": "2026-10-17",
+                "candidate_id": "trump-kentucky-midterm-rally",
+                "geography": "Highland Heights, Kentucky, United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/trump-rally-kentucky-gallrein-296695e675eb0513edfe9b23be3b81c9"
+                  },
+                  {
+                    "name": "Kentucky Lantern",
+                    "url": "https://kentuckylantern.com/2026/10/17/trump-parachutes-to-ky-to-stump-for-republicans-in-safe-seats-give-gop-nod-in-tight-race/"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-17"
+          },
+          "metadata": {
+            "responseId": "resp_08b03a12d82b67ad006ad3f1b767c887d2b3dee4d4d54d05e1",
+            "requestId": "req_c7949f0d93a5487199317912a9e2f230",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1657,
+            "inputTokens": 57754,
+            "outputTokens": 3165,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-10-17",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 84934,
+            "attemptDurationMs": 84934,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-10-17T22:07:47.236Z",
+        "capturedAt": "2026-10-17T22:09:12.203Z"
       }
     ],
     "sift": null
