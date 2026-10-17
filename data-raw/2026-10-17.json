@@ -106,13 +106,71 @@
         "request": {
           "fingerprint": "a23a4ada01571441526b89da8b2c4e77a8d057fbbcec82466e21d2ebb00f11ab",
           "claimId": "87f6a417-9878-4990-a6fe-50a3375bdc03",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-17T16:07:51.838Z",
           "responseId": "resp_00c0516c81aac235006ad39d5bdc9087d293e859bfe16e7c85"
         },
-        "result": null,
-        "observedAt": "2026-10-17T16:07:51.789Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Ukrainian President Volodymyr Zelenskyy urged supporters of Ukraine to defend a new U.S. sanctions package targeting Russia after President Donald Trump put the restrictions on hold. Zelenskyy said blocking the package would encourage further Russian attacks and thanked the Democratic and Republican lawmakers who backed it.",
+                "category": "international relations",
+                "title": "Zelenskyy urges support for paused US sanctions on Russia",
+                "event_date": "2026-10-17",
+                "candidate_id": "zelenskyy-urges-russia-sanctions-support",
+                "geography": "Ukraine; United States; Russia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-trump-sanctions-energy-07e1dfc41bdad7b3292c6c263005fabc"
+                  }
+                ]
+              },
+              {
+                "summary": "Hungarian Prime Minister Péter Magyar said Ukrainian President Volodymyr Zelenskyy was unlikely to visit Budapest later in October. A Zelenskyy aide had said Ukraine's leader was invited to join events on October 23 commemorating the 70th anniversary of the Hungarian Revolution.",
+                "category": "international relations",
+                "title": "Hungarian prime minister says Zelenskyy visit is unlikely",
+                "event_date": "2026-10-17",
+                "candidate_id": "hungary-zelenskyy-visit-unlikely",
+                "geography": "Hungary; Ukraine",
+                "sources": [
+                  {
+                    "name": "Euronews",
+                    "url": "https://www.euronews.com/2026/10/17/hungarian-pm-peter-magyar-says-zelenskyy-unlikely-to-visit-budapest-later-this-month"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-17"
+          },
+          "metadata": {
+            "responseId": "resp_00c0516c81aac235006ad39d5bdc9087d293e859bfe16e7c85",
+            "requestId": "req_1b5f0de48c634a7aa2377efe15889edc",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1958,
+            "inputTokens": 61062,
+            "outputTokens": 2298,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-17",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 48808,
+            "attemptDurationMs": 48808,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-10-17T16:07:51.789Z",
+        "capturedAt": "2026-10-17T16:08:40.646Z"
       }
     ],
     "sift": null
