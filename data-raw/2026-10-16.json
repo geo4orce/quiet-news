@@ -457,13 +457,79 @@
         "request": {
           "fingerprint": "7692246da63f97cf80d0ad21b94f26cf159c3dc7e4bec4482393201493a7c843",
           "claimId": "ba0f5af3-685d-4ed5-a1b2-7fb308c9bdef",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-17T07:07:44.807Z",
           "responseId": "resp_0b1502cae7379238006ad31ec4ec9487d2bbd58840c54aecf8"
         },
-        "result": null,
-        "observedAt": "2026-10-17T07:07:44.732Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Norte Fire, which started Friday near San Clemente and spread toward San Juan Capistrano, was listed at 570 acres and 0% contained at 7:28 p.m. Pacific time, with evacuation orders covering five zones. The Associated Press reported that at least six homes burned, about 16,000 residents were ordered to evacuate and two firefighters were hospitalized with heat-related injuries.",
+                "category": "weather",
+                "title": "Norte Fire burns homes and forces evacuations in Orange County",
+                "event_date": "2026-10-16",
+                "candidate_id": "southern-california-wildfires-evacuations",
+                "geography": "California, United States",
+                "sources": [
+                  {
+                    "name": "CAL FIRE",
+                    "url": "https://www.fire.ca.gov/incidents/2026/10/16/norte-fire/updates/4e116f04-e722-4415-9fed-0df65259c6fa"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/california-santa-ana-winds-fire-risk-9356828fc52bf1f1c76c9b0f7a2fa1a3"
+                  }
+                ]
+              },
+              {
+                "summary": "The reported death toll from flooding in Istanbul rose Friday. The Associated Press reported four deaths after a missing man's body was recovered in the Sariyer district. Turkish news outlet Bianet reported five deaths, also counting a construction worker who died after falling into a flooded well, and said searches continued for at least five missing people.",
+                "category": "weather",
+                "title": "Reported Istanbul flood death toll rises to five",
+                "event_date": "2026-10-16",
+                "candidate_id": "istanbul-flood-death-toll-rises",
+                "geography": "Istanbul, Turkey",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/floods-istanbul-turkey-deaths-sariyer-climate-change-b14a013cc2ad5cd767eb08c2ebf01a50"
+                  },
+                  {
+                    "name": "Bianet",
+                    "url": "https://bianet.org/haber/death-toll-from-istanbul-floods-rises-to-five-several-others-reported-missing-324481"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-16"
+          },
+          "metadata": {
+            "responseId": "resp_0b1502cae7379238006ad31ec4ec9487d2bbd58840c54aecf8",
+            "requestId": "req_ca6411708cb84a9988707e30b4a458b8",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2266,
+            "inputTokens": 69172,
+            "outputTokens": 2746,
+            "webSearchCalls": 9,
+            "stage": "discovery",
+            "targetDate": "2026-10-16",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 59248,
+            "attemptDurationMs": 59248,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-10-17T07:07:44.732Z",
+        "capturedAt": "2026-10-17T07:08:44.056Z"
       }
     ],
     "sift": null
