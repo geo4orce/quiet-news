@@ -604,12 +604,82 @@
       "request": {
         "fingerprint": "21158886555e10d4a98778f96f451449e1710b549c3b75e52ac263d1ddc99487",
         "claimId": "bb71ee7b-1ab2-41aa-8264-1c01546c60e5",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-17T08:07:44.211Z",
         "responseId": "resp_042c2bcacd17bbf4006ad32cd3ea8887d28342c8a1394a9fd0"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "istanbul-flood-death-toll-rises",
+              "code": "prior_day_repetition"
+            },
+            {
+              "candidate_id": "katie-zacharia-leaves-press-secretary-role",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "saudi-asian-cup-security-status",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "us-stocks-tech-selloff-oct-16-close",
+              "code": "incremental_update"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The Norte Fire spread to 570 acres near San Clemente and San Juan Capistrano and was 0% contained as of 7:28 p.m. Pacific time Friday.\n\nAt least six homes burned, about 16,000 residents were ordered to evacuate and two firefighters were hospitalized with heat-related injuries. Evacuation orders covered five zones.",
+              "candidate_id": "southern-california-wildfires-evacuations",
+              "headline": "Orange County fire forces 16,000 to evacuate",
+              "sources": [
+                {
+                  "name": "CAL FIRE",
+                  "url": "https://www.fire.ca.gov/incidents/2026/10/16/norte-fire/updates/4e116f04-e722-4415-9fed-0df65259c6fa"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/california-santa-ana-winds-fire-risk-9356828fc52bf1f1c76c9b0f7a2fa1a3"
+                }
+              ]
+            },
+            {
+              "body": "Russian attacks struck nine Ukrainian regions overnight, wounding at least 15 people and cutting electricity to hundreds of thousands of households, according to Ukrainian officials.\n\nRussia’s Defense Ministry said its forces intercepted 644 Ukrainian drones. Airport restrictions delayed more than 200 flights from four Moscow airports; 46 flights were delayed or canceled in St. Petersburg.",
+              "candidate_id": "ukraine-russia-overnight-aerial-attacks",
+              "headline": "Aerial attacks disrupt power and Russian flights",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/russia-ukraine-war-trump-zelenskyy-power-grid-025bdb5cebc0be727a6197ce37f2c365"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_042c2bcacd17bbf4006ad32cd3ea8887d28342c8a1394a9fd0",
+          "requestId": "req_5963418b4416419f80ff570c8909f20f",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 434,
+          "inputTokens": 2725,
+          "outputTokens": 900,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-16",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 16907,
+          "attemptDurationMs": 16907,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
