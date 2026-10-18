@@ -369,6 +369,46 @@
         },
         "observedAt": "2026-10-17T22:07:47.236Z",
         "capturedAt": "2026-10-17T22:09:12.203Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Orange County fire forces 16,000 to evacuate",
+            "body": "The Norte Fire spread to 570 acres near San Clemente and San Juan Capistrano and was 0% contained as of 7:28 p.m. Pacific time Friday.\n\nAt least six homes burned, about 16,000 residents were ordered to evacuate and two firefighters were hospitalized with heat-related injuries. Evacuation orders covered five zones.",
+            "sources": [
+              {
+                "name": "CAL FIRE",
+                "url": "https://www.fire.ca.gov/incidents/2026/10/16/norte-fire/updates/4e116f04-e722-4415-9fed-0df65259c6fa"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/california-santa-ana-winds-fire-risk-9356828fc52bf1f1c76c9b0f7a2fa1a3"
+              }
+            ]
+          },
+          {
+            "headline": "Aerial attacks disrupt power and Russian flights",
+            "body": "Russian attacks struck nine Ukrainian regions overnight, wounding at least 15 people and cutting electricity to hundreds of thousands of households, according to Ukrainian officials.\n\nRussia’s Defense Ministry said its forces intercepted 644 Ukrainian drones. Airport restrictions delayed more than 200 flights from four Moscow airports; 46 flights were delayed or canceled in St. Petersburg.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/russia-ukraine-war-trump-zelenskyy-power-grid-025bdb5cebc0be727a6197ce37f2c365"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "6eb02f8d7d90bf6a2de03ad4c30a69ed9898df5eb60d124b92d81411d0b15789",
+          "claimId": "eb581a9d-05b0-4518-b958-e5f469874758",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-18T07:07:52.045Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-18T07:07:51.955Z"
       }
     ],
     "sift": null
