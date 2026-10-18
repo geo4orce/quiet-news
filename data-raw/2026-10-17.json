@@ -565,10 +565,10 @@
       "request": {
         "fingerprint": "dd0a921ccd54041a608bda97634e0756529e467b3f362792f0d50e21239665d3",
         "claimId": "ba79bf03-35ff-4a46-b084-6b0ada7375a5",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-18T08:07:47.024Z",
-        "responseId": null
+        "responseId": "resp_0d79e839ea954fcc006ad47e57590c87d2b97d8ca07622f140"
       },
       "result": null
     }
