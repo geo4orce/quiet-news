@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-17",
+  "batch": 4,
+  "captured_at": "2026-10-18T07:09:17.237Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Officials said the death toll from the crowd crush at a Durga Puja pavilion rose to at least 19, with 25 people injured. The crush occurred Saturday night as people near the north Kolkata pavilion sought cover during rainfall.",
+        "category": "public safety",
+        "title": "Death toll in Kolkata religious festival crowd crush rises to 19",
+        "event_date": "2026-10-17",
+        "candidate_id": "kolkata-durga-puja-crowd-crush",
+        "geography": "Kolkata, West Bengal, India",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/ee803af1bef07fab3c1157974be2e876"
+          },
+          {
+            "name": "Channel News Asia",
+            "url": "https://www.channelnewsasia.com/asia/19-dead-25-hurt-in-stampede-india-religious-gathering-6468991"
+          }
+        ]
+      },
+      {
+        "summary": "A truck drove through a youth soccer game at Wichita's Stryker Sports Complex, killing a six-year-old boy and a 35-year-old man and sending 11 other people to hospitals. Police detained the 34-year-old driver but said they were still investigating how and why the incident occurred.",
+        "category": "public safety",
+        "title": "Truck drives through Kansas youth soccer game, killing two",
+        "event_date": "2026-10-17",
+        "candidate_id": "wichita-truck-soccer-game-casualties",
+        "geography": "Wichita, Kansas, United States",
+        "sources": [
+          {
+            "name": "City of Wichita",
+            "url": "https://www.wichita.gov/m/newsflash/Home/Detail/775"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/197d51c36606af3d2d65516a93b9cc7f"
+          }
+        ]
+      },
+      {
+        "summary": "Canada's defence minister said an incident at Canadian Forces Base Wainwright caused deaths and injuries and a major fire. Officials did not immediately disclose casualty figures or the cause. High winds carried the fire beyond the base fence, prompting a multi-jurisdiction emergency response, but no evacuation order was in effect.",
+        "category": "public safety",
+        "title": "Deaths and injuries reported after fire at Canadian military base",
+        "event_date": "2026-10-17",
+        "candidate_id": "cfb-wainwright-deadly-fire",
+        "geography": "Wainwright, Alberta, Canada",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/1a41899da5b6e797b000061fa4da9c6a"
+          },
+          {
+            "name": "CityNews",
+            "url": "https://vancouver.citynews.ca/2026/10/17/fire-cfb-wainwright/"
+          }
+        ]
+      },
+      {
+        "summary": "Romania's Defence Ministry said Romanian F-16s shot down two jet-powered Geran attack drones after they entered national airspace over Romanian territorial waters. The ministry said the drones were downed southeast and east of Sulina after spending two and five minutes, respectively, in Romanian airspace.",
+        "category": "conflict",
+        "title": "Romanian F-16s shoot down two attack drones over territorial waters",
+        "event_date": "2026-10-17",
+        "candidate_id": "romania-f16s-down-two-geran-drones",
+        "geography": "Romania; Black Sea",
+        "sources": [
+          {
+            "name": "Romanian Ministry of National Defence",
+            "url": "https://www.mapn.ro/cpresa/19446_informa%C8%9Bie-de-presa-%E2%80%93-update"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. National Hurricane Center said Hurricane Trudy was affecting portions of west-central Mexico as a Category 2 storm with maximum sustained winds of 100 mph. Hurricane warnings covered the coast from Manzanillo to Cabo Corrientes, and the center warned of dangerous storm surge, damaging waves, flooding and mudslides.",
+        "category": "weather",
+        "title": "Hurricane Trudy affects Mexico's Pacific coast as Category 2 storm",
+        "event_date": "2026-10-17",
+        "candidate_id": "hurricane-trudy-mexico-category-2",
+        "geography": "Pacific coast of Mexico",
+        "sources": [
+          {
+            "name": "U.S. National Hurricane Center",
+            "url": "https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.public_a.018.shtml"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/13abd259860be97941f0ef0b72990c31"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-17"
+  },
+  "metadata": {
+    "responseId": "resp_03a0c18ba0508519006ad4704c571c87d2a500994255a4a3a6",
+    "requestId": "req_d3b49ba023e84c018d51bfd3bc42fdba",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2150,
+    "inputTokens": 94677,
+    "outputTokens": 2822,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-10-17",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 85191,
+    "attemptDurationMs": 85191,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
