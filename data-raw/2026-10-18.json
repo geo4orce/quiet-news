@@ -187,10 +187,10 @@
         "request": {
           "fingerprint": "0cacd800b8d28dde1518e08b07dbe208d18f3fdfdc571434613ef2fbd9bc56e0",
           "claimId": "2df071a1-6ba3-4008-b886-24920b5198ee",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-18T16:07:37.783Z",
-          "responseId": null
+          "responseId": "resp_053070286b84122a006ad4eecd42b487d2b4a99e73e56c091a"
         },
         "result": null,
         "observedAt": "2026-10-18T16:07:37.696Z"
