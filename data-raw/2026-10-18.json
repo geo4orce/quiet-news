@@ -61,13 +61,75 @@
         "request": {
           "fingerprint": "7f08c28033ae44a504f962ef214361558c197131fecdc29c892d4813b50d06aa",
           "claimId": "fa9ba3b8-bef4-4ac7-87f9-ae08e3b61363",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-18T10:07:41.098Z",
           "responseId": "resp_021cea60b7901a64006ad49a70cba487d28ec3f59a5143d19a"
         },
-        "result": null,
-        "observedAt": "2026-10-18T10:07:41.037Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "An overnight Ukrainian drone attack caused fires at the Petersburg Oil Terminal, the Ruchi oil depot and other sites in and around St. Petersburg, Russian officials said. Governor Alexander Beglov reported one person killed and five wounded. Russia’s Defense Ministry said air defenses destroyed 1,015 drones across multiple regions, occupied Crimea and the Black Sea; the claims were not independently verified.",
+                "category": "conflict",
+                "title": "Drone attack ignites fires at St. Petersburg oil sites",
+                "event_date": "2026-10-18",
+                "candidate_id": "st-petersburg-drone-attack-oil-sites",
+                "geography": "St. Petersburg, Russia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d"
+                  },
+                  {
+                    "name": "Reuters via Dubai Eye",
+                    "url": "https://www.dubaieye1038.com/news/international/1-killed-5-injured-in-ukrainian-drone-attack-on-russia-governor-says/"
+                  }
+                ]
+              },
+              {
+                "summary": "French Interior Minister Laurent Nuñez said Sunday that the number of arrests arising from Saturday’s nationwide protests had risen to 1,800. He also said more than 500 police officers, gendarmes and firefighters had been injured and that the casualty count remained provisional. The update substantially revised figures reported Saturday night.",
+                "category": "protests",
+                "title": "France raises protest arrest count to 1,800",
+                "event_date": "2026-10-18",
+                "candidate_id": "france-protest-arrest-toll-update",
+                "geography": "France",
+                "sources": [
+                  {
+                    "name": "The Guardian",
+                    "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-18"
+          },
+          "metadata": {
+            "responseId": "resp_021cea60b7901a64006ad49a70cba487d28ec3f59a5143d19a",
+            "requestId": "req_83b124ec6e444f579acd64f064554eb7",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1436,
+            "inputTokens": 54774,
+            "outputTokens": 1815,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-18",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 52926,
+            "attemptDurationMs": 52926,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-10-18T10:07:41.037Z",
+        "capturedAt": "2026-10-18T10:08:34.025Z"
       }
     ],
     "sift": null
