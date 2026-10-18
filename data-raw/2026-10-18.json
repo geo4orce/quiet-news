@@ -61,10 +61,10 @@
         "request": {
           "fingerprint": "7f08c28033ae44a504f962ef214361558c197131fecdc29c892d4813b50d06aa",
           "claimId": "fa9ba3b8-bef4-4ac7-87f9-ae08e3b61363",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-18T10:07:41.098Z",
-          "responseId": null
+          "responseId": "resp_021cea60b7901a64006ad49a70cba487d28ec3f59a5143d19a"
         },
         "result": null,
         "observedAt": "2026-10-18T10:07:41.037Z"
