@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-18",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Hurricane Trudy threatens Mexico’s Pacific coast",
+            "body": "Hurricane Trudy was affecting west-central Mexico’s Pacific coast as a Category 2 storm, with sustained winds of 100 mph.\n\nA hurricane warning covered the coast from Manzanillo to Cabo Corrientes. The U.S. National Hurricane Center warned of dangerous storm surge and damaging waves along with flooding and mudslides.",
+            "sources": [
+              {
+                "name": "U.S. National Hurricane Center",
+                "url": "https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.public_a.018.shtml"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/13abd259860be97941f0ef0b72990c31"
+              }
+            ]
+          },
+          {
+            "headline": "French protests draw 550,000, with 400 arrests",
+            "body": "About 550,000 people joined 110 marches over living costs and school conditions, according to France’s interior minister. Organizers estimated attendance at 800,000.\n\nAuthorities reported roughly 400 arrests after clashes, fires and looting in several cities. An investigation was opened after a protester in Saint-Etienne lost a hand.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/france-school-protests-yellow-vest-44b9d3ba91ffad4029f975dced7e31cb"
+              }
+            ]
+          },
+          {
+            "headline": "Romanian jets shoot down two attack drones",
+            "body": "Romanian F-16s shot down two jet-powered Geran attack drones after they entered the country’s airspace over its territorial waters, Romania’s Defence Ministry said.\n\nThe drones were downed southeast and east of Sulina. The ministry said one spent two minutes in Romanian airspace and the other five minutes.",
+            "sources": [
+              {
+                "name": "Romanian Ministry of National Defence",
+                "url": "https://www.mapn.ro/cpresa/19446_informa%C8%9Bie-de-presa-%E2%80%93-update"
+              }
+            ]
+          },
+          {
+            "headline": "Kolkata festival crowd crush kills at least 19",
+            "body": "At least 19 people died and 25 were injured in a crowd crush at a Durga Puja pavilion in north Kolkata, officials said.\n\nThe crush occurred Saturday night as people near the religious festival site sought shelter from rain.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/ee803af1bef07fab3c1157974be2e876"
+              },
+              {
+                "name": "Channel News Asia",
+                "url": "https://www.channelnewsasia.com/asia/19-dead-25-hurt-in-stampede-india-religious-gathering-6468991"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "7f08c28033ae44a504f962ef214361558c197131fecdc29c892d4813b50d06aa",
+          "claimId": "fa9ba3b8-bef4-4ac7-87f9-ae08e3b61363",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-18T10:07:41.098Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-18T10:07:41.037Z"
+      }
+    ],
+    "sift": null
+  }
+}
