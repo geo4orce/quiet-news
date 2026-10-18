@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-18",
+  "batch": 3,
+  "captured_at": "2026-10-18T22:08:38.776Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "French authorities raised the number of arrests following Saturday’s nationwide protests to at least 2,400. In a televised address Sunday, President Emmanuel Macron condemned the rioting and looting, blamed much of the violence on radical far-left groups and said those responsible would be held accountable. Police again used tear gas as demonstrators gathered in Paris.",
+        "category": "protests",
+        "title": "France raises protest arrest count to 2,400",
+        "event_date": "2026-10-18",
+        "candidate_id": "france-protest-arrest-toll-update",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/f5ce07c2ef46ad0c02c6ff7018532a59"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. Department of Homeland Security said Ukrainians and Sudanese enrolled in Temporary Protected Status would retain protection from deportation while final decisions about their programs remain pending. The protections, covering tens of thousands of Ukrainians and hundreds of Sudanese nationals, had been scheduled to terminate Monday.",
+        "category": "immigration",
+        "title": "U.S. temporarily retains protections for Ukrainians and Sudanese",
+        "event_date": "2026-10-18",
+        "candidate_id": "us-retains-ukraine-sudan-tps",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/ukraine-sudan-immigrants-deportation-protections-tps/"
+          }
+        ]
+      },
+      {
+        "summary": "Alberta Premier Danielle Smith said 39 people remained hospitalized after Saturday’s fast-moving fire at Canadian Forces Base Wainwright, including at least 19 in critical condition, some with severe burns. Prime Minister Mark Carney confirmed four service members were killed. Canada’s Defence Department said the fire began in the base’s training area and spread beyond its boundaries; the cause remained under investigation.",
+        "category": "disaster",
+        "title": "Alberta says 39 hospitalized after military base fire",
+        "event_date": "2026-10-18",
+        "candidate_id": "wainwright-base-fire-casualty-update",
+        "geography": "Alberta, Canada",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/1a41899da5b6e797b000061fa4da9c6a"
+          },
+          {
+            "name": "Prime Minister of Canada",
+            "url": "https://www.pm.gc.ca/en/news/speeches/2026/10/18/prime-minister-carney-delivers-remarks-following-tragedy-cfb-wainwright"
+          },
+          {
+            "name": "Canadian Press via iNFOnews",
+            "url": "https://infonews.ca/news/7957084/cp-newsalert-39-people-injured-including-19-critical-in-alberta-base-fire-premier/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-18"
+  },
+  "metadata": {
+    "responseId": "resp_05c9f4d21460b8fe006ad543305c3887d2aa8045c7551c00fb",
+    "requestId": "req_285b9ed18c5748bdbed44de9e4a1183d",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1665,
+    "inputTokens": 57368,
+    "outputTokens": 2197,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-18",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 58128,
+    "attemptDurationMs": 58128,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
