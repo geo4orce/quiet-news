@@ -565,12 +565,132 @@
       "request": {
         "fingerprint": "dd0a921ccd54041a608bda97634e0756529e467b3f362792f0d50e21239665d3",
         "claimId": "ba79bf03-35ff-4a46-b084-6b0ada7375a5",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-18T08:07:47.024Z",
         "responseId": "resp_0d79e839ea954fcc006ad47e57590c87d2b97d8ca07622f140"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "cfb-wainwright-deadly-fire",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "hungary-zelenskyy-visit-unlikely",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "milan-cost-of-living-protest-clashes",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "no-kings-early-voting-rallies",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "pope-leo-returns-after-lung-surgery",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "taybeh-diplomats-settler-attack",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-kentucky-midterm-rally",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "wichita-truck-soccer-game-casualties",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "yemen-sanaa-releases-159-detainees",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "zelenskyy-urges-russia-sanctions-support",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Hurricane Trudy was affecting west-central Mexico’s Pacific coast as a Category 2 storm, with sustained winds of 100 mph.\n\nA hurricane warning covered the coast from Manzanillo to Cabo Corrientes. The U.S. National Hurricane Center warned of dangerous storm surge and damaging waves along with flooding and mudslides.",
+              "candidate_id": "hurricane-trudy-mexico-category-2",
+              "headline": "Hurricane Trudy threatens Mexico’s Pacific coast",
+              "sources": [
+                {
+                  "name": "U.S. National Hurricane Center",
+                  "url": "https://www.nhc.noaa.gov/archive/2026/ep21/ep212026.public_a.018.shtml"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/13abd259860be97941f0ef0b72990c31"
+                }
+              ]
+            },
+            {
+              "body": "About 550,000 people joined 110 marches over living costs and school conditions, according to France’s interior minister. Organizers estimated attendance at 800,000.\n\nAuthorities reported roughly 400 arrests after clashes, fires and looting in several cities. An investigation was opened after a protester in Saint-Etienne lost a hand.",
+              "candidate_id": "france-cost-of-living-school-protests",
+              "headline": "French protests draw 550,000, with 400 arrests",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/france-school-protests-yellow-vest-44b9d3ba91ffad4029f975dced7e31cb"
+                }
+              ]
+            },
+            {
+              "body": "Romanian F-16s shot down two jet-powered Geran attack drones after they entered the country’s airspace over its territorial waters, Romania’s Defence Ministry said.\n\nThe drones were downed southeast and east of Sulina. The ministry said one spent two minutes in Romanian airspace and the other five minutes.",
+              "candidate_id": "romania-f16s-down-two-geran-drones",
+              "headline": "Romanian jets shoot down two attack drones",
+              "sources": [
+                {
+                  "name": "Romanian Ministry of National Defence",
+                  "url": "https://www.mapn.ro/cpresa/19446_informa%C8%9Bie-de-presa-%E2%80%93-update"
+                }
+              ]
+            },
+            {
+              "body": "At least 19 people died and 25 were injured in a crowd crush at a Durga Puja pavilion in north Kolkata, officials said.\n\nThe crush occurred Saturday night as people near the religious festival site sought shelter from rain.",
+              "candidate_id": "kolkata-durga-puja-crowd-crush",
+              "headline": "Kolkata festival crowd crush kills at least 19",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/ee803af1bef07fab3c1157974be2e876"
+                },
+                {
+                  "name": "Channel News Asia",
+                  "url": "https://www.channelnewsasia.com/asia/19-dead-25-hurt-in-stampede-india-religious-gathering-6468991"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0d79e839ea954fcc006ad47e57590c87d2b97d8ca07622f140",
+          "requestId": "req_113fa77fd7e84cb9b77736c41cc37c26",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1552,
+          "inputTokens": 3687,
+          "outputTokens": 2394,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-17",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 43293,
+          "attemptDurationMs": 43293,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
