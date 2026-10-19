@@ -273,13 +273,131 @@
         "request": {
           "fingerprint": "0aa584509b615df881304e1cb9a3e42cdd72daed64185138fdebdcdb4eb50ad4",
           "claimId": "47e8aed7-ba5b-4100-a873-e11ce2bb5de5",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-19T16:07:44.842Z",
           "responseId": "resp_0bc8b69b008109e5006ad64055306087d2bceb29f4d19a99bb"
         },
-        "result": null,
-        "observedAt": "2026-10-19T16:07:44.773Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "A Swedish appeals court convicted former national security adviser Henrik Landerholm of gross negligence in handling secret information, overturning his acquittal by a lower court. The case involved classified documents he left at a hotel in 2023. The court fined Landerholm 52,000 Swedish crowns; he had denied wrongdoing.",
+                "category": "justice",
+                "title": "Swedish court convicts former security adviser",
+                "event_date": "2026-10-19",
+                "candidate_id": "sweden-landerholm-secret-documents-conviction",
+                "geography": "Sweden",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/swedish-appeals-court-fines-ex-national-security-adviser-for-gross-negligence-ce785cdbd880f32c"
+                  }
+                ]
+              },
+              {
+                "summary": "Sweden's parliament speaker asked Centre Party leader Elisabeth Thand Ringqvist to explore forming a new government and gave her one week to consult other parties. The move followed parliament's rejection of Social Democratic leader Magdalena Andersson's proposed minority government amid disagreements within the centre-left majority.",
+                "category": "politics",
+                "title": "Centre Party leader asked to explore Swedish government",
+                "event_date": "2026-10-19",
+                "candidate_id": "sweden-centre-party-government-talks",
+                "geography": "Sweden",
+                "sources": [
+                  {
+                    "name": "Reuters via AOL",
+                    "url": "https://www.aol.com/articles/swedens-centre-party-leader-explore-113836000.html"
+                  }
+                ]
+              },
+              {
+                "summary": "France's central government asked some local authorities to impose partial curfews following weekend riots and looting. Prime Minister Sebastien Lecornu did not rule out a state of emergency but said localized measures were more appropriate for now and ruled out a blanket Paris curfew. The government did not specify which areas would impose curfews.",
+                "category": "government",
+                "title": "French government seeks localized curfews after riots",
+                "event_date": "2026-10-19",
+                "candidate_id": "france-local-curfews-riots",
+                "geography": "France",
+                "sources": [
+                  {
+                    "name": "Reuters via Business Recorder",
+                    "url": "https://www.brecorder.com/news/40444949/france-wants-curfews-in-some-areas-after-weekend-of-riots"
+                  }
+                ]
+              },
+              {
+                "summary": "An attack attributed by local authorities to Yemen's Iran-aligned Houthis killed 53 people and injured 200 at a government security-forces training camp in Shabwa province. Local authority sources said three ballistic missiles struck during an exercise. Reuters said it verified video showing casualties at the site.",
+                "category": "conflict",
+                "title": "Houthi attack kills 53 at Yemen training camp",
+                "event_date": "2026-10-19",
+                "candidate_id": "yemen-shabwa-training-camp-attack",
+                "geography": "Yemen",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/commodities-news/houthi-attack-kills-53-at-yemen-government-training-camp-officials-say-4957722"
+                  },
+                  {
+                    "name": "Reuters via Al-Monitor",
+                    "url": "https://www.al-monitor.com/originals/2026/10/houthi-attack-kills-53-yemen-government-training-camp-officials-say"
+                  }
+                ]
+              },
+              {
+                "summary": "Myanmar's military-backed government released rare photographs of detained former leader Aung San Suu Kyi and said officials had delivered two books, a sealed envelope and a diplomatic communication from Britain's King Charles. The release documented uncommon foreign contact with Suu Kyi, whose access to outside visitors has been tightly restricted.",
+                "category": "politics",
+                "title": "Myanmar releases rare photographs of Aung San Suu Kyi",
+                "event_date": "2026-10-19",
+                "candidate_id": "myanmar-suu-kyi-photos-king-charles",
+                "geography": "Myanmar",
+                "sources": [
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/19/myanmar-authorities-release-rare-images-of-aung-san-suu-kyi"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. Supreme Court declined to hear former National Labor Relations Board member Gwynne Wilcox's challenge to President Donald Trump's January 2025 dismissal of her. The justices left intact a lower-court ruling that the firing was a valid exercise of presidential authority.",
+                "category": "justice",
+                "title": "Supreme Court declines NLRB firing challenge",
+                "event_date": "2026-10-19",
+                "candidate_id": "us-supreme-court-wilcox-nlrb-firing",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/us-supreme-court-won-t-review-trump-s-firing-of-labor-board-member-ce785cdbda8af621"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-19"
+          },
+          "metadata": {
+            "responseId": "resp_0bc8b69b008109e5006ad64055306087d2bceb29f4d19a99bb",
+            "requestId": "req_4312a5484e384ef989c222d376c2100d",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2407,
+            "inputTokens": 50236,
+            "outputTokens": 3397,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-19",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 75191,
+            "attemptDurationMs": 75191,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-10-19T16:07:44.773Z",
+        "capturedAt": "2026-10-19T16:09:00.034Z"
       }
     ],
     "sift": null
