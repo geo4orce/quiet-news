@@ -1,0 +1,73 @@
+{
+  "edition_date": "2026-10-18",
+  "published_at": "2026-10-19T08:08:45.055Z",
+  "expires_at": "2026-10-20T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "U.S. resumes missile warnings for Ukraine",
+      "body": "Ukrainian President Volodymyr Zelenskyy said the United States had restored intelligence sharing used to warn Ukraine about incoming Russian ballistic missiles after blocking it for several days.\n\nPresident Donald Trump had previously said the United States never stopped sharing intelligence, leaving the duration and circumstances of any interruption disputed.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d"
+        },
+        {
+          "name": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/world-news/us-resumes-intelligencesharing-with-ukraine-after-pause-zelenskiy-says-4955947"
+        }
+      ]
+    },
+    {
+      "headline": "Drone attacks hit St. Petersburg oil sites",
+      "body": "An overnight Ukrainian drone attack caused fires at the Petersburg Oil Terminal, the Ruchi oil depot and other locations around St. Petersburg, according to Russian officials. The regional governor reported one person killed and five wounded.\n\nRussia’s Defense Ministry said air defenses destroyed 1,015 drones across several regions, occupied Crimea and the Black Sea. That unusually large count was not independently verified, and the extent of damage or disruption at the oil facilities was not disclosed.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d"
+        },
+        {
+          "name": "Reuters via Dubai Eye",
+          "url": "https://www.dubaieye1038.com/news/international/1-killed-5-injured-in-ukrainian-drone-attack-on-russia-governor-says/"
+        }
+      ]
+    },
+    {
+      "headline": "French protest arrests rise to 2,400",
+      "body": "French authorities raised the number of arrests following Saturday’s nationwide protests from roughly 400 to at least 2,400.\n\nPresident Emmanuel Macron condemned the rioting and looting in a televised address Sunday, blaming much of the violence on radical far-left groups. Police again used tear gas as demonstrators gathered in Paris.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/f5ce07c2ef46ad0c02c6ff7018532a59"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news"
+        }
+      ]
+    },
+    {
+      "headline": "U.S. extends deportation protection for two groups",
+      "body": "The Department of Homeland Security said Ukrainians and Sudanese enrolled in Temporary Protected Status will remain protected from deportation while the government makes final decisions about their programs.\n\nThe protections, which had been scheduled to end Monday, cover tens of thousands of Ukrainians and hundreds of Sudanese nationals.",
+      "sources": [
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/ukraine-sudan-immigrants-deportation-protections-tps/"
+        }
+      ]
+    },
+    {
+      "headline": "Canadian base fire kills four soldiers",
+      "body": "Four Canadian soldiers were killed and 39 people were injured when a grass fire spread rapidly during live-fire training at Canadian Forces Base Wainwright in Alberta. Nineteen of the injured were in critical condition.\n\nMaj. Gen. Wade Rutland said officials had known about the fire for hours but believed it was sufficiently contained to continue training. After winds shifted, the flames traveled about one kilometer in 36 seconds. Investigators had not determined how the fire started.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/canada-alberta-military-base-fire-wainwright-1a41899da5b6e797b000061fa4da9c6a"
+        },
+        {
+          "name": "Prime Minister of Canada",
+          "url": "https://www.pm.gc.ca/en/news/speeches/2026/10/18/prime-minister-carney-delivers-remarks-following-tragedy-cfb-wainwright"
+        }
+      ]
+    }
+  ]
+}
