@@ -79,13 +79,125 @@
         "request": {
           "fingerprint": "b824cbcc2d3f44aeea77eabf7f94dd2a99d07010ff338400a7b87bb69cf0a238",
           "claimId": "7d6152db-11b8-46d4-a2a4-274c0759f369",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-19T10:07:47.829Z",
           "responseId": "resp_0728eff3f4d62eed006ad5ebf7b92c87d2a77a73f79bcdb64e"
         },
-        "result": null,
-        "observedAt": "2026-10-19T10:07:47.801Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Australian independent federal lawmaker Helen Haines was critically injured when a sport utility vehicle struck her outside her electorate office in Wangaratta, Victoria, during the afternoon. Police arrested the 43-year-old driver and found a knife inside the vehicle. Prime Minister Anthony Albanese described the collision as deliberate, while police said the motive remained under investigation.",
+                "category": "politics",
+                "title": "Australian lawmaker critically injured in vehicle attack",
+                "event_date": "2026-10-19",
+                "candidate_id": "australia-haines-vehicle-attack",
+                "geography": "Australia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/da7cd6758cfd082e0a52ee49ab1aedd9"
+                  },
+                  {
+                    "name": "Reuters via AOL",
+                    "url": "https://www.aol.com/articles/australia-pm-says-independent-mp-081611000.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Twelve migrants, including an infant, died in two incidents involving speedboats near the Greek islands of Lesbos and Samos. Greek authorities said one boat collided with a coast guard vessel during a pursuit and another overturned after a sudden maneuver. Twenty-two people survived, searches continued, and two alleged smugglers were arrested. The circumstances of the collision off Lesbos remained under investigation.",
+                "category": "migration",
+                "title": "Twelve migrants die near Greek islands",
+                "event_date": "2026-10-19",
+                "candidate_id": "greece-migrant-boats-twelve-dead",
+                "geography": "Greece",
+                "sources": [
+                  {
+                    "name": "Reuters via 93.9 The Game",
+                    "url": "https://939thegame.com/2026/10/19/six-migrants-including-infant-die-after-boat-collision-off-greeces-lesvos/"
+                  },
+                  {
+                    "name": "Kathimerini",
+                    "url": "https://www.ekathimerini.com/news/1318592/12-migrants-die-trying-to-reach-greek-islands-from-turkey/"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.N. World Food Programme said funding shortages were forcing it to reduce planned monthly food or cash assistance in Gaza from 1.6 million people to 1.1 million. The agency said the cuts would leave about 500,000 people without monthly assistance while roughly two-thirds of Gaza's population remained acutely food insecure.",
+                "category": "humanitarian",
+                "title": "World Food Programme cuts Gaza assistance",
+                "event_date": "2026-10-19",
+                "candidate_id": "wfp-gaza-aid-cuts",
+                "geography": "Gaza Strip",
+                "sources": [
+                  {
+                    "name": "Reuters via Al-Monitor",
+                    "url": "https://www.al-monitor.com/originals/2026/10/world-food-programme-cuts-aid-500000-palestinians-gaza-citing-funding-shortages"
+                  }
+                ]
+              },
+              {
+                "summary": "The Philippine foreign ministry summoned Chinese Ambassador Jing Quan to object to remarks it said conveyed a threat to use force. Jing had said China would “easily win” a conflict between the countries while responding to criticism of Beijing's conduct in the disputed South China Sea. China maintained that it preferred peace.",
+                "category": "diplomacy",
+                "title": "Philippines summons Chinese ambassador over remarks",
+                "event_date": "2026-10-19",
+                "candidate_id": "philippines-summons-china-envoy",
+                "geography": "Philippines and China",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/3a668bb7fdd1013a35eee30bfa6c2dc4"
+                  },
+                  {
+                    "name": "Channel News Asia",
+                    "url": "https://www.channelnewsasia.com/asia/philippines-summons-chinese-ambassador-threat-6471136"
+                  }
+                ]
+              },
+              {
+                "summary": "Uber said it won dismissal of two linked British lawsuits valued at about £340 million that were brought by thousands of London black-cab drivers and two former private-hire companies. The claimants had alleged that Uber provided misleading information when obtaining its London private-hire operating license.",
+                "category": "business",
+                "title": "Uber wins dismissal of UK taxi lawsuits",
+                "event_date": "2026-10-19",
+                "candidate_id": "uber-uk-taxi-lawsuits-dismissed",
+                "geography": "United Kingdom",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Reuters/Uber%2Bwins%2Bbid%2Bto%2Bthrow%2Bout%2BUK%2Bmass%2Blawsuit%2Bby%2Bblack%2Bcab%2Bdrivers/27199940.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-19"
+          },
+          "metadata": {
+            "responseId": "resp_0728eff3f4d62eed006ad5ebf7b92c87d2a77a73f79bcdb64e",
+            "requestId": "req_c0e20c62c873459e8a7dce315185b04d",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2346,
+            "inputTokens": 61054,
+            "outputTokens": 2724,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-19",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 64505,
+            "attemptDurationMs": 64505,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-10-19T10:07:47.801Z",
+        "capturedAt": "2026-10-19T10:08:52.335Z"
       }
     ],
     "sift": null
