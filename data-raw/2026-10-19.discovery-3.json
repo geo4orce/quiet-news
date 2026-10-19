@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-19",
+  "batch": 3,
+  "captured_at": "2026-10-19T22:09:03.779Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Florida authorities secured a state arrest warrant for former Cuban President Raúl Castro on one count of conspiracy to commit first-degree murder in connection with Cuba's 1996 shootdown of two Brothers to the Rescue aircraft, which killed four people. Castro, who was federally indicted over the same incident in May, has not been tried, and the state charge remains an allegation.",
+        "category": "justice",
+        "title": "Florida issues arrest warrant for Raúl Castro",
+        "event_date": "2026-10-19",
+        "candidate_id": "florida-raul-castro-arrest-warrant",
+        "geography": "United States and Cuba",
+        "sources": [
+          {
+            "name": "Florida Department of Law Enforcement",
+            "url": "https://www.fdle.state.fl.us/news/2026/october/icymi-attorney-general-james-uthmeier-secures-state-arrest-warrant-for-raul-castro"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/2575bf98dcceb57d9f806d4d7a91b023"
+          }
+        ]
+      },
+      {
+        "summary": "Japan launched its uncrewed Martian Moons eXploration spacecraft aboard an H3 rocket from Tanegashima Space Center at 19:41 UTC. The mission is intended to study Mars's moons, collect at least 10 grams of material from Phobos and return the samples to Earth in 2031. If completed, it would be the first sample-return mission from the Martian system.",
+        "category": "science",
+        "title": "Japan launches Mars-moon sample-return mission",
+        "event_date": "2026-10-19",
+        "candidate_id": "japan-mmx-phobos-mission-launch",
+        "geography": "Japan",
+        "sources": [
+          {
+            "name": "Japan Aerospace Exploration Agency",
+            "url": "https://www.mmx.jaxa.jp/en/"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/fb51fbbf90374631e8ae658f9ca46154"
+          },
+          {
+            "name": "Reuters via KTWB",
+            "url": "https://ktwb.com/2026/10/19/japan-launches-mission-to-return-samples-from-mars-moon/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-19"
+  },
+  "metadata": {
+    "responseId": "resp_0dce3b91164ea9f7006ad694b423c487d2a7c9cf466c962467",
+    "requestId": "req_e018132b8fa24e0087d87aa3c1c04c66",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2262,
+    "inputTokens": 61849,
+    "outputTokens": 2620,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-19",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 79782,
+    "attemptDurationMs": 79782,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
