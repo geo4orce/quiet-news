@@ -656,10 +656,10 @@
       "request": {
         "fingerprint": "1699a0bbfe449e24ec8b8c2fa6036a7083afb4d9e6923e690c6f08bf92e8aa5e",
         "claimId": "ddbfa0fe-84f0-4db5-a1e6-bd7dbf2664a3",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-19T08:07:55.111Z",
-        "responseId": null
+        "responseId": "resp_06f44c221377b3d2006ad5cfde73d887d29684b5a4493923cb"
       },
       "result": null
     }
