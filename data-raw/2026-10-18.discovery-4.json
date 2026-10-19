@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-18",
+  "batch": 4,
+  "captured_at": "2026-10-19T07:08:59.782Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Maj. Gen. Wade Rutland said military officials knew about the grass fire for hours and believed it was sufficiently contained for live-fire training to continue before winds shifted, sending flames about one kilometer in 36 seconds. Four soldiers from the 3rd Battalion, Princess Patricia’s Canadian Light Infantry, were killed. Of 39 injured people, 19 were critical, eight stable and 12 ambulatory. Investigators had not determined what ignited the fire.",
+        "category": "disaster",
+        "title": "Military details rapid spread of deadly Wainwright fire",
+        "event_date": "2026-10-18",
+        "candidate_id": "wainwright-base-fire-casualty-update",
+        "geography": "Alberta, Canada",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/canada-alberta-military-base-fire-wainwright-1a41899da5b6e797b000061fa4da9c6a"
+          },
+          {
+            "name": "Prime Minister of Canada",
+            "url": "https://www.pm.gc.ca/en/news/speeches/2026/10/18/prime-minister-carney-delivers-remarks-following-tragedy-cfb-wainwright"
+          }
+        ]
+      },
+      {
+        "summary": "Ukrainian President Volodymyr Zelenskyy said U.S. intelligence sharing used to warn Ukraine about incoming Russian ballistic missiles was working again after being blocked for several days. President Donald Trump had previously said the United States had not stopped sharing intelligence.",
+        "category": "conflict",
+        "title": "Zelenskyy says U.S. intelligence sharing has resumed",
+        "event_date": "2026-10-18",
+        "candidate_id": "us-ukraine-intelligence-sharing-resumes",
+        "geography": "United States and Ukraine",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/us-resumes-intelligencesharing-with-ukraine-after-pause-zelenskiy-says-4955947"
+          }
+        ]
+      },
+      {
+        "summary": "A drone crossed Lithuania after apparently entering from Poland, prompting air alerts and the deployment of NATO fighters before it came down in the northern Pasvalys district. Debris damaged the door of a moving car, but no one was injured. Ukraine apologized and said Russian electronic warfare may have diverted the drone during an operation against targets in Russia; Lithuanian authorities were investigating its route and origin.",
+        "category": "conflict",
+        "title": "Drone crosses Lithuania and damages moving car",
+        "event_date": "2026-10-18",
+        "candidate_id": "drone-crosses-lithuania-damages-car",
+        "geography": "Lithuania",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d"
+          },
+          {
+            "name": "LRT",
+            "url": "https://www.lrt.lt/naujienos/lietuvoje/2/3086101/pasvalio-rajono-gyventojas-isejau-i-lauka-isgirdau-naikintuvus-po-5-minuciu-sprogimas"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/lithuania-told-residents-to-go-to-shelters-after-detecting-a-flying-object-4955846"
+          }
+        ]
+      },
+      {
+        "summary": "A Saudi AH-6i reconnaissance helicopter crashed in the Najran region, killing its two National Guard officer crew members. The Saudi-led coalition attributed the crash to a technical malfunction. Yemen’s Houthis separately claimed they had shot down a Saudi Apache helicopter near the border; the coalition rejected that account.",
+        "category": "conflict",
+        "title": "Saudi military helicopter crash kills two officers",
+        "event_date": "2026-10-18",
+        "candidate_id": "saudi-helicopter-crash-najran",
+        "geography": "Najran, Saudi Arabia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-17-2026-aaf6d7e5367f99869eaf4b419c66e0df"
+          },
+          {
+            "name": "Saudi Gazette",
+            "url": "https://saudigazette.com.sa/article/665507/saudi-arabia/two-saudi-national-guard-officers-die-in-helicopter-crash-in-najran"
+          },
+          {
+            "name": "Qatar News Agency",
+            "url": "https://qna.org.qa/en/news/news-details?date=18%2F10%2F2026&id=coalition-two-saudi-national-guard-officers-martyred-in-helicopter-crash-in-najran"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-18"
+  },
+  "metadata": {
+    "responseId": "resp_07b08c5979305f92006ad5c1c556c087d29726efef0abeb04e",
+    "requestId": "req_818aa91e21c24be6be3661e6f432f095",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1934,
+    "inputTokens": 66974,
+    "outputTokens": 2967,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-18",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 74507,
+    "attemptDurationMs": 74507,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
