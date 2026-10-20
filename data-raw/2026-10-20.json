@@ -441,10 +441,10 @@
         "request": {
           "fingerprint": "91e6d0e03462b30c12e21b5b6ae1a1e84fb4169be15423015805e9891e6e8b17",
           "claimId": "95b71b15-4a8e-4dab-9e87-f01e9afb8065",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-20T22:07:48.793Z",
-          "responseId": null
+          "responseId": "resp_083720dcb8bfd2bb006ad7e6391f6887d293ba70a719cc5622"
         },
         "result": null,
         "observedAt": "2026-10-20T22:07:48.708Z"
