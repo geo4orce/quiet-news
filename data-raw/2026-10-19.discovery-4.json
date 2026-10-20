@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-19",
+  "batch": 4,
+  "captured_at": "2026-10-20T07:09:07.510Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Australian independent lawmaker Helen Haines remained in critical condition after undergoing overnight surgery following Monday's deliberate vehicle attack in Wangaratta. ABC News confirmed that one leg was amputated. Officials said the vehicle struck Haines, reversed and hit her again before a bystander restrained the driver. Counterterrorism authorities were participating in the investigation, but police had not established a motive or filed charges.",
+        "category": "politics",
+        "title": "Australian lawmaker loses leg after vehicle attack",
+        "event_date": "2026-10-19",
+        "candidate_id": "australia-haines-vehicle-attack",
+        "geography": "Australia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/d25a79269b7b6fd0349f3102c151dbdf"
+          },
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Australian%2Blawmaker%2Bloses%2Bleg%2Bafter%2Bvehicle%2Battack%2Bbeing%2Bprobed%2Bby%2Banti-terror%2Bpolice/27204970.html"
+          },
+          {
+            "name": "ABC News Australia",
+            "url": "https://www.abc.net.au/news/2026-10-20/live-blog-victoria-indi-mp-helen-haines-attacked-wangaratta/107285252"
+          }
+        ]
+      },
+      {
+        "summary": "Paris police imposed an overnight curfew at Place de la République and in the Les Halles shopping district following weekend rioting and looting. Entry and presence were prohibited from 11 p.m. Monday to 6 a.m. Tuesday, with gatherings banned from 8 p.m. Authorities in Lille and several other northern cities also imposed temporary curfews on minors, as did Nice.",
+        "category": "government",
+        "title": "Paris imposes localized curfews after riots",
+        "event_date": "2026-10-19",
+        "candidate_id": "france-local-curfews-riots",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/france-protests-riots-looting-75825aafc5412ae389c6d41443b4082e"
+          },
+          {
+            "name": "Reuters via Business Recorder",
+            "url": "https://www.brecorder.com/news/40444949/france-wants-curfews-in-some-areas-after-weekend-of-riots"
+          }
+        ]
+      },
+      {
+        "summary": "Shabwa Governor Awad al-Wazir raised the reported death toll from a Houthi attack on a government security-forces training camp to 58, with more than 200 injured and 14 missing. Local authority sources said three ballistic missiles struck the Al-Alam camp during a training exercise. Houthi military spokesperson Yahya Saree acknowledged targeting the camp, which he described as Saudi-run.",
+        "category": "conflict",
+        "title": "Houthi attack kills 58 at Yemen training camp",
+        "event_date": "2026-10-19",
+        "candidate_id": "yemen-shabwa-training-camp-attack",
+        "geography": "Yemen",
+        "sources": [
+          {
+            "name": "Reuters via Al-Monitor",
+            "url": "https://www.al-monitor.com/originals/2026/10/houthi-attack-kills-58-yemen-government-training-camp-governor-says"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/yemen-houthi-rebels-government-camp-attack"
+          }
+        ]
+      },
+      {
+        "summary": "A collapse at an unlicensed gold mine in the rural Chambero area of Santa Bárbara de Iscuandé killed 14 people and injured seven, according to authorities in Colombia's Nariño department. Governor Luis Alfonso Escobar said search-and-rescue operations had concluded and called for faster formalization of small-scale and unlicensed mines to improve safety.",
+        "category": "disaster",
+        "title": "Colombia mine collapse kills 14",
+        "event_date": "2026-10-19",
+        "candidate_id": "colombia-narino-mine-collapse",
+        "geography": "Colombia",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/14%2Bdead,%2B7%2Binjured%2Bin%2BColombia%2Billegal%2Bgold%2Bmine%2Bcollapse/27205041.html"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. Justice Department announced federal charges against 28 lawful permanent residents in California, alleging offenses including fraudulent voter registration, voting by a noncitizen and false statements in naturalization proceedings. Eleven defendants were arrested Monday. The cases involve voting or registration in elections from 2002 through 2026; the complaints, indictments and information contain allegations, and the defendants are presumed innocent.",
+        "category": "justice",
+        "title": "Justice Department charges 28 California residents with election crimes",
+        "event_date": "2026-10-19",
+        "candidate_id": "us-california-election-crime-charges",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Department of Justice",
+            "url": "https://www.justice.gov/opa/pr/justice-department-charges-28-foreign-nationals-california-election-crimes"
+          }
+        ]
+      },
+      {
+        "summary": "A Kenyan court convicted doomsday preacher Paul Mackenzie and 28 associates of murdering 190 children and one adult in the Shakahola Forest. The court found that Mackenzie's followers were ordered to starve themselves and their children, with guards preventing victims from escaping or eating. More than 400 bodies have been recovered in the wider investigation. Sentencing was scheduled for November 6.",
+        "category": "justice",
+        "title": "Kenyan starvation-cult leader convicted of 191 murders",
+        "event_date": "2026-10-19",
+        "candidate_id": "kenya-shakahola-cult-murder-convictions",
+        "geography": "Kenya",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/e5b97df7e995c1ea59b92d211fb3a5c0"
+          },
+          {
+            "name": "The Standard",
+            "url": "https://www.standardmedia.co.ke/coast/article/2001560467/mackenzi-guilty-of-murder-of-191-people-in-shakahola-forest"
+          },
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/kenyan-starvation-cult-leader-found-guilty-of-murder-of-191-children-one-adult-ce785cdbdd89f123"
+          }
+        ]
+      },
+      {
+        "summary": "A Russian drone struck a central park in Nova Vodolaha in Ukraine's Kharkiv region, killing six people, including three children, according to Ukrainian officials. Fifteen people were injured, including seven children. The park was occupied by families at the time, and preliminary findings cited by regional prosecutors identified the weapon as a Geran-3 drone. Russia had not commented on the specific strike.",
+        "category": "conflict",
+        "title": "Drone strike on Ukrainian park kills six",
+        "event_date": "2026-10-19",
+        "candidate_id": "ukraine-nova-vodolaha-park-strike",
+        "geography": "Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/russian-attack-kills-six-at-park-in-kharkiv-region-including-three-children-ukraine-says-ce785cdbdd8bf72d"
+          },
+          {
+            "name": "Ukrainska Pravda",
+            "url": "https://www.pravda.com.ua/eng/news/2026/10/19/8058772/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-19"
+  },
+  "metadata": {
+    "responseId": "resp_0ecd57b0314f887b006ad71346fd0c87d2946e6fae42dc4ca9",
+    "requestId": "req_341ec9eb921d4f198c9aa575b5b93338",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2162,
+    "inputTokens": 84052,
+    "outputTokens": 3741,
+    "webSearchCalls": 9,
+    "stage": "discovery",
+    "targetDate": "2026-10-19",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 80704,
+    "attemptDurationMs": 80704,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
