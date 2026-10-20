@@ -255,13 +255,105 @@
         "request": {
           "fingerprint": "436ce7b1df103024369d9f1ded479676b96e1cfe79a357f0eaa5a8b86b49fab7",
           "claimId": "a909eba9-1e0c-4a51-ba79-b227ef702972",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-20T16:07:45.267Z",
           "responseId": "resp_0d8f4befea37ea76006ad791d5a7dc87d299d8312a19f9f83f"
         },
-        "result": null,
-        "observedAt": "2026-10-20T16:07:45.178Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Unofficial results from Elections Alberta showed voters decisively rejecting the option to begin the legal process toward a binding referendum on separation from Canada. With more than 1.8 million votes counted and 81% of voting locations reporting, about 75% supported remaining in Canada and 25% supported beginning the separation process.",
+                "category": "politics",
+                "title": "Alberta voters decisively reject separation process",
+                "event_date": "2026-10-20",
+                "candidate_id": "alberta-referendum-rejects-separation",
+                "geography": "Alberta, Canada",
+                "sources": [
+                  {
+                    "name": "Elections Alberta",
+                    "url": "https://results.elections.ab.ca/8400"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/ed0d58ef051859ce12052e75d2d6e8a0"
+                  },
+                  {
+                    "name": "Reuters via Yahoo News Malaysia",
+                    "url": "https://malaysia.news.yahoo.com/alberta-votes-leaving-canada-separatist-100455731.html"
+                  }
+                ]
+              },
+              {
+                "summary": "A senior Yemeni government official said the death toll from the previous day's Houthi ballistic-missile strike on the Al-Alam military training camp had risen from 58 to 73. The official said all those killed were new recruits and more than 200 people were injured.",
+                "category": "conflict",
+                "title": "Death toll from Houthi strike on Yemen camp rises to 73",
+                "event_date": "2026-10-20",
+                "candidate_id": "yemen-camp-strike-toll-rises-73",
+                "geography": "Shabwa province, Yemen",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/8a036054a8f0cd38ff8ee0101947f708"
+                  },
+                  {
+                    "name": "Reuters via Al-Monitor",
+                    "url": "https://www.al-monitor.com/originals/2026/10/houthi-attack-kills-58-yemen-government-training-camp-governor-says"
+                  }
+                ]
+              },
+              {
+                "summary": "The United Kingdom announced additional defensive military support for Saudi Arabia amid escalating Houthi attacks. RAF Typhoon fighters will fly defensive counter-air missions over Saudi territory, while an A400M transport aircraft and British military advisers will also be deployed. The UK government said the Typhoons would not conduct offensive strikes against the Houthis.",
+                "category": "conflict",
+                "title": "UK expands defensive military support for Saudi Arabia",
+                "event_date": "2026-10-20",
+                "candidate_id": "uk-expands-saudi-defensive-support",
+                "geography": "United Kingdom and Saudi Arabia",
+                "sources": [
+                  {
+                    "name": "UK Ministry of Defence",
+                    "url": "https://www.gov.uk/government/news/operational-update-20-october-uk-military-support-to-the-kingdom-of-saudi-arabia"
+                  },
+                  {
+                    "name": "UK Parliament",
+                    "url": "https://questions-statements.parliament.uk/written-statements/detail/2026-10-20/hcws394"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/3e56f4679565c985fd036302168a4f79"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-20"
+          },
+          "metadata": {
+            "responseId": "resp_0d8f4befea37ea76006ad791d5a7dc87d299d8312a19f9f83f",
+            "requestId": "req_4ffd26e246b046c49f4daad7c4af1e24",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1763,
+            "inputTokens": 53219,
+            "outputTokens": 2133,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-20",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 75458,
+            "attemptDurationMs": 75458,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-10-20T16:07:45.178Z",
+        "capturedAt": "2026-10-20T16:09:00.725Z"
       }
     ],
     "sift": null
