@@ -91,10 +91,10 @@
         "request": {
           "fingerprint": "afd771a59b957ae87b76c097086338ef4ced1c3fe028b991e24cd035f19e31aa",
           "claimId": "ade871c1-5f1b-4860-9227-eeefa4d1a31e",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-20T10:07:42.779Z",
-          "responseId": null
+          "responseId": "resp_01a3dd78e60331e5006ad73d72860487d2beb02d63b1b5bc53"
         },
         "result": null,
         "observedAt": "2026-10-20T10:07:42.739Z"
