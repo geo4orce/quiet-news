@@ -168,6 +168,100 @@
         },
         "observedAt": "2026-10-20T10:07:42.739Z",
         "capturedAt": "2026-10-20T10:08:36.061Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Australian lawmaker loses leg after vehicle attack",
+            "body": "Australian independent lawmaker Helen Haines was in critical condition after surgery and the amputation of one leg following a deliberate vehicle attack in Wangaratta.\n\nOfficials said the vehicle struck Haines, reversed and hit her again before a bystander restrained the driver. Counterterrorism authorities were helping investigate, but police had not established a motive or filed charges.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/d25a79269b7b6fd0349f3102c151dbdf"
+              },
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Australian%2Blawmaker%2Bloses%2Bleg%2Bafter%2Bvehicle%2Battack%2Bbeing%2Bprobed%2Bby%2Banti-terror%2Bpolice/27204970.html"
+              },
+              {
+                "name": "ABC News Australia",
+                "url": "https://www.abc.net.au/news/2026-10-20/live-blog-victoria-indi-mp-helen-haines-attacked-wangaratta/107285252"
+              }
+            ]
+          },
+          {
+            "headline": "Japan launches mission to sample Mars moon",
+            "body": "Japan launched its uncrewed Martian Moons eXploration spacecraft aboard an H3 rocket from Tanegashima Space Center.\n\nThe mission is designed to study Mars’s moons, collect at least 10 grams of material from Phobos and return it to Earth in 2031. If successful, it would be the first sample return from the Martian system.",
+            "sources": [
+              {
+                "name": "Japan Aerospace Exploration Agency",
+                "url": "https://www.mmx.jaxa.jp/en/"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/fb51fbbf90374631e8ae658f9ca46154"
+              },
+              {
+                "name": "Reuters via KTWB",
+                "url": "https://ktwb.com/2026/10/19/japan-launches-mission-to-return-samples-from-mars-moon/"
+              }
+            ]
+          },
+          {
+            "headline": "Kenyan cult members convicted of 191 murders",
+            "body": "A Kenyan court convicted preacher Paul Mackenzie and 28 associates of murdering 190 children and one adult in the Shakahola Forest.\n\nThe court found that Mackenzie’s followers were ordered to starve themselves and their children, while guards prevented victims from escaping or eating. More than 400 bodies have been recovered during the wider investigation. Sentencing was set for November 6.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/e5b97df7e995c1ea59b92d211fb3a5c0"
+              },
+              {
+                "name": "The Standard",
+                "url": "https://www.standardmedia.co.ke/coast/article/2001560467/mackenzi-guilty-of-murder-of-191-people-in-shakahola-forest"
+              },
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/kenyan-starvation-cult-leader-found-guilty-of-murder-of-191-children-one-adult-ce785cdbdd89f123"
+              }
+            ]
+          },
+          {
+            "headline": "WFP drops 500,000 people from Gaza aid",
+            "body": "The U.N. World Food Programme said funding shortages were forcing it to reduce planned monthly food or cash assistance in Gaza from 1.6 million people to 1.1 million.\n\nThe reduction leaves about 500,000 people without monthly assistance while roughly two-thirds of Gaza’s population remains acutely food insecure, according to the agency.",
+            "sources": [
+              {
+                "name": "Reuters via Al-Monitor",
+                "url": "https://www.al-monitor.com/originals/2026/10/world-food-programme-cuts-aid-500000-palestinians-gaza-citing-funding-shortages"
+              }
+            ]
+          },
+          {
+            "headline": "Houthi attack kills 58 at Yemen camp",
+            "body": "Three ballistic missiles struck a government security-forces training camp in Yemen’s Shabwa province, killing 58 people and injuring more than 200, according to the provincial governor. Fourteen people remained missing.\n\nThe Houthis acknowledged targeting the Al-Alam camp, which they described as Saudi-run.",
+            "sources": [
+              {
+                "name": "Reuters via Al-Monitor",
+                "url": "https://www.al-monitor.com/originals/2026/10/houthi-attack-kills-58-yemen-government-training-camp-governor-says"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/yemen-houthi-rebels-government-camp-attack"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "436ce7b1df103024369d9f1ded479676b96e1cfe79a357f0eaa5a8b86b49fab7",
+          "claimId": "a909eba9-1e0c-4a51-ba79-b227ef702972",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-20T16:07:45.267Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-20T16:07:45.178Z"
       }
     ],
     "sift": null
