@@ -441,13 +441,97 @@
         "request": {
           "fingerprint": "91e6d0e03462b30c12e21b5b6ae1a1e84fb4169be15423015805e9891e6e8b17",
           "claimId": "95b71b15-4a8e-4dab-9e87-f01e9afb8065",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-20T22:07:48.793Z",
           "responseId": "resp_083720dcb8bfd2bb006ad7e6391f6887d293ba70a719cc5622"
         },
-        "result": null,
-        "observedAt": "2026-10-20T22:07:48.708Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Abyei's caretaker information minister said the confirmed death toll from Monday's drone strike on Amiet Market had risen from 73 to 153 as fires and recovery efforts continued. He blamed Sudan's military but provided no evidence, and Sudan's military had not responded. The strike hit a fuel-selling area in the territory disputed by Sudan and South Sudan.",
+                "category": "conflict",
+                "title": "Toll from Abyei market drone strike rises to 153",
+                "event_date": "2026-10-20",
+                "candidate_id": "abyei-market-strike-toll-153",
+                "geography": "Abyei, Sudan–South Sudan border",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/f36b3c7d15be6b48efdc35eed7219d6d"
+                  },
+                  {
+                    "name": "Reuters via AnewZ",
+                    "url": "https://anewz.tv/world/world-news/25706/south-sudan-and-sudan-army-drone-attack-in-abyei/news"
+                  }
+                ]
+              },
+              {
+                "summary": "NATO said it would send additional maritime patrol aircraft, radar systems, drones, intelligence personnel and forensic teams to the Black Sea following deadly attacks on merchant shipping. NATO did not attribute the recent attacks to a country. The announcement followed a North Atlantic Council discussion of regional security.",
+                "category": "conflict",
+                "title": "NATO adds surveillance assets in Black Sea",
+                "event_date": "2026-10-20",
+                "candidate_id": "nato-adds-black-sea-surveillance-assets",
+                "geography": "Black Sea region",
+                "sources": [
+                  {
+                    "name": "Reuters via AOL",
+                    "url": "https://www.aol.com/articles/nato-send-planes-drones-black-163632000.html"
+                  },
+                  {
+                    "name": "The Guardian",
+                    "url": "https://www.theguardian.com/world/2026/oct/20/nato-black-sea-deployment-escalating-russian-attacks-ships"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukrainian President Volodymyr Zelenskyy said Kyiv was again receiving allied early warnings about incoming Russian ballistic missiles after a call with U.S. Secretary of State Marco Rubio. Zelenskyy had said the warnings were absent for at least a week. Rubio acknowledged frustrations over intelligence and weapons supplies but said U.S. policy had not changed and denied a deliberate directive to harm Ukraine.",
+                "category": "conflict",
+                "title": "Zelenskyy says allied missile warnings have resumed",
+                "event_date": "2026-10-20",
+                "candidate_id": "ukraine-missile-early-warnings-resume",
+                "geography": "Ukraine, United States and Norway",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-zelenskyy-norway-trump-rubio-witkoff-140895c6c0a1682c46f4fe197e056996"
+                  },
+                  {
+                    "name": "The Guardian",
+                    "url": "https://www.theguardian.com/world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-20"
+          },
+          "metadata": {
+            "responseId": "resp_083720dcb8bfd2bb006ad7e6391f6887d293ba70a719cc5622",
+            "requestId": "req_6d0e19df4f6943599005c57f8ba6074f",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1771,
+            "inputTokens": 52442,
+            "outputTokens": 2372,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-20",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 54046,
+            "attemptDurationMs": 54046,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-10-20T22:07:48.708Z",
+        "capturedAt": "2026-10-20T22:08:42.840Z"
       }
     ],
     "sift": null
