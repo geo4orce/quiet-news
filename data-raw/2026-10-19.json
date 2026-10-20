@@ -870,10 +870,10 @@
       "request": {
         "fingerprint": "ba778d1bab94940f3fb8c8131ab37ec1b9878bcc60a054ab204caf85d05ebd66",
         "claimId": "1b3cee24-b04b-4657-b5cf-edaa93e20f52",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-20T08:07:44.382Z",
-        "responseId": null
+        "responseId": "resp_010de413fa19af63006ad721548a3487d2908f0aa8d442ab6b"
       },
       "result": null
     }
