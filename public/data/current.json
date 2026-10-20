@@ -1,71 +1,83 @@
 {
-  "edition_date": "2026-10-18",
-  "published_at": "2026-10-19T08:08:45.055Z",
-  "expires_at": "2026-10-20T09:00:00.000Z",
+  "edition_date": "2026-10-19",
+  "published_at": "2026-10-20T08:08:35.022Z",
+  "expires_at": "2026-10-21T09:00:00.000Z",
   "stories": [
     {
-      "headline": "U.S. resumes missile warnings for Ukraine",
-      "body": "Ukrainian President Volodymyr Zelenskyy said the United States had restored intelligence sharing used to warn Ukraine about incoming Russian ballistic missiles after blocking it for several days.\n\nPresident Donald Trump had previously said the United States never stopped sharing intelligence, leaving the duration and circumstances of any interruption disputed.",
+      "headline": "Australian lawmaker loses leg after vehicle attack",
+      "body": "Australian independent lawmaker Helen Haines was in critical condition after surgery and the amputation of one leg following a deliberate vehicle attack in Wangaratta.\n\nOfficials said the vehicle struck Haines, reversed and hit her again before a bystander restrained the driver. Counterterrorism authorities were helping investigate, but police had not established a motive or filed charges.",
       "sources": [
         {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d"
+          "url": "https://apnews.com/article/d25a79269b7b6fd0349f3102c151dbdf"
         },
         {
-          "name": "Reuters via Investing.com",
-          "url": "https://www.investing.com/news/world-news/us-resumes-intelligencesharing-with-ukraine-after-pause-zelenskiy-says-4955947"
+          "name": "Reuters via StreetInsider",
+          "url": "https://www.streetinsider.com/Reuters/Australian%2Blawmaker%2Bloses%2Bleg%2Bafter%2Bvehicle%2Battack%2Bbeing%2Bprobed%2Bby%2Banti-terror%2Bpolice/27204970.html"
+        },
+        {
+          "name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-10-20/live-blog-victoria-indi-mp-helen-haines-attacked-wangaratta/107285252"
         }
       ]
     },
     {
-      "headline": "Drone attacks hit St. Petersburg oil sites",
-      "body": "An overnight Ukrainian drone attack caused fires at the Petersburg Oil Terminal, the Ruchi oil depot and other locations around St. Petersburg, according to Russian officials. The regional governor reported one person killed and five wounded.\n\nRussia’s Defense Ministry said air defenses destroyed 1,015 drones across several regions, occupied Crimea and the Black Sea. That unusually large count was not independently verified, and the extent of damage or disruption at the oil facilities was not disclosed.",
+      "headline": "Japan launches mission to sample Mars moon",
+      "body": "Japan launched its uncrewed Martian Moons eXploration spacecraft aboard an H3 rocket from Tanegashima Space Center.\n\nThe mission is designed to study Mars’s moons, collect at least 10 grams of material from Phobos and return it to Earth in 2031. If successful, it would be the first sample return from the Martian system.",
       "sources": [
         {
-          "name": "Associated Press",
-          "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d"
+          "name": "Japan Aerospace Exploration Agency",
+          "url": "https://www.mmx.jaxa.jp/en/"
         },
         {
-          "name": "Reuters via Dubai Eye",
-          "url": "https://www.dubaieye1038.com/news/international/1-killed-5-injured-in-ukrainian-drone-attack-on-russia-governor-says/"
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/fb51fbbf90374631e8ae658f9ca46154"
+        },
+        {
+          "name": "Reuters via KTWB",
+          "url": "https://ktwb.com/2026/10/19/japan-launches-mission-to-return-samples-from-mars-moon/"
         }
       ]
     },
     {
-      "headline": "French protest arrests rise to 2,400",
-      "body": "French authorities raised the number of arrests following Saturday’s nationwide protests from roughly 400 to at least 2,400.\n\nPresident Emmanuel Macron condemned the rioting and looting in a televised address Sunday, blaming much of the violence on radical far-left groups. Police again used tear gas as demonstrators gathered in Paris.",
+      "headline": "Kenyan cult members convicted of 191 murders",
+      "body": "A Kenyan court convicted preacher Paul Mackenzie and 28 associates of murdering 190 children and one adult in the Shakahola Forest.\n\nThe court found that Mackenzie’s followers were ordered to starve themselves and their children, while guards prevented victims from escaping or eating. More than 400 bodies have been recovered during the wider investigation. Sentencing was set for November 6.",
       "sources": [
         {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/f5ce07c2ef46ad0c02c6ff7018532a59"
+          "url": "https://apnews.com/article/e5b97df7e995c1ea59b92d211fb3a5c0"
         },
         {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news"
+          "name": "The Standard",
+          "url": "https://www.standardmedia.co.ke/coast/article/2001560467/mackenzi-guilty-of-murder-of-191-people-in-shakahola-forest"
+        },
+        {
+          "name": "Reuters via MarketScreener",
+          "url": "https://www.marketscreener.com/news/kenyan-starvation-cult-leader-found-guilty-of-murder-of-191-children-one-adult-ce785cdbdd89f123"
         }
       ]
     },
     {
-      "headline": "U.S. extends deportation protection for two groups",
-      "body": "The Department of Homeland Security said Ukrainians and Sudanese enrolled in Temporary Protected Status will remain protected from deportation while the government makes final decisions about their programs.\n\nThe protections, which had been scheduled to end Monday, cover tens of thousands of Ukrainians and hundreds of Sudanese nationals.",
+      "headline": "WFP drops 500,000 people from Gaza aid",
+      "body": "The U.N. World Food Programme said funding shortages were forcing it to reduce planned monthly food or cash assistance in Gaza from 1.6 million people to 1.1 million.\n\nThe reduction leaves about 500,000 people without monthly assistance while roughly two-thirds of Gaza’s population remains acutely food insecure, according to the agency.",
       "sources": [
         {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/news/ukraine-sudan-immigrants-deportation-protections-tps/"
+          "name": "Reuters via Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/10/world-food-programme-cuts-aid-500000-palestinians-gaza-citing-funding-shortages"
         }
       ]
     },
     {
-      "headline": "Canadian base fire kills four soldiers",
-      "body": "Four Canadian soldiers were killed and 39 people were injured when a grass fire spread rapidly during live-fire training at Canadian Forces Base Wainwright in Alberta. Nineteen of the injured were in critical condition.\n\nMaj. Gen. Wade Rutland said officials had known about the fire for hours but believed it was sufficiently contained to continue training. After winds shifted, the flames traveled about one kilometer in 36 seconds. Investigators had not determined how the fire started.",
+      "headline": "Houthi attack kills 58 at Yemen camp",
+      "body": "Three ballistic missiles struck a government security-forces training camp in Yemen’s Shabwa province, killing 58 people and injuring more than 200, according to the provincial governor. Fourteen people remained missing.\n\nThe Houthis acknowledged targeting the Al-Alam camp, which they described as Saudi-run.",
       "sources": [
         {
-          "name": "Associated Press",
-          "url": "https://apnews.com/article/canada-alberta-military-base-fire-wainwright-1a41899da5b6e797b000061fa4da9c6a"
+          "name": "Reuters via Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/10/houthi-attack-kills-58-yemen-government-training-camp-governor-says"
         },
         {
-          "name": "Prime Minister of Canada",
-          "url": "https://www.pm.gc.ca/en/news/speeches/2026/10/18/prime-minister-carney-delivers-remarks-following-tragedy-cfb-wainwright"
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/yemen-houthi-rebels-government-camp-attack"
         }
       ]
     }
