@@ -255,10 +255,10 @@
         "request": {
           "fingerprint": "436ce7b1df103024369d9f1ded479676b96e1cfe79a357f0eaa5a8b86b49fab7",
           "claimId": "a909eba9-1e0c-4a51-ba79-b227ef702972",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-20T16:07:45.267Z",
-          "responseId": null
+          "responseId": "resp_0d8f4befea37ea76006ad791d5a7dc87d299d8312a19f9f83f"
         },
         "result": null,
         "observedAt": "2026-10-20T16:07:45.178Z"
