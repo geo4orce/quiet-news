@@ -91,13 +91,83 @@
         "request": {
           "fingerprint": "afd771a59b957ae87b76c097086338ef4ced1c3fe028b991e24cd035f19e31aa",
           "claimId": "ade871c1-5f1b-4860-9227-eeefa4d1a31e",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-20T10:07:42.779Z",
           "responseId": "resp_01a3dd78e60331e5006ad73d72860487d2beb02d63b1b5bc53"
         },
-        "result": null,
-        "observedAt": "2026-10-20T10:07:42.739Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "CBC News projected that Alberta voters rejected starting the legal process toward a binding referendum on separation from Canada after about one-third of ballots had been counted. The province’s first separation referendum was nonbinding and offered voters a choice between remaining in Canada and initiating that process.",
+                "category": "politics",
+                "title": "Alberta voters reject separation process in referendum",
+                "event_date": "2026-10-20",
+                "candidate_id": "alberta-referendum-rejects-separation",
+                "geography": "Alberta, Canada",
+                "sources": [
+                  {
+                    "name": "Reuters via Yahoo News Malaysia",
+                    "url": "https://malaysia.news.yahoo.com/alberta-votes-leaving-canada-separatist-100455731.html"
+                  },
+                  {
+                    "name": "Reuters via Quews News",
+                    "url": "https://quews.news/alberta-votes-to-remain/"
+                  }
+                ]
+              },
+              {
+                "summary": "A Russian drone struck morning traffic near a shopping center in Chabany on the Kyiv–Odesa highway, setting vehicles on fire and killing three people, according to Ukrainian prosecutors. Four others were wounded, and emergency crews restricted traffic while authorities investigated and verified the preliminary casualty count.",
+                "category": "conflict",
+                "title": "Russian drone strike kills three on Kyiv–Odesa highway",
+                "event_date": "2026-10-20",
+                "candidate_id": "kyiv-odesa-highway-drone-strike",
+                "geography": "Kyiv region, Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Yahoo News Malaysia",
+                    "url": "https://malaysia.news.yahoo.com/russian-drone-strike-kills-three-090304671.html"
+                  },
+                  {
+                    "name": "Kyiv Post",
+                    "url": "https://www.kyivpost.com/post/87594"
+                  },
+                  {
+                    "name": "National Police of Ukraine",
+                    "url": "https://npu.gov.ua/news/chetvero-zahyblykh-27-travmovanykh-sered-nykh-dity-politseiski-kyivshchyny-dokumentuiut-naslidky-vorozhykh-obstriliv?v=6ad70d459bd26"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-20"
+          },
+          "metadata": {
+            "responseId": "resp_01a3dd78e60331e5006ad73d72860487d2beb02d63b1b5bc53",
+            "requestId": "req_6bb94f7421a44997a326dd89e33575fe",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1998,
+            "inputTokens": 54428,
+            "outputTokens": 2400,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-20",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 53281,
+            "attemptDurationMs": 53281,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-10-20T10:07:42.739Z",
+        "capturedAt": "2026-10-20T10:08:36.061Z"
       }
     ],
     "sift": null
