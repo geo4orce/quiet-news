@@ -299,13 +299,133 @@
         "request": {
           "fingerprint": "9963036aebe19ed8cb4b7f3135742ca7422f168b2b4daa2477d1c24e18237f47",
           "claimId": "c9a5b950-6e01-4b23-8d2a-77df16a87578",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-21T16:07:53.639Z",
           "responseId": "resp_01529f78392d760e006ad8e35e0cf487d28d29c7560ff83f19"
         },
-        "result": null,
-        "observedAt": "2026-10-21T16:07:53.577Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The PHP project released PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 to fix two critical vulnerabilities that could allow unauthenticated remote code execution. Government agencies in several countries temporarily took websites or services offline while preparing patches. PHP urged all users to update immediately.",
+                "category": "technology",
+                "title": "PHP releases fixes for two critical remote-code vulnerabilities",
+                "event_date": "2026-10-21",
+                "candidate_id": "php-critical-rce-security-release",
+                "geography": "Global",
+                "sources": [
+                  {
+                    "name": "PHP",
+                    "url": "https://www.php.net/?=PHPE9568F35-D428-11d2-A769-00AA001ACF42"
+                  },
+                  {
+                    "name": "The PHP Foundation",
+                    "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
+                  },
+                  {
+                    "name": "The National",
+                    "url": "https://www.thenationalnews.com/future/technology/2026/10/21/what-is-php-update-security/"
+                  }
+                ]
+              },
+              {
+                "summary": "Georgia's Constitutional Court began three days of hearings on the ruling Georgian Dream party's request to ban five major pro-Western opposition parties. The government argues that the parties threaten the constitutional order; opposition figures and civil-society groups say the case would eliminate political competition. The court must issue its final, non-appealable ruling by June 2027.",
+                "category": "politics",
+                "title": "Georgian court hears bid to ban five opposition parties",
+                "event_date": "2026-10-21",
+                "candidate_id": "georgia-opposition-party-ban-hearing",
+                "geography": "Georgia",
+                "sources": [
+                  {
+                    "name": "Reuters via Euronext",
+                    "url": "https://live.euronext.com/en/financial-news/georgian-court-begins-hearing-lawsuit-seeking-ban-major-opposition-parties"
+                  },
+                  {
+                    "name": "Batumelebi",
+                    "url": "https://batumelebi.netgazeti.ge/articles-in-english/642915/"
+                  }
+                ]
+              },
+              {
+                "summary": "A ruling AK Party lawmaker told Reuters that Turkey plans to seek parliamentary authority to deploy military personnel to Saudi Arabia under its joint defense agreement with Saudi Arabia and Pakistan. The lawmaker said the mandate would be submitted only after parliament approves a bill ratifying the agreement, meaning a deployment has not yet been authorized.",
+                "category": "international affairs",
+                "title": "Turkey plans parliamentary mandate for possible Saudi deployment",
+                "event_date": "2026-10-21",
+                "candidate_id": "turkey-saudi-deployment-mandate-plan",
+                "geography": "Turkey; Saudi Arabia; Pakistan",
+                "sources": [
+                  {
+                    "name": "Reuters via WSAU",
+                    "url": "https://wsau.com/2026/10/21/turkey-planning-mandate-to-send-military-personnel-to-saudi-arabia-under-mecca-pact-ruling-party-official-says/"
+                  }
+                ]
+              },
+              {
+                "summary": "Egypt rejected the eastern Libyan parliament's ratification of a 2019 maritime-boundary agreement with Turkey, saying the decision had no legal effect on Egypt and conflicted with its declared maritime boundaries. Israel also condemned the ratification, while Greece had objected Tuesday. Turkey maintains that the agreement is valid; the competing claims concern maritime jurisdiction and energy exploration in the eastern Mediterranean.",
+                "category": "international affairs",
+                "title": "Egypt rejects Libya-Turkey maritime agreement ratification",
+                "event_date": "2026-10-21",
+                "candidate_id": "egypt-rejects-libya-turkey-maritime-deal",
+                "geography": "Egypt; Libya; Turkey; Eastern Mediterranean",
+                "sources": [
+                  {
+                    "name": "Reuters via WHBL",
+                    "url": "https://whbl.com/2026/10/21/israel-strongly-condemns-libyan-approval-of-maritime-deal-with-turkey/"
+                  },
+                  {
+                    "name": "Ahram Online",
+                    "url": "https://english.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=580555"
+                  }
+                ]
+              },
+              {
+                "summary": "French President Emmanuel Macron said authorities would prevent a repeat of violence during further protests planned after the previous weekend's unrest. Speaking in Qatar, he also accused foreign leaders, including U.S. President Donald Trump, of spreading misleading claims that blamed Muslim migrants for the riots. Macron said information had been manipulated after the unrest but did not allege foreign involvement in the violence itself.",
+                "category": "politics",
+                "title": "Macron vows order and rejects foreign claims about French unrest",
+                "event_date": "2026-10-21",
+                "candidate_id": "macron-response-france-unrest-foreign-claims",
+                "geography": "France",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/b46829a8161a4d152124642fd275f595"
+                  },
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://au.investing.com/news/world-news/french-government-faces-fresh-test-as-yellow-vests-mobilise-4704142"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-21"
+          },
+          "metadata": {
+            "responseId": "resp_01529f78392d760e006ad8e35e0cf487d28d29c7560ff83f19",
+            "requestId": "req_78d05fcfdbf640698c32171e0e4ea03b",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1756,
+            "inputTokens": 57418,
+            "outputTokens": 2697,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-21",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 149194,
+            "attemptDurationMs": 149194,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-10-21T16:07:53.577Z",
+        "capturedAt": "2026-10-21T16:10:22.834Z"
       }
     ],
     "sift": null
