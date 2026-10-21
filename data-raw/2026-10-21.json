@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-21",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Abyei market strike toll exceeds 220",
+            "body": "Local authorities said more than 220 people were killed in Monday’s drone strike on Amiet Market, raising an earlier count of 153 as recovery work continued.\n\nThe strike ignited fuel stores in the market. Abyei officials blamed Sudan’s military, which had not publicly responded to the accusation, leaving responsibility unconfirmed.",
+            "sources": [
+              {
+                "name": "Sudans Post",
+                "url": "https://www.sudanspost.com/abyei-drone-attack-death-toll-reaches-220/"
+              },
+              {
+                "name": "Eye Radio",
+                "url": "https://eyeradio.org/death-toll-from-abyei-market-drone-strike-rises-to-more-than-220/"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/f36b3c7d15be6b48efdc35eed7219d6d"
+              }
+            ]
+          },
+          {
+            "headline": "Nigeria confirms imported Ebola case",
+            "body": "Nigeria confirmed that a woman who recently arrived in Abuja from Uganda had Ebola disease caused by the Bundibugyo virus. She received care at a private hospital before laboratory testing confirmed the infection.\n\nAuthorities isolated the patient and began tracing contacts and monitoring health workers. No secondary infections were reported in the supplied information.",
+            "sources": [
+              {
+                "name": "Nigeria Federal Ministry of Health and Social Welfare",
+                "url": "https://health.gov.ng/fg-confirms-ebola-disease-case-in-fct-activates-public-health-response/"
+              },
+              {
+                "name": "World Health Organization Regional Office for Africa",
+                "url": "https://www.afro.who.int/countries/nigeria/news/nigeria-confirms-imported-case-ebola-bundibugyo-virus-disease"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/d39e454fbe1be1243e4e39fb46939f62"
+              }
+            ]
+          },
+          {
+            "headline": "Alberta rejects path toward separation from Canada",
+            "body": "Alberta voters decisively rejected starting the legal process that could have led to a binding referendum on leaving Canada.\n\nWith more than 1.8 million votes counted and 81% of voting locations reporting, unofficial results showed about 75% favored remaining in Canada and 25% supported beginning the separation process.",
+            "sources": [
+              {
+                "name": "Elections Alberta",
+                "url": "https://results.elections.ab.ca/8400"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/ed0d58ef051859ce12052e75d2d6e8a0"
+              },
+              {
+                "name": "Reuters via Yahoo News Malaysia",
+                "url": "https://malaysia.news.yahoo.com/alberta-votes-leaving-canada-separatist-100455731.html"
+              }
+            ]
+          },
+          {
+            "headline": "UK expands air defense support for Saudi Arabia",
+            "body": "The United Kingdom is adding RAF Typhoon patrols over Saudi territory after escalating Houthi attacks. An A400M transport aircraft and British military advisers will also be deployed.\n\nThe British government described the patrols as defensive counter-air missions and said its fighters would not conduct offensive strikes against the Houthis.",
+            "sources": [
+              {
+                "name": "UK Ministry of Defence",
+                "url": "https://www.gov.uk/government/news/operational-update-20-october-uk-military-support-to-the-kingdom-of-saudi-arabia"
+              },
+              {
+                "name": "UK Parliament",
+                "url": "https://questions-statements.parliament.uk/written-statements/detail/2026-10-20/hcws394"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/3e56f4679565c985fd036302168a4f79"
+              }
+            ]
+          },
+          {
+            "headline": "NATO expands Black Sea surveillance",
+            "body": "NATO said it would send more maritime patrol aircraft, radar systems, drones and intelligence personnel to the Black Sea following deadly attacks on merchant ships. Forensic teams will also help investigate the incidents.\n\nThe alliance did not attribute the recent attacks to any country.",
+            "sources": [
+              {
+                "name": "Reuters via AOL",
+                "url": "https://www.aol.com/articles/nato-send-planes-drones-black-163632000.html"
+              },
+              {
+                "name": "The Guardian",
+                "url": "https://www.theguardian.com/world/2026/oct/20/nato-black-sea-deployment-escalating-russian-attacks-ships"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "aafd883d42e1502a601e00eeeadd81c634a9789c1ebf9e3ffd0348d5d13844c5",
+          "claimId": "71c9630f-4268-4ae3-a6cd-651055bc4958",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-21T10:07:41.575Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-21T10:07:41.501Z"
+      }
+    ],
+    "sift": null
+  }
+}
