@@ -918,10 +918,10 @@
       "request": {
         "fingerprint": "443b6bb00351a07b93e4c2a008cb5958c5ce311b26f2d349ac07d86eb768fff2",
         "claimId": "3c39d27a-6032-47ac-b39b-b0b94eea8fec",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-21T08:07:46.599Z",
-        "responseId": null
+        "responseId": "resp_0e72318cbd477f82006ad872d636d487d29cb96659d2440767"
       },
       "result": null
     }
