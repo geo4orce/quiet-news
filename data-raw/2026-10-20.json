@@ -619,10 +619,10 @@
         "request": {
           "fingerprint": "6b295b105cb96a3515de3af14a6fb0ec949e5a524386df360516fa816339ff21",
           "claimId": "26ea78bd-4b06-4c0b-afa1-72a8e65cdecc",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-21T07:07:44.860Z",
-          "responseId": null
+          "responseId": "resp_0aa2f7b53146945c006ad864c590d087d28ffd8b9393456069"
         },
         "result": null,
         "observedAt": "2026-10-21T07:07:44.761Z"
