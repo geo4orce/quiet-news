@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-21",
+  "batch": 3,
+  "captured_at": "2026-10-21T22:08:37.182Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Egypt, Israel and the European Union rejected the eastern Libyan parliament's ratification of a 2019 maritime-boundary agreement with Turkey, while Greece had objected Tuesday. The EU said the agreement infringes the sovereign rights of third states, does not comply with the Law of the Sea and cannot create legal consequences for them. Turkey maintains that the agreement is valid; the competing claims concern maritime jurisdiction and energy exploration in the eastern Mediterranean.",
+        "category": "international affairs",
+        "title": "EU joins objections to Libya-Turkey maritime agreement ratification",
+        "event_date": "2026-10-21",
+        "candidate_id": "egypt-rejects-libya-turkey-maritime-deal",
+        "geography": "European Union; Egypt; Libya; Turkey; Eastern Mediterranean",
+        "sources": [
+          {
+            "name": "Council of the European Union",
+            "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/21/libyaturkiye-statement-by-the-high-representative-on-behalf-of-the-eu-on-the-ratification-of-the-libya-turkiye-mou-by-libya-s-house-of-representatives/"
+          },
+          {
+            "name": "Reuters via WHBL",
+            "url": "https://whbl.com/2026/10/21/israel-strongly-condemns-libyan-approval-of-maritime-deal-with-turkey/"
+          },
+          {
+            "name": "Ahram Online",
+            "url": "https://english.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=580555"
+          }
+        ]
+      },
+      {
+        "summary": "The United States sanctioned the Panama- and Greece-based law firm Karnakis and Karnakis, five associated people, a ship-management company, seven cargo vessels and shipping agents in Singapore and Dubai. The Treasury Department alleged that the targets helped conceal ownership or transport Iranian petroleum, petrochemicals and steel, including commodities benefiting Iranian military entities and the Houthis. The designations block property under U.S. jurisdiction and generally prohibit transactions by U.S. persons.",
+        "category": "international affairs",
+        "title": "US sanctions legal and shipping network over Iranian trade",
+        "event_date": "2026-10-21",
+        "candidate_id": "us-sanctions-iran-shadow-fleet-facilitators",
+        "geography": "United States; Iran; Panama; Greece; Singapore; United Arab Emirates",
+        "sources": [
+          {
+            "name": "U.S. Department of the Treasury",
+            "url": "https://home.treasury.gov/news/press-releases/sb0664"
+          },
+          {
+            "name": "U.S. Department of State",
+            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/unmasking-service-providers-facilitating-irans-shadow-fleet-operations/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-21"
+  },
+  "metadata": {
+    "responseId": "resp_0a8baa7ae8ee7037006ad937ad54bc87d29b60e967b7755d3c",
+    "requestId": "req_8396447fc07b479389c3deffec91b56a",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1323,
+    "inputTokens": 51363,
+    "outputTokens": 1794,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-21",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 59478,
+    "attemptDurationMs": 59478,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
