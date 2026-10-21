@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-21",
+  "batch": 1,
+  "captured_at": "2026-10-21T10:08:45.093Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Russia released retired American teacher Stephen Hubbard, who had been sentenced in 2024 to nearly seven years on mercenary charges that he denied. President Vladimir Putin told U.S. envoy Steve Witkoff during Ukraine-war talks in St. Petersburg that Hubbard was at the airport awaiting his return to the United States. The U.S. government had designated Hubbard as wrongfully detained.",
+        "category": "international affairs",
+        "title": "Russia releases detained American during Putin-Witkoff talks",
+        "event_date": "2026-10-21",
+        "candidate_id": "russia-releases-stephen-hubbard",
+        "geography": "Russia; United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/2c7e34d6606be242ed4a7473e57110c7"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/putin-hosts-trump-envoy-for-new-ukraine-peace-talks-frees-us-citizen-held-in-russia-4962103"
+          }
+        ]
+      },
+      {
+        "summary": "The UK Office for National Statistics said annual consumer-price inflation rose to 3.5% in September from 3.1% in August, the highest rate since October 2025 and above economists' median forecast of 3.4%. Transport costs, particularly motor fuels, made the largest upward contribution. Core CPI increased to 2.8% from 2.6%.",
+        "category": "economy",
+        "title": "UK inflation rises to 3.5%",
+        "event_date": "2026-10-21",
+        "candidate_id": "uk-september-inflation-2026",
+        "geography": "United Kingdom",
+        "sources": [
+          {
+            "name": "UK Office for National Statistics",
+            "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/september2026"
+          },
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/uk-inflation-picks-up-more-than-expected-to-3-5-in-september-ce785cd8de8df72d"
+          }
+        ]
+      },
+      {
+        "summary": "The UK Office for National Statistics provisionally estimated public-sector net debt at £3.005 trillion at the end of September, exceeding £3 trillion for the first time. Debt equaled 94% of gross domestic product, 0.7 percentage points lower than a year earlier. September borrowing was £24.5 billion, £1.8 billion more than a year earlier and £1.9 billion above the official forecast.",
+        "category": "economy",
+        "title": "UK public debt provisionally exceeds £3 trillion",
+        "event_date": "2026-10-21",
+        "candidate_id": "uk-debt-exceeds-three-trillion",
+        "geography": "United Kingdom",
+        "sources": [
+          {
+            "name": "UK Office for National Statistics",
+            "url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/september2026"
+          },
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/uk-borrows-more-than-expected-again-debt-hits-3-trillion-ce785cd8de8cf722"
+          }
+        ]
+      },
+      {
+        "summary": "Doctors amputated Australian federal lawmaker Helen Haines' right leg after abandoning efforts to save it, her husband said; her left leg had been amputated Monday. Haines remained in critical but stable condition after being repeatedly struck by a vehicle in Wangaratta. A man charged over the incident appeared in court Wednesday, did not seek bail or enter a plea, and remained in custody. Police had not established a motive.",
+        "category": "politics",
+        "title": "Australian lawmaker loses both legs after vehicle attack",
+        "event_date": "2026-10-21",
+        "candidate_id": "helen-haines-amputations",
+        "geography": "Australia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/c7c1691a1e308b2bdbede5e4d56d2852"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-21"
+  },
+  "metadata": {
+    "responseId": "resp_0d0741d52bd765a5006ad88ef1983487d286a2dc73d4a9e599",
+    "requestId": "req_cc21c9ee60f749018428e176275f61f0",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1834,
+    "inputTokens": 56747,
+    "outputTokens": 2651,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-21",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 63517,
+    "attemptDurationMs": 63517,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
