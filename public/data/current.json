@@ -1,83 +1,91 @@
 {
-  "edition_date": "2026-10-19",
-  "published_at": "2026-10-20T08:08:35.022Z",
-  "expires_at": "2026-10-21T09:00:00.000Z",
+  "edition_date": "2026-10-20",
+  "published_at": "2026-10-21T08:08:36.749Z",
+  "expires_at": "2026-10-22T09:00:00.000Z",
   "stories": [
     {
-      "headline": "Australian lawmaker loses leg after vehicle attack",
-      "body": "Australian independent lawmaker Helen Haines was in critical condition after surgery and the amputation of one leg following a deliberate vehicle attack in Wangaratta.\n\nOfficials said the vehicle struck Haines, reversed and hit her again before a bystander restrained the driver. Counterterrorism authorities were helping investigate, but police had not established a motive or filed charges.",
+      "headline": "Abyei market strike toll exceeds 220",
+      "body": "Local authorities said more than 220 people were killed in Monday’s drone strike on Amiet Market, raising an earlier count of 153 as recovery work continued.\n\nThe strike ignited fuel stores in the market. Abyei officials blamed Sudan’s military, which had not publicly responded to the accusation, leaving responsibility unconfirmed.",
       "sources": [
         {
+          "name": "Sudans Post",
+          "url": "https://www.sudanspost.com/abyei-drone-attack-death-toll-reaches-220/"
+        },
+        {
+          "name": "Eye Radio",
+          "url": "https://eyeradio.org/death-toll-from-abyei-market-drone-strike-rises-to-more-than-220/"
+        },
+        {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/d25a79269b7b6fd0349f3102c151dbdf"
-        },
-        {
-          "name": "Reuters via StreetInsider",
-          "url": "https://www.streetinsider.com/Reuters/Australian%2Blawmaker%2Bloses%2Bleg%2Bafter%2Bvehicle%2Battack%2Bbeing%2Bprobed%2Bby%2Banti-terror%2Bpolice/27204970.html"
-        },
-        {
-          "name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-20/live-blog-victoria-indi-mp-helen-haines-attacked-wangaratta/107285252"
+          "url": "https://apnews.com/article/f36b3c7d15be6b48efdc35eed7219d6d"
         }
       ]
     },
     {
-      "headline": "Japan launches mission to sample Mars moon",
-      "body": "Japan launched its uncrewed Martian Moons eXploration spacecraft aboard an H3 rocket from Tanegashima Space Center.\n\nThe mission is designed to study Mars’s moons, collect at least 10 grams of material from Phobos and return it to Earth in 2031. If successful, it would be the first sample return from the Martian system.",
+      "headline": "Nigeria confirms imported Ebola case",
+      "body": "Nigeria confirmed that a woman who recently arrived in Abuja from Uganda had Ebola disease caused by the Bundibugyo virus. She received care at a private hospital before laboratory testing confirmed the infection.\n\nAuthorities isolated the patient and began tracing contacts and monitoring health workers. No secondary infections were reported in the supplied information.",
       "sources": [
         {
-          "name": "Japan Aerospace Exploration Agency",
-          "url": "https://www.mmx.jaxa.jp/en/"
+          "name": "Nigeria Federal Ministry of Health and Social Welfare",
+          "url": "https://health.gov.ng/fg-confirms-ebola-disease-case-in-fct-activates-public-health-response/"
+        },
+        {
+          "name": "World Health Organization Regional Office for Africa",
+          "url": "https://www.afro.who.int/countries/nigeria/news/nigeria-confirms-imported-case-ebola-bundibugyo-virus-disease"
         },
         {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/fb51fbbf90374631e8ae658f9ca46154"
-        },
-        {
-          "name": "Reuters via KTWB",
-          "url": "https://ktwb.com/2026/10/19/japan-launches-mission-to-return-samples-from-mars-moon/"
+          "url": "https://apnews.com/article/d39e454fbe1be1243e4e39fb46939f62"
         }
       ]
     },
     {
-      "headline": "Kenyan cult members convicted of 191 murders",
-      "body": "A Kenyan court convicted preacher Paul Mackenzie and 28 associates of murdering 190 children and one adult in the Shakahola Forest.\n\nThe court found that Mackenzie’s followers were ordered to starve themselves and their children, while guards prevented victims from escaping or eating. More than 400 bodies have been recovered during the wider investigation. Sentencing was set for November 6.",
+      "headline": "Alberta rejects path toward separation from Canada",
+      "body": "Alberta voters decisively rejected starting the legal process that could have led to a binding referendum on leaving Canada.\n\nWith more than 1.8 million votes counted and 81% of voting locations reporting, unofficial results showed about 75% favored remaining in Canada and 25% supported beginning the separation process.",
       "sources": [
         {
+          "name": "Elections Alberta",
+          "url": "https://results.elections.ab.ca/8400"
+        },
+        {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/e5b97df7e995c1ea59b92d211fb3a5c0"
+          "url": "https://apnews.com/article/ed0d58ef051859ce12052e75d2d6e8a0"
         },
         {
-          "name": "The Standard",
-          "url": "https://www.standardmedia.co.ke/coast/article/2001560467/mackenzi-guilty-of-murder-of-191-people-in-shakahola-forest"
-        },
-        {
-          "name": "Reuters via MarketScreener",
-          "url": "https://www.marketscreener.com/news/kenyan-starvation-cult-leader-found-guilty-of-murder-of-191-children-one-adult-ce785cdbdd89f123"
+          "name": "Reuters via Yahoo News Malaysia",
+          "url": "https://malaysia.news.yahoo.com/alberta-votes-leaving-canada-separatist-100455731.html"
         }
       ]
     },
     {
-      "headline": "WFP drops 500,000 people from Gaza aid",
-      "body": "The U.N. World Food Programme said funding shortages were forcing it to reduce planned monthly food or cash assistance in Gaza from 1.6 million people to 1.1 million.\n\nThe reduction leaves about 500,000 people without monthly assistance while roughly two-thirds of Gaza’s population remains acutely food insecure, according to the agency.",
+      "headline": "UK expands air defense support for Saudi Arabia",
+      "body": "The United Kingdom is adding RAF Typhoon patrols over Saudi territory after escalating Houthi attacks. An A400M transport aircraft and British military advisers will also be deployed.\n\nThe British government described the patrols as defensive counter-air missions and said its fighters would not conduct offensive strikes against the Houthis.",
       "sources": [
         {
-          "name": "Reuters via Al-Monitor",
-          "url": "https://www.al-monitor.com/originals/2026/10/world-food-programme-cuts-aid-500000-palestinians-gaza-citing-funding-shortages"
+          "name": "UK Ministry of Defence",
+          "url": "https://www.gov.uk/government/news/operational-update-20-october-uk-military-support-to-the-kingdom-of-saudi-arabia"
+        },
+        {
+          "name": "UK Parliament",
+          "url": "https://questions-statements.parliament.uk/written-statements/detail/2026-10-20/hcws394"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/3e56f4679565c985fd036302168a4f79"
         }
       ]
     },
     {
-      "headline": "Houthi attack kills 58 at Yemen camp",
-      "body": "Three ballistic missiles struck a government security-forces training camp in Yemen’s Shabwa province, killing 58 people and injuring more than 200, according to the provincial governor. Fourteen people remained missing.\n\nThe Houthis acknowledged targeting the Al-Alam camp, which they described as Saudi-run.",
+      "headline": "NATO expands Black Sea surveillance",
+      "body": "NATO said it would send more maritime patrol aircraft, radar systems, drones and intelligence personnel to the Black Sea following deadly attacks on merchant ships. Forensic teams will also help investigate the incidents.\n\nThe alliance did not attribute the recent attacks to any country.",
       "sources": [
         {
-          "name": "Reuters via Al-Monitor",
-          "url": "https://www.al-monitor.com/originals/2026/10/houthi-attack-kills-58-yemen-government-training-camp-governor-says"
+          "name": "Reuters via AOL",
+          "url": "https://www.aol.com/articles/nato-send-planes-drones-black-163632000.html"
         },
         {
-          "name": "Associated Press",
-          "url": "https://apnews.com/article/yemen-houthi-rebels-government-camp-attack"
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/20/nato-black-sea-deployment-escalating-russian-attacks-ships"
         }
       ]
     }
