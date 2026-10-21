@@ -619,13 +619,211 @@
         "request": {
           "fingerprint": "6b295b105cb96a3515de3af14a6fb0ec949e5a524386df360516fa816339ff21",
           "claimId": "26ea78bd-4b06-4c0b-afa1-72a8e65cdecc",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-21T07:07:44.860Z",
           "responseId": "resp_0aa2f7b53146945c006ad864c590d087d28ffd8b9393456069"
         },
-        "result": null,
-        "observedAt": "2026-10-21T07:07:44.761Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Local authorities said the death toll from Monday's drone strike on Amiet Market had risen to more than 220, up from the 153 reported earlier Tuesday. Recovery efforts were continuing after the strike ignited fuel stores. Abyei officials blamed Sudan's military, which had not publicly responded to the accusation.",
+                "category": "conflict",
+                "title": "Abyei market strike toll rises above 220",
+                "event_date": "2026-10-20",
+                "candidate_id": "abyei-market-strike-toll-153",
+                "geography": "Abyei, Sudan–South Sudan border",
+                "sources": [
+                  {
+                    "name": "Sudans Post",
+                    "url": "https://www.sudanspost.com/abyei-drone-attack-death-toll-reaches-220/"
+                  },
+                  {
+                    "name": "Eye Radio",
+                    "url": "https://eyeradio.org/death-toll-from-abyei-market-drone-strike-rises-to-more-than-220/"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/f36b3c7d15be6b48efdc35eed7219d6d"
+                  }
+                ]
+              },
+              {
+                "summary": "Libya's eastern-based House of Representatives unanimously approved a disputed 2019 maritime-boundary agreement with Turkey. The chamber also repealed 2020 resolutions that had rejected the agreement and called for severing political relations with Ankara. Greece rejected the deal, saying it violated international law.",
+                "category": "politics",
+                "title": "Eastern Libya parliament approves Turkey maritime deal",
+                "event_date": "2026-10-20",
+                "candidate_id": "eastern-libya-approves-turkey-maritime-deal",
+                "geography": "Libya, Turkey and eastern Mediterranean",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/c734515393b2eb9a9b66e69c21467831"
+                  },
+                  {
+                    "name": "The Libya Observer",
+                    "url": "https://libyaobserver.ly/news/libyan-hor-unanimously-approves-maritime-deal-turkey"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Eastern%2BLibya%2Bparliament%2Bapproves%2Bmaritime%2Bdeal%2Bwith%2BTurkey%2C%2Bdrawing%2BGreek%2Brejection/27207334.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Nigeria confirmed an imported case of Ebola disease caused by Bundibugyo virus in Abuja. The patient was a woman who had recently arrived on a flight from Uganda and had received care at a private hospital before laboratory confirmation. Authorities activated public-health response measures, including isolation, contact tracing and monitoring of health workers.",
+                "category": "health",
+                "title": "Nigeria confirms imported Ebola case in Abuja",
+                "event_date": "2026-10-20",
+                "candidate_id": "nigeria-confirms-imported-ebola-case",
+                "geography": "Abuja, Nigeria",
+                "sources": [
+                  {
+                    "name": "Nigeria Federal Ministry of Health and Social Welfare",
+                    "url": "https://health.gov.ng/fg-confirms-ebola-disease-case-in-fct-activates-public-health-response/"
+                  },
+                  {
+                    "name": "World Health Organization Regional Office for Africa",
+                    "url": "https://www.afro.who.int/countries/nigeria/news/nigeria-confirms-imported-case-ebola-bundibugyo-virus-disease"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/d39e454fbe1be1243e4e39fb46939f62"
+                  }
+                ]
+              },
+              {
+                "summary": "Kenya's Health Ministry confirmed a ninth Ebola infection. Officials said the patient was a close contact of the country's first confirmed patient and had tested positive while in quarantine. Kenya's initial case involved a traveler who arrived from the Democratic Republic of the Congo via Uganda and later died in Nairobi.",
+                "category": "health",
+                "title": "Kenya's confirmed Ebola cases rise to nine",
+                "event_date": "2026-10-20",
+                "candidate_id": "kenya-ebola-cases-rise-to-nine",
+                "geography": "Kenya",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/3d0ae7cfb2805aaf88755e752f5c80ea"
+                  },
+                  {
+                    "name": "U.S. Centers for Disease Control and Prevention",
+                    "url": "https://www.cdc.gov/ebola/situation-summary/index.html"
+                  },
+                  {
+                    "name": "Al Jazeera",
+                    "url": "https://www.aljazeera.com/news/2026/10/20/kenya-confirms-ninth-ebola-case"
+                  }
+                ]
+              },
+              {
+                "summary": "The European Commission and the EU's foreign-policy chief presented a new Arctic strategy emphasizing security, climate resilience and economic development. Proposed measures include increased satellite surveillance, monitoring of undersea cables, support for icebreaker purchases, a polar research hub and development of a Pan-Arctic communications cable linking Greenland with Europe.",
+                "category": "environment",
+                "title": "European Union presents new Arctic strategy",
+                "event_date": "2026-10-20",
+                "candidate_id": "eu-presents-new-arctic-strategy",
+                "geography": "European Union and Arctic region",
+                "sources": [
+                  {
+                    "name": "European Commission",
+                    "url": "https://commission.europa.eu/news-and-media/news/eu-strategy-rapidly-changing-arctic-2026-10-20_en"
+                  },
+                  {
+                    "name": "European Commission Digital Strategy",
+                    "url": "https://digital-strategy.ec.europa.eu/en/news/eu-sets-out-new-strategy-arctic"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/799fa8fff89f9c8cbf440fc53b37fc5d"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukrainian President Volodymyr Zelenskyy met U.S. envoy Steve Witkoff, Norwegian Prime Minister Jonas Gahr Støre and Finnish President Alexander Stubb in Oslo, with U.S. envoy Jared Kushner joining remotely. Norway said the talks covered Ukrainian security, postwar reconstruction and territorial issues and described the discussions as constructive. European and NATO security officials later joined a working dinner.",
+                "category": "conflict",
+                "title": "Ukraine and allies hold peace-framework talks in Oslo",
+                "event_date": "2026-10-20",
+                "candidate_id": "ukraine-allies-oslo-peace-talks",
+                "geography": "Oslo, Norway",
+                "sources": [
+                  {
+                    "name": "Norwegian Office of the Prime Minister",
+                    "url": "https://www.regjeringen.no/no/aktuelt/samtaler-om-veien-mot-fred-i-ukraina/id3179845/"
+                  },
+                  {
+                    "name": "Office of the President of Ukraine",
+                    "url": "https://www.president.gov.ua/en/news/v-oslo-prezident-ukrayini-proviv-zustrichi-z-premyer-ministr-106981"
+                  },
+                  {
+                    "name": "Reuters via ThePrint",
+                    "url": "https://theprint.in/world/us-envoy-witkoff-to-meet-putin-trump-presses-kyiv-to-settle/3077316/"
+                  }
+                ]
+              },
+              {
+                "summary": "Two dozen independent U.N. human-rights experts called for an investigation into Indian authorities' conduct during recent opposition and student protests. They cited reports of force against unarmed demonstrators, arbitrary detentions, assembly restrictions, surveillance and internet disruptions. India's Election Commission and governing party deny protesters' claims that revisions to voter lists unfairly removed eligible voters.",
+                "category": "human rights",
+                "title": "UN experts seek investigation of policing at India protests",
+                "event_date": "2026-10-20",
+                "candidate_id": "un-experts-india-protest-policing-probe",
+                "geography": "India",
+                "sources": [
+                  {
+                    "name": "Reuters via ThePrint",
+                    "url": "https://theprint.in/world/un-experts-urge-indian-authorities-to-cease-use-of-excessive-force-to-curb-protests/3077318/"
+                  },
+                  {
+                    "name": "The Tribune",
+                    "url": "https://www.tribuneindia.com/news/un-experts-want-independent-probe-into-police-action-on-protesters-in-india/"
+                  },
+                  {
+                    "name": "Al Jazeera",
+                    "url": "https://www.aljazeera.com/news/2026/10/21/un-experts-call-on-india-to-stop-using-excessive-force-against-protesters"
+                  }
+                ]
+              },
+              {
+                "summary": "Israeli strikes and gunfire killed at least four Palestinians in separate incidents in Gaza, according to health officials. An airstrike killed a married couple in a Gaza City apartment, while medics reported that Israeli gunfire killed a 17-year-old near Khan Younis and another person in eastern Gaza City.",
+                "category": "conflict",
+                "title": "Israeli fire kills at least four Palestinians in Gaza",
+                "event_date": "2026-10-20",
+                "candidate_id": "israeli-fire-kills-four-gaza-oct-20",
+                "geography": "Gaza Strip",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/israeli-fire-kills-four-people-in-gaza-medics-say-ce785cd8d98fff24"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-20"
+          },
+          "metadata": {
+            "responseId": "resp_0aa2f7b53146945c006ad864c590d087d28ffd8b9393456069",
+            "requestId": "req_2ad8878d061542a5b972a0d5f0eb43d5",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2788,
+            "inputTokens": 59291,
+            "outputTokens": 4636,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-10-20",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 90660,
+            "attemptDurationMs": 90660,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-10-21T07:07:44.761Z",
+        "capturedAt": "2026-10-21T07:09:15.521Z"
       }
     ],
     "sift": null
