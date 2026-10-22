@@ -153,13 +153,57 @@
         "request": {
           "fingerprint": "0db0f8c87b83e67668a185dbaa1d121b51357fee883a73bce742fdf45e79e7b2",
           "claimId": "478ecc18-3f1c-45bb-8f7e-ed57980122d4",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-22T16:07:46.916Z",
           "responseId": "resp_03c35a57d1739134006ada34d6d47c87d29fb175528fd4a733"
         },
-        "result": null,
-        "observedAt": "2026-10-22T16:07:46.869Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Federal prosecutors charged Virginia state Sen. L. Louise Lucas and six others with offenses including drug trafficking and money laundering. An indictment unsealed Thursday alleges that Lucas led an enterprise that acquired and distributed large quantities of marijuana and laundered proceeds. Lucas surrendered Thursday. Her legal defense fund called the case a political circus and said it was awaiting further details.",
+                "category": "law",
+                "title": "Virginia state senator charged in alleged marijuana conspiracy",
+                "event_date": "2026-10-22",
+                "candidate_id": "virginia-senator-lucas-indictment",
+                "geography": "Virginia, United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/l-louise-lucas-virginia-corruption-investigation-767ed83f970ba6dec48048dcff2a28d0"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-22"
+          },
+          "metadata": {
+            "responseId": "resp_03c35a57d1739134006ada34d6d47c87d29fb175528fd4a733",
+            "requestId": "req_3a742f073af84d81bdfa24bed7d67718",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1331,
+            "inputTokens": 56145,
+            "outputTokens": 1503,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-22",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 59024,
+            "attemptDurationMs": 59024,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-10-22T16:07:46.869Z",
+        "capturedAt": "2026-10-22T16:08:45.941Z"
       }
     ],
     "sift": null
