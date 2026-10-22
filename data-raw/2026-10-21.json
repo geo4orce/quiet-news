@@ -860,12 +860,117 @@
       "request": {
         "fingerprint": "44acbe0bd5e7c26527b2e7e700087a91b6fb537d34983c0d03103255196cfe0f",
         "claimId": "8328d6a5-4220-4172-84c0-426d0614f36a",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-22T08:07:44.807Z",
         "responseId": "resp_082982c794ecfc13006ad9c4547de887d280134235fedec7c2"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "egypt-rejects-libya-turkey-maritime-deal",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "georgia-opposition-party-ban-hearing",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "helen-haines-amputations",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "macron-response-france-unrest-foreign-claims",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "russia-releases-stephen-hubbard",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "turkey-saudi-deployment-mandate-plan",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "uk-debt-exceeds-three-trillion",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "uk-september-inflation-2026",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-sanctions-iran-shadow-fleet-facilitators",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Saudi civil aviation authorities said the late-Wednesday attack on King Fahd International Airport in Dammam killed one resident, injured eight people and caused material damage. Flights were diverted.\n\nAuthorities did not identify the attacker, and the Houthis had not commented. A Saudi-led coalition separately said it intercepted four drones over the Eastern Region.",
+              "candidate_id": "dammam-airport-attack-oct-21",
+              "headline": "Attack on Saudi airport kills one",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/riyadh-saudi-arabia-oil-facility-drones-01c03af3191263452376510a670e8bf7"
+                }
+              ]
+            },
+            {
+              "body": "The PHP project released PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 to fix two vulnerabilities that could let unauthenticated attackers execute code remotely. It urged all users to update.\n\nGovernment agencies in several countries temporarily took websites or services offline while preparing patches.",
+              "candidate_id": "php-critical-rce-security-release",
+              "headline": "PHP patches two critical code-execution flaws",
+              "sources": [
+                {
+                  "name": "PHP",
+                  "url": "https://www.php.net/?=PHPE9568F35-D428-11d2-A769-00AA001ACF42"
+                },
+                {
+                  "name": "The PHP Foundation",
+                  "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
+                },
+                {
+                  "name": "The National",
+                  "url": "https://www.thenationalnews.com/future/technology/2026/10/21/what-is-php-update-security/"
+                }
+              ]
+            },
+            {
+              "body": "The State Department directed nonessential personnel at the U.S. Embassy and satellite consulates in Saudi Arabia, along with families of government employees, to leave the country.\n\nThe order cited attacks on civilian airports and other infrastructure by Iranian-supported Houthis and warned that hostilities could escalate rapidly. U.S. embassies elsewhere in the Gulf will also make temporary staffing changes.",
+              "candidate_id": "us-orders-saudi-diplomatic-departures",
+              "headline": "U.S. orders some staff out of Saudi Arabia",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/us-saudi-arabia-yemen-houthis-fa9a4806bff404a23a16a8c209afbd2b"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_082982c794ecfc13006ad9c4547de887d280134235fedec7c2",
+          "requestId": "req_c56233bced75460db0d47449d27b7f64",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1411,
+          "inputTokens": 4268,
+          "outputTokens": 2125,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-21",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 32433,
+          "attemptDurationMs": 32433,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
