@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-21",
+  "batch": 4,
+  "captured_at": "2026-10-22T07:09:05.006Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Saudi Arabia’s civil aviation authority said an attack on King Fahd International Airport in Dammam late Wednesday killed one resident, injured eight people and caused material damage. Flights were diverted from the airport. Authorities did not identify the attacker; the Houthis had not commented, and a Saudi-led coalition separately reported intercepting four drones over the Eastern Region.",
+        "category": "international affairs",
+        "title": "Attack on eastern Saudi airport kills one and injures eight",
+        "event_date": "2026-10-21",
+        "candidate_id": "dammam-airport-attack-oct-21",
+        "geography": "Saudi Arabia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/riyadh-saudi-arabia-oil-facility-drones-01c03af3191263452376510a670e8bf7"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. State Department ordered nonessential personnel at its embassy and satellite consulates in Saudi Arabia, along with families of government employees, to leave the country. The department cited attacks on civilian airports and other infrastructure by Iranian-supported Houthis and warned that hostilities could escalate rapidly. It also said U.S. embassies elsewhere in the Gulf would make temporary staffing changes.",
+        "category": "international affairs",
+        "title": "US orders departure of some personnel from Saudi Arabia",
+        "event_date": "2026-10-21",
+        "candidate_id": "us-orders-saudi-diplomatic-departures",
+        "geography": "United States; Saudi Arabia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/us-saudi-arabia-yemen-houthis-fa9a4806bff404a23a16a8c209afbd2b"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-21"
+  },
+  "metadata": {
+    "responseId": "resp_0486ef514a6746ea006ad9b645347087d29fff19a1c7a9d01b",
+    "requestId": "req_16e3833fe6c348a3bda0e5c96fdc558c",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2142,
+    "inputTokens": 84433,
+    "outputTokens": 2523,
+    "webSearchCalls": 10,
+    "stage": "discovery",
+    "targetDate": "2026-10-21",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 79507,
+    "attemptDurationMs": 79507,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
