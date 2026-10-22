@@ -51,13 +51,61 @@
         "request": {
           "fingerprint": "f1f0d682e825d8bc689561a0ef2236a11f96ae6d9589e6c133cf0c698c22729c",
           "claimId": "5b799dd6-fcd4-4a32-98b5-f7bd321e116b",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-22T10:07:45.512Z",
           "responseId": "resp_07381e6522522739006ad9e075b6dc87d29b4914c7a0db05cc"
         },
-        "result": null,
-        "observedAt": "2026-10-22T10:07:45.474Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Russian forces continued a missile-and-drone attack on Kyiv that began Wednesday evening. Ukrainian authorities said one person was killed and at least 24 were injured, including four children. Strikes damaged homes, businesses, transport infrastructure, an ambulance station and emergency vehicles. Ukraine's Air Force said Kyiv was the main target and that combat operations remained underway Thursday morning.",
+                "category": "conflict",
+                "title": "Russian attack on Kyiv kills one and injures at least 24",
+                "event_date": "2026-10-22",
+                "candidate_id": "russian-attack-kyiv-oct22",
+                "geography": "Kyiv, Ukraine",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-kyiv-attacks-putin-5eef1c7dc4cc401dd8de85f718574877"
+                  },
+                  {
+                    "name": "Kyiv Post",
+                    "url": "https://www.kyivpost.com/post/87796"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-22"
+          },
+          "metadata": {
+            "responseId": "resp_07381e6522522739006ad9e075b6dc87d29b4914c7a0db05cc",
+            "requestId": "req_c06eee4a3751463b80bb8bb0e46b4ecb",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1787,
+            "inputTokens": 56877,
+            "outputTokens": 1839,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-22",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 64962,
+            "attemptDurationMs": 64962,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-10-22T10:07:45.474Z",
+        "capturedAt": "2026-10-22T10:08:50.474Z"
       }
     ],
     "sift": null
