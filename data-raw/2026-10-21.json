@@ -693,10 +693,10 @@
         "request": {
           "fingerprint": "81618d70e856fd9a3242f078469952a9c219d7adceeeec7968561c374925be52",
           "claimId": "2ac8ca96-32df-4f90-9a58-8079ecfa524f",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-22T07:07:45.499Z",
-          "responseId": null
+          "responseId": "resp_0486ef514a6746ea006ad9b645347087d29fff19a1c7a9d01b"
         },
         "result": null,
         "observedAt": "2026-10-22T07:07:45.400Z"
