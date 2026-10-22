@@ -153,10 +153,10 @@
         "request": {
           "fingerprint": "0db0f8c87b83e67668a185dbaa1d121b51357fee883a73bce742fdf45e79e7b2",
           "claimId": "478ecc18-3f1c-45bb-8f7e-ed57980122d4",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-22T16:07:46.916Z",
-          "responseId": null
+          "responseId": "resp_03c35a57d1739134006ada34d6d47c87d29fb175528fd4a733"
         },
         "result": null,
         "observedAt": "2026-10-22T16:07:46.869Z"
