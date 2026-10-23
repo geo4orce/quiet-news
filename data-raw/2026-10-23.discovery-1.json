@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-23",
+  "batch": 1,
+  "captured_at": "2026-10-23T10:08:49.037Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Israel’s military said soldiers killed two suspected gunmen after a shooting near the Judea Junction in the occupied West Bank. Emergency responders reported five people wounded, some critically. Prime Minister Benjamin Netanyahu’s office subsequently instructed the military to prepare for a full closure of the West Bank.",
+        "category": "conflict",
+        "title": "West Bank shooting wounds five; Israeli forces kill two suspected attackers",
+        "event_date": "2026-10-23",
+        "candidate_id": "west-bank-judea-junction-shooting",
+        "geography": "Occupied West Bank",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-news-october-23-2026-6424dff433a4f99f00cac2328de0f7a4"
+          },
+          {
+            "name": "Reuters via ThePrint",
+            "url": "https://theprint.in/world/israel-military-two-suspected-attackers-killed-after-shooting-attack-near-judea-junction/3079333/"
+          }
+        ]
+      },
+      {
+        "summary": "South Korea’s Defense Ministry proposed military talks with North Korea to clarify the location of the Military Demarcation Line, restore communication and reduce the risk of accidental border clashes. Pyongyang did not respond to a similar proposal made in November 2025.",
+        "category": "diplomacy",
+        "title": "South Korea proposes military border talks with North Korea",
+        "event_date": "2026-10-23",
+        "candidate_id": "south-korea-north-korea-border-talks-proposal",
+        "geography": "Korean Peninsula",
+        "sources": [
+          {
+            "name": "South Korean Yonhap News Agency",
+            "url": "https://en.yna.co.kr/view/AEN20261023005700315"
+          },
+          {
+            "name": "Reuters via ThePrint",
+            "url": "https://theprint.in/world/south-korea-proposes-talks-with-north-korea-on-land-border-again/3079342/"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/9498c415c93ae9bc3767caf83e15b8b3"
+          }
+        ]
+      },
+      {
+        "summary": "A strike by Israel’s military killed at least one person in southern Gaza, according to Nasser Hospital in Khan Younis. The Israeli military said it had targeted a Hamas militant.",
+        "category": "conflict",
+        "title": "Israeli strike kills at least one person in southern Gaza",
+        "event_date": "2026-10-23",
+        "candidate_id": "southern-gaza-israeli-strike",
+        "geography": "Gaza Strip",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-news-october-23-2026-6424dff433a4f99f00cac2328de0f7a4"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-23"
+  },
+  "metadata": {
+    "responseId": "resp_0b97c912de2b463b006adb31ef616487d28ca8bdeba672e587",
+    "requestId": "req_210251edd13e415eb81a781240b81a29",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1986,
+    "inputTokens": 55922,
+    "outputTokens": 2501,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-23",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 69253,
+    "attemptDurationMs": 69253,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
