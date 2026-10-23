@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-23",
+  "batch": 2,
+  "captured_at": "2026-10-23T16:08:55.635Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Israel’s military said two Israeli soldiers were killed and three others lightly wounded in a shooting near Yehuda Junction outside Hebron. Israeli troops killed two suspected Palestinian gunmen. Prime Minister Benjamin Netanyahu’s office instructed security forces to cordon off Hebron and prepare for a full West Bank closure starting Friday.",
+        "category": "conflict",
+        "title": "West Bank shooting kills two Israeli soldiers and two suspected gunmen",
+        "event_date": "2026-10-23",
+        "candidate_id": "west-bank-judea-junction-shooting",
+        "geography": "Occupied West Bank",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/israel-shooting-west-bank-election-f6646718072b4ff6929cff43297edd05"
+          },
+          {
+            "name": "Associated Press regional live report",
+            "url": "https://apnews.com/article/mideast-news-october-23-2026-6424dff433a4f99f00cac2328de0f7a4"
+          },
+          {
+            "name": "Reuters via ThePrint",
+            "url": "https://theprint.in/world/israel-military-two-suspected-attackers-killed-after-shooting-attack-near-judea-junction/3079333/"
+          }
+        ]
+      },
+      {
+        "summary": "The White House announced that Russia and Ukraine had agreed to a temporary, localized halt to military action in Russian-occupied Oleshky to permit humanitarian aid and civilian evacuations. It said the ceasefire, mediated by first lady Melania Trump and her representative, was scheduled to begin October 29. Neither the Russian nor Ukrainian government immediately commented publicly on the announcement.",
+        "category": "diplomacy",
+        "title": "White House announces localized Russia-Ukraine ceasefire agreement for Oleshky",
+        "event_date": "2026-10-23",
+        "candidate_id": "oleshky-localized-ceasefire-announcement",
+        "geography": "Oleshky, Ukraine",
+        "sources": [
+          {
+            "name": "The White House",
+            "url": "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/60167627316e0e2f62fc359cf78f317d"
+          }
+        ]
+      },
+      {
+        "summary": "The reported death toll from an explosion at a private coal mine near Kilimli in Turkey’s Zonguldak province rose to three after rescuers recovered a worker initially reported trapped. Five other workers were injured, including two reported in serious condition. Turkey’s Justice Ministry assigned three prosecutors to investigate.",
+        "category": "accident",
+        "title": "Coal mine explosion in northern Turkey kills three workers",
+        "event_date": "2026-10-23",
+        "candidate_id": "zonguldak-coal-mine-explosion",
+        "geography": "Zonguldak Province, Turkey",
+        "sources": [
+          {
+            "name": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/tr/gundem/zonguldakta-maden-ocagindaki-grizu-patlamasinda-3-kisi-oldu-5-kisi-yaralandi/4098203"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/turkey-mine-explosion-zonguldak-6146a852ca3ef269895797c22730fde9"
+          },
+          {
+            "name": "Turkey Ministry of Justice",
+            "url": "https://adalet.gov.tr/bakan-gurlek-zonguldak-taki-maden-ocagi-patlamasina-iliskin-sorusturmada-1-cumhuriyet-bassavci-veki"
+          }
+        ]
+      },
+      {
+        "summary": "Storm Austen left nearly 300,000 customers without electricity in France and more than 12,000 homes without power in Britain, according to utility figures. Heavy winds and rain suspended rail traffic in Normandy, disrupted Paris commuter services and caused flight diversions. Météo-France issued orange alerts across much of northwestern France.",
+        "category": "weather",
+        "title": "Storm Austen cuts power and disrupts transport in France and Britain",
+        "event_date": "2026-10-23",
+        "candidate_id": "storm-austen-france-britain-disruptions",
+        "geography": "France and Britain",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/storm-causes-power-outages-and-traffic-disruptions-in-france-and-britain-ce785cdfdb81f122"
+          },
+          {
+            "name": "Météo-France",
+            "url": "https://meteofrance.com/actualites/tempete-austen-vents-violents-et-pluies-sur-le-nord-du-pays"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-23"
+  },
+  "metadata": {
+    "responseId": "resp_02f084e953a02fde006adb865a151887d2abfce77a7e13d36a",
+    "requestId": "req_82281f017fc34b7399891dfd7ed1c971",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1614,
+    "inputTokens": 54328,
+    "outputTokens": 2546,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-23",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 65618,
+    "attemptDurationMs": 65618,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
