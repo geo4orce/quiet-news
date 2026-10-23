@@ -334,13 +334,75 @@
         "request": {
           "fingerprint": "2c4aeb29445719a2de72313360e86d1471b11aa732a22240290cbdfe893aa95e",
           "claimId": "5304cfab-84b9-477d-9447-322adcbc2aeb",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-23T07:07:39.528Z",
           "responseId": "resp_0cdf0253f9bbe64d006adb07bf68bc87d2acefe6551c5534ba"
         },
-        "result": null,
-        "observedAt": "2026-10-23T07:07:39.456Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Associated Press reported that Russian aerial attacks struck 12 Ukrainian regions overnight, killing at least four people and wounding dozens, including five children. One person was killed in Kyiv, where Ukrainian authorities said 21 ballistic missiles arrived in three waves. Two women were killed in a strike on a market in Lozova, and another person died elsewhere in the Kharkiv region.",
+                "category": "conflict",
+                "title": "Russian attacks across Ukraine kill at least four",
+                "event_date": "2026-10-22",
+                "candidate_id": "russian-attack-kyiv-oct22",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-kyiv-attacks-putin-5eef1c7dc4cc401dd8de85f718574877"
+                  }
+                ]
+              },
+              {
+                "summary": "Saudi Arabia's civil aviation authority said Thursday that the death toll from Wednesday's attack on King Fahd International Airport rose to two: a Saudi national and an Indian resident. Eight people were wounded. The authority said airport operations had resumed and air traffic had returned to normal. The Houthis claimed responsibility for targeting the airport.",
+                "category": "conflict",
+                "title": "Saudi airport attack death toll rises to two",
+                "event_date": "2026-10-22",
+                "candidate_id": "dammam-airport-death-toll-rises-two",
+                "geography": "Dammam, Saudi Arabia",
+                "sources": [
+                  {
+                    "name": "Al Jazeera and Reuters",
+                    "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2"
+                  },
+                  {
+                    "name": "Arab News",
+                    "url": "https://www.arabnews.com/saudi-arabia/dammams-king-fahd-airport-resumes-operations-after-attack-kills-2-3007672"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-22"
+          },
+          "metadata": {
+            "responseId": "resp_0cdf0253f9bbe64d006adb07bf68bc87d2acefe6551c5534ba",
+            "requestId": "req_691f9eb566694848ac068c38342bf3e5",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2779,
+            "inputTokens": 73999,
+            "outputTokens": 3189,
+            "webSearchCalls": 11,
+            "stage": "discovery",
+            "targetDate": "2026-10-22",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 89338,
+            "attemptDurationMs": 89338,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-10-23T07:07:39.456Z",
+        "capturedAt": "2026-10-23T07:09:08.866Z"
       }
     ],
     "sift": null
