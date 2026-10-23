@@ -457,12 +457,51 @@
       "request": {
         "fingerprint": "713b3dcf59675020b72bbeec8d7ba8ea201c67b758b2e1f5e194bde7fd71cb07",
         "claimId": "ecf04419-5cfa-4e6f-9acc-2c7fc2820c6b",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-23T08:07:43.269Z",
         "responseId": "resp_0eadf087e95e229f006adb15d297c887d2afcaf05552244645"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "dammam-airport-death-toll-rises-two",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "russian-attack-kyiv-oct22",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "virginia-senator-lucas-indictment",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": []
+        },
+        "metadata": {
+          "responseId": "resp_0eadf087e95e229f006adb15d297c887d2afcaf05552244645",
+          "requestId": "req_def5875b59a6426d94e789d1985809fb",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 103,
+          "inputTokens": 1902,
+          "outputTokens": 189,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-22",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 11199,
+          "attemptDurationMs": 11199,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
