@@ -334,10 +334,10 @@
         "request": {
           "fingerprint": "2c4aeb29445719a2de72313360e86d1471b11aa732a22240290cbdfe893aa95e",
           "claimId": "5304cfab-84b9-477d-9447-322adcbc2aeb",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-23T07:07:39.528Z",
-          "responseId": null
+          "responseId": "resp_0cdf0253f9bbe64d006adb07bf68bc87d2acefe6551c5534ba"
         },
         "result": null,
         "observedAt": "2026-10-23T07:07:39.456Z"
