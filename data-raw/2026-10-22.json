@@ -405,6 +405,64 @@
         "capturedAt": "2026-10-23T07:09:08.866Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "41af6dbee0a9c320703cee3d1c2e0a5b223ee759661f5372a49f018ceae09df2",
+      "priorStories": [
+        {
+          "headline": "Attack on Saudi airport kills one",
+          "body": "Saudi civil aviation authorities said the late-Wednesday attack on King Fahd International Airport in Dammam killed one resident, injured eight people and caused material damage. Flights were diverted.\n\nAuthorities did not identify the attacker, and the Houthis had not commented. A Saudi-led coalition separately said it intercepted four drones over the Eastern Region.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/riyadh-saudi-arabia-oil-facility-drones-01c03af3191263452376510a670e8bf7"
+            }
+          ]
+        },
+        {
+          "headline": "PHP patches two critical code-execution flaws",
+          "body": "The PHP project released PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 to fix two vulnerabilities that could let unauthenticated attackers execute code remotely. It urged all users to update.\n\nGovernment agencies in several countries temporarily took websites or services offline while preparing patches.",
+          "sources": [
+            {
+              "name": "PHP",
+              "url": "https://www.php.net/?=PHPE9568F35-D428-11d2-A769-00AA001ACF42"
+            },
+            {
+              "name": "The PHP Foundation",
+              "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
+            },
+            {
+              "name": "The National",
+              "url": "https://www.thenationalnews.com/future/technology/2026/10/21/what-is-php-update-security/"
+            }
+          ]
+        },
+        {
+          "headline": "U.S. orders some staff out of Saudi Arabia",
+          "body": "The State Department directed nonessential personnel at the U.S. Embassy and satellite consulates in Saudi Arabia, along with families of government employees, to leave the country.\n\nThe order cited attacks on civilian airports and other infrastructure by Iranian-supported Houthis and warned that hostilities could escalate rapidly. U.S. embassies elsewhere in the Gulf will also make temporary staffing changes.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/us-saudi-arabia-yemen-houthis-fa9a4806bff404a23a16a8c209afbd2b"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "713b3dcf59675020b72bbeec8d7ba8ea201c67b758b2e1f5e194bde7fd71cb07",
+        "claimId": "ecf04419-5cfa-4e6f-9acc-2c7fc2820c6b",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-10-23T08:07:43.269Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
