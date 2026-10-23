@@ -236,13 +236,69 @@
         "request": {
           "fingerprint": "40a306e258f9e4a533d0a3ddbe33a15ac0ebfe2eb097a08a59b6a6a6241117b9",
           "claimId": "2b6b0b53-9342-4b46-87c6-af199ae23e44",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-23T22:07:45.166Z",
           "responseId": "resp_0797d0781ea00534006adbdab5822887d2b5da26111b20aacb"
         },
-        "result": null,
-        "observedAt": "2026-10-23T22:07:45.077Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Jordanian authorities said gunmen attacked mourners during a funeral at a Greek Orthodox church in Humud village, killing seven people and injuring 40. The government described the shooting as a terrorist attack, said security forces were pursuing those responsible and declared three days of national mourning beginning October 23.",
+                "category": "violence",
+                "title": "Attack at Jordanian church funeral kills seven and injures 40",
+                "event_date": "2026-10-23",
+                "candidate_id": "karak-church-funeral-attack",
+                "geography": "Karak Governorate, Jordan",
+                "sources": [
+                  {
+                    "name": "Jordan News Agency casualty update",
+                    "url": "https://petra.gov.jo/en/news/momani-bdour-update-public-on-karak-attack-response-1"
+                  },
+                  {
+                    "name": "Jordan News Agency security briefing",
+                    "url": "https://petra.gov.jo/en/news/interior-minister-psd-chief-brief-on-karak-church-terrorist-attack"
+                  },
+                  {
+                    "name": "Jordan News Agency mourning announcement",
+                    "url": "https://org.petra.gov.jo/Include/InnerPage.jsp?ID=91554&lang=en&name=en_news"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/19599ce75b9ab6749a1e1bf2ff66f2ab"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-23"
+          },
+          "metadata": {
+            "responseId": "resp_0797d0781ea00534006adbdab5822887d2b5da26111b20aacb",
+            "requestId": "req_45ebc24ca05a4fedae69b44ec5c76241",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1691,
+            "inputTokens": 50079,
+            "outputTokens": 1954,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-23",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 59583,
+            "attemptDurationMs": 59583,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-10-23T22:07:45.077Z",
+        "capturedAt": "2026-10-23T22:08:44.750Z"
       }
     ],
     "sift": null
