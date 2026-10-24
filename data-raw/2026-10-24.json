@@ -45,13 +45,115 @@
         "request": {
           "fingerprint": "5c6fc5759b8c559ad8a0e9274680a1ca78653ec589a510e67c422a327b612f10",
           "claimId": "3e7f1eb1-6dd7-4ffd-beae-c23813153c3a",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-24T10:07:44.706Z",
           "responseId": "resp_026dabdc991d6cd3006adc8374e12487d2a8cd3951c88010b8"
         },
-        "result": null,
-        "observedAt": "2026-10-24T10:07:44.658Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "A critically injured victim of the October 23 attack on mourners at a Greek Orthodox church in Hmoud village died Saturday morning, raising the death toll from seven to eight, according to the director of Prince Ali Military Hospital. Another patient remained in critical condition.",
+                "category": "Conflict and security",
+                "title": "Jordan church attack death toll rises to eight",
+                "event_date": "2026-10-24",
+                "candidate_id": "jordan-church-toll-rises-eight",
+                "geography": "Jordan",
+                "sources": [
+                  {
+                    "name": "Jordan News Agency",
+                    "url": "https://petra.gov.jo/en/news/death-toll-in-karak-church-attack-rises-to-8-as-critically-injured-victim-dies"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/707ad41a79d384ff4715902ce3d60df5"
+                  }
+                ]
+              },
+              {
+                "summary": "The Saudi-led coalition said air defenses intercepted and destroyed a ballistic missile launched by Yemen’s Houthi movement toward Riyadh. It also reported intercepting a drone over the Eastern Province. Civil Defense alerts were issued in several locations and later lifted; no casualties or damage were immediately reported.",
+                "category": "Conflict and security",
+                "title": "Saudi Arabia intercepts missile headed toward Riyadh",
+                "event_date": "2026-10-24",
+                "candidate_id": "saudi-intercepts-missile-riyadh",
+                "geography": "Saudi Arabia and Yemen",
+                "sources": [
+                  {
+                    "name": "L'Orient Today",
+                    "url": "https://today.lorientlejour.com/article/1551932/saudi-arabia-intercepts-ballistic-missile-headed-for-riyadh-alerts-issued-in-mecca-jeddah.html"
+                  },
+                  {
+                    "name": "Business Recorder",
+                    "url": "https://www.brecorder.com/news/40445742/two-explosions-heard-in-riyadh-following-alert"
+                  }
+                ]
+              },
+              {
+                "summary": "Israeli forces imposed widespread closures in Hebron and continued a multi-day operation begun after Palestinian gunmen killed two Israeli soldiers on October 23. The military restricted movement through designated exits, while Palestinian accounts reported residents displaced from some homes and roads blocked across the city.",
+                "category": "Conflict and security",
+                "title": "Israeli forces impose widespread closures in Hebron",
+                "event_date": "2026-10-24",
+                "candidate_id": "hebron-closures-multiday-operation",
+                "geography": "Occupied West Bank",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/707ad41a79d384ff4715902ce3d60df5"
+                  },
+                  {
+                    "name": "Al Jazeera",
+                    "url": "https://www.aljazeera.com/news/2026/10/24/israel-raids-towns-detains-dozens-of-palestinians-in-occupied-west-bank"
+                  }
+                ]
+              },
+              {
+                "summary": "Taiwan’s Central Emergency Operations Center reported Saturday that Typhoon Champi had left one person dead and 527 injured. Most injuries were attributed to falling trees, power cables, billboards and damaged water pipes. The Central Weather Administration later downgraded Champi to a tropical storm and lifted its land warning.",
+                "category": "Weather and disasters",
+                "title": "Taiwan reports 527 injuries from Typhoon Champi",
+                "event_date": "2026-10-24",
+                "candidate_id": "taiwan-champi-casualty-update",
+                "geography": "Taiwan",
+                "sources": [
+                  {
+                    "name": "Focus Taiwan",
+                    "url": "https://focustaiwan.tw/society/202610240009"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/5ee312ec7567941b8f6b0f461d7c86d2"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-24"
+          },
+          "metadata": {
+            "responseId": "resp_026dabdc991d6cd3006adc8374e12487d2a8cd3951c88010b8",
+            "requestId": "req_a02c47516bf84db09c0803d4caadce6a",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2458,
+            "inputTokens": 57210,
+            "outputTokens": 3161,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-24",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 85009,
+            "attemptDurationMs": 85009,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-10-24T10:07:44.658Z",
+        "capturedAt": "2026-10-24T10:09:09.715Z"
       }
     ],
     "sift": null
