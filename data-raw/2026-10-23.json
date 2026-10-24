@@ -307,13 +307,125 @@
         "request": {
           "fingerprint": "49aebe41bdedf8a4545357ed0f2cd5e51f0d1189b3218383549773648b687478",
           "claimId": "20a1f8ba-f257-4936-8c28-f6bf4ede3552",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-24T07:07:52.060Z",
           "responseId": "resp_0fa6b6d3e1ae1cec006adc594c1c6c87d2a9024dba005e3cf2"
         },
-        "result": null,
-        "observedAt": "2026-10-24T07:07:51.918Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The White House announced a localized Russia-Ukraine ceasefire for humanitarian aid and civilian evacuations in Russian-occupied Oleshky, initially giving October 29 as its start date. Later Friday, Ukrainian negotiator Dmytro Lubinets said the ceasefire would begin October 27, two days before the aid mission, and cover the Kherson region and neighboring operational areas. Russian officials confirmed the agreement, with Gen. Valery Gerasimov also saying Russian forces would cease fire on the Kherson axis beginning October 27.",
+                "category": "diplomacy",
+                "title": "Russia and Ukraine confirm Oleshky humanitarian ceasefire with differing timeline details",
+                "event_date": "2026-10-23",
+                "candidate_id": "oleshky-localized-ceasefire-announcement",
+                "geography": "Kherson region, Ukraine",
+                "sources": [
+                  {
+                    "name": "The White House",
+                    "url": "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-ceasefire-oleshky-melania-trump-60167627316e0e2f62fc359cf78f317d"
+                  }
+                ]
+              },
+              {
+                "summary": "Israeli strikes killed three people in Gaza on October 23, according to local health officials. One person was killed in southern Gaza in a strike that Israel’s military said targeted a Hamas militant. A second strike killed two people in Gaza City; the Israeli military did not immediately comment on that strike.",
+                "category": "conflict",
+                "title": "Israeli strikes kill three people in Gaza",
+                "event_date": "2026-10-23",
+                "candidate_id": "southern-gaza-israeli-strike",
+                "geography": "Gaza Strip",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/mideast-news-october-23-2026-6424dff433a4f99f00cac2328de0f7a4"
+                  }
+                ]
+              },
+              {
+                "summary": "Israel’s military said two Israeli soldiers were killed and three others lightly wounded in a shooting near Yehuda Junction outside Hebron, and that troops killed the two suspected Palestinian gunmen. Late Friday, the military said it had begun searches around Hebron expected to continue for several days, restricted residents to three screened exit points and started demolishing infrastructure it deemed threatening. Prime Minister Benjamin Netanyahu’s office also instructed the military to prepare for a full West Bank closure.",
+                "category": "conflict",
+                "title": "West Bank shooting kills two Israeli soldiers as military begins Hebron-area operation",
+                "event_date": "2026-10-23",
+                "candidate_id": "west-bank-judea-junction-shooting",
+                "geography": "Occupied West Bank",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/israel-shooting-west-bank-election-f6646718072b4ff6929cff43297edd05"
+                  },
+                  {
+                    "name": "Associated Press regional report",
+                    "url": "https://apnews.com/article/mideast-news-october-23-2026-6424dff433a4f99f00cac2328de0f7a4"
+                  },
+                  {
+                    "name": "Reuters via ThePrint",
+                    "url": "https://theprint.in/world/israel-military-two-suspected-attackers-killed-after-shooting-attack-near-judea-junction/3079333/"
+                  }
+                ]
+              },
+              {
+                "summary": "Former FBI officials Nikki Floris and Bradley Benavides were charged by criminal complaint with making false statements to Congress about their involvement in FBI investigations concerning Hunter Biden’s laptop. Both appeared in federal court in Washington on October 23. Their attorneys denied the allegations, and a magistrate judge scheduled a preliminary hearing for the following week.",
+                "category": "justice",
+                "title": "Two former FBI officials charged with lying to Congress about Hunter Biden laptop investigation",
+                "event_date": "2026-10-23",
+                "candidate_id": "former-fbi-officials-hunter-biden-laptop-charges",
+                "geography": "Washington, D.C., United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/biden-laptop-fbi-official-charged-e41b7407f97c6dfc7c017875054c0c67"
+                  }
+                ]
+              },
+              {
+                "summary": "The United States reduced staffing at its embassies in Jordan, Lebanon, Qatar and the United Arab Emirates while keeping them open. A memo sent October 23 by Director of National Intelligence Jay Clayton said intelligence indicated Iran had substantially increased efforts to target U.S. personnel and that alleged plotting had reached advanced stages. U.S. officials said threats from Iran and Yemen’s Houthi movement were connected to the staffing changes.",
+                "category": "security",
+                "title": "United States reduces staffing at four Middle East embassies over reported threats",
+                "event_date": "2026-10-23",
+                "candidate_id": "us-middle-east-embassy-staff-reductions",
+                "geography": "Jordan, Lebanon, Qatar and the United Arab Emirates",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/iran-war-houthis-embassies-staffing-rubio-9635852ea973064907ed0b7c0fca4799"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-23"
+          },
+          "metadata": {
+            "responseId": "resp_0fa6b6d3e1ae1cec006adc594c1c6c87d2a9024dba005e3cf2",
+            "requestId": "req_cf468e9b01704e9aacb81209caf519a4",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1839,
+            "inputTokens": 78209,
+            "outputTokens": 2692,
+            "webSearchCalls": 11,
+            "stage": "discovery",
+            "targetDate": "2026-10-23",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 69367,
+            "attemptDurationMs": 69367,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-10-24T07:07:51.918Z",
+        "capturedAt": "2026-10-24T07:09:01.428Z"
       }
     ],
     "sift": null
