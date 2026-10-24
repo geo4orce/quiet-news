@@ -441,12 +441,102 @@
       "request": {
         "fingerprint": "819e5eca718795469b7a96752f03b216970154ba4fdf34fe1569568ba87e9fa8",
         "claimId": "cfef265b-3d2a-4f54-8fa4-5f08b0848c20",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-24T08:07:43.157Z",
         "responseId": "resp_018a3232ca91cd48006adc6752f56c87d2ade662b16f9f498a"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "former-fbi-officials-hunter-biden-laptop-charges",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "oleshky-localized-ceasefire-announcement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "south-korea-north-korea-border-talks-proposal",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "southern-gaza-israeli-strike",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "storm-austen-france-britain-disruptions",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "west-bank-judea-junction-shooting",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "zonguldak-coal-mine-explosion",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Gunmen attacked mourners during a funeral at a Greek Orthodox church in Humud village, killing seven people and injuring 40, Jordanian authorities said.\n\nThe government described the shooting as a terrorist attack and said security forces were pursuing those responsible. Jordan declared three days of national mourning beginning October 23.",
+              "candidate_id": "karak-church-funeral-attack",
+              "headline": "Attack at Jordan church funeral kills seven",
+              "sources": [
+                {
+                  "name": "Jordan News Agency casualty update",
+                  "url": "https://petra.gov.jo/en/news/momani-bdour-update-public-on-karak-attack-response-1"
+                },
+                {
+                  "name": "Jordan News Agency security briefing",
+                  "url": "https://petra.gov.jo/en/news/interior-minister-psd-chief-brief-on-karak-church-terrorist-attack"
+                },
+                {
+                  "name": "Jordan News Agency mourning announcement",
+                  "url": "https://org.petra.gov.jo/Include/InnerPage.jsp?ID=91554&lang=en&name=en_news"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/19599ce75b9ab6749a1e1bf2ff66f2ab"
+                }
+              ]
+            },
+            {
+              "body": "The United States reduced staffing at its embassies in Jordan, Lebanon, Qatar and the United Arab Emirates. The embassies remained open.\n\nA memo sent October 23 by Director of National Intelligence Jay Clayton said intelligence indicated that Iran had substantially increased efforts to target U.S. personnel and that alleged plotting had reached advanced stages. U.S. officials also connected threats from Iran and Yemen’s Houthi movement to the staffing changes.",
+              "candidate_id": "us-middle-east-embassy-staff-reductions",
+              "headline": "U.S. cuts staffing at four Mideast embassies",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/iran-war-houthis-embassies-staffing-rubio-9635852ea973064907ed0b7c0fca4799"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_018a3232ca91cd48006adc6752f56c87d2ade662b16f9f498a",
+          "requestId": "req_014f74e79dcd4b16af18f364327bc481",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1021,
+          "inputTokens": 2929,
+          "outputTokens": 1609,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-23",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 26962,
+          "attemptDurationMs": 26962,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
