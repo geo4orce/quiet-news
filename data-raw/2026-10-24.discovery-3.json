@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-24",
+  "batch": 3,
+  "captured_at": "2026-10-24T22:08:43.383Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "France’s Interior Ministry said 410,000 people joined protests nationwide, while organizers estimated nearly 800,000. Clashes erupted as demonstrations ended in Paris, Marseille and several other cities, with police using tear gas and water cannons. Interior Minister Laurent Nuñez said nearly 1,000 people were arrested; two people were seriously injured, and some businesses were vandalized or looted.",
+        "category": "Politics and civil unrest",
+        "title": "Clashes erupt as 410,000 protest across France",
+        "event_date": "2026-10-24",
+        "candidate_id": "france-protests-heavy-security",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/ad2fb9206e72e5d1b4ae43fdf7aa96a9"
+          },
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/latest/Violence-flares-in-Paris-after-largely-peaceful-protests-across-France-12769558/"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news?page=with%3Ablock-6add04408f08a448dcadd501"
+          }
+        ]
+      },
+      {
+        "summary": "Protests over war and living costs took place in eight Italian cities under heavy security. Clashes were reported in Turin, Rome and Bologna, while Milan’s demonstration remained largely peaceful. Police said nine people were arrested, 87 reported for alleged offenses and 371 taken to police stations, including 110 minors. Authorities said no repeat of the previous weekend’s widespread looting occurred.",
+        "category": "Politics and civil unrest",
+        "title": "Clashes reported as protests spread across Italian cities",
+        "event_date": "2026-10-24",
+        "candidate_id": "italy-protests-soldiers-milan",
+        "geography": "Italy",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/b41b5adf5a749440abb88693059eeced"
+          },
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/protests-sweep-italian-cities-amid-heavy-security-presence-some-violence-reported-ce785cdfde81f62c"
+          },
+          {
+            "name": "Rai News",
+            "url": "https://www.rainews.it/amp/maratona/2026/10/piazze-blindate-e-tensioni-in-tutta-italia-scontri-da-torino-a-roma-5fb7e07d-915d-4050-9725-56cc14b50cc6.html"
+          }
+        ]
+      },
+      {
+        "summary": "Yemen’s Houthi movement said it attacked Saudi airports, oil facilities and other infrastructure, including sites in Riyadh, Yanbu and Rabigh, though Saudi authorities did not immediately confirm that those targets were hit. The Saudi-led coalition said it destroyed ballistic missiles headed toward Yanbu and Taif. Yemen’s internationally recognized government said three Houthi missiles struck coast guard sites in Aden; casualties were not immediately reported.",
+        "category": "Conflict and security",
+        "title": "Houthis claim attacks on Saudi infrastructure and Aden",
+        "event_date": "2026-10-24",
+        "candidate_id": "saudi-intercepts-missile-riyadh",
+        "geography": "Saudi Arabia and Yemen",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Houthis%2Bsay%2Bthey%2Battacked%2BSaudi%2Boil%2Bsites%2C%2Bstrikes%2Breported%2Bon%2BYemens%2BAden/27229144.html"
+          },
+          {
+            "name": "L'Orient Today",
+            "url": "https://today.lorientlejour.com/article/1551932/saudi-arabia-intercepts-ballistic-missile-headed-for-riyadh-alerts-issued-in-mecca-jeddah.html"
+          },
+          {
+            "name": "Business Recorder",
+            "url": "https://www.brecorder.com/news/40445742/two-explosions-heard-in-riyadh-following-alert"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-24"
+  },
+  "metadata": {
+    "responseId": "resp_00bb0a51ec5618cb006add2c34ab2487d2b3e6de9ef3a8a333",
+    "requestId": "req_31019d8d868d46e9acc15675f2d9383f",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1191,
+    "inputTokens": 50313,
+    "outputTokens": 2083,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-24",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 58509,
+    "attemptDurationMs": 58509,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
