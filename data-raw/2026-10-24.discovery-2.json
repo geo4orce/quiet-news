@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-24",
+  "batch": 2,
+  "captured_at": "2026-10-24T16:09:15.817Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Demonstrators gathered in Paris and other French cities under a deployment of 70,000 police and gendarmes. Interior Minister Laurent Nuñez said 135 people had been arrested nationwide by early afternoon, many during searches that found objects potentially usable as weapons. Police fired tear gas in Lyon, while major museums and more than 20 Paris metro stations closed as precautions.",
+        "category": "Politics and civil unrest",
+        "title": "French protests begin under heavy security",
+        "event_date": "2026-10-24",
+        "candidate_id": "france-protests-heavy-security",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/france-protests-begin-under-heavy-security-as-police-seek-to-prevent-fresh-unrest-ce785cdfde8cf125"
+          }
+        ]
+      },
+      {
+        "summary": "Thousands of protesters began new demonstrations in Milan and other Italian cities over issues including living costs and public services. Italy deployed 500 additional soldiers to Milan to support police and other security personnel, while shops in the city’s luxury district boarded their windows following looting during the previous weekend’s unrest.",
+        "category": "Politics and civil unrest",
+        "title": "Italy deploys additional soldiers as new protests begin",
+        "event_date": "2026-10-24",
+        "candidate_id": "italy-protests-soldiers-milan",
+        "geography": "Italy",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/europe-protests-rome-milan-b41b5adf5a749440abb88693059eeced"
+          }
+        ]
+      },
+      {
+        "summary": "Riot police used water cannons against protesters in Tirana, where some demonstrators set government buildings on fire and threw projectiles at officers. The protests included students seeking lower tuition and greater education funding, alongside a broader movement demanding Prime Minister Edi Rama’s resignation. Rama said his government was preparing a response to student demands and called for dialogue.",
+        "category": "Politics and civil unrest",
+        "title": "Fresh fires and clashes reported at Tirana protests",
+        "event_date": "2026-10-24",
+        "candidate_id": "tirana-protests-fires-clashes",
+        "geography": "Albania",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/europe-protests-rome-milan-b41b5adf5a749440abb88693059eeced"
+          }
+        ]
+      },
+      {
+        "summary": "The Philippine Air Force temporarily grounded its remaining SF-260 trainer aircraft while investigating a collision that killed four pilots at Fernando Air Base on October 23. The service disclosed the fatalities and grounding Saturday; two officials told the Associated Press that the aircraft collided while flying at low altitude.",
+        "category": "Conflict and security",
+        "title": "Philippine Air Force grounds trainer fleet after fatal collision",
+        "event_date": "2026-10-24",
+        "candidate_id": "philippines-grounds-sf260-fleet",
+        "geography": "Philippines",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/philippine-air-force-sf260-planes-collision-crash-9df3ee550257e4702f2f8e5e14313811"
+          },
+          {
+            "name": "GMA News",
+            "url": "https://www.gmanetwork.com/news/topstories/regions/1007024/4-pilots-died-in-training-flight-mishap-in-batangas-ph-air-force/story/"
+          }
+        ]
+      },
+      {
+        "summary": "Starlink satellite internet speeds used by Ukrainian forces were restored after roughly a week of disruption along the front line, according to an Associated Press report Saturday.",
+        "category": "Conflict and security",
+        "title": "Ukraine’s Starlink speeds restored after front-line disruption",
+        "event_date": "2026-10-24",
+        "candidate_id": "ukraine-starlink-speeds-restored",
+        "geography": "Ukraine",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/a3a0139dfc23365550306dd66fe43daa"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-24"
+  },
+  "metadata": {
+    "responseId": "resp_000f65186107ab4f006adcd7db0c5887d288ed57e24eb5e9a7",
+    "requestId": "req_175f83dd6b10453384a449f60457c3b9",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1875,
+    "inputTokens": 57751,
+    "outputTokens": 2682,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-24",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 85528,
+    "attemptDurationMs": 85528,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
