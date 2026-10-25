@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-25",
+  "batch": 2,
+  "captured_at": "2026-10-25T16:08:51.644Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Brazilians began voting in a presidential runoff between incumbent Luiz Inácio Lula da Silva and Senator Flávio Bolsonaro. Bolsonaro finished more than 2.2 million votes ahead of Lula in the first round, but neither secured a majority. Polls opened at 8 a.m. Brasília time and were scheduled to close at 5 p.m.",
+        "category": "politics",
+        "title": "Brazil votes in presidential runoff",
+        "event_date": "2026-10-25",
+        "candidate_id": "brazil-presidential-runoff-voting",
+        "geography": "Brazil",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/b68d2e2e315644e62de8f6839e8ddcff"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/brazil-heads-to-polls-in-runoff-between-leftist-lula-and-bolsonaro-jr-4971062"
+          }
+        ]
+      },
+      {
+        "summary": "Ukrainian officials disputed Elon Musk's assertion that Ukraine's military violated Starlink's terms by using the civilian satellite service for offensive drone strikes. Presidential defense technology adviser Serhii Beskrestnov said longstanding restrictions made that use impossible. Musk acknowledged Saturday that SpaceX had throttled Starlink in Ukraine; Ukrainian officials said speed restrictions affecting Starlink and the military-focused Starshield service were lifted Saturday.",
+        "category": "conflict",
+        "title": "Ukraine disputes Musk's claim over military use of Starlink",
+        "event_date": "2026-10-25",
+        "candidate_id": "ukraine-disputes-musk-starlink-claim",
+        "geography": "Ukraine",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/ukraine-russia-war-starlink-musk-satellite-connectivity-0c6e685ee4637529ec64c1d6a902cc94"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-25"
+  },
+  "metadata": {
+    "responseId": "resp_053ea282e8eafc75006ade2957ded487d28acda6930783dfd1",
+    "requestId": "req_0593c544e3654dd98d936a2d94a41ecd",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1213,
+    "inputTokens": 57698,
+    "outputTokens": 1613,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-25",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 68030,
+    "attemptDurationMs": 68030,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
