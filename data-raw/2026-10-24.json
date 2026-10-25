@@ -491,10 +491,10 @@
         "request": {
           "fingerprint": "2c66c08d9d95c3315b0a8426de371987295ef70c4b67d467a610f30fb6ac59ec",
           "claimId": "09d223ca-a784-4dbe-a79f-0783559392a9",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-25T07:07:43.327Z",
-          "responseId": null
+          "responseId": "resp_059de9d7c23781ae006addaac39cf087d2939019ed5d385e3b"
         },
         "result": null,
         "observedAt": "2026-10-25T07:07:43.235Z"
