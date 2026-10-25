@@ -423,13 +423,155 @@
         "request": {
           "fingerprint": "2d0d65722bf52fa316cd5bb534b973e8fea6ac190cdf5192e25d8866d36c2ffa",
           "claimId": "a48df289-5f98-4ae0-92c4-ba782f50f346",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-25T22:08:00.010Z",
           "responseId": "resp_09e119eaa8e27a6f006ade7dc4187487d2b8bf26bb3442b6db"
         },
-        "result": null,
-        "observedAt": "2026-10-25T22:07:59.937Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Brazil's presidential runoff encountered a late change after Supreme Court Justice Cristiano Zanin ordered voting extended by up to two hours amid reported transportation and weather disruptions. The electoral court later clarified that voting would continue only at locations where polls had not already closed at 5 p.m.; stations that had closed were not reopened.",
+                "category": "politics",
+                "title": "Brazil runoff receives partial two-hour voting extension",
+                "event_date": "2026-10-25",
+                "candidate_id": "brazil-presidential-runoff-voting",
+                "geography": "Brazil",
+                "sources": [
+                  {
+                    "name": "Tribunal Superior Eleitoral",
+                    "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/esclarecimento-sobre-prorrogacao-da-votacao"
+                  },
+                  {
+                    "name": "Agência Brasil",
+                    "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/zanin-manda-ampliar-horario-de-votacao-ate-19h"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/e2c9fe8fc4aa3e3675b9a8ec15405d93"
+                  }
+                ]
+              },
+              {
+                "summary": "Bulgaria's presidential election advanced to a November 1 runoff between incumbent Iliana Yotova and former caretaker prime minister Andrey Gyurov. Exit polls placed Yotova narrowly ahead, with neither candidate securing the majority required for a first-round victory.",
+                "category": "politics",
+                "title": "Bulgaria presidential election heads to runoff",
+                "event_date": "2026-10-25",
+                "candidate_id": "bulgaria-presidential-election-voting",
+                "geography": "Bulgaria",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/71e668caf5e926fd16395c392bc1920c"
+                  },
+                  {
+                    "name": "Bulgarian National Radio",
+                    "url": "https://bnrnews.bg/en/post/547728/exit-poll-iliana-iotova-and-andrey-gyurov-remain-in-the-presidential-race"
+                  },
+                  {
+                    "name": "Bulgarian National Television",
+                    "url": "https://bntnews.bg/news/first-exit-polls-at-700-pm-by-alfa-research-presidential-election-run-off-between-iliana-iotova-and-andrey-gyurov-1418832news.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Aleksandar Vucic conceded defeat in Serbia's parliamentary election, saying preliminary sampling showed the student-led Students' List had won and was projected to receive 135 to 140 of parliament's 250 seats. Final official results remained pending.",
+                "category": "politics",
+                "title": "Vucic concedes Serbia election to student-led movement",
+                "event_date": "2026-10-25",
+                "candidate_id": "serbia-parliamentary-election-voting",
+                "geography": "Serbia",
+                "sources": [
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/serbia-s-vucic-concedes-defeat-to-student-led-movement-in-parliamentary-election-ce785cdfd18ff024"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/fdf5def8a20aebc8ae139fd719478775"
+                  },
+                  {
+                    "name": "N1",
+                    "url": "https://n1info.rs/english/news/vucic-concedes-defeat"
+                  }
+                ]
+              },
+              {
+                "summary": "Marine Le Pen formally launched her campaign for France's 2027 presidential election at a National Rally gathering in Orléans. She proposed tighter immigration controls, automatic expulsion of foreign criminals, lower business taxes and limits on European Union influence. Jordan Bardella was re-elected as the party's president and presented as her preferred prime minister.",
+                "category": "politics",
+                "title": "Marine Le Pen formally launches French presidential campaign",
+                "event_date": "2026-10-25",
+                "candidate_id": "le-pen-launches-2027-presidential-campaign",
+                "geography": "France",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/frances-le-pen-launches-presidential-bid-as-protests-rattle-the-nation-4971235"
+                  }
+                ]
+              },
+              {
+                "summary": "Elon Musk said SpaceX closed $40 billion in debt financing for purchases of graphics processing units expected to arrive in the first and second quarters of 2027. Musk said revenue from Starlink and launch operations, along with the company's investment-grade status, helped maintain access to credit.",
+                "category": "business",
+                "title": "SpaceX closes $40 billion debt financing for GPUs",
+                "event_date": "2026-10-25",
+                "candidate_id": "spacex-closes-40-billion-gpu-debt",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/stock-market-news/musk-says-spacex-raised-40-billion-in-debt-for-gpus-4971248"
+                  },
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/musk-says-spacex-raised-40-billion-in-debt-for-gpus-ce785cdfd18ff22c"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukrainian President Volodymyr Zelenskyy said U.S. warnings about imminent Russian ballistic missile attacks had been fully restored after recent disruptions. He also said SpaceX's military-focused Starshield service had operated without the earlier speed restriction since Saturday morning, attributing both changes to discussions with U.S. envoy Steve Witkoff.",
+                "category": "conflict",
+                "title": "Zelenskyy says U.S. ballistic-missile warnings fully restored",
+                "event_date": "2026-10-25",
+                "candidate_id": "ukraine-us-ballistic-warnings-restored",
+                "geography": "Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/stock-market-news/zelenskiy-says-us-warnings-on-ballistic-strikes-have-fully-resumed-4971254"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-25"
+          },
+          "metadata": {
+            "responseId": "resp_09e119eaa8e27a6f006ade7dc4187487d2b8bf26bb3442b6db",
+            "requestId": "req_3f524138fa934dff9e4dbf9d86747737",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1485,
+            "inputTokens": 58158,
+            "outputTokens": 2741,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-10-25",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 69391,
+            "attemptDurationMs": 69391,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-10-25T22:07:59.937Z",
+        "capturedAt": "2026-10-25T22:09:09.403Z"
       }
     ],
     "sift": null
