@@ -680,12 +680,152 @@
       "request": {
         "fingerprint": "011996faf544ad39a7d3128815d25f8bfc8eace6891f35ee6557c3bf87e3df4f",
         "claimId": "b7c827b9-b2b1-4382-8a27-9af5ad6b19a0",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-25T08:07:45.205Z",
         "responseId": "resp_0b666c6bc2544be2006addb8d4b72887d29ff4b7624b6a78c3"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "barcelona-anti-system-riot-arrests",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "haiti-bodies-not-missing-salvadorans",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "hebron-closures-multiday-operation",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "italy-protests-soldiers-milan",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "jordan-church-toll-rises-eight",
+              "code": "prior_day_repetition"
+            },
+            {
+              "candidate_id": "lisbon-housing-camp-cleared",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "philippines-grounds-sf260-fleet",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "tirana-protests-fires-clashes",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "ukraine-starlink-speeds-restored",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "western-sydney-airport-passenger-opening",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": [
+            {
+              "body": "France’s Interior Ministry estimated that 410,000 people joined demonstrations across the country; organizers put the turnout at nearly 800,000.\n\nClashes broke out as protests ended in Paris, Marseille and several other cities. Police used tear gas and water cannons, and the interior minister said nearly 1,000 people were arrested. Two people were seriously injured, while some businesses were vandalized or looted.",
+              "candidate_id": "france-protests-heavy-security",
+              "headline": "France says 410,000 joined nationwide protests",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/ad2fb9206e72e5d1b4ae43fdf7aa96a9"
+                },
+                {
+                  "name": "Reuters via MarketScreener",
+                  "url": "https://www.marketscreener.com/news/latest/Violence-flares-in-Paris-after-largely-peaceful-protests-across-France-12769558/"
+                },
+                {
+                  "name": "The Guardian",
+                  "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news?page=with%3Ablock-6add04408f08a448dcadd501"
+                }
+              ]
+            },
+            {
+              "body": "The Archdiocese of New York and lawyers for about 1,300 people who alleged sexual abuse by clergy or other church personnel reached an $800 million settlement agreement.\n\nThe agreement still requires signatures, which are scheduled for the week of November 6. Its terms also call for the release of documents concerning alleged offenders.",
+              "candidate_id": "new-york-archdiocese-800m-settlement",
+              "headline": "New York archdiocese agrees to $800 million settlement",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/fc20b55e4373499a7eb2fb663aeb3599"
+                },
+                {
+                  "name": "Reuters via Investing.com",
+                  "url": "https://www.investing.com/news/stock-market-news/abuse-survivors-approve-800-million-settlement-with-archdiocese-of-new-york-4971001"
+                },
+                {
+                  "name": "NPR via VPM",
+                  "url": "https://www.vpm.org/npr-story/archdiocese-of-new-york-agrees-to-800-million-settlement-over-sexual-abuse-claims/"
+                }
+              ]
+            },
+            {
+              "body": "The Saudi-led coalition said it destroyed ballistic missiles heading toward Yanbu and Taif as Yemen’s Houthi movement claimed a wider attack on Saudi airports, oil facilities and other infrastructure. Saudi authorities had not confirmed that the claimed targets were hit.\n\nYemen’s internationally recognized government separately said three Houthi missiles struck coast guard sites in Aden. No casualties were immediately reported.",
+              "candidate_id": "saudi-intercepts-missile-riyadh",
+              "headline": "Houthis fire missiles toward Saudi Arabia and Aden",
+              "sources": [
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/Houthis%2Bsay%2Bthey%2Battacked%2BSaudi%2Boil%2Bsites%2C%2Bstrikes%2Breported%2Bon%2BYemens%2BAden/27229144.html"
+                },
+                {
+                  "name": "L'Orient Today",
+                  "url": "https://today.lorientlejour.com/article/1551932/saudi-arabia-intercepts-ballistic-missile-headed-for-riyadh-alerts-issued-in-mecca-jeddah.html"
+                },
+                {
+                  "name": "Business Recorder",
+                  "url": "https://www.brecorder.com/news/40445742/two-explosions-heard-in-riyadh-following-alert"
+                }
+              ]
+            },
+            {
+              "body": "Taiwan’s emergency operations center said Typhoon Champi left one person dead and 527 injured. Most injuries were linked to falling trees, power cables and billboards, as well as damaged water pipes.\n\nThe weather agency later downgraded Champi to a tropical storm and lifted its land warning.",
+              "candidate_id": "taiwan-champi-casualty-update",
+              "headline": "Typhoon Champi injures 527 people in Taiwan",
+              "sources": [
+                {
+                  "name": "Focus Taiwan",
+                  "url": "https://focustaiwan.tw/society/202610240009"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/5ee312ec7567941b8f6b0f461d7c86d2"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0b666c6bc2544be2006addb8d4b72887d29ff4b7624b6a78c3",
+          "requestId": "req_47d1012f48aa467788b2bc3154748d36",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1868,
+          "inputTokens": 4145,
+          "outputTokens": 3003,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-24",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 47810,
+          "attemptDurationMs": 47810,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
