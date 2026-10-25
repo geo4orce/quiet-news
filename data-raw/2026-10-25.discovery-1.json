@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-25",
+  "batch": 1,
+  "captured_at": "2026-10-25T10:10:08.825Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "A bus collided with a truck on the Nairobi-Mombasa highway in Makueni County on Sunday morning, killing at least 22 people, police said. Several others were injured, and the county commissioner said the death toll could rise. Authorities had not determined the cause of the crash.",
+        "category": "disaster",
+        "title": "Kenya bus crash kills at least 22 people",
+        "event_date": "2026-10-25",
+        "candidate_id": "kenya-makueni-bus-crash",
+        "geography": "Kenya",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/kenya-bus-crash-mombasa-road-879107e49e932de208f47caeb04904cb"
+          }
+        ]
+      },
+      {
+        "summary": "Saudi Arabia's military said air defenses intercepted Houthi missiles and drones directed toward Riyadh and southern parts of the country early Sunday. King Khalid International Airport also reopened terminals for domestic and international flights after earlier Houthi attacks had disrupted operations.",
+        "category": "conflict",
+        "title": "Saudi Arabia reports new Houthi attacks as Riyadh airport reopens",
+        "event_date": "2026-10-25",
+        "candidate_id": "saudi-houthi-interceptions-airport-reopens",
+        "geography": "Saudi Arabia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/commodities-news/saudi-arabia-intercepts-drones-and-missiles-as-fighting-with-yemens-houthis-continues-4971080"
+          }
+        ]
+      },
+      {
+        "summary": "The Israeli military announced restrictions barring Palestinian laborers from jobs in Israeli settlements and closed several West Bank crossings as it continued an operation launched after two Israeli soldiers were killed in Hebron on Friday.",
+        "category": "conflict",
+        "title": "Israel imposes new West Bank restrictions during military operation",
+        "event_date": "2026-10-25",
+        "candidate_id": "israel-west-bank-labor-crossing-restrictions",
+        "geography": "West Bank",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885"
+          }
+        ]
+      },
+      {
+        "summary": "Voting began in Serbia's snap parliamentary election, with long lines reported outside polling stations. About 6.4 million voters were eligible to choose among 18 lists competing for the 250-seat National Assembly, in a close contest between Aleksandar Vucic's Serbian Progressive Party and the student-backed Students' List.",
+        "category": "politics",
+        "title": "Serbia votes in closely contested parliamentary election",
+        "event_date": "2026-10-25",
+        "candidate_id": "serbia-parliamentary-election-voting",
+        "geography": "Serbia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/serbia-election-students-vucic-fdf5def8a20aebc8ae139fd719478775"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/serbia-votes-as-students-seek-to-unseatvucic-in-snap-election-4971009"
+          }
+        ]
+      },
+      {
+        "summary": "Bulgarians began voting to elect a president from a record field of 27 candidates. Incumbent President Iliana Yotova and former caretaker prime minister Andrey Gyurov were regarded as the leading contenders, with a runoff considered likely because the winner must secure a majority and turnout must exceed 50%.",
+        "category": "politics",
+        "title": "Bulgaria holds presidential election",
+        "event_date": "2026-10-25",
+        "candidate_id": "bulgaria-presidential-election-voting",
+        "geography": "Bulgaria",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/bulgaria-president-election-energy-war-71e668caf5e926fd16395c392bc1920c"
+          },
+          {
+            "name": "The Sofia Globe",
+            "url": "https://sofiaglobe.com/2026/10/25/voting-underway-in-bulgarias-2026-presidential-elections/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-25"
+  },
+  "metadata": {
+    "responseId": "resp_021bb13759c9f337006addd4f29cd887d2951f268d3d741ff3",
+    "requestId": "req_f9e2a0f9620940feb6eee4617dc02c1a",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1601,
+    "inputTokens": 57603,
+    "outputTokens": 2462,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-25",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 145702,
+    "attemptDurationMs": 145702,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
