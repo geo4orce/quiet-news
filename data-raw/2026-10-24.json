@@ -680,10 +680,10 @@
       "request": {
         "fingerprint": "011996faf544ad39a7d3128815d25f8bfc8eace6891f35ee6557c3bf87e3df4f",
         "claimId": "b7c827b9-b2b1-4382-8a27-9af5ad6b19a0",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-25T08:07:45.205Z",
-        "responseId": null
+        "responseId": "resp_0b666c6bc2544be2006addb8d4b72887d29ff4b7624b6a78c3"
       },
       "result": null
     }
