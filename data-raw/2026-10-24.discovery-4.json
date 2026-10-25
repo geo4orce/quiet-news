@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-24",
+  "batch": 4,
+  "captured_at": "2026-10-25T07:09:44.644Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Jordan’s Public Security Directorate said a second critically injured victim died Saturday, raising the death toll from the October 23 attack on mourners at a Greek Orthodox church from eight to nine. Nearly 40 people were wounded in the shooting.",
+        "category": "Conflict and security",
+        "title": "Jordan church attack death toll rises to nine",
+        "event_date": "2026-10-24",
+        "candidate_id": "jordan-church-toll-rises-eight",
+        "geography": "Jordan",
+        "sources": [
+          {
+            "name": "Jordan News Agency",
+            "url": "https://petra.gov.jo/en/news/death-toll-in-karak-church-terrorist-attack-rises-to-9"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/09d5d10a173e7c4fa87209f73c465b5d"
+          }
+        ]
+      },
+      {
+        "summary": "Catalan authorities said 100 people were arrested after an anti-establishment demonstration in central Barcelona turned violent. Officials said hooded participants set more than 30 fires and vandalized or looted 14 stores around Plaça de Catalunya; about one-quarter of those arrested were minors.",
+        "category": "Politics and civil unrest",
+        "title": "Barcelona protest ends with 100 arrests and looting",
+        "event_date": "2026-10-24",
+        "candidate_id": "barcelona-anti-system-riot-arrests",
+        "geography": "Spain",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Arrests%2Bin%2BBarcelona%2Bafter%2Banti-system%2Brioters%2Bloot%2Bshops%2C%2Bset%2Bfires/27229173.html"
+          }
+        ]
+      },
+      {
+        "summary": "The Archdiocese of New York and attorneys representing about 1,300 people who alleged sexual abuse by clergy or other church personnel reached an $800 million settlement agreement. Archbishop Ronald Hicks said the agreement remained subject to signatures scheduled for the week of November 6. The terms also call for the release of documents concerning alleged offenders.",
+        "category": "Law and justice",
+        "title": "New York archdiocese and abuse claimants agree to $800 million settlement",
+        "event_date": "2026-10-24",
+        "candidate_id": "new-york-archdiocese-800m-settlement",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/fc20b55e4373499a7eb2fb663aeb3599"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/abuse-survivors-approve-800-million-settlement-with-archdiocese-of-new-york-4971001"
+          },
+          {
+            "name": "NPR via VPM",
+            "url": "https://www.vpm.org/npr-story/archdiocese-of-new-york-agrees-to-800-million-settlement-over-sexual-abuse-claims/"
+          }
+        ]
+      },
+      {
+        "summary": "Western Sydney International Airport opened for passenger service, and its inaugural commercial flight departed for the Gold Coast shortly before 11:30 a.m. Sunday in Sydney, corresponding to Saturday in New York. The new airport at Badgerys Creek operates without an overnight curfew; cargo operations began in July.",
+        "category": "Business and infrastructure",
+        "title": "Western Sydney International Airport opens to passengers",
+        "event_date": "2026-10-24",
+        "candidate_id": "western-sydney-airport-passenger-opening",
+        "geography": "Australia",
+        "sources": [
+          {
+            "name": "ABC News Australia",
+            "url": "https://www.abc.net.au/news/2026-10-25/western-sydney-international-airport-open-day-sunday-october-25/107293784"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/sydneys-new-international-airport-opens-to-passengers-4971003"
+          },
+          {
+            "name": "Western Sydney International Airport",
+            "url": "https://www.wsiairport.com.au/faqs?page=1"
+          }
+        ]
+      },
+      {
+        "summary": "El Salvador’s President Nayib Bukele said four bodies handed to the multinational Gang Suppression Force in Haiti were not those of four Salvadoran soldiers missing since an October 18 ambush near Port-au-Prince. Bukele said the remains included a child and a soldier from Chad. The missing Salvadorans’ status remained unresolved.",
+        "category": "Conflict and security",
+        "title": "Bukele says bodies recovered in Haiti are not missing Salvadoran soldiers",
+        "event_date": "2026-10-24",
+        "candidate_id": "haiti-bodies-not-missing-salvadorans",
+        "geography": "Haiti and El Salvador",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://au.investing.com/news/commodities-news/el-salvador-president-says-bodies-found-in-haiti-do-not-belong-to-ambushed-soldiers-4712856"
+          }
+        ]
+      },
+      {
+        "summary": "Portuguese police cleared a housing-rights protest camp in Lisbon’s Rossio Square shortly after 2 a.m. Sunday local time, corresponding to Saturday night in New York. Officers charged demonstrators and made several arrests after ordering tents removed. Minor injuries were reported, but immediate totals for arrests and injuries were unavailable.",
+        "category": "Politics and civil unrest",
+        "title": "Police clear Lisbon housing protest camp",
+        "event_date": "2026-10-24",
+        "candidate_id": "lisbon-housing-camp-cleared",
+        "geography": "Portugal",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://www.marketscreener.com/news/portuguese-police-clear-lisbon-housing-protest-camp-make-arrests-ce785cdfd189f522"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-24"
+  },
+  "metadata": {
+    "responseId": "resp_059de9d7c23781ae006addaac39cf087d2939019ed5d385e3b",
+    "requestId": "req_cd72c2c09be346779903e48af1136e7d",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2442,
+    "inputTokens": 83051,
+    "outputTokens": 3636,
+    "webSearchCalls": 9,
+    "stage": "discovery",
+    "targetDate": "2026-10-24",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 121316,
+    "attemptDurationMs": 121316,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
