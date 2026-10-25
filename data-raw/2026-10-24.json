@@ -450,6 +450,54 @@
         },
         "observedAt": "2026-10-24T22:07:44.841Z",
         "capturedAt": "2026-10-24T22:08:43.383Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Attack at Jordan church funeral kills seven",
+            "body": "Gunmen attacked mourners during a funeral at a Greek Orthodox church in Humud village, killing seven people and injuring 40, Jordanian authorities said.\n\nThe government described the shooting as a terrorist attack and said security forces were pursuing those responsible. Jordan declared three days of national mourning beginning October 23.",
+            "sources": [
+              {
+                "name": "Jordan News Agency casualty update",
+                "url": "https://petra.gov.jo/en/news/momani-bdour-update-public-on-karak-attack-response-1"
+              },
+              {
+                "name": "Jordan News Agency security briefing",
+                "url": "https://petra.gov.jo/en/news/interior-minister-psd-chief-brief-on-karak-church-terrorist-attack"
+              },
+              {
+                "name": "Jordan News Agency mourning announcement",
+                "url": "https://org.petra.gov.jo/Include/InnerPage.jsp?ID=91554&lang=en&name=en_news"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/19599ce75b9ab6749a1e1bf2ff66f2ab"
+              }
+            ]
+          },
+          {
+            "headline": "U.S. cuts staffing at four Mideast embassies",
+            "body": "The United States reduced staffing at its embassies in Jordan, Lebanon, Qatar and the United Arab Emirates. The embassies remained open.\n\nA memo sent October 23 by Director of National Intelligence Jay Clayton said intelligence indicated that Iran had substantially increased efforts to target U.S. personnel and that alleged plotting had reached advanced stages. U.S. officials also connected threats from Iran and Yemen’s Houthi movement to the staffing changes.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/iran-war-houthis-embassies-staffing-rubio-9635852ea973064907ed0b7c0fca4799"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "2c66c08d9d95c3315b0a8426de371987295ef70c4b67d467a610f30fb6ac59ec",
+          "claimId": "09d223ca-a784-4dbe-a79f-0783559392a9",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-25T07:07:43.327Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-25T07:07:43.235Z"
       }
     ],
     "sift": null
