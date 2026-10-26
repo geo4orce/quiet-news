@@ -335,13 +335,61 @@
         "request": {
           "fingerprint": "fb9967385a14cc92ad63712bcfc483d8029cbd8e205f07075f881699895365cc",
           "claimId": "eea727f8-3a9d-436a-ae8b-c8efe46f52e5",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-26T22:07:38.879Z",
           "responseId": "resp_0bc77bf77bead239006adfcf2e68f087d29a0606fca1382eaf"
         },
-        "result": null,
-        "observedAt": "2026-10-26T22:07:38.798Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Algerian President Abdelmadjid Tebboune ordered units of the People’s National Army deployed to Niger to protect the two countries’ shared energy and economic interests, according to Algeria’s state news agency. The announcement did not specify the number of troops or a deployment timetable.",
+                "category": "conflict",
+                "title": "Algeria orders military deployment to Niger",
+                "event_date": "2026-10-26",
+                "candidate_id": "algeria-orders-troops-to-niger",
+                "geography": "Algeria and Niger",
+                "sources": [
+                  {
+                    "name": "Algeria Press Service",
+                    "url": "https://www.aps.dz/en/presidency-news/mvpm6vvy-president-tebboune-decides-to-deploy-army-units-to-niger"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/d44b4d7a17cfc4a355376f2fffab0349"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-26"
+          },
+          "metadata": {
+            "responseId": "resp_0bc77bf77bead239006adfcf2e68f087d29a0606fca1382eaf",
+            "requestId": "req_f3b432044c7549a7a3ac55e2ce5e15f6",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1727,
+            "inputTokens": 49975,
+            "outputTokens": 1886,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-26",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 68557,
+            "attemptDurationMs": 68557,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-10-26T22:07:38.798Z",
+        "capturedAt": "2026-10-26T22:08:47.436Z"
       }
     ],
     "sift": null
