@@ -138,6 +138,68 @@
         },
         "observedAt": "2026-10-26T10:07:47.122Z",
         "capturedAt": "2026-10-26T10:08:41.984Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Lula wins fourth term in Brazil",
+            "body": "Brazil’s electoral court declared President Luiz Inácio Lula da Silva reelected to a fourth nonconsecutive term. He received 51.79% of valid votes, compared with 48.21% for Flávio Bolsonaro.\n\nBolsonaro refused to concede and said he would seek to annul the result because voting was extended at polling places that remained open late. The electoral court’s president said the extension did not affect the outcome.",
+            "sources": [
+              {
+                "name": "Tribunal Superior Eleitoral",
+                "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/presidente-do-tse-anuncia-reeleicao-de-lula-e-faz-balanco-do-2o-turno-das-eleicoes-2026"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/e2c9fe8fc4aa3e3675b9a8ec15405d93"
+              },
+              {
+                "name": "Reuters via UOL",
+                "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/10/25/flavio-bolsonaro-diz-que-e-impossivel-reconhecer-resultado-da-eleicao-e-vai-pedir-anulacao.htm"
+              }
+            ]
+          },
+          {
+            "headline": "Vucic concedes Serbia election to student movement",
+            "body": "Serbian President Aleksandar Vucic conceded defeat in the country’s parliamentary election after preliminary sampling showed the student-led Students’ List had won.\n\nThe list was projected to take 135 to 140 of parliament’s 250 seats, enough for a majority. Final official results were still pending.",
+            "sources": [
+              {
+                "name": "Reuters via MarketScreener",
+                "url": "https://www.marketscreener.com/news/serbia-s-vucic-concedes-defeat-to-student-led-movement-in-parliamentary-election-ce785cdfd18ff024"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/fdf5def8a20aebc8ae139fd719478775"
+              },
+              {
+                "name": "N1",
+                "url": "https://n1info.rs/english/news/vucic-concedes-defeat"
+              }
+            ]
+          },
+          {
+            "headline": "Zelenskyy says U.S. missile warnings restored",
+            "body": "Ukrainian President Volodymyr Zelenskyy said U.S. warnings about imminent Russian ballistic-missile attacks had been fully restored after recent disruptions.\n\nHe also said SpaceX’s military-focused Starshield service had operated without its earlier speed restriction since Saturday morning. Zelenskyy attributed both changes to discussions with U.S. envoy Steve Witkoff.",
+            "sources": [
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/stock-market-news/zelenskiy-says-us-warnings-on-ballistic-strikes-have-fully-resumed-4971254"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "a4a4d9436db04853a9514645acd7e6cfe3ff5d85c6ec1ae0c6c966e4dcdce08b",
+          "claimId": "0e938acc-4a6c-43e2-8265-99439c73bb72",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-26T16:07:42.591Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-26T16:07:42.530Z"
       }
     ],
     "sift": null
