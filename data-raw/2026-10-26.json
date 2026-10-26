@@ -59,13 +59,85 @@
         "request": {
           "fingerprint": "713c541241e72ca87d022533634d50dbf7e7ae6fea52436930ac99e1f80d61e3",
           "claimId": "7cdfaa46-7df9-4033-8ba4-71eaaa531e67",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-26T10:07:47.187Z",
           "responseId": "resp_045d506435b4e033006adf26772a9887d296b7a4aea9568285"
         },
-        "result": null,
-        "observedAt": "2026-10-26T10:07:47.122Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Jordanian security forces arrested three armed suspects sought after the October 23 attack on a Greek Orthodox church funeral in Karak that killed eight people. The Public Security Directorate said the suspects were found in an abandoned house in Al-Jadeeda on Monday, refused to surrender and were wounded in an exchange of fire before being taken into custody. No security personnel were reported hurt.",
+                "category": "security",
+                "title": "Jordan arrests three suspects after deadly church attack",
+                "event_date": "2026-10-26",
+                "candidate_id": "jordan-arrests-church-attack-suspects",
+                "geography": "Jordan",
+                "sources": [
+                  {
+                    "name": "Al Jazeera",
+                    "url": "https://www.aljazeera.com/news/2026/10/26/jordan-arrests-three-suspects-in-deadly-church-attack"
+                  }
+                ]
+              },
+              {
+                "summary": "The Chinese Communist Party’s Central Committee began a four-day closed-door plenum focused on strengthening party discipline and governance. About 300 committee members were expected to discuss a draft policy decision on tighter internal oversight amid Xi Jinping’s continuing anticorruption campaign.",
+                "category": "politics",
+                "title": "Chinese Communist Party begins discipline-focused plenum",
+                "event_date": "2026-10-26",
+                "candidate_id": "china-party-discipline-plenum-begins",
+                "geography": "China",
+                "sources": [
+                  {
+                    "name": "Al Jazeera",
+                    "url": "https://www.aljazeera.com/news/2026/10/26/chinas-political-elite-gather-for-talks-on-communist-party-discipline"
+                  }
+                ]
+              },
+              {
+                "summary": "The Saudi-led coalition supporting Yemen’s internationally recognized government carried out airstrikes on Houthi-held territory, including the capital, Sanaa, according to live reporting. The strikes came amid renewed fighting between the coalition and the Iran-aligned Houthi movement.",
+                "category": "conflict",
+                "title": "Saudi-led coalition carries out airstrikes in Sanaa",
+                "event_date": "2026-10-26",
+                "candidate_id": "saudi-led-airstrikes-sanaa",
+                "geography": "Yemen",
+                "sources": [
+                  {
+                    "name": "Al Jazeera",
+                    "url": "https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-26"
+          },
+          "metadata": {
+            "responseId": "resp_045d506435b4e033006adf26772a9887d296b7a4aea9568285",
+            "requestId": "req_29ca70ddc7084426ab0478db64d36a23",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1153,
+            "inputTokens": 53765,
+            "outputTokens": 1597,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-26",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 54797,
+            "attemptDurationMs": 54797,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-10-26T10:07:47.122Z",
+        "capturedAt": "2026-10-26T10:08:41.984Z"
       }
     ],
     "sift": null
