@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-26",
+  "batch": 2,
+  "captured_at": "2026-10-26T16:08:58.108Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Yemen’s Iran-aligned Houthis said they attacked Saudi Arabia’s East-West crude-oil pumping stations and King Khalid International Airport in Riyadh. Saudi authorities had not immediately confirmed the claimed attacks. The announcement came as the Saudi-led coalition said it had destroyed Houthi ballistic-missile launchers in Sanaa, including one allegedly used to fire an intercepted missile toward Riyadh.",
+        "category": "conflict",
+        "title": "Houthis claim attacks on Saudi oil stations and Riyadh airport",
+        "event_date": "2026-10-26",
+        "candidate_id": "houthis-claim-saudi-oil-airport-attacks",
+        "geography": "Saudi Arabia and Yemen",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-ce785cdfd08df327"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/7d1bcf08210539085ea0b5ed56ef4d4c"
+          }
+        ]
+      },
+      {
+        "summary": "French President Emmanuel Macron said his government would announce measures responding to weeks of protests over education, living costs and other grievances. Macron did not detail the package. He and Interior Minister Laurent Nunez said further unrest was expected during demonstrations planned for October 31.",
+        "category": "politics",
+        "title": "Macron promises measures in response to French protests",
+        "event_date": "2026-10-26",
+        "candidate_id": "macron-promises-protest-response-measures",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/french-minister-says-halloween-protests-could-turn-violent-ce785cdcdb8af225"
+          }
+        ]
+      },
+      {
+        "summary": "Six U.S. citizens filed a federal lawsuit in New York challenging President Donald Trump’s policy of expelling reporters from White House premises. The plaintiffs argue that excluding news organizations infringes the public’s right to receive independent reporting about the president and federal government. The defendants include Trump and three aides, including White House chief of staff Susie Wiles.",
+        "category": "law",
+        "title": "Citizens sue over White House expulsions of reporters",
+        "event_date": "2026-10-26",
+        "candidate_id": "citizens-sue-white-house-reporter-expulsions",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Knight First Amendment Institute",
+            "url": "https://knightcolumbia.org/documents/gxpwhx3jin"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/594f803fa578c450e38e5cb00410e299"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-26"
+  },
+  "metadata": {
+    "responseId": "resp_027c5cbba9403618006adf7ad7271087d2b6e8b478a60aebb8",
+    "requestId": "req_b5e87ac6c50d449b826e13eb867b440b",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1815,
+    "inputTokens": 54785,
+    "outputTokens": 2058,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-26",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 75517,
+    "attemptDurationMs": 75517,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
