@@ -649,13 +649,153 @@
         "request": {
           "fingerprint": "97b85ed15d62abba142ad77092a533c4453392b98d16e56bba111ece6ccf4d8b",
           "claimId": "494c1512-3b4b-4f48-921c-3707feadf76b",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-26T07:07:47.800Z",
           "responseId": "resp_04d1b0c829006021006adefc47d82c87d29cc5633d79db5f74"
         },
-        "result": null,
-        "observedAt": "2026-10-26T07:07:47.691Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Brazil's electoral court declared President Luiz Inácio Lula da Silva reelected to a fourth nonconsecutive term, with 51.79% of valid votes to Flávio Bolsonaro's 48.21%. Bolsonaro refused to concede and said he would seek annulment over the late extension of voting at polling places that remained open. The electoral court's president said the extension did not affect the result.",
+                "category": "politics",
+                "title": "Lula wins fourth term as Bolsonaro rejects Brazil result",
+                "event_date": "2026-10-25",
+                "candidate_id": "brazil-presidential-runoff-voting",
+                "geography": "Brazil",
+                "sources": [
+                  {
+                    "name": "Tribunal Superior Eleitoral",
+                    "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/presidente-do-tse-anuncia-reeleicao-de-lula-e-faz-balanco-do-2o-turno-das-eleicoes-2026"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/e2c9fe8fc4aa3e3675b9a8ec15405d93"
+                  },
+                  {
+                    "name": "Reuters via UOL",
+                    "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/10/25/flavio-bolsonaro-diz-que-e-impossivel-reconhecer-resultado-da-eleicao-e-vai-pedir-anulacao.htm"
+                  }
+                ]
+              },
+              {
+                "summary": "Venezuelan opposition leader María Corina Machado returned to Venezuela after nearly a year abroad. She appeared at a church in Lara state before traveling toward Caracas, where supporters gathered to greet her.",
+                "category": "politics",
+                "title": "María Corina Machado returns to Venezuela",
+                "event_date": "2026-10-25",
+                "candidate_id": "machado-returns-to-venezuela",
+                "geography": "Venezuela",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/e6eff0c2ff962fd9b0f87270b24ef567"
+                  },
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/venezuela-opposition-leader-maria-corina-machado-returns-to-venezuela-4971229"
+                  },
+                  {
+                    "name": "El País",
+                    "url": "https://elpais.com/america/2026-10-25/maria-corina-machado-regresa-a-venezuela.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Uganda's Health Ministry announced that citizens returning with a history of travel to the Democratic Republic of Congo must undergo 21 days of quarantine at their own expense. Authorities also intensified traveler screening at Entebbe International Airport and land crossings as precautions against Ebola, while saying Uganda remained free of confirmed cases.",
+                "category": "health",
+                "title": "Uganda tightens Ebola precautions for travelers from Congo",
+                "event_date": "2026-10-25",
+                "candidate_id": "uganda-ebola-travel-quarantine",
+                "geography": "Uganda",
+                "sources": [
+                  {
+                    "name": "Uganda Ministry of Health",
+                    "url": "https://health.go.ug/download/statement-by-minister-of-health"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/86561d00f73410febe41e44041105a86"
+                  },
+                  {
+                    "name": "Reuters via MarketScreener",
+                    "url": "https://www.marketscreener.com/news/uganda-to-impose-21-day-quarantine-on-returning-citizens-with-congo-travel-history-ce785cdfd18bf224"
+                  }
+                ]
+              },
+              {
+                "summary": "A large fire at a Pacific Seafood processing plant in Newport, Oregon, prompted evacuation orders around the facility because it contained anhydrous ammonia. State officials said the ammonia tank did not appear punctured or leaking, and no injuries were reported. Firefighters and a hazardous-materials team remained at the scene.",
+                "category": "disaster",
+                "title": "Seafood plant fire prompts evacuations in Newport, Oregon",
+                "event_date": "2026-10-25",
+                "candidate_id": "oregon-newport-seafood-plant-fire",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Oregon State Fire Marshal",
+                    "url": "https://apps.oregon.gov/oregon-newsroom/OR/OSFM/Posts/Post/newport-fire"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/942a1c72ce7be8f36525be215403538a"
+                  },
+                  {
+                    "name": "Oregon Public Broadcasting",
+                    "url": "https://www.opb.org/article/2026/10/25/fire-ongoing-at-newport-seafood-warehouse-as-evacuation-zone-shrinks/"
+                  }
+                ]
+              },
+              {
+                "summary": "Thousands of people rallied in central Prague against the Czech government's proposed overhaul of public television and radio funding. The demonstration followed lawmakers' initial approval of legislation that would replace license-fee financing with state-budget funding, which protesters and opposition parties said could expose the broadcasters to political pressure.",
+                "category": "politics",
+                "title": "Thousands protest Czech public-media funding overhaul",
+                "event_date": "2026-10-25",
+                "candidate_id": "prague-public-media-funding-protest",
+                "geography": "Czech Republic",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/542d603c183503d9193b033be3f3adbc"
+                  },
+                  {
+                    "name": "Agence France-Presse",
+                    "url": "https://www.afp.com/en/thousands-gather-prague-protest-licence-fee-plans"
+                  },
+                  {
+                    "name": "Expats.cz",
+                    "url": "https://www.expats.cz/czech-news/article/thousands-fill-prague-s-old-town-square-in-public-media-funding-protest"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-25"
+          },
+          "metadata": {
+            "responseId": "resp_04d1b0c829006021006adefc47d82c87d29cc5633d79db5f74",
+            "requestId": "req_595d8a2f7e084c7dbad59221c28ed69b",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2679,
+            "inputTokens": 93669,
+            "outputTokens": 3442,
+            "webSearchCalls": 11,
+            "stage": "discovery",
+            "targetDate": "2026-10-25",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 152573,
+            "attemptDurationMs": 152573,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-10-26T07:07:47.691Z",
+        "capturedAt": "2026-10-26T07:10:20.374Z"
       }
     ],
     "sift": null
