@@ -649,10 +649,10 @@
         "request": {
           "fingerprint": "97b85ed15d62abba142ad77092a533c4453392b98d16e56bba111ece6ccf4d8b",
           "claimId": "494c1512-3b4b-4f48-921c-3707feadf76b",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-26T07:07:47.800Z",
-          "responseId": null
+          "responseId": "resp_04d1b0c829006021006adefc47d82c87d29cc5633d79db5f74"
         },
         "result": null,
         "observedAt": "2026-10-26T07:07:47.691Z"
