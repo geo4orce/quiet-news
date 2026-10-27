@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-27",
+  "batch": 2,
+  "captured_at": "2026-10-27T16:08:45.639Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The Federal Trade Commission and 20 states sued Dollar General in federal court, alleging the retailer routinely charged customers more at checkout than prices displayed on shelves or in advertisements. The complaint says the company failed to correct the discrepancies despite extensive knowledge of them. Dollar General did not immediately comment to the Associated Press.",
+        "category": "business",
+        "title": "FTC and 20 states sue Dollar General over pricing",
+        "event_date": "2026-10-27",
+        "candidate_id": "ftc-states-dollar-general-pricing-lawsuit",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/federal-trade-commission-dollar-general-prices-1b572418c750c6abe491166fc1ba7480"
+          }
+        ]
+      },
+      {
+        "summary": "A group of 21 Indian news publishers began a Supreme Court challenge to India’s privacy law. The publishers argue that requirements to obtain consent from people covered by journalists would amount to prior censorship, expose confidential sources and threaten newsroom operations.",
+        "category": "law",
+        "title": "Indian publishers challenge privacy law in Supreme Court",
+        "event_date": "2026-10-27",
+        "candidate_id": "india-publishers-privacy-law-challenge",
+        "geography": "India",
+        "sources": [
+          {
+            "name": "Just Security",
+            "url": "https://www.justsecurity.org/162113/early-edition-october-27-2026/"
+          }
+        ]
+      },
+      {
+        "summary": "Jordanian government spokesperson Mohammed al-Momani said Jordan’s overnight airstrikes in southern Syria killed more than 20 Islamic State militants. He said Jordan regretted civilian casualties reported by Syria, which said seven civilians, including three children and a woman, were killed. The strikes followed an October 23 attack on a funeral in Jordan.",
+        "category": "conflict",
+        "title": "Jordan says Syria strikes killed more than 20 Islamic State militants",
+        "event_date": "2026-10-27",
+        "candidate_id": "jordan-syria-strikes-militant-casualty-update",
+        "geography": "Jordan and Syria",
+        "sources": [
+          {
+            "name": "Just Security",
+            "url": "https://www.justsecurity.org/162113/early-edition-october-27-2026/"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/c3f87a077a08b4fcf7a15b169a83a6b5"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-27"
+  },
+  "metadata": {
+    "responseId": "resp_0eedd67ee120ad2f006ae0cc55dec087d2920e2f24c8e57a7c",
+    "requestId": "req_f0a73d15c1684d7092f268094781dce6",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1697,
+    "inputTokens": 56249,
+    "outputTokens": 2142,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-27",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 60659,
+    "attemptDurationMs": 60659,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
