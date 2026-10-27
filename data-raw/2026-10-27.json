@@ -283,13 +283,79 @@
         "request": {
           "fingerprint": "2e63b5565f0e3fc340f98217a1f4eed70922186589f29d60353eb8109fd88b8d",
           "claimId": "76b845d9-763a-44a0-9153-08079aed6806",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-27T22:07:49.625Z",
           "responseId": "resp_0746a6c35e428994006ae120ba013887d29bc6931c97ce3ca4"
         },
-        "result": null,
-        "observedAt": "2026-10-27T22:07:49.504Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Polling ended in Israel’s Knesset election, with exit polls from the major television broadcasters indicating that neither Prime Minister Benjamin Netanyahu’s bloc nor the opposition bloc led by Gadi Eisenkot secured the 61 seats needed for a majority. Likud was projected to be the largest party, but final results were still pending and coalition negotiations could take weeks.",
+                "category": "politics",
+                "title": "Israeli exit polls indicate no clear election winner",
+                "event_date": "2026-10-27",
+                "candidate_id": "israel-knesset-election-voting-2026",
+                "geography": "Israel",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-latest-782c69f4a5389da8073b1c27aafa606f"
+                  },
+                  {
+                    "name": "Associated Press via 2 News Nevada",
+                    "url": "https://www.2news.com/news/world/no-clear-winner-in-israeli-election-exit-polls-suggest-as-netanyahu-s-fate-hangs-in/article_77308261-7cb9-53d6-bfd3-c5ecee08946e.html"
+                  },
+                  {
+                    "name": "The Times of Israel",
+                    "url": "https://www.timesofisrael.com/liveblog_entry/kan-exit-poll-shows-no-clear-victor-as-netanyahus-likud-is-largest-party-but-opponents-have-larger-bloc/"
+                  }
+                ]
+              },
+              {
+                "summary": "Heavy rains caused flooding and landslides across Haiti and the Dominican Republic. Haiti’s Civil Protection Agency reported at least four deaths, two people missing, more than 3,200 families affected and hundreds of homes destroyed. Dominican authorities said at least 30 communities were cut off and more than 100 homes flooded.",
+                "category": "disaster",
+                "title": "Flooding kills at least four in Haiti and cuts off communities on Hispaniola",
+                "event_date": "2026-10-27",
+                "candidate_id": "haiti-dominican-republic-flooding-oct-27",
+                "geography": "Haiti and Dominican Republic",
+                "sources": [
+                  {
+                    "name": "Associated Press via The Washington Post",
+                    "url": "https://www.washingtonpost.com/world/2026/10/27/rains-flooding-haiti-dominican-republic-weather-killed/aa9883e0-d238-11f1-9931-2a41b76fc976_story.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-27"
+          },
+          "metadata": {
+            "responseId": "resp_0746a6c35e428994006ae120ba013887d29bc6931c97ce3ca4",
+            "requestId": "req_37e5ae6c43704723a21cb4bce2cb6cf0",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1431,
+            "inputTokens": 55300,
+            "outputTokens": 1951,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-10-27",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 64447,
+            "attemptDurationMs": 64447,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-10-27T22:07:49.504Z",
+        "capturedAt": "2026-10-27T22:08:54.072Z"
       }
     ],
     "sift": null
