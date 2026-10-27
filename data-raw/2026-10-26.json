@@ -680,12 +680,121 @@
       "request": {
         "fingerprint": "6053e45a2a07f329dea29e26e4ead2ac6cc17929b73308c0403b9a51b0cfe1ef",
         "claimId": "551e366d-dbf3-4ee2-bd68-2d5611ffeeb2",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-27T08:07:40.610Z",
         "responseId": "resp_0f23f2e5773a3487006ae05bd02a8487d29db3d3126c77d6b6"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "algeria-orders-troops-to-niger",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "anthropic-files-s1-proposed-ipo",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "china-party-discipline-plenum-begins",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "citizens-sue-white-house-reporter-expulsions",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "egypt-authorizes-saudi-defense-support",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "houthis-claim-saudi-oil-airport-attacks",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "jordan-arrests-church-attack-suspects",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "judge-rules-maurene-comey-firing-illegal",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "macron-promises-protest-response-measures",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "saudi-led-airstrikes-sanaa",
+              "code": "incremental_update"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The Ethiopian Orthodox Tewahedo Church said attacks on Orthodox Christians in Oromia’s Arsi Zone killed 60 people and seriously injured more than 20. It attributed 14 deaths to an October 20 attack in Merti district and 46 to attacks in Shirka district on October 24.\n\nIndependent reports gave differing casualty estimates, and the perpetrators had not been publicly identified.",
+              "candidate_id": "ethiopian-church-reports-60-killed-arsi",
+              "headline": "Ethiopian church says 60 killed in Oromia",
+              "sources": [
+                {
+                  "name": "African Press Agency",
+                  "url": "https://apanews.net/ethiopian-church-confirms-60-members-killed-in-attacks/"
+                },
+                {
+                  "name": "Free Malaysia Today",
+                  "url": "https://www.freemalaysiatoday.com/category/world/2026/10/26/dozens-killed-in-attack-on-ethiopia-orthodox-christians"
+                }
+              ]
+            },
+            {
+              "body": "Jordan carried out airstrikes in southern Syria against armed groups it linked to the October 23 attack on a Greek Orthodox funeral in Karak, Jordan. Jordan said militants were killed or wounded but did not identify the groups or disclose where it struck.\n\nSyria said the operation was not coordinated with its government and killed seven civilians, including three children, in Daraa and Sweida. It then closed its main border crossing with Jordan.",
+              "candidate_id": "jordan-strikes-syria-after-karak-attack",
+              "headline": "Jordan strikes Syria; main border crossing closes",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/c3f87a077a08b4fcf7a15b169a83a6b5"
+                }
+              ]
+            },
+            {
+              "body": "Newly unsealed court documents show that the Justice Department filed a criminal information against former FBI Director James Comey on October 5, alleging two felony counts related to disclosures of classified information in 2016.\n\nThe filing was made under seal and without a grand-jury indictment. Comey denies wrongdoing, and his lawyers asked the court to dismiss the case, arguing that it is legally invalid and was brought after the applicable limitations period.",
+              "candidate_id": "new-doj-case-against-james-comey-unsealed",
+              "headline": "New criminal case against Comey is unsealed",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/8479bdbf1bcdeeae313b453a3cd0c544"
+                },
+                {
+                  "name": "The Washington Post",
+                  "url": "https://www.washingtonpost.com/national-security/2026/10/26/justice-dept-charges-james-comey-ex-fbi-director-third-time/"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0f23f2e5773a3487006ae05bd02a8487d29db3d3126c77d6b6",
+          "requestId": "req_a892439b59ee4fa4ab1f157690fab153",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1034,
+          "inputTokens": 3962,
+          "outputTokens": 1812,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-26",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 31997,
+          "attemptDurationMs": 31997,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
