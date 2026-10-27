@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-27",
+  "batch": 1,
+  "captured_at": "2026-10-27T10:08:48.556Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Polling stations opened across Israel for elections to all 120 seats in the Knesset. More than 7.3 million people were eligible to vote, with Prime Minister Benjamin Netanyahu facing a closely contested opposition led by former military chief Gadi Eisenkot. No single party was expected to win a majority, making coalition negotiations likely after ballots are counted.",
+        "category": "politics",
+        "title": "Israelis vote in national election",
+        "event_date": "2026-10-27",
+        "candidate_id": "israel-knesset-election-voting-2026",
+        "geography": "Israel",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-3b5a0fd078208155337ee9a0b9fbfde2"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-latest-782c69f4a5389da8073b1c27aafa606f"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-27"
+  },
+  "metadata": {
+    "responseId": "resp_03dc2437c436dfdb006ae077f481d887d2a19c1fa7e56910a8",
+    "requestId": "req_e54ef06bb99c4524b18b3b1b4a836f22",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1172,
+    "inputTokens": 56344,
+    "outputTokens": 1382,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-27",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 64282,
+    "attemptDurationMs": 64282,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
