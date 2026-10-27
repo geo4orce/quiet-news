@@ -106,6 +106,60 @@
         },
         "observedAt": "2026-10-27T10:07:44.218Z",
         "capturedAt": "2026-10-27T10:08:48.556Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Ethiopian church says 60 killed in Oromia",
+            "body": "The Ethiopian Orthodox Tewahedo Church said attacks on Orthodox Christians in Oromia’s Arsi Zone killed 60 people and seriously injured more than 20. It attributed 14 deaths to an October 20 attack in Merti district and 46 to attacks in Shirka district on October 24.\n\nIndependent reports gave differing casualty estimates, and the perpetrators had not been publicly identified.",
+            "sources": [
+              {
+                "name": "African Press Agency",
+                "url": "https://apanews.net/ethiopian-church-confirms-60-members-killed-in-attacks/"
+              },
+              {
+                "name": "Free Malaysia Today",
+                "url": "https://www.freemalaysiatoday.com/category/world/2026/10/26/dozens-killed-in-attack-on-ethiopia-orthodox-christians"
+              }
+            ]
+          },
+          {
+            "headline": "Jordan strikes Syria; main border crossing closes",
+            "body": "Jordan carried out airstrikes in southern Syria against armed groups it linked to the October 23 attack on a Greek Orthodox funeral in Karak, Jordan. Jordan said militants were killed or wounded but did not identify the groups or disclose where it struck.\n\nSyria said the operation was not coordinated with its government and killed seven civilians, including three children, in Daraa and Sweida. It then closed its main border crossing with Jordan.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/c3f87a077a08b4fcf7a15b169a83a6b5"
+              }
+            ]
+          },
+          {
+            "headline": "New criminal case against Comey is unsealed",
+            "body": "Newly unsealed court documents show that the Justice Department filed a criminal information against former FBI Director James Comey on October 5, alleging two felony counts related to disclosures of classified information in 2016.\n\nThe filing was made under seal and without a grand-jury indictment. Comey denies wrongdoing, and his lawyers asked the court to dismiss the case, arguing that it is legally invalid and was brought after the applicable limitations period.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/8479bdbf1bcdeeae313b453a3cd0c544"
+              },
+              {
+                "name": "The Washington Post",
+                "url": "https://www.washingtonpost.com/national-security/2026/10/26/justice-dept-charges-james-comey-ex-fbi-director-third-time/"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "ff1905a077d8ec9a314f0295c872c512a0183deb2490e593c1eb98b0e3d59bd7",
+          "claimId": "68168a62-adcf-4354-88ad-db1c27178b8f",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-10-27T16:07:44.979Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-10-27T16:07:44.913Z"
       }
     ],
     "sift": null
