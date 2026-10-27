@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-26",
+  "batch": 4,
+  "captured_at": "2026-10-27T07:09:28.895Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Jordanian security forces arrested three Jordanian relatives after a shootout in Al-Jadeeda, identifying them as the gunmen in the October 23 attack on a Greek Orthodox church funeral in Karak. Jordan’s official news agency said the attack killed nine people and injured 34, correcting the previously reported death toll of eight. The suspects were wounded during their arrest; no security personnel were reported injured.",
+        "category": "security",
+        "title": "Jordan arrests three suspects after church attack that killed nine",
+        "event_date": "2026-10-26",
+        "candidate_id": "jordan-arrests-church-attack-suspects",
+        "geography": "Jordan",
+        "sources": [
+          {
+            "name": "Jordan News Agency",
+            "url": "https://petra.gov.jo/en/index.php/en/news/government-press-conference-details-arrests-of-those-involved-in-terrorist-attack-in-karak-1"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/c3f87a077a08b4fcf7a15b169a83a6b5"
+          }
+        ]
+      },
+      {
+        "summary": "France’s government announced measures responding to protests over education and living costs, including replacing the Parcoursup university-admissions platform by 2028 and creating 15,000 additional higher-education places during 2027 and 2028. Other commitments included limits on some class sizes and financing for school renovations. The replacement admissions system still must be designed and may require legislation.",
+        "category": "politics",
+        "title": "France announces education concessions after mass protests",
+        "event_date": "2026-10-26",
+        "candidate_id": "macron-promises-protest-response-measures",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "French Ministry of Higher Education and Research",
+            "url": "https://www.enseignementsup-recherche.gouv.fr/fr/remplacement-de-la-plateforme-parcoursup-plafonnement-du-nombre-d-eleves-par-classe-etat-des-104451"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/66403512e943e3aee4cdca64ecccfe33"
+          }
+        ]
+      },
+      {
+        "summary": "Jordan said it carried out airstrikes against armed groups in southern Syria that it linked to the October 23 church attack in Karak. Jordan said militants were killed or wounded but did not identify the groups or disclose strike locations. Syria said seven civilians were killed in Daraa and Sweida, including three children, and said Jordan had not coordinated the operation. Syria subsequently closed its main border crossing with Jordan.",
+        "category": "conflict",
+        "title": "Jordan strikes Syria over deadly Karak church attack",
+        "event_date": "2026-10-26",
+        "candidate_id": "jordan-strikes-syria-after-karak-attack",
+        "geography": "Jordan and Syria",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/c3f87a077a08b4fcf7a15b169a83a6b5"
+          }
+        ]
+      },
+      {
+        "summary": "Egypt’s House of Representatives authorized President Abdel-Fattah el-Sissi to provide military support to Saudi Arabia if requested, following escalating Houthi attacks on the kingdom. Egyptian officials described the mandate as defensive and said it would not include attacks inside Yemen. The authorization clears the constitutional requirement for a possible deployment but does not itself confirm that Egyptian forces have been sent.",
+        "category": "conflict",
+        "title": "Egypt authorizes defensive military support for Saudi Arabia",
+        "event_date": "2026-10-26",
+        "candidate_id": "egypt-authorizes-saudi-defense-support",
+        "geography": "Egypt and Saudi Arabia",
+        "sources": [
+          {
+            "name": "Ahram Online",
+            "url": "https://english.ahram.org.eg/NewsContentP/1/580951/Egypt/UPDATED-Egypt%E2%80%99s-parliament-authorizes-ElSisi-to-su.aspx"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/0122d6201f904496a080e60e0f983697"
+          }
+        ]
+      },
+      {
+        "summary": "Anthropic filed a Form S-1 registration statement with the U.S. Securities and Exchange Commission for a proposed initial public offering. The company said it intends to list Class A shares on Nasdaq under the symbol ANT. The number of shares and proposed price range have not been determined, and the registration statement has not yet taken effect.",
+        "category": "business",
+        "title": "Anthropic publicly files for proposed IPO",
+        "event_date": "2026-10-26",
+        "candidate_id": "anthropic-files-s1-proposed-ipo",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Securities and Exchange Commission",
+            "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.html"
+          },
+          {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/news/s1-sec"
+          }
+        ]
+      },
+      {
+        "summary": "The Ethiopian Orthodox Tewahedo Church’s Holy Synod said 60 Orthodox Christians were killed and more than 20 seriously injured in attacks in Oromia’s Arsi Zone on October 20 and October 24. The church attributed 14 deaths to an attack in Merti district and 46 to attacks in Shirka district. It called for government protection and prosecution of those responsible. Independent reporting cited differing casualty estimates, and the perpetrators had not been publicly established.",
+        "category": "conflict",
+        "title": "Ethiopian church reports 60 killed in Oromia attacks",
+        "event_date": "2026-10-26",
+        "candidate_id": "ethiopian-church-reports-60-killed-arsi",
+        "geography": "Ethiopia",
+        "sources": [
+          {
+            "name": "African Press Agency",
+            "url": "https://apanews.net/ethiopian-church-confirms-60-members-killed-in-attacks/"
+          },
+          {
+            "name": "Free Malaysia Today",
+            "url": "https://www.freemalaysiatoday.com/category/world/2026/10/26/dozens-killed-in-attack-on-ethiopia-orthodox-christians"
+          }
+        ]
+      },
+      {
+        "summary": "Court documents unsealed Monday revealed that the U.S. Justice Department had filed a criminal information against former FBI Director James Comey alleging two felony counts related to the disclosure of classified information in 2016. The filing was submitted under seal on October 5 without a grand-jury indictment. Comey denies wrongdoing, and his lawyers asked the court to dismiss the case as legally invalid and outside the applicable limitations period.",
+        "category": "law",
+        "title": "Unsealed filings reveal new Justice Department case against Comey",
+        "event_date": "2026-10-26",
+        "candidate_id": "new-doj-case-against-james-comey-unsealed",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/8479bdbf1bcdeeae313b453a3cd0c544"
+          },
+          {
+            "name": "The Washington Post",
+            "url": "https://www.washingtonpost.com/national-security/2026/10/26/justice-dept-charges-james-comey-ex-fbi-director-third-time/"
+          }
+        ]
+      },
+      {
+        "summary": "A federal judge ruled that the Justice Department unlawfully fired former federal prosecutor Maurene Comey. The judge ordered retroactive reinstatement and back pay from her dismissal through December 20, 2025, when she began private-sector employment. The ruling did not decide Comey’s separate claim that the firing violated her free-speech rights.",
+        "category": "law",
+        "title": "Judge rules Justice Department unlawfully fired Maurene Comey",
+        "event_date": "2026-10-26",
+        "candidate_id": "judge-rules-maurene-comey-firing-illegal",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/be7de14f705def3bb6eeadafa7e60805"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-26"
+  },
+  "metadata": {
+    "responseId": "resp_0cb7084fb8dd1bec006ae04dc3c43c87d2ac814c6fd79ca65e",
+    "requestId": "req_68d38054e4154efdb5559a8387a4a3ee",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1826,
+    "inputTokens": 74887,
+    "outputTokens": 3455,
+    "webSearchCalls": 8,
+    "stage": "discovery",
+    "targetDate": "2026-10-26",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 104769,
+    "attemptDurationMs": 104769,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
