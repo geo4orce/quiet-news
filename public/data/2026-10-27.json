@@ -1,0 +1,39 @@
+{
+  "edition_date": "2026-10-27",
+  "published_at": "2026-10-28T08:08:16.946Z",
+  "expires_at": "2026-10-29T09:00:00.000Z",
+  "stories": [
+    {
+      "headline": "Grand jury rejects charges against Cassidy Hutchinson",
+      "body": "A federal grand jury in Washington declined prosecutors’ request to indict former White House aide Cassidy Hutchinson over allegations that she lied to Congress about President Donald Trump’s actions surrounding the January 6, 2021, Capitol attack. The proposed charges have not been made public.\n\nHutchinson says she stands by her testimony. The Justice Department did not immediately comment.",
+      "sources": [
+        {
+          "name": "The Washington Post",
+          "url": "https://www.washingtonpost.com/national-security/2026/10/27/grand-jury-declines-indict-cassidy-hutchinson-over-jan-6-testimony/"
+        },
+        {
+          "name": "ABC News via ABC7 Los Angeles",
+          "url": "https://abc7.com/story/doj-fails-get-indict-ex-trump-aide-cassidy-hutchinson-jan-6-testimony-sources/19986840/"
+        }
+      ]
+    },
+    {
+      "headline": "Israeli exit polls show no majority",
+      "body": "Voting ended in Israel’s Knesset election, and exit polls from the major television broadcasters projected that neither Prime Minister Benjamin Netanyahu’s bloc nor the opposition led by Gadi Eisenkot had won the 61 seats needed for a majority.\n\nLikud was projected to remain the largest party, but official results were still pending. Forming a government could depend on coalition negotiations lasting several weeks.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-latest-782c69f4a5389da8073b1c27aafa606f"
+        },
+        {
+          "name": "Associated Press via 2 News Nevada",
+          "url": "https://www.2news.com/news/world/no-clear-winner-in-israeli-election-exit-polls-suggest-as-netanyahu-s-fate-hangs-in/article_77308261-7cb9-53d6-bfd3-c5ecee08946e.html"
+        },
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/kan-exit-poll-shows-no-clear-victor-as-netanyahus-likud-is-largest-party-but-opponents-have-larger-bloc/"
+        }
+      ]
+    }
+  ]
+}

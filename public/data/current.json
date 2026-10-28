@@ -1,43 +1,37 @@
 {
-  "edition_date": "2026-10-26",
-  "published_at": "2026-10-27T08:08:14.456Z",
-  "expires_at": "2026-10-28T09:00:00.000Z",
+  "edition_date": "2026-10-27",
+  "published_at": "2026-10-28T08:08:16.946Z",
+  "expires_at": "2026-10-29T09:00:00.000Z",
   "stories": [
     {
-      "headline": "Ethiopian church says 60 killed in Oromia",
-      "body": "The Ethiopian Orthodox Tewahedo Church said attacks on Orthodox Christians in Oromia’s Arsi Zone killed 60 people and seriously injured more than 20. It attributed 14 deaths to an October 20 attack in Merti district and 46 to attacks in Shirka district on October 24.\n\nIndependent reports gave differing casualty estimates, and the perpetrators had not been publicly identified.",
+      "headline": "Grand jury rejects charges against Cassidy Hutchinson",
+      "body": "A federal grand jury in Washington declined prosecutors’ request to indict former White House aide Cassidy Hutchinson over allegations that she lied to Congress about President Donald Trump’s actions surrounding the January 6, 2021, Capitol attack. The proposed charges have not been made public.\n\nHutchinson says she stands by her testimony. The Justice Department did not immediately comment.",
       "sources": [
-        {
-          "name": "African Press Agency",
-          "url": "https://apanews.net/ethiopian-church-confirms-60-members-killed-in-attacks/"
-        },
-        {
-          "name": "Free Malaysia Today",
-          "url": "https://www.freemalaysiatoday.com/category/world/2026/10/26/dozens-killed-in-attack-on-ethiopia-orthodox-christians"
-        }
-      ]
-    },
-    {
-      "headline": "Jordan strikes Syria; main border crossing closes",
-      "body": "Jordan carried out airstrikes in southern Syria against armed groups it linked to the October 23 attack on a Greek Orthodox funeral in Karak, Jordan. Jordan said militants were killed or wounded but did not identify the groups or disclose where it struck.\n\nSyria said the operation was not coordinated with its government and killed seven civilians, including three children, in Daraa and Sweida. It then closed its main border crossing with Jordan.",
-      "sources": [
-        {
-          "name": "Associated Press",
-          "url": "https://apnews.com/article/c3f87a077a08b4fcf7a15b169a83a6b5"
-        }
-      ]
-    },
-    {
-      "headline": "New criminal case against Comey is unsealed",
-      "body": "Newly unsealed court documents show that the Justice Department filed a criminal information against former FBI Director James Comey on October 5, alleging two felony counts related to disclosures of classified information in 2016.\n\nThe filing was made under seal and without a grand-jury indictment. Comey denies wrongdoing, and his lawyers asked the court to dismiss the case, arguing that it is legally invalid and was brought after the applicable limitations period.",
-      "sources": [
-        {
-          "name": "Associated Press",
-          "url": "https://apnews.com/article/8479bdbf1bcdeeae313b453a3cd0c544"
-        },
         {
           "name": "The Washington Post",
-          "url": "https://www.washingtonpost.com/national-security/2026/10/26/justice-dept-charges-james-comey-ex-fbi-director-third-time/"
+          "url": "https://www.washingtonpost.com/national-security/2026/10/27/grand-jury-declines-indict-cassidy-hutchinson-over-jan-6-testimony/"
+        },
+        {
+          "name": "ABC News via ABC7 Los Angeles",
+          "url": "https://abc7.com/story/doj-fails-get-indict-ex-trump-aide-cassidy-hutchinson-jan-6-testimony-sources/19986840/"
+        }
+      ]
+    },
+    {
+      "headline": "Israeli exit polls show no majority",
+      "body": "Voting ended in Israel’s Knesset election, and exit polls from the major television broadcasters projected that neither Prime Minister Benjamin Netanyahu’s bloc nor the opposition led by Gadi Eisenkot had won the 61 seats needed for a majority.\n\nLikud was projected to remain the largest party, but official results were still pending. Forming a government could depend on coalition negotiations lasting several weeks.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-latest-782c69f4a5389da8073b1c27aafa606f"
+        },
+        {
+          "name": "Associated Press via 2 News Nevada",
+          "url": "https://www.2news.com/news/world/no-clear-winner-in-israeli-election-exit-polls-suggest-as-netanyahu-s-fate-hangs-in/article_77308261-7cb9-53d6-bfd3-c5ecee08946e.html"
+        },
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/kan-exit-poll-shows-no-clear-victor-as-netanyahus-likud-is-largest-party-but-opponents-have-larger-bloc/"
         }
       ]
     }
