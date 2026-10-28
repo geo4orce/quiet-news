@@ -403,10 +403,10 @@
         "request": {
           "fingerprint": "9d7a5de1daf547390dda99c767b298c838286eb580a4898814d4ed5dfc6672a3",
           "claimId": "9138d4b0-9c75-4665-8db0-f30e652bd70f",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-28T07:07:45.200Z",
-          "responseId": null
+          "responseId": "resp_028efcf4f7e60f57006ae19f4571e887d2aaaab312a510ead0"
         },
         "result": null,
         "observedAt": "2026-10-28T07:07:45.123Z"
