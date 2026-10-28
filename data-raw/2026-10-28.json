@@ -122,13 +122,79 @@
         "request": {
           "fingerprint": "cec20f6d164b135dc06b3933e1a2910be33b52c344df00effd964139ce6c08e8",
           "claimId": "5e0acafe-8d77-4b8b-8870-3567b9cbd5cf",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-28T16:07:46.032Z",
           "responseId": "resp_0798304371be1fe0006ae21dd7308887d2af129aa64ffb7a8a"
         },
-        "result": null,
-        "observedAt": "2026-10-28T16:07:45.972Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "A high-speed train struck the rear of another train that had stopped near Urda in Spain’s Toledo province, derailing two cars. Authorities reported at least 64 deaths and about 80 injuries as rescue work continued. The two trains carried more than 500 passengers in total and were traveling from Madrid toward Seville. The cause remained under investigation, and rail service between Madrid, Ciudad Real and Andalusia was suspended.",
+                "category": "transportation",
+                "title": "Spain train collision kills at least 64",
+                "event_date": "2026-10-28",
+                "candidate_id": "spain-high-speed-train-collision",
+                "geography": "Urda, Toledo, Spain",
+                "sources": [
+                  {
+                    "name": "Associated Press via WVXU",
+                    "url": "https://www.wvxu.org/news-from-npr/2026-10-28/dozens-are-dead-in-a-high-speed-train-crash-in-spain"
+                  },
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/two-highspeed-trains-collide-in-spain-rail-operator-says-4977879"
+                  }
+                ]
+              },
+              {
+                "summary": "Official returns from Israel’s election continued to show no governing majority. With about 85% of votes counted, Likud had 20.8%, Gadi Eisenkot’s Yashar had 16.1%, and Arab-led parties collectively had 14.9%. Local projections assigned 53 seats to Likud and its allies, 48 to Yashar’s bloc and 19 to Arab-led parties, making the latter potentially decisive in coalition talks. Roughly half a million absentee ballots remained to be counted.",
+                "category": "politics",
+                "title": "Israeli count leaves Arab-led parties holding potential balance",
+                "event_date": "2026-10-28",
+                "candidate_id": "israel-election-partial-count",
+                "geography": "Israel",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/israel-elections-netanyahu-eisenkot-arab-coalition-results-d4680e90210c9a8611853fda9d0deb61"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/israel-elections-netanyahu-eisenkot-gaza-iran-28102026-52c6f5a0a720a4ffc08633229e796415"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-28"
+          },
+          "metadata": {
+            "responseId": "resp_0798304371be1fe0006ae21dd7308887d2af129aa64ffb7a8a",
+            "requestId": "req_d5f7849057d44e0eab16be82fec01cc5",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1892,
+            "inputTokens": 57023,
+            "outputTokens": 2311,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-10-28",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 81148,
+            "attemptDurationMs": 81148,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-10-28T16:07:45.972Z",
+        "capturedAt": "2026-10-28T16:09:07.181Z"
       }
     ],
     "sift": null
