@@ -403,13 +403,61 @@
         "request": {
           "fingerprint": "9d7a5de1daf547390dda99c767b298c838286eb580a4898814d4ed5dfc6672a3",
           "claimId": "9138d4b0-9c75-4665-8db0-f30e652bd70f",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-28T07:07:45.200Z",
           "responseId": "resp_028efcf4f7e60f57006ae19f4571e887d2aaaab312a510ead0"
         },
-        "result": null,
-        "observedAt": "2026-10-28T07:07:45.123Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "A federal grand jury in Washington declined to indict former White House aide Cassidy Hutchinson after Justice Department prosecutors sought charges alleging that she lied to Congress about President Donald Trump’s actions surrounding the January 6, 2021, Capitol attack. The specific proposed charges were not publicly disclosed. Hutchinson has maintained that she stands by her testimony, and the Justice Department did not immediately comment.",
+                "category": "law",
+                "title": "Grand jury declines to indict Cassidy Hutchinson over January 6 testimony",
+                "event_date": "2026-10-27",
+                "candidate_id": "cassidy-hutchinson-grand-jury-declines-indictment",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "The Washington Post",
+                    "url": "https://www.washingtonpost.com/national-security/2026/10/27/grand-jury-declines-indict-cassidy-hutchinson-over-jan-6-testimony/"
+                  },
+                  {
+                    "name": "ABC News via ABC7 Los Angeles",
+                    "url": "https://abc7.com/story/doj-fails-get-indict-ex-trump-aide-cassidy-hutchinson-jan-6-testimony-sources/19986840/"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-27"
+          },
+          "metadata": {
+            "responseId": "resp_028efcf4f7e60f57006ae19f4571e887d2aaaab312a510ead0",
+            "requestId": "req_5d2e582f312b49b0b777fa8b797a5623",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2093,
+            "inputTokens": 74766,
+            "outputTokens": 2282,
+            "webSearchCalls": 11,
+            "stage": "discovery",
+            "targetDate": "2026-10-27",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 111312,
+            "attemptDurationMs": 111312,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-10-28T07:07:45.123Z",
+        "capturedAt": "2026-10-28T07:09:36.513Z"
       }
     ],
     "sift": null
