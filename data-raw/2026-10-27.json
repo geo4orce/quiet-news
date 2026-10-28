@@ -512,10 +512,10 @@
       "request": {
         "fingerprint": "fb30a0bff6fe24aaafe549fe47aa779d54f75ca0837e7a6d71e9e890ccb33bb8",
         "claimId": "f0234568-a826-42d3-88d6-8abfdb5efaae",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-28T08:07:46.455Z",
-        "responseId": null
+        "responseId": "resp_0a5fbf32d50fd770006ae1ad56c6c487d29f50848e448e6725"
       },
       "result": null
     }
