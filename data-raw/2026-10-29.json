@@ -178,10 +178,10 @@
         "request": {
           "fingerprint": "f096953a7dfe76f6339319c32fbeaf554e1a0b3b36b85186eba9d558e388b64a",
           "claimId": "0d47724a-ae48-4a9e-bfa9-4f82f834a5b4",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-29T16:07:47.823Z",
-          "responseId": null
+          "responseId": "resp_0252431875ee8c80006ae36f59aec087d2a62e4b787c6ef733"
         },
         "result": null,
         "observedAt": "2026-10-29T16:07:47.784Z"
