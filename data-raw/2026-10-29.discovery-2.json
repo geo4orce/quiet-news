@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-29",
+  "batch": 2,
+  "captured_at": "2026-10-29T16:08:43.682Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The Bureau of Economic Analysis estimated that real U.S. gross domestic product grew at a 3.4% annual rate in the third quarter, up from 2.2% in the second quarter. A separate BEA release said September's PCE price index rose 0.5% from August and 3.6% from a year earlier; excluding food and energy, it rose 0.3% monthly and 3.1% annually. Both are initial estimates subject to revision.",
+        "category": "economy",
+        "title": "U.S. economy grows at 3.4% annual rate in third quarter",
+        "event_date": "2026-10-29",
+        "candidate_id": "us-third-quarter-gdp-2026",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Bureau of Economic Analysis",
+            "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+          },
+          {
+            "name": "U.S. Bureau of Economic Analysis",
+            "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026"
+          }
+        ]
+      },
+      {
+        "summary": "Initial applications for U.S. unemployment benefits fell to 194,000 for the latest reported week from a revised 195,000. The four-week average declined to 196,750, and weekly claims remained at or below 200,000 for a seventh consecutive week.",
+        "category": "economy",
+        "title": "U.S. initial jobless claims fall to 194,000",
+        "event_date": "2026-10-29",
+        "candidate_id": "us-jobless-claims-oct-29-2026",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/jobs-unemployment-economy-claims-929f6739871efc054ae72afca2b68c3a"
+          }
+        ]
+      },
+      {
+        "summary": "Iran's state broadcaster, citing the Revolutionary Guard, said three oil tankers struck mines and caught fire while trying to leave the Strait of Hormuz through a restricted route during the preceding 24 hours. The vessels were not identified, and casualties were not reported. The Associated Press could not independently confirm the account; a British maritime monitor separately reported seeing one vessel on fire in the strait.",
+        "category": "conflict",
+        "title": "Iran says three tankers struck mines in Strait of Hormuz",
+        "event_date": "2026-10-29",
+        "candidate_id": "iran-hormuz-tanker-mine-claims",
+        "geography": "Strait of Hormuz",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-iran-israel-elections-netanyahu-october-282026-c11dac838a072af25ba8d0eb81d01035"
+          }
+        ]
+      },
+      {
+        "summary": "The Houthi-run Health Ministry said a strike on two homes in Taiz, Yemen, killed 12 people and critically wounded three others, including women and children. The ministry blamed Saudi Arabia. The Associated Press said it could not independently verify the report.",
+        "category": "conflict",
+        "title": "Houthis say strike in Taiz killed 12 people",
+        "event_date": "2026-10-29",
+        "candidate_id": "yemen-taiz-strike-oct-29-2026",
+        "geography": "Taiz, Yemen",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-iran-israel-elections-netanyahu-october-282026-c11dac838a072af25ba8d0eb81d01035"
+          }
+        ]
+      },
+      {
+        "summary": "Health officials at Al-Aqsa Martyrs Hospital said an Israeli strike on a civilian vehicle in central Gaza killed two people and wounded one. Israel's military had not responded to the Associated Press's request for comment at the time of reporting.",
+        "category": "conflict",
+        "title": "Hospital officials say Israeli strike killed two in Gaza",
+        "event_date": "2026-10-29",
+        "candidate_id": "central-gaza-vehicle-strike-oct-29",
+        "geography": "Gaza Strip",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-iran-israel-elections-netanyahu-october-282026-c11dac838a072af25ba8d0eb81d01035"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-29"
+  },
+  "metadata": {
+    "responseId": "resp_0252431875ee8c80006ae36f59aec087d2a62e4b787c6ef733",
+    "requestId": "req_52935ac813994712a4225994d62db906",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1964,
+    "inputTokens": 51376,
+    "outputTokens": 2870,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-29",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 55859,
+    "attemptDurationMs": 55859,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
