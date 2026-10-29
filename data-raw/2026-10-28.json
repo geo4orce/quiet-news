@@ -358,10 +358,10 @@
         "request": {
           "fingerprint": "52849a65ad3e5c4e8817571f5406fd586d046f1909ffd9c53b466ae999012a02",
           "claimId": "2b2f5c5b-d23a-4032-b01b-c3e16a04a7dc",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-29T07:07:43.818Z",
-          "responseId": null
+          "responseId": "resp_04ddbc3478bc39c8006ae2f0c41f2087d2a1c266fbed29ab11"
         },
         "result": null,
         "observedAt": "2026-10-29T07:07:43.745Z"
