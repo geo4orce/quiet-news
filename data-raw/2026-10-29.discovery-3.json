@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-29",
+  "batch": 3,
+  "captured_at": "2026-10-29T22:08:34.654Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The United States and Finland signed a nonbinding memorandum to expand cooperation on artificial intelligence, telecommunications, quantum technology, energy, semiconductors, space, biotechnology, research security, shipbuilding and Arctic technology. The document does not itself commit either government to spend funds or create legally binding obligations.",
+        "category": "science and technology",
+        "title": "United States and Finland sign technology cooperation memorandum",
+        "event_date": "2026-10-29",
+        "candidate_id": "us-finland-technology-prosperity-deal-2026",
+        "geography": "United States and Finland",
+        "sources": [
+          {
+            "name": "The White House",
+            "url": "https://www.whitehouse.gov/releases/2026/10/memorandum-of-understanding-between-the-government-of-the-united-states-of-america-and-the-government-of-finland-regarding-the-technology-prosperity-deal/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-29"
+  },
+  "metadata": {
+    "responseId": "resp_04ff1a5fc9b6a6d2006ae3c3b5ba7087d29b3364da896ae0cf",
+    "requestId": "req_38b9836147964295b4c3725a98aa0231",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1562,
+    "inputTokens": 53601,
+    "outputTokens": 1593,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-29",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 49655,
+    "attemptDurationMs": 49655,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
