@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-30",
+  "batch": 1,
+  "captured_at": "2026-10-30T10:08:28.785Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Russian and Ukrainian officials participating in a humanitarian mission entered Russian-occupied Oleshky in southern Ukraine. Ukrainian ombudsman Dmytro Lubinets said the convoy was bringing food, medical supplies and other aid to residents under a localized ceasefire.",
+        "category": "World",
+        "title": "Humanitarian mission enters Russian-occupied Oleshky",
+        "event_date": "2026-10-30",
+        "candidate_id": "oleshky-humanitarian-mission-enters",
+        "geography": "Oleshky, Kherson region, Ukraine",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/1eb633aee4d33b3845a72053d7f6346c"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.aol.com/articles/aid-convoy-sets-off-russian-043145000.html"
+          }
+        ]
+      },
+      {
+        "summary": "Qatari mediators returned to Tehran as part of U.S.-coordinated efforts to negotiate an agreement between Iran and the United States, an official briefed on the talks told Reuters. The sides remained divided over whether nuclear issues or an end to the U.S. port blockade and oil sanctions should come first.",
+        "category": "World",
+        "title": "Qatari mediators return to Tehran for U.S.-Iran talks",
+        "event_date": "2026-10-30",
+        "candidate_id": "qatar-mediators-return-tehran",
+        "geography": "Tehran, Iran",
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.streetinsider.com/Reuters/Qatari%2Bmediators%2Breturn%2Bto%2BTehran%2Bto%2Bpush%2Bfor%2BUS-Iran%2Bdeal%2C%2Bofficial%2Bsays/27259899.html"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-30"
+  },
+  "metadata": {
+    "responseId": "resp_05b8a99189f254af006ae46c74c9d887d1951755d20f5af1db",
+    "requestId": "req_60a0a0d7b5944a4d847ee23b782925a1",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1389,
+    "inputTokens": 56583,
+    "outputTokens": 1705,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-30",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 44363,
+    "attemptDurationMs": 44363,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
