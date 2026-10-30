@@ -1,65 +1,43 @@
 {
-  "edition_date": "2026-10-28",
-  "published_at": "2026-10-29T08:08:35.577Z",
-  "expires_at": "2026-10-30T09:00:00.000Z",
+  "edition_date": "2026-10-29",
+  "published_at": "2026-10-30T08:08:17.321Z",
+  "expires_at": "2026-10-31T09:00:00.000Z",
   "stories": [
     {
-      "headline": "Brewers win their first World Series",
-      "body": "The Milwaukee Brewers beat the Tampa Bay Rays 4-1 in Game 5, securing the first World Series championship in the franchise’s history.\n\nJacob Misiorowski pitched 5 2/3 scoreless innings, and Cooper Pratt had two hits and two RBIs. Catcher William Contreras was named the series’ most valuable player.",
+      "headline": "U.S. economy grew at a 3.4% annual rate",
+      "body": "The U.S. economy expanded at an annualized 3.4% in the third quarter, according to the government’s initial estimate, accelerating from 2.2% in the second quarter.\n\nInflation remained elevated in September. The personal consumption expenditures price index rose 3.6% from a year earlier, while the measure excluding food and energy rose 3.1%. Both reports are subject to revision.",
       "sources": [
         {
-          "name": "Associated Press",
-          "url": "https://apnews.com/article/971f9fb8cad75042fc7f9919dd91c159"
+          "name": "U.S. Bureau of Economic Analysis",
+          "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
         },
         {
-          "name": "Associated Press",
-          "url": "https://apnews.com/article/59b3754cae2a7f11f3ce477412fb78a6"
+          "name": "U.S. Bureau of Economic Analysis",
+          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026"
         }
       ]
     },
     {
-      "headline": "Judge lets California process up to 20,000 ballots",
-      "body": "A federal judge denied the Justice Department’s request to stop California from processing ballots from as many as 20,000 people the government alleged were likely noncitizens.\n\nJudge David O. Carter said segregating the ballots could disenfranchise eligible voters and disrupt an election already underway. California can continue processing them while the litigation proceeds. The Justice Department said it would appeal.",
+      "headline": "Israeli election leaves no bloc a majority",
+      "body": "Israel’s completed vote count gave Prime Minister Benjamin Netanyahu’s bloc 53 of the Knesset’s 120 seats, short of the 61 needed for a majority. The main opposition won 48 seats, and Arab-led parties won 19.\n\nThe results remain subject to certification and submission to President Isaac Herzog, leaving the next government unresolved.",
       "sources": [
         {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/california-noncitizen-voting-trump-midterm-lawsuit-481bed64919ad193e80e051d28beb2c0"
+          "url": "https://apnews.com/article/israel-elections-netanyahu-eisenkot-arab-results-9a0620a1314fdc127245ba1a7f0aa762"
+        },
+        {
+          "name": "i24NEWS",
+          "url": "https://www.i24news.tv/en/news/israeli-elections/artc-israel-completes-vote-count-with-netanyahu-s-bloc-short-of-a-majority"
         }
       ]
     },
     {
-      "headline": "Federal Reserve leaves interest rates unchanged",
-      "body": "The Federal Reserve kept its benchmark federal funds rate at 3.75% to 4%, leaving the rate unchanged as officials described economic activity as strong and inflation as still elevated.\n\nThe decision passed 10-2. Governor Lisa Cook and Cleveland Fed President Beth Hammack favored raising the range by a quarter percentage point.",
+      "headline": "U.S. completes 172-million-barrel oil release",
+      "body": "The Energy Department awarded contracts to exchange more than 40 million barrels of crude oil from the Strategic Petroleum Reserve, completing a planned 172-million-barrel emergency release.\n\nThe contracts require more than 216 million barrels to be returned to the reserve beginning in 2027.",
       "sources": [
         {
-          "name": "Federal Reserve Board",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
-        },
-        {
-          "name": "Associated Press",
-          "url": "https://apnews.com/article/inflation-warsh-interest-rates-federal-reserve-c06793b0c50641444701d5d098ccc2c8"
-        },
-        {
-          "name": "Reuters via Investing.com",
-          "url": "https://www.investing.com/news/economy-news/fomc-holds-rates-steady-markets-mostly-follow-suit-4980441"
-        }
-      ]
-    },
-    {
-      "headline": "Spain train collision kills at least 68",
-      "body": "At least 68 people were reported dead and dozens injured after two high-speed trains collided near Urda in Spain’s Toledo province.\n\nOne train struck the rear of another that had stopped, derailing two cars. Rescue and investigative work continued, and rail service remained disrupted on affected routes.",
-      "sources": [
-        {
-          "name": "Associated Press",
-          "url": "https://apnews.com/article/train-accident-spain-4f65471a0e36f448d7ee9efe0768cd77"
-        },
-        {
-          "name": "Associated Press via WVXU",
-          "url": "https://www.wvxu.org/news-from-npr/2026-10-28/dozens-are-dead-in-a-high-speed-train-crash-in-spain"
-        },
-        {
-          "name": "Reuters via Investing.com",
-          "url": "https://www.investing.com/news/world-news/two-highspeed-trains-collide-in-spain-rail-operator-says-4977879"
+          "name": "U.S. Department of Energy",
+          "url": "https://www.energy.gov/hgeo/opr/articles/energy-department-awards-contracts-strategic-petroleum-reserve-part-president"
         }
       ]
     }
