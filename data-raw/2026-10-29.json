@@ -605,6 +605,86 @@
         "capturedAt": "2026-10-30T07:09:00.939Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "e6f8932783b403ec05f2af63c71119e4726c9ce3513132197e4cea7a78e962bf",
+      "priorStories": [
+        {
+          "headline": "Brewers win their first World Series",
+          "body": "The Milwaukee Brewers beat the Tampa Bay Rays 4-1 in Game 5, securing the first World Series championship in the franchise’s history.\n\nJacob Misiorowski pitched 5 2/3 scoreless innings, and Cooper Pratt had two hits and two RBIs. Catcher William Contreras was named the series’ most valuable player.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/971f9fb8cad75042fc7f9919dd91c159"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/59b3754cae2a7f11f3ce477412fb78a6"
+            }
+          ]
+        },
+        {
+          "headline": "Judge lets California process up to 20,000 ballots",
+          "body": "A federal judge denied the Justice Department’s request to stop California from processing ballots from as many as 20,000 people the government alleged were likely noncitizens.\n\nJudge David O. Carter said segregating the ballots could disenfranchise eligible voters and disrupt an election already underway. California can continue processing them while the litigation proceeds. The Justice Department said it would appeal.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/california-noncitizen-voting-trump-midterm-lawsuit-481bed64919ad193e80e051d28beb2c0"
+            }
+          ]
+        },
+        {
+          "headline": "Federal Reserve leaves interest rates unchanged",
+          "body": "The Federal Reserve kept its benchmark federal funds rate at 3.75% to 4%, leaving the rate unchanged as officials described economic activity as strong and inflation as still elevated.\n\nThe decision passed 10-2. Governor Lisa Cook and Cleveland Fed President Beth Hammack favored raising the range by a quarter percentage point.",
+          "sources": [
+            {
+              "name": "Federal Reserve Board",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/inflation-warsh-interest-rates-federal-reserve-c06793b0c50641444701d5d098ccc2c8"
+            },
+            {
+              "name": "Reuters via Investing.com",
+              "url": "https://www.investing.com/news/economy-news/fomc-holds-rates-steady-markets-mostly-follow-suit-4980441"
+            }
+          ]
+        },
+        {
+          "headline": "Spain train collision kills at least 68",
+          "body": "At least 68 people were reported dead and dozens injured after two high-speed trains collided near Urda in Spain’s Toledo province.\n\nOne train struck the rear of another that had stopped, derailing two cars. Rescue and investigative work continued, and rail service remained disrupted on affected routes.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/train-accident-spain-4f65471a0e36f448d7ee9efe0768cd77"
+            },
+            {
+              "name": "Associated Press via WVXU",
+              "url": "https://www.wvxu.org/news-from-npr/2026-10-28/dozens-are-dead-in-a-high-speed-train-crash-in-spain"
+            },
+            {
+              "name": "Reuters via Investing.com",
+              "url": "https://www.investing.com/news/world-news/two-highspeed-trains-collide-in-spain-rail-operator-says-4977879"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "f242e745a0aca6b023daed76fe17e9d1d1fbcf9c8cec789754f24fb08579ad4c",
+        "claimId": "eac91e82-9e05-4c81-98ae-7aed1240f0bc",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-10-30T08:07:47.402Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
