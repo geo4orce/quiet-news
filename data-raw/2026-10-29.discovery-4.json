@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-29",
+  "batch": 4,
+  "captured_at": "2026-10-30T07:09:00.939Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The Houthi-run Health Ministry said a Saudi airstrike in western Taiz province killed at least 13 people, mostly women and children. The Saudi-led coalition did not immediately comment.",
+        "category": "conflict",
+        "title": "Houthis say Saudi airstrike in Taiz killed 13 people",
+        "event_date": "2026-10-29",
+        "candidate_id": "yemen-taiz-strike-oct-29-2026",
+        "geography": "Taiz, Yemen",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-iran-israel-elections-netanyahu-october-282026-c11dac838a072af25ba8d0eb81d01035"
+          }
+        ]
+      },
+      {
+        "summary": "Israel's completed election count gave Prime Minister Benjamin Netanyahu's bloc 53 of the Knesset's 120 seats, the main opposition 48 and Arab-led parties 19. No bloc secured the 61 seats needed for a majority. The results remained subject to certification and submission to President Isaac Herzog.",
+        "category": "politics",
+        "title": "Israeli election count leaves no bloc with a majority",
+        "event_date": "2026-10-29",
+        "candidate_id": "israel-election-final-count-2026",
+        "geography": "Israel",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/israel-elections-netanyahu-eisenkot-arab-results-9a0620a1314fdc127245ba1a7f0aa762"
+          },
+          {
+            "name": "i24NEWS",
+            "url": "https://www.i24news.tv/en/news/israeli-elections/artc-israel-completes-vote-count-with-netanyahu-s-bloc-short-of-a-majority"
+          }
+        ]
+      },
+      {
+        "summary": "Chief U.S. District Judge James Boasberg ordered the Trump administration to identify by Friday all states whose election officials received Justice Department demands concerning alleged noncitizen voters. Boasberg said he intended to rule by Monday on Democratic organizations' request to restrict federal intervention in state election procedures.",
+        "category": "law and government",
+        "title": "Judge orders disclosure of federal noncitizen-voter inquiries",
+        "event_date": "2026-10-29",
+        "candidate_id": "boasberg-state-election-inquiries-order",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/trump-elections-democrats-lawsuit-boasberg-3604f1201f80c50629e6416d8ee771d3"
+          }
+        ]
+      },
+      {
+        "summary": "U.S. District Judge David O. Carter appointed Daniel B. Garrie as special master to develop the factual record concerning the federal government's list of roughly 20,000 California voters it alleges are likely noncitizens. Carter scheduled a November 13 evidentiary hearing while allowing ballot processing to continue.",
+        "category": "law and government",
+        "title": "Judge appoints special master to examine California voter claims",
+        "event_date": "2026-10-29",
+        "candidate_id": "california-ballots-special-master",
+        "geography": "California, United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/california-noncitizen-voting-trump-midterm-lawsuit-20714065e59fe13db0e53c711a3ca390"
+          }
+        ]
+      },
+      {
+        "summary": "The U.S. Energy Department awarded contracts to exchange more than 40 million barrels of crude oil from the Strategic Petroleum Reserve. The department said the awards completed a planned 172-million-barrel emergency release and require more than 216 million barrels to be returned to the reserve beginning in 2027.",
+        "category": "economy",
+        "title": "Energy Department awards contracts for 40 million barrels of reserve oil",
+        "event_date": "2026-10-29",
+        "candidate_id": "us-strategic-reserve-contract-awards",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Department of Energy",
+            "url": "https://www.energy.gov/hgeo/opr/articles/energy-department-awards-contracts-strategic-petroleum-reserve-part-president"
+          }
+        ]
+      },
+      {
+        "summary": "North Korean state media said Kim Jong Un visited an exhibition of attack and other drones and called for rapid expansion of unmanned-aircraft technology. It said North Korea also tested drones, missiles and large-caliber multiple rocket launchers. Independent journalists were not given access to the exhibition or tests.",
+        "category": "conflict",
+        "title": "North Korea displays drones and conducts weapons tests",
+        "event_date": "2026-10-29",
+        "candidate_id": "north-korea-drone-exhibition-weapons-tests",
+        "geography": "North Korea",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/north-korea-kim-drones-missiles-border-5463d80298f436724c345b64eb7b5c56"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-29"
+  },
+  "metadata": {
+    "responseId": "resp_026a06e6e2a410d4006ae4423bffb087d280431d57e5794e30",
+    "requestId": "req_a6a074a766014877b195219daf7552be",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2859,
+    "inputTokens": 75710,
+    "outputTokens": 3852,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-10-29",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 84437,
+    "attemptDurationMs": 84437,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
