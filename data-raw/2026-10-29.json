@@ -478,10 +478,10 @@
         "request": {
           "fingerprint": "66bf87877403b3fefad2fca98f9416d651f7b627d5c3b1703aab940923da2d8a",
           "claimId": "c5590f6f-f105-4f07-b3de-583493e7de18",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-30T07:07:36.502Z",
-          "responseId": null
+          "responseId": "resp_026a06e6e2a410d4006ae4423bffb087d280431d57e5794e30"
         },
         "result": null,
         "observedAt": "2026-10-30T07:07:36.463Z"
