@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-10-30",
+  "batch": 3,
+  "captured_at": "2026-10-30T22:08:33.193Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The U.S. State Department approved a possible $2.1 billion sale of 500 Patriot PAC-3 missile interceptors to Ukraine. Funding is to come from Ukraine, Canada, Germany and Norway through the U.S. JUMPSTART program and from European Union-backed financing. The approval does not mean immediate delivery.",
+        "category": "World",
+        "title": "U.S. approves possible $2.1 billion Patriot missile sale to Ukraine",
+        "event_date": "2026-10-30",
+        "candidate_id": "us-approves-ukraine-patriot-sale",
+        "geography": "United States and Ukraine",
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://new.streetinsider.com/Reuters/US%2Bapproves%2B$2.1%2Bbillion%2BPatriot%2Bmissile%2Bsale%2Bto%2BUkraine/27265858.html"
+          }
+        ]
+      },
+      {
+        "summary": "Russia and the United States vetoed each other's proposed U.N. Security Council resolutions concerning Western Sahara. The votes left the U.N. peacekeeping mission without a renewed mandate one day before its expiration and reflected disagreement over whether Morocco's autonomy proposal should be the sole basis for negotiations.",
+        "category": "World",
+        "title": "U.S. and Russia veto rival Western Sahara resolutions",
+        "event_date": "2026-10-30",
+        "candidate_id": "western-sahara-rival-un-vetoes",
+        "geography": "Western Sahara and United Nations",
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://new.streetinsider.com/Reuters/Russia%2Bvetos%2BUS-drafted%2Bresolution%2Bon%2BWestern%2BSahara/27266048.html"
+          }
+        ]
+      },
+      {
+        "summary": "Tens of thousands of students and workers demonstrated across Italy during a 24-hour general strike called by the USB union. Protesters sought higher wages and stronger public services and opposed rising living costs and military spending. Most events were peaceful, though police used water cannons during confrontations in Turin and Rome.",
+        "category": "World",
+        "title": "Nationwide strike brings mass demonstrations across Italy",
+        "event_date": "2026-10-30",
+        "candidate_id": "italy-nationwide-strike-protests",
+        "geography": "Italy",
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://new.streetinsider.com/Reuters/Mass%2Bprotests%2Bsweep%2BItaly%2Bduring%2Bnationwide%2Bstrike/27264739.html"
+          }
+        ]
+      },
+      {
+        "summary": "A divided 9th U.S. Circuit Court of Appeals declined to stop California from counting mail ballots from more than 20,000 registered voters whose citizenship the Justice Department questioned. The majority said granting the administration's request while litigation continued risked disenfranchising eligible voters.",
+        "category": "Politics",
+        "title": "Appeals court declines to block disputed California ballots",
+        "event_date": "2026-10-30",
+        "candidate_id": "california-mail-ballot-count-ruling",
+        "geography": "California, United States",
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://new.streetinsider.com/Reuters/Court%2Brejects%2BTrump%2Badmin%2Bbid%2Bto%2Bblock%2BCalifornia%2Bvote%2Bcount,%2Bcites%2Bdisenfranchisement%2Brisk/27265585.html"
+          }
+        ]
+      },
+      {
+        "summary": "OpenAI announced safeguards that will restrict weapons-related information provided to users identified as teenagers, even absent apparent violent intent. ChatGPT will also be able to end conversations showing fixation on violence, and repeated incidents may prompt temporary account pauses. OpenAI said the measures would begin rolling out over the following weeks.",
+        "category": "Technology",
+        "title": "OpenAI announces tighter violence safeguards for teen ChatGPT users",
+        "event_date": "2026-10-30",
+        "candidate_id": "openai-teen-violence-safeguards",
+        "geography": "Global",
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://new.streetinsider.com/Reuters/OpenAI%2Bto%2Blimit%2Bweapons%2Binformation%2Bfor%2Bteens%2Bon%2BChatGPT%2Bin%2Bviolence-prevention%2Bpush/27265012.html"
+          }
+        ]
+      },
+      {
+        "summary": "The Centers for Disease Control and Prevention reported 4,852 U.S. measles cases through October 29, an increase of 264 from its previous update. The agency listed 511 hospitalizations and three confirmed measles-associated deaths. Unvaccinated people and those whose vaccination status was unknown accounted for 96% of cases.",
+        "category": "Health",
+        "title": "CDC reports 4,852 U.S. measles cases",
+        "event_date": "2026-10-30",
+        "candidate_id": "us-measles-cases-4852",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://new.streetinsider.com/Reuters/US%2Bmeasles%2Bcases%2Brise%2Bto%2B4,852,%2BCDC%2Bsays/27264457.html"
+          }
+        ]
+      },
+      {
+        "summary": "Syrian authorities reported that flash floods caused by torrential rain had killed seven people, including five children, and injured seven others. Four people remained missing. Flooding affected Raqqa, Deir al-Zor, Hasakah and parts of Aleppo, damaging infrastructure, closing roads and displacing families.",
+        "category": "World",
+        "title": "Eastern Syria floods leave seven dead",
+        "event_date": "2026-10-30",
+        "candidate_id": "eastern-syria-floods-seven-dead",
+        "geography": "Eastern Syria",
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://new.streetinsider.com/Reuters/Five%2Bchildren%2Bamong%2Bseven%2Bdead%2Bin%2Beastern%2BSyria%2Bfloods/27265676.html"
+          }
+        ]
+      },
+      {
+        "summary": "U.S. stocks closed sharply lower as concerns about technology companies' artificial-intelligence spending deepened. The S&P 500 fell 1.8%, the Nasdaq Composite declined 2.9% and the Dow Jones Industrial Average lost 1.1%. Intel and Reddit each fell about 29%, while Sandisk dropped about 13%.",
+        "category": "Economy",
+        "title": "Technology selloff drives sharp decline in U.S. stocks",
+        "event_date": "2026-10-30",
+        "candidate_id": "us-stocks-tech-selloff-october-30",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://ca.investing.com/news/stock-market-news/october-ends-with-a-thud-for-intel-reddit-ai-stalwarts-4919158"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/735089be466c4d0e57ff40789c28bb94"
+          }
+        ]
+      },
+      {
+        "summary": "Meta settled with a teenage plaintiff who alleged that Instagram and Facebook were designed to encourage compulsive use and contributed to mental-health and eating problems. Terms were not disclosed. A planned Los Angeles trial was expected to continue against Snapchat parent Snap after Meta settled with both teen plaintiffs.",
+        "category": "Technology",
+        "title": "Meta settles teen social-media addiction lawsuit",
+        "event_date": "2026-10-30",
+        "candidate_id": "meta-settles-teen-addiction-lawsuit",
+        "geography": "California, United States",
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://new.streetinsider.com/Reuters/Meta%2Bsettles%2Bwith%2Bteen%2Bduring%2Btrial%2Btesting%2Bclaims%2Bsocial%2Bmedia%2Bcaused%2Bdepression,%2Beating%2Bdisorders/27264211.html"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-10-30"
+  },
+  "metadata": {
+    "responseId": "resp_05e9be1837f8e23d006ae515349c8887d2b80195ce664f5f0f",
+    "requestId": "req_4001b2de42de4f8f924348fb1733980d",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1768,
+    "inputTokens": 51669,
+    "outputTokens": 3310,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-10-30",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 48722,
+    "attemptDurationMs": 48722,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
