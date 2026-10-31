@@ -1,0 +1,69 @@
+{
+  "edition_date": "2026-10-30",
+  "published_at": "2026-10-31T08:08:55.685Z",
+  "expires_at": "2026-11-01T10:00:00.000Z",
+  "stories": [
+    {
+      "headline": "Binance says $3 billion frozen after crypto theft",
+      "body": "Binance said roughly $3 billion in assets affected by an estimated $6.3 billion cryptocurrency theft disclosed Thursday had been frozen with help from blockchain partners. The exchange said it was beginning efforts to recover money for users.\n\nBlockchain intelligence firm TRM assessed that a North Korean hacking unit was probably responsible.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/3255f83c8ca64131bd52ca9b4033c17c"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/39cda8ceb8095e036334a18549d3d20d"
+        }
+      ]
+    },
+    {
+      "headline": "DEA starts registering 900 medical-marijuana dispensaries",
+      "body": "The Drug Enforcement Administration began issuing federal registrations to more than 900 state-licensed medical-marijuana dispensaries in Alabama, Florida, Mississippi, South Dakota, Texas, Virginia and West Virginia.\n\nThe registrations implement federal Schedule III controls for qualifying medical-marijuana activities. Recipients must comply with federal security, recordkeeping and inventory requirements.",
+      "sources": [
+        {
+          "name": "U.S. Department of Justice",
+          "url": "https://www.justice.gov/opa/pr/justice-department-announces-issuance-federal-registrations-medical-marijuana-dispensaries"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/a9993cb36e2664783c2baca59481bf16"
+        }
+      ]
+    },
+    {
+      "headline": "Euro-area economy grows 0.4% in third quarter",
+      "body": "The euro-area economy expanded 0.4% from the previous quarter, according to Eurostat’s preliminary estimate. Growth slowed from 0.6% in the second quarter but exceeded economists’ expectation of 0.2%.\n\nOutput across the 21 countries using the euro was 1.3% higher than a year earlier.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/905619a8db70802b721fbe6ebefa32aa"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.marketscreener.com/news/euro-zone-growth-beats-projections-again-ce785fdbdb81fe2c"
+        }
+      ]
+    },
+    {
+      "headline": "Judge blocks DOJ threats to election officials",
+      "body": "A federal judge temporarily barred the Justice Department from threatening state and local election officials with prosecution for rejecting administration demands concerning alleged noncitizen voters.\n\nThe order also blocks demands to remove listed voters or reject or segregate their ballots during the midterm elections.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.investing.com/news/politics-news/judge-orders-trump-administration-to-cease-threats-to-prosecute-election-officials-4989060"
+        }
+      ]
+    },
+    {
+      "headline": "U.S. measles count reaches 4,852 cases",
+      "body": "The Centers for Disease Control and Prevention reported 4,852 measles cases through October 29, an increase of 264 from its previous update.\n\nThe agency listed 511 hospitalizations and three confirmed measles-associated deaths. Unvaccinated people and those whose vaccination status was unknown accounted for 96% of cases.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://new.streetinsider.com/Reuters/US%2Bmeasles%2Bcases%2Brise%2Bto%2B4,852,%2BCDC%2Bsays/27264457.html"
+        }
+      ]
+    }
+  ]
+}
