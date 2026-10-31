@@ -75,10 +75,10 @@
         "request": {
           "fingerprint": "257b768df3c418d8c14a2cba33ecb8dabae07b760a9e6d148722708d411a4afb",
           "claimId": "a1eeb6f6-bb06-4970-9ddd-2b32c865d59d",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-31T10:07:37.196Z",
-          "responseId": null
+          "responseId": "resp_0efc4e62d9f7fc69006ae5bdecbc5087d29c1a0de618037818"
         },
         "result": null,
         "observedAt": "2026-10-31T10:07:37.167Z"
