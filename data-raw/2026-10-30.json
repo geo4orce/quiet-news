@@ -529,10 +529,10 @@
         "request": {
           "fingerprint": "102c68684505634197566e58d6b16ab4e5656d852012a5657bd2d46e446d7322",
           "claimId": "7642101a-75e0-43d5-a6f0-9162e2b0f28d",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-10-31T07:07:36.518Z",
-          "responseId": null
+          "responseId": "resp_02b3dd4df2958534006ae593bc4af887d2aa133e0468548ca2"
         },
         "result": null,
         "observedAt": "2026-10-31T07:07:36.477Z"
