@@ -738,12 +738,171 @@
       "request": {
         "fingerprint": "29c33341e17a188617591d8be511b11bcf7f5317c46c212b68407dfe71f6549a",
         "claimId": "dfb97b72-d977-4c56-a61b-855eb8afd4ea",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-10-31T08:08:10.300Z",
         "responseId": "resp_093fb6c0aea1401b006ae5a1ee0e9487d2b9a3e7782bc41ce3"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "california-mail-ballot-count-ruling",
+              "code": "displaced_by_stronger_story"
+            },
+            {
+              "candidate_id": "canada-eu-alliance-digital-trade-talks",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "durban-immigration-marches-court-ruling",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "eastern-syria-floods-seven-dead",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "italy-nationwide-strike-protests",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "judge-orders-removal-administration-ads",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "meta-settles-teen-addiction-lawsuit",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "oleshky-humanitarian-mission-enters",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "openai-teen-violence-safeguards",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qatar-mediators-return-tehran",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "trump-restores-iowa-kansas-rallies",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "uk-court-upholds-ofcom-data-demands",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-approves-ukraine-patriot-sale",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-plans-afghan-immigrant-deportations",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-stocks-tech-selloff-october-30",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "western-sahara-rival-un-vetoes",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Binance said roughly $3 billion in assets affected by an estimated $6.3 billion cryptocurrency theft disclosed Thursday had been frozen with help from blockchain partners. The exchange said it was beginning efforts to recover money for users.\n\nBlockchain intelligence firm TRM assessed that a North Korean hacking unit was probably responsible.",
+              "candidate_id": "binance-freezes-assets-after-crypto-theft",
+              "headline": "Binance says $3 billion frozen after crypto theft",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/3255f83c8ca64131bd52ca9b4033c17c"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/39cda8ceb8095e036334a18549d3d20d"
+                }
+              ]
+            },
+            {
+              "body": "The Drug Enforcement Administration began issuing federal registrations to more than 900 state-licensed medical-marijuana dispensaries in Alabama, Florida, Mississippi, South Dakota, Texas, Virginia and West Virginia.\n\nThe registrations implement federal Schedule III controls for qualifying medical-marijuana activities. Recipients must comply with federal security, recordkeeping and inventory requirements.",
+              "candidate_id": "dea-registers-900-medical-marijuana-dispensaries",
+              "headline": "DEA starts registering 900 medical-marijuana dispensaries",
+              "sources": [
+                {
+                  "name": "U.S. Department of Justice",
+                  "url": "https://www.justice.gov/opa/pr/justice-department-announces-issuance-federal-registrations-medical-marijuana-dispensaries"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/a9993cb36e2664783c2baca59481bf16"
+                }
+              ]
+            },
+            {
+              "body": "The euro-area economy expanded 0.4% from the previous quarter, according to Eurostat’s preliminary estimate. Growth slowed from 0.6% in the second quarter but exceeded economists’ expectation of 0.2%.\n\nOutput across the 21 countries using the euro was 1.3% higher than a year earlier.",
+              "candidate_id": "euro-area-q3-growth-2026",
+              "headline": "Euro-area economy grows 0.4% in third quarter",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/905619a8db70802b721fbe6ebefa32aa"
+                },
+                {
+                  "name": "Reuters",
+                  "url": "https://www.marketscreener.com/news/euro-zone-growth-beats-projections-again-ce785fdbdb81fe2c"
+                }
+              ]
+            },
+            {
+              "body": "A federal judge temporarily barred the Justice Department from threatening state and local election officials with prosecution for rejecting administration demands concerning alleged noncitizen voters.\n\nThe order also blocks demands to remove listed voters or reject or segregate their ballots during the midterm elections.",
+              "candidate_id": "judge-restricts-doj-election-official-demands",
+              "headline": "Judge blocks DOJ threats to election officials",
+              "sources": [
+                {
+                  "name": "Reuters",
+                  "url": "https://www.investing.com/news/politics-news/judge-orders-trump-administration-to-cease-threats-to-prosecute-election-officials-4989060"
+                }
+              ]
+            },
+            {
+              "body": "The Centers for Disease Control and Prevention reported 4,852 measles cases through October 29, an increase of 264 from its previous update.\n\nThe agency listed 511 hospitalizations and three confirmed measles-associated deaths. Unvaccinated people and those whose vaccination status was unknown accounted for 96% of cases.",
+              "candidate_id": "us-measles-cases-4852",
+              "headline": "U.S. measles count reaches 4,852 cases",
+              "sources": [
+                {
+                  "name": "Reuters",
+                  "url": "https://new.streetinsider.com/Reuters/US%2Bmeasles%2Bcases%2Brise%2Bto%2B4,852,%2BCDC%2Bsays/27264457.html"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_093fb6c0aea1401b006ae5a1ee0e9487d2b9a3e7782bc41ce3",
+          "requestId": "req_2c8b5af3b1094776a9dcf43183e94746",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 2588,
+          "inputTokens": 5051,
+          "outputTokens": 3733,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-30",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 42914,
+          "attemptDurationMs": 42914,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
