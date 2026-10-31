@@ -686,6 +686,64 @@
         "capturedAt": "2026-10-31T07:09:00.801Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "b477183df0bc391836449c3d4f3a40086fbe4201afc6f3659b831c01ff2a50e4",
+      "priorStories": [
+        {
+          "headline": "U.S. economy grew at a 3.4% annual rate",
+          "body": "The U.S. economy expanded at an annualized 3.4% in the third quarter, according to the government’s initial estimate, accelerating from 2.2% in the second quarter.\n\nInflation remained elevated in September. The personal consumption expenditures price index rose 3.6% from a year earlier, while the measure excluding food and energy rose 3.1%. Both reports are subject to revision.",
+          "sources": [
+            {
+              "name": "U.S. Bureau of Economic Analysis",
+              "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+            },
+            {
+              "name": "U.S. Bureau of Economic Analysis",
+              "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026"
+            }
+          ]
+        },
+        {
+          "headline": "Israeli election leaves no bloc a majority",
+          "body": "Israel’s completed vote count gave Prime Minister Benjamin Netanyahu’s bloc 53 of the Knesset’s 120 seats, short of the 61 needed for a majority. The main opposition won 48 seats, and Arab-led parties won 19.\n\nThe results remain subject to certification and submission to President Isaac Herzog, leaving the next government unresolved.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/israel-elections-netanyahu-eisenkot-arab-results-9a0620a1314fdc127245ba1a7f0aa762"
+            },
+            {
+              "name": "i24NEWS",
+              "url": "https://www.i24news.tv/en/news/israeli-elections/artc-israel-completes-vote-count-with-netanyahu-s-bloc-short-of-a-majority"
+            }
+          ]
+        },
+        {
+          "headline": "U.S. completes 172-million-barrel oil release",
+          "body": "The Energy Department awarded contracts to exchange more than 40 million barrels of crude oil from the Strategic Petroleum Reserve, completing a planned 172-million-barrel emergency release.\n\nThe contracts require more than 216 million barrels to be returned to the reserve beginning in 2027.",
+          "sources": [
+            {
+              "name": "U.S. Department of Energy",
+              "url": "https://www.energy.gov/hgeo/opr/articles/energy-department-awards-contracts-strategic-petroleum-reserve-part-president"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "29c33341e17a188617591d8be511b11bcf7f5317c46c212b68407dfe71f6549a",
+        "claimId": "dfb97b72-d977-4c56-a61b-855eb8afd4ea",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-10-31T08:08:10.300Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
