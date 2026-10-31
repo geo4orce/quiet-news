@@ -529,13 +529,161 @@
         "request": {
           "fingerprint": "102c68684505634197566e58d6b16ab4e5656d852012a5657bd2d46e446d7322",
           "claimId": "7642101a-75e0-43d5-a6f0-9162e2b0f28d",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-10-31T07:07:36.518Z",
           "responseId": "resp_02b3dd4df2958534006ae593bc4af887d2aa133e0468548ca2"
         },
-        "result": null,
-        "observedAt": "2026-10-31T07:07:36.477Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Russia vetoed a U.S.-drafted Security Council resolution that would have altered the U.N. mission in Western Sahara and made Morocco's autonomy proposal the basis for negotiations. A Russian draft extending the mission for one year then failed with three votes in favor, one against and 11 abstentions, leaving the mandate set to expire October 31.",
+                "category": "World",
+                "title": "Rival Western Sahara resolutions fail at U.N. Security Council",
+                "event_date": "2026-10-30",
+                "candidate_id": "western-sahara-rival-un-vetoes",
+                "geography": "Western Sahara and United Nations",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/3267317ce19e61bd0f41d90012504c92"
+                  },
+                  {
+                    "name": "United Nations Security Council",
+                    "url": "https://main.un.org/securitycouncil/en/events/10259th-meeting-minurso"
+                  }
+                ]
+              },
+              {
+                "summary": "A federal judge temporarily ordered the Justice Department to stop threatening state and local election officials with prosecution for rejecting administration demands concerning alleged noncitizen voters. The order also barred demands to remove listed voters, reject their ballots or segregate their ballots during the midterm elections.",
+                "category": "Politics",
+                "title": "Judge restricts Justice Department demands on election officials",
+                "event_date": "2026-10-30",
+                "candidate_id": "judge-restricts-doj-election-official-demands",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters",
+                    "url": "https://www.investing.com/news/politics-news/judge-orders-trump-administration-to-cease-threats-to-prosecute-election-officials-4989060"
+                  }
+                ]
+              },
+              {
+                "summary": "The Drug Enforcement Administration began issuing federal registrations to more than 900 state-licensed medical-marijuana dispensaries in Alabama, Florida, Mississippi, South Dakota, Texas, Virginia and West Virginia. The registrations implement federal Schedule III controls for qualifying medical-marijuana activities and subject recipients to federal security, recordkeeping and inventory requirements.",
+                "category": "Health",
+                "title": "DEA begins registering more than 900 medical-marijuana dispensaries",
+                "event_date": "2026-10-30",
+                "candidate_id": "dea-registers-900-medical-marijuana-dispensaries",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "U.S. Department of Justice",
+                    "url": "https://www.justice.gov/opa/pr/justice-department-announces-issuance-federal-registrations-medical-marijuana-dispensaries"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/a9993cb36e2664783c2baca59481bf16"
+                  }
+                ]
+              },
+              {
+                "summary": "Canada and the European Union launched an “Alliance for the Future” covering trade, technology, critical resources, security and other areas. They concluded substantive negotiations on a digital-trade agreement and agreed to define by their 2027 summit a closer association short of full EU membership; no associate-membership agreement was finalized.",
+                "category": "World",
+                "title": "Canada and EU launch broader alliance and conclude digital-trade talks",
+                "event_date": "2026-10-30",
+                "candidate_id": "canada-eu-alliance-digital-trade-talks",
+                "geography": "Canada and European Union",
+                "sources": [
+                  {
+                    "name": "European Council",
+                    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/30/joint-statement-eu-canada-summit-30-october-2026/"
+                  },
+                  {
+                    "name": "European Commission",
+                    "url": "https://policy.trade.ec.europa.eu/news/eu-and-canada-conclude-negotiations-digital-trade-agreement-2026-10-30_en?prefLang=nl"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/d8543b3d496dd2b98d68b4ca13e7f2f8"
+                  }
+                ]
+              },
+              {
+                "summary": "A federal judge ordered the government to remove three taxpayer-funded Trump administration advertisements from official websites and social media and cancel authorized third-party distribution while litigation continues. The judge found the challengers were likely to succeed in arguing that the ads were political or propaganda material funded without congressional authorization.",
+                "category": "Politics",
+                "title": "Judge orders removal of three taxpayer-funded administration ads",
+                "event_date": "2026-10-30",
+                "candidate_id": "judge-orders-removal-administration-ads",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/a6e45144033198d060fdc0e9d0a641b9"
+                  }
+                ]
+              },
+              {
+                "summary": "Binance said it was working with blockchain partners to freeze roughly $3 billion in assets affected by an estimated $6.3 billion cryptocurrency theft disclosed the previous day. The exchange said Friday that it was beginning efforts to recover money for users; blockchain intelligence firm TRM assessed that a North Korean hacking unit was probably responsible.",
+                "category": "Technology",
+                "title": "Binance says roughly $3 billion frozen after cryptocurrency theft",
+                "event_date": "2026-10-30",
+                "candidate_id": "binance-freezes-assets-after-crypto-theft",
+                "geography": "Global",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/3255f83c8ca64131bd52ca9b4033c17c"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/39cda8ceb8095e036334a18549d3d20d"
+                  }
+                ]
+              },
+              {
+                "summary": "A U.S. official and a coalition of veterans and advocacy groups said the Trump administration planned to deport some Afghan immigrants to Afghanistan through Pakistan. The Department of Homeland Security declined to confirm prospective removal operations, and the reported deportations had not occurred by the end of the target day.",
+                "category": "Politics",
+                "title": "Trump administration plans deportations of some Afghan immigrants",
+                "event_date": "2026-10-30",
+                "candidate_id": "us-plans-afghan-immigrant-deportations",
+                "geography": "United States and Afghanistan",
+                "sources": [
+                  {
+                    "name": "Reuters",
+                    "url": "https://www.investing.com/news/world-news/trump-administration-plans-to-deport-some-afghan-immigrants-to-afghanistan-4989017"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-10-30"
+          },
+          "metadata": {
+            "responseId": "resp_02b3dd4df2958534006ae593bc4af887d2aa133e0468548ca2",
+            "requestId": "req_d6023316fd7940698b0d6c3a6b32500f",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2874,
+            "inputTokens": 87887,
+            "outputTokens": 4099,
+            "webSearchCalls": 11,
+            "stage": "discovery",
+            "targetDate": "2026-10-30",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 84283,
+            "attemptDurationMs": 84283,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-10-31T07:07:36.477Z",
+        "capturedAt": "2026-10-31T07:09:00.801Z"
       }
     ],
     "sift": null
