@@ -738,10 +738,10 @@
       "request": {
         "fingerprint": "29c33341e17a188617591d8be511b11bcf7f5317c46c212b68407dfe71f6549a",
         "claimId": "dfb97b72-d977-4c56-a61b-855eb8afd4ea",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-10-31T08:08:10.300Z",
-        "responseId": null
+        "responseId": "resp_093fb6c0aea1401b006ae5a1ee0e9487d2b9a3e7782bc41ce3"
       },
       "result": null
     }
