@@ -642,10 +642,10 @@
         "request": {
           "fingerprint": "e4462cac8c8478130cd8979e0437513ad3a96e66b32857813e5b20045fddf6c9",
           "claimId": "10993a2b-fbe7-4b46-99ed-dc16df11fea4",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-01T08:07:42.656Z",
-          "responseId": null
+          "responseId": "resp_07f33fd79dcf2330006ae6f352b84c87d29ca357cd01fad1f5"
         },
         "result": null,
         "observedAt": "2026-11-01T08:07:42.565Z"
