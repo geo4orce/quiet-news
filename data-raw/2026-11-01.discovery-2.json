@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-01",
+  "batch": 2,
+  "captured_at": "2026-11-01T17:08:28.964Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Thousands of students and supporters marched silently in Novi Sad and held a moment of silence on the second anniversary of the railway-station canopy collapse that killed 16 people. Participants placed 16 wreaths and 16 red hearts outside the station. The disaster had triggered a two-year anti-corruption movement that defeated Aleksandar Vučić’s governing party in parliamentary elections a week earlier.",
+        "category": "protests",
+        "title": "Thousands commemorate Novi Sad station-collapse victims",
+        "event_date": "2026-11-01",
+        "candidate_id": "serbia-novi-sad-collapse-anniversary",
+        "geography": "Serbia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/a88ac0bced2d0dba0f2914be3d0bf2ed"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-01"
+  },
+  "metadata": {
+    "responseId": "resp_06fbca6b27cab46c006ae771e534a487d2ade4f325502bbd8c",
+    "requestId": "req_bd8fc95dfac94b2c875a836543ed5f5b",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2252,
+    "inputTokens": 44491,
+    "outputTokens": 2435,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-01",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 43767,
+    "attemptDurationMs": 43767,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}

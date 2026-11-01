@@ -97,13 +97,57 @@
         "request": {
           "fingerprint": "5e60106e9becceaaaf7e7c6b2d7ed08becef0c1445ff37950541ddfd09f75576",
           "claimId": "34622e2d-db52-4761-a88d-0b95d9605a61",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-01T17:07:45.197Z",
           "responseId": "resp_06fbca6b27cab46c006ae771e534a487d2ade4f325502bbd8c"
         },
-        "result": null,
-        "observedAt": "2026-11-01T17:07:45.138Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Thousands of students and supporters marched silently in Novi Sad and held a moment of silence on the second anniversary of the railway-station canopy collapse that killed 16 people. Participants placed 16 wreaths and 16 red hearts outside the station. The disaster had triggered a two-year anti-corruption movement that defeated Aleksandar Vučić’s governing party in parliamentary elections a week earlier.",
+                "category": "protests",
+                "title": "Thousands commemorate Novi Sad station-collapse victims",
+                "event_date": "2026-11-01",
+                "candidate_id": "serbia-novi-sad-collapse-anniversary",
+                "geography": "Serbia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/a88ac0bced2d0dba0f2914be3d0bf2ed"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-01"
+          },
+          "metadata": {
+            "responseId": "resp_06fbca6b27cab46c006ae771e534a487d2ade4f325502bbd8c",
+            "requestId": "req_bd8fc95dfac94b2c875a836543ed5f5b",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 2252,
+            "inputTokens": 44491,
+            "outputTokens": 2435,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-01",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 43767,
+            "attemptDurationMs": 43767,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-11-01T17:07:45.138Z",
+        "capturedAt": "2026-11-01T17:08:28.964Z"
       }
     ],
     "sift": null
