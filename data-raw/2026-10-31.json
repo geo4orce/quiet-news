@@ -881,10 +881,10 @@
       "request": {
         "fingerprint": "dd78307668ff34ecfaff37aef83a5a3a7060ec24010acbe02f7ec04aee1d5d11",
         "claimId": "b5dfcf64-3118-46bd-885f-c05bc07d7225",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-11-01T09:07:43.956Z",
-        "responseId": null
+        "responseId": "resp_04cb26f1a3edf8a9006ae701640ce887d19174eaf50dff8705"
       },
       "result": null
     }
