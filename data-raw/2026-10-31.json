@@ -881,12 +881,139 @@
       "request": {
         "fingerprint": "dd78307668ff34ecfaff37aef83a5a3a7060ec24010acbe02f7ec04aee1d5d11",
         "claimId": "b5dfcf64-3118-46bd-885f-c05bc07d7225",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-01T09:07:43.956Z",
         "responseId": "resp_04cb26f1a3edf8a9006ae701640ce887d19174eaf50dff8705"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "alaska-seeks-dismissal-election-ballot-lawsuit",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "binance-replenishes-90-percent-stolen-assets",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "china-coast-guard-patrols-east-taiwan",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "cop17-adopts-yerevan-biodiversity-pathway",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "dc-virginia-sue-block-trump-arch",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "el-salvador-families-rally-detainees-fair-trials",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "fbi-contacts-donors-alaska-senate-inquiry",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "france-protests-police-clashes-oct-31",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "g20-ends-without-consensus-black-sea-ceasefire",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "germany-gen-z-protests-frankfurt-looting",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ghana-russia-2000mw-nuclear-cooperation",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "golden-state-valkyries-win-2026-wnba-title",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "iran-qatar-doha-mediation-talks",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "judge-dismisses-trump-wsj-lawsuit-with-prejudice",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "lisbon-housing-protest-rental-bill",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "nigeria-investigates-two-suspected-ebola-cases",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "opec-provisional-december-output-targets",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-agrees-visa-slain-bronx-teen-mother",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "trump-says-flavio-bolsonaro-can-remain-us",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "uk-pm-open-slavery-apology-rejects-reparations",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "un-reports-yemeni-staffer-died-houthi-custody",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "us-afghan-deportations-via-pakistan-disclosed",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Russia temporarily closed Moscow’s Tsaritsyno Museum Reserve and restricted access to its park after receiving a U.S. warning about preparations for a possible terrorist attack.\n\nRussia’s Federal Security Service said the warning came through established channels. The U.S. Embassy separately described a credible threat of a mass-casualty event at the complex.",
+              "candidate_id": "us-warns-russia-possible-moscow-attack",
+              "headline": "Moscow park closes after U.S. security warning",
+              "sources": [
+                {
+                  "name": "Reuters",
+                  "url": "https://www.streetinsider.com/Reuters/FSB%2Bsays%2BUS%2Bwarned%2BRussia%2Bof%2Bpossible%2BMoscow%2Battack/27267541.html"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_04cb26f1a3edf8a9006ae701640ce887d19174eaf50dff8705",
+          "requestId": "req_426e462fa844470c92528258805fbb37",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 2070,
+          "inputTokens": 5902,
+          "outputTokens": 2762,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-10-31",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 33729,
+          "attemptDurationMs": 33729,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
