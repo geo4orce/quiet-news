@@ -304,6 +304,32 @@
         },
         "observedAt": "2026-11-01T23:07:43.380Z",
         "capturedAt": "2026-11-01T23:08:53.190Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Moscow park closes after U.S. security warning",
+            "body": "Russia temporarily closed Moscow’s Tsaritsyno Museum Reserve and restricted access to its park after receiving a U.S. warning about preparations for a possible terrorist attack.\n\nRussia’s Federal Security Service said the warning came through established channels. The U.S. Embassy separately described a credible threat of a mass-casualty event at the complex.",
+            "sources": [
+              {
+                "name": "Reuters",
+                "url": "https://www.streetinsider.com/Reuters/FSB%2Bsays%2BUS%2Bwarned%2BRussia%2Bof%2Bpossible%2BMoscow%2Battack/27267541.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "d73875e26d3891428a2db6c222b60117c5abeb37c6908e9717515686344cce2c",
+          "claimId": "9134caef-201a-4500-9edd-d6b9172b9bff",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-11-02T08:07:44.866Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-11-02T08:07:44.787Z"
       }
     ],
     "sift": null
