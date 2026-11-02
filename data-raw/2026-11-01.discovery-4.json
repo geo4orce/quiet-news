@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-01",
+  "batch": 4,
+  "captured_at": "2026-11-02T08:09:09.996Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Near-final Central Election Commission results, with 99.95% of polling-station protocols processed, showed acting President Iliana Iotova winning Bulgaria’s presidential runoff with about 57.6% of the vote against Andrey Gyurov’s 39.5%. Gyurov conceded, making Iotova set to become Bulgaria’s first woman elected president, subject to final certification.",
+        "category": "elections",
+        "title": "Near-final count confirms Iotova’s Bulgarian presidential victory",
+        "event_date": "2026-11-01",
+        "candidate_id": "bulgaria-presidential-runoff-yotova",
+        "geography": "Bulgaria",
+        "sources": [
+          {
+            "name": "Bulgarian Central Election Commission",
+            "url": "https://results.cik.bg/pvr202610/tur2/rezultati/02.html"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/02/bulgaria-s-iotova-wins-presidential-runoff-near-final-results-show"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/cc540e5540a7a268da15aa72c5ec033e"
+          }
+        ]
+      },
+      {
+        "summary": "The United Nations Mission for the Referendum in Western Sahara ceased operations after the Security Council failed to renew its mandate. The United Nations said November 1 marked the start of a liquidation period overseen by a smaller support team. The mission, established in 1991, had monitored the disputed territory and supported a ceasefire between Morocco and the Polisario Front.",
+        "category": "diplomacy",
+        "title": "UN peacekeeping mission in Western Sahara ends after 35 years",
+        "event_date": "2026-11-01",
+        "candidate_id": "western-sahara-minurso-ends",
+        "geography": "Western Sahara",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/western-sahara-un-peacekeepers-morocco-algeria-030e303c58207060265d8748c1db3778"
+          }
+        ]
+      },
+      {
+        "summary": "A Learjet 60 carrying nine people crashed at about 12:50 p.m. in Greenacres, Palm Beach County, killing everyone aboard. Authorities reported no immediate deaths or injuries on the ground. The jet had departed Austin, Texas, for the Bahamas, and its pilots reported icing and severe turbulence before the aircraft entered a steep dive. Federal investigators were sent to the site.",
+        "category": "disasters",
+        "title": "Nine killed in South Florida business-jet crash",
+        "event_date": "2026-11-01",
+        "candidate_id": "florida-learjet-crash-nine-killed",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/palm-beach-plane-crash-ffdee609e7916ff7fcd178d2b8e69b39"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/nine-people-dead-in-learjet-crash-in-south-florida-officials-say-4989780"
+          }
+        ]
+      },
+      {
+        "summary": "Israel’s Central Elections Committee chairman Noam Sohlberg said the October 27 parliamentary election was conducted properly and that even if suspicions of foreign interference were substantiated, they would not undermine the overall results. The statement, made alongside the attorney general and Shin Bet chief, followed unsupported claims by Prime Minister Benjamin Netanyahu’s Likud party that Arab-led parties had stolen the election. The results still awaited formal certification.",
+        "category": "elections",
+        "title": "Israeli election chief says vote results will stand",
+        "event_date": "2026-11-01",
+        "candidate_id": "israel-election-results-stand",
+        "geography": "Israel",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/israel-election-arab-parties-qatar-netanyahu-a3df86ebfbe5c64306f21f33e69208e0"
+          },
+          {
+            "name": "Times of Israel",
+            "url": "https://www.timesofisrael.com/alongside-zini-and-ag-election-chief-stresses-election-conducted-properly-results-wont-change/"
+          }
+        ]
+      },
+      {
+        "summary": "Ukraine’s air force said the public Air Alert application was hacked late Sunday, briefly displaying false nuclear, chemical, radiation and street-fighting warnings in Kyiv and other regions, along with an erroneous warning about deployment of Russia’s Oreshnik missile. Officials said there was no radiation threat. The application was temporarily suspended while sirens and other public-warning systems continued operating.",
+        "category": "cybersecurity",
+        "title": "Hack sends false emergency warnings through Ukraine air-alert app",
+        "event_date": "2026-11-01",
+        "candidate_id": "ukraine-air-alert-app-hack",
+        "geography": "Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/ukrainian-air-force-says-public-air-raid-alert-app-sent-erroneous-alerts-after-being-hacked-ce785fd8dd8dff2d"
+          },
+          {
+            "name": "Euronews",
+            "url": "https://www.euronews.com/2026/11/02/ukraine-and-russia-say-air-raid-alert-apps-hit-by-cyberattacks-after-truce-ends"
+          }
+        ]
+      },
+      {
+        "summary": "A six-day localized ceasefire around Russian-held Oleshky expired at midnight Moscow time after allowing deliveries and civilian evacuations. Ukraine’s human-rights ombudsman said both sides had upheld their obligations during the pause. Ukraine’s military separately said it evacuated 167 people, including 22 children, from threatened areas of the wider Kherson region. There was no immediate indication that fighting resumed when the truce expired.",
+        "category": "conflict",
+        "title": "Localized Oleshky ceasefire expires after evacuations",
+        "event_date": "2026-11-01",
+        "candidate_id": "oleshky-ceasefire-expires",
+        "geography": "Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/ukraine-evacuates-civilians-from-parts-of-kherson-region-as-expiry-of-oleshky-ceasefire-nears-4989775"
+          }
+        ]
+      },
+      {
+        "summary": "Thousands of protesters led by opposition figure Rahul Gandhi marched in Delhi demanding the resignation of Chief Election Commissioner Gyanesh Kumar over a voter-list revision that removed more than 130 million names. Opposition parties alleged that the deletions disproportionately affected minorities and benefited the governing Bharatiya Janata Party. The Election Commission denied favoring any party and said eligible voters removed in error could re-enroll.",
+        "category": "protests",
+        "title": "Thousands protest India’s voter-list revision",
+        "event_date": "2026-11-01",
+        "candidate_id": "india-voter-list-protest-delhi",
+        "geography": "India",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/indian-authorities-tighten-security-ahead-of-big-opposition-march-in-delhi-4989384"
+          }
+        ]
+      },
+      {
+        "summary": "Israeli strikes killed at least eight Palestinians in two attacks in Gaza, according to medics and the Hamas-run interior ministry. Medics reported three deaths in Gaza City, while the ministry said five police officers were killed in western Khan Younis. Israel’s military said it struck militants in Khan Younis but did not immediately comment on the Gaza City strike.",
+        "category": "conflict",
+        "title": "Israeli strikes kill at least eight people in Gaza",
+        "event_date": "2026-11-01",
+        "candidate_id": "gaza-israeli-strikes-eight-killed",
+        "geography": "Gaza Strip",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/israeli-strikes-kill-eight-people-in-gaza--medics-say-4989738"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-01"
+  },
+  "metadata": {
+    "responseId": "resp_0a5fd17ad3d9a6e9006ae844d4af5c87d2a9abce88740dfc60",
+    "requestId": "req_c37d0bd984e94093a62295cf0d1c5112",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2276,
+    "inputTokens": 89125,
+    "outputTokens": 3929,
+    "webSearchCalls": 10,
+    "stage": "discovery",
+    "targetDate": "2026-11-01",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 85129,
+    "attemptDurationMs": 85129,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
