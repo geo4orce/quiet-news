@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-02",
+  "batch": 3,
+  "captured_at": "2026-11-02T23:08:31.430Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The U.S. Supreme Court rejected the Trump administration's emergency request to segregate about 20,000 California mail ballots from voters it alleged might not be citizens. The court gave no reasoning. California officials said the federal list contained extensive errors and separating the ballots immediately before the November 3 midterm election could disenfranchise eligible voters.",
+        "category": "law and elections",
+        "title": "Supreme Court rejects request to segregate disputed California ballots",
+        "event_date": "2026-11-02",
+        "candidate_id": "california-mail-ballots-supreme-court-appeal",
+        "geography": "United States; California",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/midterm-elections-immigration-voter-fraud-trump-48998968a23a4af2f59eaea3dba4d2f3"
+          }
+        ]
+      },
+      {
+        "summary": "The British government announced plans to extend the standard qualifying period for permanent residency on work visas from five to 10 years. Doctors, nurses, teachers, care workers meeting an income threshold, and people earning at least £50,000 would retain five-year routes, while some higher earners could qualify sooner. The government said the changes would be introduced during 2027.",
+        "category": "immigration policy",
+        "title": "Britain announces longer permanent-residency pathway for many immigrants",
+        "event_date": "2026-11-02",
+        "candidate_id": "britain-permanent-residency-wait-plan",
+        "geography": "United Kingdom",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/6f066b43dc0f24a29c0771f7941f847d"
+          }
+        ]
+      },
+      {
+        "summary": "Federal and local authorities announced Operation Deep Cover, an increased law-enforcement response in Dallas' Deep Ellum entertainment district, after three shootings there early Sunday killed four people and injured 15. Dallas police said they were investigating whether the shootings were related and pursuing possible suspects.",
+        "category": "public safety",
+        "title": "Authorities announce increased policing after deadly Dallas shootings",
+        "event_date": "2026-11-02",
+        "candidate_id": "dallas-deep-ellum-operation-deep-cover",
+        "geography": "United States; Texas; Dallas",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/2c26a7063b6ede4547fc869563edccdd"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-02"
+  },
+  "metadata": {
+    "responseId": "resp_07d436bcbbf8f032006ae917c8119487d2b6df02af99a555e7",
+    "requestId": "req_feda431e67e84826b58cbb2d397d0fb8",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1359,
+    "inputTokens": 45434,
+    "outputTokens": 1864,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-02",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 43515,
+    "attemptDurationMs": 43515,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
