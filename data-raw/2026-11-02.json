@@ -106,10 +106,10 @@
         "request": {
           "fingerprint": "90b6fe3bde574c5f17f55495821e358382790de9184c7db9daeb16dcaae14efe",
           "claimId": "84ceaffb-fd80-4480-97dd-a9440db8a363",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-02T17:07:43.277Z",
-          "responseId": null
+          "responseId": "resp_0fd5ed4520205367006ae8c363c30887d2b7b6aae9b3b84aee"
         },
         "result": null,
         "observedAt": "2026-11-02T17:07:43.206Z"
