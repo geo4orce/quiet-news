@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-03",
+  "batch": 2,
+  "captured_at": "2026-11-03T17:08:36.549Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "President Donald Trump said the United States would stop providing about $4 billion in annual aid to Israel in 2027 while continuing to sell the country military hardware. Trump said Prime Minister Benjamin Netanyahu had approached him about the change; Netanyahu’s office did not immediately comment.",
+        "category": "foreign-policy",
+        "title": "Trump says U.S. will end annual aid to Israel in 2027",
+        "event_date": "2026-11-03",
+        "candidate_id": "trump-us-israel-aid-2027",
+        "geography": "United States / Israel",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/trump-israel-military-aid-hardware-5cad93330300b2d45a9665d5eccb2ab2"
+          }
+        ]
+      },
+      {
+        "summary": "The Justice Department said it deployed approximately 1,000 election monitors and observers across all 50 states, describing it as the largest monitoring effort in department history and its first covering every state. The Civil Rights Division coordinated the operation to monitor compliance with federal voting-rights laws.",
+        "category": "elections",
+        "title": "Justice Department deploys election monitors in all 50 states",
+        "event_date": "2026-11-03",
+        "candidate_id": "doj-election-monitors-all-50-states",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Department of Justice",
+            "url": "https://www.justice.gov/opa/pr/doj-monitor-elections-all-50-states-first-time"
+          },
+          {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/11/03/election-day-polls-doj-observers"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-03"
+  },
+  "metadata": {
+    "responseId": "resp_0642a39d5e995ec3006aea14ec86d887d29e03cb218e3ba4cd",
+    "requestId": "req_fbede65fc57042fda7358c4e5d434f18",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1237,
+    "inputTokens": 52707,
+    "outputTokens": 1599,
+    "webSearchCalls": 6,
+    "stage": "discovery",
+    "targetDate": "2026-11-03",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 44885,
+    "attemptDurationMs": 44885,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
