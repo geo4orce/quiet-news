@@ -169,10 +169,10 @@
         "request": {
           "fingerprint": "ad649f9a0bc5e68078e0e740b767c06bfe5e0e9aaced49a0851acddcb40d4bca",
           "claimId": "731eff08-4cf8-40e6-8536-e334a60232a8",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-03T17:07:51.664Z",
-          "responseId": null
+          "responseId": "resp_0642a39d5e995ec3006aea14ec86d887d29e03cb218e3ba4cd"
         },
         "result": null,
         "observedAt": "2026-11-03T17:07:51.610Z"
