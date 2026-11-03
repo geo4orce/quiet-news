@@ -315,6 +315,46 @@
         },
         "observedAt": "2026-11-02T23:07:47.869Z",
         "capturedAt": "2026-11-02T23:08:31.430Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Russian drone barrage cuts power across Ukraine",
+            "body": "Russia launched 433 drones at Ukraine from Saturday evening into Sunday, according to Ukraine’s air force, which said 371 were destroyed or suppressed.\n\nPresident Volodymyr Zelenskyy said the attacks left hundreds of thousands of households without electricity. Ukrainian authorities also said a drone strike at a vocational-school site in the Vinnytsia region killed three people, including a 13-year-old girl.",
+            "sources": [
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/commodities-news/russian-strikes-cut-power-to-thousands-in-ukraine-as-drones-damage-russian-facility-4989707"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/22a9bcde97cf12c96328aacf88486e40"
+              }
+            ]
+          },
+          {
+            "headline": "U.N. ends Western Sahara mission after 35 years",
+            "body": "The United Nations Mission for the Referendum in Western Sahara ceased operations after the Security Council failed to renew its mandate. A smaller support team will oversee its liquidation.\n\nEstablished in 1991, the mission monitored the disputed territory and supported a ceasefire between Morocco and the Polisario Front.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/western-sahara-un-peacekeepers-morocco-algeria-030e303c58207060265d8748c1db3778"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "c940ec75ce854c9535abf819eed2aea072add3243f0aea38184de4dee90737cc",
+          "claimId": "b44309a0-7ed9-4852-99d6-8154e35d644f",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-11-03T08:07:45.899Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-11-03T08:07:45.826Z"
       }
     ],
     "sift": null
