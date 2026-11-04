@@ -660,12 +660,118 @@
       "request": {
         "fingerprint": "50daaa83e3f5a84d8027d201c0778cb5d9be6a029ed1b457f8afb83e0d3b8a9b",
         "claimId": "625a0dd7-fe70-49f3-bbf5-bdc66c55cf35",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-04T09:07:44.862Z",
         "responseId": "resp_021a9288c5f83112006aeaf5e5306487d2882509bf22ceaefa"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "democrats-flip-nc-house-wisconsin-senate",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "doj-election-monitors-all-50-states",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "greenland-approves-us-denmark-security-deal",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "indonesia-generals-wiretapping-investigation",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "lemma-pleads-guilty-ethiopia-espionage",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "lockheed-employment-discrimination-settlements",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "oklahoma-threatening-powder-letters-charge",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "spain-transport-minister-puente-resigns",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-accepts-2026-midterm-results",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-us-israel-aid-2027",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ukraine-zaporizhzhia-aid-site-toll-31",
+              "code": "incremental_update"
+            }
+          ],
+          "stories": [
+            {
+              "body": "CBS News projected that Democrats had secured enough Republican-held seats to overturn the GOP’s 53-47 majority and take control of the Senate.\n\nProjected Democratic pickups included Texas, North Carolina, South Carolina, Ohio, Kansas and Iowa. Democrats also retained seats in Georgia and New Hampshire. The final size of their majority remained undetermined.",
+              "candidate_id": "democrats-win-senate-control-2026",
+              "headline": "Democrats win control of the U.S. Senate",
+              "sources": [
+                {
+                  "name": "CBS News",
+                  "url": "https://www.cbsnews.com/news/senate-control-democrats-republicans-2026-midterm-elections/"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/ef6199e25927a9ac9f4c18eae0e497cd"
+                }
+              ]
+            },
+            {
+              "body": "Georgia voters elected Democrat Keisha Lance Bottoms, making her the first Black woman elected governor of any U.S. state and Georgia’s first governor of color.\n\nNew Mexico elected Democrat Deb Haaland, a citizen of the Laguna Pueblo, as the first Native American woman to serve as a U.S. governor.",
+              "candidate_id": "georgia-new-mexico-historic-governor-firsts",
+              "headline": "First Black and Native American women elected governors",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/georgia-governor-lance-bottom-jackson-midterm-election-67c22a38b9a6e4cad5584aa44acf106f"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/new-mexico-governor-haaland-hull-2016748de99c93113899cd1688902c69"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/midterm-election-native-american-black-governor-senator-women-93d4d163acfd217521b5dce1ab7fc4a9"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_021a9288c5f83112006aeaf5e5306487d2882509bf22ceaefa",
+          "requestId": "req_163fc90f878a4aab8b8d7709657d664f",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 2069,
+          "inputTokens": 3832,
+          "outputTokens": 2738,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-03",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 43605,
+          "attemptDurationMs": 43605,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
