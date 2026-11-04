@@ -263,13 +263,65 @@
         "request": {
           "fingerprint": "57c96e4881ec36e5b14d808790161fe3ba1ef20aafe45629f586e8aab806f503",
           "claimId": "95239e3a-9824-454b-9ac4-ceadaa5b977e",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-04T23:07:52.294Z",
           "responseId": "resp_01579c7d0eb78950006aebbacc282487d280a7d4965f902e1c"
         },
-        "result": null,
-        "observedAt": "2026-11-04T23:07:52.212Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "South Africans voted in nationwide local government elections to choose municipal and ward representatives. Voting stations closed at 9 p.m. local time and counting began, with preliminary district-level results being published by the Electoral Commission. Final results were not yet available.",
+                "category": "politics",
+                "title": "South Africa holds local government elections",
+                "event_date": "2026-11-04",
+                "candidate_id": "south-africa-local-elections-2026",
+                "geography": "South Africa",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/10402aa5d707d4bd0bb53f959e0ddf88"
+                  },
+                  {
+                    "name": "SABC News",
+                    "url": "https://elections.sabcnews.com/"
+                  },
+                  {
+                    "name": "Electoral Commission of South Africa",
+                    "url": "https://www.elections.org.za/pw/News-And-Media/News-List/News/News-Article/Electoral-Commission-welcomes-announcement-of-4-November-2026-as-Local-Government-Elections-date?a=AISDGvpz75ps1usOfX7oijDmyJafW5sb%2Fd+cisS2zzc%3D"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-04"
+          },
+          "metadata": {
+            "responseId": "resp_01579c7d0eb78950006aebbacc282487d280a7d4965f902e1c",
+            "requestId": "req_baf81fededa2474fad9fd5c21174bda1",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1342,
+            "inputTokens": 49637,
+            "outputTokens": 1607,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-04",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 48348,
+            "attemptDurationMs": 48348,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-11-04T23:07:52.212Z",
+        "capturedAt": "2026-11-04T23:08:40.642Z"
       }
     ],
     "sift": null
