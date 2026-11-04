@@ -598,6 +598,74 @@
         "capturedAt": "2026-11-04T08:08:48.224Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "3382e0d7dab975604890e4765447e35e5676627555369a1a8e8450b2f85b6214",
+      "priorStories": [
+        {
+          "headline": "U.S. strikes Iranian positions on Qeshm Island",
+          "body": "The U.S. carried out limited strikes against Iranian targets on Qeshm Island in the Strait of Hormuz, according to American officials. One official said the targets included surface-to-air missile positions that threatened U.S. assets.\n\nIranian state media reported explosions on the island. U.S. Central Command had not publicly announced the operation when the reports were published.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/iran-us-trump-netanyahu-israel-war-b4519ef86bafe2672e0855d7a48ce309"
+            },
+            {
+              "name": "Reuters via MarketScreener",
+              "url": "https://uk.marketscreener.com/news/us-carries-out-defensive-strikes-on-iran-s-qeshm-island-officials-say-ce785fd9dc88fe26"
+            }
+          ]
+        },
+        {
+          "headline": "Court declines to segregate California ballots",
+          "body": "The Supreme Court rejected the Trump administration’s emergency request to separate about 20,000 California mail ballots from voters it alleged might not be citizens. The justices gave no explanation for their decision, which came one day before the November 3 midterm election.\n\nCalifornia officials said the federal list contained extensive errors and that last-minute segregation could prevent eligible voters’ ballots from being counted.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/midterm-elections-immigration-voter-fraud-trump-48998968a23a4af2f59eaea3dba4d2f3"
+            }
+          ]
+        },
+        {
+          "headline": "Russian strikes kill 26 at Kherson aid sites",
+          "body": "Ukrainian authorities said Russian bombing of an aid distribution center and a neighboring shelter in the southern Kherson region killed 26 people.\n\nThe attacks followed the expiration of a limited ceasefire that had allowed aid deliveries and evacuations in front-line and Russian-occupied areas.",
+          "sources": [
+            {
+              "name": "Associated Press via WV News",
+              "url": "https://www.wvnews.com/newsfeed/us/ap-news-summary-at-12-08-a-m-est/article_7883bb26-7a76-535e-b8f7-86d22eefab05.html"
+            }
+          ]
+        },
+        {
+          "headline": "New York reports child’s measles-linked death",
+          "body": "New York health officials said a child had died in association with the state’s ongoing measles outbreak, the first known measles-associated death there in more than 30 years.\n\nThe state had recorded 178 cases through October 24. Officials urged residents to confirm that they were current on measles, mumps and rubella vaccinations.",
+          "sources": [
+            {
+              "name": "New York State Department of Health",
+              "url": "https://healthweb-back.health.ny.gov/press/releases/2026/2026-11-02_measles.htm"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/4032239653c89f9f454e0ec630852930"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "50daaa83e3f5a84d8027d201c0778cb5d9be6a029ed1b457f8afb83e0d3b8a9b",
+        "claimId": "625a0dd7-fe70-49f3-bbf5-bdc66c55cf35",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-11-04T09:07:44.862Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
