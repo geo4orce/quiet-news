@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-04",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Democrats win control of the U.S. Senate",
+            "body": "CBS News projected that Democrats had secured enough Republican-held seats to overturn the GOP’s 53-47 majority and take control of the Senate.\n\nProjected Democratic pickups included Texas, North Carolina, South Carolina, Ohio, Kansas and Iowa. Democrats also retained seats in Georgia and New Hampshire. The final size of their majority remained undetermined.",
+            "sources": [
+              {
+                "name": "CBS News",
+                "url": "https://www.cbsnews.com/news/senate-control-democrats-republicans-2026-midterm-elections/"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/ef6199e25927a9ac9f4c18eae0e497cd"
+              }
+            ]
+          },
+          {
+            "headline": "First Black and Native American women elected governors",
+            "body": "Georgia voters elected Democrat Keisha Lance Bottoms, making her the first Black woman elected governor of any U.S. state and Georgia’s first governor of color.\n\nNew Mexico elected Democrat Deb Haaland, a citizen of the Laguna Pueblo, as the first Native American woman to serve as a U.S. governor.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/georgia-governor-lance-bottom-jackson-midterm-election-67c22a38b9a6e4cad5584aa44acf106f"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/new-mexico-governor-haaland-hull-2016748de99c93113899cd1688902c69"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/midterm-election-native-american-black-governor-senator-women-93d4d163acfd217521b5dce1ab7fc4a9"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "d92e4734426f090b409b0cd0295d554ccda39d08f0dbfab339dd9ae6042a77e3",
+          "claimId": "6927f2a4-a3ae-4ead-b498-583e75954596",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-11-04T11:07:44.284Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-11-04T11:07:44.227Z"
+      }
+    ],
+    "sift": null
+  }
+}
