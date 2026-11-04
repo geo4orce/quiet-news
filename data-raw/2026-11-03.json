@@ -660,10 +660,10 @@
       "request": {
         "fingerprint": "50daaa83e3f5a84d8027d201c0778cb5d9be6a029ed1b457f8afb83e0d3b8a9b",
         "claimId": "625a0dd7-fe70-49f3-bbf5-bdc66c55cf35",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-11-04T09:07:44.862Z",
-        "responseId": null
+        "responseId": "resp_021a9288c5f83112006aeaf5e5306487d2882509bf22ceaefa"
       },
       "result": null
     }
