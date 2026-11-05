@@ -347,10 +347,10 @@
         "request": {
           "fingerprint": "72d3ceb9df990a2b33c0407b0178b5f652ccbd2a620a70eb4bb7b6a2c40bcb69",
           "claimId": "b5df090f-f23d-4eb5-b9b3-873cc4a69f67",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-05T23:07:42.907Z",
-          "responseId": null
+          "responseId": "resp_08c16721ccb4f062006aed0c42abbc87d2b720f2a5f72ca110"
         },
         "result": null,
         "observedAt": "2026-11-05T23:07:42.855Z"
