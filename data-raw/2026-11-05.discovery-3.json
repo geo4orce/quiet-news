@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-05",
+  "batch": 3,
+  "captured_at": "2026-11-05T23:08:36.276Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Authorities said more than a dozen European flights received bomb threats Thursday, prompting emergency landings, searches and military escorts. No hazardous or suspicious materials were found, and a British official described the threats as malicious hoaxes. Investigators had not established whether the incidents were connected or identified who was responsible.",
+        "category": "Europe",
+        "title": "More than a dozen European flights receive bomb threats",
+        "event_date": "2026-11-05",
+        "candidate_id": "europe-flight-bomb-threats",
+        "geography": "Europe",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/6585ff565ee1ccb9f19b73074aa2fec4"
+          },
+          {
+            "name": "ANSA",
+            "url": "https://videoembed.ansa.it/english/news/2026/11/05/bomb-alerts-for-several-italian-flights-air-force-jets-scrambled_26d2839a-ae08-48e0-b1e8-5be4abdd2ce7.html"
+          }
+        ]
+      },
+      {
+        "summary": "The S&P 500 closed down 4.4%, its largest one-day decline since April 2025, as a sell-off led by companies associated with artificial-intelligence data centers erased the previous day’s gains. The Dow fell 1,833 points, or 3.4%, and the technology-heavy Nasdaq dropped 5.5%, entering correction territory relative to its October high.",
+        "category": "Business",
+        "title": "AI-led sell-off sends major U.S. stock indexes sharply lower",
+        "event_date": "2026-11-05",
+        "candidate_id": "us-stock-market-ai-selloff",
+        "geography": "United States and global markets",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/7ee9c212805aa5e70cf34d25aab7a36e"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/afe254c608c3d1fe2ea792812ba9765a"
+          }
+        ]
+      },
+      {
+        "summary": "Paraguayan President Santiago Peña announced his resignation amid a crisis caused by the collapse of Ueno Bank, which left millions of customers unable to access accounts. The lower house voted 78-0 to send impeachment charges to the Senate and rejected an impeachment effort against Vice President Pedro Alliana. A later congressional session considering Peña’s resignation ended without a decision after losing its quorum, leaving the transfer of power unresolved at the observation cutoff.",
+        "category": "Latin America",
+        "title": "Paraguay president resigns as lawmakers advance impeachment",
+        "event_date": "2026-11-05",
+        "candidate_id": "paraguay-pena-resignation-impeachment",
+        "geography": "Paraguay",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/eccea1c9a64808b5cd7e6e1d5542084f"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://ca.marketscreener.com/news/paraguay-president-pe-a-resigns-under-mounting-pressure-from-bank-collapse-ce785fdcd080f62d"
+          },
+          {
+            "name": "Clarín",
+            "url": "https://www.clarin.com/mundo/renuncio-presidente-paraguay-santiago-pena_0_PMeXJEWAVa.html?elqTrack=true"
+          }
+        ]
+      },
+      {
+        "summary": "Court documents unsealed Thursday showed that the Trump administration held talks with Iran about deporting Iranian nationals while the countries were at war. The documents said the administration had discussed sending detainees through an unnamed third country but did not identify a finalized plan. A federal judge ordered the government to provide advance notice before carrying out such deportations.",
+        "category": "United States",
+        "title": "Court documents reveal U.S.-Iran deportation talks",
+        "event_date": "2026-11-05",
+        "candidate_id": "us-iran-deportation-talks-documents",
+        "geography": "United States and Iran",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/1f245367d432b2683a546936014a1f90"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-05"
+  },
+  "metadata": {
+    "responseId": "resp_08c16721ccb4f062006aed0c42abbc87d2b720f2a5f72ca110",
+    "requestId": "req_b416e293af9e4762a6e90320856df84f",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2335,
+    "inputTokens": 48766,
+    "outputTokens": 3135,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-05",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 53369,
+    "attemptDurationMs": 53369,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
