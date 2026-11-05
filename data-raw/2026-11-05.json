@@ -189,10 +189,10 @@
         "request": {
           "fingerprint": "601f7fabf501aa0226417e36656cfa471fcb4137af3db4895d00343d9a310e54",
           "claimId": "d5f8e75b-6340-4268-9814-7bfa4aea2ed7",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-05T17:07:43.754Z",
-          "responseId": null
+          "responseId": "resp_04b509ed4c89ba79006aecb7e54b0c87d1b2cccfa4a2bb854e"
         },
         "result": null,
         "observedAt": "2026-11-05T17:07:43.680Z"
