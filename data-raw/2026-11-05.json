@@ -51,13 +51,97 @@
         "request": {
           "fingerprint": "69cf3ddd73844ee03ea7e546d183488b4de84713b1e660be0ce1e66cfd188900",
           "claimId": "1ffff7b0-353a-4b8c-9488-9525165f73d8",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-05T11:07:50.039Z",
           "responseId": "resp_04932a0265f9684d006aec638a5cb887d2866d89c81e2d2b7c"
         },
-        "result": null,
-        "observedAt": "2026-11-05T11:07:49.993Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Indiana executed Jeffrey Weisheit by lethal injection at 12:45 a.m. Eastern time. Weisheit, 50, had been sentenced to death for killing his girlfriend’s two children in a 2010 house fire. His execution was the first of three scheduled in the United States on Thursday.",
+                "category": "United States",
+                "title": "Indiana executes Jeffrey Weisheit",
+                "event_date": "2026-11-05",
+                "candidate_id": "indiana-executes-jeffrey-weisheit",
+                "geography": "Indiana, United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/1957e1bcef3d2fd18e6518c84cdb588c"
+                  },
+                  {
+                    "name": "Indiana Supreme Court",
+                    "url": "https://www.in.gov/courts/files/order-other-2026-10S00-1507-PD-413.pdf"
+                  }
+                ]
+              },
+              {
+                "summary": "Bomb threats disrupted several European flights Thursday morning. An Aer Lingus flight from Dublin to Rome carrying 151 people was escorted to a French military base, while Italian military jets escorted a Finnair flight from Helsinki to Rome. Authorities found nothing unusual aboard the Finnair aircraft; no responsibility for the threats was immediately reported.",
+                "category": "Europe",
+                "title": "Bomb threats disrupt multiple European flights",
+                "event_date": "2026-11-05",
+                "candidate_id": "europe-flight-bomb-threats",
+                "geography": "Europe",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/6585ff565ee1ccb9f19b73074aa2fec4"
+                  },
+                  {
+                    "name": "ANSA",
+                    "url": "https://videoembed.ansa.it/english/news/2026/11/05/bomb-alerts-for-several-italian-flights-air-force-jets-scrambled_26d2839a-ae08-48e0-b1e8-5be4abdd2ce7.html"
+                  }
+                ]
+              },
+              {
+                "summary": "French trade unions launched nationwide strikes and demonstrations seeking higher wages and supporting an ongoing high-school protest movement. The action added to pressure on President Emmanuel Macron’s government after weeks of civil unrest and student protests.",
+                "category": "Europe",
+                "title": "French unions begin nationwide strike action",
+                "event_date": "2026-11-05",
+                "candidate_id": "france-nationwide-union-strikes",
+                "geography": "France",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/94e10fc8a1edbf7951e2c067418a7d33"
+                  },
+                  {
+                    "name": "Le Monde",
+                    "url": "https://www.lemonde.fr/en/politics/article/2026/11/05/french-students-unions-and-yellow-vest-protestors-bet-on-common-front-in-new-strike_6772570_5.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-05"
+          },
+          "metadata": {
+            "responseId": "resp_04932a0265f9684d006aec638a5cb887d2866d89c81e2d2b7c",
+            "requestId": "req_3acce0f6bc144ef08cb378a1fd52a1b6",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1604,
+            "inputTokens": 57006,
+            "outputTokens": 2118,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-05",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 70577,
+            "attemptDurationMs": 70577,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-11-05T11:07:49.993Z",
+        "capturedAt": "2026-11-05T11:09:00.617Z"
       }
     ],
     "sift": null
