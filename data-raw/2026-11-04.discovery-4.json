@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-04",
+  "batch": 4,
+  "captured_at": "2026-11-05T08:09:20.249Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "A Hong Kong court sentenced pro-democracy activist Joshua Wong to 10 years in prison after he pleaded guilty to conspiracy to collude with foreign forces under the city’s Beijing-imposed national security law. Wong was already serving a four-year, eight-month sentence in a separate national security case; the remaining two months of that term will run concurrently with the new sentence.",
+        "category": "law",
+        "title": "Hong Kong court sentences Joshua Wong to 10 years in prison",
+        "event_date": "2026-11-04",
+        "candidate_id": "joshua-wong-ten-year-sentence",
+        "geography": "Hong Kong",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/f4b08dd23bab9912569e5cabd990c1ef"
+          }
+        ]
+      },
+      {
+        "summary": "Syrian President Ahmed al-Sharaa and Saudi Crown Prince Mohammed bin Salman oversaw agreements in Riyadh that included cooperation between the countries’ defense ministries and memoranda covering agriculture and environmental protection. The Saudi Fund for Development also agreed to provide Syria with $403 million in concessional loans under six agreements for energy, housing, health and infrastructure projects.",
+        "category": "international-relations",
+        "title": "Syria and Saudi Arabia sign defense cooperation and financing agreements",
+        "event_date": "2026-11-04",
+        "candidate_id": "syria-saudi-defense-financing-deals",
+        "geography": "Saudi Arabia and Syria",
+        "sources": [
+          {
+            "name": "Saudi Press Agency",
+            "url": "https://www.spa.gov.sa/en/N2718384"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/5/syria-saudi-arabia-sign-defence-cooperation-deal-agree-403m-in-loans"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-04"
+  },
+  "metadata": {
+    "responseId": "resp_06cf00bcf4563018006aec3959f92487d2b5b13b4c02785393",
+    "requestId": "req_f3f2fe4760e94ba690b01be29c23d83a",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 2116,
+    "inputTokens": 79143,
+    "outputTokens": 2228,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-11-04",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 90265,
+    "attemptDurationMs": 90265,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
