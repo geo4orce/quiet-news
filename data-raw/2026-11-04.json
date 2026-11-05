@@ -480,12 +480,105 @@
       "request": {
         "fingerprint": "1a0bce6cfdef7cec839b46d381a54a680c1825536a9e5ef55fa5f218fdc9193f",
         "claimId": "b7dcaadc-f4a7-458a-81ff-f377ca41b5e9",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-05T09:07:41.690Z",
         "responseId": "resp_0c6af5270af9e352006aec4760e02087d2a267605e215c8c6c"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "dow-rallies-after-2026-midterms",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "israel-certifies-2026-election-results",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "mike-johnson-leadership-exit",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "south-africa-local-elections-2026",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "syria-saudi-defense-financing-deals",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "yemen-al-jawf-government-advance",
+              "code": "weak_support"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The Associated Press called the House for Democrats early Wednesday after the party won more than the 218 seats required for control.\n\nCombined with their Senate victory, the result gives Democrats both chambers when the new Congress convenes in January, ending two years of unified Republican control. The final size of the House majority remained unsettled.",
+              "candidate_id": "democrats-win-us-house-2026",
+              "headline": "Democrats win control of the U.S. House",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/congress-democratic-blue-wave-midterms-house-senate-9c5c4c5283f58b1ae0786e2f410c21a0"
+                },
+                {
+                  "name": "Roll Call",
+                  "url": "https://rollcall.com/2026/11/04/democrats-house-midterm-election-blue-tsunami/"
+                }
+              ]
+            },
+            {
+              "body": "A Hong Kong court sentenced pro-democracy activist Joshua Wong to 10 years in prison after he pleaded guilty to conspiring to collude with foreign forces under the national security law imposed by Beijing.\n\nWong was already serving four years and eight months in a separate national security case. The remaining two months of that term will run concurrently with the new sentence.",
+              "candidate_id": "joshua-wong-ten-year-sentence",
+              "headline": "Joshua Wong sentenced to 10 years in prison",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/f4b08dd23bab9912569e5cabd990c1ef"
+                }
+              ]
+            },
+            {
+              "body": "Michigan elected Democrat Abdul El-Sayed as the first Muslim U.S. senator. Minnesota’s Peggy Flanagan became the first Native American woman elected to the Senate, while New Hampshire’s Chris Pappas became its first openly gay male member.\n\nIllinois also elected Julia Stratton, meaning three Black women will serve in the Senate simultaneously for the first time.",
+              "candidate_id": "senate-representation-firsts-2026",
+              "headline": "Senate elections produce several historic firsts",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/93d4d163acfd217521b5dce1ab7fc4a9"
+                },
+                {
+                  "name": "Al Jazeera",
+                  "url": "https://www.aljazeera.com/news/2026/11/4/rejecting-hate-abdul-el-sayed-wins-senate-seat-despite-racist-attacks"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0c6af5270af9e352006aec4760e02087d2a267605e215c8c6c",
+          "requestId": "req_a7d1be7dea944510b6ffc1b1d64b8e57",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 474,
+          "inputTokens": 2918,
+          "outputTokens": 1112,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-04",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 21227,
+          "attemptDurationMs": 21227,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
