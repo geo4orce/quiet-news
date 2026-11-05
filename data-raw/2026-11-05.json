@@ -189,13 +189,117 @@
         "request": {
           "fingerprint": "601f7fabf501aa0226417e36656cfa471fcb4137af3db4895d00343d9a310e54",
           "claimId": "d5f8e75b-6340-4268-9814-7bfa4aea2ed7",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-05T17:07:43.754Z",
           "responseId": "resp_04b509ed4c89ba79006aecb7e54b0c87d1b2cccfa4a2bb854e"
         },
-        "result": null,
-        "observedAt": "2026-11-05T17:07:43.680Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "A three-alarm fire tore through a two-story row house in Brooklyn’s Sunset Park neighborhood early Thursday, killing six people and injuring nine, including three firefighters and two police officers. More than 200 first responders attended, and four residents were rescued. Fire marshals were investigating the cause; officials said a lithium-ion battery was found but had not been linked to the fire.",
+                "category": "United States",
+                "title": "Six killed in Brooklyn house fire",
+                "event_date": "2026-11-05",
+                "candidate_id": "brooklyn-house-fire-six-killed",
+                "geography": "New York City, United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/fatal-fire-brooklyn-new-york-bb3c0c9753d0e64ec994cc892f32170e"
+                  },
+                  {
+                    "name": "6abc Philadelphia",
+                    "url": "https://latency.6abc.com/story/6-people-killed-3-alarm-fire-destroys-brooklyn-new-york-home-injures-residents-firefighters/20017531/"
+                  }
+                ]
+              },
+              {
+                "summary": "The British government said a British man being treated for Ebola in the Democratic Republic of the Congo was being medically evacuated to the United Kingdom. The patient, believed to be a healthcare worker, was expected to enter a high-level isolation unit at London’s Royal Free Hospital. British authorities assessed the risk to the public as low.",
+                "category": "Health",
+                "title": "British Ebola patient evacuated from Congo",
+                "event_date": "2026-11-05",
+                "candidate_id": "british-ebola-patient-evacuation",
+                "geography": "Democratic Republic of the Congo and United Kingdom",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/british-ebola-patient-evacuated-london-congo-a93a0db98e090a1aa4d61708ac38afb3"
+                  }
+                ]
+              },
+              {
+                "summary": "Russia and Ukraine exchanged large overnight drone attacks. Ukraine said it intercepted or suppressed 105 of 128 Russian drones, with strikes wounding four people in the Kyiv and Dnipropetrovsk regions. Russia said it shot down 496 Ukrainian drones; a Russian regional governor reported one person wounded in Ryazan. Moscow-installed officials in occupied Luhansk said a Ukrainian strike on a bus killed five people and wounded 13; the claims were not independently verified.",
+                "category": "Europe",
+                "title": "Russia and Ukraine exchange large drone attacks",
+                "event_date": "2026-11-05",
+                "candidate_id": "russia-ukraine-drone-attacks-nov-5",
+                "geography": "Ukraine and Russia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-airstrikes-negotiations-kushner-0b975a30f862731346e7e1d098a8d538"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukrainian President Volodymyr Zelenskyy said the confirmed death toll from Monday’s Russian guided-bomb strike on a former school and nearby aid shelter in Komyshuvakha had risen to 43. Rescuers continued searching for more than 30 people believed trapped in the wreckage, while one previously missing person was found alive.",
+                "category": "Europe",
+                "title": "Death toll from Ukraine aid-site strike rises to 43",
+                "event_date": "2026-11-05",
+                "candidate_id": "komyshuvakha-strike-death-toll-43",
+                "geography": "Zaporizhzhia region, Ukraine",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-airstrikes-negotiations-kushner-0b975a30f862731346e7e1d098a8d538"
+                  }
+                ]
+              },
+              {
+                "summary": "The European Commission transferred €4.36 billion to Ukraine from a €90 billion loan agreed by European Union leaders in April. Commission President Ursula von der Leyen said the tranche would support defense and essential public services; Zelenskyy said it would help fund energy resilience, drones, electronic warfare and air defenses.",
+                "category": "Europe",
+                "title": "European Commission transfers €4.36 billion to Ukraine",
+                "event_date": "2026-11-05",
+                "candidate_id": "eu-transfers-4-36-billion-ukraine",
+                "geography": "European Union and Ukraine",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-airstrikes-negotiations-kushner-0b975a30f862731346e7e1d098a8d538"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-05"
+          },
+          "metadata": {
+            "responseId": "resp_04b509ed4c89ba79006aecb7e54b0c87d1b2cccfa4a2bb854e",
+            "requestId": "req_acc26eb18622454c9fea2d8fccf89ae8",
+            "responseModel": "gpt-5.6-sol",
+            "reasoningTokens": 1626,
+            "inputTokens": 55284,
+            "outputTokens": 2431,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-05",
+            "model": "gpt-5.6-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 71352,
+            "attemptDurationMs": 71352,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-11-05T17:07:43.680Z",
+        "capturedAt": "2026-11-05T17:08:55.106Z"
       }
     ],
     "sift": null
