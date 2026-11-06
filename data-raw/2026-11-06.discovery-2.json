@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-06",
+  "batch": 2,
+  "captured_at": "2026-11-06T17:08:31.187Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "U.S. employers added 165,000 jobs in October, above the prior 12-month monthly average of 48,000, while the unemployment rate changed little at 4.1%. Average hourly earnings rose 3.1% from a year earlier. Payroll estimates for August and September were revised upward by a combined 84,000 jobs.",
+        "category": "business",
+        "title": "US adds 165,000 jobs in October",
+        "event_date": "2026-11-06",
+        "candidate_id": "us-october-2026-jobs-report",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Bureau of Labor Statistics",
+            "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/746ee02db33d0372980f815ada33d8d3"
+          }
+        ]
+      },
+      {
+        "summary": "AI-related shares rebounded in U.S. morning trading after a two-day global sell-off. At 10:45 a.m. Eastern, the S&P 500 was up 0.8% and the Nasdaq was up 1.4%, with Nvidia gaining 4.1%. The rebound followed declines of about 6% in both Tokyo and Seoul and a 2.1% fall in Germany’s DAX.",
+        "category": "business",
+        "title": "US AI stocks rebound after global sell-off",
+        "event_date": "2026-11-06",
+        "candidate_id": "global-markets-ai-selloff-nov6",
+        "geography": "Global",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/markets-japan-nikkei-oil-ai-bba6f0bf9035a6e6b1c4fef3e8230b89"
+          }
+        ]
+      },
+      {
+        "summary": "The United States, Australia, Britain, Canada, France, Germany, Italy, Japan, the Netherlands and New Zealand jointly condemned Hong Kong activist Joshua Wong’s 10-year national-security sentence. The governments called for an end to prosecutions they described as unjust; Hong Kong and mainland Chinese officials rejected the criticism.",
+        "category": "world",
+        "title": "Ten governments condemn Joshua Wong prison sentence",
+        "event_date": "2026-11-06",
+        "candidate_id": "governments-condemn-joshua-wong-sentence",
+        "geography": "Hong Kong",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/6f4971055276bbffe1312af9729ed80f"
+          }
+        ]
+      },
+      {
+        "summary": "President Donald Trump and Qatar’s emir, Sheikh Tamim bin Hamad Al Thani, discussed international efforts to de-escalate tensions involving Iran. Qatar’s media office said the emir urged continued dialogue, diplomatic resolution of disputes, protection of maritime navigation and security of energy supplies.",
+        "category": "world",
+        "title": "Trump and Qatar emir discuss Iran de-escalation",
+        "event_date": "2026-11-06",
+        "candidate_id": "trump-qatar-emir-iran-deescalation-call",
+        "geography": "United States and Qatar",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/6f4971055276bbffe1312af9729ed80f"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-06"
+  },
+  "metadata": {
+    "responseId": "resp_0467f8fabfa3342e006aee095dd68487d2a9f8525b8b11b6dc",
+    "requestId": "req_2177563adc324f708efd498df7a4a854",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1537,
+    "inputTokens": 56995,
+    "outputTokens": 2220,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-06",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 53210,
+    "attemptDurationMs": 53210,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
