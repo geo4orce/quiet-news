@@ -503,10 +503,10 @@
         "request": {
           "fingerprint": "5d3851703674c89b350b2b8824d18636437971675155090b92475d93e616daed",
           "claimId": "8e8d687a-a78a-4880-968d-6c73357f3c5e",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-06T08:07:46.871Z",
-          "responseId": null
+          "responseId": "resp_0f23311fd65eba01006aed8ad7858487d2bae9740aafcb3706"
         },
         "result": null,
         "observedAt": "2026-11-06T08:07:46.719Z"
