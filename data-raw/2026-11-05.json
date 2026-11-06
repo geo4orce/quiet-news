@@ -640,10 +640,10 @@
       "request": {
         "fingerprint": "2de1f9705ed75571df8095d9cf89a310803201655fd2cf21066a986b9dc597be",
         "claimId": "58bf9491-16cd-46bb-8bb8-85c32f32c245",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-11-06T09:07:48.123Z",
-        "responseId": null
+        "responseId": "resp_00a6c835d71013d5006aed98e824d087d2b20f2d3010500ee7"
       },
       "result": null
     }
