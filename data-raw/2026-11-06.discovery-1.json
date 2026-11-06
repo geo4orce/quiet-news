@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-06",
+  "batch": 1,
+  "captured_at": "2026-11-06T11:08:31.223Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Japan’s Nikkei 225 and South Korea’s Kospi each closed 6% lower Friday as the previous day’s AI-led Wall Street sell-off spread globally. Hong Kong’s Hang Seng fell 1.3%, mainland China’s Shanghai Composite lost 1.1%, and major European indexes opened lower.",
+        "category": "business",
+        "title": "AI-led market sell-off spreads to Asia and Europe",
+        "event_date": "2026-11-06",
+        "candidate_id": "global-markets-ai-selloff-nov6",
+        "geography": "Global",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/markets-japan-nikkei-oil-ai-bba6f0bf9035a6e6b1c4fef3e8230b89"
+          }
+        ]
+      },
+      {
+        "summary": "Myanmar’s Union Election Commission announced that special elections will be held April 4, 2027, to fill vacancies in 55 constituencies. The vote will include areas where armed conflicts continue and towns recently recaptured by the military.",
+        "category": "politics",
+        "title": "Myanmar schedules April parliamentary by-elections",
+        "event_date": "2026-11-06",
+        "candidate_id": "myanmar-april-byelections-announced",
+        "geography": "Myanmar",
+        "sources": [
+          {
+            "name": "Associated Press via ABC News",
+            "url": "https://abcnews.com/International/wireStory/myanmar-hold-elections-april-including-areas-fighting-persists-137903196"
+          }
+        ]
+      },
+      {
+        "summary": "Interim results from South Africa’s local elections showed the African National Congress headed for a substantial decline in support and possible loss of control in major cities. The MK Party, founded by former president Jacob Zuma, was leading in the eThekwini municipality, which includes Durban, as counting continued.",
+        "category": "politics",
+        "title": "South Africa election count points to major ANC losses",
+        "event_date": "2026-11-06",
+        "candidate_id": "south-africa-local-election-interim-results",
+        "geography": "South Africa",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/5de84cd9a66604fcb774b5a97335a6e8"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-06"
+  },
+  "metadata": {
+    "responseId": "resp_0bb79d65cb85a981006aedb502d6a087d298974b530ed2e475",
+    "requestId": "req_7dc43dc102c64e48a01dc1f5c94ec09d",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1446,
+    "inputTokens": 52333,
+    "outputTokens": 1786,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-06",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 47928,
+    "attemptDurationMs": 47928,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
