@@ -640,12 +640,106 @@
       "request": {
         "fingerprint": "2de1f9705ed75571df8095d9cf89a310803201655fd2cf21066a986b9dc597be",
         "claimId": "58bf9491-16cd-46bb-8bb8-85c32f32c245",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-06T09:07:48.123Z",
         "responseId": "resp_00a6c835d71013d5006aed98e824d087d2b20f2d3010500ee7"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "british-ebola-patient-evacuation",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "brooklyn-house-fire-six-killed",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "eu-transfers-4-36-billion-ukraine",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "europe-flight-bomb-threats",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "france-nationwide-union-strikes",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "judge-blocks-trump-memorial-arch",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "komyshuvakha-strike-death-toll-43",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "paraguay-pena-resignation-impeachment",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "russia-ukraine-drone-attacks-nov-5",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "us-iran-deportation-talks-documents",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Florida, Alabama and Indiana each carried out a lethal-injection execution Thursday.\n\nFlorida executed Jesse Guardado for the 2004 murder of Jackie Malone. Alabama executed Michael Taylor for killing Ivan and Lucille Moore in 1991. Indiana executed Jeffrey Weisheit shortly after midnight for killing two children in a 2010 house fire.\n\nGuardado’s death was Florida’s 19th execution this year, tying the state’s annual record.",
+              "candidate_id": "indiana-executes-jeffrey-weisheit",
+              "headline": "Three states carry out executions in one day",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/indiana-alabama-florida-executions-f38f70d09b512c4d7245fd5e75ee91df"
+                }
+              ]
+            },
+            {
+              "body": "The S&P 500 fell 4.4% Thursday, its largest one-day decline since April 2025. The Dow Jones Industrial Average lost 1,833 points, or 3.4%, and the Nasdaq fell 5.5%.\n\nCompanies associated with artificial-intelligence data centers led the sell-off, which erased the previous day’s gains. The Nasdaq ended in correction territory relative to its October high.",
+              "candidate_id": "us-stock-market-ai-selloff",
+              "headline": "S&P 500 falls 4.4% in AI-led sell-off",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/7ee9c212805aa5e70cf34d25aab7a36e"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/afe254c608c3d1fe2ea792812ba9765a"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_00a6c835d71013d5006aed98e824d087d2b20f2d3010500ee7",
+          "requestId": "req_9df51d5d6cbb4f8192d91c1f3b5e0f3c",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 1612,
+          "inputTokens": 3650,
+          "outputTokens": 2198,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-05",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 43506,
+          "attemptDurationMs": 43506,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
