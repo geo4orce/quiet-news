@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-06",
+  "batch": 3,
+  "captured_at": "2026-11-06T23:08:31.120Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "AI-related shares recovered some of their two-day sell-off by Friday’s close. The S&P 500 rose 0.3%, the Nasdaq gained 1.1% and the Dow fell 0.5%. Nvidia rose 2.8%. The S&P 500 nevertheless ended the week down 2.7%, its worst weekly performance since April 2025.",
+        "category": "business",
+        "title": "AI shares rebound as US markets finish mixed",
+        "event_date": "2026-11-06",
+        "candidate_id": "global-markets-ai-selloff-nov6",
+        "geography": "United States and global markets",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/markets-japan-nikkei-oil-ai-bba6f0bf9035a6e6b1c4fef3e8230b89"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-806f71d95105bc7efbc760b194dd8cad"
+          }
+        ]
+      },
+      {
+        "summary": "President Donald Trump and Qatar’s emir, Sheikh Tamim bin Hamad Al Thani, discussed international efforts to de-escalate tensions involving Iran. Qatar’s media office said the emir urged continued dialogue, diplomatic resolution of disputes, protection of maritime navigation and security of energy supplies.",
+        "category": "world",
+        "title": "Trump and Qatar emir discuss Iran de-escalation",
+        "event_date": "2026-11-06",
+        "candidate_id": "trump-qatar-emir-iran-deescalation-call",
+        "geography": "United States and Qatar",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-news-november-6-2026-ab62071e056c046fe6034216e14b8bb7"
+          }
+        ]
+      },
+      {
+        "summary": "Paraguay’s Senate removed President Santiago Peña from office over the collapse of Ueno Bank. Prosecutors subsequently ordered the arrests of Peña and former central bank chief Carlos Carvallo in an investigation into alleged breach of trust and other offenses connected to the bank’s failure.",
+        "category": "politics",
+        "title": "Paraguay Senate removes Peña as prosecutors order arrest",
+        "event_date": "2026-11-06",
+        "candidate_id": "paraguay-pena-ousted-arrest-ordered",
+        "geography": "Paraguay",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/e84f5ada84e8c747329ec82fabb46e4d"
+          }
+        ]
+      },
+      {
+        "summary": "President Donald Trump named Stephen Miller to replace Susie Wiles as White House chief of staff following Republicans’ midterm-election losses. Trump said Wiles would continue working for his political organization.",
+        "category": "politics",
+        "title": "Stephen Miller replaces Susie Wiles as White House chief of staff",
+        "event_date": "2026-11-06",
+        "candidate_id": "stephen-miller-white-house-chief-of-staff",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/95690fe076f6bb8cfe2bf77435a1910d"
+          }
+        ]
+      },
+      {
+        "summary": "China confirmed that discussions were underway about a possible meeting among Chinese leader Xi Jinping, U.S. President Donald Trump and Russian President Vladimir Putin. Beijing’s confirmation did not establish that a summit had been scheduled.",
+        "category": "world",
+        "title": "China confirms discussions about Xi-Trump-Putin meeting",
+        "event_date": "2026-11-06",
+        "candidate_id": "china-confirms-xi-trump-putin-talks",
+        "geography": "China, United States and Russia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/685503bde099612212fb9d6f716422e4"
+          }
+        ]
+      },
+      {
+        "summary": "Iran was reviewing proposals from Qatar intended to address differences with the United States over Tehran’s nuclear program, according to two Middle Eastern government officials. The reported development raised the possibility of renewed indirect negotiations, but no talks or agreement had been announced.",
+        "category": "world",
+        "title": "Iran reviews Qatari nuclear proposals",
+        "event_date": "2026-11-06",
+        "candidate_id": "iran-reviews-qatar-nuclear-proposals",
+        "geography": "Iran, Qatar and United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/53ed5d271b9aef6f880aebc133ea6a55"
+          }
+        ]
+      },
+      {
+        "summary": "Two Justice Department officials resigned, including the top federal prosecutor in Miami who had overseen an investigation targeting opponents of President Donald Trump. The departures followed Democrats’ gains in the midterm elections.",
+        "category": "politics",
+        "title": "Two Justice Department officials resign",
+        "event_date": "2026-11-06",
+        "candidate_id": "justice-department-officials-resign-nov6",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/9a10b4ffcb620edb3c2298cec066062d"
+          }
+        ]
+      },
+      {
+        "summary": "Democrats secured control of both chambers of Arizona’s Legislature while retaining the governorship, producing the party’s first state-government trifecta there since 1966. The result was confirmed as additional races from Tuesday’s election were called.",
+        "category": "politics",
+        "title": "Democrats secure Arizona governing trifecta",
+        "event_date": "2026-11-06",
+        "candidate_id": "arizona-democratic-trifecta-2026",
+        "geography": "Arizona, United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/7b702479591f51c8b8a1d67597c6e05e"
+          }
+        ]
+      },
+      {
+        "summary": "Pope Leo XIV arrived in Uruguay to begin a 12-day tour also covering Argentina and Peru, three weeks after surgery to remove a cancerous tumor from his right lung. The Vatican estimated that about 30,000 people attended his arrival events in Montevideo.",
+        "category": "world",
+        "title": "Pope Leo begins South American tour after lung surgery",
+        "event_date": "2026-11-06",
+        "candidate_id": "pope-leo-uruguay-tour-arrival",
+        "geography": "Uruguay",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/aba684734dbe7f2854719e74dd687642"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-06"
+  },
+  "metadata": {
+    "responseId": "resp_099be95c672873b4006aee5dc2dadc87d2971130d70c4fc4b3",
+    "requestId": "req_3ac340471d8144c68531b4633796c1f4",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1720,
+    "inputTokens": 49152,
+    "outputTokens": 2925,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-06",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 48215,
+    "attemptDurationMs": 48215,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
