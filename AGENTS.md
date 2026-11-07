@@ -132,7 +132,7 @@ Avoid em dashes.
 - Publish with full midnight coverage or three validated batches out of four.
   Record partial coverage/missing intervals in sift input, research and warning;
   never relabel failed collection as successful.
-- Four independent collections and one independent sift use `gpt-5.6-sol`,
+- Four independent collections and one independent sift use `gpt-6.1-sol`,
   background Responses, `store:false`, strict schemas and private prompts.
   No shared model conversation or `previous_response_id`.
 - Collection: medium reasoning, web search, up to 20 new/changed neutral candidates
@@ -177,7 +177,7 @@ Avoid em dashes.
 - `public/`: site; `lib/`: contracts/storage/provider logic; `jobs/`: entry points;
   `scripts/`: validation/dev/recovery; `tests/`: mocks; `.github/workflows/`: checks.
 - Before changing prompts, models, versions or provider options, coordinate with
-  QNP and recheck official docs: [model](https://developers.openai.com/api/docs/models/gpt-5.6-sol),
+  QNP and recheck official docs: [model](https://developers.openai.com/api/docs/models/gpt-6.1-sol),
   [latest model](https://developers.openai.com/api/docs/guides/latest-model),
   [structured outputs](https://developers.openai.com/api/docs/guides/structured-outputs),
   [background](https://developers.openai.com/api/docs/guides/background).

@@ -55,6 +55,7 @@ test("four durable collections feed one sift and duplicate publish invocations c
   const calls = [], commits = [];
   const persist = async (paths) => commits.push([...paths]);
   const execute = async (options) => {
+    assert.equal(options.body.model, "gpt-6.1-sol");
     calls.push(options.stage);
     await options.saveRequest({ ...request(calls.length), status: "in_progress" });
     const input = JSON.parse(options.body.input[1].content);

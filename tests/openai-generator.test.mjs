@@ -109,7 +109,7 @@ test("runs independent discovery and sift requests with structured metadata", as
 
   assert.equal(requests.length, 2);
   assert.equal(discovery.url, "https://api.openai.com/v1/responses");
-  assert.equal(discovery.body.model, "gpt-5.6-sol");
+  assert.equal(discovery.body.model, "gpt-6.1-sol");
   assert.equal(discovery.body.input[0].content, TEST_PROMPTS.discovery);
   assert.equal(discovery.body.store, false);
   assert.deepEqual(discovery.body.reasoning, { effort: "medium" });
@@ -117,6 +117,7 @@ test("runs independent discovery and sift requests with structured metadata", as
   assert.equal(discovery.body.text.format.name, "quiet_news_candidates");
   assert.equal(discovery.body.text.format.strict, true);
 
+  assert.equal(sift.body.model, "gpt-6.1-sol");
   assert.equal(sift.body.store, false);
   assert.equal(sift.body.input[0].content, TEST_PROMPTS.sift);
   assert.deepEqual(sift.body.reasoning, { effort: "high" });
@@ -511,6 +512,7 @@ test("manual recovery reuses validated discovery only with matching date, config
   let calls = 0;
   const generate = createOpenAIGenerator({
     apiKey: "test-key-not-secret", prompts: TEST_PROMPTS, logger: { info() {} },
+    model: "gpt-5.6-sol",
     fetchImpl: async (_url, options) => {
       calls += 1;
       assert.equal(JSON.parse(options.body).text.format.name, "quiet_news_sift");
