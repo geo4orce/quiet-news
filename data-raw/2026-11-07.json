@@ -351,13 +351,139 @@
         "request": {
           "fingerprint": "e58562369cfd6862c01c8af335e72fbca89810fccdf7c02e4b27722bf75629e1",
           "claimId": "bbb8884e-409a-445a-9cc2-ad9147bb3e9f",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-07T23:07:47.609Z",
           "responseId": "resp_0cfc95c47194cffc006aefaf474d5c87d284944854a7827f1d"
         },
-        "result": null,
-        "observedAt": "2026-11-07T23:07:47.533Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Authorities raised the toll from Saturday’s shooting in Krakow’s Main Market Square to six killed and 15 injured, including two police officers. Police shot and detained the 25-year-old suspect. Interior Minister Marcin Kierwiński said the suspect held radical far-right views. Prime Minister Donald Tusk said authorities subsequently found three of the suspect’s close relatives dead at his home in Ostrowiec Świętokrzyski.",
+                "category": "Public Safety",
+                "title": "Krakow shooting toll rises to six dead and 15 injured",
+                "event_date": "2026-11-07",
+                "candidate_id": "krakow-market-square-shooting",
+                "geography": "Poland",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/poland-shooting-krakow-market-dead-076b972f107df14a1f71e12a74d4d8e5"
+                  },
+                  {
+                    "name": "Krakow municipal government",
+                    "url": "https://krakow.pl/aktualnosci/345151%2C29%2Ckomunikat%2Cstrzaly_na_rynku_glownym__na_miejscu_pracuja_sluzby_ratunkowe.html"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. Central Command said Saturday that an American military aircraft disabled a St. Kitts-flagged commercial ship in the Gulf of Oman after its crew ignored repeated warnings and attempted to breach the blockade of Iran. The command said the vessel was leaving regional waters after visiting an Iranian port. Reuters identified it as the M/V Huda and reported that precision munitions struck its stern after the crew was directed to leave targeted spaces.",
+                "category": "Conflict",
+                "title": "U.S. military says it disabled cargo ship attempting to breach Iran blockade",
+                "event_date": "2026-11-07",
+                "candidate_id": "us-disables-huda-gulf-oman",
+                "geography": "Gulf of Oman",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/commercial-vessel-gulf-oman-breach-blockade-iran-bc902d3400cb5d022f8bafd247ef975b"
+                  },
+                  {
+                    "name": "Reuters via Arab News",
+                    "url": "https://www.arabnews.com/middle-east/us-military-says-it-disabled-cargo-vessel-in-gulf-of-oman-3010407"
+                  }
+                ]
+              },
+              {
+                "summary": "Israeli President Isaac Herzog announced Saturday evening that he had chosen Yashar leader Gadi Eisenkot to receive the first opportunity to form a government following the October 27 election. Herzog’s office said the formal mandate ceremony was scheduled for November 8. Parties representing 67 lawmakers recommended Eisenkot, compared with 46 recommending Benjamin Netanyahu. No new governing coalition had been formed.",
+                "category": "Politics",
+                "title": "Herzog announces selection of Eisenkot for government-formation mandate",
+                "event_date": "2026-11-07",
+                "candidate_id": "israel-herzog-eisenkot-mandate-announcement",
+                "geography": "Israel",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/israel-elections-75934bfce1f2f2e43e1823de3761b12d"
+                  },
+                  {
+                    "name": "The Times of Israel",
+                    "url": "https://www.timesofisrael.com/liveblog_entry/herzog-announces-he-will-task-eisenkot-tomorrow-with-forming-new-government-after-meeting-him-and-netanyahu/"
+                  }
+                ]
+              },
+              {
+                "summary": "Airstrikes hit homes in al-Shariya, northeast of Sanaa, on Saturday, killing at least 27 people and injuring 36, according to Houthi-run Health Ministry spokesman Anees al-Asbahi. He blamed Saudi Arabia. The Associated Press could not independently verify the claims, and Saudi Arabia’s Information Ministry did not immediately respond. A Houthi military spokesman later claimed retaliatory attacks against Saudi Arabia.",
+                "category": "Conflict",
+                "title": "Houthis report at least 27 killed in airstrikes near Sanaa",
+                "event_date": "2026-11-07",
+                "candidate_id": "yemen-al-shariya-airstrikes",
+                "geography": "Yemen",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/yemen-houthi-saudi-attacks-1b5aef5b86be2e96e1cd8a18165afaf6"
+                  }
+                ]
+              },
+              {
+                "summary": "Revolutionary Guard spokesman Gen. Hossein Mohebbi said at a Tehran news conference Saturday that Iran had lifted its self-imposed 2,000-kilometer limit on ballistic-missile ranges. The announcement did not establish that Iran possessed operational missiles exceeding that range; the Associated Press reported that none were known.",
+                "category": "Conflict",
+                "title": "Iran’s Revolutionary Guard says missile-range restriction has been lifted",
+                "event_date": "2026-11-07",
+                "candidate_id": "iran-missile-range-limit-announcement",
+                "geography": "Iran",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/mideast-news-november-7-2026-c26759ac66e6c022a3256adeae40c965"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. Central Command announced that Adm. Brad Cooper directed the establishment of Task Force Iron Gate on November 7. The approximately 20-person civilian and military staff in Tampa is intended to coordinate with other U.S. agencies on restricting advanced weapons, dual-use technologies, sanctioned materials and revenue movements across Iran’s land borders and the Caspian Sea.",
+                "category": "Security",
+                "title": "CENTCOM establishes task force targeting Iranian overland supply routes",
+                "event_date": "2026-11-07",
+                "candidate_id": "centcom-task-force-iron-gate",
+                "geography": "United States; Iran",
+                "sources": [
+                  {
+                    "name": "U.S. Central Command statement via Forth",
+                    "url": "https://www.forth.news/lists/centcom/Cgoet5KhSp6nWZnwnUeuR"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-07"
+          },
+          "metadata": {
+            "responseId": "resp_0cfc95c47194cffc006aefaf474d5c87d284944854a7827f1d",
+            "requestId": "req_395dbd57f294450ba90c7babbd002521",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 737,
+            "inputTokens": 48887,
+            "outputTokens": 2237,
+            "webSearchCalls": 5,
+            "stage": "discovery",
+            "targetDate": "2026-11-07",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 48266,
+            "attemptDurationMs": 48266,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-11-07T23:07:47.533Z",
+        "capturedAt": "2026-11-07T23:08:35.875Z"
       }
     ],
     "sift": null
