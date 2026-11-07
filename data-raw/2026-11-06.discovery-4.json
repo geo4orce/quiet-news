@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-06",
+  "batch": 4,
+  "captured_at": "2026-11-07T08:08:24.622Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "President Donald Trump said the U.S. military carried out limited strikes targeting an Iranian air-defense system on Friday evening. Iranian state media reported two explosions near Suza on Qeshm Island. Trump described the operation as minor but provided no further details about the target or damage.",
+        "category": "world",
+        "title": "United States carries out limited strikes on Iranian air defenses",
+        "event_date": "2026-11-06",
+        "candidate_id": "us-limited-iran-air-defense-strikes-nov6",
+        "geography": "Iran and United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/iran-war-nuclear-program-negotiations-trump-53ed5d271b9aef6f880aebc133ea6a55"
+          },
+          {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-06"
+  },
+  "metadata": {
+    "responseId": "resp_08a5c0c79af55ab6006aeedc51740487d2ab064869df26d0c2",
+    "requestId": "req_a60140ababd24301a631b47b885e8f4b",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1126,
+    "inputTokens": 48054,
+    "outputTokens": 1349,
+    "webSearchCalls": 5,
+    "stage": "discovery",
+    "targetDate": "2026-11-06",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 43141,
+    "attemptDurationMs": 43141,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
