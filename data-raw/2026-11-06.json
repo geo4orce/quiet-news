@@ -574,12 +574,125 @@
       "request": {
         "fingerprint": "f3f35d62bafdb7396727cb8967fa7eac73f15db43a1c1a4041dcd91e335ffcdf",
         "claimId": "4a2db577-4415-4aac-91a5-3d56cca88b75",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-07T09:07:48.841Z",
         "responseId": "resp_01bf9a0b5345a5c9006aeeea68ed1087d28b788d21c3726d00"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "arizona-democratic-trifecta-2026",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "china-confirms-xi-trump-putin-talks",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "global-markets-ai-selloff-nov6",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "governments-condemn-joshua-wong-sentence",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "iran-reviews-qatar-nuclear-proposals",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "justice-department-officials-resign-nov6",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "myanmar-april-byelections-announced",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "pope-leo-uruguay-tour-arrival",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "south-africa-local-election-interim-results",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "stephen-miller-white-house-chief-of-staff",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-qatar-emir-iran-deescalation-call",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Paraguay’s Senate removed President Santiago Peña from office following the collapse of Ueno Bank.\n\nProsecutors then ordered the arrests of Peña and former central bank chief Carlos Carvallo. They are being investigated for alleged breach of trust and other offenses connected to the bank’s failure.",
+              "candidate_id": "paraguay-pena-ousted-arrest-ordered",
+              "headline": "Paraguay’s Senate removes President Peña",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/e84f5ada84e8c747329ec82fabb46e4d"
+                }
+              ]
+            },
+            {
+              "body": "President Donald Trump said the U.S. military conducted limited strikes against an Iranian air-defense system Friday evening. Iranian state media reported two explosions near Suza on Qeshm Island.\n\nTrump described the operation as minor. Its precise target, damage and wider consequences had not been established.",
+              "candidate_id": "us-limited-iran-air-defense-strikes-nov6",
+              "headline": "U.S. strikes Iranian air-defense system",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/iran-war-nuclear-program-negotiations-trump-53ed5d271b9aef6f880aebc133ea6a55"
+                },
+                {
+                  "name": "CBS News",
+                  "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+                }
+              ]
+            },
+            {
+              "body": "U.S. employers added 165,000 jobs in October, well above the previous 12 months’ monthly average of 48,000. The unemployment rate was little changed at 4.1%.\n\nAverage hourly earnings increased 3.1% from a year earlier. Revised estimates also added a combined 84,000 jobs to the previously reported totals for August and September.",
+              "candidate_id": "us-october-2026-jobs-report",
+              "headline": "U.S. added 165,000 jobs in October",
+              "sources": [
+                {
+                  "name": "U.S. Bureau of Labor Statistics",
+                  "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+                },
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/746ee02db33d0372980f815ada33d8d3"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_01bf9a0b5345a5c9006aeeea68ed1087d28b788d21c3726d00",
+          "requestId": "req_550c23c0538f4d1ab920981afe3caaae",
+          "responseModel": "gpt-5.6-sol",
+          "reasoningTokens": 554,
+          "inputTokens": 3328,
+          "outputTokens": 1284,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-06",
+          "model": "gpt-5.6-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 22593,
+          "attemptDurationMs": 22593,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
