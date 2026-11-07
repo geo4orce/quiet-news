@@ -1,29 +1,43 @@
 {
-  "edition_date": "2026-11-05",
-  "published_at": "2026-11-06T09:08:34.004Z",
-  "expires_at": "2026-11-07T10:00:00.000Z",
+  "edition_date": "2026-11-06",
+  "published_at": "2026-11-07T09:08:13.553Z",
+  "expires_at": "2026-11-08T10:00:00.000Z",
   "stories": [
     {
-      "headline": "Three states carry out executions in one day",
-      "body": "Florida, Alabama and Indiana each carried out a lethal-injection execution Thursday.\n\nFlorida executed Jesse Guardado for the 2004 murder of Jackie Malone. Alabama executed Michael Taylor for killing Ivan and Lucille Moore in 1991. Indiana executed Jeffrey Weisheit shortly after midnight for killing two children in a 2010 house fire.\n\nGuardado’s death was Florida’s 19th execution this year, tying the state’s annual record.",
+      "headline": "Paraguay’s Senate removes President Peña",
+      "body": "Paraguay’s Senate removed President Santiago Peña from office following the collapse of Ueno Bank.\n\nProsecutors then ordered the arrests of Peña and former central bank chief Carlos Carvallo. They are being investigated for alleged breach of trust and other offenses connected to the bank’s failure.",
       "sources": [
         {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/indiana-alabama-florida-executions-f38f70d09b512c4d7245fd5e75ee91df"
+          "url": "https://apnews.com/article/e84f5ada84e8c747329ec82fabb46e4d"
         }
       ]
     },
     {
-      "headline": "S&P 500 falls 4.4% in AI-led sell-off",
-      "body": "The S&P 500 fell 4.4% Thursday, its largest one-day decline since April 2025. The Dow Jones Industrial Average lost 1,833 points, or 3.4%, and the Nasdaq fell 5.5%.\n\nCompanies associated with artificial-intelligence data centers led the sell-off, which erased the previous day’s gains. The Nasdaq ended in correction territory relative to its October high.",
+      "headline": "U.S. strikes Iranian air-defense system",
+      "body": "President Donald Trump said the U.S. military conducted limited strikes against an Iranian air-defense system Friday evening. Iranian state media reported two explosions near Suza on Qeshm Island.\n\nTrump described the operation as minor. Its precise target, damage and wider consequences had not been established.",
       "sources": [
         {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/7ee9c212805aa5e70cf34d25aab7a36e"
+          "url": "https://apnews.com/article/iran-war-nuclear-program-negotiations-trump-53ed5d271b9aef6f880aebc133ea6a55"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+        }
+      ]
+    },
+    {
+      "headline": "U.S. added 165,000 jobs in October",
+      "body": "U.S. employers added 165,000 jobs in October, well above the previous 12 months’ monthly average of 48,000. The unemployment rate was little changed at 4.1%.\n\nAverage hourly earnings increased 3.1% from a year earlier. Revised estimates also added a combined 84,000 jobs to the previously reported totals for August and September.",
+      "sources": [
+        {
+          "name": "U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
         },
         {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/afe254c608c3d1fe2ea792812ba9765a"
+          "url": "https://apnews.com/article/746ee02db33d0372980f815ada33d8d3"
         }
       ]
     }
