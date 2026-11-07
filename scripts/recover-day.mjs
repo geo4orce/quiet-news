@@ -3,7 +3,7 @@ import { readFile, writeFile, rename, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { createOpenAIGenerator } from "../lib/openai-generator.mjs";
-import { GENERATION_MODEL } from "../lib/generation-prompts.mjs";
+import { safeRequestId } from "../lib/generation-diagnostics.mjs";
 import { assertCandidateSet } from "../lib/candidate-set.mjs";
 import { assertSiftResult, editionFromSiftResult, REJECTION_CODES } from "../lib/sift-result.mjs";
 import { PublicationStore } from "../lib/publication-store.mjs";
@@ -68,10 +68,11 @@ export async function recoverDay({ date, mode, privateDirectory, privateRunner, 
   const { loadPrompts, assertPrivateStoryLimit } = privateRunner
     || await import(pathToFileURL(path.join(privateDirectory, "runner.mjs")));
   const prompts = await loadPrompts(privateDirectory);
+  if (!safeRequestId(prompts.settings?.model)) throw new Error("Invalid publisher recovery model");
   if (entry) {
     assert.deepEqual(entry.prior_stories, priorStories);
     assertCandidateSet(entry.discovery.output, { targetDay: date });
-    assert.equal(entry.discovery.metadata.model, GENERATION_MODEL);
+    assert.equal(entry.discovery.metadata.model, prompts.settings.model);
     assert.equal(entry.discovery.metadata.promptVersion, prompts.discoveryVersion);
   }
   if (mode === "generate" && !entry?.sift) {
@@ -91,7 +92,7 @@ export async function recoverDay({ date, mode, privateDirectory, privateRunner, 
       ...(entry ? { resumeDiscovery: { ...entry.discovery, priorStories } } : {}) });
   }
   if (!entry?.sift) throw new Error("No completed sift is available");
-  assert.equal(entry.sift.metadata.model, GENERATION_MODEL);
+  assert.equal(entry.sift.metadata.model, prompts.settings.model);
   assert.equal(entry.sift.metadata.promptVersion, prompts.siftVersion);
   assertSiftResult(entry.sift.output, entry.discovery.output);
   const reviewed = applyReviewExclusions(entry.sift.output, entry.review);

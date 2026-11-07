@@ -10,8 +10,10 @@ import {
   MAX_SIFT_HEADLINE_LENGTH
 } from "../lib/sift-result.mjs";
 import { publisherFailureRecord } from "../jobs/publisher.mjs";
+import { textSettings } from "./fixtures/publisher-settings.mjs";
 
 const TEST_PROMPTS = {
+  settings: textSettings,
   discovery: "Test discovery system prompt.",
   discoveryVersion: "test-discovery-v1",
   sift: "Test sift system prompt.",
@@ -109,7 +111,7 @@ test("runs independent discovery and sift requests with structured metadata", as
 
   assert.equal(requests.length, 2);
   assert.equal(discovery.url, "https://api.openai.com/v1/responses");
-  assert.equal(discovery.body.model, "gpt-6.1-sol");
+  assert.equal(discovery.body.model, textSettings.model);
   assert.equal(discovery.body.input[0].content, TEST_PROMPTS.discovery);
   assert.equal(discovery.body.store, false);
   assert.deepEqual(discovery.body.reasoning, { effort: "medium" });
@@ -117,7 +119,7 @@ test("runs independent discovery and sift requests with structured metadata", as
   assert.equal(discovery.body.text.format.name, "quiet_news_candidates");
   assert.equal(discovery.body.text.format.strict, true);
 
-  assert.equal(sift.body.model, "gpt-6.1-sol");
+  assert.equal(sift.body.model, textSettings.model);
   assert.equal(sift.body.store, false);
   assert.equal(sift.body.input[0].content, TEST_PROMPTS.sift);
   assert.deepEqual(sift.body.reasoning, { effort: "high" });

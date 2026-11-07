@@ -47,6 +47,11 @@ For source stats, run `npm run sources`.
 
 ## Images
 
+The private Quiet News publisher owns generation settings and prompts. Its
+`generation-settings.mjs` selects text and image models, reasoning levels,
+search limits, token budgets, and image options. The jobs here accept those
+settings, coordinate requests, and validate and store the resulting data.
+
 The publisher generates optional cartoon illustrations after publishing the news.
 Production, DEV and localhost display images when a matching image is available.
 Images and a dated manifest are stored in public/images; news JSON remains unchanged. Failed or
