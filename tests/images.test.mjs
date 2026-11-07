@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { mkdtemp, mkdir, readFile, writeFile, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
-import { runImageJob, generateStoryImage, IMAGE_OPTIONS } from "../jobs/images.mjs";
+import { runImageJob, generateStoryImage } from "../jobs/images.mjs";
 import { loadDailyImages, storyImageId, validImageManifest } from "../public/image-manifest.js";
 
 const date = "2026-09-12";
@@ -79,7 +79,10 @@ test("image API uses a single bounded JPEG request and never exposes provider er
   const fetcher = async (url, options) => {
     calls++;
     assert.equal(url, "https://api.openai.com/v1/images/generations");
-    assert.deepEqual(JSON.parse(options.body), { ...IMAGE_OPTIONS, prompt: "mock" });
+    assert.deepEqual(JSON.parse(options.body), {
+      model: "gpt-image-2.6-sunburst", quality: "medium", size: "1536x1024",
+      output_format: "jpeg", output_compression: 80, n: 1, prompt: "mock"
+    });
     assert.ok(options.signal);
     return { ok: true, json: async () => ({ data: [{ b64_json: jpeg.toString("base64") }] }) };
   };

@@ -185,7 +185,7 @@ Avoid em dashes.
 ## Daily images
 
 - jobs/images.mjs owns generation/storage; QNP supplies its private illustration prompt after publish or already-published recovery. Never run images during collection. Quiet days skip all image work.
-- One medium-quality 1536x1024 JPEG per final story, currently gpt-image-1.5. Text is saved/pushed first. Image failure must not block publication.
+- One medium-quality 1536x1024 JPEG per final story using `gpt-image-2.6-sunburst` at compression 80. Text is saved/pushed first. Image failure must not block publication.
 - Save/push a claim in data-raw/YYYY-MM-DD.images.json before every request, then save/push each JPEG, public/images/YYYY-MM-DD/index.json and completion together before further paid work. Never automatically repeat an existing claim, including uncertain/failed requests. Images API requests are synchronous and cannot be resumed by response ID.
 - An explicitly invoked publish recovery may finish unclaimed images within the container budget; there is no scheduled 04:37 retry. QNP's manual sift command recovers text only. No automatic historical backfill or regeneration after corrections. Full story-content hashes prevent mismatched images after corrections. Missing/invalid manifests and images are optional and must not affect the news state.
 - QNP's manual recovery supports `--images-only` for explicitly authorized image completion without sift, or `--with-images` after `--retry-failed-sift`. Both preserve the normal per-image claim and push safeguards.
