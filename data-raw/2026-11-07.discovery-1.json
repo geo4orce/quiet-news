@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-07",
+  "batch": 1,
+  "captured_at": "2026-11-07T11:09:17.784Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Ukrainian authorities raised the injury toll from overnight Russian missile strikes to five in Kyiv. Residential buildings, a kindergarten and other infrastructure were damaged in the capital; the Associated Press reported at least nine people wounded across Ukraine.",
+        "category": "Conflict",
+        "title": "Kyiv injury toll rises after Russian missile strikes",
+        "event_date": "2026-11-07",
+        "candidate_id": "kyiv-missile-strike-injury-update",
+        "geography": "Ukraine",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/b042adf1f95848f5d233da866a72e312"
+          },
+          {
+            "name": "Ukrinform",
+            "url": "https://www.ukrinform.net/rubric-ato/4182323-injury-toll-in-russian-ballistic-attack-on-kyiv-rises-to-five.html"
+          }
+        ]
+      },
+      {
+        "summary": "Preliminary counting in New Zealand’s general election left neither the governing center-right bloc nor the opposition with a definitive victory. National held a narrow lead over Labour, while the final balance depended on minor parties and special votes. Official results are due November 27.",
+        "category": "Elections",
+        "title": "New Zealand election remains too close to call",
+        "event_date": "2026-11-07",
+        "candidate_id": "new-zealand-election-preliminary-count",
+        "geography": "New Zealand",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/8c1728ae2533201f68d5a5e75fc9e907"
+          },
+          {
+            "name": "New Zealand Electoral Commission",
+            "url": "https://electionresults.govt.nz/ge2026/index.html"
+          },
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://au.marketscreener.com/news/new-zealand-election-voting-ends-early-results-due-shortly-ce785fd2df8ff024"
+          }
+        ]
+      },
+      {
+        "summary": "Malaysia’s King Sultan Ibrahim said his order allowing former Prime Minister Najib Razak to serve the remainder of his sentence under house arrest was clear and warned that challenging it could amount to defying a royal decree. Authorities delayed Najib’s transfer while seeking a court ruling on the pardon’s interpretation.",
+        "category": "Politics",
+        "title": "Malaysia’s king defends Najib house-arrest order",
+        "event_date": "2026-11-07",
+        "candidate_id": "malaysia-king-najib-house-arrest-order",
+        "geography": "Malaysia",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://ca.marketscreener.com/news/malaysia-s-king-warns-against-challenging-his-order-allowing-house-arrest-for-ex-pm-najib-ce785fd2df8ef723"
+          }
+        ]
+      },
+      {
+        "summary": "Hong Kong’s Legislative Council condemned criticism from 10 foreign governments of democracy activist Joshua Wong’s additional 10-year prison sentence under the national security law. The legislature described the criticism as interference and political manipulation. Wong was sentenced Thursday on a charge of collusion with foreign entities.",
+        "category": "Politics",
+        "title": "Hong Kong legislature rejects criticism of Wong sentence",
+        "event_date": "2026-11-07",
+        "candidate_id": "hong-kong-legco-wong-response",
+        "geography": "Hong Kong",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://ca.marketscreener.com/news/hong-kong-lawmakers-condemn-foreign-governments-criticism-of-joshua-wong-ruling-ce785fd2df8cf721"
+          }
+        ]
+      },
+      {
+        "summary": "Delhi ranked as the world’s most polluted major city on IQAir’s live index Saturday morning, recording a U.S. air-quality reading of 581 at 10:35 a.m. local time. India’s official monitoring system, which uses a different methodology, recorded an index of 363, categorized as “very poor.” Schools were instructed to offer online classes ahead of Diwali.",
+        "category": "Environment",
+        "title": "Delhi records severe air pollution before Diwali",
+        "event_date": "2026-11-07",
+        "candidate_id": "delhi-diwali-air-pollution",
+        "geography": "India",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/delhi-world-s-most-polluted-major-city-on-eve-of-diwali-swiss-group-says-ce785fd2df8cf123"
+          }
+        ]
+      },
+      {
+        "summary": "Hundreds of workers rallied in Jakarta in support of Indonesian President Prabowo Subianto amid allegations that police illegally wiretapped him. Separately, hundreds of women demonstrated against his administration’s policies.",
+        "category": "Politics",
+        "title": "Rival demonstrations held in Jakarta",
+        "event_date": "2026-11-07",
+        "candidate_id": "jakarta-prabowo-rival-demonstrations",
+        "geography": "Indonesia",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://in.marketscreener.com/news/indonesian-workers-rally-for-prabowo-as-women-march-against-president-ce785fd2de8af52d"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-07"
+  },
+  "metadata": {
+    "responseId": "resp_065e6a8ad91e776e006aef0687ea7887d283f12e42514cab2e",
+    "requestId": "req_d46a338b57ed41b4856fd8ca201f77d5",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 3367,
+    "inputTokens": 57265,
+    "outputTokens": 4424,
+    "webSearchCalls": 6,
+    "stage": "discovery",
+    "targetDate": "2026-11-07",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 89506,
+    "attemptDurationMs": 89506,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
