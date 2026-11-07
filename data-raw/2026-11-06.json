@@ -446,6 +446,46 @@
         },
         "observedAt": "2026-11-06T23:07:42.811Z",
         "capturedAt": "2026-11-06T23:08:31.120Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Three states carry out executions in one day",
+            "body": "Florida, Alabama and Indiana each carried out a lethal-injection execution Thursday.\n\nFlorida executed Jesse Guardado for the 2004 murder of Jackie Malone. Alabama executed Michael Taylor for killing Ivan and Lucille Moore in 1991. Indiana executed Jeffrey Weisheit shortly after midnight for killing two children in a 2010 house fire.\n\nGuardado’s death was Florida’s 19th execution this year, tying the state’s annual record.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/indiana-alabama-florida-executions-f38f70d09b512c4d7245fd5e75ee91df"
+              }
+            ]
+          },
+          {
+            "headline": "S&P 500 falls 4.4% in AI-led sell-off",
+            "body": "The S&P 500 fell 4.4% Thursday, its largest one-day decline since April 2025. The Dow Jones Industrial Average lost 1,833 points, or 3.4%, and the Nasdaq fell 5.5%.\n\nCompanies associated with artificial-intelligence data centers led the sell-off, which erased the previous day’s gains. The Nasdaq ended in correction territory relative to its October high.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/7ee9c212805aa5e70cf34d25aab7a36e"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/afe254c608c3d1fe2ea792812ba9765a"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "a5a2529dde93480fa16ef8fdcb931951fcdbefbe792efdfed1afb612430851c4",
+          "claimId": "55da745f-c2b1-47bf-90b3-5f7bc20a6569",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-11-07T08:07:41.481Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-11-07T08:07:41.418Z"
       }
     ],
     "sift": null
