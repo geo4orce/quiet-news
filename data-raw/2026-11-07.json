@@ -51,10 +51,10 @@
         "request": {
           "fingerprint": "0eeff17fccbae78549efc2a8958127e0ac025ee2dc553f6709ebe6618d1f48b2",
           "claimId": "8963b8f4-0ddc-4ff1-b0dd-d55ab658c90a",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-07T11:07:48.277Z",
-          "responseId": null
+          "responseId": "resp_065e6a8ad91e776e006aef0687ea7887d283f12e42514cab2e"
         },
         "result": null,
         "observedAt": "2026-11-07T11:07:48.198Z"
