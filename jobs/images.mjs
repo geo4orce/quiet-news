@@ -4,7 +4,7 @@ import { PublicationStore } from "../lib/publication-store.mjs";
 import { storyImageId, validImageManifest } from "../public/image-manifest.js";
 
 export const IMAGE_OPTIONS = Object.freeze({
-  model: "gpt-image-1.5", quality: "medium", size: "1536x1024",
+  model: "gpt-image-2.6-sunburst", quality: "medium", size: "1536x1024",
   output_format: "jpeg", output_compression: 80, n: 1
 });
 const REQUEST_TIMEOUT = 120_000;
