@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-07",
+  "batch": 2,
+  "captured_at": "2026-11-07T17:08:26.109Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Five people were killed and at least 12 injured when a gunman opened fire from a vehicle in Krakow’s Main Market Square, police said. Two police officers were among those injured. Police shot and detained the suspect, who was taken to a hospital; authorities had not established a motive.",
+        "category": "Public Safety",
+        "title": "Five killed in Krakow market-square shooting",
+        "event_date": "2026-11-07",
+        "candidate_id": "krakow-market-square-shooting",
+        "geography": "Poland",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/076b972f107df14a1f71e12a74d4d8e5"
+          },
+          {
+            "name": "Krakow municipal government",
+            "url": "https://krakow.pl/aktualnosci/345151%2C29%2Ckomunikat%2Cstrzaly_na_rynku_glownym__na_miejscu_pracuja_sluzby_ratunkowe.html"
+          }
+        ]
+      },
+      {
+        "summary": "Ousted Paraguayan President Santiago Peña was taken under police escort to the attorney general’s office for questioning over alleged breach of trust and other offenses connected to Ueno Bank’s collapse. Peña had been removed from office and placed under house arrest Friday.",
+        "category": "Politics",
+        "title": "Ousted Paraguayan president appears for questioning",
+        "event_date": "2026-11-07",
+        "candidate_id": "paraguay-pena-prosecutor-questioning",
+        "geography": "Paraguay",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/0a3cddd03f9fb36c870fa3117aeeb4ac"
+          },
+          {
+            "name": "ABC Color",
+            "url": "https://www.abc.com.py/policiales/2026/11/07/video-santiago-pena-ya-se-encuentra-en-la-fiscalia-para-prestar-declaracion-indagatoria/?outputType=amp"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-07"
+  },
+  "metadata": {
+    "responseId": "resp_03de035ef1f04668006aef5adcab2487d19df13f90a38871c0",
+    "requestId": "req_3e4989d36a2041eba9844318655a1443",
+    "responseModel": "gpt-5.6-sol",
+    "reasoningTokens": 1576,
+    "inputTokens": 57372,
+    "outputTokens": 1931,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-07",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 49217,
+    "attemptDurationMs": 49217,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
