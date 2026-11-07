@@ -536,6 +536,50 @@
         "capturedAt": "2026-11-07T08:08:24.622Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "e7e92817db246e0ee73097aa9a476a1fb4c940af3d5e68f53722e323ff1eb439",
+      "priorStories": [
+        {
+          "headline": "Three states carry out executions in one day",
+          "body": "Florida, Alabama and Indiana each carried out a lethal-injection execution Thursday.\n\nFlorida executed Jesse Guardado for the 2004 murder of Jackie Malone. Alabama executed Michael Taylor for killing Ivan and Lucille Moore in 1991. Indiana executed Jeffrey Weisheit shortly after midnight for killing two children in a 2010 house fire.\n\nGuardado’s death was Florida’s 19th execution this year, tying the state’s annual record.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/indiana-alabama-florida-executions-f38f70d09b512c4d7245fd5e75ee91df"
+            }
+          ]
+        },
+        {
+          "headline": "S&P 500 falls 4.4% in AI-led sell-off",
+          "body": "The S&P 500 fell 4.4% Thursday, its largest one-day decline since April 2025. The Dow Jones Industrial Average lost 1,833 points, or 3.4%, and the Nasdaq fell 5.5%.\n\nCompanies associated with artificial-intelligence data centers led the sell-off, which erased the previous day’s gains. The Nasdaq ended in correction territory relative to its October high.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/7ee9c212805aa5e70cf34d25aab7a36e"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/afe254c608c3d1fe2ea792812ba9765a"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "f3f35d62bafdb7396727cb8967fa7eac73f15db43a1c1a4041dcd91e335ffcdf",
+        "claimId": "4a2db577-4415-4aac-91a5-3d56cca88b75",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-11-07T09:07:48.841Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
