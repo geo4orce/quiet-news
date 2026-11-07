@@ -2,12 +2,17 @@ import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { PublicationStore } from "../lib/publication-store.mjs";
 import { storyImageId, validImageManifest } from "../public/image-manifest.js";
+import { safeRequestId } from "../lib/generation-diagnostics.mjs";
 
-export const IMAGE_OPTIONS = Object.freeze({
-  model: "gpt-image-2.6-sunburst", quality: "medium", size: "1536x1024",
-  output_format: "jpeg", output_compression: 80, n: 1
-});
 const REQUEST_TIMEOUT = 120_000;
+
+function imageRequestOptions(options = {}) {
+  const { model, quality, size, output_format, output_compression, n } = options;
+  if (!safeRequestId(model) || !safeRequestId(quality) || size !== "1536x1024"
+    || output_format !== "jpeg" || n !== 1 || !Number.isInteger(output_compression)
+    || output_compression < 0 || output_compression > 100) throw new Error("Invalid publisher image settings");
+  return { model, quality, size, output_format, output_compression, n };
+}
 
 async function optionalJson(filename) {
   try { return JSON.parse(await readFile(filename, "utf8")); }
@@ -42,12 +47,12 @@ export function assertJpeg(bytes) {
   throw new Error("Invalid generated JPEG dimensions");
 }
 
-export async function generateStoryImage({ apiKey, prompt, fetcher = fetch }) {
+export async function generateStoryImage({ apiKey, prompt, options, fetcher = fetch }) {
   // The synchronous Images API has no resumable response ID. Never retry this POST.
   const response = await fetcher("https://api.openai.com/v1/images/generations", {
     method: "POST", signal: AbortSignal.timeout(REQUEST_TIMEOUT),
     headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ ...IMAGE_OPTIONS, prompt })
+    body: JSON.stringify({ ...imageRequestOptions(options), prompt })
   });
   if (!response.ok) throw new Error("Image provider request failed");
   const value = await response.json();
@@ -85,16 +90,17 @@ export async function runImageJob({ checkout, editionDate, apiKey, loadImageProm
     if (now() + REQUEST_TIMEOUT + 30_000 > deadline) { pending++; continue; }
     config ??= await loadImagePrompt();
     if (!config?.version || typeof config.render !== "function") throw new Error("Invalid private image configuration");
+    const options = imageRequestOptions(config.options);
     const prompt = config.render(story);
     if (typeof prompt !== "string" || !prompt.trim()) throw new Error("Empty private image prompt");
     state.attempts[id] = {
       status: "claimed", claimed_at: new Date(now()).toISOString(),
-      model: IMAGE_OPTIONS.model, quality: IMAGE_OPTIONS.quality, prompt_version: config.version
+      model: options.model, quality: options.quality, prompt_version: config.version
     };
     await atomicWrite(path.join(checkout, statePath), json(state));
     await persist([statePath], `Claim ${editionDate} story image ${id.slice(0, 12)}`);
     let bytes;
-    try { bytes = assertJpeg(await generate({ apiKey, prompt })); }
+    try { bytes = assertJpeg(await generate({ apiKey, prompt, options })); }
     catch {
       state.attempts[id].status = "unavailable";
       await atomicWrite(path.join(checkout, statePath), json(state));

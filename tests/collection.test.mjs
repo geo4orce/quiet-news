@@ -5,13 +5,14 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import { CollectionStore, collectionWindow, collectionReadiness, completedPool, localBoundary, mergeCollection } from "../lib/collection.mjs";
 import { runCheckpointedJob } from "../jobs/checkpointed.mjs";
+import { textSettings } from "./fixtures/publisher-settings.mjs";
 
 const day = "2026-09-12";
 const candidate = (id, title = id) => ({ candidate_id: id, title, summary: "A sourced fact.", event_date: day,
   category: "science", geography: "global", sources: [{ name: "Source", url: `https://example.com/${id}` }] });
 const output = (candidates = [], withdrawals = []) => ({ target_date: day, candidates, withdrawals });
 const quiet = { info() {}, warn() {}, error() {} };
-const prompts = { collection: "mock collection", collectionVersion: "mock-1", sift: "mock sift", siftVersion: "mock-1" };
+const prompts = { settings: textSettings, collection: "mock collection", collectionVersion: "mock-1", sift: "mock sift", siftVersion: "mock-1" };
 const request = (id) => ({ status: "completed", responseId: `resp_${id}`, attempts: 1, startedAt: "2026-09-12T10:07:00Z" });
 
 test("four collection slots cover the New York day including DST midnight boundaries", () => {
@@ -55,10 +56,15 @@ test("four durable collections feed one sift and duplicate publish invocations c
   const calls = [], commits = [];
   const persist = async (paths) => commits.push([...paths]);
   const execute = async (options) => {
-    assert.equal(options.body.model, "gpt-6.1-sol");
+    assert.equal(options.body.model, textSettings.model);
     calls.push(options.stage);
     await options.saveRequest({ ...request(calls.length), status: "in_progress" });
     const input = JSON.parse(options.body.input[1].content);
+    if (options.stage === "discovery") {
+      assert.equal(options.body.max_tool_calls, input.final_pass ? 4 : 2);
+      assert.equal(options.body.reasoning.effort, "low");
+      assert.equal(options.body.max_output_tokens, 600);
+    }
     const value = options.stage === "discovery" ? output([candidate(`item-${calls.length}`)]) : {
       stories: [], rejections: input.candidate_set.candidates.map((item) => ({ candidate_id: item.candidate_id, code: "insufficient_materiality" }))
     };

@@ -11,13 +11,12 @@ export async function runPublisherJob({
 } = {}) {
   let generator;
   const generate = async (input) => {
-    if (!generator) await prepareGeneration?.();
-    generator ||= createOpenAIGenerator({
-      apiKey: env.OPENAI_API_KEY,
-      prompts: generationPromptsFrom(env),
-      logger,
-      onGenerationStage
-    });
+    if (!generator) {
+      const settings = await prepareGeneration?.();
+      generator = createOpenAIGenerator({
+        apiKey: env.OPENAI_API_KEY, prompts: generationPromptsFrom(env), settings, logger, onGenerationStage
+      });
+    }
     return generator(input);
   };
   const result = await publishDailyEdition({ store, generate, logger });
@@ -33,7 +32,9 @@ export function publisherFailureRecord(error) {
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
-  runPublisherJob().catch((error) => {
+  runPublisherJob({
+    prepareGeneration: async () => (await import("../../quiet-news-publisher/generation-settings.mjs")).textSettings
+  }).catch((error) => {
     console.error(JSON.stringify(publisherFailureRecord(error)));
     process.exitCode = 1;
   });

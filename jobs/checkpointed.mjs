@@ -1,6 +1,6 @@
 import { backgroundResponse } from "../lib/background-response.mjs";
 import { COLLECTION_OUTPUT_SCHEMA, CollectionStore, collectionWindow, collectionReadiness, completedPool, localBoundary, mergeCollection, poolFingerprint } from "../lib/collection.mjs";
-import { GENERATION_MODEL, siftInput } from "../lib/generation-prompts.mjs";
+import { siftInput } from "../lib/generation-prompts.mjs";
 import { requestBody, GenerationError } from "../lib/openai-generator.mjs";
 import { addCalendarDays, publicationWindow } from "../lib/new-york-day.mjs";
 import { PublicationStore } from "../lib/publication-store.mjs";
@@ -39,9 +39,11 @@ export async function runCheckpointedJob({
       window_start: localBoundary(day, batch.fromHour), window_end: localBoundary(day, batch.slot),
       observed_at: batch.observedAt ||= instant.toISOString(), final_pass: window.slot === 24,
       prior_stories: batch.priorStories, known_candidates: pool });
-    const body = requestBody({ model: GENERATION_MODEL, reasoningEffort: "medium", maxOutputTokens: 12_000,
-      prompt: prompts.collection, input, schema: COLLECTION_OUTPUT_SCHEMA, schemaName: "quiet_news_collection", webSearch: true });
-    body.max_tool_calls = window.slot === 24 ? 10 : 6;
+    const { model, collection } = prompts.settings;
+    const limit = window.slot === 24 ? collection.finalMaxToolCalls : collection.maxToolCalls;
+    if (collection.webSearch && !Number.isSafeInteger(limit)) throw new Error("Missing publisher collection search limit");
+    const body = requestBody({ ...collection, model, maxToolCalls: limit,
+      prompt: prompts.collection, input, schema: COLLECTION_OUTPUT_SCHEMA, schemaName: "quiet_news_collection" });
     const result = await execute({ apiKey, body, stage: "discovery", targetDate: day, request: batch.request, logger,
       promptVersion: prompts.collectionVersion,
       saveRequest: async (request) => { batch.request = request; await save(); },
@@ -75,9 +77,9 @@ export async function runCheckpointedJob({
   if (!sift.result) {
     const prompts = await loadPrompts();
     const input = JSON.stringify({ ...JSON.parse(siftInput(day, prior, candidateSet)), collection_coverage: coverage });
-    const body = requestBody({ model: GENERATION_MODEL, reasoningEffort: "high", maxOutputTokens: 20_000,
+    const body = requestBody({ ...prompts.settings.sift, model: prompts.settings.model,
       prompt: prompts.sift, input, schema: pooledSiftSchema,
-      schemaName: "quiet_news_sift", webSearch: false });
+      schemaName: "quiet_news_sift" });
     const result = await execute({ apiKey, body, stage: "sift", targetDate: day, request: sift.request, logger,
       promptVersion: prompts.siftVersion,
       softTimeoutMs: 180_000, hardTimeoutMs: 600_000,

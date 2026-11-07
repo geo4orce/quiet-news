@@ -132,20 +132,20 @@ Avoid em dashes.
 - Publish with full midnight coverage or three validated batches out of four.
   Record partial coverage/missing intervals in sift input, research and warning;
   never relabel failed collection as successful.
-- Four independent collections and one independent sift use `gpt-6.1-sol`,
-  background Responses, `store:false`, strict schemas and private prompts.
+- Four independent collections and one independent sift use QNP's
+  `generation-settings.mjs`, background Responses, `store:false`, strict schemas and private prompts.
   No shared model conversation or `previous_response_id`.
-- Collection: medium reasoning, web search, up to 20 new/changed neutral candidates
+- Collection: up to 20 new/changed neutral candidates
   per batch and 80 retained. Preserve unchanged candidates; apply updates and
   withdrawals with stable IDs and surviving duplicate replacements. No ranking,
   scoring or public text; never truncate late candidates. Input includes the
   current pool and exact prior-day published stories.
-- Sift: high reasoning, no tools, validated pool plus prior-day stories. Reject
+- Sift: validated pool plus prior-day stories. Reject
   borderline items, with no quota. Decide every candidate exactly once using
   only its sources. Only sift creates public text. Preserve rejection codes in
   `lib/sift-result.mjs` and QNP's private 10-story ceiling.
-- Bounds: collection 6 tool calls (10 final pass), 12,000 output tokens; sift
-  20,000 output tokens. Collection warns at 5 minutes, sift at 3; both deadlines
+- QNP supplies reasoning levels, tool limits and output token budgets.
+  Collection warns at 5 minutes, sift at 3; both deadlines
   are 10 minutes, network timeouts 30 seconds, containers 20 minutes.
 - Atomically save/push every claim, response ID and result before further paid
   work. Failed claim push prevents submission; failed result push stops
@@ -185,7 +185,7 @@ Avoid em dashes.
 ## Daily images
 
 - jobs/images.mjs owns generation/storage; QNP supplies its private illustration prompt after publish or already-published recovery. Never run images during collection. Quiet days skip all image work.
-- One medium-quality 1536x1024 JPEG per final story using `gpt-image-2.6-sunburst` at compression 80. Text is saved/pushed first. Image failure must not block publication.
+- QNP supplies image request options. QN accepts one 1536x1024 JPEG per final story and checks its encoded dimensions. Text is saved/pushed first. Image failure must not block publication.
 - Save/push a claim in data-raw/YYYY-MM-DD.images.json before every request, then save/push each JPEG, public/images/YYYY-MM-DD/index.json and completion together before further paid work. Never automatically repeat an existing claim, including uncertain/failed requests. Images API requests are synchronous and cannot be resumed by response ID.
 - An explicitly invoked publish recovery may finish unclaimed images within the container budget; there is no scheduled 04:37 retry. QNP's manual sift command recovers text only. No automatic historical backfill or regeneration after corrections. Full story-content hashes prevent mismatched images after corrections. Missing/invalid manifests and images are optional and must not affect the news state.
 - QNP's manual recovery supports `--images-only` for explicitly authorized image completion without sift, or `--with-images` after `--retry-failed-sift`. Both preserve the normal per-image claim and push safeguards.
