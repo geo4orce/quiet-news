@@ -184,6 +184,60 @@
         },
         "observedAt": "2026-11-07T11:07:48.198Z",
         "capturedAt": "2026-11-07T11:09:17.784Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "Paraguay’s Senate removes President Peña",
+            "body": "Paraguay’s Senate removed President Santiago Peña from office following the collapse of Ueno Bank.\n\nProsecutors then ordered the arrests of Peña and former central bank chief Carlos Carvallo. They are being investigated for alleged breach of trust and other offenses connected to the bank’s failure.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/e84f5ada84e8c747329ec82fabb46e4d"
+              }
+            ]
+          },
+          {
+            "headline": "U.S. strikes Iranian air-defense system",
+            "body": "President Donald Trump said the U.S. military conducted limited strikes against an Iranian air-defense system Friday evening. Iranian state media reported two explosions near Suza on Qeshm Island.\n\nTrump described the operation as minor. Its precise target, damage and wider consequences had not been established.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/iran-war-nuclear-program-negotiations-trump-53ed5d271b9aef6f880aebc133ea6a55"
+              },
+              {
+                "name": "CBS News",
+                "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+              }
+            ]
+          },
+          {
+            "headline": "U.S. added 165,000 jobs in October",
+            "body": "U.S. employers added 165,000 jobs in October, well above the previous 12 months’ monthly average of 48,000. The unemployment rate was little changed at 4.1%.\n\nAverage hourly earnings increased 3.1% from a year earlier. Revised estimates also added a combined 84,000 jobs to the previously reported totals for August and September.",
+            "sources": [
+              {
+                "name": "U.S. Bureau of Labor Statistics",
+                "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+              },
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/746ee02db33d0372980f815ada33d8d3"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "301d58f8013b9ba8347c1dde57e256f7de20fad31e16444425889767f0a0ba6e",
+          "claimId": "c30ce5da-2480-415c-a83b-8644d5905e5e",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-11-07T17:07:36.891Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-11-07T17:07:36.823Z"
       }
     ],
     "sift": null
