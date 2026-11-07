@@ -574,10 +574,10 @@
       "request": {
         "fingerprint": "f3f35d62bafdb7396727cb8967fa7eac73f15db43a1c1a4041dcd91e335ffcdf",
         "claimId": "4a2db577-4415-4aac-91a5-3d56cca88b75",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-11-07T09:07:48.841Z",
-        "responseId": null
+        "responseId": "resp_01bf9a0b5345a5c9006aeeea68ed1087d28b788d21c3726d00"
       },
       "result": null
     }
