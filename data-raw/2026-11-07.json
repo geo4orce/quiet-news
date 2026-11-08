@@ -670,6 +670,64 @@
         "capturedAt": "2026-11-08T08:08:47.832Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "77fa542ac4aef7fbe3465a9a9aea93a25d7e9f5afa7727ca5135f4750d8a34aa",
+      "priorStories": [
+        {
+          "headline": "Paraguay’s Senate removes President Peña",
+          "body": "Paraguay’s Senate removed President Santiago Peña from office following the collapse of Ueno Bank.\n\nProsecutors then ordered the arrests of Peña and former central bank chief Carlos Carvallo. They are being investigated for alleged breach of trust and other offenses connected to the bank’s failure.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/e84f5ada84e8c747329ec82fabb46e4d"
+            }
+          ]
+        },
+        {
+          "headline": "U.S. strikes Iranian air-defense system",
+          "body": "President Donald Trump said the U.S. military conducted limited strikes against an Iranian air-defense system Friday evening. Iranian state media reported two explosions near Suza on Qeshm Island.\n\nTrump described the operation as minor. Its precise target, damage and wider consequences had not been established.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/iran-war-nuclear-program-negotiations-trump-53ed5d271b9aef6f880aebc133ea6a55"
+            },
+            {
+              "name": "CBS News",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+            }
+          ]
+        },
+        {
+          "headline": "U.S. added 165,000 jobs in October",
+          "body": "U.S. employers added 165,000 jobs in October, well above the previous 12 months’ monthly average of 48,000. The unemployment rate was little changed at 4.1%.\n\nAverage hourly earnings increased 3.1% from a year earlier. Revised estimates also added a combined 84,000 jobs to the previously reported totals for August and September.",
+          "sources": [
+            {
+              "name": "U.S. Bureau of Labor Statistics",
+              "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/746ee02db33d0372980f815ada33d8d3"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "5036f67d56fb2804969e5ddd1743f7f66b754852a3d5c0008fe5f43fbffa641b",
+        "claimId": "132d5586-3009-4b59-aa40-73cb332280bb",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-11-08T09:13:59.807Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
