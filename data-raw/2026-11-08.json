@@ -27,13 +27,107 @@
         "request": {
           "fingerprint": "bd9fe3247bcb649520621dc757ba000fd5847da2329de790f3e6c19c21d2cb86",
           "claimId": "e04416d3-4638-4c66-8874-9f9fc713e86d",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-08T11:07:41.245Z",
           "responseId": "resp_0ce495c9d7f04020006af0580100b087d2a84476e9912ddd73"
         },
-        "result": null,
-        "observedAt": "2026-11-08T11:07:41.215Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Saudi-led coalition said on November 8 that it intercepted two ballistic missiles directed toward Riyadh, another toward the Eastern Province, and two cruise missiles over Riyadh and the southern region. A Reuters witness heard booms after a civil-defense alert in Riyadh; authorities subsequently issued an all-clear. Saudi Arabia's energy ministry said falling debris caused minor damage to an Aramco building in Riyadh, with no casualties reported.",
+                "category": "conflict",
+                "title": "Saudi coalition reports missile interceptions; ministry reports debris damage to Aramco building",
+                "event_date": "2026-11-08",
+                "candidate_id": "saudi-missile-interceptions-2026-11-08",
+                "geography": "Saudi Arabia",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Saudi-led%2Bcoalition%2Bintercepts%2Btwo%2BHouthi%2Bmissiles%2Bfired%2Btowards%2BRiyadh/27309426.html"
+                  },
+                  {
+                    "name": "Shafaq News",
+                    "url": "https://shafaq.com/en/World/Saudi-Arabia-neutralizes-five-Houthis-missiles"
+                  },
+                  {
+                    "name": "Associated Press via The Washington Post",
+                    "url": "https://www.washingtonpost.com/business/2026/11/08/mideast-news-november-8-2026/fabe5f08-db5b-11f1-912c-4fbb80d73f7f_story.html"
+                  }
+                ]
+              },
+              {
+                "summary": "The Russian-installed management of Ukraine's Zaporizhzhia nuclear power plant reported on November 8 that the plant had lost external electricity after protective systems disconnected the damaged Ferosplavna line. Management said backup diesel generators were supplying equipment needed for safe operation and radiation readings remained normal. The statement did not identify the cause of the damage.",
+                "category": "nuclear safety",
+                "title": "Zaporizhzhia plant management reports loss of external power",
+                "event_date": "2026-11-08",
+                "candidate_id": "zaporizhzhia-external-power-loss-2026-11-08",
+                "geography": "Enerhodar, Zaporizhzhia region, Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Zaporizhzhia%2Bnuclear%2Bplant%2Bloses%2Bexternal%2Bpower%2Bsupply,%2BRussian-installed%2Bmanagement%2Bsays/27309439.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukrainian authorities said a Russian drone struck emergency workers conducting rescue operations in Komyshuvakha on November 8. Ukraine's State Emergency Service reported no injuries but said specialized rescue equipment was damaged. The location, including a former school and nearby shelter, had been struck by guided bombs on November 2; the Sunday drone strike was a separate development.",
+                "category": "conflict",
+                "title": "Ukraine reports drone strike on rescuers at Komyshuvakha disaster site",
+                "event_date": "2026-11-08",
+                "candidate_id": "komyshuvakha-rescuers-drone-strike-2026-11-08",
+                "geography": "Komyshuvakha, Zaporizhzhia region, Ukraine",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-strike-bomb-humanitarian-aid-e64dd583955f11e4cf08ef5af6eaf35b"
+                  }
+                ]
+              },
+              {
+                "summary": "Polish prosecutors said on November 8 they had opened an investigation into murder and attempted murder, including attacks on police officers, treating the previous day's Krakow shooting as a terrorist offense. Police identified three people found dead at the suspect's family home as his sister and parents, saying they likely died from gunshot wounds. Saturday's Main Square attack killed six people and wounded 15 others. The suspect remained hospitalized.",
+                "category": "crime and justice",
+                "title": "Polish prosecutors announce terrorism-related investigation into Krakow shooting",
+                "event_date": "2026-11-08",
+                "candidate_id": "krakow-shooting-investigation-2026-11-08",
+                "geography": "Krakow and Ostrowiec Świętokrzyski, Poland",
+                "sources": [
+                  {
+                    "name": "Associated Press via Click2Houston",
+                    "url": "https://www.click2houston.com/news/world/2026/11/08/poles-mourn-rare-mass-killing-as-authorities-say-attacker-had-far-right-views/"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-08"
+          },
+          "metadata": {
+            "responseId": "resp_0ce495c9d7f04020006af0580100b087d2a84476e9912ddd73",
+            "requestId": "req_af5b820b1e984a2c887af0f6ecb295f5",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 611,
+            "inputTokens": 55314,
+            "outputTokens": 1585,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-11-08",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 42621,
+            "attemptDurationMs": 42621,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-11-08T11:07:41.215Z",
+        "capturedAt": "2026-11-08T11:08:23.866Z"
       }
     ],
     "sift": null
