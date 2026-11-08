@@ -722,12 +722,123 @@
       "request": {
         "fingerprint": "5036f67d56fb2804969e5ddd1743f7f66b754852a3d5c0008fe5f43fbffa641b",
         "claimId": "132d5586-3009-4b59-aa40-73cb332280bb",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-08T09:13:59.807Z",
         "responseId": "resp_0f6733db080d59e8006af03d5b393087d29f0d7f17e79af8d1"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "berkshire-third-quarter-2026-results",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "centcom-task-force-iron-gate",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "delhi-diwali-air-pollution",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "east-potomac-proposed-special-master",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "hong-kong-legco-wong-response",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "iran-evening-explosions-tanker-claims",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "iran-missile-range-limit-announcement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "israel-herzog-eisenkot-mandate-announcement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "jakarta-prabowo-rival-demonstrations",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "krakow-market-square-shooting",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "kyiv-missile-strike-injury-update",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "malaysia-king-najib-house-arrest-order",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "new-zealand-election-preliminary-count",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "paraguay-pena-prosecutor-questioning",
+              "code": "prior_day_repetition"
+            },
+            {
+              "candidate_id": "trump-dana-white-press-secretary-offer",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-doj-democrats-oversight-directive",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "yemen-al-shariya-airstrikes",
+              "code": "weak_support"
+            }
+          ],
+          "stories": [
+            {
+              "body": "U.S. Central Command said an American military aircraft disabled a St. Kitts-flagged commercial ship in the Gulf of Oman on Saturday after its crew ignored repeated warnings and tried to breach the U.S. blockade of Iran.\n\nThe vessel was leaving regional waters after visiting an Iranian port, the command said. Reuters identified it as the M/V Huda and reported that precision munitions struck its stern after the crew was directed to leave the targeted areas.",
+              "candidate_id": "us-disables-huda-gulf-oman",
+              "headline": "U.S. military disables cargo ship near Iran",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/commercial-vessel-gulf-oman-breach-blockade-iran-bc902d3400cb5d022f8bafd247ef975b"
+                },
+                {
+                  "name": "Reuters via Arab News",
+                  "url": "https://www.arabnews.com/middle-east/us-military-says-it-disabled-cargo-vessel-in-gulf-of-oman-3010407"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0f6733db080d59e8006af03d5b393087d29f0d7f17e79af8d1",
+          "requestId": "req_33c279a5ff154580a68344ed56839f79",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 1484,
+          "inputTokens": 4746,
+          "outputTokens": 2266,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-07",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 37538,
+          "attemptDurationMs": 37538,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
