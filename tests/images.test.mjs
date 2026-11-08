@@ -4,7 +4,7 @@ import { mkdtemp, mkdir, readFile, writeFile, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { runImageJob, generateStoryImage } from "../jobs/images.mjs";
-import { imageOptions } from "./fixtures/publisher-settings.mjs";
+import { imageConfig } from "./fixtures/publisher-settings.mjs";
 import { loadDailyImages, storyImageId, validImageManifest } from "../public/image-manifest.js";
 
 const date = "2026-09-12";
@@ -20,7 +20,7 @@ async function fixture(t, stories) {
   await writeFile(path.join(checkout, `public/data/${date}.json`), JSON.stringify(publication(stories)));
   const events = [];
   const options = { checkout, editionDate: date, apiKey: "test", logger: {},
-    loadImagePrompt: async () => ({ version: "test-v1", options: imageOptions, render: () => "MOCK_PRIVATE" }),
+    loadImagePrompt: async () => ({ version: "test-v1", options: imageConfig, render: () => "MOCK_PRIVATE" }),
     persist: async (paths) => { events.push(paths); }, generate: async () => { events.push("paid"); return jpeg; } };
   return { options, events, read: async (file) => JSON.parse(await readFile(path.join(checkout, file), "utf8")) };
 }
@@ -30,9 +30,9 @@ test("image claim precedes paid work; JPEG, manifest and completion are saved be
   options.generate = async ({ options: sent }) => {
     const checkpoint = await read(`data-raw/${date}.images.json`);
     const claim = Object.values(checkpoint.attempts).find((entry) => entry.status === "claimed");
-    assert.equal(claim.model, imageOptions.model);
-    assert.equal(claim.quality, imageOptions.quality);
-    assert.deepEqual(sent, imageOptions);
+    assert.equal(claim.model, imageConfig.model);
+    assert.equal(claim.quality, imageConfig.quality);
+    assert.deepEqual(sent, imageConfig);
     events.push("paid");
     return jpeg;
   };
@@ -73,7 +73,7 @@ test("failed claim push prevents spending; failed result push prevents the next 
 test("incompatible publisher image settings fail before a claim or charge", async (t) => {
   const { options, events } = await fixture(t);
   const config = await options.loadImagePrompt();
-  options.loadImagePrompt = async () => ({ ...config, options: { ...imageOptions, n: 2 } });
+  options.loadImagePrompt = async () => ({ ...config, options: { ...imageConfig, n: 2 } });
   await assert.rejects(runImageJob(options), /Invalid publisher image settings/);
   assert.deepEqual(events, []);
 });
@@ -97,15 +97,15 @@ test("image API uses a single bounded JPEG request and never exposes provider er
   const fetcher = async (url, options) => {
     calls++;
     assert.equal(url, "https://api.openai.com/v1/images/generations");
-    assert.deepEqual(JSON.parse(options.body), { ...imageOptions, prompt: "mock" });
+    assert.deepEqual(JSON.parse(options.body), { ...imageConfig, prompt: "mock" });
     assert.ok(options.signal);
     return { ok: true, json: async () => ({ data: [{ b64_json: jpeg.toString("base64") }] }) };
   };
-  assert.deepEqual(await generateStoryImage({ apiKey: "test", prompt: "mock", options: imageOptions, fetcher }), jpeg);
+  assert.deepEqual(await generateStoryImage({ apiKey: "test", prompt: "mock", options: imageConfig, fetcher }), jpeg);
   assert.equal(calls, 1);
-  await assert.rejects(generateStoryImage({ apiKey: "test", prompt: "mock", options: imageOptions, fetcher: async () => ({ ok: false }) }),
+  await assert.rejects(generateStoryImage({ apiKey: "test", prompt: "mock", options: imageConfig, fetcher: async () => ({ ok: false }) }),
     { message: "Image provider request failed" });
-  await assert.rejects(generateStoryImage({ apiKey: "test", prompt: "mock", options: imageOptions, fetcher: async () => ({ ok: true,
+  await assert.rejects(generateStoryImage({ apiKey: "test", prompt: "mock", options: imageConfig, fetcher: async () => ({ ok: true,
     json: async () => ({ data: [{ b64_json: Buffer.from("not an image").toString("base64") }] }) }) }));
 });
 

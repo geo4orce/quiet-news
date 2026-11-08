@@ -33,7 +33,7 @@ export function publisherFailureRecord(error) {
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   runPublisherJob({
-    prepareGeneration: async () => (await import("../../quiet-news-publisher/generation-settings.mjs")).textSettings
+    prepareGeneration: async () => (await import("../../quiet-news-publisher/generation-settings.mjs")).textConfig
   }).catch((error) => {
     console.error(JSON.stringify(publisherFailureRecord(error)));
     process.exitCode = 1;

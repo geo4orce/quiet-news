@@ -6,7 +6,7 @@ import { PublicationStore } from "../lib/publication-store.mjs";
 import { mkdtemp, readFile, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
-import { textSettings } from "./fixtures/publisher-settings.mjs";
+import { textConfig } from "./fixtures/publisher-settings.mjs";
 
 test("backfills retain real publication time while older days immediately expire", () => {
   const now = new Date("2026-09-12T03:00:00.000Z");
@@ -38,7 +38,7 @@ test("failed sift retains discovery and recovery publishes without repeating suc
   const store = new PublicationStore(path.join(root, "public/data"));
   await store.publish(createPublication({ editionDay: "2000-01-01",
     publishedAt: "2000-01-02T08:00:00.000Z", expiresAt: "2000-01-03T10:00:00.000Z" }, { stories: [] }));
-  const prompts = { settings: textSettings, discovery: "Test discovery prompt.", discoveryVersion: "test-discovery-v1",
+  const prompts = { settings: textConfig, discovery: "Test discovery prompt.", discoveryVersion: "test-discovery-v1",
     sift: "Test sift prompt.", siftVersion: "test-sift-v1" };
   let calls = 0;
   t.mock.method(globalThis, "fetch", async (_url, options) => {

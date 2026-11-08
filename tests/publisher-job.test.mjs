@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { publisherFailureRecord, runPublisherJob } from "../jobs/publisher.mjs";
 import { createOpenAIGenerator } from "../lib/openai-generator.mjs";
-import { textSettings } from "./fixtures/publisher-settings.mjs";
+import { textConfig } from "./fixtures/publisher-settings.mjs";
 
 test("missing configuration fails with sanitized output", () => {
   assert.throws(
@@ -85,7 +85,7 @@ test("a storage failure cannot emit the generation-only no-publication summary",
     };
   });
   await assert.rejects(runPublisherJob({
-    prepareGeneration: async () => textSettings,
+    prepareGeneration: async () => textConfig,
     env: {
       OPENAI_API_KEY: "test-key-not-secret",
       QUIET_NEWS_DISCOVERY_PROMPT: "Test discovery system prompt.",
