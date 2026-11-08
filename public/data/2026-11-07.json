@@ -1,0 +1,21 @@
+{
+  "edition_date": "2026-11-07",
+  "published_at": "2026-11-08T09:14:39.224Z",
+  "expires_at": "2026-11-09T10:00:00.000Z",
+  "stories": [
+    {
+      "headline": "U.S. military disables cargo ship near Iran",
+      "body": "U.S. Central Command said an American military aircraft disabled a St. Kitts-flagged commercial ship in the Gulf of Oman on Saturday after its crew ignored repeated warnings and tried to breach the U.S. blockade of Iran.\n\nThe vessel was leaving regional waters after visiting an Iranian port, the command said. Reuters identified it as the M/V Huda and reported that precision munitions struck its stern after the crew was directed to leave the targeted areas.",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/commercial-vessel-gulf-oman-breach-blockade-iran-bc902d3400cb5d022f8bafd247ef975b"
+        },
+        {
+          "name": "Reuters via Arab News",
+          "url": "https://www.arabnews.com/middle-east/us-military-says-it-disabled-cargo-vessel-in-gulf-of-oman-3010407"
+        }
+      ]
+    }
+  ]
+}
