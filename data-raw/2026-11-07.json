@@ -531,13 +531,143 @@
         "request": {
           "fingerprint": "eb28711321aebd5566c9aa4111cbbf715721c3b1d011343774631a9a3d047c3c",
           "claimId": "d1dae12c-418d-4efa-846e-75b7c36ddfe2",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-08T08:07:44.699Z",
           "responseId": "resp_029653d35581c8ed006af02dd423c887d2a8efd2930eeb6ceb"
         },
-        "result": null,
-        "observedAt": "2026-11-08T08:07:44.604Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Electoral Commission’s preliminary results gave Labour 29.36% of the party vote and National 29.21%, correcting earlier indications that National led the party vote. National was allocated 42 seats, Labour 36, the Greens 16, ACT 13, New Zealand First 12, Opportunity seven and Te Pāti Māori five. Neither established governing bloc secured a majority. These are preliminary allocations; official results are scheduled for November 27.",
+                "category": "Elections",
+                "title": "New Zealand preliminary results put Labour narrowly ahead in votes, National ahead in seats",
+                "event_date": "2026-11-07",
+                "candidate_id": "new-zealand-election-preliminary-count",
+                "geography": "New Zealand",
+                "sources": [
+                  {
+                    "name": "New Zealand Electoral Commission",
+                    "url": "https://elections.nz/media-and-news/2026/2026-general-election-preliminary-results"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/d8a146430f366bc4da786dfeca7bf6d0"
+                  }
+                ]
+              },
+              {
+                "summary": "President Donald Trump said Saturday that he had offered UFC chief executive Dana White the job of White House press secretary. White subsequently said at a London news conference that he planned to meet Trump on Monday. The statements did not establish that White had accepted or been appointed to the position.",
+                "category": "Politics",
+                "title": "Trump offers White House press secretary role to Dana White",
+                "event_date": "2026-11-07",
+                "candidate_id": "trump-dana-white-press-secretary-offer",
+                "geography": "United States; United Kingdom",
+                "sources": [
+                  {
+                    "name": "Reuters via GMA News",
+                    "url": "https://www.gmanetwork.com/news/topstories/world/1008695/trump-asks-ufc-chief-dana-white-to-be-white-house-press-secretary/story/"
+                  },
+                  {
+                    "name": "Associated Press via ABC7",
+                    "url": "https://editions.geo.hosted.abcotvs.com/post/ufcs-dana-white-says-he-will-meet-trump-monday-offer-house-press-secretary/20023191/"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. District Judge Ana Reyes said Saturday that she intended to appoint former U.S. attorney Jessie Liu as special master to investigate whether federal officials and lawyers misled the court or committed ethical violations in litigation over East Potomac Golf Links. Parties were given until November 13 to respond to the proposed appointment. The appointment remained pending, and no finding of misconduct was announced.",
+                "category": "Justice",
+                "title": "Judge proposes outside investigator in East Potomac golf litigation",
+                "event_date": "2026-11-07",
+                "candidate_id": "east-potomac-proposed-special-master",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/trump-golf-course-special-master-federal-lawsuit-9c0de85e33cf69d8c22a72f550e67604"
+                  },
+                  {
+                    "name": "Reuters via AOL",
+                    "url": "https://www.aol.com/articles/special-master-named-ethics-probe-031807000.html"
+                  }
+                ]
+              },
+              {
+                "summary": "President Donald Trump directed the Justice Department in a Saturday social-media post to investigate Democrats over threatened impeachment and other oversight actions. He characterized their conduct as criminal without providing evidence. Reuters reported that the post did not specify which Democrats should be investigated; the directive itself did not establish that an investigation had opened.",
+                "category": "Politics",
+                "title": "Trump directs Justice Department to investigate Democrats over oversight threats",
+                "event_date": "2026-11-07",
+                "candidate_id": "trump-doj-democrats-oversight-directive",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/politics-news/trump-orders-doj-to-look-into-democrats-for-threatening-people-5009993"
+                  }
+                ]
+              },
+              {
+                "summary": "Berkshire Hathaway reported Saturday that third-quarter operating earnings fell to $12.705 billion from $13.485 billion a year earlier. Net earnings fell to $22.112 billion from $30.796 billion. The company disclosed approximately $9.6 billion in third-quarter share repurchases, bringing its nine-month total to about $14.4 billion.",
+                "category": "Business",
+                "title": "Berkshire reports lower quarterly earnings and $9.6 billion in buybacks",
+                "event_date": "2026-11-07",
+                "candidate_id": "berkshire-third-quarter-2026-results",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Berkshire Hathaway",
+                    "url": "https://www.berkshirehathaway.com/news/nov0726.pdf"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Berkshire%2BHathaway%2Baccelerates%2Bstock%2Bbuybacks%2C%2Boperating%2Bprofit%2Bfalls/27309292.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Iranian state media reported explosions on Qeshm Island and in the port of Jask on Saturday evening. Their cause was not established, and the U.S. military did not immediately respond to an Associated Press request for comment. Separately, Iran’s military claimed late Saturday that two tankers struck mines and caught fire in the Hormuz area, without identifying their flags or destinations. The reports did not independently establish the tanker incidents or a new U.S. attack.",
+                "category": "Conflict",
+                "title": "Iranian media report fresh explosions; military claims two tankers hit mines",
+                "event_date": "2026-11-07",
+                "candidate_id": "iran-evening-explosions-tanker-claims",
+                "geography": "Iran; Strait of Hormuz",
+                "sources": [
+                  {
+                    "name": "Associated Press and other agencies via The Times of Israel",
+                    "url": "https://www.timesofisrael.com/us-military-says-strike-disabled-ship-trying-to-run-blockade-on-iran/amp/"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-07"
+          },
+          "metadata": {
+            "responseId": "resp_029653d35581c8ed006af02dd423c887d2a8efd2930eeb6ceb",
+            "requestId": "req_b485ad1a727f4fc0b1d95716b54ff877",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 1225,
+            "inputTokens": 67256,
+            "outputTokens": 2457,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-07",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 63133,
+            "attemptDurationMs": 63133,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-11-08T08:07:44.604Z",
+        "capturedAt": "2026-11-08T08:08:47.832Z"
       }
     ],
     "sift": null
