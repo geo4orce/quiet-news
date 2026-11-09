@@ -598,12 +598,95 @@
       "request": {
         "fingerprint": "95c488de8e0589c59730b2bfabb5f5f29b4cf67824ce995f0cf0f91b4620e513",
         "claimId": "40851302-f5cb-4cc0-90c8-b6d6315d8aed",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-09T09:07:44.163Z",
         "responseId": "resp_0d3f91bf4302e285006af18d63ccc087d2a0a19ce5f03b4b56"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "egypt-giza-train-collision-2026-11-08",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "iran-three-protest-executions-2026-11-08",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "israel-eisenkot-government-mandate-2026-11-08",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "komyshuvakha-rescuers-drone-strike-2026-11-08",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "krakow-shooting-investigation-2026-11-08",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "nvidia-board-huang-investigation-2026-11-08",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "pope-leo-argentina-arrival-2026-11-08",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "qeshm-explosions-reported-2026-11-08",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "saudi-missile-interceptions-2026-11-08",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "taiyuan-high-rise-fire-2026-11-08",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-dana-white-offer-clarification-2026-11-08",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-democrats-oversight-statements-2026-11-08",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-iran-diplomacy-statements-2026-11-08",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "zaporizhzhia-external-power-loss-2026-11-08",
+              "code": "incremental_update"
+            }
+          ],
+          "stories": []
+        },
+        "metadata": {
+          "responseId": "resp_0d3f91bf4302e285006af18d63ccc087d2a0a19ce5f03b4b56",
+          "requestId": "req_1938e8e801be4d268f6d14577f91be24",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 664,
+          "inputTokens": 4330,
+          "outputTokens": 1196,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-08",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 27281,
+          "attemptDurationMs": 27281,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
