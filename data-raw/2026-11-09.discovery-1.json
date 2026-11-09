@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-09",
+  "batch": 1,
+  "captured_at": "2026-11-09T11:08:41.155Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Indonesia's senior legal affairs minister Yusril Ihza Mahendra said Monday that the government was taking steps to prevent misuse of state surveillance equipment and would consider sweeping the presidential palace for bugging devices. His remarks followed the arrest last week of four senior police officers accused of unauthorized monitoring, including of President Prabowo Subianto. An investigation remained underway, with no formal charges announced.",
+        "category": "government",
+        "title": "Indonesia reviews surveillance controls after alleged wiretapping",
+        "event_date": "2026-11-09",
+        "candidate_id": "indonesia-surveillance-controls-review",
+        "geography": "Indonesia",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Indonesia%2Bconsiders%2Bbug%2Bsweeps%2C%2Btighter%2Bcontrols%2Bon%2Bspy%2Btools%2Bafter%2Bwiretap%2Bscandal/27309781.html"
+          }
+        ]
+      },
+      {
+        "summary": "China's Ministry of Commerce announced Monday that the suspension of expanded export controls covering rare earths and other items would be extended for two months until January 10, 2027. The announcement preserves the pause in those measures rather than removing all Chinese rare-earth export controls.",
+        "category": "trade",
+        "title": "China announces two-month extension of export-control suspension",
+        "event_date": "2026-11-09",
+        "candidate_id": "china-export-control-suspension-extension",
+        "geography": "China; United States",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/commodities-news/china-extends-suspension-of-new-rare-earth-controls-until-january-5010878"
+          }
+        ]
+      },
+      {
+        "summary": "A World Meteorological Organization report released Monday said the January–September global average temperature was 1.47 degrees Celsius above the pre-industrial average. The report said ocean temperatures continued rising from 2025 record highs and global mean sea levels had reached a record this year. It assessed 2026 as on track to rank among the four hottest years recorded; that is a provisional assessment, not a completed annual result.",
+        "category": "climate",
+        "title": "WMO releases provisional global climate assessment for 2026",
+        "event_date": "2026-11-09",
+        "candidate_id": "wmo-2026-provisional-climate-assessment",
+        "geography": "Global",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/This%2Byear%2Bset%2Bto%2Bbe%2Bone%2Bof%2Bfour%2Bhottest%2Bon%2Brecord%2C%2BUN%2Breport%2Bsays/27309875.html"
+          }
+        ]
+      },
+      {
+        "summary": "French Prime Minister Sébastien Lecornu met employers' organizations and private-sector unions Monday morning to discuss purchasing power and wages amid continuing cost-of-living protests. Unions sought increases in the minimum wage. At the time of the report, government measures remained to be announced; no new wage increase had been confirmed.",
+        "category": "government",
+        "title": "French prime minister holds cost-of-living talks with unions and employers",
+        "event_date": "2026-11-09",
+        "candidate_id": "france-cost-of-living-social-conference",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/French%2BPM%2BLecornu%2Bholds%2Btalks%2Bover%2Bprotesters%2Bcost-of-living%2Bconcerns/27310096.html"
+          }
+        ]
+      },
+      {
+        "summary": "Greece's coast guard said Monday that it recovered 13 bodies and 18 survivors from a boat spotted by a container ship off Crete early that morning. One of four survivors taken to hospital subsequently died, according to the coast guard. The cause of the deaths aboard the boat was not immediately clear; authorities said it may have been at sea for days in strong winds.",
+        "category": "migration",
+        "title": "Greek coast guard recovers migrant boat off Crete; 14 reported dead",
+        "event_date": "2026-11-09",
+        "candidate_id": "crete-migrant-boat-recovery",
+        "geography": "Crete, Greece",
+        "sources": [
+          {
+            "name": "Reuters via Devdiscourse",
+            "url": "https://www.devdiscourse.com/article/international/4003873-greece-retrieves-bodies-of-13-migrants-in-boat-found-off-crete-coast-guard-says"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-09"
+  },
+  "metadata": {
+    "responseId": "resp_08af1e705ccf3408006af1a986f53887d1a20c13ec6f1ccb19",
+    "requestId": "req_477d107a54784ad99f4cb4df23818efc",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 788,
+    "inputTokens": 48385,
+    "outputTokens": 1737,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-09",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 54118,
+    "attemptDurationMs": 54118,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
