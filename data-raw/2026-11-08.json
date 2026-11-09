@@ -435,10 +435,10 @@
         "request": {
           "fingerprint": "380b1fffcca64ecac3021877d755ee5bd3ebbd919281acabd46195de8d85bd06",
           "claimId": "1241cfee-79df-4a9f-afff-6df14ac0c150",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-09T08:07:40.646Z",
-          "responseId": null
+          "responseId": "resp_04f89edcd581fc2a006af17f504e9c87d293481005837480eb"
         },
         "result": null,
         "observedAt": "2026-11-09T08:07:40.547Z"
