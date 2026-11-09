@@ -222,10 +222,10 @@
         "request": {
           "fingerprint": "7a2b2bcbccbf7c61756a2773aabd88306a15d4ba3861113b82bbebf79c19dcd4",
           "claimId": "ada711c4-1111-4e48-930e-11a75a3ee68f",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-09T23:07:48.023Z",
-          "responseId": null
+          "responseId": "resp_0221dcf8c0f16c5d006af25247acdc87d2aaf3668f6891380f"
         },
         "result": null,
         "observedAt": "2026-11-09T23:07:47.945Z"
