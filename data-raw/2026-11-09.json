@@ -222,13 +222,117 @@
         "request": {
           "fingerprint": "7a2b2bcbccbf7c61756a2773aabd88306a15d4ba3861113b82bbebf79c19dcd4",
           "claimId": "ada711c4-1111-4e48-930e-11a75a3ee68f",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-09T23:07:48.023Z",
           "responseId": "resp_0221dcf8c0f16c5d006af25247acdc87d2aaf3668f6891380f"
         },
-        "result": null,
-        "observedAt": "2026-11-09T23:07:47.945Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Representative Thomas Massie introduced an impeachment resolution against Defense Secretary Pete Hegseth on the House floor Monday. The resolution alleges unlawful conduct involving military operations in Iran, Yemen and Venezuela. Hegseth rejected the effort as politically motivated. Introduction of the resolution did not constitute impeachment or removal; no House vote was reported.",
+                "category": "government",
+                "title": "Massie introduces resolution to impeach Defense Secretary Hegseth",
+                "event_date": "2026-11-09",
+                "candidate_id": "massie-hegseth-impeachment-resolution",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/hegseth-pentagon-briefing-congress-impeachment-f5303cfb626ae2ef7a4a3f660f5519df"
+                  }
+                ]
+              },
+              {
+                "summary": "The Supreme Court granted a stay Monday of a lower-court injunction blocking border construction and associated legal waivers in Texas's Big Bend Sector. The Court said the government was highly likely to establish that the district court lacked jurisdiction over the challengers' statutory-authority claim. Justice Ketanji Brown Jackson would have denied the application. The stay permits construction to proceed while further Supreme Court review is pursued; it is not a final merits judgment.",
+                "category": "law",
+                "title": "Supreme Court stays injunction blocking Big Bend border construction",
+                "event_date": "2026-11-09",
+                "candidate_id": "supreme-court-big-bend-border-construction-stay",
+                "geography": "Texas, United States",
+                "sources": [
+                  {
+                    "name": "Supreme Court of the United States",
+                    "url": "https://www.supremecourt.gov/opinions/26pdf/26a560_onkq.pdf"
+                  },
+                  {
+                    "name": "NPR via Ideastream Public Media",
+                    "url": "https://www.ideastream.org/2026-11-09/supreme-court-says-border-wall-construction-can-continue-in-west-texas"
+                  }
+                ]
+              },
+              {
+                "summary": "President Donald Trump told reporters Monday, after meeting Qatar's prime minister, that he believed the Iran war was militarily effectively over and described positive momentum toward ending it. He also said U.S. forces remained ready to act and that a long-term solution concerning Iran's nuclear program was still needed. The remarks did not announce a peace agreement or establish that hostilities had ended.",
+                "category": "diplomacy",
+                "title": "Trump signals reduced need for military action after meeting Qatari prime minister",
+                "event_date": "2026-11-09",
+                "candidate_id": "trump-qatar-meeting-iran-war-remarks",
+                "geography": "United States; Qatar; Iran",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. stocks closed sharply higher Monday: the S&P 500 rose 2.3% to 7,549.94, the Dow Jones Industrial Average gained 2.2% to 52,389.75, and the Nasdaq Composite increased 2.7% to 25,253.14. Brent crude fell 5.8% to $92.57 a barrel. Nvidia shares declined 4.3% despite the broader rally.",
+                "category": "economy",
+                "title": "U.S. stock indexes rally as Brent crude falls",
+                "event_date": "2026-11-09",
+                "candidate_id": "us-markets-november-9-close",
+                "geography": "United States; Global",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/stocks-markets-ai-trump-oil-d938f8e6ff42b3706e1d36e6245ec56b"
+                  }
+                ]
+              },
+              {
+                "summary": "Greek Cypriot leader Nikos Christodoulides and Turkish Cypriot leader Tufan Erhurman agreed Monday to open two additional crossings, coordinate emergency responses and share archival materials after meeting UN envoy Maria Angela Holguin in Nicosia. The UN described the meeting as positive and said further talks with Secretary-General António Guterres were planned. The agreement was a confidence-building development, not a settlement of the island's division.",
+                "category": "diplomacy",
+                "title": "Cyprus leaders agree on additional crossings and cooperation measures",
+                "event_date": "2026-11-09",
+                "candidate_id": "cyprus-leaders-crossings-cooperation-agreement",
+                "geography": "Cyprus",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Cyprus%2Bleaders%2Bagree%2Bto%2Bopen%2Bnew%2Bborder%2Bcrossings%2Band%2Bfuture%2Btalks/27313202.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-09"
+          },
+          "metadata": {
+            "responseId": "resp_0221dcf8c0f16c5d006af25247acdc87d2aaf3668f6891380f",
+            "requestId": "req_6e31e8323ceb40558819956bed868dfd",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 488,
+            "inputTokens": 48432,
+            "outputTokens": 1694,
+            "webSearchCalls": 5,
+            "stage": "discovery",
+            "targetDate": "2026-11-09",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 43232,
+            "attemptDurationMs": 43232,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-11-09T23:07:47.945Z",
+        "capturedAt": "2026-11-09T23:08:31.256Z"
       }
     ],
     "sift": null
