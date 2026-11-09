@@ -127,13 +127,93 @@
         "request": {
           "fingerprint": "5a3152a171a9612027c9fe9c5ad5cc8285c48cb5e835a79f4160d4fef17dfb32",
           "claimId": "c0a67028-9456-4c5b-bfd7-fb701fcbb23d",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-09T17:07:46.443Z",
           "responseId": "resp_0a5d150cff92cccf006af1fde68b1487d2ac7147168ea1b6f5"
         },
-        "result": null,
-        "observedAt": "2026-11-09T17:07:46.373Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Following Monday's talks with unions and employers, French Prime Minister Sébastien Lecornu announced a planned 1.6% minimum-wage increase from December 1, bringing monthly net pay to approximately €1,502, about €24 more. A decree remained to be published; the increase was not yet in force. Lecornu also announced work on reforming employer social-security contribution reductions and proposed tax measures intended to support purchasing power.",
+                "category": "government",
+                "title": "French prime minister announces planned December minimum-wage increase",
+                "event_date": "2026-11-09",
+                "candidate_id": "france-cost-of-living-social-conference",
+                "geography": "France",
+                "sources": [
+                  {
+                    "name": "Euronews",
+                    "url": "https://it.euronews.com/2026/11/09/lecornu-annuncia-aumento-dello-smic-di-24-euro-e-sgravi-per-le-imprese"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/French%2BPM%2BLecornu%2Bholds%2Btalks%2Bover%2Bprotesters%2Bcost-of-living%2Bconcerns/27310096.html"
+                  }
+                ]
+              },
+              {
+                "summary": "The World Meteorological Organization released its provisional 2026 climate assessment Monday. January–September global average surface temperature was about 1.47°C above the pre-industrial average. The agency reported record sea levels and said 2026 was on track for a tenth successive year of record ocean warmth and to rank among the four warmest years recorded. These annual assessments remained provisional rather than completed full-year results.",
+                "category": "climate",
+                "title": "WMO releases provisional global climate assessment for 2026",
+                "event_date": "2026-11-09",
+                "candidate_id": "wmo-2026-provisional-climate-assessment",
+                "geography": "Global",
+                "sources": [
+                  {
+                    "name": "World Meteorological Organization",
+                    "url": "https://public.wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/This%2Byear%2Bset%2Bto%2Bbe%2Bone%2Bof%2Bfour%2Bhottest%2Bon%2Brecord%2C%2BUN%2Breport%2Bsays/27309875.html"
+                  }
+                ]
+              },
+              {
+                "summary": "The UN's COP31 climate conference opened Monday in Antalya, Türkiye, after a delayed opening ceremony. Negotiators had been discussing developing countries' demands to put climate-finance issues on the agenda. UN Secretary-General António Guterres called for faster emissions cuts, a transition away from fossil fuels and financial support for vulnerable countries. The opening did not establish a negotiated agreement on those issues.",
+                "category": "climate",
+                "title": "COP31 climate talks open in Antalya amid finance-agenda dispute",
+                "event_date": "2026-11-09",
+                "candidate_id": "cop31-antalya-opening",
+                "geography": "Antalya, Türkiye; Global",
+                "sources": [
+                  {
+                    "name": "AFP via Arab News",
+                    "url": "https://www.arabnews.com/world/cop31-opens-with-leaders-under-pressure-to-tackle-climate-crisis-3010683"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-09"
+          },
+          "metadata": {
+            "responseId": "resp_0a5d150cff92cccf006af1fde68b1487d2ac7147168ea1b6f5",
+            "requestId": "req_39e2c9ca1bce4611ad498a6d30a680eb",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 788,
+            "inputTokens": 56112,
+            "outputTokens": 1499,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-11-09",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 54004,
+            "attemptDurationMs": 54004,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-11-09T17:07:46.373Z",
+        "capturedAt": "2026-11-09T17:08:40.448Z"
       }
     ],
     "sift": null
