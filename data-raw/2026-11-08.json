@@ -598,10 +598,10 @@
       "request": {
         "fingerprint": "95c488de8e0589c59730b2bfabb5f5f29b4cf67824ce995f0cf0f91b4620e513",
         "claimId": "40851302-f5cb-4cc0-90c8-b6d6315d8aed",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-11-09T09:07:44.163Z",
-        "responseId": null
+        "responseId": "resp_0d3f91bf4302e285006af18d63ccc087d2a0a19ce5f03b4b56"
       },
       "result": null
     }
