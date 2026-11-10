@@ -1,0 +1,21 @@
+{
+  "edition_date": "2026-11-09",
+  "published_at": "2026-11-10T09:09:15.860Z",
+  "expires_at": "2026-11-11T10:00:00.000Z",
+  "stories": [
+    {
+      "headline": "WMO reports record sea levels in 2026",
+      "body": "Global average surface temperature from January through September was about 1.47°C above the pre-industrial average, according to the World Meteorological Organization's provisional 2026 climate assessment, released Monday.\n\nThe agency reported record sea levels and said 2026 was on track to rank among the four warmest years recorded, with a tenth consecutive year of record ocean warmth. Those full-year rankings remain provisional.",
+      "sources": [
+        {
+          "name": "World Meteorological Organization",
+          "url": "https://public.wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+        },
+        {
+          "name": "Reuters via StreetInsider",
+          "url": "https://new.streetinsider.com/Reuters/This%2Byear%2Bset%2Bto%2Bbe%2Bone%2Bof%2Bfour%2Bhottest%2Bon%2Brecord%2C%2BUN%2Breport%2Bsays/27309875.html"
+        }
+      ]
+    }
+  ]
+}
