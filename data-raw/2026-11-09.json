@@ -467,10 +467,10 @@
       "request": {
         "fingerprint": "2fbe7a48a2e4ff96d8968ec2ab364388b34220aa93513edc278c0828a2181d5f",
         "claimId": "19646f71-635e-4098-982a-bc10b96c29e2",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-11-10T09:07:49.207Z",
-        "responseId": null
+        "responseId": "resp_0701dd3576373da9006af2dee8e22887d2aa029012c7ddb8bc"
       },
       "result": null
     }
