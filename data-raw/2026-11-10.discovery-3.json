@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-10",
+  "batch": 3,
+  "captured_at": "2026-11-10T23:08:46.180Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "House Republicans elected Jim Jordan as their minority leader for the next Congress on November 10. He defeated Steve Scalise by 106 votes to 73, according to sources cited by ABC News. Republicans also elected Tom Emmer as minority whip and Lisa McClain as conference chair. The new leadership will serve when the next Congress begins in January.",
+        "category": "politics",
+        "title": "House Republicans elect Jim Jordan as leader for next Congress",
+        "event_date": "2026-11-10",
+        "candidate_id": "house-republicans-elect-jim-jordan-2026-11-10",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "ABC News",
+            "url": "https://abcnews.com/Politics/house-republicans-elect-jim-jordan-minority-leader-congress/story?id=138016685"
+          }
+        ]
+      },
+      {
+        "summary": "Senate Republicans reelected John Thune as their leader on November 10, with no challenger, after discussions about their midterm losses delayed the leadership elections by several hours. John Barrasso and Tom Cotton retained their leadership positions, while Bernie Moreno was elected to chair the National Republican Senatorial Committee. Thune will lead Republicans in the minority when the new Congress begins.",
+        "category": "politics",
+        "title": "Senate Republicans reelect John Thune as leader",
+        "event_date": "2026-11-10",
+        "candidate_id": "senate-republicans-reelect-thune-2026-11-10",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Roll Call",
+            "url": "https://rollcall.com/2026/11/10/thune-will-lead-republicans-through-the-minority/"
+          },
+          {
+            "name": "ABC News",
+            "url": "https://abcnews.com/Politics/house-republicans-elect-jim-jordan-minority-leader-congress/story?id=138016685"
+          }
+        ]
+      },
+      {
+        "summary": "The Federal Trade Commission announced an amended complaint on November 10 adding Arizona, Florida, Nebraska, Ohio and Wisconsin to its pending lawsuit against Hims & Hers. The suit alleges improper sharing of sensitive health information with advertising platforms and deceptive billing and cancellation practices. California and Utah were already participating. The amended complaint adds allegations under the five additional states' consumer protection laws; the claims remain to be decided in federal court.",
+        "category": "business",
+        "title": "Five states join FTC privacy and billing lawsuit against Hims & Hers",
+        "event_date": "2026-11-10",
+        "candidate_id": "five-states-join-ftc-hims-hers-lawsuit-2026-11-10",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Federal Trade Commission",
+            "url": "https://search.ftc.gov/news-events/news/press-releases/2026/11/five-states-join-ftc-lawsuit-alleging-hims-hers-engaged-deceptive-unlawful-privacy-practices"
+          },
+          {
+            "name": "Federal Trade Commission case record",
+            "url": "https://search.ftc.gov/legal-library/browse/cases-proceedings/x260029-hims-hers-health-inc-ftc-v"
+          }
+        ]
+      },
+      {
+        "summary": "An eight-count superseding indictment unsealed on November 10 charged Mohammad Baqer Saad Dawood al-Saadi, Mohsen Mohajeri and Mohammad Ali al-Hassani with terrorism-related offenses. US prosecutors alleged involvement in nearly 20 attacks and attempted attacks in Europe and the United States, including a September plot against RAF Fairford in Britain. Prosecutors alleged that al-Saadi attempted to coordinate the Fairford plot through coded communications while jailed in New York. Iran has denied involvement in the suspected plot; the charges are allegations, not findings of guilt.",
+        "category": "international",
+        "title": "US unseals charges against three men over alleged Iran-linked attacks",
+        "event_date": "2026-11-10",
+        "candidate_id": "us-indictment-iran-linked-fairford-plot-2026-11-10",
+        "geography": "United States; United Kingdom; Iran; Europe",
+        "sources": [
+          {
+            "name": "US Attorney's Office, Southern District of New York",
+            "url": "https://www.justice.gov/usao-sdny/pr/three-iranian-backed-operatives-indicted-their-roles-nearly-20-terrorist-attacks-and-0"
+          },
+          {
+            "name": "Reuters via GV Wire",
+            "url": "https://gvwire.com/2026/11/10/iran-backed-militant-helped-plot-attack-on-uks-fairford-base-from-us-jail-justice-department-says/"
+          }
+        ]
+      },
+      {
+        "summary": "The Ninth US Circuit Court of Appeals on November 10 upheld a ruling allowing eight former SpaceX engineers to pursue their lawsuit in court rather than private arbitration. The engineers allege they were fired after raising concerns about sexual harassment and discrimination. The appeals court held that their claims fell within a federal law exempting sexual harassment disputes from mandatory arbitration. SpaceX has denied the underlying allegations; the decision did not resolve their merits.",
+        "category": "business",
+        "title": "Appeals court rejects SpaceX arbitration request in fired engineers' lawsuit",
+        "event_date": "2026-11-10",
+        "candidate_id": "spacex-engineers-arbitration-appeal-2026-11-10",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via AOL",
+            "url": "https://www.aol.com/articles/spacex-must-face-sex-bias-185901000.html"
+          }
+        ]
+      },
+      {
+        "summary": "Spain's government said on November 10 that TikTok should suspend operations in the country until it eliminates child sexual abuse material. Youth Minister Sira Rego appealed to prosecutors and the Data Protection Agency following an investigation by Maldita.es. The ministry cannot unilaterally ban the platform, and the announcement did not establish that a suspension had been ordered. TikTok did not immediately respond to Reuters' request for comment.",
+        "category": "technology",
+        "title": "Spain demands TikTok suspension over child sexual abuse material",
+        "event_date": "2026-11-10",
+        "candidate_id": "spain-tiktok-suspension-demand-2026-11-10",
+        "geography": "Spain",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Spain%2Bdemands%2Bthat%2BTikTok%2Bsuspend%2Boperations%2Buntil%2Bchild%2Bsexual%2Babuse%2Bmaterial%2Bgone/27322109.html"
+          }
+        ]
+      },
+      {
+        "summary": "Oura announced on November 10 that it had agreed to acquire Counsel Health for $625 million in cash, subject to purchase-price adjustments. Counsel combines medical AI with access to physicians, and the companies said they planned to expand their existing partnership integrating Oura data with care services. The acquisition had not closed and remained subject to customary closing conditions.",
+        "category": "business",
+        "title": "Oura agrees to acquire Counsel Health for $625 million",
+        "event_date": "2026-11-10",
+        "candidate_id": "oura-counsel-health-acquisition-agreement-2026-11-10",
+        "geography": "United States; Finland",
+        "sources": [
+          {
+            "name": "Counsel Health",
+            "url": "https://www.counselhealth.com/newsroom/oura-to-acquire-counsel-health-advancing-vision-for-more-connected-personalized-healthcare"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-10"
+  },
+  "metadata": {
+    "responseId": "resp_06d92553173a592b006af3a3c287c087d296cff322337c5825",
+    "requestId": "req_ecb05cfef6594bc18c50681a06cfff0e",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 974,
+    "inputTokens": 57341,
+    "outputTokens": 2709,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-10",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 63062,
+    "attemptDurationMs": 63062,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
