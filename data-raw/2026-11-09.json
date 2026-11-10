@@ -467,12 +467,111 @@
       "request": {
         "fingerprint": "2fbe7a48a2e4ff96d8968ec2ab364388b34220aa93513edc278c0828a2181d5f",
         "claimId": "19646f71-635e-4098-982a-bc10b96c29e2",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-10T09:07:49.207Z",
         "responseId": "resp_0701dd3576373da9006af2dee8e22887d2aa029012c7ddb8bc"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "china-export-control-suspension-extension",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "cop31-antalya-opening",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "crete-migrant-boat-recovery",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "cyprus-leaders-crossings-cooperation-agreement",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "france-cost-of-living-social-conference",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "france-iran-refrigeration-cyberattack-attribution",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "huang-fbi-inquiry-trump-china-response",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "indonesia-surveillance-controls-review",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "massie-hegseth-impeachment-resolution",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "novaya-gazeta-moscow-newsroom-closure",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "senate-permitting-package-cloture",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "supreme-court-big-bend-border-construction-stay",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-qatar-meeting-iran-war-remarks",
+              "code": "speculative_or_sensational"
+            },
+            {
+              "candidate_id": "us-markets-november-9-close",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Global average surface temperature from January through September was about 1.47°C above the pre-industrial average, according to the World Meteorological Organization's provisional 2026 climate assessment, released Monday.\n\nThe agency reported record sea levels and said 2026 was on track to rank among the four warmest years recorded, with a tenth consecutive year of record ocean warmth. Those full-year rankings remain provisional.",
+              "candidate_id": "wmo-2026-provisional-climate-assessment",
+              "headline": "WMO reports record sea levels in 2026",
+              "sources": [
+                {
+                  "name": "World Meteorological Organization",
+                  "url": "https://public.wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+                },
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://new.streetinsider.com/Reuters/This%2Byear%2Bset%2Bto%2Bbe%2Bone%2Bof%2Bfour%2Bhottest%2Bon%2Brecord%2C%2BUN%2Breport%2Bsays/27309875.html"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0701dd3576373da9006af2dee8e22887d2aa029012c7ddb8bc",
+          "requestId": "req_9d72f843e30f4dc8a20b9490fd5da75d",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 2367,
+          "inputTokens": 3847,
+          "outputTokens": 3087,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-09",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 84307,
+          "attemptDurationMs": 84307,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
