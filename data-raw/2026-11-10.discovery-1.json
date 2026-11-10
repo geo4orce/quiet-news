@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-10",
+  "batch": 1,
+  "captured_at": "2026-11-10T11:08:23.365Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Representatives of Ukraine, Russia and the United States began trilateral talks in Abu Dhabi on November 10. Steve Witkoff and Jared Kushner led the US delegation; Ukraine's delegation was led by Rustem Umerov and Russia's by Vladimir Medinsky. The discussions concern security arrangements and efforts to end the war. No agreement or breakthrough was reported in the sources checked before the coverage cutoff.",
+        "category": "international",
+        "title": "Ukraine, Russia and US begin talks in Abu Dhabi",
+        "event_date": "2026-11-10",
+        "candidate_id": "ukraine-russia-us-abu-dhabi-talks-2026-11-10",
+        "geography": "United Arab Emirates; Ukraine; Russia; United States",
+        "sources": [
+          {
+            "name": "ABC News",
+            "url": "https://abcnews.com/International/russia-ukraine-us-meet-abu-dhabi-talks-trump/story?id=137970621"
+          },
+          {
+            "name": "The National",
+            "url": "https://www.thenationalnews.com/news/mena/2026/11/10/russia-and-ukraine-security-focused-talks-start-in-abu-dhabi/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-10"
+  },
+  "metadata": {
+    "responseId": "resp_0c866738f1ef6090006af2fb0a183087d28b315022f416c2b2",
+    "requestId": "req_7344dd96b3b44e6688650b03c0348703",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 529,
+    "inputTokens": 46748,
+    "outputTokens": 790,
+    "webSearchCalls": 5,
+    "stage": "discovery",
+    "targetDate": "2026-11-10",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 33213,
+    "attemptDurationMs": 33213,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
