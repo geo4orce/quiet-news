@@ -341,13 +341,117 @@
         "request": {
           "fingerprint": "4e4989591f7b55c295d3cefd6d63a73cd2af2599f7cd7b835f930bb617d4d159",
           "claimId": "1bd342fa-31c8-4193-ad6d-b3b8230cc22b",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-10T08:07:48.091Z",
           "responseId": "resp_0034726d1ff3a1d2006af2d0d8300487d29349ca11f6a1a26c"
         },
-        "result": null,
-        "observedAt": "2026-11-10T08:07:47.989Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Representative Thomas Massie renewed his effort to impeach Defense Secretary Pete Hegseth on Monday, reading an eight-article resolution on the House floor and invoking a procedure intended to force consideration. The resolution alleges unlawful conduct involving Iran and other military operations, civilian protections and retaliation against Senator Mark Kelly. It substantially repeats Massie's September resolution, whose consideration was interrupted by the congressional recess. Hegseth rejected the effort as politically motivated. No House vote on impeachment had occurred.",
+                "category": "government",
+                "title": "Massie renews Hegseth impeachment effort using privileged-resolution procedure",
+                "event_date": "2026-11-09",
+                "candidate_id": "massie-hegseth-impeachment-resolution",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/hegseth-pentagon-briefing-congress-impeachment-f5303cfb626ae2ef7a4a3f660f5519df"
+                  },
+                  {
+                    "name": "Roll Call",
+                    "url": "https://rollcall.com/2026/11/09/massie-moves-to-force-hegseth-impeachment-vote/"
+                  }
+                ]
+              },
+              {
+                "summary": "The Senate voted 73–25 Monday to invoke cloture on the motion to proceed to H.R. 2347, the legislative vehicle for the Bipartisan American Affordability and Jobs Act permitting package. The vote limited debate on whether to take up the vehicle; it did not pass the permitting legislation or put its provisions into effect.",
+                "category": "government",
+                "title": "Senate clears procedural hurdle for permitting legislation",
+                "event_date": "2026-11-09",
+                "candidate_id": "senate-permitting-package-cloture",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Senate Democratic Caucus",
+                    "url": "https://www.democrats.senate.gov/2026/11/09/wrap-up-for-monday-november-9-2026"
+                  }
+                ]
+              },
+              {
+                "summary": "French officials on Monday attributed last month's cyberattack on supermarket refrigeration systems to an Iranian Revolutionary Guard-affiliated group. Paris prosecutors opened a formal judicial investigation, and Foreign Minister Jean-Noël Barrot said Iran's ambassador was being summoned and European sanctions would be sought. Authorities said the attack affected about 700 supermarkets. The attribution and investigation were Monday's developments; the refrigeration attack occurred in October. The announced sanctions were not yet enacted.",
+                "category": "security",
+                "title": "France attributes supermarket refrigeration cyberattack to Iranian group",
+                "event_date": "2026-11-09",
+                "candidate_id": "france-iran-refrigeration-cyberattack-attribution",
+                "geography": "France; Iran",
+                "sources": [
+                  {
+                    "name": "Associated Press via ABC News",
+                    "url": "https://abcnews.com/Business/wireStory/france-blames-iran-months-cyberattack-supermarket-fridges-137995438"
+                  }
+                ]
+              },
+              {
+                "summary": "Novaya Gazeta closed its Moscow newsroom Monday after announcing on October 30 that pressure from Russian authorities and security services had forced it to cease operations. Journalists removed portraits of murdered colleagues during the office's final day. Authorities had blocked its online platforms, revoked its media registration and disrupted reader donations, according to AP. Novaya Gazeta Europe, established abroad by former staff, is a separate outlet.",
+                "category": "media",
+                "title": "Novaya Gazeta closes Moscow newsroom following government pressure",
+                "event_date": "2026-11-09",
+                "candidate_id": "novaya-gazeta-moscow-newsroom-closure",
+                "geography": "Moscow, Russia",
+                "sources": [
+                  {
+                    "name": "Associated Press via The Times of Israel",
+                    "url": "https://www.timesofisrael.com/last-major-independent-newspaper-in-russia-shuts-down-due-to-political-pressure/"
+                  }
+                ]
+              },
+              {
+                "summary": "President Donald Trump said Monday that the FBI was investigating Nvidia CEO Jensen Huang's affair with an alleged Chinese government agent. China denied the espionage allegation, calling it unsubstantiated. Democratic congressional leaders also sought further briefings. Nvidia had announced its independent investigation on Sunday, not Monday. Trump's remarks did not establish that espionage occurred or that Huang knowingly participated in it.",
+                "category": "security",
+                "title": "Trump says FBI is examining Huang affair; China denies espionage allegation",
+                "event_date": "2026-11-09",
+                "candidate_id": "huang-fbi-inquiry-trump-china-response",
+                "geography": "United States; China",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/china-denies-spy-jensen-huang-nvidia-3345b9f05c54d58909e88f6dcb9c1cd8"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-09"
+          },
+          "metadata": {
+            "responseId": "resp_0034726d1ff3a1d2006af2d0d8300487d29349ca11f6a1a26c",
+            "requestId": "req_3bff8b44686448a1b9a6e2d52e88254a",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 1882,
+            "inputTokens": 83148,
+            "outputTokens": 3043,
+            "webSearchCalls": 10,
+            "stage": "discovery",
+            "targetDate": "2026-11-09",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 100545,
+            "attemptDurationMs": 100545,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-11-10T08:07:47.989Z",
+        "capturedAt": "2026-11-10T08:09:28.636Z"
       }
     ],
     "sift": null
