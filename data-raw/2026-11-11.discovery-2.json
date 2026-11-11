@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-11",
+  "batch": 2,
+  "captured_at": "2026-11-11T17:08:48.695Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Russia and Ukraine agreed in principle to a large prisoner-of-war exchange as two days of US-mediated talks concluded in Abu Dhabi on November 11. Delegation leaders Vladimir Medinsky and Rustem Umerov confirmed the planned exchange. US envoy Jared Kushner said the numbers remained to be finalized. No exchange had yet occurred, and the talks produced no major breakthrough on ending the war.",
+        "category": "Diplomacy",
+        "title": "Russia and Ukraine agree in principle to prisoner exchange as Abu Dhabi talks conclude",
+        "event_date": "2026-11-11",
+        "candidate_id": "russia-ukraine-abu-dhabi-talks-resume",
+        "geography": "United Arab Emirates; Ukraine; Russia; United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/russia-ukraine-war-talks-kushner-witkoff-7c8d1024302e0c6ad8be064eec852a64"
+          }
+        ]
+      },
+      {
+        "summary": "Workers across Spain staged a general strike on November 11 over housing affordability, backed by the UGT and CCOO unions and tenants' associations. Unions reported four million participants; that figure was their estimate. Reuters reported uneven participation, with stronger support in coastal regions, and shops closing in Madrid and Barcelona. It was Spain's first general strike since 2012.",
+        "category": "Labor and housing",
+        "title": "Spain holds general strike over housing affordability",
+        "event_date": "2026-11-11",
+        "candidate_id": "spain-general-strike-housing-affordability",
+        "geography": "Spain",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://ca.marketscreener.com/news/workers-across-spain-stage-first-general-strike-in-14-years-in-anger-over-housing-ce785edbda88f723"
+          }
+        ]
+      },
+      {
+        "summary": "Spain's data protection authority AEPD said on November 11 that it had opened an investigation into alleged child sexual abuse material on TikTok following reporting by Maldita.es. It rejected the government's request to temporarily block the entire platform, instead considering measures against specific unlawful content after obtaining information from TikTok and Maldita.es. Spain's attorney general separately ordered a cybercrime investigation. TikTok did not immediately respond to Reuters' request for comment.",
+        "category": "Technology and regulation",
+        "title": "Spanish privacy watchdog opens TikTok investigation without ordering platform-wide block",
+        "event_date": "2026-11-11",
+        "candidate_id": "spain-aepd-tiktok-abuse-content-investigation",
+        "geography": "Spain; European Union",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Spanish%2Bwatchdog%2Bopens%2BTikTok%2Bprobe%2Bbut%2Bdenies%2Bgovernment%2Bdemand%2Bto%2Bblock%2Bapp/27327520.html"
+          }
+        ]
+      },
+      {
+        "summary": "Addressing the COP31 Leaders' Summit in Antalya on November 11, UN Secretary-General António Guterres proposed a Climate Justice Compact covering a faster transition away from fossil fuels, protection for vulnerable communities, climate finance and international cooperation. He urged developed countries to deliver at least $300 billion annually by 2035 and establish milestones for tripling adaptation finance. These were calls for action, not a newly adopted agreement.",
+        "category": "Climate and diplomacy",
+        "title": "Guterres proposes Climate Justice Compact at COP31 leaders' summit",
+        "event_date": "2026-11-11",
+        "candidate_id": "cop31-guterres-climate-justice-compact",
+        "geography": "Türkiye; Global",
+        "sources": [
+          {
+            "name": "UN Framework Convention on Climate Change",
+            "url": "https://unfccc.int/news/transcript-of-remarks-made-by-un-secretary-general-antonio-guterres-to-the-cop31-leaders-summit"
+          }
+        ]
+      },
+      {
+        "summary": "WMO and UNDRR released their Global Status of Multi-Hazard Early Warning Systems 2026 report on November 11, coinciding with a high-level event in Antalya. It found that 136 countries, or 70 percent, reported some multi-hazard early warning capability, an increase of 17 countries from March 2025. Small island developing states had the lowest reported coverage, while least developed countries had the lowest overall comprehensiveness scores.",
+        "category": "Climate and disaster preparedness",
+        "title": "UN report finds early warning capability in 136 countries, with major coverage gaps",
+        "event_date": "2026-11-11",
+        "candidate_id": "wmo-undrr-2026-early-warning-systems-report",
+        "geography": "Global",
+        "sources": [
+          {
+            "name": "World Meteorological Organization",
+            "url": "https://public.wmo.int/news/media-centre/early-warning-protection-expands-worldwide"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-11"
+  },
+  "metadata": {
+    "responseId": "resp_0b29b63fd360ca61006af4a0e395a887d19982fd322226e278",
+    "requestId": "req_4bb737a9caef47d395a14dd7fc59eee3",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 866,
+    "inputTokens": 55909,
+    "outputTokens": 2038,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-11",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 65638,
+    "attemptDurationMs": 65638,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
