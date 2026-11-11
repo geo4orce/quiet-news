@@ -544,12 +544,107 @@
       "request": {
         "fingerprint": "67efbfd4d1dd6e82ba89f4ec258ef42f9bf02fee308bcf0d47fad87476307b88",
         "claimId": "5e8d23cc-04f1-4b82-8bff-ea8f3ac5707f",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-11T09:07:42.806Z",
         "responseId": "resp_0c2cccaae40bab65006af43062c9e087d1bd06c6d54a1546c7"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "bessent-us-china-economic-relations-gala-2026-11-10",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "canada-iran-eleven-entities-sanctions-2026-11-10",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "congo-ebola-government-data-update-2026-11-10",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "five-states-join-ftc-hims-hers-lawsuit-2026-11-10",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "gaza-strikes-gunfire-five-killed-2026-11-10",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "hegseth-impeachment-response-2026-11-10",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "house-republicans-elect-jim-jordan-2026-11-10",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "oura-counsel-health-acquisition-agreement-2026-11-10",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "rubio-iran-economic-pressure-g7-2026-11-10",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "senate-republicans-reelect-thune-2026-11-10",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "spacex-engineers-arbitration-appeal-2026-11-10",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "spain-tiktok-suspension-demand-2026-11-10",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ukraine-russia-us-abu-dhabi-talks-2026-11-10",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-indictment-iran-linked-fairford-plot-2026-11-10",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The Consumer Price Index increased 0.4% in October after a 0.6% rise in September, the Bureau of Labor Statistics reported Tuesday. Those monthly figures are seasonally adjusted. Prices excluding food and energy rose 0.3%; food rose 0.5%, energy 0.7% and shelter 0.3%.\n\nBLS could not publish most year-over-year comparisons because the October 2025 government shutdown had prevented collection of the necessary survey data.",
+              "candidate_id": "us-october-cpi-release-2026-11-10",
+              "headline": "US consumer prices rose 0.4% in October",
+              "sources": [
+                {
+                  "name": "US Bureau of Labor Statistics",
+                  "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0c2cccaae40bab65006af43062c9e087d1bd06c6d54a1546c7",
+          "requestId": "req_e7a14d645cd24c4990d92f9a53b5ed70",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 986,
+          "inputTokens": 4307,
+          "outputTokens": 1730,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-10",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 38231,
+          "attemptDurationMs": 38231,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
