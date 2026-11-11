@@ -1,19 +1,15 @@
 {
-  "edition_date": "2026-11-09",
-  "published_at": "2026-11-10T09:09:15.860Z",
-  "expires_at": "2026-11-11T10:00:00.000Z",
+  "edition_date": "2026-11-10",
+  "published_at": "2026-11-11T09:08:23.124Z",
+  "expires_at": "2026-11-12T10:00:00.000Z",
   "stories": [
     {
-      "headline": "WMO reports record sea levels in 2026",
-      "body": "Global average surface temperature from January through September was about 1.47°C above the pre-industrial average, according to the World Meteorological Organization's provisional 2026 climate assessment, released Monday.\n\nThe agency reported record sea levels and said 2026 was on track to rank among the four warmest years recorded, with a tenth consecutive year of record ocean warmth. Those full-year rankings remain provisional.",
+      "headline": "US consumer prices rose 0.4% in October",
+      "body": "The Consumer Price Index increased 0.4% in October after a 0.6% rise in September, the Bureau of Labor Statistics reported Tuesday. Those monthly figures are seasonally adjusted. Prices excluding food and energy rose 0.3%; food rose 0.5%, energy 0.7% and shelter 0.3%.\n\nBLS could not publish most year-over-year comparisons because the October 2025 government shutdown had prevented collection of the necessary survey data.",
       "sources": [
         {
-          "name": "World Meteorological Organization",
-          "url": "https://public.wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
-        },
-        {
-          "name": "Reuters via StreetInsider",
-          "url": "https://new.streetinsider.com/Reuters/This%2Byear%2Bset%2Bto%2Bbe%2Bone%2Bof%2Bfour%2Bhottest%2Bon%2Brecord%2C%2BUN%2Breport%2Bsays/27309875.html"
+          "name": "US Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
         }
       ]
     }
