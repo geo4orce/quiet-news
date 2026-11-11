@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-11",
+  "batch": 3,
+  "captured_at": "2026-11-11T23:08:36.090Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "AWS announced general availability of AWS Emulator on November 11. The local software lets developers and coding agents test applications using AWS APIs, SDKs and command-line tools without provisioning cloud resources for the emulated operations. AWS said the emulator has no additional service fee and its source is available on GitHub. The company cautioned that it does not evaluate identity and resource policies as AWS does and should not replace security testing or final application testing on AWS.",
+        "category": "Technology",
+        "title": "AWS releases local emulator for testing cloud applications",
+        "event_date": "2026-11-11",
+        "candidate_id": "aws-local-emulator-general-availability",
+        "geography": "Global; United States",
+        "sources": [
+          {
+            "name": "Amazon Web Services",
+            "url": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/"
+          }
+        ]
+      },
+      {
+        "summary": "Representative Robert Garcia responded on November 11 to a warning from White House counsel Will Scharf about planned congressional investigations. Scharf's November 10 letter argued that investigations must serve a legislative purpose and warned that abusive subpoenas or intimidation could warrant investigation. Garcia said Congress derives its oversight authority from the Constitution rather than White House permission and would not be deterred. The exchange concerned prospective oversight after Democrats take control of Congress; it did not establish that any investigation or subpoena was unlawful.",
+        "category": "US politics and government",
+        "title": "Garcia rejects White House warning over planned congressional oversight",
+        "event_date": "2026-11-11",
+        "candidate_id": "garcia-response-white-house-oversight-warning",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Denver Gazette",
+            "url": "https://www.denvergazette.com/2026/11/11/white-house-warns-house-democrats-not-to-harass-staff/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-11"
+  },
+  "metadata": {
+    "responseId": "resp_023f851a62c1e451006af4f54796a087d2a304803ef2286124",
+    "requestId": "req_ca11b9d5fda84b678a18c85d5e4e3ba1",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 659,
+    "inputTokens": 48667,
+    "outputTokens": 1031,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-11",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 48765,
+    "attemptDurationMs": 48765,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
