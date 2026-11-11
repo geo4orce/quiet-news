@@ -427,13 +427,93 @@
         "request": {
           "fingerprint": "6cfa81adc77fafa3af3252dd3a969294a2528e49448b91508f889914b8681bba",
           "claimId": "675fa122-0ad4-473b-b38d-968b08cd1b61",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-11T08:07:43.895Z",
           "responseId": "resp_0b51d83e40d1f324006af4225418a887d2b8f8ea92f32c90d2"
         },
-        "result": null,
-        "observedAt": "2026-11-11T08:07:43.799Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The House voted 211–204 at 6:02 p.m. Eastern on November 10 to refer Representative Thomas Massie's resolution to impeach Defense Secretary Pete Hegseth to the Judiciary Committee, preventing an immediate vote on the articles themselves. The procedural vote was not a finding on the allegations. Earlier that day, Hegseth rejected the impeachment effort at a Pentagon briefing, describing the allegations as policy disagreements rather than impeachable offenses. Massie filed the resolution on November 9.",
+                "category": "politics",
+                "title": "House refers Hegseth impeachment resolution to Judiciary Committee",
+                "event_date": "2026-11-10",
+                "candidate_id": "hegseth-impeachment-response-2026-11-10",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Office of the Clerk, US House of Representatives",
+                    "url": "https://clerk.house.gov/FloorSummary/ViewFloorActions"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/hegseth-impeachment-briefing-trump-massie-87a78193502f716e6fb8eee5aef06ac0"
+                  },
+                  {
+                    "name": "NPR via Iowa Public Radio",
+                    "url": "https://www.iowapublicradio.org/news-from-npr/2026-11-10/house-votes-to-effectively-end-the-impeachment-effort-against-pete-hegseth"
+                  }
+                ]
+              },
+              {
+                "summary": "Government data reported on November 10 showed 11,042 confirmed Ebola infections and 5,387 deaths in the Democratic Republic of the Congo, according to Reuters. Eight of the country's 26 provinces had been affected. The outbreak, caused by Bundibugyo virus, was declared in mid-May. These are cumulative outbreak figures, not infections or deaths occurring solely on November 10.",
+                "category": "health",
+                "title": "Congo Ebola update reports 11,042 confirmed cases and 5,387 deaths",
+                "event_date": "2026-11-10",
+                "candidate_id": "congo-ebola-government-data-update-2026-11-10",
+                "geography": "Democratic Republic of the Congo",
+                "sources": [
+                  {
+                    "name": "Reuters via WHBL",
+                    "url": "https://whbl.com/2026/11/10/congos-ebola-cases-surpass-11000-government-data-show/"
+                  }
+                ]
+              },
+              {
+                "summary": "Treasury Secretary Scott Bessent called for a more balanced US-China economic relationship during a November 10 evening speech at the National Committee on US-China Relations gala in New York. He said the United States should reduce dependence on foreign supplies while China should rely more on domestic consumption. Chinese Ambassador Xie Feng also called for reciprocity and cooperation. The remarks expressed policy positions rather than announcing a completed trade agreement.",
+                "category": "economy",
+                "title": "Bessent calls for rebalanced US-China economic ties at New York gala",
+                "event_date": "2026-11-10",
+                "candidate_id": "bessent-us-china-economic-relations-gala-2026-11-10",
+                "geography": "United States; China",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/trump-xi-bessent-china-trade-67d0030d68ba42bdcbedd0eacf92d4b3"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-10"
+          },
+          "metadata": {
+            "responseId": "resp_0b51d83e40d1f324006af4225418a887d2b8f8ea92f32c90d2",
+            "requestId": "req_cdb77d75feda41d2a62cad837cc1c0c8",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 1369,
+            "inputTokens": 67041,
+            "outputTokens": 2200,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-10",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 53736,
+            "attemptDurationMs": 53736,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-11-11T08:07:43.799Z",
+        "capturedAt": "2026-11-11T08:08:37.632Z"
       }
     ],
     "sift": null
