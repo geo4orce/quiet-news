@@ -23,13 +23,71 @@
         "request": {
           "fingerprint": "69a8586816ba4e959e6b950234c07675d6faa0f0d663038f0729e9f009fd6059",
           "claimId": "a8a81bf3-10e3-4df6-a048-2c0827749ba4",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-11T11:07:42.909Z",
           "responseId": "resp_02b24bb5fc6e74fe006af44c82470087d1b491122763246dce"
         },
-        "result": null,
-        "observedAt": "2026-11-11T11:07:42.886Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Russian and Ukrainian delegations began a second day of US-brokered negotiations in Abu Dhabi on November 11. Ukraine’s delegation leader Rustem Umerov confirmed that negotiations had resumed. The talks were mediated by US envoy Steve Witkoff and Jared Kushner. No agreement or breakthrough was reported in the available account.",
+                "category": "Diplomacy",
+                "title": "Russia and Ukraine resume US-brokered talks in Abu Dhabi",
+                "event_date": "2026-11-11",
+                "candidate_id": "russia-ukraine-abu-dhabi-talks-resume",
+                "geography": "United Arab Emirates; Ukraine; Russia; United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-talks-kushner-witkoff-7c8d1024302e0c6ad8be064eec852a64"
+                  }
+                ]
+              },
+              {
+                "summary": "Germany’s Federal Cartel Office said on November 11 that PayPal’s prohibition on merchants charging customers extra for using its payment service may restrict competition and violate the law. The authority described its findings as preliminary and gave PayPal an opportunity to respond. It is also considering recovery of profits attributable to the practice. PayPal disputed the preliminary assessment and said it would continue engaging with the proceedings.",
+                "category": "Business and regulation",
+                "title": "German competition authority issues preliminary findings on PayPal merchant rules",
+                "event_date": "2026-11-11",
+                "candidate_id": "germany-paypal-preliminary-competition-findings",
+                "geography": "Germany",
+                "sources": [
+                  {
+                    "name": "Reuters via The Star",
+                    "url": "https://www.thestar.com.my/tech/tech-news/2026/11/11/german-antitrust-authority-says-paypal-practices-may-restrict-competition"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-11"
+          },
+          "metadata": {
+            "responseId": "resp_02b24bb5fc6e74fe006af44c82470087d1b491122763246dce",
+            "requestId": "req_aebd6281d7514f1abb1be35635d7eb63",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 466,
+            "inputTokens": 55528,
+            "outputTokens": 861,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-11-11",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 37532,
+            "attemptDurationMs": 37532,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-11-11T11:07:42.886Z",
+        "capturedAt": "2026-11-11T11:08:20.442Z"
       }
     ],
     "sift": null
