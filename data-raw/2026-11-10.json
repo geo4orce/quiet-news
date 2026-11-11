@@ -544,10 +544,10 @@
       "request": {
         "fingerprint": "67efbfd4d1dd6e82ba89f4ec258ef42f9bf02fee308bcf0d47fad87476307b88",
         "claimId": "5e8d23cc-04f1-4b82-8bff-ea8f3ac5707f",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-11-11T09:07:42.806Z",
-        "responseId": null
+        "responseId": "resp_0c2cccaae40bab65006af43062c9e087d1bd06c6d54a1546c7"
       },
       "result": null
     }
