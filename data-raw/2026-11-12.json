@@ -206,13 +206,111 @@
         "request": {
           "fingerprint": "be9cba5d0b901218b6a45003a0c3d07afdd961ee3a81c2d7a75828dcb31162b0",
           "claimId": "241fdbc3-f107-4a94-82e0-187d1a71c358",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-12T23:07:45.421Z",
           "responseId": "resp_0808da4658d8d23e006af646c5784087d29eb7b035d48bf789"
         },
-        "result": null,
-        "observedAt": "2026-11-12T23:07:45.350Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Steve Witkoff and Jared Kushner met Vladimir Putin at the Kremlin for about two hours on November 12, then met Volodymyr Zelenskyy in Dublin, AP reported. Kushner said an objective was securing Russian agreement to European participation in negotiations. Putin reiterated opposition to European troops in Ukraine after a ceasefire. Earlier Russian-Ukrainian talks in Abu Dhabi produced a prisoner-exchange agreement but no major breakthrough.",
+                "category": "International diplomacy",
+                "title": "U.S. envoys meet Putin in Moscow, then Zelenskyy in Dublin",
+                "event_date": "2026-11-12",
+                "candidate_id": "us-envoys-arrive-moscow-2026-11-12",
+                "geography": "Russia; Ukraine; United States; Ireland",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-putin-kushner-witkoff-683810203340077f33611fd1d1757b23"
+                  },
+                  {
+                    "name": "Hurriyet Daily News / Anadolu Agency",
+                    "url": "https://www.hurriyetdailynews.com/amp/us-envoys-witkoff-kushner-arrive-in-moscow-for-talks-with-putin-229299"
+                  }
+                ]
+              },
+              {
+                "summary": "Police said a gunman killed a building manager at a Logan Circle gym around 8 a.m. on November 12, then shot four other people from his condominium patio. Interim police chief Jeffery Carroll identified the suspect as Matt Lambert, 55, and said he fatally shot himself after speaking with police negotiators. One wounded victim remained in critical condition by late afternoon. Court records showed litigation between Lambert and building management over conditions in his unit.",
+                "category": "Public safety",
+                "title": "Police say Logan Circle gunman killed himself after killing one and wounding four",
+                "event_date": "2026-11-12",
+                "candidate_id": "washington-logan-circle-shootings-2026-11-12",
+                "geography": "Washington, District of Columbia, United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/dc-shooting-logan-circle-3cee6a4ada875fcc18e932e536c63dcd"
+                  }
+                ]
+              },
+              {
+                "summary": "Microsoft experienced widespread service disruptions on November 12 affecting Outlook email and other applications. Nearly 130,000 Outlook problem reports appeared on Downdetector shortly after 1 p.m. Eastern; these were user reports, not a verified count of affected accounts. Microsoft said unexpectedly unavailable servers had increased load on remaining infrastructure and that it was testing a fix. Williamson County, Texas, separately confirmed disruption to its Outlook email services.",
+                "category": "Business and technology",
+                "title": "Microsoft outage disrupts Outlook and other workplace services",
+                "event_date": "2026-11-12",
+                "candidate_id": "microsoft-outlook-service-outage-2026-11-12",
+                "geography": "Americas; United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/microsoft-outlook-outage-email-teams-6376045281feb430c0b923e3a4b251c2"
+                  },
+                  {
+                    "name": "Williamson County, Texas",
+                    "url": "https://www.wilcotx.gov/AlertCenter.aspx?AID=Microsoft-Outlook-Email-Issues-27"
+                  }
+                ]
+              },
+              {
+                "summary": "Oklahoma executed James Pavatt, 73, by lethal injection at the state penitentiary in McAlester on November 12 for the fatal shooting of his girlfriend's estranged husband, Rob Andrew. He was pronounced dead at 10:12 a.m. Central. The U.S. Supreme Court denied his application for a stay of execution and his petition for review that day.",
+                "category": "Justice",
+                "title": "Oklahoma executes James Pavatt after Supreme Court denies stay",
+                "event_date": "2026-11-12",
+                "candidate_id": "oklahoma-james-pavatt-execution-2026-11-12",
+                "geography": "Oklahoma, United States",
+                "sources": [
+                  {
+                    "name": "Associated Press / ABC13",
+                    "url": "https://abc13.com/story/oklahoma-man-is-put-death-killing-girlfriends-husband-texas-execution-follow/20036507/"
+                  },
+                  {
+                    "name": "Supreme Court of the United States",
+                    "url": "https://www.supremecourt.gov/orders/courtorders/111226zr_3204.pdf"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-12"
+          },
+          "metadata": {
+            "responseId": "resp_0808da4658d8d23e006af646c5784087d29eb7b035d48bf789",
+            "requestId": "req_2316345c9f7e49a4a5078dc782e7b8bb",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 1155,
+            "inputTokens": 56920,
+            "outputTokens": 2262,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-11-12",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 53601,
+            "attemptDurationMs": 53601,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-11-12T23:07:45.350Z",
+        "capturedAt": "2026-11-12T23:08:39.022Z"
       }
     ],
     "sift": null
