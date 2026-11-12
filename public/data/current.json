@@ -1,17 +1,6 @@
 {
-  "edition_date": "2026-11-10",
-  "published_at": "2026-11-11T09:08:23.124Z",
-  "expires_at": "2026-11-12T10:00:00.000Z",
-  "stories": [
-    {
-      "headline": "US consumer prices rose 0.4% in October",
-      "body": "The Consumer Price Index increased 0.4% in October after a 0.6% rise in September, the Bureau of Labor Statistics reported Tuesday. Those monthly figures are seasonally adjusted. Prices excluding food and energy rose 0.3%; food rose 0.5%, energy 0.7% and shelter 0.3%.\n\nBLS could not publish most year-over-year comparisons because the October 2025 government shutdown had prevented collection of the necessary survey data.",
-      "sources": [
-        {
-          "name": "US Bureau of Labor Statistics",
-          "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
-        }
-      ]
-    }
-  ]
+  "edition_date": "2026-11-11",
+  "published_at": "2026-11-12T09:08:08.279Z",
+  "expires_at": "2026-11-13T10:00:00.000Z",
+  "stories": []
 }
