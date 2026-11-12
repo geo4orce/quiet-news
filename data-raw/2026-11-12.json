@@ -12,10 +12,10 @@
         "request": {
           "fingerprint": "9ade7f82d92e5c974c7e0460c09e48e489deea16dc504d0a992ba04c6e536784",
           "claimId": "8ef2de93-2239-43da-9383-2292988e3f6c",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-12T11:07:42.172Z",
-          "responseId": null
+          "responseId": "resp_0d06f60f51632f21006af59e01cecc87d2beababa4aaab528a"
         },
         "result": null,
         "observedAt": "2026-11-12T11:07:42.142Z"
