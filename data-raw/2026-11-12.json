@@ -89,13 +89,115 @@
         "request": {
           "fingerprint": "5c34a2a1909c9783bf6fbbb5ff454dc270cf7168f6c99280cd3c2336382ab770",
           "claimId": "22b214c8-fa0e-4b37-afc1-11c5a5546d31",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-12T17:08:02.610Z",
           "responseId": "resp_062f45c924d0afc7006af5f2775c3887d297b26b75bea999ee"
         },
-        "result": null,
-        "observedAt": "2026-11-12T17:08:02.555Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Steve Witkoff and Jared Kushner met Vladimir Putin at the Kremlin on November 12 for approximately two hours, then departed for Ireland for planned talks with Volodymyr Zelenskyy. Kushner said securing European participation in negotiations was one objective. Putin reiterated his opposition to European troops in Ukraine after a ceasefire. The meeting followed Russian-Ukrainian talks in Abu Dhabi that ended November 11 with a prisoner-exchange agreement but no major breakthrough.",
+                "category": "International diplomacy",
+                "title": "U.S. envoys meet Putin in Moscow and depart for Ireland",
+                "event_date": "2026-11-12",
+                "candidate_id": "us-envoys-arrive-moscow-2026-11-12",
+                "geography": "Russia; Ukraine; United States; Ireland",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-putin-kushner-witkoff-683810203340077f33611fd1d1757b23"
+                  },
+                  {
+                    "name": "Hurriyet Daily News / Anadolu Agency",
+                    "url": "https://www.hurriyetdailynews.com/amp/us-envoys-witkoff-kushner-arrive-in-moscow-for-talks-with-putin-229299"
+                  }
+                ]
+              },
+              {
+                "summary": "Nvidia announced November 12 that Jensen Huang had resigned as chief executive and that chief financial officer Colette Kress would serve as interim CEO. The board said it would consider internal and external candidates for a permanent replacement and named Harvey C. Jones chairman. Huang's departure followed disclosures of extramarital relationships, including one with a businesswoman alleged to have acted as a Chinese intelligence agent; that allegation remains attributed rather than established here.",
+                "category": "Business and technology",
+                "title": "Jensen Huang resigns as Nvidia CEO; Colette Kress appointed interim chief",
+                "event_date": "2026-11-12",
+                "candidate_id": "nvidia-huang-resignation-kress-interim-2026-11-12",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f"
+                  },
+                  {
+                    "name": "Yahoo Finance",
+                    "url": "https://finance.yahoo.com/technology/article/nvidia-ceo-huang-resigns-amid-affair-scandals-board-names-cfo-colette-kress-interim-ceo-135801377.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Indonesian Vice President Gibran Rakabuming Raka formally submitted his resignation to the People's Consultative Assembly on November 12, following earlier communications with President Prabowo Subianto. His departure followed controversy over his educational qualifications and eligibility for office. ANTARA reported that the House of Representatives canceled a planned plenary meeting concerning a possible impeachment motion after the resignation letter was submitted.",
+                "category": "Politics",
+                "title": "Indonesia's vice president formally submits resignation to parliamentary assembly",
+                "event_date": "2026-11-12",
+                "candidate_id": "indonesia-gibran-formal-resignation-2026-11-12",
+                "geography": "Indonesia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/indonesia-gibran-rakabuming-raka-resigns-abfe5e288fad3b8b26719eae634f2ee0"
+                  },
+                  {
+                    "name": "ANTARA",
+                    "url": "https://en.antaranews.com/amp/news/442003/gibran-officially-resigns-hmp-plenary-meeting-canceled"
+                  },
+                  {
+                    "name": "Reuters / The Star",
+                    "url": "https://www.thestar.com.my/news/world/2026/11/12/indonesia-vp-gibran-hands-in-his-resignation-to-upper-house"
+                  }
+                ]
+              },
+              {
+                "summary": "A gunman killed a man at a gym and shot four other people near Washington's Logan Circle around 8 a.m. on November 12, police said. Interim Metropolitan Police Chief Jeffery Carroll said another victim was in critical condition. Police cordoned off the area near 15th Street Northwest, and schools were locked down.",
+                "category": "Public safety",
+                "title": "Logan Circle shootings leave one victim dead and four others wounded",
+                "event_date": "2026-11-12",
+                "candidate_id": "washington-logan-circle-shootings-2026-11-12",
+                "geography": "Washington, District of Columbia, United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/dc-shooting-logan-circle-3cee6a4ada875fcc18e932e536c63dcd"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-12"
+          },
+          "metadata": {
+            "responseId": "resp_062f45c924d0afc7006af5f2775c3887d297b26b75bea999ee",
+            "requestId": "req_a1238c24c4e7402e8719423a3510ecd4",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 904,
+            "inputTokens": 56094,
+            "outputTokens": 1981,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-12",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 59942,
+            "attemptDurationMs": 59942,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-11-12T17:08:02.555Z",
+        "capturedAt": "2026-11-12T17:09:02.553Z"
       }
     ],
     "sift": null
