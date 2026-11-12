@@ -206,10 +206,10 @@
         "request": {
           "fingerprint": "be9cba5d0b901218b6a45003a0c3d07afdd961ee3a81c2d7a75828dcb31162b0",
           "claimId": "241fdbc3-f107-4a94-82e0-187d1a71c358",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-12T23:07:45.421Z",
-          "responseId": null
+          "responseId": "resp_0808da4658d8d23e006af646c5784087d29eb7b035d48bf789"
         },
         "result": null,
         "observedAt": "2026-11-12T23:07:45.350Z"
