@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-12",
+  "batch": 1,
+  "captured_at": "2026-11-12T11:08:19.628Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "U.S. envoys Steve Witkoff and Jared Kushner arrived in Moscow on November 12 for planned talks with Vladimir Putin following U.S.-mediated Russian-Ukrainian negotiations in Abu Dhabi. Russian presidential envoy Kirill Dmitriev met them at Vnukovo Airport. Their arrival was confirmed; the sources did not establish that the meeting with Putin had concluded.",
+        "category": "International diplomacy",
+        "title": "U.S. envoys arrive in Moscow following Abu Dhabi negotiations",
+        "event_date": "2026-11-12",
+        "candidate_id": "us-envoys-arrive-moscow-2026-11-12",
+        "geography": "Russia; Ukraine; United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/russia-ukraine-war-putin-kushner-witkoff-683810203340077f33611fd1d1757b23"
+          },
+          {
+            "name": "Hurriyet Daily News / Anadolu Agency",
+            "url": "https://www.hurriyetdailynews.com/amp/us-envoys-witkoff-kushner-arrive-in-moscow-for-talks-with-putin-229299"
+          }
+        ]
+      },
+      {
+        "summary": "At a November 12 news conference in Kuala Lumpur, Mongolian special envoy Zandanshatar Gombojav disclosed that Mongolia had sent Malaysia a diplomatic protest note on November 10 over the Altantuya Shaariibuu murder case. He called for review of a civil judgment, efforts to return a convicted officer from Australia, examination of potentially new evidence and a written response. The protest itself was sent earlier; the target-day development was its public disclosure.",
+        "category": "International diplomacy",
+        "title": "Mongolian envoy discloses diplomatic protest over Altantuya murder case",
+        "event_date": "2026-11-12",
+        "candidate_id": "mongolia-altantuya-protest-disclosure-2026-11-12",
+        "geography": "Malaysia; Mongolia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/malaysia-mongolia-murder-altantuya-41be72d0d6f4197870049348bf0b1cc7"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-12"
+  },
+  "metadata": {
+    "responseId": "resp_0d06f60f51632f21006af59e01cecc87d2beababa4aaab528a",
+    "requestId": "req_8d303f372037417c916c93c6db72059f",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 406,
+    "inputTokens": 38407,
+    "outputTokens": 878,
+    "webSearchCalls": 4,
+    "stage": "discovery",
+    "targetDate": "2026-11-12",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 37455,
+    "attemptDurationMs": 37455,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
