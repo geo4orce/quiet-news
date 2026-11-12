@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-11",
+  "batch": 4,
+  "captured_at": "2026-11-12T08:08:44.769Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Two people were killed and 17 others injured, four critically, when a three-story mixed-use building in Brooklyn's Flatbush neighborhood partially collapsed on November 11, according to officials. Firefighters rescued people from the rubble during the evening and continued searching into the night. The cause remained under investigation. City buildings commissioner Ahmed Tigani said excavation was underway at an adjacent construction site when the building fell.",
+        "category": "Public safety",
+        "title": "Brooklyn building collapse kills two; rescue operations continue into night",
+        "event_date": "2026-11-11",
+        "candidate_id": "brooklyn-flatbush-building-collapse",
+        "geography": "New York City; United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/brooklyn-building-collapse-202ddc195fbf2dcf14e85d004f3ac130"
+          },
+          {
+            "name": "ABC7 New York",
+            "url": "https://abc7ny.com/live-updates/brooklyn-building-collapse-live-updates-1-dead-flatbush/20034152/entry/20034474/"
+          }
+        ]
+      },
+      {
+        "summary": "The ocean liner SS United States was deliberately sunk off Florida's Panhandle on November 11 to become the world's largest artificial reef. The hourslong operation concluded in the evening. Woods Hole Oceanographic Institution announced a multiyear research effort to monitor water chemistry, microbial activity and biological colonization around the newly deployed structure. The sinking was part of an Okaloosa County project intended to create marine habitat and support diving and fishing.",
+        "category": "Environment and science",
+        "title": "SS United States sunk off Florida to create artificial reef and research site",
+        "event_date": "2026-11-11",
+        "candidate_id": "ss-united-states-artificial-reef-sinking",
+        "geography": "Florida; United States",
+        "sources": [
+          {
+            "name": "Woods Hole Oceanographic Institution",
+            "url": "https://www.whoi.edu/press-room/news-release/ssus-reef/"
+          },
+          {
+            "name": "Associated Press via NBC 6 South Florida",
+            "url": "https://www.nbcmiami.com/news/local/ss-united-states-to-be-sunk-off-floridas-panhandle-to-make-largest-artificial-reef/3886471/"
+          }
+        ]
+      },
+      {
+        "summary": "Workers across Spain staged a general strike over housing affordability on November 11, backed by UGT, CCOO and tenants' associations. Unions estimated four million participants and described the strike as mostly peaceful, with uneven participation. Evening clashes occurred in Barcelona and Madrid; Reuters witnessed police using foam bullets, tear gas and pepper spray in Madrid. Police reported at least 73 arrests nationwide by 2100 GMT. Unions alleged a police operation injured 20 protesters and said they would file a complaint; the Interior Ministry did not immediately comment.",
+        "category": "Labor and housing",
+        "title": "Spain housing strike draws millions by union estimate, with evening clashes and arrests",
+        "event_date": "2026-11-11",
+        "candidate_id": "spain-general-strike-housing-affordability",
+        "geography": "Spain",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://ca.marketscreener.com/news/workers-across-spain-stage-first-general-strike-in-14-years-in-anger-over-housing-ce785edbda88f723"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-11"
+  },
+  "metadata": {
+    "responseId": "resp_0e4c9f0e2ef3a6b9006af573dadfd487d2bc1929ca991f668e",
+    "requestId": "req_a5c0215b61c14b94ab2649aa9a82cae0",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 1052,
+    "inputTokens": 61840,
+    "outputTokens": 1750,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-11",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 54288,
+    "attemptDurationMs": 54288,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
