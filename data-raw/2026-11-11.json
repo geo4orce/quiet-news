@@ -430,12 +430,79 @@
       "request": {
         "fingerprint": "1317df15dc1af86503ea724c7280f0fa9378b1874e3c229b92c4e98f720f7bc5",
         "claimId": "160da82a-d538-4f61-af09-4b157f08543f",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-12T09:07:44.011Z",
         "responseId": "resp_0bd72476d9364ee4006af581e426f887d2b0a1bb1d6442de80"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "aws-local-emulator-general-availability",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "brooklyn-flatbush-building-collapse",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "cop31-guterres-climate-justice-compact",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "garcia-response-white-house-oversight-warning",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "germany-paypal-preliminary-competition-findings",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "russia-ukraine-abu-dhabi-talks-resume",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "spain-aepd-tiktok-abuse-content-investigation",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "spain-general-strike-housing-affordability",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ss-united-states-artificial-reef-sinking",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "wmo-undrr-2026-early-warning-systems-report",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": []
+        },
+        "metadata": {
+          "responseId": "resp_0bd72476d9364ee4006af581e426f887d2b0a1bb1d6442de80",
+          "requestId": "req_6e05a8d7d1dc4b6aa66a7dd1dbfb5c51",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 375,
+          "inputTokens": 3036,
+          "outputTokens": 713,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-11",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 22442,
+          "attemptDurationMs": 22442,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
