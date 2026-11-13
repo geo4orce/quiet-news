@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-13",
+  "batch": 2,
+  "captured_at": "2026-11-13T17:08:51.148Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Microsoft reported broader recovery in North America, sustained improvements across much of Europe and improving conditions in Asia Pacific on November 13. The company also said email queues had significantly decreased and were approaching normal levels. Some users could still experience intermittent access problems or delayed email delivery; full restoration had not been established. The Microsoft 365 disruption began November 12.",
+        "category": "technology",
+        "title": "Microsoft reports wider recovery and reduced email queues as outage continues",
+        "event_date": "2026-11-13",
+        "candidate_id": "microsoft-outage-nov13-recovery",
+        "geography": "Global",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/microsoft-outage-outlook-email-365-status-down-d92547a821930290db2964388016979a"
+          },
+          {
+            "name": "ABC7",
+            "url": "https://abc7news.com/live-updates/microsoft-outage-live-updates-what-know-outlook-365-other-apps-remain-down/20036817/entry/20038187/"
+          }
+        ]
+      },
+      {
+        "summary": "The Bureau of Labor Statistics released October producer-price data at 8:30 a.m. Eastern on November 13. The final-demand Producer Price Index increased 0.3% from September, seasonally adjusted, and 6.5% over the preceding 12 months, unadjusted—the largest annual increase since November 2022. September's monthly increase was revised to 1.4%.",
+        "category": "economy",
+        "title": "US producer prices rise 0.3% in October and 6.5% over a year",
+        "event_date": "2026-11-13",
+        "candidate_id": "us-october-2026-producer-price-release",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Bureau of Labor Statistics",
+            "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-13"
+  },
+  "metadata": {
+    "responseId": "resp_076e9ebdcf4b769f006af743e62dac87d183ec2d6ff9acb434",
+    "requestId": "req_cacd1b2c723e4d4d93fefcde1744a211",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 782,
+    "inputTokens": 56675,
+    "outputTokens": 1267,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-13",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 67215,
+    "attemptDurationMs": 67215,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
