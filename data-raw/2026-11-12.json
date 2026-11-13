@@ -319,13 +319,141 @@
         "request": {
           "fingerprint": "bb7194a2b3c13a4663bb0fc94473f759ded4d6b067f7c3da8363a23ee193d88c",
           "claimId": "43e12678-4bd1-4061-9e40-ec639643e27c",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-13T08:07:54.749Z",
           "responseId": "resp_0dd3fc587344f513006af6c55ec75c87d1b9767b4822e5c875"
         },
-        "result": null,
-        "observedAt": "2026-11-13T08:07:54.668Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Indonesian Vice President Gibran Rakabuming Raka submitted his resignation to the People's Consultative Assembly on November 12. President Prabowo Subianto publicly accepted it that afternoon. The resignation followed controversy over Gibran's eligibility and educational credentials; Gibran denied that his departure was linked to his diploma. ANTARA reported that a planned parliamentary plenary concerning possible impeachment was canceled after his resignation letter was submitted.",
+                "category": "Politics",
+                "title": "Prabowo accepts Indonesian vice president Gibran's resignation",
+                "event_date": "2026-11-12",
+                "candidate_id": "indonesia-gibran-formal-resignation-2026-11-12",
+                "geography": "Indonesia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/indonesia-gibran-rakabuming-raka-resigns-abfe5e288fad3b8b26719eae634f2ee0"
+                  },
+                  {
+                    "name": "ANTARA",
+                    "url": "https://en.antaranews.com/amp/news/442003/gibran-officially-resigns-hmp-plenary-meeting-canceled"
+                  }
+                ]
+              },
+              {
+                "summary": "Microsoft's November 12 outage affected Outlook and other Microsoft 365 services. Microsoft attributed the disruption to servers becoming unexpectedly unavailable, straining remaining infrastructure. By 6:57 p.m. Eastern, the company reported limited recovery after returning some servers to service and rerouting traffic; full restoration was not established in that update. Nearly 130,000 Outlook reports appeared on Downdetector near the earlier peak, representing user reports rather than a verified count of affected accounts.",
+                "category": "Business and technology",
+                "title": "Microsoft reports limited evening recovery from widespread service outage",
+                "event_date": "2026-11-12",
+                "candidate_id": "microsoft-outlook-service-outage-2026-11-12",
+                "geography": "Worldwide; Americas",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/microsoft-outlook-outage-email-teams-6376045281feb430c0b923e3a4b251c2"
+                  },
+                  {
+                    "name": "BleepingComputer",
+                    "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
+                  },
+                  {
+                    "name": "Williamson County, Texas",
+                    "url": "https://www.wilcotx.gov/AlertCenter.aspx?AID=Microsoft-Outlook-Email-Issues-27"
+                  }
+                ]
+              },
+              {
+                "summary": "Steve Witkoff and Jared Kushner met Vladimir Putin in Moscow on November 12, then met Volodymyr Zelenskyy in Dublin. Kushner said Putin was willing to try European participation in negotiations. Reuters, citing Russia's RIA Novosti agency, reported Witkoff said another round of trilateral talks had been agreed and Europeans would join. These were announcements about prospective negotiations, not evidence that another round had occurred. Earlier Abu Dhabi talks produced a prisoner-exchange agreement but no major breakthrough.",
+                "category": "International diplomacy",
+                "title": "U.S. envoys report agreement on further Ukraine talks with European participation",
+                "event_date": "2026-11-12",
+                "candidate_id": "us-envoys-arrive-moscow-2026-11-12",
+                "geography": "Russia; Ukraine; United States; Ireland",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/russia-ukraine-war-putin-kushner-witkoff-683810203340077f33611fd1d1757b23"
+                  },
+                  {
+                    "name": "Reuters / The Moscow Times",
+                    "url": "https://www.themoscowtimes.com/2026/11/12/us-envoy-says-new-round-of-talks-agreed-after-kremlin-meeting-a94236/pdf"
+                  },
+                  {
+                    "name": "Hurriyet Daily News / Anadolu Agency",
+                    "url": "https://www.hurriyetdailynews.com/amp/us-envoys-witkoff-kushner-arrive-in-moscow-for-talks-with-putin-229299"
+                  }
+                ]
+              },
+              {
+                "summary": "Texas executed John Allen Rubio, 46, by lethal injection in Huntsville on November 12 for the 2003 killings of three young children in Brownsville. He was pronounced dead at 6:47 p.m. Central, the Texas Department of Criminal Justice told UPI. His execution occurred hours after Oklahoma executed James Pavatt in a separate case.",
+                "category": "Justice",
+                "title": "Texas executes John Allen Rubio for murders of three children",
+                "event_date": "2026-11-12",
+                "candidate_id": "texas-john-allen-rubio-execution-2026-11-12",
+                "geography": "Texas, United States",
+                "sources": [
+                  {
+                    "name": "UPI",
+                    "url": "https://www.upi.com/Top_News/US/2026/11/12/Texas-executes-John-Allen-Rubio/6201794534694/"
+                  },
+                  {
+                    "name": "Associated Press / KLTV",
+                    "url": "https://www.kltv.com/2026/11/13/texas-executes-man-convicted-beheading-3-children/"
+                  }
+                ]
+              },
+              {
+                "summary": "New York officials announced November 12 that eight people, including two children, had died following the previous afternoon's building collapse at 1321 Flatbush Avenue in Brooklyn. Search operations concluded Thursday, with officials saying no victims remained at the site. Police released the eight victims' names Thursday night. The site was transferred to the Department of Buildings and police for investigation. Excavation was underway on an adjacent property when the building collapsed; the cause remained under investigation.",
+                "category": "Public safety",
+                "title": "Brooklyn collapse search ends; officials confirm eight deaths",
+                "event_date": "2026-11-12",
+                "candidate_id": "brooklyn-collapse-search-concludes-2026-11-12",
+                "geography": "Brooklyn, New York City, United States",
+                "sources": [
+                  {
+                    "name": "ABC7 New York",
+                    "url": "https://abc7ny.com/post/flatbush-brooklyn-building-collapse-leaves-2-dead-17-injured-search-continues/20035354/"
+                  },
+                  {
+                    "name": "NBC New York",
+                    "url": "https://www.nbcnewyork.com/news/local/live-blog-partial-building-collapse-in-nyc-rescue-crews-on-scene/6570695/"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-12"
+          },
+          "metadata": {
+            "responseId": "resp_0dd3fc587344f513006af6c55ec75c87d1b9767b4822e5c875",
+            "requestId": "req_2c7987d3194542d797d1d9de3dfd8e7d",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 1334,
+            "inputTokens": 58300,
+            "outputTokens": 2902,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-11-12",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 75682,
+            "attemptDurationMs": 75682,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-11-13T08:07:54.668Z",
+        "capturedAt": "2026-11-13T08:09:10.431Z"
       }
     ],
     "sift": null
