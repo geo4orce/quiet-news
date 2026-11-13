@@ -469,12 +469,98 @@
       "request": {
         "fingerprint": "8850bb6607cfe0e4eee559348b41ca2cbc0e30dd6ec4ae92213f1e566a42198f",
         "claimId": "76a89d27-2e96-40c4-ab5d-c473b22fa462",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-13T09:07:43.719Z",
         "responseId": "resp_0a39785a585bae44006af6d36318ec87d1b2ba9e9ec24e8923"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "brooklyn-collapse-search-concludes-2026-11-12",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "indonesia-gibran-formal-resignation-2026-11-12",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "mongolia-altantuya-protest-disclosure-2026-11-12",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "oklahoma-james-pavatt-execution-2026-11-12",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "texas-john-allen-rubio-execution-2026-11-12",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "us-envoys-arrive-moscow-2026-11-12",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "washington-logan-circle-shootings-2026-11-12",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "An outage disrupted Outlook and other Microsoft 365 services Thursday. Microsoft said some servers unexpectedly became unavailable, straining the remaining infrastructure.\n\nBy 6:57 p.m. Eastern, the company reported limited recovery after returning some servers to service and rerouting traffic. Full restoration had not been established in that update.\n\nNearly 130,000 Outlook reports appeared on Downdetector near the earlier peak. Those were user reports, not a verified count of affected accounts.",
+              "candidate_id": "microsoft-outlook-service-outage-2026-11-12",
+              "headline": "Microsoft outage disrupts Outlook and other services",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/microsoft-outlook-outage-email-teams-6376045281feb430c0b923e3a4b251c2"
+                },
+                {
+                  "name": "BleepingComputer",
+                  "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
+                }
+              ]
+            },
+            {
+              "body": "Nvidia said Thursday that Jensen Huang had resigned as chief executive and that chief financial officer Colette Kress would serve as interim CEO. His departure followed disclosures of extramarital relationships.\n\nThe board named Harvey C. Jones chairman and said it would consider both internal and external candidates for a permanent chief executive.",
+              "candidate_id": "nvidia-huang-resignation-kress-interim-2026-11-12",
+              "headline": "Jensen Huang resigns as Nvidia chief executive",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f"
+                },
+                {
+                  "name": "Yahoo Finance",
+                  "url": "https://finance.yahoo.com/technology/article/nvidia-ceo-huang-resigns-amid-affair-scandals-board-names-cfo-colette-kress-interim-ceo-135801377.html"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0a39785a585bae44006af6d36318ec87d1b2ba9e9ec24e8923",
+          "requestId": "req_594004120a614d1ea89369ba8a7dbd3e",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 2070,
+          "inputTokens": 3041,
+          "outputTokens": 2835,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-12",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 63635,
+          "attemptDurationMs": 63635,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
