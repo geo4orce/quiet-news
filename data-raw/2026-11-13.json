@@ -239,13 +239,61 @@
         "request": {
           "fingerprint": "a31fc7161d5ebe202d752a49a2bb3ec6b811ad6e5efc784e17f39f7a544ec06e",
           "claimId": "d5455180-9f67-4782-b61d-f0d32107ef2b",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-13T23:07:45.047Z",
           "responseId": "resp_00d4526d6769694e006af7984526ac87d1b2cb0ba62fb0de1f"
         },
-        "result": null,
-        "observedAt": "2026-11-13T23:07:45.006Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Federal Aviation Administration ordered a nationwide ground stop on November 13 afternoon after communications problems affected regional air traffic control centers. Departing aircraft were ordered to remain on the ground, while inbound international flights were to be handled individually. Officials said airborne flights were accounted for and continued landing. Homeland Security Secretary Markwayne Mullin said the cause remained under investigation and there was no indication at that point of an attack. No connection to the Microsoft outage had been established.",
+                "category": "transportation",
+                "title": "FAA halts departures nationwide after air traffic control communications outage",
+                "event_date": "2026-11-13",
+                "candidate_id": "faa-nationwide-ground-stop-nov13",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/flights-halted-airports-faa-f81b0904331dafad6133f291e5f531a8"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/6aaa6bd4991ef22eb0c3baa6961a91d1"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-13"
+          },
+          "metadata": {
+            "responseId": "resp_00d4526d6769694e006af7984526ac87d1b2cb0ba62fb0de1f",
+            "requestId": "req_cb3bc94e27a1467d8cad05a5231bdc25",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 994,
+            "inputTokens": 49974,
+            "outputTokens": 1244,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-13",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 59781,
+            "attemptDurationMs": 59781,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-11-13T23:07:45.006Z",
+        "capturedAt": "2026-11-13T23:08:44.830Z"
       }
     ],
     "sift": null
