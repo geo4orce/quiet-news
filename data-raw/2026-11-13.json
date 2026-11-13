@@ -41,13 +41,61 @@
         "request": {
           "fingerprint": "08e975514e96ac812be9239f11454acd76f22b3f2ee4c44d0ac2c3fa0eba31ca",
           "claimId": "36b25a2c-23fa-45d7-b18a-407ed591ad9e",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-13T11:07:47.771Z",
           "responseId": "resp_0c71a2375219eafd006af6ef8823a487d1be2dbbb503e80dfe"
         },
-        "result": null,
-        "observedAt": "2026-11-13T11:07:47.697Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Microsoft reported early stabilization and capacity improvements on November 13 as recovery work continued on the Microsoft 365 outage that began November 12. Full restoration had not been established. Earlier recovery attempts had not worked as expected, and the disruption continued to affect Outlook, Teams and other services. Microsoft said it had no indication that malicious activity caused the outage.",
+                "category": "technology",
+                "title": "Microsoft reports early stabilization as global service outage continues",
+                "event_date": "2026-11-13",
+                "candidate_id": "microsoft-outage-nov13-recovery",
+                "geography": "Global",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/microsoft-outage-outlook-email-365-status-down-d92547a821930290db2964388016979a"
+                  },
+                  {
+                    "name": "ABC7",
+                    "url": "https://abc7news.com/live-updates/microsoft-outage-live-updates-what-know-outlook-365-other-apps-remain-down/20036817/entry/20037599/"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-13"
+          },
+          "metadata": {
+            "responseId": "resp_0c71a2375219eafd006af6ef8823a487d1be2dbbb503e80dfe",
+            "requestId": "req_c92b5defb3234d7f801a423ae288fc8c",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 693,
+            "inputTokens": 47781,
+            "outputTokens": 931,
+            "webSearchCalls": 5,
+            "stage": "discovery",
+            "targetDate": "2026-11-13",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 44357,
+            "attemptDurationMs": 44357,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-11-13T11:07:47.697Z",
+        "capturedAt": "2026-11-13T11:08:32.129Z"
       }
     ],
     "sift": null
