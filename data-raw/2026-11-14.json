@@ -31,13 +31,111 @@
         "request": {
           "fingerprint": "a7f74ffc88d7eeb317d8596725ab3161ad6251c45b5ced14b67bf9b2889237ff",
           "claimId": "d076e5c4-de17-4b17-acd9-71315d539ff1",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-14T11:07:46.614Z",
           "responseId": "resp_0f963a6aaff04918006af84106e2c887d1af348af3073256e0"
         },
-        "result": null,
-        "observedAt": "2026-11-14T11:07:46.540Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Associated Press called Alaska’s governor election for Democrat Jonathan Kreiss-Tomkins at 12:01 a.m. Eastern on November 14. The former state lawmaker defeated Republicans Dave Bronson, Treg Taylor and Bernadette Wilson. He will succeed term-limited Republican Governor Mike Dunleavy; the call does not constitute certification of the election.",
+                "category": "politics",
+                "title": "AP calls Alaska governor’s race for Jonathan Kreiss-Tomkins",
+                "event_date": "2026-11-14",
+                "candidate_id": "alaska-governor-kreiss-tomkins-race-call",
+                "geography": "Alaska, United States",
+                "sources": [
+                  {
+                    "name": "Associated Press via AOL",
+                    "url": "https://www.aol.com/articles/democrat-jonathan-kreiss-tomkins-wins-050139000.html"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/a0ea2adfd3b94fba848fb69d2d15e782"
+                  }
+                ]
+              },
+              {
+                "summary": "More than 2,500 U.S. flights scheduled for Saturday were canceled and hundreds more delayed, according to FlightAware figures reported by the Associated Press. The cancellations followed Friday evening’s lifting of the nationwide FAA ground stop and represent continuing disruption rather than a new nationwide flight suspension.",
+                "category": "transportation",
+                "title": "Saturday flight cancellations exceed 2,500 after FAA ground stop",
+                "event_date": "2026-11-14",
+                "candidate_id": "us-flights-saturday-cancellations-after-ground-stop",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/ground-stop-flights-airlines-cancellations-faa-1fbf4992f0ddaa4c463b0e4990b6e291"
+                  }
+                ]
+              },
+              {
+                "summary": "Microsoft said Saturday that it had addressed the underlying issue behind its global outage and restored service to the remaining affected customers and regions. The disruption affected Outlook, Teams and other products for more than 24 hours. Microsoft attributed the incident to technical problems associated with a network capacity upgrade and said it was not aware of malicious activity.",
+                "category": "technology",
+                "title": "Microsoft announces full service recovery after global outage",
+                "event_date": "2026-11-14",
+                "candidate_id": "microsoft-global-outage-full-recovery-announcement",
+                "geography": "Global",
+                "sources": [
+                  {
+                    "name": "Reuters via The Jakarta Post",
+                    "url": "https://www.thejakartapost.com/business/2026/11/14/microsoft-restores-service-to-outlook-and-teams-after-global-outage"
+                  },
+                  {
+                    "name": "LaPresse",
+                    "url": "https://lapresse.us/world/2026/11/14/microsoft-company-all-services-restored-following-global-outage/"
+                  }
+                ]
+              },
+              {
+                "summary": "ASEAN foreign ministers met in Manila on November 14 under Philippine Foreign Secretary Theresa Lazaro’s chairmanship. ASEAN’s Secretariat said the meeting addressed preparations for the 49th ASEAN Summit, regional and international issues, external relations and community-building. The meeting itself did not establish adoption of the draft summit communiques or completion of a South China Sea code of conduct.",
+                "category": "international",
+                "title": "ASEAN foreign ministers hold pre-summit meeting in Manila",
+                "event_date": "2026-11-14",
+                "candidate_id": "asean-foreign-ministers-manila-meeting",
+                "geography": "Manila, Philippines; Southeast Asia",
+                "sources": [
+                  {
+                    "name": "ASEAN Secretariat",
+                    "url": "https://asean.org/secretary-general-of-asean-participates-in-the-asean-foreign-ministers-meeting/"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/asean-manila-philippines-trump-c6424379b1a551099f40b8f4a0318427"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-14"
+          },
+          "metadata": {
+            "responseId": "resp_0f963a6aaff04918006af84106e2c887d1af348af3073256e0",
+            "requestId": "req_d34d047945d246f3bbada2e6d3622356",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 628,
+            "inputTokens": 55413,
+            "outputTokens": 1432,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-11-14",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 43926,
+            "attemptDurationMs": 43926,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-11-14T11:07:46.540Z",
+        "capturedAt": "2026-11-14T11:08:30.540Z"
       }
     ],
     "sift": null
