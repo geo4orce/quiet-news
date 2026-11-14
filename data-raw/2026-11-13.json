@@ -294,6 +294,50 @@
         },
         "observedAt": "2026-11-13T23:07:45.006Z",
         "capturedAt": "2026-11-13T23:08:44.830Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Microsoft outage disrupts Outlook and other services",
+            "body": "An outage disrupted Outlook and other Microsoft 365 services Thursday. Microsoft said some servers unexpectedly became unavailable, straining the remaining infrastructure.\n\nBy 6:57 p.m. Eastern, the company reported limited recovery after returning some servers to service and rerouting traffic. Full restoration had not been established in that update.\n\nNearly 130,000 Outlook reports appeared on Downdetector near the earlier peak. Those were user reports, not a verified count of affected accounts.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/microsoft-outlook-outage-email-teams-6376045281feb430c0b923e3a4b251c2"
+              },
+              {
+                "name": "BleepingComputer",
+                "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
+              }
+            ]
+          },
+          {
+            "headline": "Jensen Huang resigns as Nvidia chief executive",
+            "body": "Nvidia said Thursday that Jensen Huang had resigned as chief executive and that chief financial officer Colette Kress would serve as interim CEO. His departure followed disclosures of extramarital relationships.\n\nThe board named Harvey C. Jones chairman and said it would consider both internal and external candidates for a permanent chief executive.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f"
+              },
+              {
+                "name": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/technology/article/nvidia-ceo-huang-resigns-amid-affair-scandals-board-names-cfo-colette-kress-interim-ceo-135801377.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "326753d782f3180b270f0c0085e744c2b43ac7b3e528a8f40c62932d0042b72a",
+          "claimId": "cbc30d22-5a25-40d1-81d2-e6c10d0958b6",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-11-14T08:07:51.213Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-11-14T08:07:51.101Z"
       }
     ],
     "sift": null
