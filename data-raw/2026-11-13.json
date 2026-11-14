@@ -331,10 +331,10 @@
         "request": {
           "fingerprint": "326753d782f3180b270f0c0085e744c2b43ac7b3e528a8f40c62932d0042b72a",
           "claimId": "cbc30d22-5a25-40d1-81d2-e6c10d0958b6",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-14T08:07:51.213Z",
-          "responseId": null
+          "responseId": "resp_067a98de01fc5906006af816db74c887d1801501805eb31385"
         },
         "result": null,
         "observedAt": "2026-11-14T08:07:51.101Z"
