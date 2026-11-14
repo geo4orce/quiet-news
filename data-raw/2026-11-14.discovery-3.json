@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-14",
+  "batch": 3,
+  "captured_at": "2026-11-14T23:08:38.940Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "SpaceX’s Starship upper stage returned from orbit on November 14 and was caught by the launch tower’s mechanical arms at Starbase, Texas, the first successful capture of a Starship spacecraft returning from space. The spacecraft completed 14 orbits during roughly 22 hours after its November 13 launch on Flight 15. The Super Heavy booster was not recovered: its attempted return on November 13 was aborted and it exploded in the Gulf of Mexico. The upper-stage recovery therefore did not constitute recovery of both stages on this flight.",
+        "category": "science",
+        "title": "SpaceX catches Starship upper stage after orbital flight",
+        "event_date": "2026-11-14",
+        "candidate_id": "spacex-starship-flight15-first-upper-stage-catch",
+        "geography": "Starbase, Texas, United States; Earth orbit",
+        "sources": [
+          {
+            "name": "Associated Press via South Carolina Public Radio",
+            "url": "https://www.southcarolinapublicradio.org/news/2026-11-14/spacex-successfully-catches-starship-and-makes-history"
+          }
+        ]
+      },
+      {
+        "summary": "Transportation Secretary Sean Duffy said November 14 that Friday’s FAA disruption began during L3Harris work switching copper telecommunications lines to fiber at a remote facility. He said a router flooded other routers with connection attempts; investigators had not determined whether installation error or faulty equipment caused it. L3Harris said it was supporting the investigation. FAA Administrator Bryan Bedford distinguished the maintenance from the separate modernization program. Thousands of Saturday flights were canceled as airlines recovered; airspace had reopened Friday, and officials said FAA systems were fully operational.",
+        "category": "transportation",
+        "title": "Duffy identifies contractor and router problem in FAA outage investigation",
+        "event_date": "2026-11-14",
+        "candidate_id": "us-flights-saturday-cancellations-after-ground-stop",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Department of Transportation",
+            "url": "https://www.transportation.gov/briefing-room/icymi-us-transportation-secretary-sean-p-duffy-provides-update-restoration-airspace"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/ground-stop-flights-airlines-cancellations-faa-1fbf4992f0ddaa4c463b0e4990b6e291"
+          }
+        ]
+      },
+      {
+        "summary": "In remarks released by his office on November 14, Ukrainian President Volodymyr Zelenskyy alleged that speed restrictions on SpaceX’s military-grade Starshield terminals in Russian-occupied Ukrainian territory had hampered air defenses for five days. He said he had directed military and diplomatic officials to seek clarification and removal of the restrictions. SpaceX denied introducing new restrictions or changing its satellite operations. The reported target-day development is Zelenskyy’s statement, not independently established implementation of a new restriction that day.",
+        "category": "international",
+        "title": "Zelenskyy challenges alleged Starshield restrictions; SpaceX denies changes",
+        "event_date": "2026-11-14",
+        "candidate_id": "zelensky-starshield-restrictions-dispute-nov14",
+        "geography": "Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via The Moscow Times",
+            "url": "https://www.themoscowtimes.com/2026/11/14/zelensky-a94262/pdf"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-14"
+  },
+  "metadata": {
+    "responseId": "resp_0a1bacb70efa3320006af8e9ca274887d1bf505e9e2706de61",
+    "requestId": "req_9ed5b269e419437eb46bbe88ca4f4c9a",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 668,
+    "inputTokens": 49230,
+    "outputTokens": 1359,
+    "webSearchCalls": 5,
+    "stage": "discovery",
+    "targetDate": "2026-11-14",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 49922,
+    "attemptDurationMs": 49922,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
