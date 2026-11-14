@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-14",
+  "batch": 2,
+  "captured_at": "2026-11-14T17:08:32.474Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "More than 2,500 U.S. flights scheduled for November 14 were canceled, according to FlightAware figures reported by AP, as airlines recovered from Friday’s nationwide FAA ground stop. At a Saturday morning news conference, Transportation Secretary Sean Duffy said a contractor’s work replacing copper wiring with fiber had caused a system overload. He said investigators were examining whether faulty wiring or contractor performance was responsible. The cancellations were continuing disruption, not a new nationwide flight suspension.",
+        "category": "transportation",
+        "title": "Duffy links FAA disruption to wiring upgrade as Saturday cancellations continue",
+        "event_date": "2026-11-14",
+        "candidate_id": "us-flights-saturday-cancellations-after-ground-stop",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/ground-stop-flights-airlines-cancellations-faa-1fbf4992f0ddaa4c463b0e4990b6e291"
+          },
+          {
+            "name": "Associated Press via CityNews",
+            "url": "https://edmonton.citynews.ca/2026/11/14/what-to-know-about-flights-after-the-us-nationwide-ground-stop/"
+          }
+        ]
+      },
+      {
+        "summary": "An Israeli drone strike killed two Palestinians in Jabaliya on November 14, according to Shifa Hospital director Mohamed Abu Selmiya. The American field hospital reported additional wounded people without specifying a number. The Israeli military said it had struck two Hamas militants in the area.",
+        "category": "international",
+        "title": "Hospital officials report two Palestinians killed in Israeli strike in Jabaliya",
+        "event_date": "2026-11-14",
+        "candidate_id": "gaza-jabaliya-drone-strike-nov14",
+        "geography": "Jabaliya, Gaza Strip",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-november-14-ade76bebaf22135168aac6eb3016bc19"
+          }
+        ]
+      },
+      {
+        "summary": "The Associated Press called the defeat of Alaska’s election-system repeal measure overnight on November 14, NPR reported. The measure would have repealed the state’s nonpartisan top-four primaries and ranked-choice general elections. The call concerns ballots cast in the November 3 election; it is not election certification.",
+        "category": "politics",
+        "title": "AP calls defeat of Alaska measure to repeal ranked-choice voting",
+        "event_date": "2026-11-14",
+        "candidate_id": "alaska-ranked-choice-repeal-defeat-call",
+        "geography": "Alaska, United States",
+        "sources": [
+          {
+            "name": "NPR via WJCT",
+            "url": "https://news.wjct.org/elections/2026-11-14/alaska-voters-arent-ditching-ranked-choice-voting-top-four-primaries"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-14"
+  },
+  "metadata": {
+    "responseId": "resp_0ecc99d73482d49a006af895686a3087d1a308403c71239bee",
+    "requestId": "req_1dac5c1ef2124d8684e8f92904eb9bad",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 678,
+    "inputTokens": 48127,
+    "outputTokens": 1276,
+    "webSearchCalls": 5,
+    "stage": "discovery",
+    "targetDate": "2026-11-14",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 43489,
+    "attemptDurationMs": 43489,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
