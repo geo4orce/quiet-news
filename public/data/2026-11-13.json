@@ -1,0 +1,25 @@
+{
+  "edition_date": "2026-11-13",
+  "published_at": "2026-11-14T09:08:13.735Z",
+  "expires_at": "2026-11-15T10:00:00.000Z",
+  "stories": [
+    {
+      "headline": "FAA lifts nationwide ground stop after disruption",
+      "body": "The FAA allowed departures to resume at 8:15 p.m. Eastern Friday, lifting a nationwide ground stop that had lasted more than four hours. Flight schedules remained disrupted afterward.\n\nTransportation Secretary Sean Duffy said radar data and communications had become unstable across air traffic facilities, though the agency had not lost all telecommunications. Officials attributed the disruption to overloaded older equipment, with the underlying cause still under investigation.\n\nHomeland Security Secretary Markwayne Mullin said investigators had found no evidence of a cyberattack and no connection to the Microsoft outage.",
+      "sources": [
+        {
+          "name": "Port of Bellingham",
+          "url": "https://www.portofbellingham.com/AlertCenter.aspx?AID=FAA-Ground-Stop-Lifted-Check-with-Your-A-17"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/flights-halted-airports-faa-f81b0904331dafad6133f291e5f531a8"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/6aaa6bd4991ef22eb0c3baa6961a91d1"
+        }
+      ]
+    }
+  ]
+}

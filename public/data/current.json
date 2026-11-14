@@ -1,33 +1,23 @@
 {
-  "edition_date": "2026-11-12",
-  "published_at": "2026-11-13T09:08:49.316Z",
-  "expires_at": "2026-11-14T10:00:00.000Z",
+  "edition_date": "2026-11-13",
+  "published_at": "2026-11-14T09:08:13.735Z",
+  "expires_at": "2026-11-15T10:00:00.000Z",
   "stories": [
     {
-      "headline": "Microsoft outage disrupts Outlook and other services",
-      "body": "An outage disrupted Outlook and other Microsoft 365 services Thursday. Microsoft said some servers unexpectedly became unavailable, straining the remaining infrastructure.\n\nBy 6:57 p.m. Eastern, the company reported limited recovery after returning some servers to service and rerouting traffic. Full restoration had not been established in that update.\n\nNearly 130,000 Outlook reports appeared on Downdetector near the earlier peak. Those were user reports, not a verified count of affected accounts.",
+      "headline": "FAA lifts nationwide ground stop after disruption",
+      "body": "The FAA allowed departures to resume at 8:15 p.m. Eastern Friday, lifting a nationwide ground stop that had lasted more than four hours. Flight schedules remained disrupted afterward.\n\nTransportation Secretary Sean Duffy said radar data and communications had become unstable across air traffic facilities, though the agency had not lost all telecommunications. Officials attributed the disruption to overloaded older equipment, with the underlying cause still under investigation.\n\nHomeland Security Secretary Markwayne Mullin said investigators had found no evidence of a cyberattack and no connection to the Microsoft outage.",
       "sources": [
         {
-          "name": "Associated Press",
-          "url": "https://apnews.com/article/microsoft-outlook-outage-email-teams-6376045281feb430c0b923e3a4b251c2"
+          "name": "Port of Bellingham",
+          "url": "https://www.portofbellingham.com/AlertCenter.aspx?AID=FAA-Ground-Stop-Lifted-Check-with-Your-A-17"
         },
         {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
-        }
-      ]
-    },
-    {
-      "headline": "Jensen Huang resigns as Nvidia chief executive",
-      "body": "Nvidia said Thursday that Jensen Huang had resigned as chief executive and that chief financial officer Colette Kress would serve as interim CEO. His departure followed disclosures of extramarital relationships.\n\nThe board named Harvey C. Jones chairman and said it would consider both internal and external candidates for a permanent chief executive.",
-      "sources": [
-        {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f"
+          "url": "https://apnews.com/article/flights-halted-airports-faa-f81b0904331dafad6133f291e5f531a8"
         },
         {
-          "name": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/article/nvidia-ceo-huang-resigns-amid-affair-scandals-board-names-cfo-colette-kress-interim-ceo-135801377.html"
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/6aaa6bd4991ef22eb0c3baa6961a91d1"
         }
       ]
     }
