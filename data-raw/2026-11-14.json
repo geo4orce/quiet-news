@@ -163,10 +163,10 @@
         "request": {
           "fingerprint": "215e46a08055bbd0b7183acf0676cff8cd57a47b9562e09843396eef99e9a56a",
           "claimId": "6e9153b7-7c7b-46ed-aa8f-c746d7a30f11",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-14T17:07:48.985Z",
-          "responseId": null
+          "responseId": "resp_0ecc99d73482d49a006af895686a3087d1a308403c71239bee"
         },
         "result": null,
         "observedAt": "2026-11-14T17:07:48.918Z"
