@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-13",
+  "batch": 4,
+  "captured_at": "2026-11-14T08:08:40.233Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The FAA lifted its nationwide ground stop at 8:15 p.m. Eastern on November 13, allowing departures to resume after more than four hours of disruption. Transportation Secretary Sean Duffy said radar data and communications had become unstable across air traffic facilities; the agency had not lost all telecommunications. Officials attributed the disruption to overloaded older equipment, with the underlying cause still under investigation. Homeland Security Secretary Markwayne Mullin said investigators had found no evidence of a cyberattack and no connection to the Microsoft outage. Flight schedules remained disrupted after the restriction ended.",
+        "category": "transportation",
+        "title": "FAA lifts nationwide ground stop after communications disruption",
+        "event_date": "2026-11-13",
+        "candidate_id": "faa-nationwide-ground-stop-nov13",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Port of Bellingham",
+            "url": "https://www.portofbellingham.com/AlertCenter.aspx?AID=FAA-Ground-Stop-Lifted-Check-with-Your-A-17"
+          },
+          {
+            "name": "Business Travel News",
+            "url": "https://www.businesstravelnews.com/Transportation/Air/faa-issues-nationwide-ground-stop-of-flights-citing-communication-issue"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/flights-halted-airports-faa-f81b0904331dafad6133f291e5f531a8"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/6aaa6bd4991ef22eb0c3baa6961a91d1"
+          }
+        ]
+      },
+      {
+        "summary": "Microsoft marked its Exchange Online and related Microsoft 365 incidents as service restored late on November 13; the suite incident's final update was recorded at 11:17 p.m. Eastern. Earlier evening updates reported continued recovery while engineers monitored accumulated email and remaining dependent-service problems. Microsoft identified the preliminary cause as an issue introduced during an earlier network-capacity upgrade that surfaced after a recent network change, and said it was unrelated to cyberattacks or AI agents. Its final notice retained language about restoring remaining customers and regions, so the status designation does not independently establish that every residual problem had ended.",
+        "category": "technology",
+        "title": "Microsoft marks outage incidents restored late Friday and identifies preliminary cause",
+        "event_date": "2026-11-13",
+        "candidate_id": "microsoft-outage-nov13-recovery",
+        "geography": "Global",
+        "sources": [
+          {
+            "name": "Microsoft incident reports, mirrored by the University of Pennsylvania",
+            "url": "https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html?q=EX1550543"
+          },
+          {
+            "name": "ABC7",
+            "url": "https://abc7.com/live-updates/microsoft-outage-live-updates-what-know-outlook-365-other-apps-remain-down/20036817/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-13"
+  },
+  "metadata": {
+    "responseId": "resp_067a98de01fc5906006af816db74c887d1801501805eb31385",
+    "requestId": "req_18d9c2b373064ad8888e784fb6dca0f1",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 836,
+    "inputTokens": 48905,
+    "outputTokens": 1562,
+    "webSearchCalls": 5,
+    "stage": "discovery",
+    "targetDate": "2026-11-13",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 49020,
+    "attemptDurationMs": 49020,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
