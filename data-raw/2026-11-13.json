@@ -456,10 +456,10 @@
       "request": {
         "fingerprint": "95e627a5fe3eb32f73cd448fa0653765ae5c43b8308534c70fdc472898d15763",
         "claimId": "5cbd0426-a152-4c15-b557-48b3f2785fa9",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-11-14T09:07:44.130Z",
-        "responseId": null
+        "responseId": "resp_03ea8a9e7b3eedbc006af824e3f4f087d1bf94d16780480483"
       },
       "result": null
     }
