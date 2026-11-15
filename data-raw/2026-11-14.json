@@ -490,12 +490,98 @@
       "request": {
         "fingerprint": "c595971f6398188c996dc567508378cd625f7b985669519aca9f2e7bc1adce84",
         "claimId": "92a80454-c783-43ce-9d4d-f6412adedd30",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-15T09:07:44.308Z",
         "responseId": "resp_0c0e231331e231c4006af97663ae4087d29578a73f0d7b694c"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "alaska-governor-kreiss-tomkins-race-call",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "alaska-ranked-choice-repeal-defeat-call",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "asean-foreign-ministers-manila-meeting",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "east-potomac-park-closure-temporary-restraining-order",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "gaza-jabaliya-drone-strike-nov14",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "miami-airport-copa-ups-taxiway-collision",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-flights-saturday-cancellations-after-ground-stop",
+              "code": "prior_day_repetition"
+            },
+            {
+              "candidate_id": "zelensky-starshield-restrictions-dispute-nov14",
+              "code": "weak_support"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Microsoft said Saturday that it had restored service to the remaining customers and regions affected by a global outage that disrupted Outlook, Teams and other products for more than 24 hours.\n\nThe company said it had fixed the underlying issue, which it linked to technical problems associated with a network capacity upgrade. It said it was not aware of malicious activity.",
+              "candidate_id": "microsoft-global-outage-full-recovery-announcement",
+              "headline": "Microsoft restores service after global outage",
+              "sources": [
+                {
+                  "name": "Reuters via The Jakarta Post",
+                  "url": "https://www.thejakartapost.com/business/2026/11/14/microsoft-restores-service-to-outlook-and-teams-after-global-outage"
+                },
+                {
+                  "name": "LaPresse",
+                  "url": "https://lapresse.us/world/2026/11/14/microsoft-company-all-services-restored-following-global-outage/"
+                }
+              ]
+            },
+            {
+              "body": "SpaceX’s Starship upper stage completed 14 orbits over roughly 22 hours before returning to Starbase, Texas, on Saturday, where the launch tower’s mechanical arms caught it. It was the first successful capture of a Starship spacecraft returning from space.\n\nThe flight did not recover both rocket stages. The Super Heavy booster’s return attempt was aborted after Friday’s launch, and the booster exploded in the Gulf of Mexico.",
+              "candidate_id": "spacex-starship-flight15-first-upper-stage-catch",
+              "headline": "SpaceX catches Starship returning from orbit",
+              "sources": [
+                {
+                  "name": "Associated Press via South Carolina Public Radio",
+                  "url": "https://www.southcarolinapublicradio.org/news/2026-11-14/spacex-successfully-catches-starship-and-makes-history"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0c0e231331e231c4006af97663ae4087d29578a73f0d7b694c",
+          "requestId": "req_7c9a8a9708b04628a8fb9bad774b97d7",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 1227,
+          "inputTokens": 3242,
+          "outputTokens": 1914,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-14",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 37940,
+          "attemptDurationMs": 37940,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
