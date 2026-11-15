@@ -171,13 +171,93 @@
         "request": {
           "fingerprint": "d0d6c25edae80e0e3919c6c9ed97b276215482b99ecf16bf1170ed78494d798f",
           "claimId": "d81faae7-c6b2-4e86-8e6c-770d606c1790",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-15T17:08:00.181Z",
           "responseId": "resp_04b3b76e41911767006af9e6f4a18487d286cf1de67ebc0252"
         },
-        "result": null,
-        "observedAt": "2026-11-15T17:08:00.118Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Jordan's State Security Court sentenced three men to death on Sunday for an October 23 attack during a funeral at Saint George's Orthodox Church in Hmoud, Karak governorate, that killed nine people. The convictions included terrorism offences resulting in death and weapons offences. Reuters, citing state news agency Petra, reported that the ruling remains subject to appeal and automatic review by the Court of Cassation.",
+                "category": "justice",
+                "title": "Jordan court sentences three men to death over October church attack",
+                "event_date": "2026-11-15",
+                "candidate_id": "jordan-church-attack-death-sentences",
+                "geography": "Jordan",
+                "sources": [
+                  {
+                    "name": "The National",
+                    "url": "https://www.thenationalnews.com/news/mena/2026/11/15/jordan-sentences-three-men-to-death-over-deadly-church-attack/"
+                  },
+                  {
+                    "name": "Reuters via Devdiscourse",
+                    "url": "https://www.devdiscourse.com/article/international/4007130-reuters-world-news-summary"
+                  }
+                ]
+              },
+              {
+                "summary": "Voting began Sunday in Cape Verde's presidential election, with incumbent José Maria Neves seeking a second term against five challengers, including former justice minister Joana Rosa, the country's first female presidential candidate. Campaign issues included youth employment and emigration. AFP reported that polling began at 09:00 GMT. No election outcome had been established in the reporting reviewed.",
+                "category": "politics",
+                "title": "Cape Verde begins presidential voting with employment and emigration in focus",
+                "event_date": "2026-11-15",
+                "candidate_id": "cape-verde-presidential-voting-opens",
+                "geography": "Cape Verde",
+                "sources": [
+                  {
+                    "name": "Agence France-Presse via Philstar",
+                    "url": "https://www.philstar.com/world/2026/11/15/2570308/cape-verde-votes-president-incumbent-favored-win/amp/"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Cape%2BVerde%2Bvotes%2Bfor%2Bpresident%2Bwith%2Bemigration%2Bin%2Bfocus/27346263.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Most Gulf stock markets closed lower Sunday. Saudi Arabia's benchmark fell 0.7% to 10,258, while Qatar's index dropped 1.8% to 9,848. Bahrain, Oman and Kuwait also declined; Egypt's blue-chip index rose 0.3%. Reuters attributed the trading backdrop to continuing disruption in the Strait of Hormuz and Houthi attacks on Saudi Arabia.",
+                "category": "economy",
+                "title": "Gulf stock markets mostly close lower amid regional conflict",
+                "event_date": "2026-11-15",
+                "candidate_id": "gulf-stock-markets-sunday-declines",
+                "geography": "Saudi Arabia; Qatar; Bahrain; Oman; Kuwait; Egypt",
+                "sources": [
+                  {
+                    "name": "Reuters via Business Recorder",
+                    "url": "https://www.brecorder.com/news/40449028/"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-15"
+          },
+          "metadata": {
+            "responseId": "resp_04b3b76e41911767006af9e6f4a18487d286cf1de67ebc0252",
+            "requestId": "req_069b80370f6346e8b7ab484d8a23158f",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 722,
+            "inputTokens": 56574,
+            "outputTokens": 1365,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-11-15",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 38988,
+            "attemptDurationMs": 38988,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-11-15T17:08:00.118Z",
+        "capturedAt": "2026-11-15T17:08:39.170Z"
       }
     ],
     "sift": null
