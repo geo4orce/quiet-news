@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-15",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Microsoft restores service after global outage",
+            "body": "Microsoft said Saturday that it had restored service to the remaining customers and regions affected by a global outage that disrupted Outlook, Teams and other products for more than 24 hours.\n\nThe company said it had fixed the underlying issue, which it linked to technical problems associated with a network capacity upgrade. It said it was not aware of malicious activity.",
+            "sources": [
+              {
+                "name": "Reuters via The Jakarta Post",
+                "url": "https://www.thejakartapost.com/business/2026/11/14/microsoft-restores-service-to-outlook-and-teams-after-global-outage"
+              },
+              {
+                "name": "LaPresse",
+                "url": "https://lapresse.us/world/2026/11/14/microsoft-company-all-services-restored-following-global-outage/"
+              }
+            ]
+          },
+          {
+            "headline": "SpaceX catches Starship returning from orbit",
+            "body": "SpaceX’s Starship upper stage completed 14 orbits over roughly 22 hours before returning to Starbase, Texas, on Saturday, where the launch tower’s mechanical arms caught it. It was the first successful capture of a Starship spacecraft returning from space.\n\nThe flight did not recover both rocket stages. The Super Heavy booster’s return attempt was aborted after Friday’s launch, and the booster exploded in the Gulf of Mexico.",
+            "sources": [
+              {
+                "name": "Associated Press via South Carolina Public Radio",
+                "url": "https://www.southcarolinapublicradio.org/news/2026-11-14/spacex-successfully-catches-starship-and-makes-history"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "a256ce7eaff6b9891247de88a23e9889374e613577a3ea4abb121ee682a44a79",
+          "claimId": "4d6fe336-1a5d-4736-8383-5eb3456bb0ba",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-11-15T11:07:48.535Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-11-15T11:07:48.465Z"
+      }
+    ],
+    "sift": null
+  }
+}
