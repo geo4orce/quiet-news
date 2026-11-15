@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-14",
+  "batch": 4,
+  "captured_at": "2026-11-15T08:08:42.561Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "U.S. District Judge Ana Reyes issued a temporary restraining order on November 14 blocking the planned November 15 closure of East Potomac Park and its public golf course. The order requires maintaining existing public-access hours through November 28 unless the court orders otherwise. Reyes preliminarily found that the government’s stated reasons for closure were pretextual and that it likely violated environmental and administrative requirements. The order permits repairs subject to existing notice requirements; it is not a final ruling on the redevelopment litigation.",
+        "category": "legal",
+        "title": "Federal judge temporarily blocks closure of East Potomac Park and golf course",
+        "event_date": "2026-11-14",
+        "candidate_id": "east-potomac-park-closure-temporary-restraining-order",
+        "geography": "Washington, District of Columbia, United States",
+        "sources": [
+          {
+            "name": "U.S. District Court for the District of Columbia via CourtListener",
+            "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.289401/gov.uscourts.dcd.289401.159.0_1.pdf"
+          },
+          {
+            "name": "CNN via KIFI",
+            "url": "https://localnews8.com/politics/cnn-us-politics/2026/11/14/judge-halts-trump-plan-to-redevelop-washington-dc-golf-course/"
+          }
+        ]
+      },
+      {
+        "summary": "A Copa Airlines Boeing 737 and a UPS Boeing 767 collided while taxiing at Miami International Airport around 9:15 p.m. Eastern on November 14. Two people received treatment at the scene for minor injuries and did not require hospitalization, airport officials said. The FAA said the Copa aircraft’s wingtip struck the UPS aircraft’s nose and that controllers had instructed the UPS crew to give way. The FAA is investigating. Airport officials said aircraft were redirected to other taxiways without affecting airport operations.",
+        "category": "transportation",
+        "title": "Copa passenger jet and UPS cargo aircraft collide on Miami taxiway",
+        "event_date": "2026-11-14",
+        "candidate_id": "miami-airport-copa-ups-taxiway-collision",
+        "geography": "Miami, Florida, United States",
+        "sources": [
+          {
+            "name": "ABC News",
+            "url": "https://abcnews.com/US/ups-plane-copa-airlines-flight-collide-taxiway-miami/story?id=138152923"
+          },
+          {
+            "name": "CNN via KEYT",
+            "url": "https://keyt.com/news/national-world/cnn-national/2026/11/14/planes-collide-at-miami-runway-crossing-a-day-after-national-grounding/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-14"
+  },
+  "metadata": {
+    "responseId": "resp_093bf37dced5b577006af968580c9887d281bfc5159404352c",
+    "requestId": "req_0829301520934142a6a58f3eab34fff3",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 1263,
+    "inputTokens": 66138,
+    "outputTokens": 1817,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-14",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 55567,
+    "attemptDurationMs": 55567,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
