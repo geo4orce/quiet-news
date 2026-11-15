@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-15",
+  "batch": 3,
+  "captured_at": "2026-11-15T23:08:31.671Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Pope Leo XIV met missionaries and representatives of Amazonian peoples in Pucallpa, Peru, on Sunday. In his address, he called for justice for Indigenous leaders murdered while defending their territories and criticised deforestation, illegal mining, water pollution and drug trafficking. He also called for access to healthcare and education, protection against sexual violence, and education that respects Indigenous languages and ancestral knowledge.",
+        "category": "religion",
+        "title": "Pope calls for justice for murdered Indigenous defenders during Amazon visit",
+        "event_date": "2026-11-15",
+        "candidate_id": "pope-pucallpa-indigenous-defenders-justice",
+        "geography": "Pucallpa, Peru",
+        "sources": [
+          {
+            "name": "Holy See",
+            "url": "https://www.vatican.va/content/leo-xiv/en/speeches/2026/november/documents/20261115-peru-missionari.html"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/peru-pope-visit-indigenous-amazon-8a15143716d2d78a691f2eb995f1bda0"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-15"
+  },
+  "metadata": {
+    "responseId": "resp_04bd0018a900b405006afa3b47cc5887d28561f10e977b3e1d",
+    "requestId": "req_87f94b747af847beb3fa78c4f133e6ee",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 693,
+    "inputTokens": 57527,
+    "outputTokens": 923,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-15",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 44465,
+    "attemptDurationMs": 44465,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
