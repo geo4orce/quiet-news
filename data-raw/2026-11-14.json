@@ -490,10 +490,10 @@
       "request": {
         "fingerprint": "c595971f6398188c996dc567508378cd625f7b985669519aca9f2e7bc1adce84",
         "claimId": "92a80454-c783-43ce-9d4d-f6412adedd30",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-11-15T09:07:44.308Z",
-        "responseId": null
+        "responseId": "resp_0c0e231331e231c4006af97663ae4087d29578a73f0d7b694c"
       },
       "result": null
     }
