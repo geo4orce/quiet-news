@@ -37,13 +37,107 @@
         "request": {
           "fingerprint": "a256ce7eaff6b9891247de88a23e9889374e613577a3ea4abb121ee682a44a79",
           "claimId": "4d6fe336-1a5d-4736-8383-5eb3456bb0ba",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-15T11:07:48.535Z",
           "responseId": "resp_08e4a985e8834647006af99288825c87d29bab3cfd74252f5b"
         },
-        "result": null,
-        "observedAt": "2026-11-15T11:07:48.465Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Yemeni forces aligned with the internationally recognised, Saudi-backed government said Sunday they were redeploying from Dhubab Airport and the Bab el-Mandeb area toward Aden. Reuters reported that the withdrawal left the Iran-aligned Houthis in control of the area overlooking the strait. The southern forces said their priority was securing Aden and neighbouring governorates and strengthening front lines.",
+                "category": "conflict",
+                "title": "Yemeni government-aligned forces announce withdrawal from Bab el-Mandeb area",
+                "event_date": "2026-11-15",
+                "candidate_id": "yemen-bab-el-mandeb-withdrawal",
+                "geography": "Yemen",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Yemen%2Bgovernment%2Bforces%2Bwithdraw%2Bfrom%2Barea%2Bnear%2BBab%2Bel-Mandeb%2BStrait,%2BHouthis%2Bin%2Bcontrol/27346269.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Philippine President Ferdinand Marcos Jr. said Sunday that ASEAN leaders had agreed to continue constructive and principled engagement with Myanmar while adhering to the bloc's five-point peace plan. He expressed hope for advancing implementation of the framework, which calls for an end to violence and dialogue. The announcement did not establish that restrictions on Myanmar's political leaders attending high-level ASEAN meetings had been lifted.",
+                "category": "diplomacy",
+                "title": "Marcos says ASEAN will maintain engagement with Myanmar under existing peace plan",
+                "event_date": "2026-11-15",
+                "candidate_id": "asean-myanmar-engagement-reaffirmed",
+                "geography": "Philippines; Myanmar; Southeast Asia",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/ASEAN%2Bto%2Bcontinue%2Bconstructive%2Band%2Bprincipled%2Bengagement%2Bwith%2BMyanmar%2C%2Bblocs%2Bchair%2BPhilippines%2Bsays/27346257.html"
+                  },
+                  {
+                    "name": "Reuters via Quews News",
+                    "url": "https://quews.news/asean-reaffirms-engagement-with/"
+                  }
+                ]
+              },
+              {
+                "summary": "Megaspeed said Sunday that Chinese businesswoman Alice Huang, whose ties to former Nvidia chief executive Jensen Huang had raised U.S. national-security concerns, left the Singapore-based company on August 30, 2025, and held no current role. The company disputed assertions about its business and supply chain, said its operations were lawful, and said it had retained external legal counsel for an internal investigation.",
+                "category": "business",
+                "title": "Megaspeed issues statement on Alice Huang and internal investigation",
+                "event_date": "2026-11-15",
+                "candidate_id": "megaspeed-alice-huang-statement",
+                "geography": "Singapore; United States",
+                "sources": [
+                  {
+                    "name": "Reuters via NDTV",
+                    "url": "https://www.ndtv.com/world-news/chinese-spy-alice-huang-left-company-in-2025-megaspeed-amid-nvidia-row-12329594"
+                  }
+                ]
+              },
+              {
+                "summary": "Bahrain's Defence Force announced Sunday that its air defences had intercepted and destroyed several Iranian aerial attacks before they reached their targets. Separately, Iran's Revolutionary Guard claimed to have struck an American radar system in Bahrain. The U.S. military's Central Command had not immediately commented on Iran's claim, according to AP; a successful strike was not independently established.",
+                "category": "conflict",
+                "title": "Bahrain announces interceptions as Iran claims strike on U.S. radar",
+                "event_date": "2026-11-15",
+                "candidate_id": "bahrain-interception-announcement",
+                "geography": "Bahrain; Iran; United States",
+                "sources": [
+                  {
+                    "name": "The Peninsula",
+                    "url": "https://thepeninsulaqatar.com/article/15/11/2026/bahrain-defence-force-intercepts-iranian-aerial-attacks"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-november-15-2026-3b4adde832dadd333451fd2f7a51908c"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-15"
+          },
+          "metadata": {
+            "responseId": "resp_08e4a985e8834647006af99288825c87d29bab3cfd74252f5b",
+            "requestId": "req_41fc33a91c0043cf8e7847a64347e33a",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 673,
+            "inputTokens": 51294,
+            "outputTokens": 1572,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-11-15",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 43715,
+            "attemptDurationMs": 43715,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-11-15T11:07:48.465Z",
+        "capturedAt": "2026-11-15T11:08:32.251Z"
       }
     ],
     "sift": null
