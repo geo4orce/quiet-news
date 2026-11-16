@@ -323,13 +323,135 @@
         "request": {
           "fingerprint": "701970d74f6f2e7e3e7a533d69d474e9487a380ca3a656e954e60317c108c608",
           "claimId": "d4c3e2e1-49ee-49da-a97e-8983dc2d89a6",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-16T23:07:55.084Z",
           "responseId": "resp_00a4cf9466d3986f006afb8ccfc82487d2beda5c9dadc24fb3"
         },
-        "result": null,
-        "observedAt": "2026-11-16T23:07:54.988Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "JPMorgan Chase said November 16 that a software bug in on-premise hardware slowed transaction processing and customer service. The bank said customers could still access accounts and funds and that there was no evidence the issue was cyber-related. It said other banks could experience delays when processing transactions involving Chase. Customers also reported problems at Bank of America, U.S. Bank and Wells Fargo; those reports did not establish separate failures at each bank.",
+                "category": "economy",
+                "title": "Chase software bug slows transactions and affects payments involving other banks",
+                "event_date": "2026-11-16",
+                "candidate_id": "chase-software-bug-transaction-delays",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/stock-market-news/downdetector-reports-outages-at-major-us-banks-5030747"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda"
+                  }
+                ]
+              },
+              {
+                "summary": "United Airlines reported a technology issue affecting departing flights on the afternoon of November 16. In its statement reported by Reuters at 5:23 p.m. EST, the airline said it was troubleshooting the problem; flights already airborne and flights operated by United Express were unaffected. The report did not establish the cause or the number of affected flights.",
+                "category": "transportation",
+                "title": "United reports technology problem affecting departing flights",
+                "event_date": "2026-11-16",
+                "candidate_id": "united-departing-flights-technology-outage",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/stock-market-news/united-airlines-says-technology-issue-affecting-departing-flights-5031142"
+                  }
+                ]
+              },
+              {
+                "summary": "U.S. stocks closed lower November 16, with technology shares leading declines. The S&P 500 fell 145.08 points, or 1.9%, to 7,416.59; the Dow Jones Industrial Average dropped 739.38 points, or 1.4%, to 51,608.17; and the Nasdaq composite lost 626.52 points, or 2.5%, to 24,509.76. It was the S&P 500's third consecutive loss.",
+                "category": "economy",
+                "title": "U.S. stock indexes fall as technology shares lead declines",
+                "event_date": "2026-11-16",
+                "candidate_id": "us-stocks-nov16-technology-selloff",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-2e6a9c41b6336e9240c1b01585d20cd4"
+                  }
+                ]
+              },
+              {
+                "summary": "In November 16 remarks for a Federal Reserve conference in San Francisco, Chair Kevin Warsh said emerging technologies could substantially affect economic growth, employment and monetary policy. He outlined possibilities ranging from broadly shared productivity gains to higher unemployment and a slowdown if investment returns disappoint. He said the Fed's role was to prepare for different outcomes rather than advocate for or oppose the technology. The remarks did not announce an interest-rate decision.",
+                "category": "economy",
+                "title": "Fed Chair Warsh outlines potential economic gains and risks from AI",
+                "event_date": "2026-11-16",
+                "candidate_id": "fed-warsh-ai-productivity-employment-risks",
+                "geography": "United States; California",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/economy-news/feds-warsh-says-emerging-technologies-will-have-significant-impact-but-risks-need-to-be-watched-5030593"
+                  }
+                ]
+              },
+              {
+                "summary": "Minnesota Attorney General Keith Ellison announced a signed 10-year oversight agreement with Sutter Health and Allina Health on November 16, completing his office's review of their proposed combination. Commitments include $2.15 billion in investment over five years, preservation of core services for five years, and continued reproductive and gender care subject to applicable law. The agreement also protects collective-bargaining commitments. Completion of the attorney general's review did not establish that the transaction had closed.",
+                "category": "health",
+                "title": "Minnesota concludes Sutter-Allina review with investment and service commitments",
+                "event_date": "2026-11-16",
+                "candidate_id": "minnesota-sutter-allina-oversight-agreement",
+                "geography": "United States; Minnesota; California",
+                "sources": [
+                  {
+                    "name": "Minnesota Attorney General",
+                    "url": "https://www.ag.state.mn.us/Office/Communications/2026/11/16_Sutter-Allina.asp"
+                  }
+                ]
+              },
+              {
+                "summary": "The COP31 presidency released an initial draft cover-decision text on November 16 to support further negotiations. Its accompanying note said the draft reflected submissions and delegation consultations, not consensus, and included proposals opposed by some parties. All elements remained open for discussion, including whether to retain them. Publication of the draft did not constitute adoption of a climate agreement.",
+                "category": "environment",
+                "title": "COP31 presidency releases initial negotiating draft without consensus",
+                "event_date": "2026-11-16",
+                "candidate_id": "cop31-initial-cover-decision-draft",
+                "geography": "International; Türkiye",
+                "sources": [
+                  {
+                    "name": "UN Framework Convention on Climate Change",
+                    "url": "https://unfccc.int/sites/default/files/resource/Cover%20decision_COP%2031%20Presidency%20note%20on%20draft%20text_16%20Nov%202026.pdf"
+                  },
+                  {
+                    "name": "Reuters via Internazionale",
+                    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/16/first-draft-of-cop31-deal-signals-tough-negotiations-to-come"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-16"
+          },
+          "metadata": {
+            "responseId": "resp_00a4cf9466d3986f006afb8ccfc82487d2beda5c9dadc24fb3",
+            "requestId": "req_8df56810826a4fdaa60f181d5c3e41b4",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 1136,
+            "inputTokens": 58414,
+            "outputTokens": 2596,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-16",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 75951,
+            "attemptDurationMs": 75951,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-11-16T23:07:54.988Z",
+        "capturedAt": "2026-11-16T23:09:11.036Z"
       }
     ],
     "sift": null
