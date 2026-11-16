@@ -157,13 +157,139 @@
         "request": {
           "fingerprint": "8caf7728be95417dea4f1b03410fac128811e0e8b714739c8660402a5b9118c4",
           "claimId": "5f965b99-5217-4227-a5c2-fff80c2a7b95",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-16T17:07:46.365Z",
           "responseId": "resp_0e3902496954fcec006afb3866b48c87d29aa24cfbc2318298"
         },
-        "result": null,
-        "observedAt": "2026-11-16T17:07:46.318Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "At their November 16 Brussels meeting, EU foreign ministers urged a Ukraine ceasefire and Russian concessions before broader security talks with Moscow. The Council also adopted 145 Russia-related sanctions designations: 12 individuals and 101 entities linked to war financing and the shadow fleet, plus 30 individuals and two entities linked to information manipulation and cyberattacks. Targets included nearly 50 Russian banks and financial institutions, the Social Design Agency and hacker group NoName057(16). A further sanctions package remained under preparation, rather than adopted.",
+                "category": "international",
+                "title": "EU adopts Russia-related sanctions as ministers urge ceasefire before security talks",
+                "event_date": "2026-11-16",
+                "candidate_id": "eu-ministers-russia-security-talks-ceasefire",
+                "geography": "European Union; Ukraine; Russia",
+                "sources": [
+                  {
+                    "name": "Reuters via The Star",
+                    "url": "https://www.thestar.com.my/news/world/2026/11/16/holding-talks-with-russia-on-europe039s-security-now-would-be-premature-eu-ministers-say"
+                  },
+                  {
+                    "name": "Council of the European Union — war-financing sanctions",
+                    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/ukraine-eu-lists-113-individuals-and-entities-to-further-restrict-russia-s-ability-to-finance-its-war-of-aggression/"
+                  },
+                  {
+                    "name": "Council of the European Union — information manipulation and cyber sanctions",
+                    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/russia-s-fimi-and-malicious-cyber-activities-council-imposes-sanctions-on-30-individuals-and-two-entities/"
+                  }
+                ]
+              },
+              {
+                "summary": "The EU Council on November 16 added four Haitian entities to its Global Human Rights Sanctions Regime. The Council described them as criminal armed groups responsible for grave violations against children in armed conflict, including killings, sexual violence and recruitment of children.",
+                "category": "international",
+                "title": "EU sanctions four Haitian armed groups over violations against children",
+                "event_date": "2026-11-16",
+                "candidate_id": "eu-sanctions-four-haitian-armed-groups",
+                "geography": "European Union; Haiti",
+                "sources": [
+                  {
+                    "name": "Council of the European Union",
+                    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/eu-global-human-rights-sanctions-regime-council-lists-four-haitian-entities-over-serious-human-rights-violations/"
+                  }
+                ]
+              },
+              {
+                "summary": "The European Commission granted unconditional EU merger approval for UniCredit's proposed acquisition of control of Commerzbank on November 16, finding no competition concerns. UniCredit said Federal Reserve approval had also been announced that day. The bank's statement said a final regulatory approval remained outstanding; the clearances did not establish that the acquisition had been completed.",
+                "category": "economy",
+                "title": "UniCredit receives unconditional EU clearance for Commerzbank acquisition",
+                "event_date": "2026-11-16",
+                "candidate_id": "unicredit-commerzbank-eu-merger-clearance",
+                "geography": "European Union; Italy; Germany; United States",
+                "sources": [
+                  {
+                    "name": "UniCredit",
+                    "url": "https://www.unicreditgroup.eu/en/press-media/press-releases/2026/november/unicredit-receives-unconditional-eu-approval-for-commerzbank-con.html"
+                  },
+                  {
+                    "name": "Euronews",
+                    "url": "https://www.euronews.com/2026/11/16/eu-clears-unicredit-takeover-of-germanys-commerzbank"
+                  }
+                ]
+              },
+              {
+                "summary": "The U.S. Supreme Court on November 16 declined review in Katherine Novotny v. Wes Moore, leaving in place a lower-court ruling upholding Maryland restrictions on carrying firearms in several categories of public places. Justice Clarence Thomas agreed with denying review because the challenge covered multiple statutes with distinct historical questions, while expressing skepticism about the restrictions and support for considering a narrower case. The denial was not a Supreme Court ruling on the constitutional merits.",
+                "category": "government",
+                "title": "Supreme Court declines challenge to Maryland public-place gun restrictions",
+                "event_date": "2026-11-16",
+                "candidate_id": "supreme-court-maryland-carry-review-denied",
+                "geography": "United States; Maryland",
+                "sources": [
+                  {
+                    "name": "Supreme Court of the United States — November 16 order list",
+                    "url": "https://www.supremecourt.gov/orders/courtorders/111626zor_cb7d.pdf"
+                  }
+                ]
+              },
+              {
+                "summary": "The Commerce Department on November 16 issued a rule aimed at preventing China from accessing advanced U.S. AI chips through remote computing arrangements in third-country data centers, Reuters reported. The rule introduces export-license requirements for advanced chips destined for Singapore, Thailand, Malaysia, Indonesia and Brazil. The reporting establishes issuance of the rule, but does not establish its effective date.",
+                "category": "technology",
+                "title": "U.S. issues rule targeting third-country remote access to advanced AI chips",
+                "event_date": "2026-11-16",
+                "candidate_id": "us-advanced-ai-chip-remote-access-rule",
+                "geography": "United States; China; Singapore; Thailand; Malaysia; Indonesia; Brazil",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/US%2Bissues%2Brule%2Bto%2Bprotect%2Badvanced%2BAI%2Bchips%2Bfrom%2Bbeing%2Baccessed%2Bremotely/27349437.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Institute of International Education survey data released November 16 showed international enrollment at U.S. campuses fell 9% this autumn compared with the previous year. The number of new students entering the United States for the first time fell 15%. These are survey findings about autumn enrollment, not a count of departures or enrollment changes occurring on November 16.",
+                "category": "education",
+                "title": "Survey reports decline in international enrollment at U.S. universities",
+                "event_date": "2026-11-16",
+                "candidate_id": "iie-autumn-2026-international-enrollment-decline",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Euronews",
+                    "url": "https://www.euronews.com/2026/11/16/fewer-students-are-traveling-from-abroad-to-study-at-us-universities-new-report-shows"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-16"
+          },
+          "metadata": {
+            "responseId": "resp_0e3902496954fcec006afb3866b48c87d29aa24cfbc2318298",
+            "requestId": "req_26296b36f41d441da2927155431c2813",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 970,
+            "inputTokens": 56824,
+            "outputTokens": 2523,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-16",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 60704,
+            "attemptDurationMs": 60704,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-11-16T17:07:46.318Z",
+        "capturedAt": "2026-11-16T17:08:47.069Z"
       }
     ],
     "sift": null
