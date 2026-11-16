@@ -542,12 +542,98 @@
       "request": {
         "fingerprint": "8b8919cc85361e9a9f6da3dad6a6471e49608d90bc08521ca4f399de7f1a810a",
         "claimId": "c475c287-2c98-47f8-b2d2-396a23ed8593",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-16T09:07:44.628Z",
         "responseId": "resp_087c2fe3bcee54e9006afac7e5676487d2b1a3d5f7ef75b1f2"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "asean-myanmar-engagement-reaffirmed",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "australia-philippines-defence-arrangement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "bahrain-interception-announcement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "cape-verde-presidential-voting-opens",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "gulf-stock-markets-sunday-declines",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "jordan-church-attack-death-sentences",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "megaspeed-alice-huang-statement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "pope-pucallpa-indigenous-defenders-justice",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "More than 2,300 U.S. flights were canceled and about 7,700 delayed Sunday as airlines continued recovering from Friday’s nationwide ground stop, according to FlightAware figures reported by Reuters.\n\nTransportation Secretary Sean Duffy said the cause of the ground stop remained unclear and there was no evidence of a cyberattack or other malicious intent. He said he expected operations to return to normal Monday.",
+              "candidate_id": "us-flight-disruptions-third-day",
+              "headline": "U.S. flight disruptions continue for third day",
+              "sources": [
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/Thousands%2Bof%2BUS%C2%A0flights%2Bcanceled,%2Bdelayed%2Bfor%2Bthird%2Bday%2Bin%2Ba%2Brow/27346331.html"
+                },
+                {
+                  "name": "ABC News",
+                  "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
+                }
+              ]
+            },
+            {
+              "body": "Forces aligned with Yemen’s internationally recognized government withdrew from an area overlooking the Bab el-Mandeb Strait, leaving the Iran-aligned Houthis in control, Reuters reported Sunday.\n\nThe Saudi-backed forces said they were redeploying from Dhubab Airport and the Bab el-Mandeb area toward Aden. They said their priority was securing Aden and neighboring governorates and strengthening front lines.",
+              "candidate_id": "yemen-bab-el-mandeb-withdrawal",
+              "headline": "Houthis gain control near Bab el-Mandeb Strait",
+              "sources": [
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/Yemen%2Bgovernment%2Bforces%2Bwithdraw%2Bfrom%2Barea%2Bnear%2BBab%2Bel-Mandeb%2BStrait,%2BHouthis%2Bin%2Bcontrol/27346269.html"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_087c2fe3bcee54e9006afac7e5676487d2b1a3d5f7ef75b1f2",
+          "requestId": "req_7e93842a7b354d38a54ff8fd46da3c72",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 1547,
+          "inputTokens": 3362,
+          "outputTokens": 2294,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-15",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 49288,
+          "attemptDurationMs": 49288,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
