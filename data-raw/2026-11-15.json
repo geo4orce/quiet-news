@@ -379,10 +379,10 @@
         "request": {
           "fingerprint": "1ed8e73e6a64a15ca169be5e7ae02c523f34eac3900b5af9da20cd99c2fe78f9",
           "claimId": "cdb4fcd7-cdad-4dd6-8ee0-4cff11c83a89",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-16T08:07:51.341Z",
-          "responseId": null
+          "responseId": "resp_02472547fa50ed3d006afab9dcaa9487d29fe6b74c3421b836"
         },
         "result": null,
         "observedAt": "2026-11-16T08:07:51.244Z"
