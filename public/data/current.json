@@ -1,29 +1,29 @@
 {
-  "edition_date": "2026-11-14",
-  "published_at": "2026-11-15T09:08:24.175Z",
-  "expires_at": "2026-11-16T10:00:00.000Z",
+  "edition_date": "2026-11-15",
+  "published_at": "2026-11-16T09:08:35.947Z",
+  "expires_at": "2026-11-17T10:00:00.000Z",
   "stories": [
     {
-      "headline": "Microsoft restores service after global outage",
-      "body": "Microsoft said Saturday that it had restored service to the remaining customers and regions affected by a global outage that disrupted Outlook, Teams and other products for more than 24 hours.\n\nThe company said it had fixed the underlying issue, which it linked to technical problems associated with a network capacity upgrade. It said it was not aware of malicious activity.",
+      "headline": "U.S. flight disruptions continue for third day",
+      "body": "More than 2,300 U.S. flights were canceled and about 7,700 delayed Sunday as airlines continued recovering from Friday’s nationwide ground stop, according to FlightAware figures reported by Reuters.\n\nTransportation Secretary Sean Duffy said the cause of the ground stop remained unclear and there was no evidence of a cyberattack or other malicious intent. He said he expected operations to return to normal Monday.",
       "sources": [
         {
-          "name": "Reuters via The Jakarta Post",
-          "url": "https://www.thejakartapost.com/business/2026/11/14/microsoft-restores-service-to-outlook-and-teams-after-global-outage"
+          "name": "Reuters via StreetInsider",
+          "url": "https://www.streetinsider.com/Reuters/Thousands%2Bof%2BUS%C2%A0flights%2Bcanceled,%2Bdelayed%2Bfor%2Bthird%2Bday%2Bin%2Ba%2Brow/27346331.html"
         },
         {
-          "name": "LaPresse",
-          "url": "https://lapresse.us/world/2026/11/14/microsoft-company-all-services-restored-following-global-outage/"
+          "name": "ABC News",
+          "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
         }
       ]
     },
     {
-      "headline": "SpaceX catches Starship returning from orbit",
-      "body": "SpaceX’s Starship upper stage completed 14 orbits over roughly 22 hours before returning to Starbase, Texas, on Saturday, where the launch tower’s mechanical arms caught it. It was the first successful capture of a Starship spacecraft returning from space.\n\nThe flight did not recover both rocket stages. The Super Heavy booster’s return attempt was aborted after Friday’s launch, and the booster exploded in the Gulf of Mexico.",
+      "headline": "Houthis gain control near Bab el-Mandeb Strait",
+      "body": "Forces aligned with Yemen’s internationally recognized government withdrew from an area overlooking the Bab el-Mandeb Strait, leaving the Iran-aligned Houthis in control, Reuters reported Sunday.\n\nThe Saudi-backed forces said they were redeploying from Dhubab Airport and the Bab el-Mandeb area toward Aden. They said their priority was securing Aden and neighboring governorates and strengthening front lines.",
       "sources": [
         {
-          "name": "Associated Press via South Carolina Public Radio",
-          "url": "https://www.southcarolinapublicradio.org/news/2026-11-14/spacex-successfully-catches-starship-and-makes-history"
+          "name": "Reuters via StreetInsider",
+          "url": "https://www.streetinsider.com/Reuters/Yemen%2Bgovernment%2Bforces%2Bwithdraw%2Bfrom%2Barea%2Bnear%2BBab%2Bel-Mandeb%2BStrait,%2BHouthis%2Bin%2Bcontrol/27346269.html"
         }
       ]
     }
