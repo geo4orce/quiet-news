@@ -504,6 +504,50 @@
         "capturedAt": "2026-11-16T08:08:46.964Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "3d58ad9bf5d2512cfd91640b1d97b2b984db2e7497eca3c6f7bef66b2d7b42d4",
+      "priorStories": [
+        {
+          "headline": "Microsoft restores service after global outage",
+          "body": "Microsoft said Saturday that it had restored service to the remaining customers and regions affected by a global outage that disrupted Outlook, Teams and other products for more than 24 hours.\n\nThe company said it had fixed the underlying issue, which it linked to technical problems associated with a network capacity upgrade. It said it was not aware of malicious activity.",
+          "sources": [
+            {
+              "name": "Reuters via The Jakarta Post",
+              "url": "https://www.thejakartapost.com/business/2026/11/14/microsoft-restores-service-to-outlook-and-teams-after-global-outage"
+            },
+            {
+              "name": "LaPresse",
+              "url": "https://lapresse.us/world/2026/11/14/microsoft-company-all-services-restored-following-global-outage/"
+            }
+          ]
+        },
+        {
+          "headline": "SpaceX catches Starship returning from orbit",
+          "body": "SpaceX’s Starship upper stage completed 14 orbits over roughly 22 hours before returning to Starbase, Texas, on Saturday, where the launch tower’s mechanical arms caught it. It was the first successful capture of a Starship spacecraft returning from space.\n\nThe flight did not recover both rocket stages. The Super Heavy booster’s return attempt was aborted after Friday’s launch, and the booster exploded in the Gulf of Mexico.",
+          "sources": [
+            {
+              "name": "Associated Press via South Carolina Public Radio",
+              "url": "https://www.southcarolinapublicradio.org/news/2026-11-14/spacex-successfully-catches-starship-and-makes-history"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "8b8919cc85361e9a9f6da3dad6a6471e49608d90bc08521ca4f399de7f1a810a",
+        "claimId": "c475c287-2c98-47f8-b2d2-396a23ed8593",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-11-16T09:07:44.628Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
