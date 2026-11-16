@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-15",
+  "batch": 4,
+  "captured_at": "2026-11-16T08:08:46.964Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "José Maria Neves won a second presidential term in Cape Verde's Sunday election, according to provisional electoral commission results reported Sunday. Neves received 63.8% of the vote, while former justice minister Joana Rosa Amado received about 31.6%. Rosa was the country's first female presidential candidate. Five challengers contested the election against Neves; the results remained provisional.",
+        "category": "politics",
+        "title": "Provisional results show Cape Verde President Neves winning a second term",
+        "event_date": "2026-11-15",
+        "candidate_id": "cape-verde-presidential-voting-opens",
+        "geography": "Cape Verde",
+        "sources": [
+          {
+            "name": "Deutsche Welle with AFP",
+            "url": "https://amp.dw.com/en/cape-verde-election-jose-maria-neves-set-to-win-second-term/a-79952606"
+          }
+        ]
+      },
+      {
+        "summary": "ASEAN leaders adopted a review Sunday reaffirming the five-point consensus as their main framework for addressing Myanmar's political crisis. They expressed concern about insufficient implementation, urged a sustained nationwide ceasefire and expanded humanitarian access, and tasked foreign ministers with continuing constructive and principled engagement. The decision also directed officials to continue considering a longer-term ASEAN special envoy; it did not establish that such an appointment had been made or that restrictions on political representation had been lifted.",
+        "category": "diplomacy",
+        "title": "ASEAN adopts Myanmar review reaffirming peace framework and continued engagement",
+        "event_date": "2026-11-15",
+        "candidate_id": "asean-myanmar-engagement-reaffirmed",
+        "geography": "Philippines; Myanmar; Southeast Asia",
+        "sources": [
+          {
+            "name": "ASEAN",
+            "url": "https://asean.org/wp-content/uploads/2026/11/FINAL-ASEAN-Leaders-Review-and-Decision-on-the-Implementation-of-the-Five-Point-Consensus-15-November-2026.pdf"
+          },
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/ASEAN%2Bto%2Bcontinue%2Bconstructive%2Band%2Bprincipled%2Bengagement%2Bwith%2BMyanmar%2C%2Bblocs%2Bchair%2BPhilippines%2Bsays/27346257.html"
+          }
+        ]
+      },
+      {
+        "summary": "More than 2,300 U.S. flights were canceled and about 7,700 delayed Sunday, according to FlightAware figures reported by Reuters, as airlines continued recovering from Friday's nationwide ground stop. Transportation Secretary Sean Duffy said Sunday that the cause remained unclear and there was no evidence of a cyberattack or other malicious intent. His expectation of fully normal operations Monday was a forecast, not confirmation that service had recovered.",
+        "category": "transportation",
+        "title": "U.S. flight cancellations and delays continue for a third day",
+        "event_date": "2026-11-15",
+        "candidate_id": "us-flight-disruptions-third-day",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Thousands%2Bof%2BUS%C2%A0flights%2Bcanceled,%2Bdelayed%2Bfor%2Bthird%2Bday%2Bin%2Ba%2Brow/27346331.html"
+          },
+          {
+            "name": "ABC News",
+            "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
+          }
+        ]
+      },
+      {
+        "summary": "Australia and the Philippines signed a Defence Cooperation Arrangement in Manila on Sunday, witnessed by Australian Prime Minister Anthony Albanese. Australia's government said the arrangement expands their existing cooperation framework to cover maritime awareness and activities, information sharing, strategic dialogue, planning, training, interoperability and defence infrastructure. Australia separately announced support for regional maritime partnerships involving drones, secure communications and operator training.",
+        "category": "diplomacy",
+        "title": "Australia and Philippines sign expanded defence cooperation arrangement",
+        "event_date": "2026-11-15",
+        "candidate_id": "australia-philippines-defence-arrangement",
+        "geography": "Australia; Philippines; Southeast Asia",
+        "sources": [
+          {
+            "name": "Australian Defence Ministers",
+            "url": "https://www.minister.defence.gov.au/media-releases/2026-11-15/enhancing-defence-cooperation-maritime-security-southeast-asia"
+          }
+        ]
+      },
+      {
+        "summary": "Pope Leo XIV met missionaries and Amazonian representatives in Pucallpa, Peru, on Sunday, calling for justice for Indigenous leaders murdered while defending their territories. He criticised deforestation, illegal mining, water pollution and drug trafficking, and called for healthcare, education respecting Indigenous languages, and protection against sexual violence. During Mass in Pucallpa the same day, he linked environmental protection with human dignity, describing exploitation of people and damage to the earth as interconnected.",
+        "category": "religion",
+        "title": "Pope calls for Indigenous justice and environmental protection in Pucallpa",
+        "event_date": "2026-11-15",
+        "candidate_id": "pope-pucallpa-indigenous-defenders-justice",
+        "geography": "Pucallpa, Peru",
+        "sources": [
+          {
+            "name": "Holy See",
+            "url": "https://www.vatican.va/content/leo-xiv/en/speeches/2026/november/documents/20261115-peru-missionari.html"
+          },
+          {
+            "name": "Vatican News",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-mass-pucallpa-environment-amazon-caring-life-creation-peru.html"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/peru-pope-visit-indigenous-amazon-8a15143716d2d78a691f2eb995f1bda0"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-15"
+  },
+  "metadata": {
+    "responseId": "resp_02472547fa50ed3d006afab9dcaa9487d29fe6b74c3421b836",
+    "requestId": "req_7d83704888954edb867ebfe45f6f90d1",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 749,
+    "inputTokens": 49358,
+    "outputTokens": 2179,
+    "webSearchCalls": 5,
+    "stage": "discovery",
+    "targetDate": "2026-11-15",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 55623,
+    "attemptDurationMs": 55623,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
