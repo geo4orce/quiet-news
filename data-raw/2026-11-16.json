@@ -37,13 +37,93 @@
         "request": {
           "fingerprint": "b5bade8dc75977d2326f10b11a74405d79d4715bdd22a4f00db132b5aff2ee1f",
           "claimId": "a316f08a-98b7-46de-80f1-f02a963a727d",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-16T11:07:45.763Z",
           "responseId": "resp_0d795f3900e0d0ed006afae405fa0c87d2b5a7b7cb695fb02e"
         },
-        "result": null,
-        "observedAt": "2026-11-16T11:07:45.684Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "In remarks released for a 5 a.m. EST speech in Milan on November 16, Federal Reserve Governor Michael Barr warned that artificial intelligence could amplify financial instability through complex investment financing, synchronized trading, market manipulation and cyberattacks. He called for safeguards protecting consumers and investors and said financial institutions need AI-driven decisions to be controlled, explainable and consistent with law. The remarks did not announce a monetary-policy change.",
+                "category": "economy",
+                "title": "Fed Governor Barr outlines financial-stability risks from AI",
+                "event_date": "2026-11-16",
+                "candidate_id": "fed-barr-ai-financial-stability-risks",
+                "geography": "United States; Italy",
+                "sources": [
+                  {
+                    "name": "Federal Reserve Board",
+                    "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm"
+                  },
+                  {
+                    "name": "Federal Reserve Board — timed speech text",
+                    "url": "https://www.federalreserve.gov/newsevents/speech/files/barr20261116a.pdf"
+                  },
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/economic-indicators/feds-barr-warns-on-ai-risks-to-financial-system-5028804"
+                  }
+                ]
+              },
+              {
+                "summary": "At a November 16 meeting in Brussels, EU foreign-policy chief Kaja Kallas and several European foreign ministers said discussions with Moscow about Europe's security architecture should await a ceasefire in Ukraine and Russian concessions. French Foreign Minister Jean-Noel Barrot said the EU had approved 145 new sanctions designations that day. Separately, Irish Foreign Minister Helen McEntee said a further sanctions package was being finalized for discussion later in the week; that package was not described as adopted.",
+                "category": "international",
+                "title": "EU ministers urge Ukraine ceasefire before broader security talks with Russia",
+                "event_date": "2026-11-16",
+                "candidate_id": "eu-ministers-russia-security-talks-ceasefire",
+                "geography": "European Union; Ukraine; Russia",
+                "sources": [
+                  {
+                    "name": "Reuters via The Star",
+                    "url": "https://www.thestar.com.my/news/world/2026/11/16/holding-talks-with-russia-on-europe039s-security-now-would-be-premature-eu-ministers-say"
+                  }
+                ]
+              },
+              {
+                "summary": "A State Department notice specifies November 16 as the effective date for a phased pilot accepting selected passport applications online using Form DS–11. Initial eligibility covers certain adults in the United States who previously held passports but cannot use the standard renewal form, and first-time adult applicants using a Certificate of Naturalization as citizenship evidence. The notice does not establish that applications were already being accepted during the observation interval; deployment is described as phased.",
+                "category": "government",
+                "title": "Effective date arrives for limited online passport-application pilot",
+                "event_date": "2026-11-16",
+                "candidate_id": "us-online-ds11-passport-pilot-effective",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "U.S. Department of State via Federal Register",
+                    "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-16/pdf/2026-23317.pdf"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-16"
+          },
+          "metadata": {
+            "responseId": "resp_0d795f3900e0d0ed006afae405fa0c87d2b5a7b7cb695fb02e",
+            "requestId": "req_b6628cbbc7144fe5ba889b9e8bc142bc",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 670,
+            "inputTokens": 47552,
+            "outputTokens": 1328,
+            "webSearchCalls": 5,
+            "stage": "discovery",
+            "targetDate": "2026-11-16",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 43581,
+            "attemptDurationMs": 43581,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-11-16T11:07:45.684Z",
+        "capturedAt": "2026-11-16T11:08:29.345Z"
       }
     ],
     "sift": null
