@@ -634,12 +634,122 @@
       "request": {
         "fingerprint": "d321933f51e0147eec68c327ad5f08133a0c1544cd279589b8e5d312b6bdb39d",
         "claimId": "428a1ad5-1e6c-4c2a-a763-c21133fc2091",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-17T09:07:51.768Z",
         "responseId": "resp_0c94b28d499cd25f006afc196c1cac87d2959cf619c65f6e56"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "chase-software-bug-transaction-delays",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "cop31-initial-cover-decision-draft",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "eu-sanctions-four-haitian-armed-groups",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "fed-barr-ai-financial-stability-risks",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "fed-warsh-ai-productivity-employment-risks",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "iie-autumn-2026-international-enrollment-decline",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "minnesota-sutter-allina-oversight-agreement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "supreme-court-maryland-carry-review-denied",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "unicredit-commerzbank-eu-merger-clearance",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "united-departing-flights-technology-outage",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-air-travel-recovery-nov16",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "us-online-ds11-passport-pilot-effective",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-stocks-nov16-technology-selloff",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The Commerce Department issued rules Monday requiring export licenses for covered advanced-AI-chip shipments to Singapore, Thailand, Malaysia, Indonesia and Brazil, Reuters reported. U.S. companies operating data centers in those countries are exempt from that shipment requirement.\n\nSeparately, overseas data centers providing significant computing power to companies headquartered in China must obtain licenses within 90 days to continue those services or face future export restrictions. That provision is not an immediate prohibition on all remote computing services.\n\nThe regulation also formally rescinds the Biden-era global AI-chip licensing rule.",
+              "candidate_id": "us-advanced-ai-chip-remote-access-rule",
+              "headline": "U.S. adds AI-chip export and remote-access controls",
+              "sources": [
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/US%2Bto%2Bcurb%2BChinas%2Baccess%2Bto%2BAI%2Bchips%2Bas%2BTrump%2Bheads%2Bto%2BAsia/27356809.html"
+                },
+                {
+                  "name": "Reuters via StreetInsider — initial report",
+                  "url": "https://www.streetinsider.com/Reuters/US%2Bissues%2Brule%2Bto%2Bprotect%2Badvanced%2BAI%2Bchips%2Bfrom%2Bbeing%2Baccessed%2Bremotely/27349437.html"
+                }
+              ]
+            },
+            {
+              "body": "The European Union imposed Russia-related sanctions on 145 people and entities Monday, including nearly 50 Russian banks and financial institutions.\n\nOne set of measures targeted 12 people and 101 entities linked to financing Russia's war in Ukraine and the shadow fleet. Another covered 30 people and two entities linked to information manipulation and cyberattacks, including the Social Design Agency and hacker group NoName057(16).\n\nThese sanctions were adopted by the Council; a further sanctions package remained under preparation.",
+              "candidate_id": "eu-ministers-russia-security-talks-ceasefire",
+              "headline": "EU sanctions nearly 50 Russian financial institutions",
+              "sources": [
+                {
+                  "name": "Council of the European Union — war-financing sanctions",
+                  "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/ukraine-eu-lists-113-individuals-and-entities-to-further-restrict-russia-s-ability-to-finance-its-war-of-aggression/"
+                },
+                {
+                  "name": "Council of the European Union — information manipulation and cyber sanctions",
+                  "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/russia-s-fimi-and-malicious-cyber-activities-council-imposes-sanctions-on-30-individuals-and-two-entities/"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0c94b28d499cd25f006afc196c1cac87d2959cf619c65f6e56",
+          "requestId": "req_c6ebbaf3500a4c3a96949d7a9a55e18d",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 2588,
+          "inputTokens": 4683,
+          "outputTokens": 3673,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-16",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 75614,
+          "attemptDurationMs": 75614,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
