@@ -452,6 +452,46 @@
         },
         "observedAt": "2026-11-16T23:07:54.988Z",
         "capturedAt": "2026-11-16T23:09:11.036Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "U.S. flight disruptions continue for third day",
+            "body": "More than 2,300 U.S. flights were canceled and about 7,700 delayed Sunday as airlines continued recovering from Friday’s nationwide ground stop, according to FlightAware figures reported by Reuters.\n\nTransportation Secretary Sean Duffy said the cause of the ground stop remained unclear and there was no evidence of a cyberattack or other malicious intent. He said he expected operations to return to normal Monday.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Thousands%2Bof%2BUS%C2%A0flights%2Bcanceled,%2Bdelayed%2Bfor%2Bthird%2Bday%2Bin%2Ba%2Brow/27346331.html"
+              },
+              {
+                "name": "ABC News",
+                "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
+              }
+            ]
+          },
+          {
+            "headline": "Houthis gain control near Bab el-Mandeb Strait",
+            "body": "Forces aligned with Yemen’s internationally recognized government withdrew from an area overlooking the Bab el-Mandeb Strait, leaving the Iran-aligned Houthis in control, Reuters reported Sunday.\n\nThe Saudi-backed forces said they were redeploying from Dhubab Airport and the Bab el-Mandeb area toward Aden. They said their priority was securing Aden and neighboring governorates and strengthening front lines.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Yemen%2Bgovernment%2Bforces%2Bwithdraw%2Bfrom%2Barea%2Bnear%2BBab%2Bel-Mandeb%2BStrait,%2BHouthis%2Bin%2Bcontrol/27346269.html"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "2c14ac5b61acc2270a048b60b123110996382d9a0bb70531410dfebbc4da9eb7",
+          "claimId": "c64591d2-2da8-47dd-bfe8-124311b67de1",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-11-17T08:07:56.562Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-11-17T08:07:56.443Z"
       }
     ],
     "sift": null
