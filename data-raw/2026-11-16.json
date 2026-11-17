@@ -634,10 +634,10 @@
       "request": {
         "fingerprint": "d321933f51e0147eec68c327ad5f08133a0c1544cd279589b8e5d312b6bdb39d",
         "claimId": "428a1ad5-1e6c-4c2a-a763-c21133fc2091",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-11-17T09:07:51.768Z",
-        "responseId": null
+        "responseId": "resp_0c94b28d499cd25f006afc196c1cac87d2959cf619c65f6e56"
       },
       "result": null
     }
