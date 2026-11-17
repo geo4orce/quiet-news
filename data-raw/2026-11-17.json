@@ -303,13 +303,135 @@
         "request": {
           "fingerprint": "8070490677099069b48a27505b69f2eb60008dd9b1b7e410393cfbac35f01cf6",
           "claimId": "f36e305a-bf11-41c8-bda3-66e65fc421c2",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-17T23:07:55.174Z",
           "responseId": "resp_0c8ef9f1379f9706006afcde4fb80c87d2840ee0382fab6f83"
         },
-        "result": null,
-        "observedAt": "2026-11-17T23:07:55.074Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "President Donald Trump arrived in Manila at 5:33 p.m. Philippine time on November 17, accompanied by Secretary of State Marco Rubio and Treasury Secretary Scott Bessent. A joint statement confirms that Trump subsequently met Australian Prime Minister Anthony Albanese, Indian Prime Minister Narendra Modi and Japanese Prime Minister Takaichi Sanae for a Quad summit. The leaders announced a maritime-surveillance collaboration and enhanced cybersecurity cooperation. Their statement described a Quad maritime aircraft exercise as scheduled for 2027, not already completed.",
+                "category": "Diplomacy",
+                "title": "Trump arrives in Manila and meets Quad leaders",
+                "event_date": "2026-11-17",
+                "candidate_id": "trump-arrives-manila-2026-11-17",
+                "geography": "Philippines; United States; Australia; India; Japan",
+                "sources": [
+                  {
+                    "name": "GMA News",
+                    "url": "https://www.gmanetwork.com/news/topstories/nation/1009755/us-president-donald-trump-arrives-in-manila-for-asean-summit/story/"
+                  },
+                  {
+                    "name": "Japan Ministry of Foreign Affairs — Quad joint statement",
+                    "url": "https://www.mofa.go.jp/mofaj/files/101120334.pdf"
+                  }
+                ]
+              },
+              {
+                "summary": "Nvidia announced November 17 that revenue for its fiscal third quarter ended October 25 reached $115.8 billion, up 20% from the preceding quarter and 103% from a year earlier. Data Center revenue was $107.6 billion, up 110% year over year. The company reported GAAP diluted earnings per share of $2.70 and a GAAP gross margin of 74.8%. Colette Kress issued the results as interim chief executive and chief financial officer.",
+                "category": "Business and technology",
+                "title": "Nvidia reports $115.8 billion in quarterly revenue",
+                "event_date": "2026-11-17",
+                "candidate_id": "nvidia-third-quarter-fiscal-2027-results-2026-11-17",
+                "geography": "United States; Global",
+                "sources": [
+                  {
+                    "name": "Nvidia Investor Relations",
+                    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+                  },
+                  {
+                    "name": "U.S. Securities and Exchange Commission — Nvidia Form 8-K",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm"
+                  }
+                ]
+              },
+              {
+                "summary": "Nvidia announced November 17 that its board had established a standing National Security and Export Control Oversight Committee. The company said the committee would oversee national-security policies, export-control compliance and global trade risk management.",
+                "category": "Business and technology",
+                "title": "Nvidia establishes board committee for national security and export controls",
+                "event_date": "2026-11-17",
+                "candidate_id": "nvidia-board-export-control-committee-2026-11-17",
+                "geography": "United States; Global",
+                "sources": [
+                  {
+                    "name": "Nvidia Newsroom",
+                    "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee"
+                  }
+                ]
+              },
+              {
+                "summary": "Reuters reported November 17 that the Wall Street Journal, citing people familiar with the matter, said the U.S. Securities and Exchange Commission was probing Nvidia following Jensen Huang's resignation as chief executive. The reviewed Reuters account did not establish when the investigation began or report an enforcement finding.",
+                "category": "Business and regulation",
+                "title": "Reuters relays report of SEC investigation into Nvidia",
+                "event_date": "2026-11-17",
+                "candidate_id": "nvidia-sec-investigation-report-2026-11-17",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Nvidia%2Bfacing%2BSEC%2Bprobe%2Bafter%2BHuangs%2Bresignation%2C%2BWSJ%2Breports/27363711.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Michigan Attorney General Dana Nessel announced November 17 that she intended to request another Energy Department rehearing over an order requiring the J.H. Campbell coal plant to operate until February 12, 2027. The department issued that seventh order on Friday, rather than November 17. Nessel cited a September 11 appellate ruling vacating the department's first Campbell order and disputed the asserted energy emergency. Her announcement described an intended challenge, not a newly completed filing or court ruling.",
+                "category": "Energy and law",
+                "title": "Michigan attorney general announces intended challenge to latest Campbell coal-plant order",
+                "event_date": "2026-11-17",
+                "candidate_id": "michigan-nessel-campbell-rehearing-announcement-2026-11-17",
+                "geography": "Michigan; United States",
+                "sources": [
+                  {
+                    "name": "Michigan Department of Attorney General",
+                    "url": "https://www.michigan.gov/ag/news/press-releases/2026/11/17/trump-administration-issues-7th-unlawful-order-over-jh-campbell-plant"
+                  }
+                ]
+              },
+              {
+                "summary": "SELLAS Life Sciences announced November 17 that its randomized Phase 3 REGAL trial of galinpepimut-S met its overall-survival endpoint. The company reported median survival of 24.0 months versus 14.7 months with best available treatment, a hazard ratio of 0.59 and p=0.035. The trial studied maintenance treatment for acute myeloid leukemia patients in second or later remission who could not undergo an allogeneic stem-cell transplant. These were company-reported topline results; the announcement described preparations for a regulatory application, not FDA approval.",
+                "category": "Health and science",
+                "title": "SELLAS reports positive topline survival results from Phase 3 leukemia trial",
+                "event_date": "2026-11-17",
+                "candidate_id": "sellas-regal-phase-three-topline-results-2026-11-17",
+                "geography": "United States; International",
+                "sources": [
+                  {
+                    "name": "SELLAS Life Sciences — company news release",
+                    "url": "https://s203.q4cdn.com/139585304/files/doc_news/SELLAS-Life-Sciences-Announces-Positive-Pivotal-Phase-3-REGAL-Trial-Data-Showing-Immunotherapeutic-Cancer-Vaccine-Galinpepimut-S-GPS--SFIWI.pdf"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-17"
+          },
+          "metadata": {
+            "responseId": "resp_0c8ef9f1379f9706006afcde4fb80c87d2840ee0382fab6f83",
+            "requestId": "req_45a9606dc1c545e098fbc0ec2e4131d8",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 1308,
+            "inputTokens": 58175,
+            "outputTokens": 2802,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-17",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 81418,
+            "attemptDurationMs": 81418,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-11-17T23:07:55.074Z",
+        "capturedAt": "2026-11-17T23:09:16.593Z"
       }
     ],
     "sift": null
