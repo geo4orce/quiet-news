@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-17",
+  "batch": 2,
+  "captured_at": "2026-11-17T17:09:00.572Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The Census Bureau released October retail and food-services sales estimates at 8:30 a.m. EST on November 17. Seasonally adjusted sales were $748.2 billion, up an estimated 0.2% from September and 6.8% from October 2025. The monthly estimate's 90% confidence interval included zero, so the reported increase was not statistically distinguishable from no change. September's 0.8% monthly increase was unrevised. The figures are not adjusted for price changes.",
+        "category": "Economy",
+        "title": "U.S. October retail sales estimated up 0.2%, with monthly change statistically uncertain",
+        "event_date": "2026-11-17",
+        "candidate_id": "us-october-retail-sales-release-2026-11-17",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "U.S. Census Bureau",
+            "url": "https://www.census.gov/retail/marts/www/marts_current.pdf?release=20261117"
+          }
+        ]
+      },
+      {
+        "summary": "The Federal Reserve's November 17 release showed industrial production decreased 0.4% in October after increasing 0.7% in September. Manufacturing output rose 0.3%, while mining output fell 0.8% and utilities output fell 4.3%. Manufacturing excluding motor vehicles and parts edged down 0.1%. Overall capacity utilization declined to 76.4%, three percentage points below its 1972–2025 average. Total industrial production remained 2.1% above its year-earlier level.",
+        "category": "Economy",
+        "title": "U.S. industrial production falls 0.4% in October as utilities output declines",
+        "event_date": "2026-11-17",
+        "candidate_id": "us-october-industrial-production-release-2026-11-17",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Federal Reserve",
+            "url": "https://www.federalreserve.gov/releases/g17/20261117/g17.pdf"
+          }
+        ]
+      },
+      {
+        "summary": "The Bureau of Labor Statistics reported November 17 that U.S. import prices increased 1.1% in October, matching September's monthly increase, Reuters reported. These price indexes exclude tariffs. BLS did not publish an October year-over-year import-price comparison because the federal government shutdown had prevented collection of October 2025 data.",
+        "category": "Economy",
+        "title": "U.S. import prices rise 1.1% in October",
+        "event_date": "2026-11-17",
+        "candidate_id": "us-october-import-prices-release-2026-11-17",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via Yahoo Finance",
+            "url": "https://ca.finance.yahoo.com/news/us-import-prices-rise-more-141034100.html"
+          },
+          {
+            "name": "U.S. Bureau of Labor Statistics",
+            "url": "https://www.bls.gov/news.release/ximpim.nr0.htm"
+          }
+        ]
+      },
+      {
+        "summary": "In a November 17 statement reported by Reuters at 6:25 a.m. EST, President Volodymyr Zelenskiy confirmed Ukraine had attacked the Crimea bridge with drones and missiles. He described the strike as the seventh stage of a weeks-long operation coordinated by the SBU security service and General Staff, following attacks on Russian defensive systems. He said the operation targeted both road and rail sections. Reuters' initial report could not independently verify imagery he published appearing to show the main road arch collapsed into the Kerch Strait.",
+        "category": "Conflict and security",
+        "title": "Zelenskiy confirms Ukrainian Crimea bridge operation and describes its preparation",
+        "event_date": "2026-11-17",
+        "candidate_id": "zelenskiy-confirms-crimea-bridge-operation-2026-11-17",
+        "geography": "Ukraine; Russia; occupied Crimea",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Zelenskiy%2Bsays%2BUkraine%2Bstruck%2BCrimea%2Bbridge%2Bin%2Bresponse%2Bto%2BRussian%2Battacks%2Bon%2Binfrastructure/27359111.html"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-17"
+  },
+  "metadata": {
+    "responseId": "resp_09c8529e02314a48006afc89f049c087d2953355b4a330c35c",
+    "requestId": "req_14844eee8ae4457186a631b0bdd11b64",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 888,
+    "inputTokens": 56273,
+    "outputTokens": 1899,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-17",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 64984,
+    "attemptDurationMs": 64984,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
