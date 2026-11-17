@@ -485,10 +485,10 @@
         "request": {
           "fingerprint": "2c14ac5b61acc2270a048b60b123110996382d9a0bb70531410dfebbc4da9eb7",
           "claimId": "c64591d2-2da8-47dd-bfe8-124311b67de1",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-17T08:07:56.562Z",
-          "responseId": null
+          "responseId": "resp_0e73f231af22ca52006afc0b613e4887d2a9b9e053e2e55857"
         },
         "result": null,
         "observedAt": "2026-11-17T08:07:56.443Z"
