@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-17",
+  "batch": 1,
+  "captured_at": "2026-11-17T11:08:37.828Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "President Donald Trump arrived at Manila's Ninoy Aquino International Airport at 5:33 p.m. Philippine time (09:33 UTC) on November 17. Secretary of State Marco Rubio and Treasury Secretary Scott Bessent accompanied him. The arrival began the Philippine stop of his Asia trip; subsequent meetings and agreements were not yet established as completed by the reporting reviewed.",
+        "category": "Diplomacy",
+        "title": "Trump arrives in Manila for Philippine stop of Asia trip",
+        "event_date": "2026-11-17",
+        "candidate_id": "trump-arrives-manila-2026-11-17",
+        "geography": "Philippines; United States",
+        "sources": [
+          {
+            "name": "GMA News",
+            "url": "https://www.gmanetwork.com/news/topstories/nation/1009755/us-president-donald-trump-arrives-in-manila-for-asean-summit/story/"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/trump-asia-manila-asean-xi-putin-c94386cd092482d94dca38fc8b8d51a7"
+          }
+        ]
+      },
+      {
+        "summary": "Bahrain's Defence Force announced November 17 that it had intercepted and destroyed Iranian aerial attacks. Iran's Revolutionary Guard said it launched drones targeting a U.S.-operated radar system at Sheikh Isa Air Base. Bahrain's Interior Ministry subsequently announced an all-clear following a threat alert. The reviewed reporting did not independently establish Iran's claim of a successful strike on the radar facility.",
+        "category": "Conflict and security",
+        "title": "Bahrain reports intercepting Iranian aerial attacks; Iran claims U.S. radar target",
+        "event_date": "2026-11-17",
+        "candidate_id": "bahrain-iran-drone-interception-announcement-2026-11-17",
+        "geography": "Bahrain; Iran; United States",
+        "sources": [
+          {
+            "name": "The Peninsula",
+            "url": "https://thepeninsulaqatar.com/article/17/11/2026/bahrain-defence-force-intercepts-destroys-iranian-aerial-attacks"
+          },
+          {
+            "name": "Gulf News",
+            "url": "https://gulfnews.com/world/gulf/bahrain/explosions-heard-in-bahrain-after-threat-alert-iran-claims-drone-attack-on-us-radar-1.500750199"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/iran-trump-israel-bahrain-attacks-582e0b5d51be06f0ed630fac24f39b72"
+          }
+        ]
+      },
+      {
+        "summary": "The Office for National Statistics released November labour-market figures showing provisional UK payroll employment fell by 34,000 between September and October, to 30.2 million. Vacancies fell by 22,000 over the quarter to August–October, to 690,000. Survey-based unemployment was estimated at 4.6% in July–September, down 0.3 percentage points on the quarter, but ONS cautioned that survey-sample rotation partly explained that decline. Annual regular earnings growth slowed to 3.5%, from 3.7% in the preceding three-month period.",
+        "category": "Economy",
+        "title": "UK payroll employment and vacancies fall as wage growth slows",
+        "event_date": "2026-11-17",
+        "candidate_id": "uk-ons-november-labour-market-release-2026-11-17",
+        "geography": "United Kingdom",
+        "sources": [
+          {
+            "name": "Office for National Statistics",
+            "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/november2026"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-17"
+  },
+  "metadata": {
+    "responseId": "resp_07a97fd384bbe82b006afc358960d487d284149884e65b5071",
+    "requestId": "req_1a4e9cd95a0c40ef9911ad8e471c819c",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 514,
+    "inputTokens": 50258,
+    "outputTokens": 1293,
+    "webSearchCalls": 6,
+    "stage": "discovery",
+    "targetDate": "2026-11-17",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 48506,
+    "attemptDurationMs": 48506,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
