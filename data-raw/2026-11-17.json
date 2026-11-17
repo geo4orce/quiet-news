@@ -303,10 +303,10 @@
         "request": {
           "fingerprint": "8070490677099069b48a27505b69f2eb60008dd9b1b7e410393cfbac35f01cf6",
           "claimId": "f36e305a-bf11-41c8-bda3-66e65fc421c2",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-17T23:07:55.174Z",
-          "responseId": null
+          "responseId": "resp_0c8ef9f1379f9706006afcde4fb80c87d2840ee0382fab6f83"
         },
         "result": null,
         "observedAt": "2026-11-17T23:07:55.074Z"
