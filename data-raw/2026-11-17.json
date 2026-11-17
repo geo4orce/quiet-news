@@ -41,10 +41,10 @@
         "request": {
           "fingerprint": "b9306310232d06c7f6ab2783776aa478346b85bfb9c7a1ed95b6834b518a206b",
           "claimId": "7d2617ad-8a3a-4365-8b94-4727c11200b2",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-17T11:07:49.322Z",
-          "responseId": null
+          "responseId": "resp_07a97fd384bbe82b006afc358960d487d284149884e65b5071"
         },
         "result": null,
         "observedAt": "2026-11-17T11:07:49.253Z"
