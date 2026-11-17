@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-16",
+  "batch": 4,
+  "captured_at": "2026-11-17T08:08:56.696Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "JPMorgan Chase said around 6:30 p.m. Eastern on November 16 that transactions were posting normally again after a software bug in on-premise hardware slowed processing. Earlier, the bank said customers retained access to accounts and funds and that there was no evidence of a cyber-related cause. Chase said other banks could experience delays on transactions involving it; customer reports did not establish separate system failures at each bank.",
+        "category": "economy",
+        "title": "Chase says transaction processing returns to normal after software bug",
+        "event_date": "2026-11-16",
+        "candidate_id": "chase-software-bug-transaction-delays",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "NBC News via NBC New York",
+            "url": "https://www.nbcnewyork.com/news/national-international/chase-bank-of-america-wells-fargo-bank-outages-reported/6573024/"
+          },
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/downdetector-reports-outages-major-us-banks-5030747"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda"
+          }
+        ]
+      },
+      {
+        "summary": "United Airlines said it resolved a technology issue affecting departing flights around 6 p.m. Eastern on November 16. The airline said flights already airborne and United Express flights were unaffected and that there was no indication of a cybersecurity-related cause. An internal pilots-union memo reviewed by Reuters said multiple pilot applications, including crew communications, were affected. Transportation Secretary Sean Duffy said the incident was not an FAA system-wide problem. The number of flights delayed specifically by the outage remained unclear.",
+        "category": "transportation",
+        "title": "United resolves technology outage that delayed flight departures",
+        "event_date": "2026-11-16",
+        "candidate_id": "united-departing-flights-technology-outage",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://ca.marketscreener.com/news/united-airlines-says-technology-issue-affecting-departing-flights-ce785edfdc8fff21"
+          },
+          {
+            "name": "Reuters via MarketScreener — air travel recovery",
+            "url": "https://uk.marketscreener.com/news/us-transport-chief-urges-congress-to-quickly-pass-air-traffic-telecom-funding-ce785edfdb88f321"
+          }
+        ]
+      },
+      {
+        "summary": "The Commerce Department issued new advanced-AI-chip export restrictions on November 16, Reuters reported. Covered shipments to Singapore, Thailand, Malaysia, Indonesia and Brazil require export licenses, with an exemption for U.S. companies operating data centers there. Overseas data centers providing significant computing power to China-headquartered companies must obtain licenses within 90 days to continue those services or face future export restrictions. The regulation also formally rescinds the Biden-era global AI-chip licensing rule. These provisions have distinct scopes and timelines; the 90-day requirement is not an immediate prohibition on all remote computing services.",
+        "category": "technology",
+        "title": "U.S. AI-chip rule adds shipment controls and licensing requirements for overseas computing",
+        "event_date": "2026-11-16",
+        "candidate_id": "us-advanced-ai-chip-remote-access-rule",
+        "geography": "United States; China; Singapore; Thailand; Malaysia; Indonesia; Brazil",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/US%2Bto%2Bcurb%2BChinas%2Baccess%2Bto%2BAI%2Bchips%2Bas%2BTrump%2Bheads%2Bto%2BAsia/27356809.html"
+          },
+          {
+            "name": "Reuters via StreetInsider — initial report",
+            "url": "https://www.streetinsider.com/Reuters/US%2Bissues%2Brule%2Bto%2Bprotect%2Badvanced%2BAI%2Bchips%2Bfrom%2Bbeing%2Baccessed%2Bremotely/27349437.html"
+          }
+        ]
+      },
+      {
+        "summary": "U.S. air travel largely returned to normal on November 16 after three days of disruption following the November 13 nationwide ground stop, Reuters reported. FlightAware figures at 6 p.m. Eastern showed 344 cancellations and approximately 4,800 delays that Monday. A separate United Airlines technology outage briefly interrupted departures and was resolved around 6 p.m. The cause of Friday's broader disruption remained under investigation, with a router installed during maintenance suspected.",
+        "category": "transportation",
+        "title": "U.S. flight cancellations decline as airlines recover from nationwide ground stop",
+        "event_date": "2026-11-16",
+        "candidate_id": "us-air-travel-recovery-nov16",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/us-transport-chief-urges-congress-to-quickly-pass-air-traffic-telecom-funding-ce785edfdb88f321"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-16"
+  },
+  "metadata": {
+    "responseId": "resp_0e73f231af22ca52006afc0b613e4887d2a9b9e053e2e55857",
+    "requestId": "req_70fba14bd0a541279d16994dfa4cf953",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 972,
+    "inputTokens": 59178,
+    "outputTokens": 2058,
+    "webSearchCalls": 6,
+    "stage": "discovery",
+    "targetDate": "2026-11-16",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 60131,
+    "attemptDurationMs": 60131,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
