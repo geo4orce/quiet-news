@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-18",
+  "batch": 1,
+  "captured_at": "2026-11-18T11:08:34.799Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "U.S. President Donald Trump arrived in Shenzhen, China, on November 18 to attend the Asia-Pacific Economic Cooperation summit. Chinese President Xi Jinping greeted him at the airport. Reuters and Associated Press reporting confirmed the arrival. No outcome from the planned three-leader talks with Russian President Vladimir Putin had been announced; those talks were scheduled for November 19.",
+        "category": "International relations",
+        "title": "Trump arrives in Shenzhen for APEC summit and is greeted by Xi",
+        "event_date": "2026-11-18",
+        "candidate_id": "trump-arrives-shenzhen-apec-2026-11-18",
+        "geography": "China; United States",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/world-news/xi-putin-blast-western-protectionism-sanctions-before-meeting-trump-at-apec-5034759"
+          },
+          {
+            "name": "Associated Press via KGOU",
+            "url": "https://www.kgou.org/politics-and-government/2026-11-18/trump-lands-in-china-with-key-meetings-with-xi-and-putin-on-the-agenda"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-18"
+  },
+  "metadata": {
+    "responseId": "resp_0353726056d19d98006afd870626c887d2bfad4d56d5d9aefb",
+    "requestId": "req_bdbca1722f5b47b8b68b3e2cefeff109",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 648,
+    "inputTokens": 53194,
+    "outputTokens": 910,
+    "webSearchCalls": 6,
+    "stage": "discovery",
+    "targetDate": "2026-11-18",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 48116,
+    "attemptDurationMs": 48116,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
