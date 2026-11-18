@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-18",
+  "batch": 2,
+  "captured_at": "2026-11-18T17:08:55.337Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "After arriving in Shenzhen on November 18 and being welcomed at the airport by Chinese President Xi Jinping, U.S. President Donald Trump shook hands with Russian President Vladimir Putin as APEC leaders gathered for a photograph before a welcome banquet. The greeting did not constitute the planned three-leader talks, which remained scheduled for November 19.",
+        "category": "International relations",
+        "title": "Trump greets Putin at APEC gathering after Xi welcomes him to Shenzhen",
+        "event_date": "2026-11-18",
+        "candidate_id": "trump-arrives-shenzhen-apec-2026-11-18",
+        "geography": "China; United States; Russia",
+        "sources": [
+          {
+            "name": "Chinese Ministry of Foreign Affairs",
+            "url": "https://hk.ocmfa.gov.cn/eng/xjpzxzywshd/202611/t20261118_12062188.htm"
+          },
+          {
+            "name": "ABC News",
+            "url": "https://abcnews.com/Politics/live-updates/trump-asia-trip-2026?entryId=138243636&id=138187702"
+          }
+        ]
+      },
+      {
+        "summary": "Canadian Prime Minister Mark Carney and U.S. President Donald Trump met in Shenzhen on November 18. Canada's official readout said they discussed ongoing work toward a mutually beneficial trade agreement that would respect Canada's languages, culture and sovereignty, and agreed to continue discussions. Trump separately met Mexican President Claudia Sheinbaum, who said the two sides continued advancing their common agenda. The cited accounts announced no completed trade agreement from either meeting.",
+        "category": "International trade",
+        "title": "Trump holds separate meetings with Carney and Sheinbaum in Shenzhen",
+        "event_date": "2026-11-18",
+        "candidate_id": "trump-carney-sheinbaum-shenzhen-meetings-2026-11-18",
+        "geography": "Canada; United States; Mexico; China",
+        "sources": [
+          {
+            "name": "Prime Minister of Canada",
+            "url": "https://www.pm.gc.ca/en/news/readouts/2026/11/18/prime-minister-carney-meets-president-united-states-donald-j-trump"
+          },
+          {
+            "name": "EFE",
+            "url": "https://efe.com/mundo/2026-11-18/reunion-trump-sheinbaum-carney/"
+          }
+        ]
+      },
+      {
+        "summary": "The Office for National Statistics released October inflation figures on November 18 showing that UK consumer prices rose 3.6% from a year earlier, up from 3.5% in September. Transport, particularly motor fuels, provided the largest upward contribution to the change in the annual rate; restaurants and hotels provided the largest partially offsetting downward contribution. Core CPI inflation was 2.8%, little changed from September.",
+        "category": "Economy",
+        "title": "UK annual consumer-price inflation rises to 3.6% in October",
+        "event_date": "2026-11-18",
+        "candidate_id": "uk-october-cpi-release-2026-11-18",
+        "geography": "United Kingdom",
+        "sources": [
+          {
+            "name": "Office for National Statistics",
+            "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026"
+          },
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/UK%2Binflation%2Brises%2Bto%2Bone-year%2Bhigh%2Bbut%2Bmarkets%2Btrim%2Brate%2Bhike%2Bbets/27365690.html"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-18"
+  },
+  "metadata": {
+    "responseId": "resp_0ec806b556f85629006afddb6b0cf087d2b4f51e5ba5da8c2e",
+    "requestId": "req_ef0af5e1773e4e7789706804c988112d",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 639,
+    "inputTokens": 47610,
+    "outputTokens": 1370,
+    "webSearchCalls": 5,
+    "stage": "discovery",
+    "targetDate": "2026-11-18",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 64330,
+    "attemptDurationMs": 64330,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
