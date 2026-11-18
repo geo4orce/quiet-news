@@ -24,28 +24,40 @@
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://quietnews.ai/">
     <link rel="icon" type="image/svg+xml" href="/quiet-news.svg?v=0.5.0">
-    <link rel="stylesheet" href="/styles.css?v=0.6.0">
+    <link rel="stylesheet" href="/styles.css?v=20261118">
     <title>Quiet News</title>
   </head>
   <body>
     <a class="skip-link" href="#news">Skip to news</a>
     <header>
       <img class="mark" src="/quiet-news.svg?v=0.5.0" alt="Quiet News" width="42" height="42">
-      <section id="archive" class="hidden" aria-label="Past days">
-        <button id="archive-toggle" type="button" aria-expanded="false" aria-controls="archive-menu">Jump to date</button>
-        <div id="archive-menu" class="hidden" role="dialog" aria-label="Jump to a date">
-          <div class="calendar-heading">
-            <button id="archive-previous" class="calendar-nav" type="button" aria-label="Previous month">&#8249;</button>
-            <p id="archive-month" aria-live="polite"></p>
-            <button id="archive-next" class="calendar-nav" type="button" aria-label="Next month">&#8250;</button>
+      <div class="header-actions">
+        <section id="archive" class="hidden" aria-label="Past days">
+          <button id="archive-toggle" class="header-toggle" type="button" aria-expanded="false" aria-controls="archive-menu">Jump to date</button>
+          <div id="archive-menu" class="hidden" role="dialog" aria-label="Jump to a date">
+            <div class="calendar-heading">
+              <button id="archive-previous" class="calendar-nav" type="button" aria-label="Previous month">&#8249;</button>
+              <p id="archive-month" aria-live="polite"></p>
+              <button id="archive-next" class="calendar-nav" type="button" aria-label="Next month">&#8250;</button>
+            </div>
+            <div class="calendar-weekdays" aria-hidden="true">
+              <span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span><span>Su</span>
+            </div>
+            <div id="archive-calendar" role="group" aria-labelledby="archive-month"></div>
+            <a id="archive-today" class="hidden" href="/">Today</a>
           </div>
-          <div class="calendar-weekdays" aria-hidden="true">
-            <span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span><span>Su</span>
-          </div>
-          <div id="archive-calendar" role="group" aria-labelledby="archive-month"></div>
-          <a id="archive-today" class="hidden" href="/">Today</a>
-        </div>
-      </section>
+        </section>
+        <details id="site-menu">
+          <summary class="header-toggle">
+            <span class="visually-hidden">Menu</span>
+            <span class="site-menu-icon" aria-hidden="true"></span>
+          </summary>
+          <nav id="site-menu-links" aria-label="Site menu">
+            <a class="text-link" href="/app/privacy/">Privacy policy</a>
+            <a class="text-link" href="/app/support/">Support</a>
+          </nav>
+        </details>
+      </div>
     </header>
     <main id="news" tabindex="-1" aria-live="polite">
       <!-- saved-day-heading -->
@@ -83,6 +95,6 @@
         <span>All rights reserved.</span>
       </p>
     </footer>
-    <script type="module" src="/app.js?v=0.6.0"></script>
+    <script type="module" src="/app.js?v=20261118"></script>
   </body>
 </html>

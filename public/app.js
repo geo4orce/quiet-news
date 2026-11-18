@@ -279,6 +279,22 @@ function renderArchiveCalendar({ dates, selectedDate, month, today }) {
   calendar.replaceChildren(...cells);
 }
 
+function setupSiteMenu() {
+  const menu = document.querySelector("#site-menu");
+  const toggle = menu.querySelector("summary");
+
+  document.addEventListener("click", (event) => {
+    if (menu.open && !menu.contains(event.target)) menu.open = false;
+  });
+
+  menu.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && menu.open) {
+      menu.open = false;
+      toggle.focus();
+    }
+  });
+}
+
 function setupArchive({ dates, selectedDate, today }) {
   const archive = document.querySelector("#archive");
   const toggle = document.querySelector("#archive-toggle");
@@ -380,6 +396,7 @@ async function loadPage(selectedDate, today) {
 }
 
 if (typeof window !== "undefined") {
+  setupSiteMenu();
   const legacyTarget = legacyDateRedirect(new URL(location.href));
   if (legacyTarget) {
     // Static hosting has no query-aware redirect rule. Local serving uses HTTP 308.
