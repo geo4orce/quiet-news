@@ -469,10 +469,10 @@
         "request": {
           "fingerprint": "0c201c2fbe848ccf722e9a40ec13e2d56d1f2ab446ad9d58e3e15c0320c0de6d",
           "claimId": "313b1b05-9783-45ae-8a75-43b35b96c2e0",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-18T08:07:53.770Z",
-          "responseId": null
+          "responseId": "resp_066d1aa90fd65097006afd5cde35e887d2af6c98e7d4705d85"
         },
         "result": null,
         "observedAt": "2026-11-18T08:07:53.630Z"
