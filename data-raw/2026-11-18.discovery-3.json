@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-18",
+  "batch": 3,
+  "captured_at": "2026-11-18T23:08:34.082Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "On November 18, Senator John Cornyn said he had withheld and would not return the home-state approval form known as a blue slip for T. Elliot Gaiser, President Trump's nominee to the federal district court in Northern Texas. Cornyn cited concerns about Gaiser's Texas ties, trial experience and vetting. Gaiser did not appear at that day's Senate Judiciary Committee hearing. Withholding the form blocks advancement under the committee's customary process; it does not itself withdraw the nomination.",
+        "category": "Government and justice",
+        "title": "Cornyn withholds approval for Trump judicial nominee Gaiser in Texas",
+        "event_date": "2026-11-18",
+        "candidate_id": "cornyn-blocks-gaiser-texas-judicial-nominee-2026-11-18",
+        "geography": "United States; Texas",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/Republican%2BSenator%2BCornyn%2Bblocks%2BTrump%2Bjudicial%2Bnominee%2Bin%2BTexas/27369145.html"
+          },
+          {
+            "name": "CNN via ABC17 News",
+            "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/18/sen-cornyn-blocks-judicial-nominee-because-trump-didnt-choose-texas/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-18"
+  },
+  "metadata": {
+    "responseId": "resp_0c744536e4163ce2006afe2fc4b43887d2a83919e73a36fc8f",
+    "requestId": "req_60eb9dcec9364a5d95fee2cce32ab252",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 715,
+    "inputTokens": 56233,
+    "outputTokens": 1027,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-18",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 49234,
+    "attemptDurationMs": 49234,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
