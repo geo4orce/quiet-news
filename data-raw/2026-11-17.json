@@ -644,12 +644,115 @@
       "request": {
         "fingerprint": "248d2726593ae89deb30603c843adf13bec523aea5177f46e90485191b2062be",
         "claimId": "e0e1bff7-dd64-4ac0-ac56-1ddb3c12df52",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-18T09:07:44.435Z",
         "responseId": "resp_0670155b5304ff4e006afd6ae44d4887d29c216ae433adbba6"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "bahrain-iran-drone-interception-announcement-2026-11-17",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "huang-congressional-appearances-agreement-2026-11-17",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "michigan-nessel-campbell-rehearing-announcement-2026-11-17",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "nsa-network-disruption-official-assessments-2026-11-17",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "nvidia-board-export-control-committee-2026-11-17",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "nvidia-sec-investigation-report-2026-11-17",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "nvidia-third-quarter-fiscal-2027-results-2026-11-17",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "overton-fda-nomination-withdrawal-report-2026-11-17",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "sellas-regal-phase-three-topline-results-2026-11-17",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-arrives-manila-2026-11-17",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "uk-ons-november-labour-market-release-2026-11-17",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "us-october-import-prices-release-2026-11-17",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-october-industrial-production-release-2026-11-17",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "us-october-retail-sales-release-2026-11-17",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "zelenskiy-confirms-crimea-bridge-operation-2026-11-17",
+              "code": "weak_support"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The Pan American Health Organization announced Tuesday that endemic measles transmission had been re-established in the United States, Mexico and Bolivia, ending their measles-elimination status.\n\nA regional review found that a virus lineage had circulated uninterrupted for at least 12 months in each country. The finding concerns sustained transmission in those three countries, not throughout the Americas. PAHO urged stronger vaccination, surveillance and outbreak response.",
+              "candidate_id": "paho-measles-elimination-status-announcement-2026-11-17",
+              "headline": "U.S., Mexico and Bolivia lose measles-elimination status",
+              "sources": [
+                {
+                  "name": "Pan American Health Organization",
+                  "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
+                },
+                {
+                  "name": "UNICEF USA",
+                  "url": "https://www.unicefusa.org/press/measles-spreading-places-where-disease-was-under-control-unicef-warns-following-elimination"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0670155b5304ff4e006afd6ae44d4887d29c216ae433adbba6",
+          "requestId": "req_6c316af948234439b05520921d3bbceb",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 2812,
+          "inputTokens": 5092,
+          "outputTokens": 3645,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-17",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 89116,
+          "attemptDurationMs": 89116,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
