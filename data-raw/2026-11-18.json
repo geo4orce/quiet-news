@@ -27,10 +27,10 @@
         "request": {
           "fingerprint": "aaf7bd719ac56118dbed9881528288e8502c06b244fa2b5bd16dc311d8309670",
           "claimId": "3d866d71-36d3-4db5-b1ad-8ef562fd349b",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-18T11:07:46.683Z",
-          "responseId": null
+          "responseId": "resp_0353726056d19d98006afd870626c887d2bfad4d56d5d9aefb"
         },
         "result": null,
         "observedAt": "2026-11-18T11:07:46.648Z"
