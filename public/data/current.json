@@ -1,33 +1,19 @@
 {
-  "edition_date": "2026-11-16",
-  "published_at": "2026-11-17T09:09:09.953Z",
-  "expires_at": "2026-11-18T10:00:00.000Z",
+  "edition_date": "2026-11-17",
+  "published_at": "2026-11-18T09:09:15.634Z",
+  "expires_at": "2026-11-19T10:00:00.000Z",
   "stories": [
     {
-      "headline": "U.S. adds AI-chip export and remote-access controls",
-      "body": "The Commerce Department issued rules Monday requiring export licenses for covered advanced-AI-chip shipments to Singapore, Thailand, Malaysia, Indonesia and Brazil, Reuters reported. U.S. companies operating data centers in those countries are exempt from that shipment requirement.\n\nSeparately, overseas data centers providing significant computing power to companies headquartered in China must obtain licenses within 90 days to continue those services or face future export restrictions. That provision is not an immediate prohibition on all remote computing services.\n\nThe regulation also formally rescinds the Biden-era global AI-chip licensing rule.",
+      "headline": "U.S., Mexico and Bolivia lose measles-elimination status",
+      "body": "The Pan American Health Organization announced Tuesday that endemic measles transmission had been re-established in the United States, Mexico and Bolivia, ending their measles-elimination status.\n\nA regional review found that a virus lineage had circulated uninterrupted for at least 12 months in each country. The finding concerns sustained transmission in those three countries, not throughout the Americas. PAHO urged stronger vaccination, surveillance and outbreak response.",
       "sources": [
         {
-          "name": "Reuters via StreetInsider",
-          "url": "https://www.streetinsider.com/Reuters/US%2Bto%2Bcurb%2BChinas%2Baccess%2Bto%2BAI%2Bchips%2Bas%2BTrump%2Bheads%2Bto%2BAsia/27356809.html"
+          "name": "Pan American Health Organization",
+          "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
         },
         {
-          "name": "Reuters via StreetInsider — initial report",
-          "url": "https://www.streetinsider.com/Reuters/US%2Bissues%2Brule%2Bto%2Bprotect%2Badvanced%2BAI%2Bchips%2Bfrom%2Bbeing%2Baccessed%2Bremotely/27349437.html"
-        }
-      ]
-    },
-    {
-      "headline": "EU sanctions nearly 50 Russian financial institutions",
-      "body": "The European Union imposed Russia-related sanctions on 145 people and entities Monday, including nearly 50 Russian banks and financial institutions.\n\nOne set of measures targeted 12 people and 101 entities linked to financing Russia's war in Ukraine and the shadow fleet. Another covered 30 people and two entities linked to information manipulation and cyberattacks, including the Social Design Agency and hacker group NoName057(16).\n\nThese sanctions were adopted by the Council; a further sanctions package remained under preparation.",
-      "sources": [
-        {
-          "name": "Council of the European Union — war-financing sanctions",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/ukraine-eu-lists-113-individuals-and-entities-to-further-restrict-russia-s-ability-to-finance-its-war-of-aggression/"
-        },
-        {
-          "name": "Council of the European Union — information manipulation and cyber sanctions",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/16/russia-s-fimi-and-malicious-cyber-activities-council-imposes-sanctions-on-30-individuals-and-two-entities/"
+          "name": "UNICEF USA",
+          "url": "https://www.unicefusa.org/press/measles-spreading-places-where-disease-was-under-control-unicef-warns-following-elimination"
         }
       ]
     }
