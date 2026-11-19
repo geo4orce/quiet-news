@@ -252,13 +252,111 @@
         "request": {
           "fingerprint": "dec69f2a6d21157ba11d9feba374097d3b3432acf75c9ec6644567ebb84dc649",
           "claimId": "e4d9e0b0-652f-4a84-81ac-a53a3916b935",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-19T23:07:47.250Z",
           "responseId": "resp_0a8a9776ba6cc611006aff81476fcc87d28c4df8758a3b9cef"
         },
-        "result": null,
-        "observedAt": "2026-11-19T23:07:47.199Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Anthropic shares finished their first Nasdaq trading day at $97.17, 17.1% above the $83 offering price set November 18. The offering comprised 980 million shares sold by the company and existing shareholders, totaling approximately $81.3 billion. Anthropic's pricing announcement said closing was expected November 20, subject to customary conditions.",
+                "category": "Business",
+                "title": "Anthropic closes first Nasdaq trading day 17.1% above offering price",
+                "event_date": "2026-11-19",
+                "candidate_id": "2026-11-19-anthropic-nasdaq-trading-debut",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/stocks-markets-ai-us-anthropic-206c84045137824feabe052a29ff6140"
+                  },
+                  {
+                    "name": "Anthropic",
+                    "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+                  }
+                ]
+              },
+              {
+                "summary": "The Senate rejected H.Con.Res.93, a resolution directing removal of U.S. armed forces from hostilities with Iran, by 48–51. Republicans Susan Collins, Lisa Murkowski and Rand Paul supported it; Democrat John Fetterman opposed it. The House had passed the measure in September. The vote did not change U.S. military authority or end the conflict.",
+                "category": "Politics",
+                "title": "Senate rejects Iran war-powers resolution by 48–51",
+                "event_date": "2026-11-19",
+                "candidate_id": "2026-11-19-senate-iran-war-powers-resolution",
+                "geography": "United States; Iran",
+                "sources": [
+                  {
+                    "name": "United States Senate Periodical Press Gallery",
+                    "url": "https://www.periodicalpress.senate.gov/thursday-november-19-2026/"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/iran-war-trump-senate-war-powers-bcbb331cd6c847bf5d0bcb7446344714"
+                  }
+                ]
+              },
+              {
+                "summary": "The administration auctioned two 20-year offshore mineral lease areas near American Samoa. According to the Marine Minerals Administration, Wetstone U.S. Ventures submitted the only bids and won each area for the $3 million minimum. The leases permit preliminary activities, not immediate commercial mineral harvesting, which requires further approvals. Three lawsuits challenge the sales or the government's authority to conduct them.",
+                "category": "Environment",
+                "title": "American Samoa offshore mineral lease auction draws $6 million in winning bids",
+                "event_date": "2026-11-19",
+                "candidate_id": "2026-11-19-american-samoa-mineral-lease-auction",
+                "geography": "American Samoa; United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/deepsea-mining-american-samoa-oceans-trump-auction-1dad5cc71cd5b683c5d418edc3b78563"
+                  },
+                  {
+                    "name": "Marine Minerals Administration",
+                    "url": "https://www.boem.gov/newsroom/press-releases/mma-announces-final-leasing-notice-first-ever-offshore-mineral-lease-sale"
+                  }
+                ]
+              },
+              {
+                "summary": "The S&P 500 fell 147.80 points, or 2%, to 7,175.83, recording its sixth consecutive decline and longest losing streak since 2024. The Dow Jones Industrial Average fell 1,101.11 points, or 2.2%, to 49,097.06, and the Nasdaq composite lost 550.69 points, or 2.3%, to 23,879.20. More than 90% of S&P 500 constituents declined.",
+                "category": "Markets",
+                "title": "US stock indexes fall as S&P 500 extends losing streak to six sessions",
+                "event_date": "2026-11-19",
+                "candidate_id": "2026-11-19-us-stock-market-close",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-2f178054aea79d282e5ccf8d62f26a28"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-19"
+          },
+          "metadata": {
+            "responseId": "resp_0a8a9776ba6cc611006aff81476fcc87d28c4df8758a3b9cef",
+            "requestId": "req_6899991a93c04ad2a1fd7bcd53ed7450",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 615,
+            "inputTokens": 56828,
+            "outputTokens": 1676,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-11-19",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 48640,
+            "attemptDurationMs": 48640,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-11-19T23:07:47.199Z",
+        "capturedAt": "2026-11-19T23:08:35.890Z"
       }
     ],
     "sift": null
