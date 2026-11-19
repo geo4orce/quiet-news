@@ -400,6 +400,40 @@
         "capturedAt": "2026-11-19T08:08:38.005Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "70ad1d77f16025e0910cb7dab0a9eb0cecb64ae91cd3ef8b8dccecdeb4a35c2b",
+      "priorStories": [
+        {
+          "headline": "U.S., Mexico and Bolivia lose measles-elimination status",
+          "body": "The Pan American Health Organization announced Tuesday that endemic measles transmission had been re-established in the United States, Mexico and Bolivia, ending their measles-elimination status.\n\nA regional review found that a virus lineage had circulated uninterrupted for at least 12 months in each country. The finding concerns sustained transmission in those three countries, not throughout the Americas. PAHO urged stronger vaccination, surveillance and outbreak response.",
+          "sources": [
+            {
+              "name": "Pan American Health Organization",
+              "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
+            },
+            {
+              "name": "UNICEF USA",
+              "url": "https://www.unicefusa.org/press/measles-spreading-places-where-disease-was-under-control-unicef-warns-following-elimination"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "4442b7a593ffa3efc28dc83c582310c74da70cf17f2992758ef491082f604c55",
+        "claimId": "fc9cf222-a873-4b68-b417-84830de3df21",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-11-19T09:07:54.855Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
