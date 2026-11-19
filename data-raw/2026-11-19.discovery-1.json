@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-19",
+  "batch": 1,
+  "captured_at": "2026-11-19T11:08:29.064Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "South Korea's Supreme Court overturned former prime minister Han Duck-soo's 15-year prison sentence in the case concerning his role in the December 2024 martial-law declaration and sent the case back to the Seoul High Court. The court extended his detention by two months; the reversal did not result in his release.",
+        "category": "Justice",
+        "title": "South Korean Supreme Court overturns Han Duck-soo sentence and orders further proceedings",
+        "event_date": "2026-11-19",
+        "candidate_id": "2026-11-19-han-duck-soo-sentence-reversal",
+        "geography": "South Korea",
+        "sources": [
+          {
+            "name": "Aju Press",
+            "url": "https://www.ajupress.com/view/20261119182070383"
+          }
+        ]
+      },
+      {
+        "summary": "South Korea's Supreme Court upheld former first lady Kim Keon Hee's four-year prison sentence and 50 million won fine for stock-price manipulation and accepting luxury gifts from the Unification Church. It dismissed appeals from both Kim and prosecutors and maintained her acquittal on a separate charge involving free opinion-poll results.",
+        "category": "Justice",
+        "title": "South Korean Supreme Court confirms Kim Keon Hee's four-year prison sentence",
+        "event_date": "2026-11-19",
+        "candidate_id": "2026-11-19-kim-keon-hee-final-sentence",
+        "geography": "South Korea",
+        "sources": [
+          {
+            "name": "Yonhap News Agency",
+            "url": "https://m-en.yna.co.kr/view/AEN20261119002452315?section=national/politics"
+          },
+          {
+            "name": "SBS News",
+            "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008854307"
+          }
+        ]
+      },
+      {
+        "summary": "Chinese President Xi Jinping and U.S. President Donald Trump held bilateral talks in Shenzhen during the APEC summit. According to Xinhua's account reported by Reuters, they agreed to formulate an action plan for their bilateral relationship. Xi urged Washington to handle Taiwan appropriately to avoid setbacks and called for stronger communication on artificial-intelligence safety.",
+        "category": "International relations",
+        "title": "Xi and Trump meet in Shenzhen; Chinese account reports agreement to develop bilateral action plan",
+        "event_date": "2026-11-19",
+        "candidate_id": "2026-11-19-xi-trump-shenzhen-bilateral",
+        "geography": "China; United States; Taiwan",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/Chinas%2BXi%2Bsays%2BUS%2Bshould%2Bdo%2Bright%2Bthing%2Bon%2BTaiwan%2Bto%2Bavoid%2Bsetbacks%2Bin%2Brelations/27372100.html"
+          }
+        ]
+      },
+      {
+        "summary": "Donald Trump, Xi Jinping and Vladimir Putin held trilateral talks on the sidelines of the APEC summit in Shenzhen. During the opening exchanges, Trump called for discussions on reducing nuclear weapons and referred to efforts to end the war in Ukraine. Putin said Ukraine had been a major focus of his earlier bilateral talks with Trump. No agreement on ending the war was announced in those exchanges.",
+        "category": "International relations",
+        "title": "Trump, Xi and Putin hold trilateral talks on Ukraine and nuclear arms",
+        "event_date": "2026-11-19",
+        "candidate_id": "2026-11-19-trump-xi-putin-trilateral",
+        "geography": "China; United States; Russia; Ukraine",
+        "sources": [
+          {
+            "name": "AnewZ / Reuters",
+            "url": "https://anewz.tv/world/world-news/26925/trump-putin-and-xi-discuss-ukraine-nuclear-arms-at-apec/news"
+          },
+          {
+            "name": "Reuters Connect",
+            "url": "https://www.reutersconnect.com/item/apec-economic-leaders-meeting-in-shenzhen/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMlhRT0FIMloxNQ"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-19"
+  },
+  "metadata": {
+    "responseId": "resp_049190812481e30b006afed885c31487d2ad78daf3ee415ea8",
+    "requestId": "req_16c5409727f949649b803c112e827730",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 546,
+    "inputTokens": 46827,
+    "outputTokens": 1382,
+    "webSearchCalls": 5,
+    "stage": "discovery",
+    "targetDate": "2026-11-19",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 43344,
+    "attemptDurationMs": 43344,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
