@@ -428,10 +428,10 @@
       "request": {
         "fingerprint": "4442b7a593ffa3efc28dc83c582310c74da70cf17f2992758ef491082f604c55",
         "claimId": "fc9cf222-a873-4b68-b417-84830de3df21",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-11-19T09:07:54.855Z",
-        "responseId": null
+        "responseId": "resp_0897721c401bfc09006afebc6f4a8887d28d9093f3776de32d"
       },
       "result": null
     }
