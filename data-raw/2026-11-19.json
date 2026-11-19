@@ -121,13 +121,129 @@
         "request": {
           "fingerprint": "87ecb9dbc8176b9cb42ee8d7ebc25db15385b06e12b6032f8501a08a01e6e9bb",
           "claimId": "37757455-28c2-4f25-b282-83bd9a4655f3",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-19T17:07:56.149Z",
           "responseId": "resp_0abca70b51d29b8d006aff2cf0cdc887d2add42a64be3444e3"
         },
-        "result": null,
-        "observedAt": "2026-11-19T17:07:56.077Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Donald Trump, Xi Jinping and Vladimir Putin concluded trilateral talks in Shenzhen and issued a declaration supporting dialogue on reducing nuclear risks, UN reform, increased refined-petroleum production and respect for state officials' immunities. The declaration contained no specific nuclear-arms reductions or timetable for negotiations and did not propose settlements for the wars in Ukraine or Iran.",
+                "category": "International relations",
+                "title": "Trump, Xi and Putin conclude summit with declaration but no specific arms-reduction agreement",
+                "event_date": "2026-11-19",
+                "candidate_id": "2026-11-19-trump-xi-putin-trilateral",
+                "geography": "China; United States; Russia; Ukraine; Iran",
+                "sources": [
+                  {
+                    "name": "Chinese Ministry of Foreign Affairs",
+                    "url": "https://www.fmprc.gov.cn/eng/xw/zyxw/202611/t20261119_12063266.html"
+                  },
+                  {
+                    "name": "The National — declaration text published by Chinese state media",
+                    "url": "https://www.thenationalnews.com/news/mena/2026/11/19/nuclear-war-cannot-be-won-full-text-of-china-russia-and-us-peace-declaration/"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/trump-xi-putin-nuclear-ukraine-iran-a04dc76ed8e786b087e2c1ea9598783a"
+                  }
+                ]
+              },
+              {
+                "summary": "The International Court of Justice ruled that Myanmar committed genocide against the Rohingya during the 2017 military operations in northern Rakhine State and failed to prevent and punish genocide. It ordered Myanmar to investigate and prosecute those responsible, facilitate safe and voluntary returns, restore property and provide compensation. The judgment concerns Myanmar's responsibility as a state, not individual criminal convictions.",
+                "category": "Justice",
+                "title": "International Court of Justice finds Myanmar responsible for genocide against Rohingya",
+                "event_date": "2026-11-19",
+                "candidate_id": "2026-11-19-icj-myanmar-rohingya-genocide",
+                "geography": "Myanmar; Bangladesh; Netherlands",
+                "sources": [
+                  {
+                    "name": "International Court of Justice — press release hosted by UNHCR Refworld",
+                    "url": "https://www.refworld.org/sites/default/files/2026-11/178-20261119-pre-01-00-en.pdf"
+                  },
+                  {
+                    "name": "UN Independent Investigative Mechanism for Myanmar",
+                    "url": "https://iimm.un.org/en/icj-judgment-marks-historic-step-towards-justice-rohingya"
+                  }
+                ]
+              },
+              {
+                "summary": "European Commission spokesperson Thomas Regnier confirmed that AI tools were used in a cyberattack first detected on October 22. Several applications were temporarily taken offline, and most had since been restored. Regnier said investigators had not detected evidence of a data breach affecting Commission staff as a whole. He did not identify the attacker. The November 19 development was the public confirmation, not the attack's onset.",
+                "category": "Cybersecurity",
+                "title": "European Commission confirms AI-assisted October cyberattack",
+                "event_date": "2026-11-19",
+                "candidate_id": "2026-11-19-european-commission-cyberattack-disclosure",
+                "geography": "European Union",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/cyberattack-european-union-artificial-intelligence-ai-79705095e8141cd650196dbff1cf3c70"
+                  }
+                ]
+              },
+              {
+                "summary": "The Labor Department reported that seasonally adjusted initial unemployment claims rose by 1,000 to 203,000 for the week ending November 14. The previous week's figure was revised upward to 202,000. Continuing claims increased by 70,000 to 1,763,000 for the week ending November 7. These are figures released November 19, not claims filed solely that day.",
+                "category": "Economy",
+                "title": "US weekly initial unemployment claims rise to 203,000",
+                "event_date": "2026-11-19",
+                "candidate_id": "2026-11-19-us-weekly-unemployment-claims",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "US Department of Labor",
+                    "url": "https://www.dol.gov/ui/data.pdf?os=win"
+                  }
+                ]
+              },
+              {
+                "summary": "Anthropic shares began trading on Nasdaq under the symbol ANT at $111.50, above the $83 offering price set November 18. The offering comprised 980 million shares sold by the company and existing shareholders, totaling approximately $81.3 billion. Anthropic's pricing announcement said the offering was expected to close November 20, subject to customary conditions.",
+                "category": "Business",
+                "title": "Anthropic shares begin Nasdaq trading above offering price",
+                "event_date": "2026-11-19",
+                "candidate_id": "2026-11-19-anthropic-nasdaq-trading-debut",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/anthropic-ipo-nasdaq-ai-b6a74b8949021207dc162fcc876c4649"
+                  },
+                  {
+                    "name": "Anthropic",
+                    "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-19"
+          },
+          "metadata": {
+            "responseId": "resp_0abca70b51d29b8d006aff2cf0cdc887d2add42a64be3444e3",
+            "requestId": "req_c7e22162e7e247cabe08df0faa483d43",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 596,
+            "inputTokens": 47989,
+            "outputTokens": 1895,
+            "webSearchCalls": 5,
+            "stage": "discovery",
+            "targetDate": "2026-11-19",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 55208,
+            "attemptDurationMs": 55208,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-11-19T17:07:56.077Z",
+        "capturedAt": "2026-11-19T17:08:51.357Z"
       }
     ],
     "sift": null
