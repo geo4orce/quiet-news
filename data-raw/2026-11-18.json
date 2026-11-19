@@ -428,12 +428,71 @@
       "request": {
         "fingerprint": "4442b7a593ffa3efc28dc83c582310c74da70cf17f2992758ef491082f604c55",
         "claimId": "fc9cf222-a873-4b68-b417-84830de3df21",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-19T09:07:54.855Z",
         "responseId": "resp_0897721c401bfc09006afebc6f4a8887d28d9093f3776de32d"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "anthropic-ipo-pricing-2026-11-18",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "arizona-ai-agents-bank-investigation-2026-11-18",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "colorado-ice-contempt-release-rearrest-2026-11-18",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "cornyn-blocks-gaiser-texas-judicial-nominee-2026-11-18",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "fda-infilbray-gaucher-neurological-approval-2026-11-18",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "trump-arrives-shenzhen-apec-2026-11-18",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-carney-sheinbaum-shenzhen-meetings-2026-11-18",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "uk-october-cpi-release-2026-11-18",
+              "code": "incremental_update"
+            }
+          ],
+          "stories": []
+        },
+        "metadata": {
+          "responseId": "resp_0897721c401bfc09006afebc6f4a8887d28d9093f3776de32d",
+          "requestId": "req_6284a5f9761948a2986aadb315e31184",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 516,
+          "inputTokens": 2995,
+          "outputTokens": 845,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-18",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 23366,
+          "attemptDurationMs": 23366,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
