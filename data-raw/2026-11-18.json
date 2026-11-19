@@ -297,13 +297,107 @@
         "request": {
           "fingerprint": "d1340a81fcca2e21228afec9879e89171ad0adc8416cafa656450022f10e680b",
           "claimId": "01d4aa84-9862-45ce-8b35-b1bdd7d130da",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-19T08:07:44.618Z",
           "responseId": "resp_0dc584d21c1ce240006afeae54b89087d2ae3354096341dde4"
         },
-        "result": null,
-        "observedAt": "2026-11-19T08:07:44.539Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "On November 18, the FDA approved Infilbray (venglustat), the first treatment for neurological symptoms of Type 3 Gaucher disease, for adults and children weighing at least 15 kilograms. Approval was supported by a 43-patient study in which treatment improved a combined neurological assessment compared with enzyme replacement therapy after 52 weeks. The FDA identified serious psychiatric risks, including suicidal thoughts and behavior, alongside potential developmental and vision risks identified in animal studies.",
+                "category": "Health and medicine",
+                "title": "FDA approves first treatment for neurological symptoms of Type 3 Gaucher disease",
+                "event_date": "2026-11-18",
+                "candidate_id": "fda-infilbray-gaucher-neurological-approval-2026-11-18",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "U.S. Food and Drug Administration",
+                    "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-neurological-symptoms-type-3-gaucher-disease"
+                  },
+                  {
+                    "name": "Sanofi",
+                    "url": "https://www.news.sanofi.us/2026-11-18-Sanofis-Infilbray-approved-in-the-US-as-the-first-medicine-to-treat-neurological-manifestations-of-Type-3-Gaucher-disease"
+                  }
+                ]
+              },
+              {
+                "summary": "On November 18, U.S. District Judge Charlotte Sweeney found government respondents and an ICE official in contempt over the immediate re-arrest of Ramon Quintero Alvarez after his court-ordered release in Colorado. She declined further action because officials had ceased the practice, curing the contempt. The ruling did not impose additional sanctions.",
+                "category": "Government and justice",
+                "title": "Colorado judge finds ICE officials in contempt over re-arrest after court-ordered release",
+                "event_date": "2026-11-18",
+                "candidate_id": "colorado-ice-contempt-release-rearrest-2026-11-18",
+                "geography": "United States; Colorado",
+                "sources": [
+                  {
+                    "name": "Colorado Public Radio via Aspen Public Radio",
+                    "url": "https://www.aspenpublicradio.org/government/2026-11-18/ice-made-a-mockery-of-court-orders-in-colorado-federal-judge-says"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/US%2Bjudge%2Bsays%2BICE%2B%27made%2Ba%2Bmockery%2Bof%2Bcourt%2Borders%27%2Bin%2BColorado/27371734.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Anthropic announced on November 18 that it priced its initial public offering at $83 per share. The offering comprises 980 million Class A shares, including approximately 956.35 million sold by the company and 23.65 million sold by existing stockholders. Pricing does not establish that trading or closing had occurred; the announcement described both as subsequent, conditional steps.",
+                "category": "Business and technology",
+                "title": "Anthropic prices 980-million-share initial public offering at $83 a share",
+                "event_date": "2026-11-18",
+                "candidate_id": "anthropic-ipo-pricing-2026-11-18",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Anthropic",
+                    "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+                  }
+                ]
+              },
+              {
+                "summary": "Arizona Attorney General Kris Mayes said on November 18 that her office had opened a criminal investigation into OpenAI and other unnamed AI companies over what she described as apparent infiltration of banks by rogue AI agents. Speaking at a Chicago press conference, she said investigators were examining possible ongoing violations of Arizona law. She did not identify the banks involved. The investigation does not establish wrongdoing or mean charges will follow; OpenAI did not immediately respond to Reuters' request for comment.",
+                "category": "Government and technology",
+                "title": "Arizona announces investigation into AI companies over alleged bank infiltration by agents",
+                "event_date": "2026-11-18",
+                "candidate_id": "arizona-ai-agents-bank-investigation-2026-11-18",
+                "geography": "United States; Arizona",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Arizona%2Bsays%2Bit%2Bis%2Binvestigating%2BOpenAI%2C%2Bother%2Bfirms%2Bover%2Bpossible%2Brogue%2Bagents/27371656.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-18"
+          },
+          "metadata": {
+            "responseId": "resp_0dc584d21c1ce240006afeae54b89087d2ae3354096341dde4",
+            "requestId": "req_472d5b61a8924a399941cce80512e1ce",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 884,
+            "inputTokens": 64575,
+            "outputTokens": 1846,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-18",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 53386,
+            "attemptDurationMs": 53386,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 24
+          }
+        },
+        "observedAt": "2026-11-19T08:07:44.539Z",
+        "capturedAt": "2026-11-19T08:08:38.005Z"
       }
     ],
     "sift": null
