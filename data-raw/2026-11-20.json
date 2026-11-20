@@ -210,6 +210,36 @@
         },
         "observedAt": "2026-11-20T17:07:43.463Z",
         "capturedAt": "2026-11-20T17:08:51.753Z"
+      },
+      {
+        "slot": 18,
+        "fromHour": 12,
+        "priorStories": [
+          {
+            "headline": "World court finds Myanmar committed Rohingya genocide",
+            "body": "The International Court of Justice ruled that Myanmar committed genocide against the Rohingya during military operations in northern Rakhine State in 2017. It also found that Myanmar failed to prevent and punish genocide.\n\nThe court ordered Myanmar to investigate and prosecute those responsible, facilitate safe and voluntary returns, restore property and provide compensation. The judgment determines Myanmar’s responsibility as a state; it does not convict individuals of crimes.",
+            "sources": [
+              {
+                "name": "International Court of Justice — press release hosted by UNHCR Refworld",
+                "url": "https://www.refworld.org/sites/default/files/2026-11/178-20261119-pre-01-00-en.pdf"
+              },
+              {
+                "name": "UN Independent Investigative Mechanism for Myanmar",
+                "url": "https://iimm.un.org/en/icj-judgment-marks-historic-step-towards-justice-rohingya"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "261785cc5826e7d82294eeac5a2186d1dd43475c7e1ea1cc5188320a89ad8190",
+          "claimId": "25cc0f73-8e30-41d8-9381-75727080ad06",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-11-20T23:07:48.382Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-11-20T23:07:48.293Z"
       }
     ],
     "sift": null
