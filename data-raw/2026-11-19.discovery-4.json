@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-19",
+  "batch": 4,
+  "captured_at": "2026-11-20T08:08:50.726Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The Senate passed H.R.2347, the Bipartisan American Affordability and Jobs Act, by 62–33. The bill would shorten federal environmental-review deadlines, accelerate transmission development, limit some permit challenges and require large AI data centers to cover more associated grid-upgrade costs. Supporters said it would ease infrastructure bottlenecks; opponents raised concerns about environmental protections and tribal consultation. The amended measure goes to the House and was not law at the end of the coverage window.",
+        "category": "Politics",
+        "title": "Senate passes energy and infrastructure permitting bill by 62–33",
+        "event_date": "2026-11-19",
+        "candidate_id": "2026-11-19-senate-passes-permitting-bill",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "United States Senate Periodical Press Gallery",
+            "url": "https://www.periodicalpress.senate.gov/thursday-november-19-2026/"
+          },
+          {
+            "name": "Senate Committee on Environment and Public Works",
+            "url": "https://www.epw.senate.gov/press/rep/senate-passes-capitos-bipartisan-american-affordability-and-jobs-act/"
+          },
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/US%2BSenate%2Bpasses%2Bbipartisan%2Bbill%2Bto%2Bspeed%2Benergy,%2Binfrastructure%2Bprojects/27377927.html"
+          }
+        ]
+      },
+      {
+        "summary": "The Army announced that controlled detonations of deteriorating lead azide at the Iowa Army Ammunition Plant in Middletown would be postponed from November 20 to November 23. Acting Army Secretary Adam Telle said the delay would allow additional public communication but that a forecast temperature drop risked further destabilizing the material. Environmental groups filed an emergency motion challenging the EPA disposal permit, arguing that the blasts could disperse toxic lead dust. The announcement postponed the operation; no detonation occurred in this development.",
+        "category": "Environment",
+        "title": "Army postpones planned destruction of deteriorating explosives in Iowa",
+        "event_date": "2026-11-19",
+        "candidate_id": "2026-11-19-iowa-lead-azide-detonation-postponed",
+        "geography": "Iowa; United States",
+        "sources": [
+          {
+            "name": "United States Army",
+            "url": "https://www.army.mil/article/296926"
+          },
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/US%2BArmy%2Bpostpones%2Bdetonations%2Bof%2Bdegraded%2Blead%2Bcompound%2Bin%2BIowa/27377906.html"
+          }
+        ]
+      },
+      {
+        "summary": "U.S. District Judge Trina Thompson issued a preliminary injunction restricting Agriculture Secretary Brooke Rollins's religious messages to employees through her official account. The judge found that messages assuming employees shared her Christian beliefs likely violated the First Amendment. The ruling did not restrict Rollins's private religious expression. USDA said it was evaluating its options, including a prompt appeal.",
+        "category": "Justice",
+        "title": "Judge restricts agriculture secretary's religious emails to employees",
+        "event_date": "2026-11-19",
+        "candidate_id": "2026-11-19-rollins-religious-emails-injunction",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/Judge%2Borders%2BUS%2Bagriculture%2Bchief%2Bto%2Bstop%2Bsending%2Breligious%2Bemails%2Bfrom%2Bofficial%2Baccount/27377933.html"
+          },
+          {
+            "name": "The Hill via AOL",
+            "url": "https://www.aol.com/articles/judge-says-rollins-religious-holiday-211912000.html"
+          }
+        ]
+      },
+      {
+        "summary": "President Donald Trump announced a posthumous pardon for Pete Rose's federal tax crimes. Rose pleaded guilty in 1990 to two charges of filing false tax returns and served five months in prison. The pardon is separate from Major League Baseball's decision in 2025 to remove Rose from its permanently ineligible list and does not itself induct him into the Baseball Hall of Fame.",
+        "category": "Justice",
+        "title": "Trump announces posthumous pardon for Pete Rose's tax crimes",
+        "event_date": "2026-11-19",
+        "candidate_id": "2026-11-19-pete-rose-posthumous-pardon",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/Trump%2Bpardons%2Blate%2Bbaseball%2Blegend%2BPete%2BRose%2Bfor%2Btax%2Bcrimes/27377777.html"
+          }
+        ]
+      },
+      {
+        "summary": "The Treasury Department imposed sanctions on the Australia-headquartered Comanchero Outlaw Motorcycle Gang, Italy-based 'Ndrangheta and associated people and businesses. Treasury accused the networks of supporting international drug trafficking and money laundering. OFAC also issued a general license authorizing specified wind-down transactions involving certain newly blocked persons.",
+        "category": "International relations",
+        "title": "US sanctions Comanchero and 'Ndrangheta networks over alleged drug trafficking",
+        "event_date": "2026-11-19",
+        "candidate_id": "2026-11-19-comanchero-ndrangheta-us-sanctions",
+        "geography": "United States; Australia; Italy; Canada; New Zealand",
+        "sources": [
+          {
+            "name": "United States Department of the Treasury",
+            "url": "https://home.treasury.gov/news/press-releases/sb0696"
+          },
+          {
+            "name": "Office of Foreign Assets Control",
+            "url": "https://ofac.treasury.gov/recent-actions/20261119"
+          }
+        ]
+      },
+      {
+        "summary": "Kyiv Mayor Vitali Klitschko reported that a Russian ballistic-missile attack struck three Dnipro River bridges, killed three people and injured about 15. He reported closures or traffic restrictions at the Podilsko-Voskresenskyi, Darnytskyi and Pivdennyi crossings. Reuters reported hearing explosions but could not independently confirm the officials' accounts. The attack occurred early November 20 in Kyiv, during the evening of November 19 in New York.",
+        "category": "Conflict",
+        "title": "Kyiv mayor reports three killed as Russian missiles strike river bridges",
+        "event_date": "2026-11-19",
+        "candidate_id": "2026-11-19-kyiv-bridges-missile-strikes",
+        "geography": "Kyiv; Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/Three%2Bkilled%2Bin%2Bmissile%2Bstrikes%2Bon%2BKyiv,%2Bmayor%2Bsays,%2Bin%2Bbiggest%2Battack%2Bon%2Bbridges/27377815.html"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-19"
+  },
+  "metadata": {
+    "responseId": "resp_08a29eb207888c97006affffd1e66887d2bf4a6cc52014eb0a",
+    "requestId": "req_ed1d7ed4943549aebcc2af12ed498ed1",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 1087,
+    "inputTokens": 65937,
+    "outputTokens": 2817,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-19",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 68182,
+    "attemptDurationMs": 68182,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
