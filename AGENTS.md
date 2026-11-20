@@ -36,8 +36,8 @@ Avoid em dashes.
   The generated sitemap lists the homepage and every date in `data/index.json`,
   not a list of dates confirmed indexed by search engines. Pages are eligible
   for indexing; never promise actual inclusion or ranking. Omit unverified lastmod.
-  Local legacy query/slash redirects use HTTP 308; hosted query compatibility
-  uses JavaScript. Hosted slashless/index.html aliases retain the clean canonical.
+  Local slashless/index.html aliases redirect with HTTP 308. Hosted aliases
+  retain the clean canonical. The date comes from the path.
   Hosting serves `dist/` with `404.html`, without a homepage catchall.
 
 - Header: show the original Q mark without the site-name h1.
@@ -81,8 +81,7 @@ Avoid em dashes.
   future `Not yet.`, load/validation failure `Error.`.
 - The homepage requires JavaScript to load `/data/current.json` with expiry;
   its initial HTML does not include news. Homepage prerendering remains separate
-  work. Valid `?date=YYYY-MM-DD` redirects in the browser to its clean path.
-  Saved pages do not expire. Remove malformed date parameters.
+  work. Saved pages do not expire.
   Check index membership for past dates; missing data is not a quiet result.
 - Calendar enables indexed dates only and stays within indexed months. Its
   latest date links to `/` and is selected on the homepage. Show `Today` linking

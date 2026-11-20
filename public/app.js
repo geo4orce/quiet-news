@@ -1,6 +1,6 @@
 import { illustrationFor } from "./illustrations.js";
 import { dailyImagesEnabled, loadDailyImages } from "./image-manifest.js";
-import { calendarDate, dateFromPath, datePath, legacyDateRedirect } from "./date-route.js";
+import { calendarDate, dateFromPath, datePath } from "./date-route.js";
 
 const PUBLICATION_FIELDS = ["edition_date", "published_at", "expires_at", "stories"];
 const STORY_FIELDS = ["headline", "body", "sources"];
@@ -50,8 +50,6 @@ const validIndex = (value) => isObject(value)
   && value.dates.every(calendarDate)
   && new Set(value.dates).size === value.dates.length
   && value.dates.every((date, index) => index === 0 || value.dates[index - 1] > date);
-
-export const selectedDateFrom = (value) => calendarDate(value) ? value : null;
 
 export function classifyDateRequest(selectedDate, dates, today) {
   if (selectedDate === null) return "current";
@@ -397,47 +395,32 @@ async function loadPage(selectedDate, today) {
 
 if (typeof window !== "undefined") {
   setupSiteMenu();
-  const legacyTarget = legacyDateRedirect(new URL(location.href));
-  if (legacyTarget) {
-    // Static hosting has no query-aware redirect rule. Local serving uses HTTP 308.
-    location.replace(legacyTarget);
+  const selectedDate = dateFromPath(location.pathname);
+  if (selectedDate && location.hostname === "quietnews.dev") {
+    // DEV code can predate new publications. Refresh from main, including on its 404 page.
+    if (!document.querySelector(".saved-date")) {
+      const heading = document.createElement("h1");
+      heading.className = "saved-date";
+      heading.textContent = formatDay(selectedDate);
+      document.querySelector("#news").prepend(heading);
+    }
+    afterNewsPaint(() => { void loadPage(selectedDate, newYorkToday()); });
+  } else if (selectedDate && document.documentElement.dataset.savedDate === selectedDate) {
+    // The saved HTML already contains validated content. Enhance without a reload or flash.
+    document.querySelectorAll(".story-illustration img").forEach((image) => {
+      const remove = () => {
+        image.closest("[data-story-details]")?.classList.remove("has-illustration");
+        image.closest("figure")?.remove();
+      };
+      image.addEventListener("error", remove, { once: true });
+      if (image.complete && image.naturalWidth === 0) remove();
+    });
+    afterNewsPaint(() => { void loadArchive(selectedDate, newYorkToday()); });
+  } else if (location.pathname === "/" || location.pathname === "/index.html") {
+    loadPage(null, newYorkToday());
   } else {
-    const requestedDate = new URLSearchParams(location.search).get("date");
-    const selectedDate = dateFromPath(location.pathname);
-    if (requestedDate !== null) {
-      console.warn("Quiet News ignored an invalid date parameter.", {
-        code: "invalid_date_parameter"
-      });
-      const cleanUrl = new URL(location.href);
-      cleanUrl.searchParams.delete("date");
-      history.replaceState(null, "", `${cleanUrl.pathname}${cleanUrl.search}${cleanUrl.hash}`);
-    }
-    if (selectedDate && location.hostname === "quietnews.dev") {
-      // DEV code can predate new publications. Refresh from main, including on its 404 page.
-      if (!document.querySelector(".saved-date")) {
-        const heading = document.createElement("h1");
-        heading.className = "saved-date";
-        heading.textContent = formatDay(selectedDate);
-        document.querySelector("#news").prepend(heading);
-      }
-      afterNewsPaint(() => { void loadPage(selectedDate, newYorkToday()); });
-    } else if (selectedDate && document.documentElement.dataset.savedDate === selectedDate) {
-      // The saved HTML already contains validated content. Enhance without a reload or flash.
-      document.querySelectorAll(".story-illustration img").forEach((image) => {
-        const remove = () => {
-          image.closest("[data-story-details]")?.classList.remove("has-illustration");
-          image.closest("figure")?.remove();
-        };
-        image.addEventListener("error", remove, { once: true });
-        if (image.complete && image.naturalWidth === 0) remove();
-      });
-      afterNewsPaint(() => { void loadArchive(selectedDate, newYorkToday()); });
-    } else if (location.pathname === "/" || location.pathname === "/index.html") {
-      loadPage(null, newYorkToday());
-    } else {
-      // A missing route is never a request for current news.
-      showNewsState(selectedDate && selectedDate >= newYorkToday() ? "not-yet" : "unavailable");
-      if (selectedDate) void loadArchive(selectedDate, newYorkToday());
-    }
+    // A missing route is never a request for current news.
+    showNewsState(selectedDate && selectedDate >= newYorkToday() ? "not-yet" : "unavailable");
+    if (selectedDate) void loadArchive(selectedDate, newYorkToday());
   }
 }

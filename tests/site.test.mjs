@@ -7,7 +7,7 @@ import { once } from "node:events";
 import { generatePages } from "../lib/site.mjs";
 import { buildSite } from "../scripts/build-site.mjs";
 import { createSiteServer } from "../scripts/serve.mjs";
-import { dateFromPath, legacyDateRedirect } from "../public/date-route.js";
+import { dateFromPath } from "../public/date-route.js";
 import { storyImageId } from "../public/image-manifest.js";
 
 const template = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
@@ -150,15 +150,13 @@ test("missing or duplicate template slots fail safely even when every saved day 
   }
 });
 
-test("date routes reject invalid calendar days and old links preserve unrelated parameters", () => {
+test("date paths reject invalid calendar days", () => {
   assert.equal(dateFromPath("/2026-09-12/"), "2026-09-12");
   assert.equal(dateFromPath("/2026-09-12"), "2026-09-12");
   for (const route of ["/2026-02-30/", "/2026-99-12/", "/junk/", "/2026-09-12/extra"]) assert.equal(dateFromPath(route), null);
-  assert.equal(legacyDateRedirect(new URL("https://example.com/?date=2026-09-12&utm_source=test#story")), "/2026-09-12/?utm_source=test#story");
-  assert.equal(legacyDateRedirect(new URL("https://example.com/?date=2026-99-12")), null);
 });
 
-test("local HTTP serves clean dated HTML, redirects legacy links, and returns real missing responses", async (t) => {
+test("local HTTP serves dated paths, ignores date queries, and returns real missing responses", async (t) => {
   const { root } = await fixture(t);
   const { directory } = await buildSite(root, { now });
   const server = createSiteServer(directory);
@@ -170,10 +168,16 @@ test("local HTTP serves clean dated HTML, redirects legacy links, and returns re
   const dated = await get(`/${dates[0]}/`);
   assert.equal(dated.status, 200);
   assert.match(await dated.text(), /Saved text/);
-  for (const route of [`/?date=${dates[0]}`, `/${dates[0]}`, `/${dates[0]}/index.html`]) {
-    const response = await get(route);
+  const homepage = await (await get("/")).text();
+  for (const route of ["/", "/index.html"]) {
+    const response = await get(`${route}?date=${dates[0]}`);
+    assert.equal(response.status, 200);
+    assert.equal(await response.text(), homepage);
+  }
+  for (const route of [`/${dates[0]}`, `/${dates[0]}/index.html`]) {
+    const response = await get(`${route}?utm_source=test`);
     assert.equal(response.status, 308);
-    assert.equal(response.headers.get("location"), `/${dates[0]}/`);
+    assert.equal(response.headers.get("location"), `/${dates[0]}/?utm_source=test`);
   }
   assert.equal(await (await get(`/${dates[0]}/`, { method: "HEAD" })).text(), "");
   for (const route of ["/2026-08-01/", "/2026-99-12/", "/nonsense/", "/data-raw/secret.json"]) {

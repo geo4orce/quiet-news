@@ -22,7 +22,6 @@ page noindex and disallows crawling, for deployment previews.
 | Production saved date | Complete news, source links, metadata and available image markup in initial HTML; no JavaScript needed to read the news. |
 | Production homepage | JavaScript fetches and validates current JSON, including expiry. Initial HTML has no news. |
 | Calendar | JavaScript loads the date index and creates navigation links after setup. |
-| Hosted legacy `?date=` link | JavaScript redirects to the clean date path. |
 | DEV news | JavaScript refreshes data from public main; generated date HTML is a preview snapshot. |
 
 Production saved pages return HTTP 200, allow crawling and indexing, identify
@@ -77,15 +76,13 @@ discovery for crawlers; the page itself has no archive navigation links.
   Without JavaScript, saved pages remain readable but have no archive navigator.
 - The calendar retains its latest-day link to `/`. Earlier dates use clean paths.
   Every dated page, including the latest, offers `Today` back to `/`.
-- The local server issues HTTP 308 redirects for valid `?date=` links, slashless
-  date paths and explicit dated `index.html` paths. Unrelated query parameters
-  survive. On static hosting the browser provides old-query compatibility using
-  `location.replace`; this is not a server redirect and requires JavaScript.
+- The local server issues HTTP 308 redirects for slashless date paths and
+  explicit dated `index.html` paths, preserving query parameters. Dates are
+  selected by path. Old `/?date=` links now open the homepage.
 - Missing or malformed paths return local HTTP 404 with `Unavailable.`; valid
   current/future dates show `Not yet.`. Error pages are noindex and never show
   the current stories. A static host's generic 404 uses `Unavailable.` initially;
-  JavaScript distinguishes current/future dates. Invalid date parameters on `/`
-  are removed as before.
+  JavaScript distinguishes current/future dates.
 
 ## Accessibility and loading
 
@@ -118,10 +115,8 @@ published date and has no such dependency. Existing DEV pages may display their
 snapshot briefly before refreshing. Invalid index/data shows `Error.`.
 
 Both hosts use `404.html` as the error document, with no homepage catchall.
-Production saved pages work without JavaScript. Legacy query links still require
-JavaScript on static hosting; a query-aware server redirect would need separate
-hosting work. Current/future missing paths initially show `Unavailable.` and
-switch to `Not yet.` with JavaScript.
+Production saved pages work without JavaScript. Current/future missing paths
+initially show `Unavailable.` and switch to `Not yet.` with JavaScript.
 
 Full accessibility certification, homepage prerendering, correction timestamps,
 and Search Console inspection remain separate work. Google may choose its own
