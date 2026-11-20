@@ -123,13 +123,93 @@
         "request": {
           "fingerprint": "feca315972a73e84130b78b4064875bb03ae07b913ce68266a6f9e71cadb83e2",
           "claimId": "9723e447-cda7-4a47-a683-fc22925b7b1e",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-20T17:07:43.526Z",
           "responseId": "resp_0c65b295bd4ae01b006b007e62e74487d2a5215538ddc33ccf"
         },
-        "result": null,
-        "observedAt": "2026-11-20T17:07:43.463Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Polish officials said three Russian objects, believed to be two missiles and a jet-powered drone, entered Polish airspace and came down in southeastern Poland on November 20. Prime Minister Donald Tusk described the incident as an apparent intentional provocation coinciding with European military exercises for a possible postwar mission in Ukraine. The identification of all three objects remained preliminary.",
+                "category": "security",
+                "title": "Poland reports Russian airspace violations during European military exercises",
+                "event_date": "2026-11-20",
+                "candidate_id": "2026-11-20-poland-russian-airspace-violations",
+                "geography": "Poland; Russia; Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/world-news/poland-condemns-russian-provocation-after-three-airspace-violations-5041572"
+                  },
+                  {
+                    "name": "Just Security",
+                    "url": "https://www.justsecurity.org/165471/early-edition-november-20-2026/"
+                  }
+                ]
+              },
+              {
+                "summary": "Estonia's government decided on November 20 to close road border crossings with Russia from December 1, citing Russian hostile activities. The suspension is planned for at least six months, after which the government will decide whether to extend it. Russia's Foreign Ministry criticized the decision and threatened political and diplomatic responses. The crossings had not closed under this decision at the time of reporting.",
+                "category": "international",
+                "title": "Estonia decides to close road border crossings with Russia from December 1",
+                "event_date": "2026-11-20",
+                "candidate_id": "2026-11-20-estonia-russia-border-closure-decision",
+                "geography": "Estonia; Russia",
+                "sources": [
+                  {
+                    "name": "Estonian Ministry of Foreign Affairs",
+                    "url": "https://vm.ee/en/news/foreign-minister-tsahkna-border-closure-russias-hostile-activities-against-estonia-and-europe"
+                  },
+                  {
+                    "name": "Just Security",
+                    "url": "https://www.justsecurity.org/165471/early-edition-november-20-2026/"
+                  }
+                ]
+              },
+              {
+                "summary": "Iraqi security forces established a command headquarters on the outskirts of Jurf al-Sakhar on November 20, entering a longtime stronghold of the Iran-backed Kataib Hezbollah militia. Two Iraqi officials told AP that an agreement allowed security forces to enter without an immediate militia withdrawal. The deployment included army, federal police, energy-sector police and Popular Mobilization Forces personnel; the agreement envisaged Kataib Hezbollah withdrawing within a month.",
+                "category": "security",
+                "title": "Iraqi forces establish headquarters near Kataib Hezbollah stronghold",
+                "event_date": "2026-11-20",
+                "candidate_id": "2026-11-20-iraq-jurf-al-sakhar-deployment",
+                "geography": "Iraq",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/saudi-yemen-war-iran-iraq-november-20-2026-16c39c487a23b53b73c5eabb7f0fd57a"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-20"
+          },
+          "metadata": {
+            "responseId": "resp_0c65b295bd4ae01b006b007e62e74487d2a5215538ddc33ccf",
+            "requestId": "req_e60589909503409e816fb254ef332203",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 1050,
+            "inputTokens": 48452,
+            "outputTokens": 1704,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-20",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 68227,
+            "attemptDurationMs": 68227,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-11-20T17:07:43.463Z",
+        "capturedAt": "2026-11-20T17:08:51.753Z"
       }
     ],
     "sift": null
