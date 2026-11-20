@@ -173,19 +173,22 @@ footer {
   text-align: right;
 }
 .sources a:focus-visible,
-footer a:focus-visible {
+footer a:focus-visible,
+.text-link:focus-visible {
   color: var(--accent);
   text-decoration-thickness: 2px;
 }
 @media (hover: hover) and (pointer: fine) {
   .sources a:hover,
-  footer a:hover {
+  footer a:hover,
+  .text-link:hover {
     color: var(--accent);
     text-decoration-thickness: 2px;
   }
 }
 .source-group { display: block; }
 .sources a { display: inline-block; color: inherit; text-underline-offset: 0.2em; }
+.text-link { color: var(--muted); text-underline-offset: 0.2em; }
 
 .empty { margin: 0; padding: 72px 0; color: var(--muted); font-size: 1.25rem; text-align: center; }
 
@@ -237,7 +240,8 @@ footer a {
   color: inherit;
   text-underline-offset: 0.2em;
 }
-footer a:focus-visible {
+footer a:focus-visible,
+.text-link:focus-visible {
   border-radius: 2px;
   outline: 2px solid var(--ink);
   outline-offset: 4px;
