@@ -521,12 +521,119 @@
       "request": {
         "fingerprint": "29feb565c7c1de0ff5cc1665494dd927fd466491f8e316f68035b91874d48872",
         "claimId": "d1ff7ce8-278e-44a5-abad-2b63a3afc605",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-20T09:07:44.647Z",
         "responseId": "resp_02567ffaa8ab3661006b000de4407c87d28e80fa6afb2ecaaa"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "2026-11-19-american-samoa-mineral-lease-auction",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "2026-11-19-anthropic-nasdaq-trading-debut",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "2026-11-19-comanchero-ndrangheta-us-sanctions",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "2026-11-19-european-commission-cyberattack-disclosure",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "2026-11-19-han-duck-soo-sentence-reversal",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "2026-11-19-iowa-lead-azide-detonation-postponed",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "2026-11-19-kim-keon-hee-final-sentence",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "2026-11-19-kyiv-bridges-missile-strikes",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "2026-11-19-pete-rose-posthumous-pardon",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "2026-11-19-rollins-religious-emails-injunction",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "2026-11-19-senate-iran-war-powers-resolution",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "2026-11-19-senate-passes-permitting-bill",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "2026-11-19-trump-xi-putin-trilateral",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "2026-11-19-us-stock-market-close",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "2026-11-19-us-weekly-unemployment-claims",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "2026-11-19-xi-trump-shenzhen-bilateral",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The International Court of Justice ruled that Myanmar committed genocide against the Rohingya during military operations in northern Rakhine State in 2017. It also found that Myanmar failed to prevent and punish genocide.\n\nThe court ordered Myanmar to investigate and prosecute those responsible, facilitate safe and voluntary returns, restore property and provide compensation. The judgment determines Myanmar’s responsibility as a state; it does not convict individuals of crimes.",
+              "candidate_id": "2026-11-19-icj-myanmar-rohingya-genocide",
+              "headline": "World court finds Myanmar committed Rohingya genocide",
+              "sources": [
+                {
+                  "name": "International Court of Justice — press release hosted by UNHCR Refworld",
+                  "url": "https://www.refworld.org/sites/default/files/2026-11/178-20261119-pre-01-00-en.pdf"
+                },
+                {
+                  "name": "UN Independent Investigative Mechanism for Myanmar",
+                  "url": "https://iimm.un.org/en/icj-judgment-marks-historic-step-towards-justice-rohingya"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_02567ffaa8ab3661006b000de4407c87d28e80fa6afb2ecaaa",
+          "requestId": "req_3215e90c339f4331ae0ab28fd3df8889",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 1021,
+          "inputTokens": 4580,
+          "outputTokens": 1869,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-19",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 42889,
+          "attemptDurationMs": 42889,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
