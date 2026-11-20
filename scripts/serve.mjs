@@ -3,7 +3,7 @@ import { createServer } from "node:http";
 import { extname, resolve, sep } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { buildSite } from "./build-site.mjs";
-import { dateFromPath, datePath, legacyDateRedirect } from "../public/date-route.js";
+import { dateFromPath, datePath } from "../public/date-route.js";
 import { newYorkDay } from "../lib/new-york-day.mjs";
 import { showState } from "../lib/site-template.mjs";
 
@@ -43,11 +43,11 @@ export function createSiteServer(directory) {
       const requestUrl = new URL(request.url ?? "/", `http://${request.headers.host ?? "localhost"}`);
       const pathname = decodeURIComponent(requestUrl.pathname);
       const selectedDate = dateFromPath(pathname);
-      const legacyTarget = legacyDateRedirect(requestUrl);
-      const redirect = legacyTarget ?? (selectedDate && pathname !== datePath(selectedDate)
-        ? `${datePath(selectedDate)}${requestUrl.search}` : null);
-      if (redirect) {
-        response.writeHead(308, { Location: redirect, "Cache-Control": "no-store" });
+      if (selectedDate && pathname !== datePath(selectedDate)) {
+        response.writeHead(308, {
+          Location: `${datePath(selectedDate)}${requestUrl.search}`,
+          "Cache-Control": "no-store"
+        });
         response.end();
         return;
       }

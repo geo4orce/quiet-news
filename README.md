@@ -17,7 +17,7 @@ URL and appears in the generated sitemap. They are crawlable and eligible for
 indexing; inclusion in search results is not guaranteed.
 
 The homepage still fetches current news with JavaScript to enforce expiry.
-The calendar and old `?date=` redirects also use JavaScript. DEV refreshes news
+The calendar also uses JavaScript. DEV refreshes news
 from public main and is kept out of indexing; it is not an exact preview of
 production's no-JavaScript behavior. See [permanent pages](docs/permanent-pages.md)
 for the full distinction and remaining work.

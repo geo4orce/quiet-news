@@ -4,8 +4,7 @@ import { readFile } from "node:fs/promises";
 import {
   classifyDateRequest,
   publicationDataUrl,
-  publicationState,
-  selectedDateFrom
+  publicationState
 } from "../public/app.js";
 
 const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
@@ -58,12 +57,10 @@ test("the requested-day state matrix is explicit and honest", () => {
     ["gap inside the archive", "2026-08-22", 0, false, "unavailable"],
     ["missed completed day", "2026-08-27", 0, false, "unavailable"],
     ["current unfinished day", "2026-08-28", 0, false, "not-yet"],
-    ["far future day", "2027-01-01", 0, false, "not-yet"],
-    ["malformed date falls back to current", "not-a-date", 1, false, "stories"]
+    ["far future day", "2027-01-01", 0, false, "not-yet"]
   ];
 
-  const resolved = matrix.map(([name, requestedDate, storyCount, failed]) => {
-    const selectedDate = selectedDateFrom(requestedDate);
+  const resolved = matrix.map(([name, selectedDate, storyCount, failed]) => {
     const requestState = classifyDateRequest(selectedDate, dates, today);
     const state = requestState === "current" || requestState === "saved"
       ? publicationState(selectedDate, storyCount, failed)
@@ -81,11 +78,8 @@ test("the requested-day state matrix is explicit and honest", () => {
   assert.match(html, /id="unavailable"[^>]*>Unavailable\.<\/p>/);
   assert.match(html, /id="not-yet"[^>]*>Not yet\.<\/p>/);
   assert.match(html, /id="error"[^>]*>Error\.<\/p>/);
-  assert.match(app, /history\.replaceState/);
-  assert.match(app, /code: "invalid_date_parameter"/);
   assert.match(app, /code: "archive_date_unavailable"/);
   assert.match(app, /code: selectedDate === null \? "current_load_failed" : "archive_load_failed"/);
-  assert.doesNotMatch(app, /console\.(?:warn|error)\([^;]*requestedDate/);
 });
 
 test("the browser rejects stale or malformed publications", () => {
