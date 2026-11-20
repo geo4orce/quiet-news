@@ -365,10 +365,10 @@
         "request": {
           "fingerprint": "9e2b9ed432d5a7c49a6cca1f72cf635329e964725ba64964b9cc19941e26ddb5",
           "claimId": "6a3d610d-d7c9-4d9c-9061-4e3560c0e5f5",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-20T08:07:42.544Z",
-          "responseId": null
+          "responseId": "resp_08a29eb207888c97006affffd1e66887d2bf4a6cc52014eb0a"
         },
         "result": null,
         "observedAt": "2026-11-20T08:07:42.457Z"
