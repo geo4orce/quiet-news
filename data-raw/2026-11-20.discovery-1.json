@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-20",
+  "batch": 1,
+  "captured_at": "2026-11-20T11:08:37.653Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The Office for National Statistics released October retail figures showing that sales volumes in Great Britain rose 0.7% from September and 2.3% from a year earlier. Volumes increased 0.4% over the three months to October compared with the preceding three months. Supermarkets reported increased purchases of long-life food following the government's Be Ready campaign; clothing sales also strengthened.",
+        "category": "economy",
+        "title": "Great Britain retail sales rose 0.7% in October, official figures show",
+        "event_date": "2026-11-20",
+        "candidate_id": "2026-11-20-great-britain-retail-sales",
+        "geography": "United Kingdom",
+        "sources": [
+          {
+            "name": "Office for National Statistics",
+            "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/october2026/pdf"
+          },
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/UK%2Bretail%2Bsales%2Brise%2B0.7%25%2Bin%2BOctober%2C%2Bbeating%2Bforecasts/27378038.html"
+          }
+        ]
+      },
+      {
+        "summary": "Taiwan's Taiex closed Friday down 6.2% at 36,033.29, bringing its weekly decline to 17.5%. South Korea's Kospi closed down 5.2% at 4,869.96, while Japan's Nikkei 225 fell 5.1% to 56,436.65. Technology and semiconductor shares were among the largest decliners.",
+        "category": "economy",
+        "title": "Taiwan, South Korea and Japan stock indexes close sharply lower",
+        "event_date": "2026-11-20",
+        "candidate_id": "2026-11-20-asian-stock-market-declines",
+        "geography": "Taiwan; South Korea; Japan",
+        "sources": [
+          {
+            "name": "24/7 Wall St. via Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/world-indices/articles/taiwan-stock-market-falls-6-073304018.html"
+          },
+          {
+            "name": "Moneycontrol",
+            "url": "https://www.moneycontrol.com/news/business/markets/sensex-nifty-inching-towards-all-time-high-india-decouples-from-global-rout-only-major-market-in-the-green-14085693.html"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-20"
+  },
+  "metadata": {
+    "responseId": "resp_0842e991a667de56006b002a0d33d087d2ab9e90225ff930d4",
+    "requestId": "req_8d08fcdeca304b01aea63223cc146076",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 850,
+    "inputTokens": 55564,
+    "outputTokens": 1341,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-20",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 44437,
+    "attemptDurationMs": 44437,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
