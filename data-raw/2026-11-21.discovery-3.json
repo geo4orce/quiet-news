@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-21",
+  "batch": 3,
+  "captured_at": "2026-11-21T23:08:36.677Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "COP31 remained without a final agreement after its scheduled November 20 close, with countries divided over fossil fuels and climate finance. At 17:10 EST, Kurum said a revised draft was undergoing legal review; the plenary adjourned without a final agreement.",
+        "category": "climate",
+        "title": "COP31 negotiations continue without final agreement",
+        "event_date": "2026-11-21",
+        "candidate_id": "cop31-overtime-negotiations-2026-11-21",
+        "geography": "Antalya, Türkiye; global",
+        "sources": [
+          {
+            "name": "Reuters via Investing.com",
+            "url": "https://www.investing.com/news/commodities-news/cop31-climate-summit-risks-failure-as-talks-go-deep-into-overtime-5043482"
+          },
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/environment/live/2026/nov/21/cop31-climate-deal-latest-news-updates"
+          }
+        ]
+      },
+      {
+        "summary": "An Israeli strike on a food truck in Gaza City's Tel al-Hawa district killed three men on November 21, Shifa Hospital director Mohamed Abu Selmiya told AP. Israel's military said it struck Islamic Jihad militants.",
+        "category": "international_conflict",
+        "title": "Three killed in Gaza truck strike; Israel says militants targeted",
+        "event_date": "2026-11-21",
+        "candidate_id": "gaza-city-food-truck-strike-2026-11-21",
+        "geography": "Gaza City, Gaza Strip",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-iran-gaza-israel-november-21-2026-29159a6f3365ff447c0ccbd1d7260f75"
+          }
+        ]
+      },
+      {
+        "summary": "At least three oil tankers were attacked near the Strait of Hormuz on November 21, AP reported. UK maritime authorities reported two separate projectile strikes early Saturday, without reported casualties.",
+        "category": "international_security",
+        "title": "Tankers attacked near Strait of Hormuz",
+        "event_date": "2026-11-21",
+        "candidate_id": "hormuz-tanker-attacks-2026-11-21",
+        "geography": "Strait of Hormuz; Persian Gulf",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-iran-gaza-israel-november-21-2026-29159a6f3365ff447c0ccbd1d7260f75"
+          }
+        ]
+      },
+      {
+        "summary": "The Russian cargo ship Sparta II caught fire after a drone attack in international waters in the Gulf of Finland on November 21 and subsequently drifted into Finnish waters, Finnish and Russian authorities said. Finland's Border Guard coordinated rescue operations and reported no danger to other maritime traffic or people. A Finnish military spokesperson assessed that Ukraine was probably responsible; responsibility was not established. The vessel was bound for Kaliningrad.",
+        "category": "international_security",
+        "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
+        "event_date": "2026-11-21",
+        "candidate_id": "sparta-ii-drone-attack-2026-11-21",
+        "geography": "Gulf of Finland; Finland; Russia",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Russia%2Bsays%2Bcargo%2Bvessel%2Bstruck%2Bby%2Bdrones%2C%2BFinland%2Bsays%2Bit%2Bis%2Bon%2Bfire%2Bin%2Bits%2Bwaters/27382900.html"
+          },
+          {
+            "name": "Estonian Public Broadcasting",
+            "url": "https://news.err.ee/1610202715/russian-cargo-ship-on-fire-in-gulf-of-finland-after-reported-drone-strike"
+          }
+        ]
+      },
+      {
+        "summary": "A person familiar with the matter confirmed to AP on November 21 that the FBI was investigating an apparent hack of its National Crime Information Center database, following CNN's reporting. The FBI declined comment, and the scope remained unclear. President Donald Trump acknowledged the report in a Saturday interview. The reporting did not establish that the intrusion itself occurred on November 21 or that it was connected to other recent technology outages.",
+        "category": "cybersecurity",
+        "title": "Apparent FBI crime-database breach reported; scope remains unclear",
+        "event_date": "2026-11-21",
+        "candidate_id": "fbi-ncic-breach-disclosure-2026-11-21",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/fbi-database-ncic-hack-d066cff87a64a564db0a00172c124972"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-21"
+  },
+  "metadata": {
+    "responseId": "resp_0760e16c179f5336006b022448516887d2a1cb7f8b46159047",
+    "requestId": "req_413b572119af4ee58f55453155fe0753",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 871,
+    "inputTokens": 48777,
+    "outputTokens": 1873,
+    "webSearchCalls": 5,
+    "stage": "discovery",
+    "targetDate": "2026-11-21",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 48657,
+    "attemptDurationMs": 48657,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
