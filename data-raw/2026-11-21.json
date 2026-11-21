@@ -138,6 +138,60 @@
         },
         "observedAt": "2026-11-21T11:07:43.842Z",
         "capturedAt": "2026-11-21T11:08:32.662Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "S&P 500 enters correction; Nasdaq falls 5.3%",
+            "body": "The S&P 500 fell 3.7% Friday, closing more than 10% below its October 6 record—a decline known as a correction. The index lost 8.6% over the week.\n\nThe Nasdaq composite dropped 5.3%, leaving it down for the year. The Dow Jones Industrial Average fell 1.9%.",
+            "sources": [
+              {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c10b797a17c2acf37924d834efebe135"
+              }
+            ]
+          },
+          {
+            "headline": "Poland reports Russian missiles and drone entering airspace",
+            "body": "Polish officials said three Russian objects entered the country's airspace and came down in southeastern Poland on Friday. They were believed to be two missiles and a jet-powered drone, though their identification remained preliminary.\n\nPrime Minister Donald Tusk described the incident as an apparent intentional provocation. It coincided with European military exercises for a possible postwar mission in Ukraine.",
+            "sources": [
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/world-news/poland-condemns-russian-provocation-after-three-airspace-violations-5041572"
+              },
+              {
+                "name": "Just Security",
+                "url": "https://www.justsecurity.org/165471/early-edition-november-20-2026/"
+              }
+            ]
+          },
+          {
+            "headline": "Man convicted of starting deadly Palisades Fire",
+            "body": "A federal jury convicted Jonathan Rinderknecht on Friday of destruction of property by fire and arson affecting property used in interstate commerce.\n\nProsecutors established that the Lachman Fire, which he started on January 1, 2025, continued smoldering underground before resurfacing on January 7 as the Palisades Fire. That blaze killed 12 people.\n\nThe verdict came at a retrial after his first trial ended in a mistrial. Sentencing is pending.",
+            "sources": [
+              {
+                "name": "U.S. Attorney's Office, Central District of California",
+                "url": "https://www.justice.gov/usao-cdca/pr/former-la-resident-found-guilty-federal-charges-deliberately-starting-what-became"
+              },
+              {
+                "name": "Associated Press via ABC News",
+                "url": "https://abcnews.com/amp/US/wireStory/federal-jury-convicts-man-starting-deadly-2025-palisades-138333574"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "4a1befd8b72d95c3768ebd6253e8a8b90eb7c4df9b8384e783c145c05d8aef9e",
+          "claimId": "600f18a9-f0db-47fe-86db-ebdc40811f4b",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-11-21T17:07:47.170Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-11-21T17:07:47.076Z"
       }
     ],
     "sift": null
