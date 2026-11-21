@@ -474,12 +474,117 @@
       "request": {
         "fingerprint": "7634fabcc485c92350d0ab3f5da4307970b4e9a0b371f270b2073389c4625e29",
         "claimId": "c1590dba-d272-426a-aaa1-b25b12ed9d43",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-21T09:07:45.340Z",
         "responseId": "resp_0b8bad214283d4af006b015f652d7087d292d00ff6492a174d"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "2026-11-20-asian-stock-market-declines",
+              "code": "displaced_by_stronger_story"
+            },
+            {
+              "candidate_id": "2026-11-20-central-peru-earthquake",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "2026-11-20-cop31-negotiations-overtime",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "2026-11-20-estonia-russia-border-closure-decision",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "2026-11-20-great-britain-retail-sales",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "2026-11-20-iraq-jurf-al-sakhar-deployment",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "2026-11-20-trump-arch-preliminary-injunction",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "2026-11-20-trump-iran-negotiations-remarks",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "2026-11-20-trump-overseas-ai-data-center-tax-proposal",
+              "code": "insufficient_materiality"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The S&P 500 fell 3.7% Friday, closing more than 10% below its October 6 record—a decline known as a correction. The index lost 8.6% over the week.\n\nThe Nasdaq composite dropped 5.3%, leaving it down for the year. The Dow Jones Industrial Average fell 1.9%.",
+              "candidate_id": "2026-11-20-us-stock-market-close",
+              "headline": "S&P 500 enters correction; Nasdaq falls 5.3%",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c10b797a17c2acf37924d834efebe135"
+                }
+              ]
+            },
+            {
+              "body": "Polish officials said three Russian objects entered the country's airspace and came down in southeastern Poland on Friday. They were believed to be two missiles and a jet-powered drone, though their identification remained preliminary.\n\nPrime Minister Donald Tusk described the incident as an apparent intentional provocation. It coincided with European military exercises for a possible postwar mission in Ukraine.",
+              "candidate_id": "2026-11-20-poland-russian-airspace-violations",
+              "headline": "Poland reports Russian missiles and drone entering airspace",
+              "sources": [
+                {
+                  "name": "Reuters via Investing.com",
+                  "url": "https://www.investing.com/news/world-news/poland-condemns-russian-provocation-after-three-airspace-violations-5041572"
+                },
+                {
+                  "name": "Just Security",
+                  "url": "https://www.justsecurity.org/165471/early-edition-november-20-2026/"
+                }
+              ]
+            },
+            {
+              "body": "A federal jury convicted Jonathan Rinderknecht on Friday of destruction of property by fire and arson affecting property used in interstate commerce.\n\nProsecutors established that the Lachman Fire, which he started on January 1, 2025, continued smoldering underground before resurfacing on January 7 as the Palisades Fire. That blaze killed 12 people.\n\nThe verdict came at a retrial after his first trial ended in a mistrial. Sentencing is pending.",
+              "candidate_id": "2026-11-20-palisades-fire-arson-conviction",
+              "headline": "Man convicted of starting deadly Palisades Fire",
+              "sources": [
+                {
+                  "name": "U.S. Attorney's Office, Central District of California",
+                  "url": "https://www.justice.gov/usao-cdca/pr/former-la-resident-found-guilty-federal-charges-deliberately-starting-what-became"
+                },
+                {
+                  "name": "Associated Press via ABC News",
+                  "url": "https://abcnews.com/amp/US/wireStory/federal-jury-convicts-man-starting-deadly-2025-palisades-138333574"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0b8bad214283d4af006b015f652d7087d292d00ff6492a174d",
+          "requestId": "req_6e9e7ec4273f4617b4e2947e4b4f3eeb",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 1552,
+          "inputTokens": 3672,
+          "outputTokens": 2562,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-20",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 42531,
+          "attemptDurationMs": 42531,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
