@@ -1,19 +1,43 @@
 {
-  "edition_date": "2026-11-19",
-  "published_at": "2026-11-20T09:08:29.606Z",
-  "expires_at": "2026-11-21T10:00:00.000Z",
+  "edition_date": "2026-11-20",
+  "published_at": "2026-11-21T09:08:29.694Z",
+  "expires_at": "2026-11-22T10:00:00.000Z",
   "stories": [
     {
-      "headline": "World court finds Myanmar committed Rohingya genocide",
-      "body": "The International Court of Justice ruled that Myanmar committed genocide against the Rohingya during military operations in northern Rakhine State in 2017. It also found that Myanmar failed to prevent and punish genocide.\n\nThe court ordered Myanmar to investigate and prosecute those responsible, facilitate safe and voluntary returns, restore property and provide compensation. The judgment determines Myanmar’s responsibility as a state; it does not convict individuals of crimes.",
+      "headline": "S&P 500 enters correction; Nasdaq falls 5.3%",
+      "body": "The S&P 500 fell 3.7% Friday, closing more than 10% below its October 6 record—a decline known as a correction. The index lost 8.6% over the week.\n\nThe Nasdaq composite dropped 5.3%, leaving it down for the year. The Dow Jones Industrial Average fell 1.9%.",
       "sources": [
         {
-          "name": "International Court of Justice — press release hosted by UNHCR Refworld",
-          "url": "https://www.refworld.org/sites/default/files/2026-11/178-20261119-pre-01-00-en.pdf"
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c10b797a17c2acf37924d834efebe135"
+        }
+      ]
+    },
+    {
+      "headline": "Poland reports Russian missiles and drone entering airspace",
+      "body": "Polish officials said three Russian objects entered the country's airspace and came down in southeastern Poland on Friday. They were believed to be two missiles and a jet-powered drone, though their identification remained preliminary.\n\nPrime Minister Donald Tusk described the incident as an apparent intentional provocation. It coincided with European military exercises for a possible postwar mission in Ukraine.",
+      "sources": [
+        {
+          "name": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/world-news/poland-condemns-russian-provocation-after-three-airspace-violations-5041572"
         },
         {
-          "name": "UN Independent Investigative Mechanism for Myanmar",
-          "url": "https://iimm.un.org/en/icj-judgment-marks-historic-step-towards-justice-rohingya"
+          "name": "Just Security",
+          "url": "https://www.justsecurity.org/165471/early-edition-november-20-2026/"
+        }
+      ]
+    },
+    {
+      "headline": "Man convicted of starting deadly Palisades Fire",
+      "body": "A federal jury convicted Jonathan Rinderknecht on Friday of destruction of property by fire and arson affecting property used in interstate commerce.\n\nProsecutors established that the Lachman Fire, which he started on January 1, 2025, continued smoldering underground before resurfacing on January 7 as the Palisades Fire. That blaze killed 12 people.\n\nThe verdict came at a retrial after his first trial ended in a mistrial. Sentencing is pending.",
+      "sources": [
+        {
+          "name": "U.S. Attorney's Office, Central District of California",
+          "url": "https://www.justice.gov/usao-cdca/pr/former-la-resident-found-guilty-federal-charges-deliberately-starting-what-became"
+        },
+        {
+          "name": "Associated Press via ABC News",
+          "url": "https://abcnews.com/amp/US/wireStory/federal-jury-convicts-man-starting-deadly-2025-palisades-138333574"
         }
       ]
     }
