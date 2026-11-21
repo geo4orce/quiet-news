@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-21",
+  "batch": 1,
+  "captured_at": "2026-11-21T11:08:32.662Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "A magnitude 6.8 earthquake struck the Banda Sea at approximately 09:42 UTC on November 21, according to GFZ's GEOFON service, which listed a depth of 116 kilometers. Reuters, citing an earlier GFZ estimate, located the earthquake about 226 kilometers northeast of Dili, Timor-Leste.",
+        "category": "natural_disasters",
+        "title": "Magnitude 6.8 earthquake strikes Banda Sea northeast of Dili",
+        "event_date": "2026-11-21",
+        "candidate_id": "banda-sea-earthquake-2026-11-21",
+        "geography": "Banda Sea, near Timor-Leste and Indonesia",
+        "sources": [
+          {
+            "name": "GFZ GEOFON",
+            "url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wusf"
+          },
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/Magnitude%2B6.8%2Bearthquake%2Bstrikes%2BBanda%2BSea%2Bnear%2BTimor-Leste,%2BGFZ%2Bsays/27382885.html"
+          }
+        ]
+      },
+      {
+        "summary": "Negotiations at COP31 continued into November 21 in Antalya after governments failed to reach a comprehensive agreement before the conference's scheduled November 20 close. Outstanding issues included climate finance, emissions reductions, adaptation and a just transition. No final agreement had been reported in the morning coverage; revised negotiating texts remained under preparation.",
+        "category": "climate",
+        "title": "COP31 negotiations continue beyond scheduled close without final agreement",
+        "event_date": "2026-11-21",
+        "candidate_id": "cop31-overtime-negotiations-2026-11-21",
+        "geography": "Antalya, Türkiye; global",
+        "sources": [
+          {
+            "name": "Hürriyet Daily News",
+            "url": "https://www.hurriyetdailynews.com/cop31-concludes-in-antalya-after-two-weeks-of-climate-talks-229651"
+          }
+        ]
+      },
+      {
+        "summary": "European Commission President Ursula von der Leyen condemned an assassination attempt against a U.S.-Ukrainian citizen in Denmark and expressed solidarity with Denmark on November 21. She attributed the operation to Russian intelligence services. Reuters reported that Russia's embassy in Copenhagen had said on November 20 that the accusations lacked proof. Von der Leyen said a new European Security Strategy would be proposed; she did not announce its adoption.",
+        "category": "international_security",
+        "title": "Von der Leyen condemns alleged Russian assassination operation in Denmark",
+        "event_date": "2026-11-21",
+        "candidate_id": "von-der-leyen-denmark-assassination-response-2026-11-21",
+        "geography": "European Union; Denmark; Russia",
+        "sources": [
+          {
+            "name": "European Commission",
+            "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2556"
+          },
+          {
+            "name": "Reuters via The Moscow Times",
+            "url": "https://www.themoscowtimes.com/2026/11/21/von-der-leyen-condemns-russian-plot-to-assassinate-us-ukrainian-in-denmark-a94339/pdf"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-21"
+  },
+  "metadata": {
+    "responseId": "resp_0f78e0a2b4f31b3c006b017b83869887d2b9aca90103398da6",
+    "requestId": "req_919ad4ecf128424383828e55324454df",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 724,
+    "inputTokens": 40750,
+    "outputTokens": 1398,
+    "webSearchCalls": 6,
+    "stage": "discovery",
+    "targetDate": "2026-11-21",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 48753,
+    "attemptDurationMs": 48753,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
