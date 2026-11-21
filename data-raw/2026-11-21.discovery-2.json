@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-21",
+  "batch": 2,
+  "captured_at": "2026-11-21T17:08:40.899Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "COP31 negotiations remained unresolved on the afternoon of November 21, with no revised negotiating text yet presented, Reuters reported. Countries remained divided over fossil fuels and climate finance after the summit's scheduled November 20 close. EU Climate Commissioner Wopke Hoekstra said the outcome would need to be a good deal or no deal. No final agreement had been reported in this coverage.",
+        "category": "climate",
+        "title": "COP31 remains without agreement as negotiations extend into Saturday afternoon",
+        "event_date": "2026-11-21",
+        "candidate_id": "cop31-overtime-negotiations-2026-11-21",
+        "geography": "Antalya, Türkiye; global",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/COP31%2Bclimate%2Bsummit%2Brisks%2Bfailure%2Bas%2Btalks%2Bgo%2Bdeep%2Binto%2Bovertime/27382924.html"
+          },
+          {
+            "name": "Hürriyet Daily News",
+            "url": "https://www.hurriyetdailynews.com/cop31-concludes-in-antalya-after-two-weeks-of-climate-talks-229651"
+          }
+        ]
+      },
+      {
+        "summary": "An Israeli strike hit a truck carrying food in Gaza City's Tel al-Hawa district on November 21, killing three men, Shifa Hospital director Mohamed Abu Selmiya told the Associated Press. The casualties were taken to his hospital.",
+        "category": "international_conflict",
+        "title": "Gaza hospital director reports three killed in strike on food truck",
+        "event_date": "2026-11-21",
+        "candidate_id": "gaza-city-food-truck-strike-2026-11-21",
+        "geography": "Gaza City, Gaza Strip",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-iran-gaza-israel-november-21-2026-29159a6f3365ff447c0ccbd1d7260f75"
+          }
+        ]
+      },
+      {
+        "summary": "British Defence Secretary Wes Streeting visited Kyiv on November 21. He called for allies to increase support for Ukraine and condemned the previous day's reported Russian airspace violation in Poland. Speaking to reporters before their talks, President Volodymyr Zelenskyy reiterated his willingness to attend the December G20 meeting in Miami and hold direct talks with Vladimir Putin there, while noting that Ukraine had not received an invitation.",
+        "category": "diplomacy",
+        "title": "British defence secretary visits Kyiv as Zelenskyy reiterates readiness for talks",
+        "event_date": "2026-11-21",
+        "candidate_id": "streeting-kyiv-visit-2026-11-21",
+        "geography": "Kyiv, Ukraine; United Kingdom",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/Trump%2Btold%2BEuropean%2Bleaders%2Bthey%2Bwere%2Bspending%2Ba%2Blot%2Bon%2BUkraine,%2BZelenskiy%2Bsays/27382927.html"
+          },
+          {
+            "name": "Reuters via MWC Syndication",
+            "url": "https://d2233.cms.socastsrm.com/2026/11/21/trump-told-european-leaders-they-were-spending-a-lot-on-ukraine-zelenskiy-says/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-21"
+  },
+  "metadata": {
+    "responseId": "resp_0fcd847a7cf92f3b006b01cfe7253887d1b6067fd2d63554b7",
+    "requestId": "req_2704f297644d449995bbe7eff5ba3ac5",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 974,
+    "inputTokens": 55348,
+    "outputTokens": 1841,
+    "webSearchCalls": 6,
+    "stage": "discovery",
+    "targetDate": "2026-11-21",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 53728,
+    "attemptDurationMs": 53728,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
