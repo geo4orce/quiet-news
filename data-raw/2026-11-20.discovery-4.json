@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-20",
+  "batch": 4,
+  "captured_at": "2026-11-21T08:08:37.445Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "A federal jury on November 20 convicted Jonathan Rinderknecht of destruction of property by means of fire and arson affecting property used in interstate commerce, following a retrial after his first trial ended in a mistrial. Prosecutors established that the January 1, 2025 Lachman Fire continued smoldering underground before resurfacing on January 7 as the Palisades Fire, which killed 12 people. Sentencing remains pending.",
+        "category": "justice",
+        "title": "Federal jury convicts Jonathan Rinderknecht in Palisades Fire retrial",
+        "event_date": "2026-11-20",
+        "candidate_id": "2026-11-20-palisades-fire-arson-conviction",
+        "geography": "United States; California",
+        "sources": [
+          {
+            "name": "U.S. Attorney's Office, Central District of California",
+            "url": "https://www.justice.gov/usao-cdca/pr/former-la-resident-found-guilty-federal-charges-deliberately-starting-what-became"
+          },
+          {
+            "name": "Associated Press via ABC News",
+            "url": "https://abcnews.com/amp/US/wireStory/federal-jury-convicts-man-starting-deadly-2025-palisades-138333574"
+          }
+        ]
+      },
+      {
+        "summary": "An earthquake struck central Peru at 00:09 UTC on November 21, equivalent to 7:09 p.m. November 20 in Peru and New York. GDACS listed its magnitude as 6.7. Reuters reported that shaking prompted residents in Lima to leave their homes and lawmakers to evacuate Congress. There were no immediate reports of casualties or significant damage. The Pacific Tsunami Warning Center said the earthquake posed no tsunami threat.",
+        "category": "disaster",
+        "title": "Earthquake strikes central Peru and is felt in Lima",
+        "event_date": "2026-11-20",
+        "candidate_id": "2026-11-20-central-peru-earthquake",
+        "geography": "Peru",
+        "sources": [
+          {
+            "name": "Global Disaster Alert and Coordination System",
+            "url": "https://www.gdacs.org/gts.aspx?eventid=1578468&eventtype=EQ"
+          },
+          {
+            "name": "Reuters via GMA News",
+            "url": "https://www.gmanetwork.com/news/topstories/world/1010281/magnitude-6-8-quake-in-peru-s-andean-region-sends-lima-residents-onto-streets/story/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-20"
+  },
+  "metadata": {
+    "responseId": "resp_048ed4ee6b87016a006b015158fa7487d28c7973b278c847ba",
+    "requestId": "req_2a888ede44b441ccbddd83b7aa007060",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 971,
+    "inputTokens": 49379,
+    "outputTokens": 1587,
+    "webSearchCalls": 5,
+    "stage": "discovery",
+    "targetDate": "2026-11-20",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 47931,
+    "attemptDurationMs": 47931,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
