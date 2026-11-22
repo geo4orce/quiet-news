@@ -133,13 +133,111 @@
         "request": {
           "fingerprint": "f7c9af5f1f895a8181491004a586103a0ab0e47469e7a5eeee53b0b6f7240f91",
           "claimId": "95223d5c-fd32-44b0-bd5c-deced064a77f",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-22T17:07:50.735Z",
           "responseId": "resp_005d54465b48d0b1006b03216a8b5c87d1b104ac5b7e6e3485"
         },
-        "result": null,
-        "observedAt": "2026-11-22T17:07:50.647Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "COP31's closing plenary in Antalya ended without consensus on an overarching climate agreement. Conference president Murat Kurum said the proposed decisions had not been adopted after the European Union and other delegations opposed the final draft. Disagreements included fossil-fuel transition language, carbon capture and financial support for developing countries. The outcome supersedes the earlier report that negotiations remained unresolved.",
+                "category": "climate",
+                "title": "COP31 closes without consensus on overarching climate agreement",
+                "event_date": "2026-11-22",
+                "candidate_id": "cop31-european-opposition-closing-text",
+                "geography": "Antalya, Türkiye; global",
+                "sources": [
+                  {
+                    "name": "Reuters via GMA News",
+                    "url": "https://www.gmanetwork.com/news/topstories/world/1010425/cop31-climate-talks-break-down-as-eu-others-reject-deal/story/"
+                  }
+                ]
+              },
+              {
+                "summary": "Nepal's Prime Minister Balendra Shah arrived in New Delhi and met Indian External Affairs Minister S Jaishankar at the Taj Mahal Hotel on Sunday evening. Nepal's foreign ministry spokesperson said discussions covered connectivity, trade, transit, energy, culture, education and people-to-people ties. Shah's meetings with Narendra Modi and President Droupadi Murmu remained scheduled for November 23; no completed bilateral agreements were reported in the meeting accounts.",
+                "category": "diplomacy",
+                "title": "Nepal's prime minister meets Jaishankar after arriving in India",
+                "event_date": "2026-11-22",
+                "candidate_id": "nepal-shah-departs-india-state-visit",
+                "geography": "Nepal; New Delhi, India",
+                "sources": [
+                  {
+                    "name": "Press Information Bureau, Government of India",
+                    "url": "https://www.pib.gov.in/ShowAlbum.aspx?albumid=234280&lang=1&reg=3"
+                  },
+                  {
+                    "name": "Radio Nepal",
+                    "url": "https://radionepalonline.com/en/2026/11/22/439116.html"
+                  },
+                  {
+                    "name": "The Kathmandu Post",
+                    "url": "https://kathmandupost.com/national/2026/11/22/pm-shah-meets-jaishankar-on-first-state-visit-to-india"
+                  }
+                ]
+              },
+              {
+                "summary": "Ukrainian officials reported at least four deaths following Russian drone attacks in the Kyiv region on Sunday. Three bodies were recovered from a damaged five-story apartment building in Dymer, where about ten people might still have been trapped, Reuters reported. A later strike on a grocery store in Vyshneve killed one person and injured three, according to the regional governor. Rescuers in Dymer suspended their search at 13:35 UTC because of another aerial threat.",
+                "category": "conflict",
+                "title": "Officials report four deaths in Kyiv-region drone attacks as rescue search continues",
+                "event_date": "2026-11-22",
+                "candidate_id": "kyiv-region-drone-attacks-dymer-vyshneve",
+                "geography": "Dymer and Vyshneve, Kyiv region, Ukraine",
+                "sources": [
+                  {
+                    "name": "Reuters via The Moscow Times",
+                    "url": "https://www.themoscowtimes.com/2026/11/22/at-least-4-killed-in-russian-drone-attacks-on-kyiv-region-officials-say-a94345/pdf"
+                  }
+                ]
+              },
+              {
+                "summary": "Libya's eastern-based government said Sunday that preliminary findings indicated a suspected drone attack caused an explosion aboard a Russian ship docked at Benghazi naval base. Authorities said the vessel had stopped for fuel and supplies and that a joint investigation with Russia had begun. Reuters cited two medical sources reporting injuries but no deaths; the number and nationalities of those injured were unclear. No group had claimed responsibility. The vessel's identity and reported destruction were not established by these accounts.",
+                "category": "conflict",
+                "title": "Eastern Libyan authorities report suspected drone attack on Russian ship",
+                "event_date": "2026-11-22",
+                "candidate_id": "libya-government-russian-ship-blast-assessment",
+                "geography": "Benghazi, Libya; Russia",
+                "sources": [
+                  {
+                    "name": "Associated Press via ABC News",
+                    "url": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178"
+                  },
+                  {
+                    "name": "Reuters via The Moscow Times",
+                    "url": "https://www.themoscowtimes.com/2026/11/22/libyas-eastern-government-suspects-drone-attack-caused-explosion-on-russian-ship-at-benghazi-port-a94344/pdf"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-22"
+          },
+          "metadata": {
+            "responseId": "resp_005d54465b48d0b1006b03216a8b5c87d1b104ac5b7e6e3485",
+            "requestId": "req_205b28245718437f96640743aee38505",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 850,
+            "inputTokens": 47662,
+            "outputTokens": 1794,
+            "webSearchCalls": 5,
+            "stage": "discovery",
+            "targetDate": "2026-11-22",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 48765,
+            "attemptDurationMs": 48765,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-11-22T17:07:50.647Z",
+        "capturedAt": "2026-11-22T17:08:39.500Z"
       }
     ],
     "sift": null
