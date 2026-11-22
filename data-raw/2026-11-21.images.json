@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "edition_date": "2026-11-21",
+  "attempts": {
+    "b726f17dbf3d36059463b86cd8e945e0dda1d553d03c58e9db64f0d1ca5a6c9f": {
+      "status": "claimed",
+      "claimed_at": "2026-11-22T09:08:38.258Z",
+      "model": "gpt-image-2.6-sunburst",
+      "quality": "medium",
+      "prompt_version": "quiet-illustration-v1"
+    }
+  }
+}
