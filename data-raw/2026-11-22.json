@@ -257,13 +257,87 @@
         "request": {
           "fingerprint": "9b6a256d20d7ceb3d9f6117d1538fd05b92f5cc2805fba3ff19ff8b171fbb804",
           "claimId": "320fa02d-c7c6-4387-80e5-bd1b7634ea82",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-22T23:07:44.892Z",
           "responseId": "resp_063b9b247168f012006b0375c45ef487d1afb31beb29488cf5"
         },
-        "result": null,
-        "observedAt": "2026-11-22T23:07:44.854Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Republican Representative Virginia Foxx conceded North Carolina’s 5th Congressional District race to Democrat Chuck Hubbard on November 22 following a recount. The Associated Press called the race for Hubbard on Sunday. Unofficial state results showed Hubbard ahead by 330 votes out of roughly 287,000 cast; certification remained pending. The projection brought Democrats to at least 258 House seats, their largest total following a general election since 1992.",
+                "category": "politics",
+                "title": "Foxx concedes North Carolina House race to Hubbard after recount",
+                "event_date": "2026-11-22",
+                "candidate_id": "north-carolina-5-hubbard-foxx-concession",
+                "geography": "North Carolina, United States",
+                "sources": [
+                  {
+                    "name": "ABC News",
+                    "url": "https://abcnews.com/Politics/democrat-chuck-hubbard-wins-recount-north-carolina-us/story?id=138362634"
+                  },
+                  {
+                    "name": "Roll Call",
+                    "url": "https://www.rollcall.com/2026/11/22/gop-rep-virginia-foxx-ousted-in-rematch"
+                  },
+                  {
+                    "name": "WataugaOnline",
+                    "url": "https://wataugaonline.com/foxx-concedes-5th-district-race-to-hubbard-after-recount/"
+                  }
+                ]
+              },
+              {
+                "summary": "COP31 closed in Antalya on November 22 without consensus on an overarching climate agreement after the European Union and other delegations rejected the proposed outcome. Disagreements included fossil-fuel transition language and climate finance. In his closing remarks, UN climate chief Simon Stiell confirmed that the conference could not agree on the presidency-led decisions, while noting that separate negotiating decisions, including on a just transition, had been made. The failure of the overarching agreement did not mean that all conference decisions failed.",
+                "category": "climate",
+                "title": "COP31 closes without overarching agreement but adopts separate negotiating decisions",
+                "event_date": "2026-11-22",
+                "candidate_id": "cop31-european-opposition-closing-text",
+                "geography": "Antalya, Türkiye; global",
+                "sources": [
+                  {
+                    "name": "UN Framework Convention on Climate Change",
+                    "url": "https://unfccc.int/news/un-climate-change-executive-secretary-simon-stiell-remarks-at-the-closing-plenary-of-cop31"
+                  },
+                  {
+                    "name": "ABC News",
+                    "url": "https://abcnews.com/Technology/climate-conference-ends-signature-agreement-countries-clash-fossil/story?id=138359179"
+                  },
+                  {
+                    "name": "Reuters via GMA News",
+                    "url": "https://www.gmanetwork.com/news/topstories/world/1010425/cop31-climate-talks-break-down-as-eu-others-reject-deal/story/"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-22"
+          },
+          "metadata": {
+            "responseId": "resp_063b9b247168f012006b0375c45ef487d1afb31beb29488cf5",
+            "requestId": "req_a1f7fbfaa87f4b0ba90ce15938f8d26e",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 658,
+            "inputTokens": 45713,
+            "outputTokens": 1236,
+            "webSearchCalls": 5,
+            "stage": "discovery",
+            "targetDate": "2026-11-22",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 37712,
+            "attemptDurationMs": 37712,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-11-22T23:07:44.854Z",
+        "capturedAt": "2026-11-22T23:08:22.605Z"
       }
     ],
     "sift": null
