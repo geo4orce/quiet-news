@@ -630,12 +630,87 @@
       "request": {
         "fingerprint": "582d7a97a07790c0ba7715f4302ef18e4b81db4fb5bd0d08f04916c99ad3452e",
         "claimId": "ef403c3d-ce5f-4d08-8b84-4d2cacaa94ef",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-22T09:07:59.392Z",
         "responseId": "resp_0114b96be0cffb90006b02b0f33b7487d2bf6ccf66dd1ee3d1"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "banda-sea-earthquake-2026-11-21",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "cop31-overtime-negotiations-2026-11-21",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "eu-indonesia-trade-investment-signing-2026-11-21",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "fbi-ncic-breach-disclosure-2026-11-21",
+              "code": "weak_support"
+            },
+            {
+              "candidate_id": "gaza-city-food-truck-strike-2026-11-21",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "mexico-isidro-operation-toll-transfer-2026-11-21",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "sparta-ii-drone-attack-2026-11-21",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "streeting-kyiv-visit-2026-11-21",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "von-der-leyen-denmark-assassination-response-2026-11-21",
+              "code": "incremental_update"
+            }
+          ],
+          "stories": [
+            {
+              "body": "At least three oil tankers were attacked near the Strait of Hormuz on Saturday, according to the Associated Press. UK maritime authorities reported two separate projectile strikes early that morning, with no casualties reported in those incidents.",
+              "candidate_id": "hormuz-tanker-attacks-2026-11-21",
+              "headline": "Oil tankers attacked near Strait of Hormuz",
+              "sources": [
+                {
+                  "name": "Associated Press",
+                  "url": "https://apnews.com/article/mideast-iran-gaza-israel-november-21-2026-29159a6f3365ff447c0ccbd1d7260f75"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0114b96be0cffb90006b02b0f33b7487d2bf6ccf66dd1ee3d1",
+          "requestId": "req_8f713d22c7a9498a8c1bb2aed3a4e7de",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 1034,
+          "inputTokens": 3697,
+          "outputTokens": 1539,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-21",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 32985,
+          "attemptDurationMs": 32985,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
