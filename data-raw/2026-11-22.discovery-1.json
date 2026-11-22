@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-22",
+  "batch": 1,
+  "captured_at": "2026-11-22T11:08:29.398Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "At COP31 in Antalya, Sweden's chief negotiator Mattias de Frumerie told SVT that the EU could not accept the proposed overarching decision, citing its omission of fossil fuels and emphasis on carbon capture. Germany also said it would not support the current draft. The scheduled closing plenary was delayed, and negotiations remained unresolved.",
+        "category": "climate",
+        "title": "European negotiators oppose proposed COP31 closing text",
+        "event_date": "2026-11-22",
+        "candidate_id": "cop31-european-opposition-closing-text",
+        "geography": "Antalya, Türkiye; European Union",
+        "sources": [
+          {
+            "name": "SVT Nyheter",
+            "url": "https://www.svt.se/nyheter/utrikes/cop31-antalya-2026-folj-senaste-nytt-om-fns-klimattoppmote-i-turkiet?inlagg=b93d80daa27a7d7c9d26cf9cc55b76b9"
+          },
+          {
+            "name": "Omni",
+            "url": "https://omni.se/svenska-forhandlaren-eu-kommer-inte-acceptera-forslaget/a/lMA5E3"
+          }
+        ]
+      },
+      {
+        "summary": "Nepal's Prime Minister Balendra Shah departed Kathmandu for a two-day state visit to India at Narendra Modi's invitation. Radio Nepal reported his departure at 2:05 p.m. Nepal time, equivalent to 08:20 UTC. His delegation included the finance and foreign ministers. Bilateral talks and proposed agreements remained pending.",
+        "category": "diplomacy",
+        "title": "Nepal's prime minister departs for state visit to India",
+        "event_date": "2026-11-22",
+        "candidate_id": "nepal-shah-departs-india-state-visit",
+        "geography": "Nepal; India",
+        "sources": [
+          {
+            "name": "Radio Nepal",
+            "url": "https://radionepalonline.com/en/2026/11/22/439088.html"
+          },
+          {
+            "name": "The Kathmandu Post",
+            "url": "https://kathmandupost.com/national/2026/11/22/shah-leaves-for-india-visit-with-2bn-financial-proposal-air-access-on-agenda"
+          }
+        ]
+      },
+      {
+        "summary": "Max Verstappen won the Las Vegas Grand Prix ahead of Lando Norris and Oscar Piastri, taking his third victory at the event. Norris finished 0.639 seconds behind. George Russell dropped to ninth after hitting the barriers late in the race, while Kimi Antonelli finished fourth. The race took place Saturday evening in Nevada and concluded early Sunday on the New York calendar.",
+        "category": "sports",
+        "title": "Verstappen wins Las Vegas Grand Prix ahead of McLaren pair",
+        "event_date": "2026-11-22",
+        "candidate_id": "verstappen-wins-las-vegas-grand-prix-2026",
+        "geography": "Las Vegas, Nevada, United States",
+        "sources": [
+          {
+            "name": "Fédération Internationale de l'Automobile",
+            "url": "https://www.fia.com/news/f1-verstappen-wins-action-packed-las-vegas-grand-prix-late-mercedes-drama-delivers-mclaren"
+          },
+          {
+            "name": "Formula 1",
+            "url": "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX.2eeBWqekZdir9mdDVK9YVX"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-22"
+  },
+  "metadata": {
+    "responseId": "resp_066f473d25a164e9006b02cd067ca887d28a237f9eea0dedc4",
+    "requestId": "req_40928ac13b2441d98dd23b4eeffa11da",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 797,
+    "inputTokens": 55130,
+    "outputTokens": 1531,
+    "webSearchCalls": 6,
+    "stage": "discovery",
+    "targetDate": "2026-11-22",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 42616,
+    "attemptDurationMs": 42616,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
