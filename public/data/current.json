@@ -1,43 +1,15 @@
 {
-  "edition_date": "2026-11-20",
-  "published_at": "2026-11-21T09:08:29.694Z",
-  "expires_at": "2026-11-22T10:00:00.000Z",
+  "edition_date": "2026-11-21",
+  "published_at": "2026-11-22T09:08:34.892Z",
+  "expires_at": "2026-11-23T10:00:00.000Z",
   "stories": [
     {
-      "headline": "S&P 500 enters correction; Nasdaq falls 5.3%",
-      "body": "The S&P 500 fell 3.7% Friday, closing more than 10% below its October 6 record—a decline known as a correction. The index lost 8.6% over the week.\n\nThe Nasdaq composite dropped 5.3%, leaving it down for the year. The Dow Jones Industrial Average fell 1.9%.",
+      "headline": "Oil tankers attacked near Strait of Hormuz",
+      "body": "At least three oil tankers were attacked near the Strait of Hormuz on Saturday, according to the Associated Press. UK maritime authorities reported two separate projectile strikes early that morning, with no casualties reported in those incidents.",
       "sources": [
         {
           "name": "Associated Press",
-          "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c10b797a17c2acf37924d834efebe135"
-        }
-      ]
-    },
-    {
-      "headline": "Poland reports Russian missiles and drone entering airspace",
-      "body": "Polish officials said three Russian objects entered the country's airspace and came down in southeastern Poland on Friday. They were believed to be two missiles and a jet-powered drone, though their identification remained preliminary.\n\nPrime Minister Donald Tusk described the incident as an apparent intentional provocation. It coincided with European military exercises for a possible postwar mission in Ukraine.",
-      "sources": [
-        {
-          "name": "Reuters via Investing.com",
-          "url": "https://www.investing.com/news/world-news/poland-condemns-russian-provocation-after-three-airspace-violations-5041572"
-        },
-        {
-          "name": "Just Security",
-          "url": "https://www.justsecurity.org/165471/early-edition-november-20-2026/"
-        }
-      ]
-    },
-    {
-      "headline": "Man convicted of starting deadly Palisades Fire",
-      "body": "A federal jury convicted Jonathan Rinderknecht on Friday of destruction of property by fire and arson affecting property used in interstate commerce.\n\nProsecutors established that the Lachman Fire, which he started on January 1, 2025, continued smoldering underground before resurfacing on January 7 as the Palisades Fire. That blaze killed 12 people.\n\nThe verdict came at a retrial after his first trial ended in a mistrial. Sentencing is pending.",
-      "sources": [
-        {
-          "name": "U.S. Attorney's Office, Central District of California",
-          "url": "https://www.justice.gov/usao-cdca/pr/former-la-resident-found-guilty-federal-charges-deliberately-starting-what-became"
-        },
-        {
-          "name": "Associated Press via ABC News",
-          "url": "https://abcnews.com/amp/US/wireStory/federal-jury-convicts-man-starting-deadly-2025-palisades-138333574"
+          "url": "https://apnews.com/article/mideast-iran-gaza-israel-november-21-2026-29159a6f3365ff447c0ccbd1d7260f75"
         }
       ]
     }
