@@ -481,10 +481,10 @@
         "request": {
           "fingerprint": "253cf10ecfbe402c459f2a70a483c62ce2d864d8c0bf76c14191967ecc2eb1d8",
           "claimId": "9a51ccfb-c0dd-4949-9851-2eae1ef48c06",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-22T08:07:47.272Z",
-          "responseId": null
+          "responseId": "resp_052447ef8cb538f4006b02a2d72c8c87d2b9f16ba48c85f78c"
         },
         "result": null,
         "observedAt": "2026-11-22T08:07:47.173Z"
