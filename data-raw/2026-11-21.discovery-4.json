@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-21",
+  "batch": 4,
+  "captured_at": "2026-11-22T08:08:25.271Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "COP31 organizers released a revised proposed agreement early November 22 in Türkiye, still November 21 in New York. AP reported that the text omitted explicit mention of fossil fuels while referring to the 2023 Dubai agreement, and proposed increasing electricity's share of final energy consumption to 35% by 2035. Countries had not adopted the proposal by the end of the target New York day; approval remained pending after negotiations overran their scheduled November 20 close.",
+        "category": "climate",
+        "title": "COP31 releases revised draft without explicit fossil-fuel language; approval pending",
+        "event_date": "2026-11-21",
+        "candidate_id": "cop31-overtime-negotiations-2026-11-21",
+        "geography": "Antalya, Türkiye; global",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/climate-un-turkey-fossil-fuels-global-warming-f6e36c4caf13ec6fed57c9f077cbd067"
+          },
+          {
+            "name": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/22/cop31-climate-talks-close-to-final-deal-says-summit-president"
+          }
+        ]
+      },
+      {
+        "summary": "The European Union and Indonesia signed their Comprehensive Economic Partnership Agreement and a separate Investment Protection Agreement in Brussels on November 21. The European Commission said European Parliament consent and Indonesian internal ratification procedures remained necessary before provisional application. Signing did not put the agreements into effect.",
+        "category": "international_trade",
+        "title": "EU and Indonesia sign trade and investment agreements; approval steps remain",
+        "event_date": "2026-11-21",
+        "candidate_id": "eu-indonesia-trade-investment-signing-2026-11-21",
+        "geography": "European Union; Indonesia; Brussels, Belgium",
+        "sources": [
+          {
+            "name": "European Commission",
+            "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2532/IP_26_2532_EN.pdf"
+          },
+          {
+            "name": "European Commission Audiovisual Service",
+            "url": "https://audiovisual.ec.europa.eu/en/media/photo/P-071078"
+          }
+        ]
+      },
+      {
+        "summary": "Mexico's Defense Ministry reported on November 21 that four soldiers and seven alleged cartel gunmen died in the operation to capture Fausto Isidro Meza Flores, known as El Chapo Isidro, in Guasave, Sinaloa. Reuters, citing Mexico's security chief, dated the capture to Friday night, November 20; AP described it as occurring Saturday after an overnight firefight. The detainees arrived in Mexico City early Saturday. The target-day development is the official casualty report and transfer, rather than an unqualified Saturday arrest date.",
+        "category": "crime_and_security",
+        "title": "Mexico reports 11 deaths in cartel-leader capture operation; detainees transferred",
+        "event_date": "2026-11-21",
+        "candidate_id": "mexico-isidro-operation-toll-transfer-2026-11-21",
+        "geography": "Guasave, Sinaloa; Mexico City, Mexico",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mexico-cartels-el-chapo-isidro-sinaloa-violence-7301b67a1b1b974bc6bd20c9d030ce07"
+          },
+          {
+            "name": "Reuters via Yahoo News",
+            "url": "https://malaysia.news.yahoo.com/mexico-captures-top-drug-lord-144952001.html"
+          },
+          {
+            "name": "N+ Univision",
+            "url": "https://www.univision.com/noticias/america-latina/operativo-contra-el-chapo-isidro-deja-siete-presuntos-agresores-y-cuatro-militares-muertos"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-21"
+  },
+  "metadata": {
+    "responseId": "resp_052447ef8cb538f4006b02a2d72c8c87d2b9f16ba48c85f78c",
+    "requestId": "req_4b466aec822c4150998122c52ba0b10f",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 822,
+    "inputTokens": 49132,
+    "outputTokens": 1616,
+    "webSearchCalls": 5,
+    "stage": "discovery",
+    "targetDate": "2026-11-21",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 37999,
+    "attemptDurationMs": 37999,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
