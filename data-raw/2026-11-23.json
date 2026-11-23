@@ -110,6 +110,50 @@
         },
         "observedAt": "2026-11-23T11:07:43.430Z",
         "capturedAt": "2026-11-23T11:08:26.124Z"
+      },
+      {
+        "slot": 12,
+        "fromHour": 6,
+        "priorStories": [
+          {
+            "headline": "COP31 ends without an overarching climate agreement",
+            "body": "The UN climate conference in Antalya, Türkiye, closed Sunday without consensus on an overarching agreement. The European Union and other delegations rejected the proposed outcome amid disagreements over fossil-fuel transition language and climate finance.\n\nUN climate chief Simon Stiell confirmed that the presidency-led decisions had not won agreement. Separate negotiating decisions, including on a just transition, were adopted, so the breakdown did not mean that all conference decisions failed.",
+            "sources": [
+              {
+                "name": "UN Framework Convention on Climate Change",
+                "url": "https://unfccc.int/news/un-climate-change-executive-secretary-simon-stiell-remarks-at-the-closing-plenary-of-cop31"
+              },
+              {
+                "name": "Reuters via GMA News",
+                "url": "https://www.gmanetwork.com/news/topstories/world/1010425/cop31-climate-talks-break-down-as-eu-others-reject-deal/story/"
+              }
+            ]
+          },
+          {
+            "headline": "Delta system outage disrupts flights across U.S.",
+            "body": "A failure of Delta Air Lines’ automated aircraft weight-and-balance system disrupted flights nationwide Sunday. Delta said the system was restored during the afternoon, but delays continued into the evening. Employees used manual calculations while the automation was unavailable.\n\nThe FAA briefly restricted Delta flights bound for Atlanta and said its own air-traffic systems were not responsible. At 9 p.m. Eastern, FlightAware data showed that more than half of all flights at Atlanta’s airport had experienced delays. Weather also contributed to the disruptions; that figure does not measure the outage’s effects alone.",
+            "sources": [
+              {
+                "name": "CNN via ABC17 News",
+                "url": "https://abc17news.com/news/top-stories/2026/11/22/delta-airlines-flights-delayed-nationwide-snarling-holiday-travel-amid-ground-delay-at-atlanta-airport/"
+              },
+              {
+                "name": "WABC",
+                "url": "https://abc7ny.com/post/delta-flight-delays-caused-weight-balance-system-outage/20066834/"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "506d30f19e0d4f814090e43337046fd6af7f701c479beec27b9be492c5e746d3",
+          "claimId": "79ceaa13-ca8b-4192-a35f-11c62b15cc43",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-11-23T17:07:51.107Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-11-23T17:07:51.037Z"
       }
     ],
     "sift": null
