@@ -357,10 +357,10 @@
         "request": {
           "fingerprint": "8f2cc2f04887d139650ee649e88c533dc50f62b0f0e7dfb6a4fc1abeb1647e1f",
           "claimId": "4f7f8e3e-7fc7-4dd5-9cb2-2ca7e35765c3",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-23T08:07:42.893Z",
-          "responseId": null
+          "responseId": "resp_0e7fbc33499c7715006b03f452a00087d18fd2898b55a0eb3d"
         },
         "result": null,
         "observedAt": "2026-11-23T08:07:42.801Z"
