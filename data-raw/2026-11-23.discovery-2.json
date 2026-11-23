@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-23",
+  "batch": 2,
+  "captured_at": "2026-11-23T17:09:18.315Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Nvidia announced on November 23 that Jensen Huang had been reinstated as president, chief executive and a director following a unanimous board vote. Its SEC filing dates the reinstatement decision and immediate effectiveness to November 22; the target-day development is the public announcement. Colette Kress remains chief financial officer and Harvey Jones remains board chair. The company said its independent investigation into reports concerning a foreign intelligence effort targeting Huang would continue, as would cooperation with government investigations and inquiries.",
+        "category": "business",
+        "title": "Nvidia announces Jensen Huang's reinstatement as chief executive",
+        "event_date": "2026-11-23",
+        "candidate_id": "nvidia-announces-huang-reinstatement",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Nvidia",
+            "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx"
+          },
+          {
+            "name": "U.S. Securities and Exchange Commission",
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm"
+          }
+        ]
+      },
+      {
+        "summary": "Ukrainian officials said on November 23 that the death toll from the previous day's Russian attack on an apartment building in Dymer, Kyiv region, had reached 11. Rescuers pulled a seven-year-old boy and a 79-year-old woman alive from the rubble, Reuters reported, citing officials. Search operations continued. These are casualty and rescue updates concerning the November 22 strike, not a new November 23 attack.",
+        "category": "international",
+        "title": "Dymer strike death toll reaches 11 as rescuers recover survivors",
+        "event_date": "2026-11-23",
+        "candidate_id": "dymer-strike-rescue-toll-update",
+        "geography": "Dymer, Kyiv region, Ukraine",
+        "sources": [
+          {
+            "name": "Reuters via Yahoo News Malaysia",
+            "url": "https://malaysia.news.yahoo.com/russian-attack-ukraines-dymer-kyiv-062353584.html"
+          },
+          {
+            "name": "The Kyiv Independent",
+            "url": "https://kyivindependent.com/apartment-building-destroyed-in-kyiv-oblast-following-russian-drone-attack/"
+          }
+        ]
+      },
+      {
+        "summary": "President Emmanuel Macron announced on November 23 that France was earmarking €350 million in state support for civil aviation research during a visit to an Airbus plant in Toulouse. Reuters reported that the funding would come under France's Civil Aeronautics Research Council. The announcement formed part of the Choose France summit focused on domestic corporate investment; it does not establish that the research funds have already been disbursed.",
+        "category": "economy",
+        "title": "Macron announces €350 million for civil aviation research",
+        "event_date": "2026-11-23",
+        "candidate_id": "france-civil-aviation-research-funding",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "Reuters via Yahoo News Malaysia",
+            "url": "https://malaysia.news.yahoo.com/frances-macron-earmarks-350-million-113440199.html"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-23"
+  },
+  "metadata": {
+    "responseId": "resp_0cbf8780cf6419b0006b0472eb6b7887d292496aae28dc748a",
+    "requestId": "req_17f7854f5edf4e65af54d36f071ed454",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 977,
+    "inputTokens": 53672,
+    "outputTokens": 1765,
+    "webSearchCalls": 6,
+    "stage": "discovery",
+    "targetDate": "2026-11-23",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 87208,
+    "attemptDurationMs": 87208,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
