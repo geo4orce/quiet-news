@@ -440,6 +440,36 @@
         "capturedAt": "2026-11-23T08:08:57.505Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "02787d2dbddda22a8e1eb857621552057041749420080ae76f3457da46750aab",
+      "priorStories": [
+        {
+          "headline": "Oil tankers attacked near Strait of Hormuz",
+          "body": "At least three oil tankers were attacked near the Strait of Hormuz on Saturday, according to the Associated Press. UK maritime authorities reported two separate projectile strikes early that morning, with no casualties reported in those incidents.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/mideast-iran-gaza-israel-november-21-2026-29159a6f3365ff447c0ccbd1d7260f75"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "4d49ec83f91683667a8f04318def293f25286618ccecadd8d793f1b71c9fe81a",
+        "claimId": "64b82e38-e762-456a-ad73-076fb0f4988b",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-11-23T09:07:48.482Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
