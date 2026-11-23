@@ -464,12 +464,90 @@
       "request": {
         "fingerprint": "4d49ec83f91683667a8f04318def293f25286618ccecadd8d793f1b71c9fe81a",
         "claimId": "64b82e38-e762-456a-ad73-076fb0f4988b",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-23T09:07:48.482Z",
         "responseId": "resp_0ab5492246956f89006b040268bb7487d29f3716308d73e149"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "kyiv-region-drone-attacks-dymer-vyshneve",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "libya-government-russian-ship-blast-assessment",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "nepal-shah-departs-india-state-visit",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "north-carolina-5-hubbard-foxx-concession",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "verstappen-wins-las-vegas-grand-prix-2026",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": [
+            {
+              "body": "The UN climate conference in Antalya, Türkiye, closed Sunday without consensus on an overarching agreement. The European Union and other delegations rejected the proposed outcome amid disagreements over fossil-fuel transition language and climate finance.\n\nUN climate chief Simon Stiell confirmed that the presidency-led decisions had not won agreement. Separate negotiating decisions, including on a just transition, were adopted, so the breakdown did not mean that all conference decisions failed.",
+              "candidate_id": "cop31-european-opposition-closing-text",
+              "headline": "COP31 ends without an overarching climate agreement",
+              "sources": [
+                {
+                  "name": "UN Framework Convention on Climate Change",
+                  "url": "https://unfccc.int/news/un-climate-change-executive-secretary-simon-stiell-remarks-at-the-closing-plenary-of-cop31"
+                },
+                {
+                  "name": "Reuters via GMA News",
+                  "url": "https://www.gmanetwork.com/news/topstories/world/1010425/cop31-climate-talks-break-down-as-eu-others-reject-deal/story/"
+                }
+              ]
+            },
+            {
+              "body": "A failure of Delta Air Lines’ automated aircraft weight-and-balance system disrupted flights nationwide Sunday. Delta said the system was restored during the afternoon, but delays continued into the evening. Employees used manual calculations while the automation was unavailable.\n\nThe FAA briefly restricted Delta flights bound for Atlanta and said its own air-traffic systems were not responsible. At 9 p.m. Eastern, FlightAware data showed that more than half of all flights at Atlanta’s airport had experienced delays. Weather also contributed to the disruptions; that figure does not measure the outage’s effects alone.",
+              "candidate_id": "delta-weight-balance-outage-flight-delays",
+              "headline": "Delta system outage disrupts flights across U.S.",
+              "sources": [
+                {
+                  "name": "CNN via ABC17 News",
+                  "url": "https://abc17news.com/news/top-stories/2026/11/22/delta-airlines-flights-delayed-nationwide-snarling-holiday-travel-amid-ground-delay-at-atlanta-airport/"
+                },
+                {
+                  "name": "WABC",
+                  "url": "https://abc7ny.com/post/delta-flight-delays-caused-weight-balance-system-outage/20066834/"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0ab5492246956f89006b040268bb7487d29f3716308d73e149",
+          "requestId": "req_f209ac01b99d47f29ecc16a03fd084bc",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 1034,
+          "inputTokens": 2928,
+          "outputTokens": 1740,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-22",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 43730,
+          "attemptDurationMs": 43730,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
