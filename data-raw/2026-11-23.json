@@ -271,13 +271,157 @@
         "request": {
           "fingerprint": "b2bb6ee17ae5faa222ed2bc33b00cd875d0e22a3625c708bc2a26dc4d2012ced",
           "claimId": "dd528dd9-965d-4e5a-ae2a-67f8c7ea7609",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-23T23:07:54.728Z",
           "responseId": "resp_0191549e72efada9006b04c74f878887d298c4c8cdd1441a2b"
         },
-        "result": null,
-        "observedAt": "2026-11-23T23:07:54.637Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Nvidia announced November 23 that Jensen Huang had been reinstated as president, chief executive and a director after a unanimous board vote; its SEC filing dates the decision and immediate effectiveness to November 22. Colette Kress remains chief financial officer and Harvey Jones board chair. The company said its independent investigation and cooperation with government inquiries would continue. Later November 23, Senate Banking Committee chairman Tim Scott announced a December 3 public hearing with Huang. Lawmakers from both parties questioned the reinstatement, and Elizabeth Warren sought an explanation of the administration's involvement.",
+                "category": "business",
+                "title": "Nvidia announces Huang reinstatement as lawmakers pursue scrutiny",
+                "event_date": "2026-11-23",
+                "candidate_id": "nvidia-announces-huang-reinstatement",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Nvidia",
+                    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx"
+                  },
+                  {
+                    "name": "U.S. Securities and Exchange Commission",
+                    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/nvidia-jensen-huang-48a005a1415549e69ec69400024aa797"
+                  }
+                ]
+              },
+              {
+                "summary": "CrowdStrike and Zscaler announced November 23 that they had signed a definitive agreement for CrowdStrike to acquire Zscaler in an all-stock transaction valued at approximately $43.9 billion. Zscaler shareholders would receive 1.135 CrowdStrike shares for each Zscaler share. Both boards approved the agreement. Completion remains subject to Zscaler shareholder approval, required regulatory approvals and other closing conditions; the companies will operate independently until closing.",
+                "category": "business",
+                "title": "CrowdStrike agrees to acquire Zscaler in $43.9 billion stock transaction",
+                "event_date": "2026-11-23",
+                "candidate_id": "crowdstrike-zscaler-acquisition-agreement",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "CrowdStrike",
+                    "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero/"
+                  }
+                ]
+              },
+              {
+                "summary": "FIFA member associations appointed the hosts of the 2031 and 2035 Women's World Cups by acclamation at a virtual extraordinary congress on November 23. The United States, Mexico, Costa Rica and Jamaica were awarded the 2031 tournament, the first edition with 48 teams and four host associations. England, Northern Ireland, Scotland and Wales were appointed to host the 2035 edition.",
+                "category": "sports",
+                "title": "FIFA appoints hosts for 2031 and 2035 Women's World Cups",
+                "event_date": "2026-11-23",
+                "candidate_id": "fifa-womens-world-cup-2031-2035-hosts",
+                "geography": "United States; Mexico; Costa Rica; Jamaica; United Kingdom",
+                "sources": [
+                  {
+                    "name": "FIFA",
+                    "url": "https://inside.fifa.com/organisation/congress/media-releases/extraordinary-congress-appoints-hosts-2031-2035-womens-world-cup"
+                  },
+                  {
+                    "name": "U.S. Soccer",
+                    "url": "https://www.ussoccer.com/stories/2026/11/federation/united-states-mexico-costa-rica-jamaica-awarded-fifa-womens-world-cup-2031"
+                  }
+                ]
+              },
+              {
+                "summary": "The Justice Department filed a civil forfeiture claim November 23 seeking more than $1.1 billion in USDC that prosecutors allege represents proceeds and laundered funds from the October 29 Binance cryptocurrency theft attributed to North Korean actors. The assets were already subject to a government-requested restraining order. The filing seeks forfeiture; it does not establish that the court has granted forfeiture or that these funds have been returned to Binance.",
+                "category": "justice",
+                "title": "Justice Department seeks forfeiture of Binance hack-linked cryptocurrency",
+                "event_date": "2026-11-23",
+                "candidate_id": "doj-binance-hack-usdc-forfeiture-claim",
+                "geography": "United States; North Korea",
+                "sources": [
+                  {
+                    "name": "U.S. Department of Justice",
+                    "url": "https://www.justice.gov/usao-dc/pr/united-states-files-action-recover-more-1-billion-cryptocurrency-assets-related-north"
+                  }
+                ]
+              },
+              {
+                "summary": "Mexican security officials disclosed November 23 that Mexico had authorized U.S. surveillance-drone flights to help locate Fausto Isidro Meza Flores before his weekend capture in Sinaloa. Defense Secretary Ricardo Trevilla Trejo said the operation followed three months of intelligence sharing. President Claudia Sheinbaum emphasized that U.S. forces were not permitted to operate on Mexican soil. Officials also reported that violence following the capture killed four soldiers and 16 suspected criminals in Guasave. These are disclosures and casualty updates about the weekend operation, not a new November 23 arrest.",
+                "category": "international",
+                "title": "Mexico discloses U.S. drone assistance in weekend cartel leader capture",
+                "event_date": "2026-11-23",
+                "candidate_id": "mexico-discloses-us-drone-cartel-capture-assistance",
+                "geography": "Mexico; United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/mexico-sinaloa-drone-cartels-meza-flores-us-912af4eaae5e476a102adc2eca11abee"
+                  }
+                ]
+              },
+              {
+                "summary": "The United Kingdom formally recognized genocide against the Rohingya on November 23 following the International Court of Justice's November 19 judgment. It imposed sanctions on five senior Myanmar military officers, including asset freezes, travel bans and director disqualifications. The government also announced £5 million in additional humanitarian assistance and up to £3 million for accountability and justice efforts. It said it intends to introduce legislation targeting aviation-fuel exports and supplies to Myanmar; that restriction was announced as planned legislation, not an already effective ban.",
+                "category": "international",
+                "title": "UK recognizes Rohingya genocide and sanctions five Myanmar officers",
+                "event_date": "2026-11-23",
+                "candidate_id": "uk-rohingya-recognition-myanmar-sanctions",
+                "geography": "United Kingdom; Myanmar",
+                "sources": [
+                  {
+                    "name": "UK Foreign, Commonwealth & Development Office",
+                    "url": "https://www.gov.uk/government/news/uk-leads-global-action-with-major-new-measures-against-myanmar-military-following-landmark-genocide-judgment"
+                  }
+                ]
+              },
+              {
+                "summary": "The European Commission presented a proposed 22nd package of sanctions against Russia on November 23. Measures outlined included transaction restrictions affecting about 60 Russian banks, additional shadow-fleet ship listings, expanded energy-service restrictions and restrictions involving Russian sports participation and symbols. The Commission separately adopted revised visa-implementation guidelines and proposed activating a visa ban for current and former Russian combatants. These announcements do not establish that the proposed sanctions package or proposed visa-ban activation had received final adoption or taken effect.",
+                "category": "international",
+                "title": "European Commission proposes further Russia sanctions and adopts visa guidelines",
+                "event_date": "2026-11-23",
+                "candidate_id": "eu-proposes-22nd-russia-sanctions-package",
+                "geography": "European Union; Russia; Ukraine",
+                "sources": [
+                  {
+                    "name": "European Commission",
+                    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2563/STATEMENT_26_2563_EN.pdf"
+                  },
+                  {
+                    "name": "European Commission",
+                    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2521/IP_26_2521_EN.pdf"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-23"
+          },
+          "metadata": {
+            "responseId": "resp_0191549e72efada9006b04c74f878887d298c4c8cdd1441a2b",
+            "requestId": "req_c3ee5fd7132244338767d6d8c1db15bb",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 813,
+            "inputTokens": 57093,
+            "outputTokens": 2709,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-23",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 75635,
+            "attemptDurationMs": 75635,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-11-23T23:07:54.637Z",
+        "capturedAt": "2026-11-23T23:09:10.364Z"
       }
     ],
     "sift": null
