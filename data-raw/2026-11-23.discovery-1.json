@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-23",
+  "batch": 1,
+  "captured_at": "2026-11-23T11:08:26.124Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The Democratic National Committee announced its framework for the 2028 presidential primary debates on November 23. It plans 12 debates, five in 2027 and seven in 2028, beginning in June 2027. Candidates must sign and follow a Fair Campaign Practices Pledge committing to denounce dark-money spending in the primary to qualify. Polling and other support requirements will also apply; specific qualification criteria for the first two debates are due in January 2027.",
+        "category": "politics",
+        "title": "DNC announces 2028 debate framework and dark-money pledge requirement",
+        "event_date": "2026-11-23",
+        "candidate_id": "dnc-2028-debate-framework",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Democratic National Committee",
+            "url": "https://democrats.org/dnc-announces-framework-for-the-2028-democratic-presidential-primary-debates/"
+          },
+          {
+            "name": "ABC News",
+            "url": "https://abcnews.com/Politics/democrats-holding-12-debates-2028-cycle-requiring-candidates/story?id=138321896"
+          }
+        ]
+      },
+      {
+        "summary": "On November 23, President Volodymyr Zelenskiy said Ukrainian forces used seven naval drones to sink the Russian corvette Merkury at Benghazi, Libya, in an attack on November 22. He also said a Russian military helicopter was destroyed and the Russian cargo ship MV Angara was hit. Libya's eastern-based government confirmed that the corvette had been struck at the naval base in a suspected drone attack. Russia's Defence Ministry had not immediately commented. The target-day development is Ukraine's public attribution and claims about the previous day's operation, not a newly occurring attack.",
+        "category": "international",
+        "title": "Zelenskiy claims Ukrainian responsibility for Russian warship attack in Libya",
+        "event_date": "2026-11-23",
+        "candidate_id": "ukraine-claims-libya-warship-attack",
+        "geography": "Ukraine; Libya; Russia",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Zelenskiy%2Bsays%2BUkraine%2Bsank%2BRussian%2Bcorvette%2Bnear%2BLibyas%2Bcoast,%2Bhit%2Bcargo%2Bship/27383306.html"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-23"
+  },
+  "metadata": {
+    "responseId": "resp_062ac4c8a7b02b65006b041e82f95c87d28e623415adb88e7b",
+    "requestId": "req_f61c27b483bf466b97a89aa4b949c61c",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 523,
+    "inputTokens": 39294,
+    "outputTokens": 1120,
+    "webSearchCalls": 4,
+    "stage": "discovery",
+    "targetDate": "2026-11-23",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 42660,
+    "attemptDurationMs": 42660,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
