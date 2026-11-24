@@ -604,12 +604,99 @@
       "request": {
         "fingerprint": "91d9125cf251ac293da97820d824c2b1f7fab767265b0a21f43a8d31d68f48df",
         "claimId": "e8c40984-e7ee-4fea-b645-d2df3074deb7",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-24T09:07:43.436Z",
         "responseId": "resp_0c407e127f9b960a006b0553e3564c87d281051e05a6e3e579"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "crowdstrike-zscaler-acquisition-agreement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "dnc-2028-debate-framework",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "doj-binance-hack-usdc-forfeiture-claim",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "dymer-strike-rescue-toll-update",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "eu-proposes-22nd-russia-sanctions-package",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "fifa-womens-world-cup-2031-2035-hosts",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "france-civil-aviation-research-funding",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "iowa-lead-azide-appeals-court-permit-ruling",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "jimmy-gomez-resignation-announcement",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "mexico-discloses-us-drone-cartel-capture-assistance",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "nvidia-announces-huang-reinstatement",
+              "code": "outside_target_day"
+            },
+            {
+              "candidate_id": "south-korea-russian-aircraft-ulleung-alert",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "trump-hush-money-federal-removal-appeal-ruling",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "uk-rohingya-recognition-myanmar-sanctions",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ukraine-claims-libya-warship-attack",
+              "code": "weak_support"
+            }
+          ],
+          "stories": []
+        },
+        "metadata": {
+          "responseId": "resp_0c407e127f9b960a006b0553e3564c87d281051e05a6e3e579",
+          "requestId": "req_5d0d58c2c6b240098e9ed90d0a38dbdc",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 826,
+          "inputTokens": 4630,
+          "outputTokens": 1330,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-23",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 38448,
+          "attemptDurationMs": 38448,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
