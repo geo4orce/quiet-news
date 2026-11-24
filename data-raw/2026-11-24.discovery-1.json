@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-24",
+  "batch": 1,
+  "captured_at": "2026-11-24T11:08:47.735Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Iranian Parliament Speaker Mohammad Bagher Qalibaf told an open parliamentary session on November 24 that Tehran would not negotiate with the United States until its seven conditions were fulfilled, according to Tasnim and Iranian state television cited by AP. He also warned that Iran could expand the geographical scope of the conflict in response to hostile action. The statement reiterated Iran’s existing position; it did not announce an agreement or a resumption of negotiations.",
+        "category": "international",
+        "title": "Iran’s parliament speaker reiterates conditions for negotiations with US",
+        "event_date": "2026-11-24",
+        "candidate_id": "iran-qalibaf-negotiation-conditions-2026-11-24",
+        "geography": "Iran; United States",
+        "sources": [
+          {
+            "name": "Tasnim News Agency",
+            "url": "https://www.tasnimnews.ir/en/news/2026/11/24/3756804/qalibaf-no-talks-before-fulfilment-of-iran-s-seven-conditions"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/mideast-iran-gaza-israel-houthis-libya-november-24-2026-ba01cb036a849ba69873da5000ee08d5"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-24"
+  },
+  "metadata": {
+    "responseId": "resp_03671c4cc6883a12006b05700db46c87d1be8725a5efbc90db",
+    "requestId": "req_2c230d0c2bfe40b68064359ea1702311",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 348,
+    "inputTokens": 37852,
+    "outputTokens": 630,
+    "webSearchCalls": 4,
+    "stage": "discovery",
+    "targetDate": "2026-11-24",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 53941,
+    "attemptDurationMs": 53941,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
