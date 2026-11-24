@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-24",
+  "batch": 3,
+  "captured_at": "2026-11-24T23:08:44.143Z",
+  "coverage": {
+    "from_hour": 12,
+    "through_hour": 18
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "A federal jury in Brooklyn convicted Huawei on November 24 of 10 criminal counts, including conspiracy to steal trade secrets and bank fraud. The Justice Department said Huawei and three subsidiaries were convicted of offenses involving Iran sanctions, fraud and money laundering. Jurors acquitted Huawei of racketeering conspiracy. A company attorney said Huawei would appeal the convictions. Sentencing remains pending.",
+        "category": "law",
+        "title": "US jury convicts Huawei on fraud and trade-secret counts, acquits it of racketeering",
+        "event_date": "2026-11-24",
+        "candidate_id": "huawei-us-jury-verdict-2026-11-24",
+        "geography": "United States; China",
+        "sources": [
+          {
+            "name": "Associated Press via ABC News",
+            "url": "https://abcnews.com/Business/wireStory/us-jury-find-chinese-tech-giant-huawei-guilty-138421898"
+          },
+          {
+            "name": "Associated Press via The Washington Post",
+            "url": "https://www.washingtonpost.com/business/2026/11/24/huawei-racketeering-trial-verdict/a8939abc-e845-11f1-8db0-6f1e3c389e7c_story.html"
+          },
+          {
+            "name": "US Department of Justice via Forth",
+            "url": "https://www.forth.news/lists/doj/ChNXuahdLDoG9JwN8bhWs"
+          }
+        ]
+      },
+      {
+        "summary": "Governor Kim Reynolds issued a disaster emergency proclamation on November 24 for Des Moines, Lee and Van Buren counties, activating state response plans ahead of a planned lead-azide detonation at the Iowa Army Ammunition Plant. Her office said up to 100 federally activated Iowa National Guard soldiers would support outreach to approximately 150 households concerning recommended temporary evacuation. Officials also issued precautionary guidance for residents southwest of the plant. The detonation remained scheduled for November 25; it had not occurred.",
+        "category": "public-safety",
+        "title": "Iowa declares emergency and supports evacuations ahead of planned explosives disposal",
+        "event_date": "2026-11-24",
+        "candidate_id": "iowa-lead-azide-emergency-2026-11-24",
+        "geography": "Iowa, United States",
+        "sources": [
+          {
+            "name": "Office of Iowa Governor Kim Reynolds",
+            "url": "https://governor.iowa.gov/press-release/2026-11-24/gov-reynolds-issues-disaster-emergency-proclamation-provides-pre-detonation-update"
+          }
+        ]
+      },
+      {
+        "summary": "Sanofi announced on November 24 an agreement to acquire US biopharmaceutical company Insmed for $175 per share in cash, valuing the transaction at approximately $41 billion. Both companies’ boards approved the agreement. Completion remains subject to Insmed shareholder approval, US and certain non-US regulatory approvals, and other customary conditions. Insmed’s portfolio includes the respiratory medicines Brinsupri and Arikayce and investigational treatments. The acquisition had not closed.",
+        "category": "business",
+        "title": "Sanofi agrees to acquire Insmed for approximately $41 billion",
+        "event_date": "2026-11-24",
+        "candidate_id": "sanofi-insmed-acquisition-agreement-2026-11-24",
+        "geography": "France; United States",
+        "sources": [
+          {
+            "name": "Sanofi",
+            "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-11-24-06-30-00-3409002"
+          },
+          {
+            "name": "US Securities and Exchange Commission",
+            "url": "https://www.sec.gov/Archives/edgar/data/1121404/000119312526473314/d130092d6k.htm"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-24"
+  },
+  "metadata": {
+    "responseId": "resp_0350edff91b379f1006b0618ca6ea487d296bdb0ad19f88321",
+    "requestId": "req_7edfedf5c7e1457d940b60ab0a24adcf",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 642,
+    "inputTokens": 52188,
+    "outputTokens": 1413,
+    "webSearchCalls": 6,
+    "stage": "discovery",
+    "targetDate": "2026-11-24",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 53658,
+    "attemptDurationMs": 53658,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 18
+  }
+}
