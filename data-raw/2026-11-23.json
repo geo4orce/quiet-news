@@ -604,10 +604,10 @@
       "request": {
         "fingerprint": "91d9125cf251ac293da97820d824c2b1f7fab767265b0a21f43a8d31d68f48df",
         "claimId": "e8c40984-e7ee-4fea-b645-d2df3074deb7",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-11-24T09:07:43.436Z",
-        "responseId": null
+        "responseId": "resp_0c407e127f9b960a006b0553e3564c87d281051e05a6e3e579"
       },
       "result": null
     }
