@@ -75,13 +75,79 @@
         "request": {
           "fingerprint": "dfe14a5c8ba60e8f33fb1ee80080d19ed050f7d15b8b5876b2d30a9cc29c93cc",
           "claimId": "f4921edc-19f1-420e-ab1c-5aff86a82a3e",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-24T17:07:46.614Z",
           "responseId": "resp_04b6f67410a966fc006b05c467227487d2ad7bf2e8abd59af7"
         },
-        "result": null,
-        "observedAt": "2026-11-24T17:07:46.570Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Conference Board released its preliminary November consumer survey on November 24. Its Consumer Confidence Index rose 11.4 points to 103.3 from October’s revised 91.9. The Present Situation Index increased to 132.8 and the Expectations Index rose to 83.6. The survey covered November 1–17; these are measures of consumer sentiment, not actual spending.",
+                "category": "economy",
+                "title": "US consumer confidence index rises to 103.3 in November",
+                "event_date": "2026-11-24",
+                "candidate_id": "us-consumer-confidence-november-2026-11-24",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "The Conference Board via PR Newswire",
+                    "url": "https://www.streetinsider.com/PRNewswire/US%2BConsumer%2BConfidence%2BSurged%2Bin%2BNovember/27392331.html"
+                  },
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/consumer-economy-confidence-inflation-9d13d96cc3e4bac8f334f9145c718e42"
+                  }
+                ]
+              },
+              {
+                "summary": "The Court of Arbitration for Sport unanimously upheld Senegal’s appeal concerning the Africa Cup of Nations final on November 24. It set aside the CAF Appeal Board’s decision awarding the match to Morocco by forfeiture, reinstated the CAF Disciplinary Board’s decision and confirmed Senegal’s 1–0 on-field victory. The court said the referee’s decision to resume the match was not arbitrary. Separate disciplinary sanctions against Senegal’s federation, coach and certain players had already been imposed.",
+                "category": "sports",
+                "title": "Sports arbitration court confirms Senegal’s Africa Cup of Nations victory",
+                "event_date": "2026-11-24",
+                "candidate_id": "cas-senegal-afcon-title-ruling-2026-11-24",
+                "geography": "Senegal; Morocco; Switzerland",
+                "sources": [
+                  {
+                    "name": "Court of Arbitration for Sport",
+                    "url": "https://www.tas-cas.org/generated/assets/lists/dceab111-07bc-435f-b5f9-de88eff9db72/CAS%20Media%20Release_12295_decision.pdf"
+                  },
+                  {
+                    "name": "RFI via AOL",
+                    "url": "https://www.aol.co.uk/articles/top-sports-lawyers-declare-senegal-155149000.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-24"
+          },
+          "metadata": {
+            "responseId": "resp_04b6f67410a966fc006b05c467227487d2ad7bf2e8abd59af7",
+            "requestId": "req_5a56a36b080a47d69daedb8aa84b2678",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 674,
+            "inputTokens": 55422,
+            "outputTokens": 1285,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-11-24",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 54381,
+            "attemptDurationMs": 54381,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-11-24T17:07:46.570Z",
+        "capturedAt": "2026-11-24T17:08:40.995Z"
       }
     ],
     "sift": null
