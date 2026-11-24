@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-23",
+  "batch": 4,
+  "captured_at": "2026-11-24T08:09:09.945Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "Representative Jimmy Gomez announced November 23 that he would resign effective December 1 after the House Ethics Committee released findings of substantial evidence of sexual misconduct involving a congressional staffer. The committee described unwelcome sexual advances and contact in violation of House conduct rules. Gomez disputed the report's conclusions and handling while accepting responsibility for personal mistakes. The announcement did not make his resignation immediately effective.",
+        "category": "politics",
+        "title": "Gomez announces December 1 resignation after House ethics findings",
+        "event_date": "2026-11-23",
+        "candidate_id": "jimmy-gomez-resignation-announcement",
+        "geography": "United States; California",
+        "sources": [
+          {
+            "name": "House Committee on Ethics",
+            "url": "https://ethics.house.gov/wp-content/uploads/2026/11/Committee-Report-Rep.-Gomez-1.pdf"
+          },
+          {
+            "name": "Roll Call",
+            "url": "https://www.rollcall.com/2026/11/23/rep-jimmy-gomez-to-resign-after-sexual-misconduct-probe"
+          }
+        ]
+      },
+      {
+        "summary": "The Eighth Circuit on November 23 declined to block an emergency permit for detonating degraded lead azide at the Iowa Army Ammunition Plant. The panel said the permit incorporated safeguards addressing dust dispersal. Late Monday, the Army announced it was proceeding with plans for controlled removal of 68 barrels in coordination with other authorities. The detonation remained planned for November 25; it had not occurred.",
+        "category": "justice",
+        "title": "Appeals court clears permit obstacle to planned Iowa explosives disposal",
+        "event_date": "2026-11-23",
+        "candidate_id": "iowa-lead-azide-appeals-court-permit-ruling",
+        "geography": "Middletown, Iowa, United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/iowa-army-lead-detonation-trump-3844c3f93affd3ea9a91fa98199bc14a"
+          }
+        ]
+      },
+      {
+        "summary": "South Korea scrambled fighters after Russian military aircraft entered its air defense identification zone near Ulleung island. Authorities issued a shelter alert around 7:52 a.m. November 24 in South Korea, equivalent to 5:52 p.m. November 23 in New York, and lifted it three minutes later. The military corrected initial government alerts identifying suspected North Korean aircraft and alleging territorial-airspace intrusion: it said the aircraft were Russian and did not enter South Korean territorial airspace.",
+        "category": "international",
+        "title": "South Korea corrects aircraft alert after Russian flights near Ulleung island",
+        "event_date": "2026-11-23",
+        "candidate_id": "south-korea-russian-aircraft-ulleung-alert",
+        "geography": "South Korea; Russia",
+        "sources": [
+          {
+            "name": "Associated Press via ABC News",
+            "url": "https://abcnews.com/amp/International/wireStory/south-korea-russian-aircraft-flew-air-defense-zone-138393128"
+          },
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/South%2BKorea%2Bissues%2B%27take%2Bshelter%27%2Bwarning%2Bafter%2BRussia%2Baircraft%2Bfly%2Bnear%2Bairspace/27389388.html"
+          }
+        ]
+      },
+      {
+        "summary": "The Second Circuit ruled November 23 that President Donald Trump could renew his effort to move his New York hush-money criminal case into federal court. The panel found errors in the district court's rejection of removal after conviction and its assessment of whether Trump had shown good cause for reconsideration. It also directed a pause in simultaneous state appellate proceedings. The decision did not overturn his 34 felony convictions or resolve his immunity arguments.",
+        "category": "justice",
+        "title": "Appeals court allows renewed federal-removal effort in Trump hush-money case",
+        "event_date": "2026-11-23",
+        "candidate_id": "trump-hush-money-federal-removal-appeal-ruling",
+        "geography": "New York, United States",
+        "sources": [
+          {
+            "name": "CNN via KESQ",
+            "url": "https://kesq.com/news/national-politics/cnn-us-politics/2026/11/23/trump-gets-another-shot-in-his-quest-to-overturn-hush-money-conviction/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-23"
+  },
+  "metadata": {
+    "responseId": "resp_0076b9fe629b9eb7006b0545da9e9887d2b4acc95b1d80ec93",
+    "requestId": "req_47da110d613342f78c6fc8ca64fbcaba",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 943,
+    "inputTokens": 66679,
+    "outputTokens": 1850,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-23",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 79755,
+    "attemptDurationMs": 79755,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
