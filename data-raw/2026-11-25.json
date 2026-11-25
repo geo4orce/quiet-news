@@ -253,13 +253,175 @@
         "request": {
           "fingerprint": "a2481f433fe0b8f5744d84c68e3c3605c7b8159847a86e215f01637c5d62faad",
           "claimId": "ef40a967-6fff-4853-a636-9a44148e6ac2",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-25T23:07:51.580Z",
           "responseId": "resp_05bee79d444fa709006b076a4c377487d2a6670b4a3092167b"
         },
-        "result": null,
-        "observedAt": "2026-11-25T23:07:51.506Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Macy’s announced on November 25 that its Thanksgiving Day Parade would move from November 26 to November 28 because of expected severe weather in New York City. The company said the decision followed consultation with city and agency partners and prioritized participant and spectator safety. Organizers said operational details were still being finalized.",
+                "category": "public-safety",
+                "title": "Macy’s postpones Thanksgiving parade because of expected severe weather",
+                "event_date": "2026-11-25",
+                "candidate_id": "macys-thanksgiving-parade-weather-postponement",
+                "geography": "New York City, New York, United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/macys-thanksgiving-parade-postponed-weather-cdc870899c8dc2d32a0ac3d86119b3ba"
+                  },
+                  {
+                    "name": "ABC17 News",
+                    "url": "https://abc17news.com/news/national-news/2026/11/25/macys-delays-annual-new-york-city-parade-to-saturday/"
+                  }
+                ]
+              },
+              {
+                "summary": "US District Judge Christopher Cooper issued a preliminary injunction on November 25 blocking enforcement of President Donald Trump’s August executive order restricting birthright citizenship against children covered by a class action. A Maryland judge had separately blocked the order in September. The administration would need to overturn both decisions before enforcing it. The White House criticized Cooper’s decision and defended the order.",
+                "category": "law",
+                "title": "Second federal judge blocks Trump’s revised birthright citizenship order",
+                "event_date": "2026-11-25",
+                "candidate_id": "us-cooper-birthright-citizenship-injunction",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Trump%27s%2Bnewest%2Border%2Bcurtailing%2Bbirthright%2Bcitizenship%2Bis%2Bblocked%2Bby%2Bsecond%2Bjudge/27403311.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Judges in Benjamin Netanyahu’s corruption trial recommended on November 25 that prosecutors drop Case 4000, which alleges regulatory favors for favorable news coverage, and reconsider Case 2000. The court explicitly said the recommendation was not a ruling. Attorney General Gali Baharav-Miara said she would review the statements with prosecutors. Netanyahu denies wrongdoing and has pleaded not guilty.",
+                "category": "law",
+                "title": "Israeli judges recommend dropping one Netanyahu corruption case",
+                "event_date": "2026-11-25",
+                "candidate_id": "israel-netanyahu-case4000-judges-recommendation",
+                "geography": "Jerusalem, Israel",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Israeli%2Bjudges%2Brecommend%2Bprosecutors%2Bdrop%2Bone%2Bbribery%2Bcase%2Bagainst%2BNetanyahu/27402168.html"
+                  }
+                ]
+              },
+              {
+                "summary": "A vehicle carrying petroleum products overturned and caught fire on Greater Cairo’s Ring Road on November 25, killing 31 people and injuring 21, Egyptian authorities said. Prosecutors said preliminary assessments found 27 vehicles charred near a tunnel in Giza’s Al-Warraq district. Authorities ordered DNA sampling to identify victims, and casualty and damage assessments continued.",
+                "category": "disaster",
+                "title": "Fuel tanker fire on Cairo ring road kills 31",
+                "event_date": "2026-11-25",
+                "candidate_id": "egypt-giza-ring-road-fuel-tanker-fire",
+                "geography": "Al-Warraq, Giza, Egypt",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Thirty-one%2Bkilled%2Bin%2Bfire%2Bafter%2Bvehicle%2Boverturns%2Bin%2BEgypt/27401321.html"
+                  }
+                ]
+              },
+              {
+                "summary": "The CDC’s November 25 measles update reported 6,039 confirmed US cases through November 24, including 18 among international visitors. The federal death tally rose to nine after additional state reports were verified, an HHS spokesperson told Reuters. Reuters counted at least 14 measles-associated deaths in publicly reported state figures, noting that federal and state totals use different reporting processes. The CDC said its death count could change as reviews continued.",
+                "category": "public-health",
+                "title": "CDC reports 6,039 measles cases and nine verified deaths in 2026",
+                "event_date": "2026-11-25",
+                "candidate_id": "us-cdc-measles-november25-update",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "US Centers for Disease Control and Prevention",
+                    "url": "https://www.cdc.gov/measles/data-research/?stream=top"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/US%2BCDC%2Breports%2Bnine%2Bmeasles-related%2Bdeaths%2Bin%2B2026/27403790.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Brazil’s central bank and National Monetary Council announced measures on November 25 to limit risks from household indebtedness. They include restrictions on additional unsecured lending to certain borrowers with overdue debt and gradual credit-card limit reductions for customers repeatedly using revolving credit after incomplete payments. Financial institutions must also strengthen monitoring of excessive indebtedness. Most provisions are scheduled to take effect July 1, 2027, rather than immediately.",
+                "category": "economic-policy",
+                "title": "Brazil announces lending safeguards to address household indebtedness",
+                "event_date": "2026-11-25",
+                "candidate_id": "brazil-household-debt-credit-safeguards",
+                "geography": "Brazil",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Brazil%2Bannounces%2Bnew%2Bcredit%2Brules%2Bto%2Bcurb%2Bhousehold%2Bindebtedness/27403950.html"
+                  }
+                ]
+              },
+              {
+                "summary": "The Federal Reserve’s November 25 Beige Book reported slight-to-moderate economic growth in eight districts and no change in four. Employment rose slightly overall, while prices increased moderately and businesses reported persistent energy, transportation, healthcare, insurance and tariff-related costs. Consumer spending was little changed. The report summarized outside contacts’ observations collected on or before November 16; it was not a statement of Federal Reserve officials’ views.",
+                "category": "economy",
+                "title": "Fed Beige Book reports continued growth and persistent cost pressures",
+                "event_date": "2026-11-25",
+                "candidate_id": "us-fed-november-beige-book-release",
+                "geography": "United States",
+                "sources": [
+                  {
+                    "name": "Federal Reserve Board",
+                    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-summary.htm"
+                  },
+                  {
+                    "name": "Federal Reserve Board release calendar",
+                    "url": "https://www.federalreserve.gov/newsevents/2026-november.htm"
+                  }
+                ]
+              },
+              {
+                "summary": "The US Army detonated roughly five tons of unstable lead azide at the Iowa Army Ammunition Plant in Middletown on November 25. At a news conference two hours later, Maj. Gen. Eric Shirley said all the material had been destroyed, with no secondary explosions or infrastructure damage. The EPA said its real-time monitors had detected no airborne lead more than an hour after the blast. These were initial monitoring findings, not a final environmental assessment.",
+                "category": "public-safety",
+                "title": "Army reports Iowa lead azide destruction successful; initial monitors detect no airborne lead",
+                "event_date": "2026-11-25",
+                "candidate_id": "iowa-army-lead-azide-controlled-detonation",
+                "geography": "Middletown, Iowa, United States",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/77fa69b9e88b46c5d1adc29841d2b4cc"
+                  },
+                  {
+                    "name": "NPR via KNPR",
+                    "url": "https://www.knpr.org/npr/2026-11-25/army-detonates-nearly-five-tons-of-lead-based-explosives-in-iowa"
+                  },
+                  {
+                    "name": "ABC News",
+                    "url": "https://abcnews.com/video/138438104/"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-25"
+          },
+          "metadata": {
+            "responseId": "resp_05bee79d444fa709006b076a4c377487d2a6670b4a3092167b",
+            "requestId": "req_f42193043c044122887becf000bca4a3",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 771,
+            "inputTokens": 56611,
+            "outputTokens": 2823,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-25",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 79999,
+            "attemptDurationMs": 79999,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-11-25T23:07:51.506Z",
+        "capturedAt": "2026-11-25T23:09:11.580Z"
       }
     ],
     "sift": null
