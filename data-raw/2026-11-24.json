@@ -247,6 +247,21 @@
         },
         "observedAt": "2026-11-24T23:07:50.403Z",
         "capturedAt": "2026-11-24T23:08:44.143Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [],
+        "request": {
+          "fingerprint": "b4f033012011c14874238b53ad0240dd91ba17ff13f2d2eab31e64c3f89b2564",
+          "claimId": "5e9569ab-053b-48b1-abf9-7e0fc9cfc433",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-11-25T08:07:44.747Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-11-25T08:07:44.665Z"
       }
     ],
     "sift": null
