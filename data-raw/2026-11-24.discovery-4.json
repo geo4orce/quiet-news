@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-24",
+  "batch": 4,
+  "captured_at": "2026-11-25T08:08:42.926Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "China launched Shenzhou-24 from Jiuquan at 7:18 p.m. EST on November 24 (8:18 a.m. November 25 in Beijing), carrying Chinese astronauts Tang Hongbo and Wu Yi and Pakistani astronaut Muhammad Zeeshan Ali. Ali became the first Pakistani to reach orbit. Xinhua, citing China's crewed-space office, reported that the spacecraft entered its planned orbit and docked with Tiangong's Tianhe module at 10:56 p.m. EST. The docking report said station entry would follow; it did not confirm hatch opening or crew entry.",
+        "category": "space",
+        "title": "Shenzhou-24 launches with Pakistani astronaut and docks with Tiangong",
+        "event_date": "2026-11-24",
+        "candidate_id": "shenzhou-24-launch-docking-2026-11-24",
+        "geography": "China; Pakistan; low Earth orbit",
+        "sources": [
+          {
+            "name": "Xinhua — launch report",
+            "url": "https://www.news.cn/20261125/4490bcf4b2474c998305a12a98db0291/c.html"
+          },
+          {
+            "name": "Xinhua — docking report",
+            "url": "https://www.news.cn/20261125/1b798e77784340ebb180e06eb8c3de09/c.html"
+          },
+          {
+            "name": "Reuters via GMA News",
+            "url": "https://www.gmanetwork.com/news/scitech/science/1010699/china-s-shenzhou-24-space-flight-takes-off-with-pakistani-national-as-first-foreign-astronaut/story/"
+          }
+        ]
+      },
+      {
+        "summary": "Armed men seized an Éxito supermarket in Cartagena on November 24 after an attempted armored-vehicle robbery, according to Colombian authorities. AFP reported that President Abelardo de la Espriella arrived at the scene Tuesday night while the standoff continued. Police told AFP that 10 hostages had been released by nightfall, leaving about 20 inside. Authorities described the gunmen as criminals rather than members of guerrilla or paramilitary groups. The reviewed reporting did not establish a resolution before the coverage cutoff.",
+        "category": "public-safety",
+        "title": "Cartagena supermarket hostage standoff continues into Tuesday night",
+        "event_date": "2026-11-24",
+        "candidate_id": "cartagena-supermarket-hostage-standoff-2026-11-24",
+        "geography": "Cartagena, Colombia",
+        "sources": [
+          {
+            "name": "AFP via Eyewitness News",
+            "url": "https://ewn-webapp-prod.reza-seddighi.workers.dev/2026/11/25/colombian-president-arrives-to-scene-of-supermarket-hostage-siege"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-24"
+  },
+  "metadata": {
+    "responseId": "resp_0e12fd361f002032006b0697548cc487d2b4d542e6c0e8af84",
+    "requestId": "req_8d407b446a9b4dc089371e7380882319",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 1094,
+    "inputTokens": 53471,
+    "outputTokens": 1664,
+    "webSearchCalls": 6,
+    "stage": "discovery",
+    "targetDate": "2026-11-24",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 58178,
+    "attemptDurationMs": 58178,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
