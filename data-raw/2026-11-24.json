@@ -330,6 +330,25 @@
         "capturedAt": "2026-11-25T08:08:42.926Z"
       }
     ],
-    "sift": null
+    "sift": {
+      "inputFingerprint": "87e1d0aa28b08c179e76e9798edce36500250517e9c0a73cbe7177ce238dc09d",
+      "priorStories": [],
+      "coverage": {
+        "status": "complete",
+        "successfulBatches": 4,
+        "expectedBatches": 4,
+        "coveredThroughHour": 24,
+        "missingIntervals": []
+      },
+      "request": {
+        "fingerprint": "4e0b60ccf2c29fd9e2aa5250d8fe0e2dafe51923f0989da15f638d9c352b9385",
+        "claimId": "079274fd-f681-492c-8e84-71261f2e41e1",
+        "status": "submitting",
+        "attempts": 1,
+        "startedAt": "2026-11-25T09:07:50.550Z",
+        "responseId": null
+      },
+      "result": null
+    }
   }
 }
