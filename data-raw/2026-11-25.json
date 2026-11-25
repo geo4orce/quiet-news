@@ -27,13 +27,89 @@
         "request": {
           "fingerprint": "a4bfcb7f28ee54600fefc6a33537436b758ff3018a57ed4e8594dbe0544de2d5",
           "claimId": "524e5556-8cd9-4d1d-9fb8-ff33dbfc3d95",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-25T11:07:47.374Z",
           "responseId": "resp_00931161b17dc83c006b06c187e10c87d2857fd9788b0df3b2"
         },
-        "result": null,
-        "observedAt": "2026-11-25T11:07:47.347Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Colombian security forces stormed a supermarket in Cartagena early November 25, ending a hostage siege that began the preceding day. President Abelardo de la Espriella said all remaining hostages were rescued and one captor was killed.",
+                "category": "public-safety",
+                "title": "Colombian forces end Cartagena supermarket hostage siege",
+                "event_date": "2026-11-25",
+                "candidate_id": "colombia-cartagena-hostages-rescued",
+                "geography": "Cartagena, Colombia",
+                "sources": [
+                  {
+                    "name": "AFP via NAMPA",
+                    "url": "https://www.nampa.org/text/23074607"
+                  },
+                  {
+                    "name": "Xinhua via NAMPA",
+                    "url": "https://www.nampa.org/text/23074699"
+                  }
+                ]
+              },
+              {
+                "summary": "Rescuers recovered three bodies on November 25 from an unauthorized gold mine in Bogor, West Java, and searched for 23 other miners believed trapped, AP reported. The flooding occurred late November 23 when heavy rain caused a nearby river to overflow into the shaft. Indonesia's search-and-rescue agency said the bodies were recovered shortly after midday local time; high water, narrow access and limited lighting complicated operations.",
+                "category": "disaster",
+                "title": "Three bodies recovered from flooded Indonesian gold mine",
+                "event_date": "2026-11-25",
+                "candidate_id": "indonesia-bogor-mine-three-bodies-recovered",
+                "geography": "Bogor, West Java, Indonesia",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/indonesia-bogor-miners-trapped-f2dd241835ed9a3c2832a5b56fe00c89"
+                  }
+                ]
+              },
+              {
+                "summary": "The European Commission proposed a Quantum Act on November 25, alongside an equity-financing fund that Reuters reported at €50 billion. The package seeks to strengthen European quantum technology and favour EU-controlled suppliers in relevant procurement, with exceptions for reciprocal partners. The legislation remains a proposal requiring negotiations with EU member countries and the European Parliament before it can become law.",
+                "category": "technology-policy",
+                "title": "European Commission proposes Quantum Act and technology equity fund",
+                "event_date": "2026-11-25",
+                "candidate_id": "eu-quantum-act-equity-fund-proposal",
+                "geography": "European Union",
+                "sources": [
+                  {
+                    "name": "Reuters via Euronext",
+                    "url": "https://live.euronext.com/en/financial-news/europe-plans-eu50-billion-sovereign-tech-equity-fund-boost-quantum-technology"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-25"
+          },
+          "metadata": {
+            "responseId": "resp_00931161b17dc83c006b06c187e10c87d2857fd9788b0df3b2",
+            "requestId": "req_7e20b3b8f1744db0a8543086cfadc04c",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 629,
+            "inputTokens": 54999,
+            "outputTokens": 1162,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-11-25",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 49118,
+            "attemptDurationMs": 49118,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-11-25T11:07:47.347Z",
+        "capturedAt": "2026-11-25T11:08:36.492Z"
       }
     ],
     "sift": null
