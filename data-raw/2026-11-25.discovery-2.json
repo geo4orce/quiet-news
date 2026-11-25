@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-25",
+  "batch": 2,
+  "captured_at": "2026-11-25T17:08:44.738Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The Bureau of Economic Analysis released its second estimate of third-quarter GDP on November 25, revising annualized real growth to 4.3% from 3.4%. The revision primarily reflected higher estimates of investment and consumer spending. Real GDP grew at a 2.2% annualized rate in the second quarter.",
+        "category": "economy",
+        "title": "US third-quarter GDP growth revised to 4.3% annualized",
+        "event_date": "2026-11-25",
+        "candidate_id": "us-third-quarter-gdp-second-estimate",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "US Bureau of Economic Analysis",
+            "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
+          }
+        ]
+      },
+      {
+        "summary": "The Bureau of Economic Analysis reported on November 25 that October's personal consumption expenditures price index rose 3.8% from a year earlier and 0.3% from September. Excluding food and energy, prices increased 3.3% annually and 0.3% monthly. Personal income rose 0.7%, nominal consumer spending increased 0.3%, and inflation-adjusted spending was essentially unchanged. The personal saving rate was 4.1%.",
+        "category": "economy",
+        "title": "October US PCE inflation reaches 3.8% year over year",
+        "event_date": "2026-11-25",
+        "candidate_id": "us-october-pce-income-release",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "US Bureau of Economic Analysis",
+            "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026"
+          }
+        ]
+      },
+      {
+        "summary": "The US Army detonated roughly five tons of unstable lead azide at the Iowa Army Ammunition Plant in Middletown on November 25. Officials said degradation made moving or opening the stored material unsafe. Missouri Governor Mike Kehoe said initial analysis supplied by federal partners and Iowa emergency officials indicated that mitigation measures appeared successful and the explosion was well-contained; monitoring continued.",
+        "category": "public-safety",
+        "title": "Army detonates unstable lead azide stockpile in Iowa",
+        "event_date": "2026-11-25",
+        "candidate_id": "iowa-army-lead-azide-controlled-detonation",
+        "geography": "Middletown, Iowa, United States",
+        "sources": [
+          {
+            "name": "NPR via KNPR",
+            "url": "https://www.knpr.org/npr/2026-11-25/army-detonates-nearly-five-tons-of-lead-based-explosives-in-iowa"
+          },
+          {
+            "name": "ABC News",
+            "url": "https://abcnews.com/video/138438104/"
+          }
+        ]
+      },
+      {
+        "summary": "Rescuers recovered nine bodies by November 25 evening local time from flooded unauthorized gold-mine shafts in Bogor, West Java, up from three reported earlier, AP reported. Seventeen other miners were believed trapped. Flooding began late November 23 after heavy rain caused the nearby Ciseureuh River to overflow. Search officials said high water, narrow access, slippery terrain and limited lighting complicated the operation.",
+        "category": "disaster",
+        "title": "Death toll at flooded Indonesian gold mine rises to nine",
+        "event_date": "2026-11-25",
+        "candidate_id": "indonesia-bogor-mine-three-bodies-recovered",
+        "geography": "Bogor, West Java, Indonesia",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/indonesia-bogor-miners-trapped-f2dd241835ed9a3c2832a5b56fe00c89"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-25"
+  },
+  "metadata": {
+    "responseId": "resp_021b5b72ae104e31006b0715e9f4b887d2a8126ceebeb4cc69",
+    "requestId": "req_716841191e534d6c8f507d61151343c0",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 786,
+    "inputTokens": 56595,
+    "outputTokens": 1558,
+    "webSearchCalls": 6,
+    "stage": "discovery",
+    "targetDate": "2026-11-25",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 55298,
+    "attemptDurationMs": 55298,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
