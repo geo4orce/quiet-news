@@ -125,13 +125,99 @@
         "request": {
           "fingerprint": "84628ee1bbc17a485faf29053fa638c2544fda0a8f9d2e3026739e3045db700d",
           "claimId": "8d842298-6cf3-4384-ada0-d1673a36d10d",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-26T17:07:46.146Z",
           "responseId": "resp_0d0583c9101f5588006b0867660c4c87d2826761268e65c754"
         },
-        "result": null,
-        "observedAt": "2026-11-26T17:07:46.081Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Bangchak said it shut all production units at its Phra Khanong refinery in Bangkok after a fire on November 26. The company said the fire began around 2:45 p.m. local time and was extinguished about 30 minutes later. Nine personnel were injured, two of whom subsequently returned home. A preliminary investigation placed the incident at the hydrocracking unit; the cause remained under investigation.",
+                "category": "Disasters and public safety",
+                "title": "Bangchak shuts Bangkok refinery after fire injures nine",
+                "event_date": "2026-11-26",
+                "candidate_id": "bangkok-bangchak-refinery-fire-2026-11-26",
+                "geography": "Bangkok, Thailand",
+                "sources": [
+                  {
+                    "name": "Reuters via CNA",
+                    "url": "https://www.channelnewsasia.com/business/thailands-bangchak-shuts-all-units-bangkok-refinery-after-fire-says-9-workers-injured-6584891"
+                  }
+                ]
+              },
+              {
+                "summary": "Egyptian authorities announced on November 26 that they had detained a car driver suspected of causing the previous evening's fuel-tanker crash and fire on the Ring Road in Greater Cairo. Prosecutors said the driver told investigators his car struck the tanker while he was speeding between lanes; responsibility remained under investigation. Authorities reported at least 31 deaths and 26 injuries from the November 25 fire, which burned 27 vehicles.",
+                "category": "Justice and public safety",
+                "title": "Egypt announces detention in investigation of deadly Cairo tanker fire",
+                "event_date": "2026-11-26",
+                "candidate_id": "cairo-tanker-fire-driver-detention-2026-11-26",
+                "geography": "Giza, Greater Cairo, Egypt",
+                "sources": [
+                  {
+                    "name": "Associated Press via ABC News",
+                    "url": "https://abcnews.com/International/wireStory/egypt-detains-driver-suspected-causing-cairo-tanker-crash-138465415"
+                  }
+                ]
+              },
+              {
+                "summary": "British Columbia's emergency information service reported at 8 a.m. local time on November 26 that Courtenay had upgraded an evacuation alert to an evacuation order for the Maple Pool/Headquarters Road area. Officials said floodwaters threatened life and safety and directed affected residents to leave immediately. A reception centre was available at Lower Native Sons Hall in Courtenay.",
+                "category": "Disasters and public safety",
+                "title": "Flooding prompts evacuation order for part of Courtenay",
+                "event_date": "2026-11-26",
+                "candidate_id": "courtenay-maple-pool-flood-evacuation-2026-11-26",
+                "geography": "Courtenay, British Columbia, Canada",
+                "sources": [
+                  {
+                    "name": "EmergencyInfoBC",
+                    "url": "https://www.emergencyinfobc.gov.bc.ca/event/flood-order-courtenay-26nov26/"
+                  }
+                ]
+              },
+              {
+                "summary": "Government data reported on November 26 put confirmed Ebola infections in the Democratic Republic of Congo at 12,021 and deaths at 5,904. Reuters reported that the outbreak, declared in May in Ituri province, had spread to eight provinces. Conflict, delayed detection and strained health services continued to hamper containment. These are cumulative outbreak totals, not infections or deaths occurring on November 26 alone.",
+                "category": "Health",
+                "title": "Congo reports more than 12,000 confirmed Ebola cases",
+                "event_date": "2026-11-26",
+                "candidate_id": "congo-ebola-cumulative-cases-2026-11-26",
+                "geography": "Democratic Republic of Congo",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Congo%27s%2BEbola%2Bcases%2Bexceed%2B12%2C000%2Bas%2Bresponders%2Bstruggle%2Bto%2Bcontain%2Boutbreak/27404293.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-26"
+          },
+          "metadata": {
+            "responseId": "resp_0d0583c9101f5588006b0867660c4c87d2826761268e65c754",
+            "requestId": "req_7012593c359749649e7d325821b49dd7",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 773,
+            "inputTokens": 56242,
+            "outputTokens": 1646,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-26",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 63665,
+            "attemptDurationMs": 63665,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-11-26T17:07:46.081Z",
+        "capturedAt": "2026-11-26T17:08:49.812Z"
       }
     ],
     "sift": null
