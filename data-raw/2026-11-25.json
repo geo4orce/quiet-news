@@ -612,10 +612,10 @@
       "request": {
         "fingerprint": "40d6750b328bb187eb141c4342c676ae793d320db03ce57d785e804f0784b70d",
         "claimId": "c1fb47fe-b4c7-446f-ba45-3aa000cb9e3c",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-11-26T09:07:54.442Z",
-        "responseId": null
+        "responseId": "resp_055fe43a0eef3858006b07f6eece4487d283fe08e1819225b2"
       },
       "result": null
     }
