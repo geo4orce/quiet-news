@@ -422,6 +422,36 @@
         },
         "observedAt": "2026-11-25T23:07:51.506Z",
         "capturedAt": "2026-11-25T23:09:11.580Z"
+      },
+      {
+        "slot": 24,
+        "fromHour": 18,
+        "priorStories": [
+          {
+            "headline": "Huawei convicted of fraud and trade-secret conspiracy",
+            "body": "A federal jury in Brooklyn convicted Huawei on 10 criminal counts, including bank fraud and conspiracy to steal trade secrets. The Justice Department said Huawei and three subsidiaries were convicted of offenses involving Iran sanctions, fraud and money laundering.\n\nJurors acquitted Huawei of racketeering conspiracy. Sentencing remains pending, and a company attorney said Huawei would appeal the convictions.",
+            "sources": [
+              {
+                "name": "Associated Press via ABC News",
+                "url": "https://abcnews.com/Business/wireStory/us-jury-find-chinese-tech-giant-huawei-guilty-138421898"
+              },
+              {
+                "name": "US Department of Justice via Forth",
+                "url": "https://www.forth.news/lists/doj/ChNXuahdLDoG9JwN8bhWs"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "4b7594a715713e6121d7f328a3639f4d7ac2b725c1d15b0829b69d86a78506ec",
+          "claimId": "d2e1dec5-dd2c-4bd4-a2bd-e502e0e41f17",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-11-26T08:07:52.713Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-11-26T08:07:52.612Z"
       }
     ],
     "sift": null
