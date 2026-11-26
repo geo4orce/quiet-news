@@ -251,13 +251,199 @@
         "request": {
           "fingerprint": "409f07fe6916a7bdae7cea9d86bfc493a959b3020b9f717949ab40900d6987bd",
           "claimId": "08ce1675-fa87-450e-b75f-081a767603d7",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-26T23:07:56.786Z",
           "responseId": "resp_0286d46c79070238006b08bbd08a3c87d2be9b6010331414ec"
         },
-        "result": null,
-        "observedAt": "2026-11-26T23:07:56.677Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "After November 26 EU budget talks in Brussels, German Chancellor Friedrich Merz said leaders had moved toward reducing the proposed size of the next long-term budget but had not reached agreement. He said they would not reconvene on November 27 and would seek a deal at the December summit. Earlier, Dutch Prime Minister Rob Jetten had rejected the proposals on the table. Merz also said contributions to Ukraine aid remained under discussion that evening.",
+                "category": "Politics and government",
+                "title": "EU budget talks bring movement toward smaller proposal, Merz says",
+                "event_date": "2026-11-26",
+                "candidate_id": "eu-budget-talks-opening-positions-2026-11-26",
+                "geography": "European Union; Brussels, Belgium",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/EU%2Bleaders%2Baim%2Bfor%2Bbudget%2Bdeal%2Bbefore%2Bthe%2Bend%2Bof%2Bthe%2Byear%2C%2BMerz%2Bsays/27404834.html"
+                  },
+                  {
+                    "name": "Reuters via Yahoo News Malaysia",
+                    "url": "https://malaysia.news.yahoo.com/eus-costa-aims-bring-leaders-082848936.html"
+                  },
+                  {
+                    "name": "European Council",
+                    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/25/media-advisory-special-european-council-meeting-of-26-27-november-2026/"
+                  }
+                ]
+              },
+              {
+                "summary": "Guinea-Bissau's military authorities announced on November 26 that presidential and legislative elections previously scheduled for December would be postponed until November 2028. A decree by transitional president Horta Inta-a cited insufficient technical, material and financial conditions for credible elections. The postponement extends the transition promised after the November 2025 coup by roughly two years.",
+                "category": "Politics and government",
+                "title": "Guinea-Bissau military authorities postpone elections until 2028",
+                "event_date": "2026-11-26",
+                "candidate_id": "guinea-bissau-election-postponement-2026-11-26",
+                "geography": "Guinea-Bissau",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://www.streetinsider.com/Reuters/Guinea-Bissau%2Bdelays%2Belections%2C%2Bextending%2Bmilitary-led%2Btransition%2Ba%2Byear%2Bafter%2Bcoup/27404786.html"
+                  }
+                ]
+              },
+              {
+                "summary": "European Council President António Costa said on November 26 that euro-area member states had agreed to recommend Pablo Hernández de Cos as the next European Central Bank president, alongside Laurence Boone and Markus Brunnermeier for its executive board. Costa described the agreement as paving the way for formal appointments in December; the recommendation was not itself the final appointment.",
+                "category": "Economy and finance",
+                "title": "Euro-area states recommend Hernández de Cos for ECB presidency",
+                "event_date": "2026-11-26",
+                "candidate_id": "ecb-leadership-recommendations-2026-11-26",
+                "geography": "Euro area; Brussels, Belgium",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Euro%2Bcountries%2Bpick%2BSpain%27s%2BDe%2BCos%2Bas%2BECB%2Bchief%2C%2BCosta%2Bsays/27404791.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Binance announced on November 26 that recovery work following its October security incident was complete and that the associated withdrawal suspension had been lifted. The company said withdrawals on a small number of networks remained temporarily paused for maintenance or planned upgrades, separately from the incident recovery.",
+                "category": "Business and technology",
+                "title": "Binance says post-incident withdrawal suspension has ended",
+                "event_date": "2026-11-26",
+                "candidate_id": "binance-withdrawal-recovery-complete-2026-11-26",
+                "geography": "Global",
+                "sources": [
+                  {
+                    "name": "Binance",
+                    "url": "https://www.binance.com/en/support/announcement/detail/95c463396a034f1ab3994814225e6d69"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Binance%2Blifts%2Bwithdrawal%2Bsuspension%2Bafter%2B%246.3%2Bbillion%2Bcrypto%2Bheist/27404810.html"
+                  }
+                ]
+              },
+              {
+                "summary": "A Thanksgiving storm brought strong winds, coastal flooding and widespread electricity outages to the U.S. East Coast on November 26. Reuters reported that more than 836,000 utility customers nationwide lacked power at 4:06 p.m. Eastern, including more than 174,000 in Virginia, 172,000 in Maryland and almost 170,000 in Pennsylvania, citing PowerOutage.us. FlightAware recorded 417 U.S.-related flight cancellations and about 1,800 delays by Thursday afternoon. New York City Emergency Management reported a 56 mph gust at LaGuardia Airport.",
+                "category": "Disasters and public safety",
+                "title": "Thanksgiving storm causes East Coast outages, flooding and flight disruption",
+                "event_date": "2026-11-26",
+                "candidate_id": "us-thanksgiving-storm-outages-2026-11-26",
+                "geography": "United States, particularly the East Coast",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Thanksgiving%2Bstorm%2Bknocks%2Bout%2Bpower%2C%2Bdisrupts%2Bflights%2Bon%2BUS%2BEast%2BCoast/27404816.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Workers evacuated Venezuela's Amuay refinery during a fire on November 26, according to five PDVSA workers interviewed by Reuters. PDVSA confirmed that the fire was extinguished without injuries and said domestic fuel distribution was unaffected. One worker reported a temporary shutdown of the refinery's operating distillation unit; PDVSA did not confirm the unit's status or the cause of the fire.",
+                "category": "Disasters and public safety",
+                "title": "Fire prompts evacuation at Venezuela's Amuay refinery",
+                "event_date": "2026-11-26",
+                "candidate_id": "venezuela-amuay-refinery-fire-2026-11-26",
+                "geography": "Falcón state, Venezuela",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Fire%2Bprompts%2Bworker%2Bevacuation%2Bat%2BVenezuela%27s%2BAmuay%2Brefinery%2C%2Bsources%2Bsay/27404809.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Kenya's High Court ruled on November 26 that the process for establishing a U.S.-backed Ebola quarantine facility at Laikipia Air Base violated constitutional requirements concerning public participation and access to information. KELIN, an interested party in the case, said the court suspended further work and ordered the government to disclose the U.S. agreement and related approvals within 45 days. The organization said it was awaiting the full written judgment.",
+                "category": "Justice and health",
+                "title": "Kenyan court suspends work on U.S.-backed Ebola facility",
+                "event_date": "2026-11-26",
+                "candidate_id": "kenya-ebola-facility-court-ruling-2026-11-26",
+                "geography": "Kenya; Laikipia Air Base",
+                "sources": [
+                  {
+                    "name": "KELIN Kenya",
+                    "url": "https://www.kelinkenya.org/high-court-halts-u-s-backed-ebola-facility-finds-government-failed-to-meet-constitutional-requirements/"
+                  },
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Kenya%2Bbreached%2Bconstitution%2Bin%2Bbuilding%2BUS-backed%2BEbola%2Bquarantine%2Bsite%2C%2Bcourt%2Bsays/27404297.html"
+                  }
+                ]
+              },
+              {
+                "summary": "A court in Mombasa convicted Kenyan cult leader Paul Mackenzie on November 26 of organized criminal activity, radicalization, facilitating a terrorist act and possession of an article connected with a terrorism offense. Mackenzie had pleaded not guilty, and a lawyer said he would appeal after sentencing. These convictions were separate from the cruelty-to-children and assault convictions delivered on November 25.",
+                "category": "Justice",
+                "title": "Kenyan court convicts Paul Mackenzie on terrorism-related charges",
+                "event_date": "2026-11-26",
+                "candidate_id": "kenya-mackenzie-terrorism-conviction-2026-11-26",
+                "geography": "Mombasa, Kenya",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Kenyan%2Bcult%2Bleader%2Bserving%2B200%2Byears%2Bfor%2Bmurder%2Bconvicted%2Bof%2Bterrorism-related%2Bcharges/27404780.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Swedish Centre Party leader Elisabeth Thand Ringqvist said on November 26 that the party's board and parliamentary group recommended backing caretaker Prime Minister Ulf Kristersson and joining a proposed four-party government. The recommendation still required the party governing council's support, and parliament had not yet voted on the premiership. The endorsement departed from the party's election campaign support for a centre-left government.",
+                "category": "Politics and government",
+                "title": "Swedish Centre leader recommends backing Kristersson government",
+                "event_date": "2026-11-26",
+                "candidate_id": "sweden-centre-kristersson-recommendation-2026-11-26",
+                "geography": "Sweden",
+                "sources": [
+                  {
+                    "name": "Reuters via StreetInsider",
+                    "url": "https://new.streetinsider.com/Reuters/Sweden%27s%2BCentre%2Bleader%2Bbacks%2Bright-wing%2Bprime%2Bminister%2C%2Bin%2Bmajor%2Bshift/27404778.html"
+                  }
+                ]
+              },
+              {
+                "summary": "Kuwait's defense ministry said on November 26 that debris from intercepted drones killed two Italians and injured a Kuwaiti and a Pakistani. Kuwait attributed the drones to Iran. Italy's Foreign Ministry identified the Italians as civilian air-defense technicians working for a contractor on radar maintenance. Iranian Foreign Minister Abbas Araghchi denied Iranian responsibility in a call with his Italian counterpart. The attack location was not disclosed.",
+                "category": "Conflict and security",
+                "title": "Kuwait reports two Italians killed by drone debris; Iran denies responsibility",
+                "event_date": "2026-11-26",
+                "candidate_id": "kuwait-drone-debris-italian-deaths-2026-11-26",
+                "geography": "Kuwait",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/gaza-iran-israel-uae-hormuz-november-26-2026-522676f17532b878878ff7a4347d0e31"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-26"
+          },
+          "metadata": {
+            "responseId": "resp_0286d46c79070238006b08bbd08a3c87d2be9b6010331414ec",
+            "requestId": "req_1fec41c48c024460b38f64b3253e0b9c",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 1046,
+            "inputTokens": 56893,
+            "outputTokens": 3819,
+            "webSearchCalls": 6,
+            "stage": "discovery",
+            "targetDate": "2026-11-26",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 84664,
+            "attemptDurationMs": 84664,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-11-26T23:07:56.677Z",
+        "capturedAt": "2026-11-26T23:09:21.450Z"
       }
     ],
     "sift": null
