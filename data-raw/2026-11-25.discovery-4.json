@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-25",
+  "batch": 4,
+  "captured_at": "2026-11-26T08:09:48.498Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The Bank of Korea raised its base rate from 3.00% to 3.25% at its November 26 morning meeting in Seoul, during the evening of November 25 in New York. The vote was 5–2. The bank cited stronger growth, inflation expected to remain above target and financial-stability risks. It raised its growth forecasts to 3.9% for 2026 and 4.1% for 2027.",
+        "category": "economic-policy",
+        "title": "Bank of Korea raises benchmark interest rate to 3.25%",
+        "event_date": "2026-11-25",
+        "candidate_id": "south-korea-november-base-rate-increase",
+        "geography": "South Korea",
+        "sources": [
+          {
+            "name": "Bank of Korea",
+            "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?menuNo=400069&nttId=11067086"
+          },
+          {
+            "name": "Yonhap News Agency",
+            "url": "https://en.yna.co.kr/view/AEN20261126001200320"
+          }
+        ]
+      },
+      {
+        "summary": "The US Trade Representative announced November 25 findings under Section 301 that manufacturing policies in 14 economies burden or restrict US commerce and proposed tariffs in response. Targets include China, the European Union, Japan, India and South Korea. The measures remain proposals, not newly effective duties. Written comments are due January 5, 2027, with hearings scheduled to begin January 25.",
+        "category": "trade-policy",
+        "title": "US proposes tariffs following manufacturing-overcapacity investigations",
+        "event_date": "2026-11-25",
+        "candidate_id": "us-ustr-fourteen-economies-tariff-proposals",
+        "geography": "United States; international",
+        "sources": [
+          {
+            "name": "Office of the United States Trade Representative",
+            "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+          }
+        ]
+      },
+      {
+        "summary": "US District Judge Loren AliKhan issued a preliminary injunction November 25 blocking the FCC from continuing early license-renewal proceedings against eight ABC-owned television stations while litigation proceeds. The court found ABC likely to succeed on its claim that the proceedings retaliated against protected speech and denied the government's motion to dismiss. The FCC disputed the decision and said it expected to prevail.",
+        "category": "law",
+        "title": "Federal judge blocks FCC's early review of ABC station licenses",
+        "event_date": "2026-11-25",
+        "candidate_id": "us-abc-fcc-early-license-review-injunction",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "US District Court for the District of Columbia via The Desk",
+            "url": "https://thedesk.net/wp-content/uploads/2026/11/2026-11-Disney-v-Fcc-Injunction-Order.pdf"
+          },
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/fcc-abc-ruling-editorial-content-f04f6b2b1a17fc10f2da11e4fd83a9df"
+          }
+        ]
+      },
+      {
+        "summary": "An Eldridge-led consortium announced November 25 an agreement to acquire Lukoil International's non-Russian energy assets. Participants include the US International Development Finance Corporation, Catena Investment Holding and Xtellus Partners. The proposed transaction uses restricted Russian shares rather than a direct cash payment to Russia. Completion remains subject to US Treasury sanctions approval, due diligence and other closing conditions; the assets have not yet transferred.",
+        "category": "business",
+        "title": "US-led consortium agrees to acquire Lukoil's international assets",
+        "event_date": "2026-11-25",
+        "candidate_id": "lukoil-international-eldridge-consortium-agreement",
+        "geography": "United States; Russia; international",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/russia-ukraine-war-us-sanctions-oil-lukoil-8d5df1befb2ebb2a0ce4f6b259fcdf14"
+          },
+          {
+            "name": "The National",
+            "url": "https://www.thenationalnews.com/business/energy/2026/11/25/todd-boehly-lukoil/"
+          },
+          {
+            "name": "Bernama",
+            "url": "https://www.bernama.com/en/region/news.php?id=2639651"
+          }
+        ]
+      },
+      {
+        "summary": "Major League Baseball and its 30 clubs sued the players' association and eight union executive-subcommittee members in federal court in Manhattan on November 25. They sought a declaration that a contemplated lockout would be lawful and protection against possible antitrust challenges if the union decertifies. The union called the lawsuit frivolous. The labor agreement expires December 1; no lockout had begun.",
+        "category": "labor",
+        "title": "MLB sues players' union over legality of contemplated lockout",
+        "event_date": "2026-11-25",
+        "candidate_id": "mlb-players-union-lockout-declaratory-lawsuit",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Associated Press via ABC News",
+            "url": "https://abcnews.com/Sports/wireStory/major-league-baseball-sues-players-union-court-declare-138448031"
+          }
+        ]
+      },
+      {
+        "summary": "Kilmar Ábrego García arrived in Madrid on November 25 after voluntarily departing the United States on November 24 under a court-approved arrangement. Judge Paula Xinis dismissed his Maryland immigration proceedings November 25 after receiving confirmation of his departure. His lawyer described the move as temporary and expressed hope of a future return to Maryland; DHS said he would not be allowed back. His immigration status in Spain was not immediately clear.",
+        "category": "immigration",
+        "title": "Ábrego García arrives in Spain as judge dismisses immigration proceedings",
+        "event_date": "2026-11-25",
+        "candidate_id": "abrego-garcia-spain-arrival-case-dismissal",
+        "geography": "Spain; United States",
+        "sources": [
+          {
+            "name": "Associated Press",
+            "url": "https://apnews.com/article/spain-deportation-abrego-garcia-arrives-madrid-f6453face7e5c20c8750413956118e04"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-25"
+  },
+  "metadata": {
+    "responseId": "resp_01f65eb0e5fc8e1c006b07e8dcc16087d2ae528b6d1f48bd74",
+    "requestId": "req_05ddce2a0f9c4af98b6caef80e512be1",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 2018,
+    "inputTokens": 92299,
+    "outputTokens": 3514,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-11-25",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 115784,
+    "attemptDurationMs": 115784,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
