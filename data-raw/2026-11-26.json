@@ -37,13 +37,61 @@
         "request": {
           "fingerprint": "ddbb359ed15886eb1f678a68a9bcaa2b21b2767959b94006b1d3817586a77626",
           "claimId": "f45f122b-97ff-4c4d-b233-259aa10926ef",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-26T11:07:57.292Z",
           "responseId": "resp_07c9099285969f2e006b081311eb9487d2916528d142e113e8"
         },
-        "result": null,
-        "observedAt": "2026-11-26T11:07:57.229Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "Ahead of the EU summit in Brussels on November 26, European Council President António Costa said he sought to bring member states closer to agreement on the bloc’s next long-term budget. Dutch Prime Minister Rob Jetten said the Netherlands was not ready to accept the proposals on the table and called for a smaller, modernised budget. These were opening negotiating positions, not an agreed budget.",
+                "category": "Politics and government",
+                "title": "EU budget talks open with Dutch objections to proposals",
+                "event_date": "2026-11-26",
+                "candidate_id": "eu-budget-talks-opening-positions-2026-11-26",
+                "geography": "European Union; Brussels, Belgium",
+                "sources": [
+                  {
+                    "name": "Reuters via Yahoo News Malaysia",
+                    "url": "https://malaysia.news.yahoo.com/eus-costa-aims-bring-leaders-082848936.html"
+                  },
+                  {
+                    "name": "European Council",
+                    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/25/media-advisory-special-european-council-meeting-of-26-27-november-2026/"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-26"
+          },
+          "metadata": {
+            "responseId": "resp_07c9099285969f2e006b081311eb9487d2916528d142e113e8",
+            "requestId": "req_34c777c595e24a4e8fffc54c1249e478",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 535,
+            "inputTokens": 38563,
+            "outputTokens": 793,
+            "webSearchCalls": 4,
+            "stage": "discovery",
+            "targetDate": "2026-11-26",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 34912,
+            "attemptDurationMs": 34912,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-11-26T11:07:57.229Z",
+        "capturedAt": "2026-11-26T11:08:32.205Z"
       }
     ],
     "sift": null
