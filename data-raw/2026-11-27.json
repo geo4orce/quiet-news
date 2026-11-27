@@ -285,13 +285,89 @@
         "request": {
           "fingerprint": "a53d266b3901eed223e233992d38e88f92e03b67bb31ba9423d6c7974ec7130b",
           "claimId": "0ebe5cee-a1e2-4d48-acf8-2c4e5f8524ad",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-27T23:07:48.619Z",
           "responseId": "resp_021fb72b5f4f763e006b0a0d488ce087d2af6e5020d5adcd7b"
         },
-        "result": null,
-        "observedAt": "2026-11-27T23:07:48.561Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "The Supreme Court of Canada upheld Quebec's Act respecting the laicity of the State, commonly called Bill 21, except for a provision infringing Charter democratic rights insofar as it applies to members of Quebec's National Assembly. The court confirmed that Quebec had validly invoked constitutional override clauses. It also held that invoking the override power does not prevent courts from declaring legislation inconsistent with overridden Charter provisions, but made no such declaration in this case.",
+                "category": "law",
+                "title": "Canada's Supreme Court upholds most of Quebec's secularism law",
+                "event_date": "2026-11-27",
+                "candidate_id": "canada-supreme-court-bill-21-ruling-2026-11-27",
+                "geography": "Canada; Quebec",
+                "sources": [
+                  {
+                    "name": "Supreme Court of Canada judgment announcement",
+                    "url": "https://www.scc-csc.ca/media-medias/new-nouveautes/2026-11-27/"
+                  },
+                  {
+                    "name": "Supreme Court of Canada case summary",
+                    "url": "https://www.scc-csc.ca/pdf/cb/2026/41231-eng.pdf"
+                  }
+                ]
+              },
+              {
+                "summary": "WSSC Water lifted its voluntary essential-water-use-only request at 8:30 a.m. for 1.9 million customers in Montgomery and Prince George's counties. The utility said both filtration plants were producing safe drinking water and its treatment and distribution system was operating normally after power disruptions from the previous day's storm diminished.",
+                "category": "infrastructure",
+                "title": "Maryland utility lifts storm-related water conservation request for 1.9 million customers",
+                "event_date": "2026-11-27",
+                "candidate_id": "wssc-water-conservation-request-lifted-2026-11-27",
+                "geography": "United States; Maryland",
+                "sources": [
+                  {
+                    "name": "WSSC Water",
+                    "url": "https://www.wsscwater.com/news/2026/november/final-update-830-am-friday-november-27-2026-essential-water-use-only-request"
+                  }
+                ]
+              },
+              {
+                "summary": "Britain's government confirmed that some Department for Work and Pensions online services had been taken offline as a precaution following a cyber incident. It said regular benefit and pension payments were unaffected and investigators were working with the National Cyber Security Centre and Government Cyber Coordination Centre. Sky News reported that the problem was first identified Thursday evening; the nature of the incident had not been established publicly.",
+                "category": "cybersecurity",
+                "title": "UK government confirms DWP online services taken offline after cyber incident",
+                "event_date": "2026-11-27",
+                "candidate_id": "uk-dwp-cyber-incident-service-announcement-2026-11-27",
+                "geography": "United Kingdom",
+                "sources": [
+                  {
+                    "name": "Sky News, including DWP spokesperson statement",
+                    "url": "https://news.sky.com/story/politics-latest-budget-taxes-reeves-starmer-labour-badenoch-farage-12593360?postid=10668261"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-27"
+          },
+          "metadata": {
+            "responseId": "resp_021fb72b5f4f763e006b0a0d488ce087d2af6e5020d5adcd7b",
+            "requestId": "req_76fab27d029242c49f8407910e085112",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 785,
+            "inputTokens": 57496,
+            "outputTokens": 1377,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-27",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 53303,
+            "attemptDurationMs": 53303,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 18
+          }
+        },
+        "observedAt": "2026-11-27T23:07:48.561Z",
+        "capturedAt": "2026-11-27T23:08:41.922Z"
       }
     ],
     "sift": null
