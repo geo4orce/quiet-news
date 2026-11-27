@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-26",
+  "batch": 4,
+  "captured_at": "2026-11-27T08:09:21.833Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "A Thanksgiving storm brought strong winds, coastal flooding and widespread electricity outages to the U.S. East Coast on November 26. Reuters, citing PowerOutage.us, reported more than 908,000 utility customers nationwide without electricity at 9:56 p.m. Eastern, down from 961,000 at 7:30 p.m. Pennsylvania, New Jersey, Maryland and Virginia were among the hardest-hit states. FlightAware recorded 454 U.S.-related flight cancellations and 2,411 delays on Thursday.",
+        "category": "Disasters and public safety",
+        "title": "Thanksgiving storm leaves more than 900,000 utility customers without power Thursday evening",
+        "event_date": "2026-11-26",
+        "candidate_id": "us-thanksgiving-storm-outages-2026-11-26",
+        "geography": "United States, particularly the East Coast",
+        "sources": [
+          {
+            "name": "Reuters via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/thanksgiving-storm-knocks-out-power-disrupts-flights-on-us-east-coast-ce7851d9d88bf02d"
+          },
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/Thanksgiving%2Bstorm%2Bknocks%2Bout%2Bpower%2C%2Bdisrupts%2Bflights%2Bon%2BUS%2BEast%2BCoast/27404816.html"
+          }
+        ]
+      },
+      {
+        "summary": "New Zealand's Electoral Commission released the official November 7 election results at 2 p.m. November 27 local time, corresponding to 8 p.m. November 26 in New York. National won 40 seats, ACT 13 and New Zealand First 12, leaving the governing coalition with 65 of Parliament's 130 seats, one short of a majority. National lost two seats compared with preliminary results. Opportunity won seven seats. The official results remain subject to applications for judicial recounts.",
+        "category": "Politics and government",
+        "title": "New Zealand official election count leaves governing coalition one seat short of majority",
+        "event_date": "2026-11-26",
+        "candidate_id": "new-zealand-official-election-count-2026-11-26",
+        "geography": "New Zealand",
+        "sources": [
+          {
+            "name": "New Zealand Electoral Commission",
+            "url": "https://elections.nz/media-and-news/2026/2026-general-election-official-results"
+          },
+          {
+            "name": "Te Ao Māori News",
+            "url": "https://www.teaonews.co.nz/2026/11/27/live-final-election-result-lands-as-special-votes-counted/"
+          }
+        ]
+      },
+      {
+        "summary": "Australia announced counterterrorism financing sanctions against Zohair Hassib and Kazem Hamad on November 27 local time, during the November 26 evening in New York. Foreign Minister Penny Wong said authorities assessed that the two had used proxies to orchestrate 2024 arson attacks against a Sydney kosher restaurant and Melbourne's Adass Israel Synagogue on behalf of Iran's Islamic Revolutionary Guard Corps. Iran has denied responsibility for the attacks. The sanctions restrict the individuals' access to funds.",
+        "category": "Conflict and security",
+        "title": "Australia sanctions two alleged organizers of Iranian-directed antisemitic arson attacks",
+        "event_date": "2026-11-26",
+        "candidate_id": "australia-iran-arson-sanctions-2026-11-26",
+        "geography": "Australia; Iran",
+        "sources": [
+          {
+            "name": "Australian Minister for Foreign Affairs",
+            "url": "https://www.foreignminister.gov.au/minister/penny-wong/media-release/further-action-against-irans-irgc-attacks-australia"
+          },
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/Australia%2Bsanctions%2Balleged%2BIranian%2Bagents%2Bsuspected%2Bof%2Bdirecting%2Bantisemitic%2Battacks/27404909.html"
+          }
+        ]
+      },
+      {
+        "summary": "South Korea returned six rescued North Korean fishing crew members by sea after confirming their wishes, Seoul's Unification Ministry said. Their boat crossed the maritime border at 8:33 a.m. November 27 Korean time, corresponding to 6:33 p.m. November 26 in New York. A seventh crew member chose to remain in South Korea and receive protection. The vessel had been found drifting near Ulleung Island on November 3. Authorities said they coordinated notification of the return through the United Nations Command.",
+        "category": "International relations",
+        "title": "South Korea returns six rescued North Koreans while seventh chooses to stay",
+        "event_date": "2026-11-26",
+        "candidate_id": "korea-rescued-fishermen-repatriation-2026-11-26",
+        "geography": "South Korea; North Korea",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/South%2BKorea%2Brepatriates%2Bsix%2BNorth%2BKoreans%2Brescued%2Bfrom%2Bdrifting%2Bboat/27404936.html"
+          },
+          {
+            "name": "The Korea Herald",
+            "url": "https://www.koreaherald.com/article/10951950"
+          }
+        ]
+      },
+      {
+        "summary": "The International Atomic Energy Agency said on November 26 that it was working with Russia and Ukraine to arrange a local ceasefire for repairs to the Zaporizhzhia nuclear plant's external electricity connection. The plant was relying on emergency diesel generators after losing its remaining external power line on November 25, reportedly because of military activity. The agency described this as the plant's 28th loss of offsite power during the conflict. A ceasefire had not been announced as agreed.",
+        "category": "Conflict and nuclear safety",
+        "title": "IAEA seeks local ceasefire to repair Zaporizhzhia nuclear plant power connection",
+        "event_date": "2026-11-26",
+        "candidate_id": "iaea-zaporizhzhia-repair-ceasefire-effort-2026-11-26",
+        "geography": "Zaporizhzhia region, Ukraine",
+        "sources": [
+          {
+            "name": "International Atomic Energy Agency",
+            "url": "https://www.iaea.org/newscenter/pressreleases/update-377-iaea-director-general-statement-on-situation-in-ukraine"
+          },
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/IAEA%2Bworking%2Bwith%2BRussia%2C%2BUkraine%2Bon%2Bceasefire%2Bto%2Brepair%2Bpower%2Blink%2Bat%2BZaporizhzhia%2Bnuclear%2Bplant/27404884.html"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-26"
+  },
+  "metadata": {
+    "responseId": "resp_0505accc22187444006b093a56d84c87d2bc010860f7ce2388",
+    "requestId": "req_31399537611842b3a8a1fd1c13d3db45",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 1471,
+    "inputTokens": 90260,
+    "outputTokens": 3088,
+    "webSearchCalls": 11,
+    "stage": "discovery",
+    "targetDate": "2026-11-26",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 94953,
+    "attemptDurationMs": 94953,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
