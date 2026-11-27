@@ -644,10 +644,10 @@
       "request": {
         "fingerprint": "365189be955404638a6188c31f1ffe27ae8ffad08210f2a20b8d114e3620017b",
         "claimId": "248c9fdc-8d29-4e38-86b5-0e0cd5a09dde",
-        "status": "submitting",
+        "status": "in_progress",
         "attempts": 1,
         "startedAt": "2026-11-27T09:07:53.700Z",
-        "responseId": null
+        "responseId": "resp_01615871300bafd8006b09486d830c87d2ac05cd843e1fff20"
       },
       "result": null
     }
