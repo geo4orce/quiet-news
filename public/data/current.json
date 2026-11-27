@@ -1,29 +1,19 @@
 {
-  "edition_date": "2026-11-25",
-  "published_at": "2026-11-26T09:09:12.113Z",
-  "expires_at": "2026-11-27T10:00:00.000Z",
+  "edition_date": "2026-11-26",
+  "published_at": "2026-11-27T09:08:59.899Z",
+  "expires_at": "2026-11-28T10:00:00.000Z",
   "stories": [
     {
-      "headline": "Judge halts FCC’s early ABC license reviews",
-      "body": "A federal judge blocked the Federal Communications Commission from continuing early license-renewal proceedings against eight ABC-owned television stations while litigation proceeds.\n\nU.S. District Judge Loren AliKhan found ABC likely to succeed on its claim that the proceedings retaliated against protected speech. The preliminary injunction pauses the reviews; it is not a final ruling on that claim. The court also denied the government’s motion to dismiss the lawsuit.\n\nThe FCC disputed the decision and said it expected to prevail.",
+      "headline": "Thanksgiving storm leaves 900,000 customers without power",
+      "body": "A Thanksgiving storm brought strong winds, coastal flooding and widespread power outages to the East Coast. Pennsylvania, New Jersey, Maryland and Virginia were among the hardest-hit states.\n\nMore than 908,000 utility customers nationwide were without electricity at 9:56 p.m. Eastern, down from 961,000 at 7:30 p.m., Reuters reported, citing PowerOutage.us. FlightAware recorded 454 cancellations and 2,411 delays for U.S.-related flights Thursday.",
       "sources": [
         {
-          "name": "US District Court for the District of Columbia via The Desk",
-          "url": "https://thedesk.net/wp-content/uploads/2026/11/2026-11-Disney-v-Fcc-Injunction-Order.pdf"
+          "name": "Reuters via MarketScreener",
+          "url": "https://uk.marketscreener.com/news/thanksgiving-storm-knocks-out-power-disrupts-flights-on-us-east-coast-ce7851d9d88bf02d"
         },
         {
-          "name": "Associated Press",
-          "url": "https://apnews.com/article/fcc-abc-ruling-editorial-content-f04f6b2b1a17fc10f2da11e4fd83a9df"
-        }
-      ]
-    },
-    {
-      "headline": "US inflation gauge records 3.8% annual rise",
-      "body": "Consumer prices measured by the personal consumption expenditures index rose 3.8% in the year through October and 0.3% from September, the Bureau of Economic Analysis reported November 25. Excluding food and energy, prices increased 3.3% annually and 0.3% for the month.\n\nPersonal income rose 0.7% in October. Consumer spending increased 0.3% before accounting for inflation, but was essentially unchanged after adjusting for higher prices. The personal saving rate was 4.1%.",
-      "sources": [
-        {
-          "name": "US Bureau of Economic Analysis",
-          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026"
+          "name": "Reuters via StreetInsider",
+          "url": "https://new.streetinsider.com/Reuters/Thanksgiving%2Bstorm%2Bknocks%2Bout%2Bpower%2C%2Bdisrupts%2Bflights%2Bon%2BUS%2BEast%2BCoast/27404816.html"
         }
       ]
     }

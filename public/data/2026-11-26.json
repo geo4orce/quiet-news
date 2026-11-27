@@ -1,0 +1,21 @@
+{
+  "edition_date": "2026-11-26",
+  "published_at": "2026-11-27T09:08:59.899Z",
+  "expires_at": "2026-11-28T10:00:00.000Z",
+  "stories": [
+    {
+      "headline": "Thanksgiving storm leaves 900,000 customers without power",
+      "body": "A Thanksgiving storm brought strong winds, coastal flooding and widespread power outages to the East Coast. Pennsylvania, New Jersey, Maryland and Virginia were among the hardest-hit states.\n\nMore than 908,000 utility customers nationwide were without electricity at 9:56 p.m. Eastern, down from 961,000 at 7:30 p.m., Reuters reported, citing PowerOutage.us. FlightAware recorded 454 cancellations and 2,411 delays for U.S.-related flights Thursday.",
+      "sources": [
+        {
+          "name": "Reuters via MarketScreener",
+          "url": "https://uk.marketscreener.com/news/thanksgiving-storm-knocks-out-power-disrupts-flights-on-us-east-coast-ce7851d9d88bf02d"
+        },
+        {
+          "name": "Reuters via StreetInsider",
+          "url": "https://new.streetinsider.com/Reuters/Thanksgiving%2Bstorm%2Bknocks%2Bout%2Bpower%2C%2Bdisrupts%2Bflights%2Bon%2BUS%2BEast%2BCoast/27404816.html"
+        }
+      ]
+    }
+  ]
+}
