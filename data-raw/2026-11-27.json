@@ -27,13 +27,93 @@
         "request": {
           "fingerprint": "836a9d44fa4014802437fec21eb2bbc40cb1bb7dc91a27d2f710aa301a6c7ea2",
           "claimId": "70b534fe-c250-4ccf-9559-591640728d1d",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-27T11:07:43.712Z",
           "responseId": "resp_00513ee81b56a973006b096483a74c87d28c085b9c9a2faf73"
         },
-        "result": null,
-        "observedAt": "2026-11-27T11:07:43.666Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "FAO and the World Food Programme released a report identifying 16 hunger hotspots where acute food insecurity could worsen between December 2026 and May 2027, up from 13 in June. Northern Nigeria, Somalia, South Sudan, Sudan and Yemen were classified as the areas of highest concern. New additions included Southern Africa, the Central American Dry Corridor, northeastern Uganda and Chad. The agencies cited conflict, El Niño and funding constraints and called for urgent humanitarian assistance and safe access.",
+                "category": "humanitarian",
+                "title": "FAO and WFP identify 16 hunger hotspots in new early-warning report",
+                "event_date": "2026-11-27",
+                "candidate_id": "fao-wfp-hunger-hotspots-report-2026-11-27",
+                "geography": "Global",
+                "sources": [
+                  {
+                    "name": "World Food Programme",
+                    "url": "https://www.wfp.org/news/el-nino-adds-new-hunger-hotspots-conflict-continues-drive-risk-famine-warn-fao-and-wfp"
+                  },
+                  {
+                    "name": "World Food Programme report publication",
+                    "url": "https://www.wfp.org/publications/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027"
+                  }
+                ]
+              },
+              {
+                "summary": "India's federal government urged states to sign purchase contracts for 41 gigawatts of clean-energy capacity without buyers. Speaking at the State Power Ministers Conference in New Delhi, minister Shripad Naik also called for more battery-storage contracts, earlier demand planning and faster land-acquisition payments for transmission projects. Power Secretary Pankaj Agarwal said evening demand had strained the system in September and October despite surplus daytime solar generation. The remarks were requests to states, not announcements that contracts had been signed.",
+                "category": "energy",
+                "title": "India urges states to contract for 41 GW of clean-energy capacity",
+                "event_date": "2026-11-27",
+                "candidate_id": "india-states-clean-power-contracts-2026-11-27",
+                "geography": "India",
+                "sources": [
+                  {
+                    "name": "Reuters via ETEnergyworld",
+                    "url": "https://energy.economictimes.indiatimes.com/amp/news/renewable/india-urges-states-to-sign-41-gw-of-pending-clean-power-contracts/136212556"
+                  }
+                ]
+              },
+              {
+                "summary": "Commerce and Industry Minister Piyush Goyal told an industry conference that the process for completing an India-US trade agreement was taking shape and that the deal was nearing completion. His remarks followed a Wednesday US proposal to cap tariffs on Indian imports at 17% if an agreement was reached, rather than raise them to 25%. Goyal's statement did not announce a signed agreement or an effective tariff change.",
+                "category": "trade",
+                "title": "Goyal says India-US trade negotiations are nearing completion",
+                "event_date": "2026-11-27",
+                "candidate_id": "india-us-trade-goyal-statement-2026-11-27",
+                "geography": "India; United States",
+                "sources": [
+                  {
+                    "name": "Reuters via Investing.com",
+                    "url": "https://www.investing.com/news/economy-news/indiaus-trade-deal-is-nearing-completion-minister-says-5052924"
+                  },
+                  {
+                    "name": "PTI via The Week",
+                    "url": "https://www.theweek.in/wire-updates/business/2026/11/27/india-us-trade-deal-is-close-to-culmination-goyal.amp.html"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-27"
+          },
+          "metadata": {
+            "responseId": "resp_00513ee81b56a973006b096483a74c87d28c085b9c9a2faf73",
+            "requestId": "req_95a41994ebdd4409bfe46ef5994d9f9e",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 759,
+            "inputTokens": 55293,
+            "outputTokens": 1578,
+            "webSearchCalls": 7,
+            "stage": "discovery",
+            "targetDate": "2026-11-27",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 58274,
+            "attemptDurationMs": 58274,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 6
+          }
+        },
+        "observedAt": "2026-11-27T11:07:43.666Z",
+        "capturedAt": "2026-11-27T11:08:41.986Z"
       }
     ],
     "sift": null
