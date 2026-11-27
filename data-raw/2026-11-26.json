@@ -644,12 +644,123 @@
       "request": {
         "fingerprint": "365189be955404638a6188c31f1ffe27ae8ffad08210f2a20b8d114e3620017b",
         "claimId": "248c9fdc-8d29-4e38-86b5-0e0cd5a09dde",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-27T09:07:53.700Z",
         "responseId": "resp_01615871300bafd8006b09486d830c87d2ac05cd843e1fff20"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "australia-iran-arson-sanctions-2026-11-26",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "bangkok-bangchak-refinery-fire-2026-11-26",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "binance-withdrawal-recovery-complete-2026-11-26",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "cairo-tanker-fire-driver-detention-2026-11-26",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "congo-ebola-cumulative-cases-2026-11-26",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "courtenay-maple-pool-flood-evacuation-2026-11-26",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "ecb-leadership-recommendations-2026-11-26",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "eu-budget-talks-opening-positions-2026-11-26",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "guinea-bissau-election-postponement-2026-11-26",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "iaea-zaporizhzhia-repair-ceasefire-effort-2026-11-26",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "kenya-ebola-facility-court-ruling-2026-11-26",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "kenya-mackenzie-terrorism-conviction-2026-11-26",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "korea-rescued-fishermen-repatriation-2026-11-26",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "kuwait-drone-debris-italian-deaths-2026-11-26",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "new-zealand-official-election-count-2026-11-26",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "sweden-centre-kristersson-recommendation-2026-11-26",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "venezuela-amuay-refinery-fire-2026-11-26",
+              "code": "narrow_interest"
+            }
+          ],
+          "stories": [
+            {
+              "body": "A Thanksgiving storm brought strong winds, coastal flooding and widespread power outages to the East Coast. Pennsylvania, New Jersey, Maryland and Virginia were among the hardest-hit states.\n\nMore than 908,000 utility customers nationwide were without electricity at 9:56 p.m. Eastern, down from 961,000 at 7:30 p.m., Reuters reported, citing PowerOutage.us. FlightAware recorded 454 cancellations and 2,411 delays for U.S.-related flights Thursday.",
+              "candidate_id": "us-thanksgiving-storm-outages-2026-11-26",
+              "headline": "Thanksgiving storm leaves 900,000 customers without power",
+              "sources": [
+                {
+                  "name": "Reuters via MarketScreener",
+                  "url": "https://uk.marketscreener.com/news/thanksgiving-storm-knocks-out-power-disrupts-flights-on-us-east-coast-ce7851d9d88bf02d"
+                },
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://new.streetinsider.com/Reuters/Thanksgiving%2Bstorm%2Bknocks%2Bout%2Bpower%2C%2Bdisrupts%2Bflights%2Bon%2BUS%2BEast%2BCoast/27404816.html"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_01615871300bafd8006b09486d830c87d2ac05cd843e1fff20",
+          "requestId": "req_f18bda68db6349979074caf3c74f88c6",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 2070,
+          "inputTokens": 5508,
+          "outputTokens": 2813,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-26",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 63802,
+          "attemptDurationMs": 63802,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
