@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-27",
+  "batch": 2,
+  "captured_at": "2026-11-27T17:09:24.687Z",
+  "coverage": {
+    "from_hour": 6,
+    "through_hour": 12
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "The board of Norse Atlantic Airways AS, the group's Norwegian operating subsidiary, resolved on November 27 to file a bankruptcy petition with Agder District Court after efforts to secure sufficient short-term funding failed. Norse said all flights were cancelled and ticket sales discontinued. The listed parent, Norse Atlantic ASA, and other group companies are not included in the filing. Management said it was seeking a solution for the remaining business, including the UK subsidiary.",
+        "category": "business",
+        "title": "Norse's Norwegian operating subsidiary resolves to file for bankruptcy",
+        "event_date": "2026-11-27",
+        "candidate_id": "norse-norwegian-unit-bankruptcy-2026-11-27",
+        "geography": "Norway; United Kingdom",
+        "sources": [
+          {
+            "name": "Norse Atlantic stock exchange announcement via Cision",
+            "url": "https://news.cision.com/norse-atlantic-airways-as/r/norse-atlantic-asa--norwegian-operating-subsidiary-filing-for-bankruptcy,c4430282"
+          }
+        ]
+      },
+      {
+        "summary": "Deutsche Börse announced that the European Commission had unconditionally cleared its proposed acquisition of Allfunds following an initial merger review. The transaction has not completed: further supervisory clearances and approval of the scheme of arrangement by the competent English court remain outstanding.",
+        "category": "business",
+        "title": "European Commission clears Deutsche Börse's proposed Allfunds acquisition",
+        "event_date": "2026-11-27",
+        "candidate_id": "deutsche-boerse-allfunds-eu-clearance-2026-11-27",
+        "geography": "European Union; Germany; United Kingdom",
+        "sources": [
+          {
+            "name": "Deutsche Börse regulatory announcement via EQS News",
+            "url": "https://www.eqs-news.com/news/ad-hoc/deutsche-borse-ag-deutsche-borse-group-receives-unconditional-clearance-of-allfunds-acquisition-from-european-commission/011fbb5d-6b43-4d9b-af31-83ddf8e8c125_en"
+          }
+        ]
+      },
+      {
+        "summary": "CPTPP ministers meeting in Hanoi decided to establish accession working groups for the United Arab Emirates, Indonesia and the Philippines, following preparatory discussions begun in June. This starts accession negotiations rather than granting membership. The joint statement also recorded Costa Rica's decision not to sign its accession protocol at this meeting and established an interim CPTPP support office in Japan to begin work in 2027.",
+        "category": "trade",
+        "title": "CPTPP opens accession negotiations with UAE, Indonesia and Philippines",
+        "event_date": "2026-11-27",
+        "candidate_id": "cptpp-accession-working-groups-2026-11-27",
+        "geography": "Vietnam; United Arab Emirates; Indonesia; Philippines; Pacific Rim",
+        "sources": [
+          {
+            "name": "CPTPP joint ministerial statement via UK government",
+            "url": "https://www.gov.uk/government/publications/cptpp-joint-ministerial-statement-from-the-11th-commission-meeting-27-november-2026/joint-ministerial-statement-for-the-11th-commission-meeting-of-the-comprehensive-and-progressive-agreement-for-trans-pacific-partnership-cptpp-27-no"
+          }
+        ]
+      },
+      {
+        "summary": "Ofcom revoked Lualua TV licence holder Shells for Media Productions Limited's UK broadcast licence with immediate effect, concluding it was not fit and proper to hold one. The regulator cited online material it found promoted proscribed terrorist organisations and contained unchallenged antisemitic hate speech, alongside a lack of transparency during its investigation. Lualua was not currently broadcasting under the licence on regulated UK television platforms. Revocation prevents broadcasting under that licence on those platforms but does not prevent its online livestream.",
+        "category": "media",
+        "title": "Ofcom revokes Lualua TV's UK broadcast licence",
+        "event_date": "2026-11-27",
+        "candidate_id": "ofcom-lualua-tv-licence-revocation-2026-11-27",
+        "geography": "United Kingdom; Bahrain",
+        "sources": [
+          {
+            "name": "Ofcom",
+            "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/ofcom-revokes-lualua-tvs-licence-to-broadcast-in-the-uk"
+          },
+          {
+            "name": "Ofcom decision notice",
+            "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/decision-shells-for-media-productions"
+          }
+        ]
+      },
+      {
+        "summary": "Entain announced a preliminary agreement between its Australian subsidiary and AUSTRAC proposing a civil penalty of A$185 million plus costs to resolve anti-money-laundering and counter-terrorism-financing proceedings. The proceedings concern contraventions between December 2018 and August 2024. The proposed agreed facts, admissions and penalty remain subject to final Entain board and AUSTRAC approval, as well as Federal Court approval; no final court-approved settlement was announced.",
+        "category": "business",
+        "title": "Entain announces preliminary A$185 million agreement in Australian compliance case",
+        "event_date": "2026-11-27",
+        "candidate_id": "entain-austrac-preliminary-agreement-2026-11-27",
+        "geography": "Australia; United Kingdom",
+        "sources": [
+          {
+            "name": "Entain regulatory announcement via London South East",
+            "url": "https://www.lse.co.uk/rns/ENT/preliminary-agreement-reached-with-austrac-k729kzkinxz1i5l.html"
+          }
+        ]
+      },
+      {
+        "summary": "BAE Systems said a joint combat-vehicle order from Finland, Sweden, Norway, Lithuania and the Netherlands totals $6 billion. Reuters reported that the countries signed the joint procurement in Stockholm on Friday, following Finland's announcement on Thursday that they would buy more than 430 CV90 vehicles. The vehicles are made by BAE Systems Hägglunds in Sweden.",
+        "category": "defense",
+        "title": "Five European countries sign $6 billion joint CV90 procurement",
+        "event_date": "2026-11-27",
+        "candidate_id": "five-nation-cv90-procurement-2026-11-27",
+        "geography": "Finland; Sweden; Norway; Lithuania; Netherlands",
+        "sources": [
+          {
+            "name": "Reuters via Yahoo Finance",
+            "url": "https://uk.finance.yahoo.com/news/bae-systems-says-european-combat-120219910.html"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-27"
+  },
+  "metadata": {
+    "responseId": "resp_030d38d9cb5162fe006b09b8ff6dbc87d2ba157978a3b071ba",
+    "requestId": "req_1600fe9ee6684718b7a129f4304ffc2b",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 850,
+    "inputTokens": 56171,
+    "outputTokens": 2333,
+    "webSearchCalls": 7,
+    "stage": "discovery",
+    "targetDate": "2026-11-27",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 76640,
+    "attemptDurationMs": 76640,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 12
+  }
+}
