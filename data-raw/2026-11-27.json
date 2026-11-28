@@ -526,12 +526,118 @@
       "request": {
         "fingerprint": "8ad87a3758159b324cceb15fbcd49cd2b34013ae609e78fa18ade6aaf8c2437f",
         "claimId": "8e2cee4c-4a1c-4016-b595-589156002fe8",
-        "status": "in_progress",
+        "status": "completed",
         "attempts": 1,
         "startedAt": "2026-11-28T09:07:55.233Z",
         "responseId": "resp_0b2877258821ca4c006b0a99eec52c87d1aab47637cf59da6c"
       },
-      "result": null
+      "result": {
+        "output": {
+          "rejections": [
+            {
+              "candidate_id": "canada-supreme-court-bill-21-ruling-2026-11-27",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "cptpp-accession-working-groups-2026-11-27",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "deutsche-boerse-allfunds-eu-clearance-2026-11-27",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "entain-austrac-preliminary-agreement-2026-11-27",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "fao-wfp-hunger-hotspots-report-2026-11-27",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "five-nation-cv90-procurement-2026-11-27",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "france-sp-negative-credit-outlook-2026-11-27",
+              "code": "incremental_update"
+            },
+            {
+              "candidate_id": "india-states-clean-power-contracts-2026-11-27",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "india-us-trade-goyal-statement-2026-11-27",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "ofcom-lualua-tv-licence-revocation-2026-11-27",
+              "code": "narrow_interest"
+            },
+            {
+              "candidate_id": "south-africa-sp-credit-upgrade-2026-11-27",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "uk-dwp-cyber-incident-service-announcement-2026-11-27",
+              "code": "insufficient_materiality"
+            },
+            {
+              "candidate_id": "wssc-water-conservation-request-lifted-2026-11-27",
+              "code": "incremental_update"
+            }
+          ],
+          "stories": [
+            {
+              "body": "Hackers breached the U.S. Air Force’s Cloud One computing platform, Reuters reported Friday, citing people familiar with the matter. The breach was discovered during upgrade work within roughly the preceding month, and application migrations and updates were disrupted.\n\nThe report disclosed the intrusion publicly; it did not establish when the breach occurred. Reuters could not determine who was responsible, its full scope or whether data had been stolen. The Air Force declined to discuss the security or operational status of specific systems.",
+              "candidate_id": "us-air-force-cloud-one-breach-disclosure-2026-11-27",
+              "headline": "Reuters reports breach of Air Force cloud",
+              "sources": [
+                {
+                  "name": "Reuters via StreetInsider",
+                  "url": "https://www.streetinsider.com/Reuters/Hackers%2Bbreach%2BUS%2BAir%2BForce%2Bflagship%2BCloud%2BOne%2Bcomputing%2Bplatform/27405284.html"
+                },
+                {
+                  "name": "Federal News Network",
+                  "url": "https://federalnewsnetwork.com/air-force/2026/11/hackers-breach-air-forces-cloud-one-computing-environment/?readmore=1"
+                }
+              ]
+            },
+            {
+              "body": "Norse said all flights were cancelled and ticket sales stopped after its Norwegian operating subsidiary failed to secure enough short-term funding. The subsidiary’s board decided Friday to file a bankruptcy petition with Agder District Court in Norway.\n\nThe planned filing covers Norse Atlantic Airways AS, not the listed parent, Norse Atlantic ASA, or other group companies. Management said it was seeking a solution for the remaining business, including its UK subsidiary.",
+              "candidate_id": "norse-norwegian-unit-bankruptcy-2026-11-27",
+              "headline": "Norse cancels all flights, halts ticket sales",
+              "sources": [
+                {
+                  "name": "Norse Atlantic stock exchange announcement via Cision",
+                  "url": "https://news.cision.com/norse-atlantic-airways-as/r/norse-atlantic-asa--norwegian-operating-subsidiary-filing-for-bankruptcy,c4430282"
+                }
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "responseId": "resp_0b2877258821ca4c006b0a99eec52c87d1aab47637cf59da6c",
+          "requestId": "req_f561cf181921478986d4a7e7d7633d66",
+          "responseModel": "gpt-6.1-sol",
+          "reasoningTokens": 2444,
+          "inputTokens": 4468,
+          "outputTokens": 3437,
+          "webSearchCalls": 0,
+          "stage": "sift",
+          "targetDate": "2026-11-27",
+          "model": "gpt-6.1-sol",
+          "reasoningEffort": "high",
+          "attempts": 1,
+          "httpStatus": 200,
+          "durationMs": 69356,
+          "attemptDurationMs": 69356,
+          "softTimeoutMs": 180000,
+          "timeoutMs": 600000,
+          "background": true,
+          "promptVersion": "quiet-sift-v7"
+        }
+      }
     }
   }
 }
