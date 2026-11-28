@@ -11,11 +11,12 @@
       "completed_at": "2026-11-28T09:09:25.665Z"
     },
     "7b51be24705e3e58d98a286bcf3e0b3f3ae464d592fe0b980ee314353ddb69f7": {
-      "status": "claimed",
+      "status": "completed",
       "claimed_at": "2026-11-28T09:09:28.128Z",
       "model": "gpt-image-2.6-sunburst",
       "quality": "medium",
-      "prompt_version": "quiet-illustration-v1"
+      "prompt_version": "quiet-illustration-v1",
+      "completed_at": "2026-11-28T09:09:44.065Z"
     }
   }
 }
