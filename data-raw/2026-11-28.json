@@ -161,13 +161,139 @@
         "request": {
           "fingerprint": "eb958929b7002ec0577443b9a27050f8689dd9ed60a9403acf9c61785ae51bac",
           "claimId": "605a7500-cf24-4ffd-a2c7-1a01b9184e1e",
-          "status": "in_progress",
+          "status": "completed",
           "attempts": 1,
           "startedAt": "2026-11-28T17:07:49.831Z",
           "responseId": "resp_02b554b1672ac825006b0b0a6949fc87d181fd03e4ba0670b4"
         },
-        "result": null,
-        "observedAt": "2026-11-28T17:07:49.772Z"
+        "result": {
+          "output": {
+            "candidates": [
+              {
+                "summary": "An explosion at about 10 a.m. local time on November 28 struck a primary and middle school in the Andar Ser area outside Asadabad. Interior Ministry spokesman Abdul Mateen Qani said 10 people were killed and 110 wounded, most of them children. Provincial information director Sami ul Haq Bayan said preliminary findings pointed to negligence at a neighboring depot storing mining companies’ explosives. Authorities said an investigation was underway; the cause was not yet conclusively established.",
+                "category": "public-safety",
+                "title": "Afghan officials report 10 killed and 110 wounded in school explosion",
+                "event_date": "2026-11-28",
+                "candidate_id": "kunar-school-explosion-2026-11-28",
+                "geography": "Asadabad, Kunar province, Afghanistan",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/afghanistan-school-explosion-843fe51fe82d739eab076b2fbd4d8eb0"
+                  },
+                  {
+                    "name": "Sky News",
+                    "url": "https://news.sky.com/story/explosion-near-school-kills-10-and-wounds-more-than-100-in-afghanistan-13617431"
+                  }
+                ]
+              },
+              {
+                "summary": "Armed individuals took control of a cargo ship at 06:30 UTC on November 28 southwest of Balhaf, Yemen, according to UKMTO, citing its master. Three Puntland security officials subsequently told AFP the vessel was the Panama-flagged MV Marsa Virgo, operated by UAE-based Marsa Ocean Shipping, and attributed the hijacking to six Somali gunmen. They said 19 crew members had sheltered in a safe room and the ship was being steered toward Somali waters. Those identification and crew details were attributed to the security officials, not independently confirmed by UKMTO.",
+                "category": "maritime-security",
+                "title": "Security officials identify ship seized off Yemen and attribute attack to Somali pirates",
+                "event_date": "2026-11-28",
+                "candidate_id": "yemen-cargo-ship-seizure-2026-11-28",
+                "geography": "Gulf of Aden, southwest of Balhaf, Yemen",
+                "sources": [
+                  {
+                    "name": "AFP via Arab News",
+                    "url": "https://www.arabnews.com/middle-east/somali-pirates-hijack-uae-ship-off-yemen-coast-security-officials-3014353"
+                  },
+                  {
+                    "name": "Shafaq News",
+                    "url": "https://api.shafaq.com/en/World/Armed-group-takes-control-of-ship-off-Yemen"
+                  }
+                ]
+              },
+              {
+                "summary": "Taipei Mayor Chiang Wan-an of the opposition Kuomintang retained the mayoralty in November 28 local elections after Democratic Progressive Party challenger Puma Shen conceded and congratulated him. AP reported that the DPP declared victories in nine of Taiwan’s 22 cities and counties, while the KMT retained 10, including New Taipei, according to the semi-official Central News Agency. Counting remained incomplete and two counties were still too close to call.",
+                "category": "politics",
+                "title": "Taipei mayor retains office as Taiwan local-election results emerge",
+                "event_date": "2026-11-28",
+                "candidate_id": "taiwan-local-elections-taipei-concession-2026-11-28",
+                "geography": "Taiwan",
+                "sources": [
+                  {
+                    "name": "Associated Press via iNFOnews",
+                    "url": "https://infonews.ca/news/7996035/taiwans-opposition-keeps-control-of-taipei-in-local-elections-closely-watched-by-china/"
+                  }
+                ]
+              },
+              {
+                "summary": "Thousands demonstrated in Tirana on November 28 demanding Prime Minister Edi Rama’s resignation. Some protesters threw rocks and used wooden sticks against street cameras and government-building windows; police responded with tear gas and water cannons, AP reported. The rally coincided with Albania’s Independence Day. The Health Ministry reported that injured police, journalists and protesters received treatment and were in stable condition; available reports contained inconsistent casualty totals.",
+                "category": "politics",
+                "title": "Police and anti-government protesters clash in Tirana",
+                "event_date": "2026-11-28",
+                "candidate_id": "tirana-anti-government-protest-clashes-2026-11-28",
+                "geography": "Tirana, Albania",
+                "sources": [
+                  {
+                    "name": "Associated Press via Arab News",
+                    "url": "https://www.arabnews.com/world/clashes-erupt-in-tirana-as-protesters-call-for-pm-edi-rama-to-resign-3014400"
+                  },
+                  {
+                    "name": "Panorama",
+                    "url": "https://en.panorama.com.al/protesta-e-28-nentorit-ministria-e-shendetesise-te-lenduar-efektive-policie-protestues-dhe-gazetare-mes-tyre-nje-shtetase-e-huaj/"
+                  }
+                ]
+              },
+              {
+                "summary": "Greek authorities recovered two bodies and found 41 survivors on a rocky stretch of Gavdos on November 28, the coast guard said. Four survivors were being transferred to a hospital on Crete. The cause of the deaths was not immediately clear. Coast guard reports covering early November 27 through November 28 afternoon recorded more than 1,100 migrants picked up near Crete and Gavdos; that cumulative figure covers two days, not November 28 alone.",
+                "category": "migration",
+                "title": "Two bodies and 41 survivors found on Greek island of Gavdos",
+                "event_date": "2026-11-28",
+                "candidate_id": "gavdos-migrant-survivors-bodies-2026-11-28",
+                "geography": "Gavdos and Crete, Greece",
+                "sources": [
+                  {
+                    "name": "Associated Press",
+                    "url": "https://apnews.com/article/greece-migration-libya-north-africa-return-hubs-4a9adfe8ab9757039b04f0f530476fa0"
+                  }
+                ]
+              },
+              {
+                "summary": "Macy’s 100th Thanksgiving Day Parade began in Manhattan on November 28 after a storm forced its postponement from November 26. AP reported that the rescheduled procession included its balloons and floats, about 1,000 clowns and most originally scheduled celebrities, with LL Cool J and Gloria Gaynor added. Organizers described the weather-related postponement as the first in the parade’s history.",
+                "category": "culture",
+                "title": "Postponed Macy’s Thanksgiving parade takes place in New York",
+                "event_date": "2026-11-28",
+                "candidate_id": "macys-postponed-parade-held-2026-11-28",
+                "geography": "New York City, New York, United States",
+                "sources": [
+                  {
+                    "name": "Associated Press via Boston.com",
+                    "url": "https://www.boston.com/culture/entertainment/2026/11/28/postponed-macys-100th-thanksgiving-day-parade-gets-a-do-over/"
+                  }
+                ]
+              }
+            ],
+            "withdrawals": [],
+            "target_date": "2026-11-28"
+          },
+          "metadata": {
+            "responseId": "resp_02b554b1672ac825006b0b0a6949fc87d181fd03e4ba0670b4",
+            "requestId": "req_1b07e6033bcf4c8abca8e711b67ae143",
+            "responseModel": "gpt-6.1-sol",
+            "reasoningTokens": 630,
+            "inputTokens": 48264,
+            "outputTokens": 2281,
+            "webSearchCalls": 5,
+            "stage": "discovery",
+            "targetDate": "2026-11-28",
+            "model": "gpt-6.1-sol",
+            "reasoningEffort": "medium",
+            "attempts": 1,
+            "httpStatus": 200,
+            "durationMs": 63338,
+            "attemptDurationMs": 63338,
+            "softTimeoutMs": 300000,
+            "timeoutMs": 600000,
+            "background": true,
+            "promptVersion": "quiet-collection-v1",
+            "slot": 12
+          }
+        },
+        "observedAt": "2026-11-28T17:07:49.772Z",
+        "capturedAt": "2026-11-28T17:08:53.169Z"
       }
     ],
     "sift": null
