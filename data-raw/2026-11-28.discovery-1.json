@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-28",
+  "batch": 1,
+  "captured_at": "2026-11-28T11:08:26.580Z",
+  "coverage": {
+    "from_hour": 0,
+    "through_hour": 6
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "An explosion occurred at about 10 a.m. local time on November 28 at a secondary school in the Andar Sir area of Asadabad, Kunar province. Provincial police spokesman Farid Dehqan said students were killed and injured, but an exact toll was not available. The cause remained unknown. Reuters separately confirmed the explosion with the province’s information and culture director, who could not provide casualty details.",
+        "category": "public-safety",
+        "title": "School explosion in Afghanistan kills and injures students, provincial police say",
+        "event_date": "2026-11-28",
+        "candidate_id": "kunar-school-explosion-2026-11-28",
+        "geography": "Asadabad, Kunar province, Afghanistan",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/Explosion%2Breported%2Bat%2Bschool%2Bin%2BAfghanistan,%2Bofficial%2Bsays/27409526.html"
+          },
+          {
+            "name": "Amu TV",
+            "url": "https://amu.tv/257744/"
+          }
+        ]
+      },
+      {
+        "summary": "Armed individuals boarded and took control of a cargo ship at 06:30 UTC on November 28, approximately 64 nautical miles southwest of Balhaf, Yemen, the United Kingdom Maritime Trade Operations agency said, citing the vessel’s master. Authorities were informed, and UKMTO advised nearby vessels to proceed with caution. The report did not identify the vessel or the armed group.",
+        "category": "maritime-security",
+        "title": "Armed group takes control of cargo ship off Yemen, UKMTO says",
+        "event_date": "2026-11-28",
+        "candidate_id": "yemen-cargo-ship-seizure-2026-11-28",
+        "geography": "Gulf of Aden, southwest of Balhaf, Yemen",
+        "sources": [
+          {
+            "name": "Reuters via Arab News",
+            "url": "https://www.arabnews.com/middle-east/armed-group-boards-cargo-ship-off-yemen-and-takes-control-ukmto-says-3014353"
+          },
+          {
+            "name": "The Peninsula",
+            "url": "https://thepeninsulaqatar.com/article/28/11/2026/cargo-ship-hijacked-off-yemen-coast-says-ukmto"
+          }
+        ]
+      },
+      {
+        "summary": "EPA announced early November 28 that initial testing detected no lead in 38 post-detonation samples from public water supplies following the Army’s November 25 disposal of lead azide at the Iowa Army Ammunition Plant. Samples included treated drinking water and untreated intake water. The agency said further results for household tap water, soil, dust and air remained subject to laboratory analysis and validation. These initial findings do not establish the absence of contamination across all locations or sample types.",
+        "category": "environment",
+        "title": "EPA releases initial public-water test results after Iowa explosives detonation",
+        "event_date": "2026-11-28",
+        "candidate_id": "iowa-detonation-initial-water-results-2026-11-28",
+        "geography": "Middletown, Iowa, United States, and surrounding region",
+        "sources": [
+          {
+            "name": "U.S. Environmental Protection Agency",
+            "url": "https://www.epa.gov/newsreleases/epa-releases-initial-water-source-lab-results-indicating-wednesdays-controlled"
+          },
+          {
+            "name": "CNN via ABC17 News",
+            "url": "https://abc17news.com/news/national-world/cnn-national/2026/11/28/preliminary-tests-show-no-lead-in-water-bodies-near-iowa-detonation-epa-says/"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-28"
+  },
+  "metadata": {
+    "responseId": "resp_04556e351e90d7e9006b0ab608816487d19bbe01616756c6b1",
+    "requestId": "req_a80853a4a05f4145bfb3c4888e484330",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 455,
+    "inputTokens": 47132,
+    "outputTokens": 1206,
+    "webSearchCalls": 5,
+    "stage": "discovery",
+    "targetDate": "2026-11-28",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 37490,
+    "attemptDurationMs": 37490,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 6
+  }
+}
