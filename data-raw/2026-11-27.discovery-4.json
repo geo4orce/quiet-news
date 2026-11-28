@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-27",
+  "batch": 4,
+  "captured_at": "2026-11-28T08:09:24.500Z",
+  "coverage": {
+    "from_hour": 18,
+    "through_hour": 24
+  },
+  "output": {
+    "candidates": [
+      {
+        "summary": "S&P Global Ratings raised South Africa's long-term foreign-currency sovereign rating to BB+ from BB on November 27 and assigned a stable outlook. The agency cited improving fiscal performance and continued fiscal consolidation despite economic pressures from the Middle East conflict.",
+        "category": "economy",
+        "title": "S&P upgrades South Africa's sovereign credit rating to BB+",
+        "event_date": "2026-11-27",
+        "candidate_id": "south-africa-sp-credit-upgrade-2026-11-27",
+        "geography": "South Africa",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/S%26P%2Blifts%2BSouth%2BAfrica%2Bratings%2Bon%2Bimproving%2Bfiscal%2Bposition/27409236.html"
+          }
+        ]
+      },
+      {
+        "summary": "S&P Global Ratings changed France's sovereign credit outlook from stable to negative on November 27 while affirming its A+/A-1 ratings. The agency cited weak growth, higher interest costs and political polarization that could impede deficit reduction. The decision changed the outlook, not the credit rating itself.",
+        "category": "economy",
+        "title": "S&P changes France's credit outlook to negative while affirming ratings",
+        "event_date": "2026-11-27",
+        "candidate_id": "france-sp-negative-credit-outlook-2026-11-27",
+        "geography": "France",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://new.streetinsider.com/Reuters/S%26P%2Bcuts%2BFrance%2Boutlook%2Bto%2Bnegative%2Bon%2Bbudget%2C%2Bpolitics/27409063.html"
+          }
+        ]
+      },
+      {
+        "summary": "Reuters reported on November 27, citing people familiar with the matter, that hackers had breached the US Air Force's Cloud One platform. Sources said discovery during upgrade work within roughly the preceding month disrupted application migrations and updates. The breach and discovery were not established as November 27 events; this candidate records their public disclosure. Reuters could not establish responsibility, the intrusion's full scope or whether data was stolen. The Air Force declined to discuss specific systems' security or operational status.",
+        "category": "cybersecurity",
+        "title": "Reuters discloses reported breach of US Air Force Cloud One platform",
+        "event_date": "2026-11-27",
+        "candidate_id": "us-air-force-cloud-one-breach-disclosure-2026-11-27",
+        "geography": "United States",
+        "sources": [
+          {
+            "name": "Reuters via StreetInsider",
+            "url": "https://www.streetinsider.com/Reuters/Hackers%2Bbreach%2BUS%2BAir%2BForce%2Bflagship%2BCloud%2BOne%2Bcomputing%2Bplatform/27405284.html"
+          },
+          {
+            "name": "Federal News Network",
+            "url": "https://federalnewsnetwork.com/air-force/2026/11/hackers-breach-air-forces-cloud-one-computing-environment/?readmore=1"
+          }
+        ]
+      },
+      {
+        "summary": "Britain's Department for Work and Pensions confirmed on November 27 that it had taken some online services offline as a precaution following a cyber incident; services appeared to remain offline Friday evening. The department said regular benefit and pension payments were unaffected and customers directly affected by the incident would not face sanctions. Previously processed sanctions remained applicable. Investigators were working with the National Cyber Security Centre and Government Cyber Coordination Centre. The government had not publicly established the cause; minister Pat McFadden said there was no evidence so far that personal details had been compromised.",
+        "category": "cybersecurity",
+        "title": "DWP says customers affected by cyber-related service outage will not face sanctions",
+        "event_date": "2026-11-27",
+        "candidate_id": "uk-dwp-cyber-incident-service-announcement-2026-11-27",
+        "geography": "United Kingdom",
+        "sources": [
+          {
+            "name": "Sky News, including DWP spokesperson statement",
+            "url": "https://news.sky.com/story/politics-latest-budget-taxes-reeves-starmer-labour-badenoch-farage-12593360?postid=10668261"
+          },
+          {
+            "name": "Press Association via LBC, including DWP statement",
+            "url": "https://www.lbc.co.uk/article/9d616773563447ecaa242cdb5326164c-5HjdnfP_2/"
+          },
+          {
+            "name": "The Guardian, reporting Pat McFadden's statement",
+            "url": "https://www.theguardian.com/politics/live/2026/nov/27/department-work-pensions-offline-cyber-incident-rosebank-slapps-latest-news-updates?page=with%3Ablock-6b09afa38f0873ed6505117e"
+          }
+        ]
+      }
+    ],
+    "withdrawals": [],
+    "target_date": "2026-11-27"
+  },
+  "metadata": {
+    "responseId": "resp_0153c9a4ebaf0393006b0a8bd8d92887d1b1244742073dedca",
+    "requestId": "req_32d2408d302044bc8a012918a9a8206c",
+    "responseModel": "gpt-6.1-sol",
+    "reasoningTokens": 1557,
+    "inputTokens": 75029,
+    "outputTokens": 2742,
+    "webSearchCalls": 8,
+    "stage": "discovery",
+    "targetDate": "2026-11-27",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "attempts": 1,
+    "httpStatus": 200,
+    "durationMs": 95636,
+    "attemptDurationMs": 95636,
+    "softTimeoutMs": 300000,
+    "timeoutMs": 600000,
+    "background": true,
+    "promptVersion": "quiet-collection-v1",
+    "slot": 24
+  }
+}
