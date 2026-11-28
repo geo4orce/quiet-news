@@ -391,10 +391,10 @@
         "request": {
           "fingerprint": "1b56a959b43d0ca1ceaea500e909df3e5830f16b06366d2a5278ef72dddeb21e",
           "claimId": "256da245-469d-43b5-bbcc-d1b0a23e648f",
-          "status": "submitting",
+          "status": "in_progress",
           "attempts": 1,
           "startedAt": "2026-11-28T08:07:48.863Z",
-          "responseId": null
+          "responseId": "resp_0153c9a4ebaf0393006b0a8bd8d92887d1b1244742073dedca"
         },
         "result": null,
         "observedAt": "2026-11-28T08:07:48.750Z"
