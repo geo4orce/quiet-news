@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "target_date": "2026-11-28",
+  "runs": [],
+  "collection": {
+    "version": 1,
+    "batches": [
+      {
+        "slot": 6,
+        "fromHour": 0,
+        "priorStories": [
+          {
+            "headline": "Reuters reports breach of Air Force cloud",
+            "body": "Hackers breached the U.S. Air Force’s Cloud One computing platform, Reuters reported Friday, citing people familiar with the matter. The breach was discovered during upgrade work within roughly the preceding month, and application migrations and updates were disrupted.\n\nThe report disclosed the intrusion publicly; it did not establish when the breach occurred. Reuters could not determine who was responsible, its full scope or whether data had been stolen. The Air Force declined to discuss the security or operational status of specific systems.",
+            "sources": [
+              {
+                "name": "Reuters via StreetInsider",
+                "url": "https://www.streetinsider.com/Reuters/Hackers%2Bbreach%2BUS%2BAir%2BForce%2Bflagship%2BCloud%2BOne%2Bcomputing%2Bplatform/27405284.html"
+              },
+              {
+                "name": "Federal News Network",
+                "url": "https://federalnewsnetwork.com/air-force/2026/11/hackers-breach-air-forces-cloud-one-computing-environment/?readmore=1"
+              }
+            ]
+          },
+          {
+            "headline": "Norse cancels all flights, halts ticket sales",
+            "body": "Norse said all flights were cancelled and ticket sales stopped after its Norwegian operating subsidiary failed to secure enough short-term funding. The subsidiary’s board decided Friday to file a bankruptcy petition with Agder District Court in Norway.\n\nThe planned filing covers Norse Atlantic Airways AS, not the listed parent, Norse Atlantic ASA, or other group companies. Management said it was seeking a solution for the remaining business, including its UK subsidiary.",
+            "sources": [
+              {
+                "name": "Norse Atlantic stock exchange announcement via Cision",
+                "url": "https://news.cision.com/norse-atlantic-airways-as/r/norse-atlantic-asa--norwegian-operating-subsidiary-filing-for-bankruptcy,c4430282"
+              }
+            ]
+          }
+        ],
+        "request": {
+          "fingerprint": "4df5a9e6a301b6f43330cdb4d96812dc04d63338758976c02e43007d90e78faa",
+          "claimId": "9f76f04c-0ca2-40db-a67f-ceeec26924e3",
+          "status": "submitting",
+          "attempts": 1,
+          "startedAt": "2026-11-28T11:07:49.090Z",
+          "responseId": null
+        },
+        "result": null,
+        "observedAt": "2026-11-28T11:07:49.027Z"
+      }
+    ],
+    "sift": null
+  }
+}
